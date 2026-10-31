@@ -1,0 +1,82 @@
+[
+ {
+  "stem": "206_MSK_W1_PostTrunkNeckSpinalCord",
+  "course": "Skin, Musculoskeletal, and Connective Tissue Systems",
+  "title": "MSK Posterior Trunk, Neck & Spinal Cord Structure List",
+  "items": 51,
+  "in3d": 37,
+  "mb": 4.0
+ },
+ {
+  "stem": "206_MSK_W2_ShoulderArm",
+  "course": "Skin, Musculoskeletal, and Connective Tissue Systems",
+  "title": "Shoulder and Arm (Draft) Structure List",
+  "items": 90,
+  "in3d": 77,
+  "mb": 4.2
+ },
+ {
+  "stem": "206_MSK_W2_ForearmHand",
+  "course": "Skin, Musculoskeletal, and Connective Tissue Systems",
+  "title": "Forearm and Hand Structure List",
+  "items": 65,
+  "in3d": 59,
+  "mb": 2.5
+ },
+ {
+  "stem": "183_CV",
+  "course": "Cardiovascular System",
+  "title": "CV Structure List",
+  "items": 61,
+  "in3d": 50,
+  "mb": 2.6
+ },
+ {
+  "stem": "183_PigHeart",
+  "course": "Cardiovascular System",
+  "title": "Pig Heart Structure List 2.0",
+  "items": 44,
+  "in3d": 40,
+  "mb": 1.7
+ },
+ {
+  "stem": "181_Respiratory",
+  "course": "Respiratory System",
+  "title": "Respiratory Structure List",
+  "items": 82,
+  "in3d": 52,
+  "mb": 6.5
+ },
+ {
+  "stem": "185_Urinary",
+  "course": "Renal and Urinary Systems",
+  "title": "Urinary System Structure List",
+  "items": 55,
+  "in3d": 49,
+  "mb": 1.6
+ },
+ {
+  "stem": "204_GI",
+  "course": "Gastrointestinal System",
+  "title": "GI Structure List 2026 (PDF)",
+  "items": 130,
+  "in3d": 87,
+  "mb": 5.2
+ },
+ {
+  "stem": "205_Repro",
+  "course": "Reproductive Systems and Breast Health",
+  "title": "Repro System and BH Structure List 2026",
+  "items": 77,
+  "in3d": 43,
+  "mb": 2.3
+ },
+ {
+  "stem": "210_Endocrine",
+  "course": "Endocrine System and Metabolism",
+  "title": "Endocrine Structure List 2026",
+  "items": 61,
+  "in3d": 53,
+  "mb": 3.8
+ }
+]

@@ -1,0 +1,68 @@
+:root{--bg:#0b1220;--surface:#111a2e;--surface2:#17223a;--text:#e8eef9;--muted:#94a3b8;--border:rgba(255,255,255,.08);--accent:#22d3ee;--accent2:#0e7490;--ok:#22c55e;--bad:#ef4444}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh}
+a{color:inherit}
+.top{display:flex;align-items:center;gap:14px;padding:12px 18px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.back{font-size:.8rem;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:999px;padding:6px 12px}
+.back:hover{color:var(--text);border-color:var(--accent)}
+.titles{flex:1;min-width:200px}.eyebrow{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:1.2rem;font-weight:800}
+.modes{display:flex;gap:4px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:4px}
+.mode{background:none;border:0;color:var(--muted);font:600 .82rem inherit;font-family:inherit;padding:7px 14px;border-radius:999px;cursor:pointer}
+.mode.on{background:var(--accent);color:#04212f}
+.layout{display:grid;grid-template-columns:1fr 340px;height:calc(100vh - 62px)}
+@media(max-width:860px){.layout{grid-template-columns:1fr;height:auto}.viewport{height:62vh}}
+.viewport{position:relative;overflow:hidden;background:#0b1220}
+.viewport canvas{display:block;width:100%;height:100%;touch-action:none}
+.loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--muted);z-index:3;background:var(--bg)}
+.spin{width:34px;height:34px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:sp 1s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+.vtools{position:absolute;top:10px;left:10px;display:flex;gap:6px;flex-wrap:wrap;z-index:2}
+.vtools button{background:rgba(17,26,46,.85);border:1px solid var(--border);color:var(--text);border-radius:9px;padding:6px 10px;font:600 .75rem inherit;font-family:inherit;cursor:pointer}
+.vtools button:hover{border-color:var(--accent)}
+.hint3d{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);font-size:.7rem;color:var(--muted);background:rgba(11,18,32,.7);padding:3px 10px;border-radius:999px;pointer-events:none;white-space:nowrap}
+.side{border-left:1px solid var(--border);padding:14px;display:flex;flex-direction:column;gap:12px;overflow:auto}
+.filters{display:flex;flex-direction:column;gap:8px;font-size:.8rem;color:var(--muted)}
+.filters select{width:100%;margin-top:4px;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:7px}
+.chk{display:flex;align-items:center;gap:8px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px}
+.qlabel{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.qtext{font-size:1.25rem;font-weight:800;margin:6px 0 2px;line-height:1.25}
+.qsec{font-size:.78rem;color:var(--muted);margin-bottom:10px}
+.nameform{display:flex;gap:6px;margin:8px 0}
+.nameform input{flex:1;min-width:0;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:9px;padding:9px 10px;font:inherit}
+.nameform input:focus{outline:none;border-color:var(--accent)}
+.feedback{min-height:22px;font-size:.88rem;margin:6px 0}.feedback.ok{color:#86efac}.feedback.bad{color:#fca5a5}
+.qbtns{display:flex;gap:8px;margin-top:6px}
+.btn{background:transparent;border:1px solid var(--border);color:var(--text);border-radius:999px;padding:8px 14px;font:600 .82rem inherit;font-family:inherit;cursor:pointer}
+.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#04212f}
+.card.explore .qbtns{display:none}
+.score{font-size:.82rem;color:var(--muted)}.score b{color:var(--text)}
+.about{font-size:.75rem;color:var(--muted);line-height:1.5}.about summary{cursor:pointer}.about p{margin-top:6px}
+/* index */
+.hero{text-align:center;padding:44px 18px 24px}.hero h1{font-size:2.2rem}.hero p{color:var(--muted);max-width:660px;margin:10px auto 0;line-height:1.55}
+.grid{max-width:1050px;margin:0 auto;padding:10px 16px 60px;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.cls{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px;text-decoration:none;transition:.15s}
+.cls:hover{border-color:var(--accent);transform:translateY(-2px)}.cls b{font-size:1rem}.cls span{font-size:.78rem;color:var(--muted)}
+.bar{height:6px;border-radius:4px;background:var(--surface2);overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.credits{max-width:900px;margin:0 auto 50px;padding:0 16px;font-size:.75rem;color:var(--muted);text-align:center;line-height:1.6}
+
+.nameform[hidden],.vtools button[hidden]{display:none}
+.bodychip{position:absolute;right:12px;top:12px;font-size:.72rem;color:var(--muted,#94a3b8);background:rgba(15,23,42,.7);border:1px solid var(--border,#334155);border-radius:999px;padding:4px 10px;pointer-events:none}
+.layers{position:absolute;left:10px;top:52px;right:150px;display:flex;flex-wrap:wrap;gap:6px;pointer-events:none}
+.layer{pointer-events:auto;display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:.74rem;color:var(--muted,#94a3b8);background:rgba(15,23,42,.78);border:1px solid var(--border,#334155);border-radius:999px;padding:4px 10px;cursor:pointer;opacity:.6}
+.layer.on{color:var(--text,#e2e8f0);opacity:1}
+.layer i{width:9px;height:9px;border-radius:50%;display:inline-block}
+
+.built{font-size:.78em;color:var(--muted,#94a3b8);font-weight:400}
+.layer.toggle{display:none}
+@media(max-width:860px){
+ .layers{top:auto;bottom:30px;right:10px}
+ .layers .layer:not(.toggle){display:none}
+ .layers.open .layer:not(.toggle){display:inline-flex}
+ .layer.toggle{display:inline-flex;opacity:1;color:var(--text,#e2e8f0)}
+ .bodychip{top:auto;bottom:62px;right:10px}
+ .vtools button{padding:5px 8px;font-size:.72rem}
+ .hint3d{font-size:.62rem;white-space:normal;text-align:center;width:90%}
+ body.quiz{padding-bottom:72px}
+}
+.viewport:has(.layers.open) .bodychip{display:none}
