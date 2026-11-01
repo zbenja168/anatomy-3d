@@ -161,9 +161,10 @@ function buildQueue() {
   for (let i = queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [queue[i], queue[j]] = [queue[j], queue[i]]; }
   $('sLeft').textContent = `${queue.length} in this set`;
 }
-function next() {
+function next() { ask(queue.shift() || null); }
+function ask(item) {
   feedback('');
-  cur = queue.shift() || null; attempts = 0; done = false;
+  cur = item; attempts = 0; done = false; markCurrent();
   if (!cur) { $('qtext').textContent = 'Set complete!'; $('qsec').textContent = 'Change the section or press Next to go again.'; buildQueue(); paint(); return; }
   $('sLeft').textContent = `${queue.length} left`;
   setBody(cur.model);
@@ -185,8 +186,8 @@ function isInside(ids) { // are most sample points of the target enclosed by oth
   return enclosed >= pts.length * 0.6;
 }
 function feedback(html, kind) { const f = $('feedback'); f.innerHTML = html; f.className = 'feedback' + (kind ? ' ' + kind : ''); }
-function finish(ok) {
-  done = true; score.tried++; if (ok) score.ok++;
+function finish(ok, solved = ok) {
+  done = true; if (solved) check(cur.order); markCurrent(); score.tried++; if (ok) score.ok++;
   $('sOk').textContent = score.ok; $('sTry').textContent = score.tried;
   $('qtext').textContent = cur.structure; paint();
   if (ok && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
@@ -207,13 +208,53 @@ function onClick(ev) {
   if (mode === 'explore') { feedback(`<b>${name}</b>${itemFor(m.userData.id) ? ' · on your list as “' + itemFor(m.userData.id).structure + '”' : ''}`); flash(m); return; }
   if (mode !== 'find' || !cur || done) return;
   attempts++;
-  if (cur.parts.includes(m.userData.id)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1); }
+  if (cur.parts.includes(m.userData.id)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
   else { flash(m, BAD); feedback(`✗ That's <b>${name}</b>. Try again${attempts >= 2 ? ' — or press “Show me”' : ''}.`, 'bad'); }
 }
 function itemFor(id) { return man.items.find((it) => it.parts.includes(id)); }
 function flash(m, color = HIGHLIGHT) {
   const old = m.material.color.getHex(); m.material.color.setHex(color);
   setTimeout(() => { if (!done || !cur?.parts.includes(m.userData.id)) m.material.color.setHex(old); }, 900);
+}
+
+// ---------- structure list (the class checklist, side by side) ----------
+const CKEY = () => `a3d-checked-${stem}`;
+let checked = new Set();
+function loadChecks() { try { checked = new Set(JSON.parse(localStorage.getItem(CKEY()) || '[]')); } catch (e) { checked = new Set(); } }
+function saveChecks() { try { localStorage.setItem(CKEY(), JSON.stringify([...checked])); } catch (e) {} }
+function check(order) {
+  if (order == null || checked.has(order)) return; checked.add(order); saveChecks();
+  const r = document.querySelector(`#clist tr[data-o="${order}"]`); if (r) { r.classList.add('done', 'pop'); setTimeout(() => r.classList.remove('pop'), 700); }
+  countChecks();
+}
+function countChecks() {
+  const inl = man.items.filter((i) => i.parts.length);
+  $('clCount').textContent = `${inl.filter((i) => checked.has(i.order)).length} / ${inl.length} checked`;
+}
+function markCurrent() {
+  document.querySelectorAll('#clist tr.cur').forEach((r) => r.classList.remove('cur'));
+  if (!cur || cur.order == null || (mode === 'name' && !done)) return; // never give away a Name-it answer
+  const r = document.querySelector(`#clist tr[data-o="${cur.order}"]`);
+  if (r) { r.classList.add('cur'); r.scrollIntoView({ block: 'nearest' }); }
+}
+function buildChecklist() {
+  loadChecks();
+  let html = '', sec = null;
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  man.items.slice().sort((a, b) => a.order - b.order).forEach((it) => {
+    if (it.section !== sec) { sec = it.section; if (sec) html += `<tr class="sec"><th colspan="2">${esc(sec)}</th></tr>`; }
+    const na = !it.parts.length;
+    html += `<tr data-o="${it.order}" class="${na ? 'na' : ''}${checked.has(it.order) ? ' done' : ''}" title="${na ? 'Not in the 3D model' : 'Click to quiz this one'}">` +
+      `<td class="ck"><span></span></td><td>${esc(it.structure)}${it.status === 'custom' ? ' <i class="bt" title="Built for this tool">◆</i>' : ''}${na ? ' <em>not in 3D</em>' : ''}</td></tr>`;
+  });
+  $('clist').innerHTML = html; countChecks();
+  $('clist').addEventListener('click', (e) => {
+    const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na')) return;
+    const it = man.items.find((i) => i.order === +r.dataset.o);
+    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${it.structure}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
+    queue = queue.filter((q) => q !== it); ask(it);
+  });
+  $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); document.querySelectorAll('#clist tr.done').forEach((r) => r.classList.remove('done')); countChecks(); });
 }
 
 // ---------- wiring ----------
@@ -231,10 +272,10 @@ function wire() {
   }));
   $('nameForm').addEventListener('submit', (e) => {
     e.preventDefault(); if (!cur || done) return; attempts++;
-    if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1); }
+    if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
     else feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad');
   });
-  $('btnReveal').addEventListener('click', () => { if (!cur || done) return; feedback(`It's <b>${cur.structure}</b>.`); finish(false); frame(boxOf(cur.parts), 2.6); });
+  $('btnReveal').addEventListener('click', () => { if (!cur || done) return; feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); frame(boxOf(cur.parts), 2.6); });
   $('btnNext').addEventListener('click', next);
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
@@ -250,6 +291,8 @@ function wire() {
     const classes = await (await fetch('data/classes.json')).json();
     const meta = classes.find((c) => c.stem === stem);
     if (!meta) { $('title').textContent = 'Class not found'; return; }
+    const SUBJ = { '206': 'msk', '183': 'cv', '181': 'resp', '185': 'renal', '204': 'gi', '205': 'repro', '210': 'endo' };
+    if (SUBJ[stem.split('_')[0]]) document.querySelector('.back').href = `index.html?s=${SUBJ[stem.split('_')[0]]}`;
     $('title').textContent = meta.title; $('eyebrow').textContent = `3D Anatomy Trainer · ${meta.course}`;
     document.title = `${meta.title} | 3D Anatomy Trainer`;
     initScene(); await loadBundle();
@@ -259,7 +302,7 @@ function wire() {
     const ms = Object.keys(man.models).map((m) => BODY_NAME[m] || m);
     $('modelNote').textContent = `${man.items.filter((i) => i.parts.length).length} of ${man.items.length} list structures are in 3D. ` +
       (ms.length > 1 ? `They come from two reference bodies (${ms.join(' and ')}); each question shows the body that has that structure, and the two are never mixed in one scene.` : `Model: ${ms[0]}.`);
-    $('loading').remove(); wire();
+    $('loading').remove(); wire(); buildChecklist();
     const sp = new URLSearchParams(location.search), show = (sp.get('show') || '').split(',').filter((x) => meshes[x]);
     if (show.length) { // debug/preview: highlight given parts
       if (sp.get('ctx') === '0') showCtx = false;
