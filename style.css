@@ -10,7 +10,7 @@ h1{font-size:1.2rem;font-weight:800}
 .modes{display:flex;gap:4px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:4px}
 .mode{background:none;border:0;color:var(--muted);font:600 .82rem inherit;font-family:inherit;padding:7px 14px;border-radius:999px;cursor:pointer}
 .mode.on{background:var(--accent);color:#04212f}
-.layout{display:grid;grid-template-columns:1fr 340px 320px;grid-template-areas:'vp side list';height:calc(100vh - 62px)}
+.layout{display:grid;grid-template-columns:1fr 310px minmax(380px,34vw);grid-template-areas:'vp side list';height:calc(100vh - 62px)}
 .viewport{grid-area:vp}.side{grid-area:side}.checklist{grid-area:list}
 @media(max-width:1280px){.layout{grid-template-columns:1fr 340px;grid-template-rows:auto minmax(0,1fr);grid-template-areas:'vp side' 'vp list'}.side{overflow:visible}.checklist{border-top:1px solid var(--border)}}
 @media(max-width:860px){.layout{grid-template-columns:1fr;grid-template-rows:none;grid-template-areas:'vp' 'side' 'list';height:auto}.viewport{height:62vh}.checklist .clwrap{max-height:60vh}}
@@ -93,3 +93,29 @@ h1{font-size:1.2rem;font-weight:800}
 @keyframes ckpop{0%{transform:scale(1)}40%{transform:scale(1.45)}100%{transform:scale(1)}}
 .clfoot{font-size:.68rem;color:var(--muted);padding:8px 14px 12px;margin:0}
 .subjects.filtered .subj h2{display:none}
+/* the structure list drawn like the class's Word sheet */
+.clwrap{padding:0 10px 4px}
+.paper{background:#fff;color:#111;border-radius:4px;box-shadow:0 2px 14px rgba(0,0,0,.35);padding:12px 12px 16px;font-family:Calibri,'Segoe UI',Arial,sans-serif}
+.sheethdr{display:flex;justify-content:space-between;gap:8px;font-size:.7rem;color:#333;margin-bottom:8px;text-align:center}
+.sheethdr span:first-child{text-align:left}.sheethdr span:last-child{text-align:right}
+#clist.sheet{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.68rem;line-height:1.25}
+#clist.sheet th,#clist.sheet td{border:1px solid #000;padding:3px 4px;vertical-align:middle;background:transparent;word-wrap:break-word;overflow-wrap:anywhere}
+#clist.sheet tr.shead th{font-weight:700;text-align:center;font-size:.66rem}
+#clist.sheet tr.ssec th{font-weight:700;text-align:center;font-size:.7rem;position:static;text-transform:none;letter-spacing:0;color:inherit;padding:4px}
+#clist.sheet tr.ssub th{font-weight:700;text-align:left}
+#clist.sheet tr.sblank td{height:8px}
+#clist.sheet td.sname{font-weight:600}
+#clist.sheet tr.sitem{cursor:pointer}
+#clist.sheet tr.sitem:hover td{background:rgba(34,211,238,.18)}
+#clist.sheet tr.na{opacity:.55;cursor:default}#clist.sheet tr.na:hover td{background:transparent}
+#clist.sheet em{font-size:.6rem;color:#555;font-weight:400}
+#clist.sheet .bt{color:#0e7490}
+#clist.sheet td.ck{text-align:center;width:auto}
+#clist.sheet td.ck span,#clist.sheet .ckin{display:inline-block;width:13px;height:13px;border:1.5px solid #333;border-radius:2px;position:relative;vertical-align:middle;background:#fff}
+#clist.sheet .ckin{margin-right:5px}
+#clist.sheet tr.done td.ck span,#clist.sheet tr.done .ckin{background:#16a34a;border-color:#16a34a}
+#clist.sheet tr.done td.ck span::after,#clist.sheet tr.done .ckin::after{content:'';position:absolute;left:3.5px;top:0;width:3.5px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+#clist.sheet tr.done td:first-child{color:inherit}
+#clist.sheet tr.cur td{box-shadow:inset 0 0 0 2px #0891b2;background:rgba(34,211,238,.22)}
+#clist.sheet tr.pop td.ck span,#clist.sheet tr.pop .ckin{animation:ckpop .6s ease}
+.qual{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--muted)}.qual select{flex:1;margin-top:0!important}

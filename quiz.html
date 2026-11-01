@@ -46,6 +46,7 @@
     <div class="filters">
       <label>Section <select id="section"><option value="">All sections</option></select></label>
       <label class="chk"><input type="checkbox" id="coreOnly"> High-priority only</label>
+      <label class="qual">3D quality <select id="quality" title="Low is faster on older computers"><option value="lo">Low (faster)</option><option value="hi">High (sharper)</option></select></label>
     </div>
     <div class="card" id="qcard">
       <div class="qlabel" id="qlabel">Find this structure</div>
@@ -66,7 +67,7 @@
   </aside>
   <aside class="checklist" aria-label="Structure list">
     <div class="clhead"><b>Structure list</b><span id="clCount"></span><button id="clReset" class="linkbtn" title="Clear your checks">Reset</button></div>
-    <div class="clwrap"><table id="clist"></table></div>
+    <div class="clwrap"><div class="paper"><div class="sheethdr" id="sheetHdr"></div><table id="clist" class="sheet"></table></div></div>
     <p class="clfoot">Checks save in this browser. ◆ = built for this tool. Click a structure to quiz it.</p>
   </aside>
 </div>

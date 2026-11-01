@@ -7,6 +7,14 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 const $ = (id) => document.getElementById(id);
 const stem = new URLSearchParams(location.search).get('c') || '';
+const QKEY = 'a3d-quality';
+function pickQuality() {
+  const u = new URLSearchParams(location.search).get('q'); if (u === 'lo' || u === 'hi') return u;
+  try { const v = localStorage.getItem(QKEY); if (v === 'lo' || v === 'hi') return v; } catch (e) {}
+  const weak = (navigator.deviceMemory && navigator.deviceMemory <= 4) || (navigator.hardwareConcurrency || 8) <= 4 || matchMedia('(pointer: coarse)').matches;
+  return weak ? 'lo' : 'hi';
+}
+const QUALITY = pickQuality();
 const SYS_COLOR = {
   skeletal: 0xe8dcc4, muscular: 0xc7604a, arterial: 0xd22f2f, venous: 0x3563c9, nervous: 0xe6c229,
   lymphatic: 0x3ca561, connective: 0xd8d2c4, respiratory: 0xe9a3a3, digestive: 0xd9a066, cardiac: 0xb8443b,
@@ -18,6 +26,7 @@ const ctxOp = (p) => (p.system === 'skeletal' ? 0.3 : 0.13);
 const HIGHLIGHT = 0x84e81a, OK = 0x22c55e, BAD = 0xef4444;
 
 let man, meshes = {}, scene, camera, renderer, controls, ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+let redrawUntil = 0; const need = (ms = 400) => { redrawUntil = Math.max(redrawUntil, performance.now() + ms); };
 let body = null; // active donor model: scenes are never mixed
 const BODY_NAME = { 'z-anatomy': 'Z-Anatomy', bodyparts: 'BodyParts3D' };
 let mode = 'find', queue = [], cur = null, attempts = 0, done = false, score = { ok: 0, tried: 0 }, showCtx = true;
@@ -50,8 +59,8 @@ function typedOk(typed, item) {
 // ---------- scene ----------
 function initScene() {
   const vp = $('viewport');
-  renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer = new THREE.WebGLRenderer({ antialias: QUALITY === 'hi', powerPreference: 'high-performance' });
+  renderer.setPixelRatio(QUALITY === 'hi' ? Math.min(devicePixelRatio, 2) : 1);
   renderer.setSize(vp.clientWidth, vp.clientHeight);
   vp.prepend(renderer.domElement);
   scene = new THREE.Scene(); scene.background = new THREE.Color(0x0b1220);
@@ -60,8 +69,11 @@ function initScene() {
   const d1 = new THREE.DirectionalLight(0xffffff, 1.2); d1.position.set(1, 2, 2); scene.add(d1);
   const d2 = new THREE.DirectionalLight(0xffffff, 0.5); d2.position.set(-2, -1, -1); scene.add(d2);
   controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
-  addEventListener('resize', () => { renderer.setSize(vp.clientWidth, vp.clientHeight); camera.aspect = vp.clientWidth / vp.clientHeight; camera.updateProjectionMatrix(); });
-  (function loop() { requestAnimationFrame(loop); controls.update(); renderer.render(scene, camera); })();
+  addEventListener('resize', () => { renderer.setSize(vp.clientWidth, vp.clientHeight); camera.aspect = vp.clientWidth / vp.clientHeight; camera.updateProjectionMatrix(); need(); });
+  controls.addEventListener('change', () => need());
+  ['pointerdown', 'pointermove', 'pointerup', 'wheel', 'keydown', 'click', 'change'].forEach((ev) => addEventListener(ev, () => need(1200), { passive: true }));
+  // draw only while something is changing (camera moving, highlight/flash, layer toggles) — idle = no GPU work
+  (function loop() { requestAnimationFrame(loop); const moved = controls.update(); if (moved || performance.now() < redrawUntil) renderer.render(scene, camera); })();
 }
 
 function baseMaterial(p) {
@@ -73,9 +85,9 @@ function baseMaterial(p) {
 }
 
 async function loadBundle() {
-  man = await (await fetch(`data/${stem}.json`)).json();
+  man = await (await fetch(`data/${stem}${QUALITY === 'lo' ? '.lo' : ''}.json`)).json();
   $('loadmsg').textContent = 'Loading meshes…';
-  const raw = await (await fetch(`data/${stem}.bin.gz`)).arrayBuffer();
+  const raw = await (await fetch(`data/${stem}${QUALITY === 'lo' ? '.lo' : ''}.bin.gz`)).arrayBuffer();
   const h = new Uint8Array(raw, 0, 2); // the host may already have un-gzipped it
   const buf = h[0] === 0x1f && h[1] === 0x8b
     ? await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer() : raw;
@@ -101,6 +113,7 @@ function boxOf(ids) {
   return b;
 }
 function frame(box, pad = 1.6) {
+  need(600);
   if (box.isEmpty()) return;
   const c = box.getCenter(new THREE.Vector3()), r = box.getBoundingSphere(new THREE.Sphere()).radius || 0.05;
   const dir = camera.position.clone().sub(controls.target).normalize();
@@ -121,6 +134,7 @@ function frameAll() {
 }
 
 function paint() {
+  need();
   for (const [id, m] of Object.entries(meshes)) {
     const p = m.userData, mat = m.material;
     mat.color.setHex(SYS_COLOR[p.system] ?? 0xbbbbbb); mat.emissive?.setHex(0x000000);
@@ -237,21 +251,52 @@ function markCurrent() {
   const r = document.querySelector(`#clist tr[data-o="${cur.order}"]`);
   if (r) { r.classList.add('cur'); r.scrollIntoView({ block: 'nearest' }); }
 }
-function buildChecklist() {
+async function buildChecklist() {
   loadChecks();
-  let html = '', sec = null;
-  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  man.items.slice().sort((a, b) => a.order - b.order).forEach((it) => {
-    if (it.section !== sec) { sec = it.section; if (sec) html += `<tr class="sec"><th colspan="2">${esc(sec)}</th></tr>`; }
-    const na = !it.parts.length;
-    html += `<tr data-o="${it.order}" class="${na ? 'na' : ''}${checked.has(it.order) ? ' done' : ''}" title="${na ? 'Not in the 3D model' : 'Click to quiz this one'}">` +
-      `<td class="ck"><span></span></td><td>${esc(it.structure)}${it.status === 'custom' ? ' <i class="bt" title="Built for this tool">◆</i>' : ''}${na ? ' <em>not in 3D</em>' : ''}</td></tr>`;
-  });
-  $('clist').innerHTML = html; countChecks();
+  const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const byOrder = new Map(man.items.map((i) => [i.order, i]));
+  let sheet = null;
+  try { const r = await fetch(`data/${stem}.sheet.json`); if (r.ok) sheet = await r.json(); } catch (e) {}
+  if (!sheet) { // no Word sheet for this class (GI's list was a PDF): same layout, built from the list
+    const rows = []; let sec = null;
+    man.items.slice().sort((a, b) => a.order - b.order).forEach((it) => {
+      if (it.section !== sec) { sec = it.section; if (sec) rows.push({ t: 'sec', text: sec.split(' > ').pop(), fill: 'D9F2D0' }); }
+      rows.push({ t: 'item', order: it.order, fill: '', cells: ['', '', ''] });
+    });
+    sheet = { hdr: [$('title').textContent], grid: [5000, 1500, 1300, 4000], head: ['Structure', 'Individual', 'Peer', 'Additional Notes'], headFill: 'D9F2D0', rows };
+  }
+  const head = sheet.head, ncol = head.length;
+  const indiv = head.findIndex((h) => /individual/i.test(h)); // the column you tick when you find it
+  sheet.grid = sheet.grid.filter((w) => w >= 100); // Word spacer columns (a few twips wide) aren't real columns
+  const tot = sheet.grid.slice(0, ncol).reduce((a, b) => a + b, 0) || 1;
+  const fill = (f) => (f && f !== 'auto' ? `background:#${f};color:${dark(f) ? '#fff' : '#111'}` : '');
+  function dark(f) { const n = parseInt(f, 16); return ((n >> 16) * 299 + ((n >> 8) & 255) * 587 + (n & 255) * 114) / 1000 < 120; }
+  let html = '<colgroup>' + head.map((h, c) => `<col style="width:${(100 * (sheet.grid[c] || 0) / tot).toFixed(1)}%">`).join('') + '</colgroup>';
+  const headRow = (f) => `<tr class="shead" style="${fill(f || sheet.headFill)}">` + head.map((h) => `<th>${esc(h)}</th>`).join('') + '</tr>';
+  html += headRow(sheet.headFill);
+  for (const r of sheet.rows) {
+    if (r.t === 'sec') html += `<tr class="ssec" style="${fill(r.fill)}"><th colspan="${ncol}">${esc(r.text)}</th></tr>`;
+    else if (r.t === 'sub') html += `<tr class="ssub" style="${fill(r.fill)}"><th>${esc(r.text)}</th>${(r.cells || []).slice(0, ncol - 1).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`;
+    else if (r.t === 'rep') html += headRow(r.fill);
+    else if (r.t === 'blank') html += `<tr class="sblank" style="${fill(r.fill)}"><td colspan="${ncol}"></td></tr>`;
+    else {
+      const it = byOrder.get(r.order); if (!it) continue;
+      const na = !it.parts.length;
+      const cells = [];
+      for (let c = 1; c < ncol; c++) {
+        const v = (r.cells || [])[c - 1] || '';
+        cells.push(c === indiv ? `<td class="ck"><span></span></td>` : `<td>${esc(v)}</td>`);
+      }
+      const name = `${indiv < 0 ? '<span class="ckin"></span>' : ''}${esc(it.structure)}${it.status === 'custom' ? ' <i class="bt" title="Built for this tool">◆</i>' : ''}${na ? ' <em>not in 3D</em>' : ''}`;
+      html += `<tr data-o="${it.order}" class="sitem${na ? ' na' : ''}${checked.has(it.order) ? ' done' : ''}" style="${fill(r.fill)}" title="${na ? 'Not in the 3D model' : 'Click to quiz this one'}"><td class="sname">${name}</td>${cells.join('')}</tr>`;
+    }
+  }
+  $('sheetHdr').innerHTML = (sheet.hdr || []).map((h) => `<span>${esc(h)}</span>`).join('');
+  $('clist').innerHTML = html; countChecks(); markCurrent();
   $('clist').addEventListener('click', (e) => {
     const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na')) return;
-    const it = man.items.find((i) => i.order === +r.dataset.o);
-    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${it.structure}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
+    const it = byOrder.get(+r.dataset.o);
+    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); ask(it);
   });
   $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); document.querySelectorAll('#clist tr.done').forEach((r) => r.classList.remove('done')); countChecks(); });
@@ -303,6 +348,9 @@ function wire() {
     $('modelNote').textContent = `${man.items.filter((i) => i.parts.length).length} of ${man.items.length} list structures are in 3D. ` +
       (ms.length > 1 ? `They come from two reference bodies (${ms.join(' and ')}); each question shows the body that has that structure, and the two are never mixed in one scene.` : `Model: ${ms[0]}.`);
     $('loading').remove(); wire(); buildChecklist();
+    const qs = $('quality'); qs.value = QUALITY;
+    qs.addEventListener('change', () => { try { localStorage.setItem(QKEY, qs.value); } catch (e) {} const u = new URL(location.href); u.searchParams.delete('q'); location.href = u.toString(); });
+    need(1500);
     const sp = new URLSearchParams(location.search), show = (sp.get('show') || '').split(',').filter((x) => meshes[x]);
     if (show.length) { // debug/preview: highlight given parts
       if (sp.get('ctx') === '0') showCtx = false;
