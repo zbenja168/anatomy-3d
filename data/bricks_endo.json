@@ -1,0 +1,1253 @@
+{
+ "subject": "endo",
+ "bricks": [
+  {
+   "id": "endo-anatomy-endocrine-system",
+   "title": "Anatomy of the Endocrine System",
+   "week": 1,
+   "session": "2",
+   "stem": "210_Endocrine",
+   "items": [
+    {
+     "order": 4,
+     "why": "Links to pituitary via infundibulum; controls it by neural and vascular (portal) connections",
+     "questions": [
+      {
+       "q": "The hypothalamus communicates with the anterior pituitary mainly through which route?",
+       "choices": [
+        "Hypophyseal portal veins",
+        "Direct axonal projections",
+        "Cavernous sinus tributaries",
+        "Inferior hypophyseal arteries"
+       ],
+       "answer": 0,
+       "explain": "The anterior pituitary gets no direct neural input; hypothalamic releasing and inhibiting hormones reach it through the hypothalamo-hypophyseal portal system."
+      },
+      {
+       "q": "Hormones released from the posterior pituitary are synthesized where?",
+       "choices": [
+        "Adenohypophysis cells",
+        "Hypothalamic neurons",
+        "Pineal gland cells",
+        "Infundibular pituicytes"
+       ],
+       "answer": 1,
+       "explain": "Neurons in the hypothalamus make ADH and oxytocin, which travel down axons in the infundibulum and are stored in the posterior pituitary."
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "why": "Pituitary stalk: connects gland to hypothalamus; carries axons and portal veins",
+     "questions": [
+      {
+       "q": "The infundibulum connects the pituitary gland to which structure?",
+       "choices": [
+        "Thalamus",
+        "Optic chiasm",
+        "Hypothalamus",
+        "Midbrain tectum"
+       ],
+       "answer": 2,
+       "explain": "The infundibulum (pituitary stalk) links the pituitary to the hypothalamus, joining the CNS and the endocrine system."
+      },
+      {
+       "q": "Which vessels descend through the infundibulum to the anterior pituitary?",
+       "choices": [
+        "Inferior hypophyseal arteries",
+        "Middle meningeal branches",
+        "Basilar artery branches",
+        "Hypophyseal portal veins"
+       ],
+       "answer": 3,
+       "explain": "Hypothalamic capillaries (primary plexus) drain into portal veins that run down the infundibulum to a second capillary plexus in the anterior pituitary."
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "why": "Saddle-shaped depression of the sphenoid bone that holds the pituitary",
+     "questions": [
+      {
+       "q": "The sella turcica is part of which bone?",
+       "choices": [
+        "Sphenoid bone",
+        "Ethmoid bone",
+        "Temporal bone",
+        "Occipital bone"
+       ],
+       "answer": 0,
+       "explain": "The pituitary sits in the hypophyseal fossa of the sella turcica, a saddle-shaped depression in the sphenoid bone."
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "why": "Fossa of the sella turcica occupied by the pituitary",
+     "questions": [
+      {
+       "q": "What occupies the hypophyseal fossa?",
+       "choices": [
+        "Optic chiasm",
+        "Pituitary gland",
+        "Cavernous sinus",
+        "Trigeminal ganglion"
+       ],
+       "answer": 1,
+       "explain": "The pituitary gland occupies the hypophyseal fossa of the sella turcica."
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "why": "Directly inferior to the pituitary; route for transsphenoidal surgery",
+     "questions": [
+      {
+       "q": "Which structure lies directly inferior to the pituitary gland?",
+       "choices": [
+        "Cavernous sinus",
+        "Dorsum sellae",
+        "Sphenoid sinus",
+        "Optic chiasm"
+       ],
+       "answer": 2,
+       "explain": "Inferiorly is the sphenoid sinus, a paranasal sinus that communicates with the nasal cavity."
+      },
+      {
+       "q": "Transsphenoidal pituitary surgery reaches the gland through the nasal cavity and which space?",
+       "choices": [
+        "Maxillary sinus",
+        "Frontal sinus",
+        "Ethmoid air cells",
+        "Sphenoid sinus"
+       ],
+       "answer": 3,
+       "explain": "The transsphenoidal approach goes through the nasal cavity and sphenoid sinus, minimizing brain retraction."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "why": "Adenohypophysis: glandular; GH, TSH, ACTH, PRL, FSH, LH; portal-dependent (Sheehan)",
+     "questions": [
+      {
+       "q": "Which hormone is produced by the anterior pituitary?",
+       "choices": [
+        "Prolactin",
+        "Oxytocin",
+        "Antidiuretic hormone",
+        "Calcitonin"
+       ],
+       "answer": 0,
+       "explain": "The anterior pituitary makes GH, TSH, ACTH, prolactin, FSH and LH; oxytocin and ADH are released from the posterior pituitary."
+      },
+      {
+       "q": "After severe postpartum hemorrhage, a woman develops ischemic necrosis of this part of the pituitary. Why is it so vulnerable?",
+       "choices": [
+        "It is fed by the vertebral artery",
+        "It depends on a portal supply",
+        "It drains into the sphenoid sinus",
+        "It lies outside the sella turcica"
+       ],
+       "answer": 1,
+       "explain": "The anterior pituitary depends on the hypophyseal portal system rather than a direct arterial supply, so hypoperfusion causes ischemic necrosis (Sheehan syndrome)."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "why": "Neurohypophysis: hypothalamic axons; releases ADH and oxytocin; inferior hypophyseal aa.",
+     "questions": [
+      {
+       "q": "Which hormone is released from the posterior pituitary?",
+       "choices": [
+        "Growth hormone",
+        "Luteinizing hormone",
+        "Antidiuretic hormone",
+        "Thyroid-stimulating hormone"
+       ],
+       "answer": 2,
+       "explain": "The posterior pituitary releases two hormones made in the hypothalamus: antidiuretic hormone and oxytocin."
+      },
+      {
+       "q": "Which arteries directly supply the posterior pituitary?",
+       "choices": [
+        "Superior hypophyseal arteries",
+        "Anterior cerebral arteries",
+        "Superior cerebellar arteries",
+        "Inferior hypophyseal arteries"
+       ],
+       "answer": 3,
+       "explain": "Inferior hypophyseal arteries (from the internal carotid) supply the posterior pituitary directly; superior hypophyseal arteries feed the portal system."
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "why": "Just superior to the pituitary; compression causes peripheral vision loss",
+     "questions": [
+      {
+       "q": "Which structure lies immediately superior to the pituitary gland?",
+       "choices": [
+        "Optic chiasm",
+        "Cavernous sinus",
+        "Sphenoid sinus",
+        "Dorsum sellae"
+       ],
+       "answer": 0,
+       "explain": "The optic chiasm lies just superior to the pituitary; the cavernous sinuses are lateral and the sphenoid sinus inferior."
+      },
+      {
+       "q": "An enlarging pituitary tumor compresses this structure. Which deficit is expected?",
+       "choices": [
+        "Lateral gaze palsy",
+        "Peripheral vision loss",
+        "Loss of smell",
+        "Double vision on lateral gaze"
+       ],
+       "answer": 1,
+       "explain": "Enlargement of the gland can compress the optic chiasm and lead to loss of peripheral vision."
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "why": "Left and right optic nerves cross to form the chiasm",
+     "questions": [
+      {
+       "q": "The optic chiasm is formed by the crossing of which nerves?",
+       "choices": [
+        "Oculomotor nerves",
+        "Trochlear nerves",
+        "Optic nerves",
+        "Abducens nerves"
+       ],
+       "answer": 2,
+       "explain": "The optic chiasm is where the left and right optic nerves cross, just superior to the pituitary."
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "why": "Lateral to pituitary; CN VI free inside, III/IV/V1/V2 in wall; receives pituitary venous drainage",
+     "questions": [
+      {
+       "q": "Which structures lie lateral to the pituitary gland?",
+       "choices": [
+        "Sphenoid sinuses",
+        "Optic nerves",
+        "Anterior clinoid processes",
+        "Cavernous sinuses"
+       ],
+       "answer": 3,
+       "explain": "Laterally are the cavernous sinuses; the optic chiasm is superior, the sphenoid sinus inferior and the dorsum sellae posterior."
+      },
+      {
+       "q": "A pituitary tumor expands laterally into this sinus. Which deficit typically appears first?",
+       "choices": [
+        "Lateral gaze palsy (CN VI)",
+        "Ptosis (CN III)",
+        "Jaw weakness (CN V3)",
+        "Loss of corneal reflex (CN V1)"
+       ],
+       "answer": 0,
+       "explain": "CN VI runs freely in the cavernous sinus and is compressed first; CN III, IV, V1 and V2 sit in the lateral wall and are partly protected."
+      },
+      {
+       "q": "Venous blood carrying pituitary hormones drains first into which sinus?",
+       "choices": [
+        "Sigmoid sinus",
+        "Cavernous sinus",
+        "Straight sinus",
+        "Superior sagittal sinus"
+       ],
+       "answer": 1,
+       "explain": "Venous drainage of the pituitary carries its hormones into the cavernous sinus for systemic circulation."
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "why": "Runs in cavernous sinus with CN VI; source of hypophyseal arteries",
+     "questions": [
+      {
+       "q": "The superior and inferior hypophyseal arteries branch from which vessel?",
+       "choices": [
+        "External carotid artery",
+        "Vertebral artery",
+        "Internal carotid artery",
+        "Basilar artery"
+       ],
+       "answer": 2,
+       "explain": "The pituitary's arterial supply comes from branches of the internal carotid artery: the superior and inferior hypophyseal arteries."
+      },
+      {
+       "q": "Which cranial nerve runs freely within the cavernous sinus alongside this artery?",
+       "choices": [
+        "Oculomotor nerve",
+        "Trochlear nerve",
+        "Maxillary nerve",
+        "Abducens nerve"
+       ],
+       "answer": 3,
+       "explain": "CN VI runs freely next to the internal carotid artery, while CN III, IV, V1 and V2 are embedded in the lateral wall."
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "why": "Posterior boundary of the sella, behind the pituitary",
+     "questions": [
+      {
+       "q": "Where does the dorsum sellae lie relative to the pituitary gland?",
+       "choices": [
+        "Posterior",
+        "Anterolateral",
+        "Superior",
+        "Inferior"
+       ],
+       "answer": 0,
+       "explain": "Posteriorly is the dorsum sellae of the sphenoid bone."
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "why": "Lobe lateral to the trachea",
+     "questions": [
+      {
+       "q": "The thyroid lobes extend laterally on either side of which structure?",
+       "choices": [
+        "Esophagus",
+        "Trachea",
+        "Hyoid bone",
+        "Carotid sheath"
+       ],
+       "answer": 1,
+       "explain": "The thyroid is a bilobed organ anterior to the trachea, with its two lobes extending laterally on either side of the trachea."
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "why": "Lobe; inferior/posterior part supplied by inferior thyroid a.",
+     "questions": [
+      {
+       "q": "Which artery mainly supplies the inferior and posterior parts of each thyroid lobe?",
+       "choices": [
+        "Superior thyroid artery",
+        "Thyroid ima artery",
+        "Inferior thyroid artery",
+        "Internal thoracic artery"
+       ],
+       "answer": 2,
+       "explain": "Inferior thyroid arteries (from the thyrocervical trunks) supply the inferior and posterior portions of the gland."
+      }
+     ]
+    },
+    {
+     "order": 15,
+     "why": "Midline connection of the lobes; occasional thyroid ima a.",
+     "questions": [
+      {
+       "q": "When present, the thyroid ima artery supplies which part of the thyroid?",
+       "choices": [
+        "Pyramidal lobe",
+        "Superior poles",
+        "Posterior lobes",
+        "Isthmus"
+       ],
+       "answer": 3,
+       "explain": "The isthmus is the narrow midline connection between the lobes; an occasional thyroid ima artery supplies it."
+      }
+     ]
+    },
+    {
+     "order": 16,
+     "why": "Superior extension; thyroglossal duct remnant",
+     "questions": [
+      {
+       "q": "The pyramidal lobe is a remnant of which embryologic structure?",
+       "choices": [
+        "Thyroglossal duct",
+        "Third pharyngeal pouch",
+        "Fourth pharyngeal pouch",
+        "Ultimobranchial body"
+       ],
+       "answer": 0,
+       "explain": "The pyramidal lobe, a small superior extension present in many people, is a remnant of the thyroglossal duct."
+      }
+     ]
+    },
+    {
+     "order": 22,
+     "why": "Posterior to the thyroid; gland anchored to it so moves with swallowing",
+     "questions": [
+      {
+       "q": "Why does the thyroid move up and down during swallowing?",
+       "choices": [
+        "It lies within the carotid sheath",
+        "It is anchored to larynx and trachea",
+        "It is fused to the esophageal wall",
+        "It hangs from the hyoid bone by ligaments"
+       ],
+       "answer": 1,
+       "explain": "The thyroid's fibrous capsule anchors it to the larynx and trachea, so it moves with swallowing, a feature used on physical exam."
+      }
+     ]
+    },
+    {
+     "order": 23,
+     "why": "Posterior relation of the thyroid",
+     "questions": [
+      {
+       "q": "Which structures lie directly posterior to the thyroid gland?",
+       "choices": [
+        "Infrahyoid muscles",
+        "Carotid sheaths",
+        "Trachea and esophagus",
+        "Hyoid and thyroid cartilage"
+       ],
+       "answer": 2,
+       "explain": "Posteriorly are the trachea and esophagus; the infrahyoid muscles are anterior and the carotid sheaths lateral."
+      }
+     ]
+    },
+    {
+     "order": 24,
+     "why": "Anterior relation of the thyroid",
+     "questions": [
+      {
+       "q": "Which structures lie anterior to the thyroid gland?",
+       "choices": [
+        "Recurrent laryngeal nerves",
+        "Esophagus",
+        "Carotid sheaths",
+        "Infrahyoid muscles"
+       ],
+       "answer": 3,
+       "explain": "Anteriorly are the infrahyoid muscles; the recurrent laryngeal nerves are posterolateral."
+      }
+     ]
+    },
+    {
+     "order": 25,
+     "why": "Lateral to the thyroid in the carotid sheath",
+     "questions": [
+      {
+       "q": "Lateral to the thyroid, the carotid sheath contains the internal jugular vein and which artery?",
+       "choices": [
+        "Common carotid artery",
+        "Vertebral artery",
+        "Subclavian artery",
+        "Inferior thyroid artery"
+       ],
+       "answer": 0,
+       "explain": "Laterally lie the common carotid arteries and internal jugular veins within the carotid sheath."
+      }
+     ]
+    },
+    {
+     "order": 26,
+     "why": "In carotid sheath; receives superior and middle thyroid veins",
+     "questions": [
+      {
+       "q": "The superior and middle thyroid veins drain into which vein?",
+       "choices": [
+        "Brachiocephalic vein",
+        "Internal jugular vein",
+        "External jugular vein",
+        "Subclavian vein"
+       ],
+       "answer": 1,
+       "explain": "The superior and middle thyroid veins drain into the internal jugular vein; the inferior thyroid veins drain into the brachiocephalic veins."
+      }
+     ]
+    },
+    {
+     "order": 27,
+     "why": "Posterolateral to thyroid; intrinsic laryngeal muscles; injury in thyroidectomy -> hoarseness",
+     "questions": [
+      {
+       "q": "After thyroidectomy, a patient has persistent hoarseness. Which nerve was most likely injured?",
+       "choices": [
+        "Hypoglossal nerve",
+        "Phrenic nerve",
+        "Recurrent laryngeal nerve",
+        "Cervical sympathetic trunk"
+       ],
+       "answer": 2,
+       "explain": "Injury to the recurrent laryngeal nerves during thyroid surgery can cause hoarseness, voice changes or vocal cord paralysis."
+      },
+      {
+       "q": "Where do the recurrent laryngeal nerves run relative to the thyroid?",
+       "choices": [
+        "Anterior to it",
+        "Superior to it",
+        "Within the carotid sheath",
+        "Posterolateral to it"
+       ],
+       "answer": 3,
+       "explain": "The left and right recurrent laryngeal nerves run posterolaterally, close to the thyroid and parathyroids."
+      },
+      {
+       "q": "The recurrent laryngeal nerves supply which muscles?",
+       "choices": [
+        "Most intrinsic laryngeal muscles",
+        "The infrahyoid strap muscles",
+        "The pharyngeal constrictor muscles",
+        "The suprahyoid muscles"
+       ],
+       "answer": 0,
+       "explain": "The recurrent laryngeal nerves supply most of the intrinsic muscles of the larynx."
+      }
+     ]
+    },
+    {
+     "order": 28,
+     "why": "Laryngeal cartilage superior to the thyroid gland",
+     "questions": []
+    },
+    {
+     "order": 29,
+     "why": "Laryngeal cartilage superior to the thyroid gland",
+     "questions": []
+    },
+    {
+     "order": 30,
+     "why": "Membrane between cricoid and thyroid cartilages",
+     "questions": [
+      {
+       "q": "The cricothyroid membrane spans between which two structures?",
+       "choices": [
+        "Hyoid bone and thyroid cartilage",
+        "Thyroid and cricoid cartilages",
+        "Cricoid cartilage and first ring",
+        "Arytenoid and cricoid cartilages"
+       ],
+       "answer": 1,
+       "explain": "Superior to the thyroid gland is the larynx; the cricothyroid membrane lies between the cricoid and thyroid cartilages."
+      }
+     ]
+    },
+    {
+     "order": 17,
+     "why": "Branch of external carotid; superior and anterior thyroid",
+     "questions": [
+      {
+       "q": "The superior thyroid artery is a branch of which vessel?",
+       "choices": [
+        "Thyrocervical trunk",
+        "Internal carotid artery",
+        "External carotid artery",
+        "Subclavian artery"
+       ],
+       "answer": 2,
+       "explain": "The superior thyroid arteries are branches of the external carotid arteries."
+      },
+      {
+       "q": "Which portions of the thyroid does the superior thyroid artery mainly supply?",
+       "choices": [
+        "Inferior and posterior",
+        "Isthmus only",
+        "Posterior only",
+        "Superior and anterior"
+       ],
+       "answer": 3,
+       "explain": "Superior thyroid arteries supply primarily the superior and anterior portions; inferior thyroid arteries the inferior and posterior portions."
+      }
+     ]
+    },
+    {
+     "order": 19,
+     "why": "Gives the inferior thyroid artery",
+     "questions": [
+      {
+       "q": "The inferior thyroid artery arises from which vessel?",
+       "choices": [
+        "Thyrocervical trunk",
+        "External carotid artery",
+        "Costocervical trunk",
+        "Brachiocephalic trunk"
+       ],
+       "answer": 0,
+       "explain": "The inferior thyroid arteries are branches of the thyrocervical trunks."
+      }
+     ]
+    },
+    {
+     "order": 18,
+     "why": "From thyrocervical trunk; inferior/posterior thyroid and the parathyroids",
+     "questions": [
+      {
+       "q": "A goiter is removed. Disruption of which artery most threatens parathyroid function?",
+       "choices": [
+        "Superior thyroid artery",
+        "Inferior thyroid artery",
+        "Thyroid ima artery",
+        "Superior laryngeal artery"
+       ],
+       "answer": 1,
+       "explain": "The parathyroids are supplied mainly by the inferior thyroid arteries, so disrupting them in thyroid surgery can impair parathyroid function and cause hypocalcemia."
+      }
+     ]
+    },
+    {
+     "order": 21,
+     "why": "Thyroid venous plexus: superior/middle to IJV, inferior to brachiocephalic",
+     "questions": [
+      {
+       "q": "Which thyroid veins drain into the brachiocephalic veins?",
+       "choices": [
+        "Middle thyroid veins",
+        "Superior thyroid veins",
+        "Inferior thyroid veins",
+        "Superior and middle veins"
+       ],
+       "answer": 2,
+       "explain": "Superior and middle thyroid veins drain to the internal jugular vein; inferior thyroid veins drain to the brachiocephalic veins."
+      }
+     ]
+    },
+    {
+     "order": 20,
+     "why": "Receive inferior thyroid veins (most commonly the left)",
+     "questions": [
+      {
+       "q": "The inferior thyroid veins most commonly drain into which vein?",
+       "choices": [
+        "Right brachiocephalic vein",
+        "Left internal jugular vein",
+        "Right subclavian vein",
+        "Left brachiocephalic vein"
+       ],
+       "answer": 3,
+       "explain": "Inferior thyroid veins drain into the brachiocephalic veins, most commonly the left."
+      }
+     ]
+    },
+    {
+     "order": 31,
+     "why": "Posterior thyroid surface; inferior thyroid a.; PTH for calcium",
+     "questions": [
+      {
+       "q": "The parathyroid glands are usually found where?",
+       "choices": [
+        "Posterior surface of thyroid lobes",
+        "Anterior surface of the thyroid isthmus",
+        "Within the carotid sheath",
+        "Above the thyroid cartilage"
+       ],
+       "answer": 0,
+       "explain": "The parathyroids are usually embedded within or attached to the posterior aspect of the thyroid lobes."
+      },
+      {
+       "q": "Parathyroid hormone mainly regulates the serum level of which substance?",
+       "choices": [
+        "Glucose",
+        "Calcium",
+        "Sodium",
+        "Potassium"
+       ],
+       "answer": 1,
+       "explain": "The parathyroid glands produce parathyroid hormone, which plays a central role in regulating calcium."
+      }
+     ]
+    },
+    {
+     "order": 32,
+     "why": "Typically 2 superior + 2 inferior; variable number and position",
+     "questions": [
+      {
+       "q": "How many parathyroid glands do most people have?",
+       "choices": [
+        "Two",
+        "Six",
+        "Four",
+        "Eight"
+       ],
+       "answer": 2,
+       "explain": "Most people have four parathyroids, two superior and two inferior, though number and position are highly variable."
+      }
+     ]
+    },
+    {
+     "order": 33,
+     "why": "Superomedial on kidney in perirenal fat and renal fascia; right higher (liver)",
+     "questions": [
+      {
+       "q": "On which aspect of the kidney does each adrenal gland lie?",
+       "choices": [
+        "Inferomedial",
+        "Superolateral",
+        "Inferolateral",
+        "Superomedial"
+       ],
+       "answer": 3,
+       "explain": "Each adrenal gland lies on the superomedial aspect of a kidney, embedded in perirenal fat."
+      },
+      {
+       "q": "The adrenal glands are enclosed by which fascia?",
+       "choices": [
+        "Renal fascia",
+        "Transversalis fascia",
+        "Psoas fascia",
+        "Thoracolumbar fascia"
+       ],
+       "answer": 0,
+       "explain": "The adrenals sit within the perirenal fat and are enclosed by the renal fascia."
+      }
+     ]
+    },
+    {
+     "order": 34,
+     "why": "Outer part; steroids: mineralocorticoids, glucocorticoids, androgens",
+     "questions": [
+      {
+       "q": "Which hormone class is produced by the adrenal cortex?",
+       "choices": [
+        "Epinephrine",
+        "Androgens",
+        "Norepinephrine",
+        "Calcitonin"
+       ],
+       "answer": 1,
+       "explain": "The cortex makes steroid hormones (mineralocorticoids, glucocorticoids and androgens); the medulla makes catecholamines."
+      }
+     ]
+    },
+    {
+     "order": 35,
+     "why": "Central core; modified sympathetic neurons; epinephrine/norepinephrine",
+     "questions": [
+      {
+       "q": "The adrenal medulla is composed of which cells?",
+       "choices": [
+        "Modified parasympathetic neurons",
+        "Steroid-secreting cortical cells",
+        "Modified sympathetic neurons",
+        "Hypothalamic axon terminals"
+       ],
+       "answer": 2,
+       "explain": "The medulla is made of modified sympathetic neurons and functions as part of the autonomic nervous system."
+      },
+      {
+       "q": "A patient has tremor and heavy sweating under stress. Which hormone from this region is relevant?",
+       "choices": [
+        "Cortisol",
+        "Aldosterone",
+        "Androgens",
+        "Epinephrine"
+       ],
+       "answer": 3,
+       "explain": "The adrenal medulla produces the catecholamines epinephrine and norepinephrine; cortisol, aldosterone and androgens are cortical."
+      }
+     ]
+    },
+    {
+     "order": 40,
+     "why": "Adrenal sits superomedially on the upper pole",
+     "questions": []
+    },
+    {
+     "order": 41,
+     "why": "Adrenals lie inferior to the diaphragm; superior adrenal aa. from inferior phrenic",
+     "questions": [
+      {
+       "q": "The adrenals lie just below this muscle. Which of its arteries give the superior adrenal arteries?",
+       "choices": [
+        "Inferior phrenic arteries",
+        "Renal arteries",
+        "Lumbar arteries",
+        "Posterior intercostal arteries"
+       ],
+       "answer": 0,
+       "explain": "The adrenals lie inferior to the diaphragm, and their superior adrenal arteries branch from the inferior phrenic arteries."
+      }
+     ]
+    },
+    {
+     "order": 44,
+     "why": "Right adrenal posterior to liver; liver pushes right gland higher",
+     "questions": [
+      {
+       "q": "The right adrenal lies slightly more superior and posterior than the left because of which organ?",
+       "choices": [
+        "Stomach",
+        "Liver",
+        "Spleen",
+        "Duodenum"
+       ],
+       "answer": 1,
+       "explain": "The right adrenal is posterior to the liver, and the liver's position makes it slightly more superior and posterior than the left."
+      }
+     ]
+    },
+    {
+     "order": 45,
+     "why": "Left adrenal posterior to stomach",
+     "questions": [
+      {
+       "q": "On the left side, the adrenal gland lies posterior to which organ?",
+       "choices": [
+        "Liver",
+        "Transverse colon",
+        "Stomach",
+        "Duodenum"
+       ],
+       "answer": 2,
+       "explain": "On the left, the adrenal is posterior to the stomach and posteromedial to the pancreas; on the right it is posterior to the liver."
+      }
+     ]
+    },
+    {
+     "order": 46,
+     "why": "Left adrenal posteromedial to pancreas",
+     "questions": [
+      {
+       "q": "How is the left adrenal gland positioned relative to the pancreas?",
+       "choices": [
+        "Anterolateral",
+        "Anteromedial",
+        "Inferolateral",
+        "Posteromedial"
+       ],
+       "answer": 3,
+       "explain": "The left adrenal lies posterior to the stomach and posteromedial to the pancreas."
+      }
+     ]
+    },
+    {
+     "order": 42,
+     "why": "Right adrenal near IVC; right adrenal vein drains directly into it",
+     "questions": [
+      {
+       "q": "The right adrenal vein drains directly into which vessel?",
+       "choices": [
+        "Inferior vena cava",
+        "Right renal vein",
+        "Right hepatic vein",
+        "Right gonadal vein"
+       ],
+       "answer": 0,
+       "explain": "The right adrenal vein drains straight into the IVC, whereas the left drains into the left renal vein."
+      }
+     ]
+    },
+    {
+     "order": 43,
+     "why": "Left adrenal near aorta; gives middle adrenal arteries",
+     "questions": [
+      {
+       "q": "Which adrenal arteries branch directly from this vessel?",
+       "choices": [
+        "Superior adrenal arteries",
+        "Middle adrenal arteries",
+        "Inferior adrenal arteries",
+        "Inferior phrenic arteries"
+       ],
+       "answer": 1,
+       "explain": "Middle adrenal arteries come off the abdominal aorta; superior ones from the inferior phrenic arteries and inferior ones from the renal arteries."
+      }
+     ]
+    },
+    {
+     "order": 36,
+     "why": "From inferior phrenic a.",
+     "questions": [
+      {
+       "q": "The superior adrenal artery is a branch of which vessel?",
+       "choices": [
+        "Renal artery",
+        "Abdominal aorta",
+        "Inferior phrenic artery",
+        "Superior mesenteric artery"
+       ],
+       "answer": 2,
+       "explain": "Superior adrenal arteries are branches of the inferior phrenic arteries."
+      }
+     ]
+    },
+    {
+     "order": 37,
+     "why": "From abdominal aorta",
+     "questions": [
+      {
+       "q": "The middle adrenal artery is a branch of which vessel?",
+       "choices": [
+        "Renal artery",
+        "Inferior phrenic artery",
+        "Splenic artery",
+        "Abdominal aorta"
+       ],
+       "answer": 3,
+       "explain": "Middle adrenal arteries are branches of the abdominal aorta."
+      }
+     ]
+    },
+    {
+     "order": 38,
+     "why": "From renal a.",
+     "questions": [
+      {
+       "q": "The inferior adrenal artery is a branch of which vessel?",
+       "choices": [
+        "Renal artery",
+        "Abdominal aorta",
+        "Inferior phrenic artery",
+        "Gonadal artery"
+       ],
+       "answer": 0,
+       "explain": "Inferior adrenal arteries are branches of the renal arteries."
+      }
+     ]
+    },
+    {
+     "order": 39,
+     "why": "One vein per gland: right to IVC, left to left renal v.",
+     "questions": [
+      {
+       "q": "The left adrenal vein drains into which vessel?",
+       "choices": [
+        "Inferior vena cava",
+        "Left renal vein",
+        "Splenic vein",
+        "Left gonadal vein"
+       ],
+       "answer": 1,
+       "explain": "The left adrenal vein drains into the left renal vein; the right adrenal vein drains directly into the IVC."
+      },
+      {
+       "q": "Despite three arterial sources, how is each adrenal gland drained?",
+       "choices": [
+        "By three adrenal veins",
+        "By paired adrenal veins",
+        "By a single adrenal vein",
+        "Into the portal venous system"
+       ],
+       "answer": 2,
+       "explain": "Venous blood from cortex and medulla converges centrally into one adrenal vein, delivering hormone-rich blood to the systemic circulation."
+      }
+     ]
+    },
+    {
+     "order": 48,
+     "why": "Head in duodenal C, uncinate behind SM vessels, neck, body, tail to splenic hilum; islets throughout",
+     "questions": [
+      {
+       "q": "Which region of the pancreas lies within the C-shaped curve of the duodenum?",
+       "choices": [
+        "Neck",
+        "Body",
+        "Tail",
+        "Head"
+       ],
+       "answer": 3,
+       "explain": "The head lies within the C-shaped duodenal curve; the tail approaches the splenic hilum."
+      },
+      {
+       "q": "The uncinate process extends posterior to which vessels?",
+       "choices": [
+        "Superior mesenteric vessels",
+        "Splenic vessels",
+        "Renal vessels",
+        "Inferior mesenteric vessels"
+       ],
+       "answer": 0,
+       "explain": "The uncinate process is a projection of the head that extends posterior to the superior mesenteric vessels."
+      },
+      {
+       "q": "Where are the islets of Langerhans located in the pancreas?",
+       "choices": [
+        "Concentrated in the tail only",
+        "In the head, body and tail",
+        "Only in the head",
+        "Only in the uncinate"
+       ],
+       "answer": 1,
+       "explain": "The endocrine pancreas is not a separate gross region: microscopic islets are dispersed throughout the head, body and tail."
+      }
+     ]
+    },
+    {
+     "order": 49,
+     "why": "Pancreatic head sits in the curve of the 2nd part",
+     "questions": []
+    },
+    {
+     "order": 47,
+     "why": "Pancreatic tail approaches splenic hilum",
+     "questions": [
+      {
+       "q": "The tail of the pancreas approaches the hilum of which organ?",
+       "choices": [
+        "Left kidney",
+        "Stomach",
+        "Spleen",
+        "Left adrenal"
+       ],
+       "answer": 2,
+       "explain": "The pancreas extends from the duodenum on the right to the spleen on the left; the tail approaches the splenic hilum."
+      }
+     ]
+    },
+    {
+     "order": 50,
+     "why": "Pancreatic supply via splenic and common hepatic branches",
+     "questions": [
+      {
+       "q": "Which two branches of this trunk send arteries to the pancreas?",
+       "choices": [
+        "Left gastric and splenic",
+        "Left gastric and common hepatic",
+        "Splenic and right gastric",
+        "Splenic and common hepatic"
+       ],
+       "answer": 3,
+       "explain": "The pancreas receives branches from the celiac trunk (splenic and common hepatic arteries) and from the superior mesenteric artery."
+      }
+     ]
+    },
+    {
+     "order": 56,
+     "why": "Celiac branch running along pancreas; gives dorsal and greater pancreatic aa.",
+     "questions": [
+      {
+       "q": "Which part of the pancreas is supplied mainly by branches of the splenic artery?",
+       "choices": [
+        "Body and tail",
+        "Head and uncinate",
+        "Neck and head",
+        "Uncinate only"
+       ],
+       "answer": 0,
+       "explain": "The splenic artery gives the dorsal pancreatic and greater pancreatic arteries, which supply much of the body and tail."
+      }
+     ]
+    },
+    {
+     "order": 57,
+     "why": "Branch of splenic a. to body/tail",
+     "questions": [
+      {
+       "q": "The dorsal pancreatic artery arises from which vessel?",
+       "choices": [
+        "Gastroduodenal artery",
+        "Splenic artery",
+        "Superior mesenteric artery",
+        "Common hepatic artery"
+       ],
+       "answer": 1,
+       "explain": "The splenic artery gives the dorsal pancreatic and greater pancreatic arteries."
+      }
+     ]
+    },
+    {
+     "order": 58,
+     "why": "Pancreatica magna: branch of splenic a. to body/tail",
+     "questions": []
+    },
+    {
+     "order": 51,
+     "why": "Celiac branch; gives gastroduodenal a.",
+     "questions": [
+      {
+       "q": "The gastroduodenal artery arises from which vessel?",
+       "choices": [
+        "Splenic artery",
+        "Superior mesenteric artery",
+        "Common hepatic artery",
+        "Left gastric artery"
+       ],
+       "answer": 2,
+       "explain": "The superior pancreaticoduodenal arteries come from the gastroduodenal artery, which arises from the common hepatic artery."
+      }
+     ]
+    },
+    {
+     "order": 52,
+     "why": "Gives superior pancreaticoduodenal aa.",
+     "questions": [
+      {
+       "q": "The superior pancreaticoduodenal arteries are branches of which vessel?",
+       "choices": [
+        "Superior mesenteric artery",
+        "Splenic artery",
+        "Dorsal pancreatic artery",
+        "Gastroduodenal artery"
+       ],
+       "answer": 3,
+       "explain": "The superior pancreaticoduodenal arteries branch from the gastroduodenal artery (via the common hepatic artery)."
+      }
+     ]
+    },
+    {
+     "order": 53,
+     "why": "From gastroduodenal a. (celiac side)",
+     "questions": [
+      {
+       "q": "The superior pancreaticoduodenal arteries ultimately derive from which trunk?",
+       "choices": [
+        "Celiac trunk",
+        "Superior mesenteric artery",
+        "Inferior mesenteric artery",
+        "Renal artery"
+       ],
+       "answer": 0,
+       "explain": "Superior pancreaticoduodenal arteries come from the gastroduodenal artery, a branch of the common hepatic artery off the celiac trunk."
+      }
+     ]
+    },
+    {
+     "order": 54,
+     "why": "Gives inferior pancreaticoduodenal aa.; SM vessels pass anterior to uncinate",
+     "questions": [
+      {
+       "q": "Besides the celiac trunk, which artery supplies the pancreas?",
+       "choices": [
+        "Inferior mesenteric artery",
+        "Superior mesenteric artery",
+        "Left renal artery",
+        "Inferior phrenic artery"
+       ],
+       "answer": 1,
+       "explain": "The pancreas receives branches from both the celiac trunk and the superior mesenteric artery."
+      }
+     ]
+    },
+    {
+     "order": 55,
+     "why": "From the superior mesenteric a.",
+     "questions": [
+      {
+       "q": "The inferior pancreaticoduodenal arteries are branches of which vessel?",
+       "choices": [
+        "Gastroduodenal artery",
+        "Splenic artery",
+        "Superior mesenteric artery",
+        "Inferior mesenteric artery"
+       ],
+       "answer": 2,
+       "explain": "The inferior pancreaticoduodenal arteries are branches of the superior mesenteric artery."
+      }
+     ]
+    },
+    {
+     "order": 59,
+     "why": "Pancreatic venous drainage to portal system",
+     "questions": [
+      {
+       "q": "Pancreatic veins drain into the splenic vein and which other vein?",
+       "choices": [
+        "Inferior vena cava",
+        "Left renal vein",
+        "Left inferior phrenic vein",
+        "Superior mesenteric vein"
+       ],
+       "answer": 3,
+       "explain": "Venous drainage of the pancreas empties into the portal venous system through the splenic and superior mesenteric veins."
+      }
+     ]
+    },
+    {
+     "order": 60,
+     "why": "Pancreatic venous drainage to portal system",
+     "questions": []
+    },
+    {
+     "order": 61,
+     "why": "Pancreatic hormones reach the portal venous system",
+     "questions": [
+      {
+       "q": "Venous blood from the endocrine pancreas ultimately enters which system?",
+       "choices": [
+        "Portal venous system",
+        "Inferior vena cava directly",
+        "Left renal vein",
+        "Azygos system"
+       ],
+       "answer": 0,
+       "explain": "Pancreatic venous blood enters the portal venous system via the splenic and superior mesenteric veins, not the IVC directly."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "endo-structure-function-endocrine-pancreas",
+   "title": "Structure and Function of the Endocrine Pancreas",
+   "week": 3,
+   "session": "2",
+   "stem": "210_Endocrine",
+   "items": [
+    {
+     "order": 48,
+     "why": "Islets of Langerhans interspersed through the gland; histologically, not grossly distinct",
+     "questions": [
+      {
+       "q": "How are the endocrine islets distinguished from exocrine tissue in this organ?",
+       "choices": [
+        "As a distinct gross lobe",
+        "Only on histology",
+        "As a nodule in the head",
+        "By a separate capsule"
+       ],
+       "answer": 1,
+       "explain": "Endocrine and exocrine cells are intermixed in the gland; they are distinct histologically but not on gross inspection."
+      },
+      {
+       "q": "Which islet cell type produces insulin?",
+       "choices": [
+        "Alpha cells",
+        "Delta cells",
+        "Beta cells",
+        "PP cells"
+       ],
+       "answer": 2,
+       "explain": "Beta cells produce insulin and are the largest proportion of islet endocrine cells; alpha cells make glucagon."
+      },
+      {
+       "q": "Islet delta cells secrete which hormone?",
+       "choices": [
+        "Glucagon",
+        "Insulin",
+        "Pancreatic polypeptide",
+        "Somatostatin"
+       ],
+       "answer": 3,
+       "explain": "Delta cells produce somatostatin (GHIH), a paracrine inhibitor of both glucagon and insulin secretion within the islet."
+      }
+     ]
+    },
+    {
+     "order": 44,
+     "why": "Insulin/glucagon target: glycogen storage and glycogenolysis; GLUT2",
+     "questions": [
+      {
+       "q": "Hepatocytes take up glucose through which insulin-independent transporter?",
+       "choices": [
+        "GLUT2",
+        "GLUT4",
+        "GLUT1",
+        "SGLT1"
+       ],
+       "answer": 0,
+       "explain": "Hepatocytes use GLUT2, which is insulin-independent; insulin acts downstream to drive glycogen synthesis, while GLUT4 is insulin-stimulated in muscle and fat."
+      },
+      {
+       "q": "Glucagon raises blood glucose mainly by triggering which process in this organ?",
+       "choices": [
+        "Glycogen synthesis",
+        "Glycogenolysis",
+        "GLUT4 translocation",
+        "C-peptide secretion"
+       ],
+       "answer": 1,
+       "explain": "Glucagon opposes insulin, causing the liver to convert stored glycogen into glucose."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

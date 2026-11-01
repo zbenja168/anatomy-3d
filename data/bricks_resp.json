@@ -1,0 +1,1729 @@
+{
+ "subject": "resp",
+ "bricks": [
+  {
+   "id": "resp-upper-respiratory-tract",
+   "title": "Anatomy of the Upper Respiratory Tract",
+   "week": 1,
+   "session": "1",
+   "stem": "181_Respiratory",
+   "items": [
+    {
+     "order": 1,
+     "why": "Nares: external aperture where inhaled air first enters the nasal cavity",
+     "questions": []
+    },
+    {
+     "order": 2,
+     "why": "Vestibule (keratinized), respiratory region (humidifies), olfactory region (CN I)",
+     "questions": [
+      {
+       "q": "Which region of the nasal cavity contains the olfactory receptor neurons?",
+       "choices": [
+        "Olfactory region",
+        "Vestibule",
+        "Respiratory region",
+        "Inferior meatus"
+       ],
+       "answer": 0,
+       "explain": "The olfactory region is lined by specialized mucosa containing olfactory receptor neurons for smell (CN I)."
+      },
+      {
+       "q": "Which nasal cavity region is lined by keratinized stratified epithelium?",
+       "choices": [
+        "Respiratory region",
+        "Vestibule",
+        "Olfactory region",
+        "Middle meatus"
+       ],
+       "answer": 1,
+       "explain": "The vestibule, just inside the nares, is lined by keratinized stratified epithelium; the respiratory region is highly vascular and humidifies air."
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "why": "Septum: ethmoid + vomer + anterior cartilage; Kiesselbach plexus on anterior septum",
+     "questions": [
+      {
+       "q": "Which two bones form the bony part of the nasal septum?",
+       "choices": [
+        "Maxilla and palatine",
+        "Sphenoid and frontal",
+        "Ethmoid and vomer",
+        "Nasal and lacrimal"
+       ],
+       "answer": 2,
+       "explain": "The septum has two bony components (ethmoid and vomer) plus a cartilaginous part that occupies most of the anterior septum."
+      },
+      {
+       "q": "A child has a common anterior nosebleed after nose-picking. The bleeding most likely arises from which vascular network on the anterior septum?",
+       "choices": [
+        "Woodruff plexus",
+        "Pterygoid plexus",
+        "Pharyngeal plexus",
+        "Kiesselbach plexus"
+       ],
+       "answer": 3,
+       "explain": "Common anterior epistaxis arises from the Kiesselbach plexus on the anterior nasal septum, formed by branches of the internal and external carotids."
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "why": "Conchae on lateral wall: surface area to warm/humidify air",
+     "questions": [
+      {
+       "q": "What is the main function of the nasal conchae?",
+       "choices": [
+        "Humidify and warm inspired air",
+        "Drain the nasolacrimal duct",
+        "Produce most nasal mucus",
+        "Detect odorant molecules"
+       ],
+       "answer": 0,
+       "explain": "The mucosa-lined conchae on the lateral wall provide a large surface area for humidification and warming of inspired air."
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "why": "Meatuses: inferior = nasolacrimal duct; middle = maxillary/frontal/ant ethmoid; superior = post ethmoid",
+     "questions": [
+      {
+       "q": "Into which meatus do the maxillary, frontal, and anterior ethmoid sinuses drain?",
+       "choices": [
+        "Inferior meatus",
+        "Middle meatus",
+        "Superior meatus",
+        "Sphenoethmoidal recess"
+       ],
+       "answer": 1,
+       "explain": "The middle meatus (under the middle concha) drains the maxillary, frontal, and anterior and middle ethmoid sinuses."
+      },
+      {
+       "q": "The superior meatus provides drainage for which sinus?",
+       "choices": [
+        "Maxillary sinus",
+        "Frontal sinus",
+        "Posterior ethmoid sinuses",
+        "Anterior ethmoid sinuses"
+       ],
+       "answer": 2,
+       "explain": "The superior meatus drains the posterior ethmoid sinuses; most other sinus ostia open into the middle meatus."
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "why": "Nasolacrimal duct drains tears into the inferior meatus",
+     "questions": [
+      {
+       "q": "Where does the nasolacrimal duct open into the nasal cavity?",
+       "choices": [
+        "Middle meatus",
+        "Superior meatus",
+        "Sphenoethmoidal recess",
+        "Inferior meatus"
+       ],
+       "answer": 3,
+       "explain": "The nasolacrimal duct drains tears from the medial eye into the inferior meatus, which is why crying gives you a runny nose."
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "why": "Bones of nasal cavity: maxilla floor, frontal anterior roof, sphenoid posterior roof",
+     "questions": [
+      {
+       "q": "Which bone forms the floor and part of the lateral wall of the nasal cavity?",
+       "choices": [
+        "Maxilla",
+        "Ethmoid",
+        "Sphenoid",
+        "Frontal"
+       ],
+       "answer": 0,
+       "explain": "The maxilla forms the floor and a portion of the lateral wall; the palatine bone also contributes to the floor."
+      },
+      {
+       "q": "Which bone forms the posterior portion of the nasal cavity roof?",
+       "choices": [
+        "Frontal",
+        "Sphenoid",
+        "Vomer",
+        "Palatine"
+       ],
+       "answer": 1,
+       "explain": "The sphenoid forms the posterior roof, the frontal bone the anterior roof, and the ethmoid contributes to the roof and walls."
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "why": "Sphenopalatine a.: major artery of Woodruff plexus (posterior epistaxis)",
+     "questions": [
+      {
+       "q": "A patient has a severe posterior nosebleed from the Woodruff plexus. Which artery is a major contributor to this plexus?",
+       "choices": [
+        "Facial artery",
+        "Superior thyroid artery",
+        "Sphenopalatine artery",
+        "Ophthalmic artery"
+       ],
+       "answer": 2,
+       "explain": "Woodruff's plexus in the posterior nasal cavity is formed mainly by the sphenopalatine and ascending pharyngeal arteries; posterior bleeds are less common but often more severe."
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "why": "Frontal sinus: drains to middle meatus; ophthalmic a. (ICA); V1",
+     "questions": [
+      {
+       "q": "The frontal sinus receives its blood supply from branches of which artery?",
+       "choices": [
+        "Maxillary artery",
+        "Facial artery",
+        "Sphenopalatine artery",
+        "Ophthalmic artery"
+       ],
+       "answer": 3,
+       "explain": "The frontal and ethmoid sinuses are supplied by branches of the ophthalmic artery, which arises from the internal carotid."
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "why": "Maxillary sinus: largest, high medial ostium to middle meatus; maxillary a.; V2",
+     "questions": [
+      {
+       "q": "Why does the maxillary sinus drain poorly and become easily obstructed?",
+       "choices": [
+        "Its ostium is high on the medial wall",
+        "It drains into the inferior meatus",
+        "It lacks a mucosal lining",
+        "It has no direct ostium of its own"
+       ],
+       "answer": 0,
+       "explain": "The maxillary sinus is the largest sinus, and because its ostium is located high on its medial wall, drainage is less efficient and easily impaired."
+      },
+      {
+       "q": "Sensory innervation of the maxillary sinus comes from which nerve?",
+       "choices": [
+        "Ophthalmic nerve (CN V1)",
+        "Maxillary nerve (CN V2)",
+        "Olfactory nerve (CN I)",
+        "Facial nerve (CN VII)"
+       ],
+       "answer": 1,
+       "explain": "The maxillary sinus is innervated by branches of the maxillary nerve (V2); the frontal, ethmoid, and sphenoid sinuses by the ophthalmic nerve (V1)."
+      },
+      {
+       "q": "A patient with a week-long cold now has fever and tenderness to percussion over the left cheek. Which sinus is most likely infected?",
+       "choices": [
+        "Frontal sinus",
+        "Sphenoid sinus",
+        "Maxillary sinus",
+        "Posterior ethmoid sinus"
+       ],
+       "answer": 2,
+       "explain": "Cheek pressure and tenderness point to the maxillary sinus, whose middle-meatus drainage is easily obstructed by mucosal swelling, producing acute sinusitis."
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "why": "Ethmoid sinuses: anterior/middle to middle meatus, posterior to superior meatus; ophthalmic a.; V1",
+     "questions": [
+      {
+       "q": "The ethmoid sinuses are supplied by branches of the ophthalmic artery. The ophthalmic artery arises from which vessel?",
+       "choices": [
+        "External carotid artery",
+        "Maxillary artery",
+        "Facial artery",
+        "Internal carotid artery"
+       ],
+       "answer": 3,
+       "explain": "The frontal and ethmoid sinuses receive blood from the ophthalmic artery, a branch of the internal carotid artery."
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "why": "Sphenoid sinus: drains to sphenoethmoidal recess; maxillary a.; V1",
+     "questions": [
+      {
+       "q": "The sphenoid sinus drains into which space?",
+       "choices": [
+        "Sphenoethmoidal recess",
+        "Middle meatus",
+        "Inferior meatus",
+        "Semilunar hiatus"
+       ],
+       "answer": 0,
+       "explain": "The sphenoethmoidal recess, the fourth drainage channel above the superior concha, drains the sphenoid (and posterior ethmoid) sinuses."
+      },
+      {
+       "q": "Which artery supplies the sphenoid sinus?",
+       "choices": [
+        "Ophthalmic artery",
+        "Maxillary artery",
+        "Facial artery",
+        "Lingual artery"
+       ],
+       "answer": 1,
+       "explain": "The sphenoid and maxillary sinuses are supplied by branches of the maxillary artery, from the external carotid."
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "why": "Maxillary a. (from ECA): supplies maxillary and sphenoid sinuses",
+     "questions": [
+      {
+       "q": "The maxillary artery, which supplies the maxillary and sphenoid sinuses, is a branch of which artery?",
+       "choices": [
+        "Internal carotid artery",
+        "Ophthalmic artery",
+        "External carotid artery",
+        "Thyrocervical trunk"
+       ],
+       "answer": 2,
+       "explain": "The maxillary artery stems from the external carotid artery and supplies the sphenoid and maxillary sinuses."
+      }
+     ]
+    },
+    {
+     "order": 15,
+     "why": "ECA: ascending pharyngeal, facial, superior thyroid branches supply pharynx/larynx",
+     "questions": [
+      {
+       "q": "The ascending pharyngeal artery, the primary supply of the nasopharynx, is a branch of which artery?",
+       "choices": [
+        "Internal carotid artery",
+        "Vertebral artery",
+        "Thyrocervical trunk",
+        "External carotid artery"
+       ],
+       "answer": 3,
+       "explain": "Branches of the external carotid supply the nasopharynx, with the ascending pharyngeal artery as the primary supply."
+      }
+     ]
+    },
+    {
+     "order": 16,
+     "why": "ICA: ophthalmic a. to frontal/ethmoid sinuses; contributes to Kiesselbach",
+     "questions": [
+      {
+       "q": "Branches of which artery contribute to the Kiesselbach plexus together with the external carotid?",
+       "choices": [
+        "Internal carotid artery",
+        "Vertebral artery",
+        "Subclavian artery",
+        "Thyrocervical trunk"
+       ],
+       "answer": 0,
+       "explain": "The Kiesselbach plexus on the anterior septum is an anastomosis of branches originating from both the internal and external carotid arteries."
+      }
+     ]
+    },
+    {
+     "order": 17,
+     "why": "Nasopharynx: air only; soft palate inferior border; ascending pharyngeal a.; retropharyngeal nodes",
+     "questions": [
+      {
+       "q": "Which part of the pharynx normally carries only air and not food?",
+       "choices": [
+        "Oropharynx",
+        "Nasopharynx",
+        "Laryngopharynx",
+        "Pyriform recess"
+       ],
+       "answer": 1,
+       "explain": "All three parts conduct air, but only the oropharynx and laryngopharynx accommodate food; the nasopharynx normally carries air only."
+      },
+      {
+       "q": "Lymph from the nasopharynx drains primarily to which nodes before the deep cervical nodes?",
+       "choices": [
+        "Submental lymph nodes",
+        "Parotid lymph nodes",
+        "Retropharyngeal lymph nodes",
+        "Hilar lymph nodes"
+       ],
+       "answer": 2,
+       "explain": "Nasopharyngeal lymph drains primarily to the retropharyngeal nodes and then to the deep cervical nodes along the internal jugular vein."
+      }
+     ]
+    },
+    {
+     "order": 18,
+     "why": "Adenoids: lymphatic tissue on posterior nasopharyngeal wall",
+     "questions": [
+      {
+       "q": "The pharyngeal tonsils (adenoids) are located on which wall of which region?",
+       "choices": [
+        "Lateral wall of the oropharynx",
+        "Anterior wall of the laryngopharynx",
+        "Floor of the nasal cavity",
+        "Posterior wall of the nasopharynx"
+       ],
+       "answer": 3,
+       "explain": "The pharyngeal tonsils sit on the posterior wall of the nasopharynx; like the palatine tonsils, they can become inflamed (tonsillitis)."
+      }
+     ]
+    },
+    {
+     "order": 19,
+     "why": "Pharyngotympanic tube: nasopharynx to middle ear, equalizes pressure; occlusion -> otitis media",
+     "questions": [
+      {
+       "q": "What is the function of the pharyngotympanic (eustachian) tube?",
+       "choices": [
+        "Equalize middle ear pressure",
+        "Drain tears into the nose",
+        "Drain the sphenoid sinus",
+        "Conduct sound to the cochlea"
+       ],
+       "answer": 0,
+       "explain": "The pharyngotympanic tube links the nasopharynx to the middle ear, equalizing middle-ear pressure with atmospheric pressure."
+      },
+      {
+       "q": "A nasopharyngeal mass occludes the opening of this tube. Which complication is most likely?",
+       "choices": [
+        "Acute maxillary sinusitis",
+        "Recurrent otitis media",
+        "Posterior epistaxis",
+        "Zenker diverticulum"
+       ],
+       "answer": 1,
+       "explain": "Occlusion of the pharyngotympanic tube opening impedes middle-ear drainage into the nasopharynx, causing recurrent middle ear swelling and infection (otitis media)."
+      }
+     ]
+    },
+    {
+     "order": 20,
+     "why": "Oropharynx: uvula to hyoid; facial a. branches; CN IX",
+     "questions": [
+      {
+       "q": "The oropharynx extends inferiorly to the level of which structure?",
+       "choices": [
+        "Cricoid cartilage",
+        "Thyroid cartilage",
+        "Hyoid bone",
+        "Vocal folds"
+       ],
+       "answer": 2,
+       "explain": "The oropharynx lies behind the oral cavity and extends from the uvula to the hyoid bone."
+      },
+      {
+       "q": "Which nerve innervates the oropharynx?",
+       "choices": [
+        "Hypoglossal nerve (CN XII)",
+        "Facial nerve (CN VII)",
+        "Maxillary nerve (CN V2)",
+        "Glossopharyngeal nerve (CN IX)"
+       ],
+       "answer": 3,
+       "explain": "The oropharynx receives its innervation from branches of the glossopharyngeal nerve (CN IX)."
+      }
+     ]
+    },
+    {
+     "order": 21,
+     "why": "Facial a.: main oropharyngeal supply via tonsillar and ascending palatine aa.",
+     "questions": [
+      {
+       "q": "Which artery provides the main arterial supply of the oropharynx via its tonsillar and ascending palatine branches?",
+       "choices": [
+        "Facial artery",
+        "Lingual artery",
+        "Maxillary artery",
+        "Superior thyroid artery"
+       ],
+       "answer": 0,
+       "explain": "The oropharynx is supplied mainly by branches of the facial artery, including the tonsillar and ascending palatine arteries."
+      }
+     ]
+    },
+    {
+     "order": 22,
+     "why": "Palatine tonsils: lymphatic tissue in the oropharynx; tonsillitis",
+     "questions": [
+      {
+       "q": "The palatine tonsils, commonly infected in tonsillitis, are located in which part of the pharynx?",
+       "choices": [
+        "Nasopharynx",
+        "Oropharynx",
+        "Laryngopharynx",
+        "Larynx"
+       ],
+       "answer": 1,
+       "explain": "The palatine tonsils are collections of lymphatic tissue on the left and right of the oropharynx, seen on a routine throat exam."
+      }
+     ]
+    },
+    {
+     "order": 23,
+     "why": "Uvula: with soft palate closes nasopharynx during swallowing",
+     "questions": [
+      {
+       "q": "During swallowing, the uvula works with the soft palate to do what?",
+       "choices": [
+        "Close the laryngeal inlet",
+        "Open the eustachian tube",
+        "Close off the nasopharynx",
+        "Tense the vocal cords"
+       ],
+       "answer": 2,
+       "explain": "The uvula collaborates with the soft palate to close the connection to the nasopharynx, preventing food from moving up into the nose."
+      }
+     ]
+    },
+    {
+     "order": 24,
+     "why": "Laryngopharynx: epiglottis to cricoid -> esophagus; CN IX + X via pharyngeal plexus",
+     "questions": [
+      {
+       "q": "The laryngopharynx continues into the esophagus at the inferior border of which structure?",
+       "choices": [
+        "Thyroid cartilage",
+        "Hyoid bone",
+        "Epiglottis",
+        "Cricoid cartilage"
+       ],
+       "answer": 3,
+       "explain": "The laryngopharynx extends from the superior border of the epiglottis to the inferior border of the cricoid cartilage, where it continues into the esophagus."
+      },
+      {
+       "q": "Motor and sensory innervation of the laryngopharynx comes from which nerves?",
+       "choices": [
+        "CN IX and CN X",
+        "CN V2 and CN VII",
+        "CN VII and CN XII",
+        "CN IX and CN XII"
+       ],
+       "answer": 0,
+       "explain": "Both motor and sensory supply to the laryngopharynx arise from the glossopharyngeal (CN IX) and vagus (CN X) nerves via the pharyngeal plexus."
+      }
+     ]
+    },
+    {
+     "order": 25,
+     "why": "Epiglottis: closes larynx in swallowing; internal branch of SLN sensory",
+     "questions": [
+      {
+       "q": "What is the function of the epiglottis?",
+       "choices": [
+        "Abduct the vocal folds",
+        "Close the larynx during swallowing",
+        "Close off the nasopharynx",
+        "Tense the vocal cords"
+       ],
+       "answer": 1,
+       "explain": "The epiglottis is a flap of cartilage that closes the larynx when swallowing to prevent aspiration of food into the airways."
+      },
+      {
+       "q": "Which nerve supplies sensation to the epiglottis and laryngeal mucosa above the vocal folds?",
+       "choices": [
+        "External laryngeal nerve",
+        "Recurrent laryngeal nerve",
+        "Internal laryngeal nerve",
+        "Hypoglossal nerve"
+       ],
+       "answer": 2,
+       "explain": "The internal branch of the superior laryngeal nerve (CN X) gives sensation above the vocal folds, triggering protective cough reflexes."
+      }
+     ]
+    },
+    {
+     "order": 26,
+     "why": "Pyriform fossae beside laryngeal inlet; trap food/fish bones",
+     "questions": [
+      {
+       "q": "A patient feels a fish bone stuck in the throat. Lodging in which pear-shaped recess beside the laryngeal inlet is classic?",
+       "choices": [
+        "Laryngeal ventricle",
+        "Sphenoethmoidal recess",
+        "Costodiaphragmatic recess",
+        "Pyriform fossa"
+       ],
+       "answer": 3,
+       "explain": "The pyriform fossae are recesses adjacent to the laryngeal inlet in the laryngopharynx; food such as fish bones can get trapped there."
+      }
+     ]
+    },
+    {
+     "order": 27,
+     "why": "Superior/middle/inferior constrictors guide food; dysfunction -> Zenker diverticulum",
+     "questions": [
+      {
+       "q": "Spasm or poor relaxation of the pharyngeal constrictors raising pharyngeal pressure can produce which lesion?",
+       "choices": [
+        "Zenker diverticulum",
+        "Pyriform sinus fistula",
+        "Laryngocele",
+        "Tracheoesophageal fistula"
+       ],
+       "answer": 0,
+       "explain": "Spasm or decreased relaxation of these muscles increases pharyngeal pressure and causes herniation at the laryngopharynx: a Zenker diverticulum (pharyngeal pouch)."
+      }
+     ]
+    },
+    {
+     "order": 28,
+     "why": "CN IX: oropharynx innervation; pharyngeal plexus with CN X",
+     "questions": [
+      {
+       "q": "Which cranial nerve, along with the vagus, contributes to the pharyngeal plexus supplying nasopharyngeal mucosa?",
+       "choices": [
+        "Facial nerve",
+        "Glossopharyngeal nerve",
+        "Hypoglossal nerve",
+        "Accessory nerve"
+       ],
+       "answer": 1,
+       "explain": "The pharyngeal plexus has contributions from CN IX (glossopharyngeal) and CN X (vagus); CN IX alone innervates the oropharynx."
+      }
+     ]
+    },
+    {
+     "order": 29,
+     "why": "Vagus: superior and recurrent laryngeal nerves; pharyngeal plexus",
+     "questions": [
+      {
+       "q": "The superior and recurrent laryngeal nerves are branches of which cranial nerve?",
+       "choices": [
+        "Glossopharyngeal nerve (CN IX)",
+        "Hypoglossal nerve (CN XII)",
+        "Vagus nerve (CN X)",
+        "Accessory nerve (CN XI)"
+       ],
+       "answer": 2,
+       "explain": "Both the superior laryngeal and the recurrent laryngeal nerves are branches of the vagus nerve, supplying the laryngeal muscles for phonation."
+      }
+     ]
+    },
+    {
+     "order": 30,
+     "why": "Supraglottis, glottis (vocal cords), subglottis (to trachea)",
+     "questions": [
+      {
+       "q": "Which region of the larynx contains the true vocal cords?",
+       "choices": [
+        "Supraglottis",
+        "Subglottis",
+        "Laryngeal vestibule",
+        "Glottis"
+       ],
+       "answer": 3,
+       "explain": "The supraglottis runs from the epiglottis to just above the cords, the glottis contains the vocal cords, and the subglottis extends to the trachea."
+      }
+     ]
+    },
+    {
+     "order": 31,
+     "why": "Hyoid: inferior limit of oropharynx; supra/infrahyoid muscles",
+     "questions": [
+      {
+       "q": "The epiglottis is attached to the thyroid cartilage and to which other structure?",
+       "choices": [
+        "Hyoid bone",
+        "Cricoid cartilage",
+        "Arytenoid cartilage",
+        "Soft palate"
+       ],
+       "answer": 0,
+       "explain": "The epiglottis is attached to the hyoid bone and to the thyroid cartilage (via the thyroepiglottic ligament)."
+      }
+     ]
+    },
+    {
+     "order": 32,
+     "why": "Thyroid cartilage: unpaired, anterior larynx; laryngeal prominence",
+     "questions": [
+      {
+       "q": "Which unpaired laryngeal cartilage forms the anterior surface of the larynx?",
+       "choices": [
+        "Cricoid cartilage",
+        "Thyroid cartilage",
+        "Arytenoid cartilage",
+        "Corniculate cartilage"
+       ],
+       "answer": 1,
+       "explain": "The thyroid cartilage lies on the anterior surface of the larynx; its laryngeal prominence is the Adam's apple."
+      }
+     ]
+    },
+    {
+     "order": 33,
+     "why": "Laryngeal prominence = Adam's apple, part of thyroid cartilage",
+     "questions": [
+      {
+       "q": "The laryngeal prominence (Adam's apple) is part of which cartilage?",
+       "choices": [
+        "Cricoid cartilage",
+        "Epiglottic cartilage",
+        "Thyroid cartilage",
+        "Arytenoid cartilage"
+       ],
+       "answer": 2,
+       "explain": "The laryngeal prominence of the thyroid cartilage is visible as the Adam's apple in most males."
+      }
+     ]
+    },
+    {
+     "order": 34,
+     "why": "Cricoid: encircles subglottis; laryngopharynx->esophagus and trachea begin at its level",
+     "questions": [
+      {
+       "q": "Which cartilage encircles the subglottis?",
+       "choices": [
+        "Thyroid cartilage",
+        "Arytenoid cartilage",
+        "Cuneiform cartilage",
+        "Cricoid cartilage"
+       ],
+       "answer": 3,
+       "explain": "The cricoid cartilage, one of the three unpaired cartilages, encircles the subglottis; the trachea begins at its inferior border."
+      }
+     ]
+    },
+    {
+     "order": 35,
+     "why": "Cricothyroid membrane interconnects cricoid and thyroid cartilages",
+     "questions": [
+      {
+       "q": "The cricothyroid membrane connects which two structures?",
+       "choices": [
+        "Thyroid and cricoid cartilages",
+        "Hyoid bone and thyroid cartilage",
+        "Cricoid cartilage and trachea",
+        "Arytenoid and cricoid cartilages"
+       ],
+       "answer": 0,
+       "explain": "The cricoid and thyroid cartilages are stabilized and interconnected by the cricothyroid membrane; the thyrohyoid membrane links thyroid cartilage to hyoid."
+      }
+     ]
+    },
+    {
+     "order": 36,
+     "why": "Paired arytenoids: vocal cords attach",
+     "questions": [
+      {
+       "q": "To which paired laryngeal cartilage do the vocal cords attach?",
+       "choices": [
+        "Corniculate cartilage",
+        "Arytenoid cartilage",
+        "Cuneiform cartilage",
+        "Cricoid cartilage"
+       ],
+       "answer": 1,
+       "explain": "The paired arytenoid cartilages are where the vocal cords attach; the corniculate and cuneiform are the other paired cartilages."
+      }
+     ]
+    },
+    {
+     "order": 37,
+     "why": "True cords vibrate in phonation; false/vestibular folds; ventricle between; testosterone",
+     "questions": [
+      {
+       "q": "What is the small lateral recess between the vestibular folds and the true vocal folds called?",
+       "choices": [
+        "Laryngeal vestibule",
+        "Rima glottidis",
+        "Laryngeal ventricle",
+        "Pyriform recess"
+       ],
+       "answer": 2,
+       "explain": "The laryngeal ventricle lies between the vestibular (false) and true vocal folds and contains mucous glands that lubricate the cords."
+      },
+      {
+       "q": "Why do males develop a lower-pitched voice at puberty?",
+       "choices": [
+        "Estrogen thins the vestibular folds",
+        "The larynx descends below the cricoid",
+        "The rima glottidis permanently widens",
+        "Testosterone thickens and lengthens the cords"
+       ],
+       "answer": 3,
+       "explain": "Vocal cord development is affected by testosterone during puberty, which causes thickening and elongation and a lower-pitched voice."
+      }
+     ]
+    },
+    {
+     "order": 38,
+     "why": "Posterior cricoarytenoid: the only abductor of the vocal folds",
+     "questions": [
+      {
+       "q": "Which is the only laryngeal muscle that abducts the vocal folds?",
+       "choices": [
+        "Posterior cricoarytenoid",
+        "Lateral cricoarytenoid",
+        "Cricothyroid",
+        "Thyroarytenoid"
+       ],
+       "answer": 0,
+       "explain": "The posterior cricoarytenoids are the only muscles that abduct the vocal folds, making them the main intrinsic muscle supporting respiration."
+      }
+     ]
+    },
+    {
+     "order": 39,
+     "why": "Cricothyroid: tenses cords for pitch; external branch of SLN",
+     "questions": [
+      {
+       "q": "Which nerve innervates the cricothyroid muscle?",
+       "choices": [
+        "Internal laryngeal nerve",
+        "External laryngeal nerve",
+        "Recurrent laryngeal nerve",
+        "Glossopharyngeal nerve"
+       ],
+       "answer": 1,
+       "explain": "The external branch of the superior laryngeal nerve innervates the cricothyroid, which tenses the vocal cords to control pitch."
+      },
+      {
+       "q": "What is the main action of the cricothyroid muscle?",
+       "choices": [
+        "Abducts the vocal folds",
+        "Elevates the larynx",
+        "Tenses the vocal cords",
+        "Closes the nasopharynx"
+       ],
+       "answer": 2,
+       "explain": "Voice pitch is controlled mainly by the cricothyroid, which tenses the vocal cords; the posterior cricoarytenoid is the abductor."
+      }
+     ]
+    },
+    {
+     "order": 40,
+     "why": "Transverse/oblique arytenoid: intrinsic muscle controlling phonation",
+     "questions": [
+      {
+       "q": "The transverse and oblique arytenoid muscles are classified as which kind of laryngeal muscle?",
+       "choices": [
+        "Extrinsic muscles elevating the larynx",
+        "Extrinsic muscles depressing the larynx",
+        "Pharyngeal constrictor muscles",
+        "Intrinsic muscles controlling phonation"
+       ],
+       "answer": 3,
+       "explain": "Intrinsic muscles have origins and insertions within the larynx and control the cords; they include the transverse and oblique arytenoids."
+      }
+     ]
+    },
+    {
+     "order": 41,
+     "why": "Thyroarytenoid: intrinsic muscle controlling phonation",
+     "questions": []
+    },
+    {
+     "order": 42,
+     "why": "SLN (CN X): internal = sensation above folds/cough; external = cricothyroid",
+     "questions": [
+      {
+       "q": "Food touching the laryngeal mucosa above the vocal folds triggers a cough. Which nerve carries this sensation?",
+       "choices": [
+        "Internal laryngeal nerve",
+        "Recurrent laryngeal nerve",
+        "External laryngeal nerve",
+        "Glossopharyngeal nerve"
+       ],
+       "answer": 0,
+       "explain": "The internal branch of the superior laryngeal nerve provides sensation above the vocal folds, letting the larynx detect food and trigger protective reflexes."
+      }
+     ]
+    },
+    {
+     "order": 43,
+     "why": "RLNs: phonation muscles; left loops under aortic arch; neck surgery -> hoarseness",
+     "questions": [
+      {
+       "q": "The left recurrent laryngeal nerve loops around which structure?",
+       "choices": [
+        "Right subclavian artery",
+        "Aortic arch",
+        "Pulmonary trunk",
+        "Brachiocephalic vein"
+       ],
+       "answer": 1,
+       "explain": "The left recurrent laryngeal nerve loops around the aortic arch before ascending to the larynx."
+      },
+      {
+       "q": "After thyroid surgery, a patient has a hoarse voice. Which nerve was most likely damaged?",
+       "choices": [
+        "Internal laryngeal nerve",
+        "Hypoglossal nerve",
+        "Recurrent laryngeal nerve",
+        "Glossopharyngeal nerve"
+       ],
+       "answer": 2,
+       "explain": "The recurrent laryngeal nerves supply the phonation muscles and are easily damaged during neck surgery, which can lead to hoarseness."
+      }
+     ]
+    },
+    {
+     "order": 44,
+     "why": "Suprahyoids (digastric, stylohyoid, mylohyoid, geniohyoid) elevate the larynx",
+     "questions": [
+      {
+       "q": "What action do the suprahyoid muscles have on the larynx?",
+       "choices": [
+        "Depress it",
+        "Abduct the vocal folds",
+        "Tense the vocal cords",
+        "Elevate it"
+       ],
+       "answer": 3,
+       "explain": "The suprahyoid group (digastric, stylohyoid, geniohyoid, mylohyoid) are extrinsic muscles that elevate the larynx."
+      }
+     ]
+    },
+    {
+     "order": 45,
+     "why": "Infrahyoids (sternothyroid, omohyoid, thyrohyoid, sternohyoid) depress the larynx",
+     "questions": [
+      {
+       "q": "Which muscle is an infrahyoid muscle that depresses the larynx?",
+       "choices": [
+        "Sternothyroid",
+        "Mylohyoid",
+        "Stylohyoid",
+        "Geniohyoid"
+       ],
+       "answer": 0,
+       "explain": "The infrahyoid muscles (sternothyroid, omohyoid, thyrohyoid, sternohyoid) lie below the hyoid and depress the larynx."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resp-lower-respiratory-tract",
+   "title": "Anatomy of the Lower Respiratory Tract",
+   "week": 1,
+   "session": "1",
+   "stem": "181_Respiratory",
+   "items": [
+    {
+     "order": 69,
+     "why": "Trachea: cricoid to T5; U-shaped anterior/lateral rings; posterior trachealis",
+     "questions": [
+      {
+       "q": "At what vertebral level does the trachea bifurcate into the primary bronchi?",
+       "choices": [
+        "T2",
+        "T5",
+        "T8",
+        "C6"
+       ],
+       "answer": 1,
+       "explain": "The trachea begins at the cricoid cartilage, runs about 11 cm, and bifurcates at the fifth thoracic vertebra, at the carina."
+      },
+      {
+       "q": "What lies in the posterior wall of the trachea, where the cartilage rings are absent?",
+       "choices": [
+        "Cricoid cartilage",
+        "Plate-shaped cartilage",
+        "Trachealis muscle",
+        "Vestibular folds"
+       ],
+       "answer": 2,
+       "explain": "U-shaped cartilage rings cover the anterior and lateral trachea; the posterior wall is a fibrous membrane surrounding the trachealis muscle, against the esophagus."
+      }
+     ]
+    },
+    {
+     "order": 70,
+     "why": "Carina: tracheal bifurcation at T5",
+     "questions": [
+      {
+       "q": "At the carina, the trachea divides into which airways?",
+       "choices": [
+        "Superior and inferior lobar bronchi",
+        "Segmental bronchi",
+        "Terminal bronchioles",
+        "Right and left primary bronchi"
+       ],
+       "answer": 3,
+       "explain": "At the carina the trachea branches into the right and left primary (main) bronchi."
+      }
+     ]
+    },
+    {
+     "order": 71,
+     "why": "Primary bronchi: right wider and more vertical -> foreign bodies",
+     "questions": [
+      {
+       "q": "A 3-year-old aspirates a bead. Where is it most likely to lodge?",
+       "choices": [
+        "Right main bronchus",
+        "Left main bronchus",
+        "Trachea",
+        "Left lower lobe bronchus"
+       ],
+       "answer": 0,
+       "explain": "Foreign bodies usually lodge in the right main bronchus, which is wider and more vertical than the left."
+      },
+      {
+       "q": "Why does the left main bronchus branch from the trachea at a wider angle than the right?",
+       "choices": [
+        "The aortic arch is on the right",
+        "The heart sits on the left side",
+        "The left lung has three lobes",
+        "The esophagus lies on the left"
+       ],
+       "answer": 1,
+       "explain": "The left main bronchus is narrower and branches at a wider angle because the heart sits on the left side of the chest."
+      }
+     ]
+    },
+    {
+     "order": 72,
+     "why": "Lobar bronchi: 3 right, 2 left; plate cartilage, can collapse in forced expiration",
+     "questions": [
+      {
+       "q": "How many secondary (lobar) bronchi does the left lung have?",
+       "choices": [
+        "One",
+        "Three",
+        "Two",
+        "Four"
+       ],
+       "answer": 2,
+       "explain": "There is one lobar bronchus per lobe: the right lung has three lobes and lobar bronchi, the left lung two."
+      }
+     ]
+    },
+    {
+     "order": 73,
+     "why": "Segmental bronchi supply bronchopulmonary segments (surgically resectable)",
+     "questions": [
+      {
+       "q": "Each bronchopulmonary segment is supplied by its own pulmonary artery branch and which airway?",
+       "choices": [
+        "Primary bronchus",
+        "Secondary (lobar) bronchus",
+        "Terminal and respiratory bronchioles",
+        "Tertiary (segmental) bronchus"
+       ],
+       "answer": 3,
+       "explain": "A bronchopulmonary segment is a discrete unit supplied by its own segmental bronchus and pulmonary artery branch."
+      },
+      {
+       "q": "Why is the bronchopulmonary segment clinically important?",
+       "choices": [
+        "It can be resected without harming neighbors",
+        "It is the site of all gas exchange",
+        "It is supplied by the bronchial artery alone",
+        "It lacks any surrounding connective tissue"
+       ],
+       "answer": 0,
+       "explain": "The segment is the smallest functionally independent region of the lung, separated by connective tissue, so it can be surgically resected without affecting neighboring segments."
+      }
+     ]
+    },
+    {
+     "order": 79,
+     "why": "Apex above 1st rib into neck; base on diaphragm; root via hilum",
+     "questions": [
+      {
+       "q": "Superiorly, the apex of each lung extends to what level?",
+       "choices": [
+        "Level of the sternal angle",
+        "Root of the neck, above the first rib",
+        "Level of the jugular notch only",
+        "Level of the second costal cartilage anteriorly"
+       ],
+       "answer": 1,
+       "explain": "Superiorly each lung extends into the root of the neck just above the first rib; inferiorly the base rests on the diaphragm."
+      },
+      {
+       "q": "Which structure passes through the hilum in the root of the lung?",
+       "choices": [
+        "Phrenic nerve",
+        "Thoracic duct",
+        "Primary bronchus",
+        "Azygos vein"
+       ],
+       "answer": 2,
+       "explain": "The root, running through the hilum, contains the primary bronchus, pulmonary artery and vein, pulmonary plexus, and hilar lymphatics."
+      }
+     ]
+    },
+    {
+     "order": 75,
+     "why": "Right lung: superior, middle, inferior lobes",
+     "questions": []
+    },
+    {
+     "order": 76,
+     "why": "Left lung: superior and inferior lobes",
+     "questions": []
+    },
+    {
+     "order": 77,
+     "why": "Right lung: horizontal and oblique fissures",
+     "questions": [
+      {
+       "q": "In the right lung, the horizontal fissure separates the superior lobe from which lobe?",
+       "choices": [
+        "Inferior lobe only",
+        "Lingula",
+        "Azygos lobe",
+        "Middle lobe"
+       ],
+       "answer": 3,
+       "explain": "The horizontal fissure separates the right superior lobe from the middle lobe; the oblique fissure separates the inferior lobe."
+      }
+     ]
+    },
+    {
+     "order": 78,
+     "why": "Left lung: oblique fissure between superior and inferior lobes",
+     "questions": [
+      {
+       "q": "Which fissure separates the superior and inferior lobes of the left lung?",
+       "choices": [
+        "Oblique fissure",
+        "Horizontal fissure",
+        "Cardiac notch",
+        "Accessory fissure"
+       ],
+       "answer": 0,
+       "explain": "The left lung has only an oblique fissure, separating its superior and inferior lobes; it lacks a horizontal fissure."
+      }
+     ]
+    },
+    {
+     "order": 81,
+     "why": "Cardiac notch: deflection of anterior left lung accommodating heart",
+     "questions": [
+      {
+       "q": "What structure does the cardiac notch of the left lung accommodate?",
+       "choices": [
+        "Aortic arch",
+        "Heart",
+        "Esophagus",
+        "Left main bronchus"
+       ],
+       "answer": 1,
+       "explain": "The cardiac notch is a deflection of the anterior surface of the left lung that accommodates the heart."
+      }
+     ]
+    },
+    {
+     "order": 82,
+     "why": "Lingula: extension of left superior lobe, analog of right middle lobe",
+     "questions": [
+      {
+       "q": "The lingula is part of which lobe of the left lung?",
+       "choices": [
+        "Inferior lobe",
+        "Middle lobe",
+        "Superior lobe",
+        "Apical lobe"
+       ],
+       "answer": 2,
+       "explain": "The lingula ('little tongue') is an extension of the left superior lobe and is the analogue of the right middle lobe."
+      }
+     ]
+    },
+    {
+     "order": 66,
+     "why": "Pulmonary arteries carry deoxygenated blood from the right heart",
+     "questions": [
+      {
+       "q": "What kind of blood do the pulmonary arteries carry?",
+       "choices": [
+        "Oxygenated blood from the aorta",
+        "Oxygenated blood returning to the left atrium",
+        "Mixed blood from the azygos system",
+        "Deoxygenated blood from the right heart"
+       ],
+       "answer": 3,
+       "explain": "In the pulmonary circulation, deoxygenated blood moves from the right heart to the lungs via the pulmonary trunk and arteries."
+      }
+     ]
+    },
+    {
+     "order": 67,
+     "why": "Pulmonary veins return oxygenated blood to the left heart",
+     "questions": [
+      {
+       "q": "Oxygenated blood returns from the pulmonary capillaries to the heart via which vessels?",
+       "choices": [
+        "Pulmonary veins",
+        "Pulmonary arteries",
+        "Bronchial arteries",
+        "Azygos vein"
+       ],
+       "answer": 0,
+       "explain": "After gas exchange in the pulmonary capillaries, oxygenated blood returns to the left heart via the pulmonary veins."
+      }
+     ]
+    },
+    {
+     "order": 68,
+     "why": "Bronchial arteries (thoracic aorta): oxygenated blood for lung metabolism",
+     "questions": [
+      {
+       "q": "What is the main function of the bronchial arteries?",
+       "choices": [
+        "Carry deoxygenated blood for gas exchange",
+        "Supply lung tissue's metabolic needs",
+        "Remove carbon dioxide from blood",
+        "Drain the airways into the azygos"
+       ],
+       "answer": 1,
+       "explain": "The bronchial circulation supplies oxygenated blood for the lung's metabolic needs, not for gas exchange."
+      },
+      {
+       "q": "The bronchial arteries arise from which vessel?",
+       "choices": [
+        "Pulmonary trunk",
+        "Internal thoracic artery",
+        "Thoracic aorta",
+        "Subclavian artery"
+       ],
+       "answer": 2,
+       "explain": "Oxygenated blood flows into the bronchial arteries from the thoracic aorta to supply lung tissue and large airways."
+      }
+     ]
+    },
+    {
+     "order": 29,
+     "why": "Vagus: parasympathetic to pulmonary plexus -> bronchoconstriction, secretion",
+     "questions": [
+      {
+       "q": "Parasympathetic fibers carried to the pulmonary plexus by the vagus nerve cause which effect?",
+       "choices": [
+        "Bronchial muscle relaxation",
+        "Inhibition of glandular secretion",
+        "Pulmonary vasoconstriction",
+        "Bronchiolar muscle contraction"
+       ],
+       "answer": 3,
+       "explain": "Vagal parasympathetic efferents cause bronchiolar muscle contraction, glandular secretion, and vasodilation; sympathetic fibers do the opposite."
+      }
+     ]
+    },
+    {
+     "order": 80,
+     "why": "Visceral vs parietal pleura; parietal senses pain (somatic), visceral does not; pneumothorax",
+     "questions": [
+      {
+       "q": "Which pleural layer can sense pain?",
+       "choices": [
+        "Parietal pleura",
+        "Visceral pleura",
+        "Both layers equally",
+        "Neither layer"
+       ],
+       "answer": 0,
+       "explain": "The parietal pleura has somatic innervation (intercostal and phrenic nerves) and senses pain; the visceral pleura has only visceral afferents."
+      },
+      {
+       "q": "Loss of the negative pressure in the pleural space relative to the lung causes which condition?",
+       "choices": [
+        "Pleural effusion",
+        "Pneumothorax",
+        "Atelectasis of one segment",
+        "Bronchiectasis"
+       ],
+       "answer": 1,
+       "explain": "The pleural space is held at negative pressure to keep the lung inflated; disrupting that pressure difference produces a pneumothorax (collapsed lung)."
+      },
+      {
+       "q": "Where does the visceral pleura become continuous with the parietal pleura?",
+       "choices": [
+        "At the lung apex",
+        "At the costodiaphragmatic recess",
+        "At the lung hilum",
+        "At the cardiac notch"
+       ],
+       "answer": 2,
+       "explain": "The visceral pleura covers the lung and lines the fissures; at the hilum it is continuous with the parietal pleura lining the thoracic cavity."
+      }
+     ]
+    },
+    {
+     "order": 74,
+     "why": "Costodiaphragmatic recess: effusions collect here; blunted angle on x-ray",
+     "questions": [
+      {
+       "q": "On an upright chest x-ray, a pleural effusion first blunts the angle at which space?",
+       "choices": [
+        "Cardiac notch",
+        "Oblique fissure",
+        "Lung hilum",
+        "Costodiaphragmatic recess"
+       ],
+       "answer": 3,
+       "explain": "Costal and diaphragmatic parietal pleura meet at the costodiaphragmatic recess, where pleural fluid accumulates and blunts the normally sharp angle."
+      }
+     ]
+    },
+    {
+     "order": 51,
+     "why": "Phrenic n. carries diaphragmatic parietal pleura pain (C3-C4) -> shoulder",
+     "questions": [
+      {
+       "q": "Irritation of the diaphragmatic parietal pleura causes pain referred to the shoulder. Which nerve carries the pleural pain?",
+       "choices": [
+        "Phrenic nerve",
+        "Vagus nerve",
+        "Intercostal nerve T6",
+        "Greater splanchnic nerve"
+       ],
+       "answer": 0,
+       "explain": "Diaphragmatic parietal pleura pain travels via the phrenic nerve to C3-C4, which also supply the shoulder through supraclavicular nerves, so pain is referred there."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resp-diaphragm-ribs-intercostals",
+   "title": "Anatomy of the Diaphragm, Ribs, and Intercostal Muscles",
+   "week": 1,
+   "session": "1",
+   "stem": "181_Respiratory",
+   "items": [
+    {
+     "order": 50,
+     "why": "Diaphragm: contracts down in inspiration; openings T8/T10/T12; inferior phrenic aa.; rises to T5",
+     "questions": [
+      {
+       "q": "At which vertebral level does the esophagus pass through the diaphragm?",
+       "choices": [
+        "T8",
+        "T10",
+        "T12",
+        "L1"
+       ],
+       "answer": 1,
+       "explain": "'I ate ten eggs at twelve': the IVC passes at T8, the esophagus at T10, and the aorta at T12."
+      },
+      {
+       "q": "Which arteries provide the main blood supply to the diaphragm?",
+       "choices": [
+        "Musculophrenic arteries",
+        "Pericardiacophrenic arteries",
+        "Inferior phrenic arteries",
+        "Superior phrenic arteries"
+       ],
+       "answer": 2,
+       "explain": "The diaphragm is supplied primarily from below by the inferior phrenic arteries, direct branches of the abdominal aorta."
+      },
+      {
+       "q": "A chest tube must avoid the diaphragm and liver. Since the diaphragm can rise to T5 in expiration, it should go in which space?",
+       "choices": [
+        "7th intercostal space, midaxillary line",
+        "9th intercostal space",
+        "11th intercostal space",
+        "5th intercostal space or higher"
+       ],
+       "answer": 3,
+       "explain": "During forced expiration the dome can move up to about T5, so a tube placed lower risks the abdomen; the 5th intercostal space or higher is used."
+      }
+     ]
+    },
+    {
+     "order": 51,
+     "why": "Phrenic n. (C3-C5): diaphragm motor + central sensory; trauma -> hemidiaphragm paralysis",
+     "questions": [
+      {
+       "q": "Which spinal cord segments give rise to the phrenic nerve?",
+       "choices": [
+        "C3-C5",
+        "C1-C3",
+        "C5-C7",
+        "T1-T2"
+       ],
+       "answer": 0,
+       "explain": "Diaphragm motor innervation comes from C3, C4, and C5, which form the phrenic nerve."
+      },
+      {
+       "q": "After neck trauma, a patient has paralysis of the left hemidiaphragm. Which nerve was most likely injured?",
+       "choices": [
+        "Left vagus nerve",
+        "Left phrenic nerve",
+        "Left intercostal nerve",
+        "Left recurrent laryngeal nerve"
+       ],
+       "answer": 1,
+       "explain": "Each phrenic nerve supplies its own half of the diaphragm; phrenic nerve trauma is the most common cause of unilateral hemidiaphragm paralysis."
+      },
+      {
+       "q": "Sensation from the peripheral diaphragm is carried by which nerves?",
+       "choices": [
+        "Phrenic nerves",
+        "Vagus nerves",
+        "Intercostal and subcostal nerves",
+        "Greater and lesser splanchnic nerves"
+       ],
+       "answer": 2,
+       "explain": "Sensation from the central diaphragm travels in the phrenic nerve, but the periphery is served by the intercostal and subcostal nerves."
+      }
+     ]
+    },
+    {
+     "order": 60,
+     "why": "Xiphoid: lowest sternum; anterior diaphragm attachment",
+     "questions": [
+      {
+       "q": "Anteriorly, the diaphragm attaches to which part of the sternum?",
+       "choices": [
+        "Manubrium",
+        "Sternal angle",
+        "Jugular notch",
+        "Xiphoid process"
+       ],
+       "answer": 3,
+       "explain": "Anteriorly the diaphragm attaches to the bottom of the sternum, the xiphoid process."
+      }
+     ]
+    },
+    {
+     "order": 62,
+     "why": "True ribs 1-7 attach directly to sternum via own costal cartilages",
+     "questions": [
+      {
+       "q": "Which ribs are true ribs?",
+       "choices": [
+        "Ribs 1-7",
+        "Ribs 1-5",
+        "Ribs 8-10",
+        "Ribs 1-10"
+       ],
+       "answer": 0,
+       "explain": "Ribs 1-7 articulate directly with the sternum via their own costal cartilages and are classified as true ribs."
+      }
+     ]
+    },
+    {
+     "order": 63,
+     "why": "False ribs 8-10: indirect via cartilage above; form costal margin",
+     "questions": [
+      {
+       "q": "Why are ribs 8-10 called false ribs?",
+       "choices": [
+        "They have no anterior attachment at all",
+        "They reach the sternum via cartilage above",
+        "They do not articulate with vertebrae",
+        "Their cartilages join the xiphoid directly"
+       ],
+       "answer": 1,
+       "explain": "Ribs 8, 9, and 10 articulate with the sternum only indirectly through the costal cartilages of the ribs above; they form the costal margin."
+      }
+     ]
+    },
+    {
+     "order": 64,
+     "why": "Floating ribs 11-12: no anterior attachment",
+     "questions": [
+      {
+       "q": "Which ribs are floating ribs?",
+       "choices": [
+        "Ribs 8 and 9",
+        "Ribs 9 and 10",
+        "Ribs 11 and 12",
+        "Ribs 1 and 2"
+       ],
+       "answer": 2,
+       "explain": "Ribs 11 and 12 are floating ribs because they do not attach to the rest of the rib cage anteriorly."
+      }
+     ]
+    },
+    {
+     "order": 65,
+     "why": "Costal cartilages: rib-sternum link; diaphragm attaches to lowest 6 and their cartilages",
+     "questions": [
+      {
+       "q": "The costal part of the diaphragm attaches laterally to which structures?",
+       "choices": [
+        "Upper six ribs and their costal cartilages",
+        "Ribs 1-7 and the manubrium",
+        "Floating ribs only",
+        "Lowest six ribs and costal cartilages"
+       ],
+       "answer": 3,
+       "explain": "Laterally the diaphragm attaches directly to the lowest six ribs and their costal cartilages, forming its costal part."
+      }
+     ]
+    },
+    {
+     "order": 56,
+     "why": "Manubrium: upper sternum, meets body at sternal angle",
+     "questions": []
+    },
+    {
+     "order": 57,
+     "why": "Body of sternum: meets manubrium at sternal angle",
+     "questions": []
+    },
+    {
+     "order": 59,
+     "why": "Sternal angle: manubrium-body junction",
+     "questions": [
+      {
+       "q": "The sternal angle marks the junction of which two parts of the sternum?",
+       "choices": [
+        "Manubrium and body",
+        "Body and xiphoid process",
+        "Manubrium and xiphoid",
+        "Clavicle and manubrium"
+       ],
+       "answer": 0,
+       "explain": "The sternum consists of manubrium, body, and xiphoid process; the manubrium and body meet at the sternal angle."
+      }
+     ]
+    },
+    {
+     "order": 58,
+     "why": "Jugular notch: palpable midline landmark at superior sternum",
+     "questions": [
+      {
+       "q": "Which palpable midline landmark lies at the superior border of the sternum?",
+       "choices": [
+        "Sternal angle",
+        "Jugular notch",
+        "Xiphoid process",
+        "Costal margin"
+       ],
+       "answer": 1,
+       "explain": "The jugular notch is a palpable midline landmark at the superior border of the sternum."
+      }
+     ]
+    },
+    {
+     "order": 61,
+     "why": "SC joint: clavicular notches of sternum with clavicles",
+     "questions": [
+      {
+       "q": "The sternoclavicular joint is formed by the clavicle and which sternal feature?",
+       "choices": [
+        "Jugular notch",
+        "Costal notch of rib 2",
+        "Clavicular notch",
+        "Xiphisternal junction"
+       ],
+       "answer": 2,
+       "explain": "The clavicular notches of the sternum articulate with the clavicles to form the sternoclavicular joints."
+      }
+     ]
+    },
+    {
+     "order": 54,
+     "why": "Posterior intercostals: 1-2 from supreme intercostal, rest from aorta; costal groove",
+     "questions": [
+      {
+       "q": "The first and second posterior intercostal arteries arise from which vessel?",
+       "choices": [
+        "Thoracic aorta directly",
+        "Internal thoracic artery",
+        "Musculophrenic artery",
+        "Supreme intercostal artery"
+       ],
+       "answer": 3,
+       "explain": "The first two posterior intercostals arise from the supreme intercostal artery off the costocervical trunk; the rest branch directly from the aorta."
+      },
+      {
+       "q": "Where do the intercostal vessels run relative to each rib?",
+       "choices": [
+        "Costal groove at the lower edge",
+        "Along the upper border of the rib",
+        "Through the rib's marrow",
+        "Deep to the parietal pleura only"
+       ],
+       "answer": 0,
+       "explain": "The posterior and anterior intercostal vessels travel together beneath the lower edge of each rib in the costal groove."
+      }
+     ]
+    },
+    {
+     "order": 53,
+     "why": "Anterior intercostals: from internal thoracic, upper six spaces",
+     "questions": [
+      {
+       "q": "From which artery do the anterior intercostal arteries of the upper six spaces arise?",
+       "choices": [
+        "External thoracic artery",
+        "Internal thoracic artery",
+        "Thoracic aorta",
+        "Supreme intercostal artery"
+       ],
+       "answer": 1,
+       "explain": "Anterior intercostals branch from the internal thoracic artery and supply the upper six intercostal spaces."
+      }
+     ]
+    },
+    {
+     "order": 52,
+     "why": "Internal thoracic a.: anterior intercostals, musculophrenic; CABG graft",
+     "questions": [
+      {
+       "q": "Which artery is preferred for coronary bypass grafting because it resists atherosclerosis?",
+       "choices": [
+        "Musculophrenic artery",
+        "Superior epigastric artery",
+        "Internal thoracic artery",
+        "Posterior intercostal artery"
+       ],
+       "answer": 2,
+       "explain": "The internal thoracic artery is resistant to atherosclerosis, making it a reliable conduit for bypassing blocked coronary arteries."
+      },
+      {
+       "q": "The musculophrenic artery, supplying intercostal spaces 7-9, is a terminal branch of which artery?",
+       "choices": [
+        "Inferior phrenic artery",
+        "Thoracic aorta",
+        "Costocervical trunk",
+        "Internal thoracic artery"
+       ],
+       "answer": 3,
+       "explain": "The musculophrenic artery, a terminal branch of the internal thoracic, supplies intercostal branches to the 7th-9th spaces."
+      }
+     ]
+    },
+    {
+     "order": 46,
+     "why": "External intercostals: elevate ribs in inspiration",
+     "questions": [
+      {
+       "q": "Which intercostal layer elevates the ribs to assist inspiration?",
+       "choices": [
+        "External intercostal",
+        "Internal intercostal",
+        "Innermost intercostal",
+        "Transversus thoracis"
+       ],
+       "answer": 0,
+       "explain": "External intercostals run from the posterior aspect of one rib to the anterior aspect of the rib below, so their contraction elevates the ribs."
+      }
+     ]
+    },
+    {
+     "order": 47,
+     "why": "Internal intercostals: decrease thoracic volume in expiration",
+     "questions": [
+      {
+       "q": "Contraction of the internal intercostal muscles mainly does what?",
+       "choices": [
+        "Elevates the ribs to increase thoracic volume",
+        "Decreases thoracic volume in expiration",
+        "Lowers the dome of the diaphragm",
+        "Lifts the first rib in inspiration"
+       ],
+       "answer": 1,
+       "explain": "Internal intercostals directly connect the ribs, so contraction shortens the distance between them and decreases thoracic volume during expiration."
+      }
+     ]
+    },
+    {
+     "order": 48,
+     "why": "Innermost intercostals assist internal intercostals in forced expiration",
+     "questions": [
+      {
+       "q": "The innermost intercostal muscles assist which other muscles, and in which phase?",
+       "choices": [
+        "External intercostals, quiet inspiration",
+        "Diaphragm, quiet inspiration",
+        "Internal intercostals, forced expiration",
+        "Scalenes, forced inspiration"
+       ],
+       "answer": 2,
+       "explain": "Contraction of the innermost intercostals assists the internal intercostals during forced expiration."
+      }
+     ]
+    },
+    {
+     "order": 49,
+     "why": "Accessory: scalenes, pecs, SCM in forced inspiration; abdominal wall in forced expiration",
+     "questions": [
+      {
+       "q": "During an asthma attack, a patient's abdominal muscles contract with each breath. How do they help?",
+       "choices": [
+        "Lift the chest wall upward",
+        "Let the diaphragm contract fully downward",
+        "Stop intercostal retractions",
+        "Push the diaphragm up in expiration"
+       ],
+       "answer": 3,
+       "explain": "In respiratory distress the anterior abdominal wall muscles contract in forced expiration, pushing abdominal contents up against the diaphragm."
+      },
+      {
+       "q": "Which muscle is an accessory muscle of forced inspiration?",
+       "choices": [
+        "Sternocleidomastoid",
+        "Rectus abdominis",
+        "Internal intercostal",
+        "Transversus abdominis"
+       ],
+       "answer": 0,
+       "explain": "The scalenes, pectoralis major and minor, and sternocleidomastoid elevate the rib cage in forced inspiration; abdominal muscles act in forced expiration."
+      },
+      {
+       "q": "A patient in respiratory distress sits in the tripod position. Which muscles does this posture let help lift the chest wall?",
+       "choices": [
+        "Rectus abdominis",
+        "Pectoralis muscles",
+        "Internal intercostals",
+        "External obliques"
+       ],
+       "answer": 1,
+       "explain": "In the tripod position, with arms fixed on the legs, the pectoralis muscles can lift the chest wall and assist inspiratory effort."
+      }
+     ]
+    },
+    {
+     "order": 55,
+     "why": "Intercostal nn. T1-T11 in costal groove (VAN); needle above the lower rib",
+     "questions": [
+      {
+       "q": "During thoracentesis, where should the needle enter to avoid the intercostal neurovascular bundle?",
+       "choices": [
+        "Just below the lower border of the upper rib",
+        "Through the middle of the rib body",
+        "Just above the upper border of the lower rib",
+        "At the costal groove of the lower rib"
+       ],
+       "answer": 2,
+       "explain": "The intercostal VAN runs in the costal groove along the inferior border of each rib, so the needle is inserted just above the upper border of the rib below."
+      },
+      {
+       "q": "A needle placed too close to the inferior border of a rib injures the intercostal nerve. What is the most likely result?",
+       "choices": [
+        "Paralysis of the ipsilateral hemidiaphragm",
+        "Hoarseness of the voice",
+        "Loss of the cough reflex",
+        "Dermatomal pain or paresthesia"
+       ],
+       "answer": 3,
+       "explain": "Intercostal nerve injury causes sharp radiating chest wall pain, sensory loss, or paresthesia along the corresponding dermatome."
+      }
+     ]
+    },
+    {
+     "order": 74,
+     "why": "Thoracentesis at 7th-9th ICS midaxillary line to reach costodiaphragmatic recess",
+     "questions": [
+      {
+       "q": "Thoracentesis is most commonly done in the midaxillary line at which intercostal spaces to reach the costodiaphragmatic recess?",
+       "choices": [
+        "7th-9th",
+        "2nd-3rd",
+        "4th-5th",
+        "10th-12th"
+       ],
+       "answer": 0,
+       "explain": "Thoracentesis is most commonly performed in the midaxillary line at the 7th-9th intercostal space to access the costodiaphragmatic recess."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1533 @@
+{
+ "subject": "cv",
+ "bricks": [
+  {
+   "id": "cv-mediastinum-1",
+   "title": "Mediastinum (Part 1 of 2)",
+   "week": 1,
+   "session": "1",
+   "stem": "183_CV",
+   "items": [
+    {
+     "order": 1,
+     "why": "Arch gives 3 branches; lies posterior to manubrium; L vagus crosses it, L RLN loops under it.",
+     "questions": [
+      {
+       "q": "Which nerve loops under the aortic arch?",
+       "choices": [
+        "Right recurrent laryngeal nerve",
+        "Left phrenic nerve",
+        "Left recurrent laryngeal nerve",
+        "Left greater splanchnic nerve"
+       ],
+       "answer": 2,
+       "explain": "The left vagus crosses anterior to the aortic arch and gives off the left recurrent laryngeal nerve, which loops under the arch near the ligamentum arteriosum."
+      },
+      {
+       "q": "In the superior mediastinum, the aortic arch and its branches lie in what position relative to the sternum (manubrium)?",
+       "choices": [
+        "Posterior",
+        "Anterior",
+        "Lateral",
+        "Inferior"
+       ],
+       "answer": 0,
+       "explain": "The aortic arch and its branches are positioned posterior to the sternum, deep to the manubrium, above the sternal angle."
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "why": "First arch branch; divides into R common carotid + R subclavian.",
+     "questions": [
+      {
+       "q": "The brachiocephalic trunk divides into which two arteries?",
+       "choices": [
+        "Right and left common carotid arteries",
+        "Right subclavian and right internal thoracic",
+        "Right common carotid and right vertebral",
+        "Right common carotid and right subclavian"
+       ],
+       "answer": 3,
+       "explain": "The brachiocephalic artery divides into the right common carotid and right subclavian arteries, supplying the right head, neck and right upper limb."
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "why": "Branch of brachiocephalic trunk; right head and neck.",
+     "questions": [
+      {
+       "q": "The right common carotid artery arises from which vessel?",
+       "choices": [
+        "Aortic arch directly",
+        "Brachiocephalic trunk",
+        "Right subclavian artery",
+        "Ascending aorta"
+       ],
+       "answer": 1,
+       "explain": "Unlike the left common carotid (a direct arch branch), the right common carotid comes off the brachiocephalic trunk."
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "why": "Branch of brachiocephalic trunk; R RLN hooks under it; right upper limb.",
+     "questions": [
+      {
+       "q": "What does the right subclavian artery primarily supply?",
+       "choices": [
+        "Right side of the head and neck",
+        "Right upper limb",
+        "Left upper limb",
+        "Right posterior thoracic wall"
+       ],
+       "answer": 1,
+       "explain": "The brachiocephalic trunk's right subclavian branch supplies the right upper limb; the right common carotid supplies the right head and neck."
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "why": "Direct arch branch; left head and neck; L phrenic descends between it and L subclavian.",
+     "questions": [
+      {
+       "q": "Which region does the left common carotid artery supply?",
+       "choices": [
+        "Left upper limb",
+        "Right side of the head and neck",
+        "Left posterior thoracic wall",
+        "Left side of the head and neck"
+       ],
+       "answer": 3,
+       "explain": "The left common carotid artery is the second arch branch and supplies the left side of the head and neck."
+      },
+      {
+       "q": "Which nerve descends between the left common carotid and left subclavian arteries?",
+       "choices": [
+        "Left phrenic nerve",
+        "Left recurrent laryngeal nerve",
+        "Right phrenic nerve",
+        "Greater splanchnic nerve"
+       ],
+       "answer": 0,
+       "explain": "The left phrenic nerve descends between the left subclavian and left common carotid arteries, then crosses the left side of the arch anterior to the left vagus."
+      }
+     ]
+    },
+    {
+     "order": 13,
+     "why": "Third arch branch; left upper limb.",
+     "questions": [
+      {
+       "q": "The left subclavian artery mainly supplies which region?",
+       "choices": [
+        "Left side of the head and neck",
+        "Right upper limb",
+        "Left upper limb",
+        "Anterior thoracic wall"
+       ],
+       "answer": 2,
+       "explain": "The left subclavian artery, the third branch of the aortic arch, supplies the left upper limb."
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "why": "Formed by R + L brachiocephalic veins; drains upper body to RA; SVC syndrome.",
+     "questions": [
+      {
+       "q": "The superior vena cava is formed by the union of which veins?",
+       "choices": [
+        "Right brachiocephalic and azygos veins",
+        "Right and left internal jugular veins",
+        "Left brachiocephalic and hemiazygos veins",
+        "Right and left brachiocephalic veins"
+       ],
+       "answer": 3,
+       "explain": "The SVC is formed by the union of the right and left brachiocephalic veins and drains the upper body into the right atrium."
+      },
+      {
+       "q": "A mass in the superior mediastinum compresses the SVC. Which presentation is most expected?",
+       "choices": [
+        "Leg swelling and distended abdominal veins",
+        "Milky pleural effusion of chylomicrons",
+        "Facial swelling and distended chest veins",
+        "Dysphagia from esophageal narrowing"
+       ],
+       "answer": 2,
+       "explain": "SVC syndrome raises upper-body venous pressure: facial and neck swelling, distended chest wall veins, and a widened mediastinum on imaging."
+      }
+     ]
+    },
+    {
+     "order": 16,
+     "why": "Unite to form SVC; drain head, neck, upper limbs.",
+     "questions": [
+      {
+       "q": "The brachiocephalic veins drain blood from which regions?",
+       "choices": [
+        "Lower limbs, pelvis, and abdomen",
+        "Head, neck, and upper limbs",
+        "Right posterior thoracic wall",
+        "Myocardium of the ventricles"
+       ],
+       "answer": 1,
+       "explain": "Brachio = arm, cephalic = head: the brachiocephalic veins drain the head, neck and upper limbs and join to form the SVC."
+      }
+     ]
+    },
+    {
+     "order": 24,
+     "why": "Drains right posterior thoracic wall into the SVC.",
+     "questions": [
+      {
+       "q": "The azygos vein empties into which vessel?",
+       "choices": [
+        "Superior vena cava",
+        "Inferior vena cava",
+        "Left brachiocephalic vein",
+        "Coronary sinus"
+       ],
+       "answer": 0,
+       "explain": "The azygos vein drains the right posterior thoracic wall and arches forward to empty into the SVC."
+      }
+     ]
+    },
+    {
+     "order": 44,
+     "why": "Parasympathetic to heart/lungs; R vagus behind SVC + R bronchus; L vagus anterior to arch; medial to phrenic.",
+     "questions": [
+      {
+       "q": "Vagal (parasympathetic) input to the heart has what effect?",
+       "choices": [
+        "Speeds the heart rate",
+        "Raises contractile force",
+        "Slows the heart rate",
+        "Dilates the coronaries"
+       ],
+       "answer": 2,
+       "explain": "The vagus nerve provides parasympathetic innervation to the heart (slows heart rate) and lungs (bronchoconstriction)."
+      },
+      {
+       "q": "Compared with the phrenic nerves, where do the vagus nerves lie in the superior mediastinum?",
+       "choices": [
+        "More medial",
+        "More lateral",
+        "More anterior",
+        "More superficial"
+       ],
+       "answer": 0,
+       "explain": "The vagus nerves are more medial because they head into the middle mediastinum to innervate the heart, airways and esophagus; the phrenic nerves stay lateral on the pericardial sac."
+      },
+      {
+       "q": "The right vagus nerve runs posterior to which structures?",
+       "choices": [
+        "Aortic arch and left bronchus",
+        "Right atrium and IVC",
+        "Left subclavian and left carotid",
+        "SVC and right primary bronchus"
+       ],
+       "answer": 3,
+       "explain": "The right vagus runs posterior to the SVC and right primary bronchus; the left vagus crosses anterior to the aortic arch."
+      }
+     ]
+    },
+    {
+     "order": 45,
+     "why": "Branch of R vagus; hooks under R subclavian; supplies larynx; injury -> hoarseness.",
+     "questions": [
+      {
+       "q": "The right recurrent laryngeal nerve loops under which artery?",
+       "choices": [
+        "Brachiocephalic trunk",
+        "Right subclavian artery",
+        "Right common carotid artery",
+        "Aortic arch"
+       ],
+       "answer": 1,
+       "explain": "The right RLN wraps under the right subclavian artery, while the left RLN loops under the aortic arch."
+      },
+      {
+       "q": "A patient develops new hoarseness after a thyroidectomy. Injury to this nerve best explains it because it supplies...",
+       "choices": [
+        "The diaphragm",
+        "Most laryngeal muscles",
+        "The pharyngeal mucosa",
+        "The thyroid gland"
+       ],
+       "answer": 1,
+       "explain": "The recurrent laryngeal nerves supply most of the muscles of the larynx, controlling the vocal cords; injury paralyzes a cord and causes a hoarse voice."
+      }
+     ]
+    },
+    {
+     "order": 46,
+     "why": "Branch of L vagus; loops under arch at ligamentum arteriosum; PDA ligation / tumor -> hoarseness.",
+     "questions": [
+      {
+       "q": "The left recurrent laryngeal nerve hooks under the aortic arch next to which structure?",
+       "choices": [
+        "Thoracic duct",
+        "Azygos vein",
+        "Left phrenic nerve",
+        "Ligamentum arteriosum"
+       ],
+       "answer": 3,
+       "explain": "The left RLN passes under the aortic arch near the ligamentum arteriosum, which is why PDA ligation can injure it."
+      },
+      {
+       "q": "A lung tumor invading the region beneath the aortic arch causes a hoarse voice. Which other nerve injury could produce the same deficit?",
+       "choices": [
+        "Left vagus nerve above its RLN branch",
+        "Left phrenic nerve near the pericardium",
+        "Left greater splanchnic nerve",
+        "Left sympathetic trunk at T5"
+       ],
+       "answer": 0,
+       "explain": "Injury to a vagus nerve proximal to its recurrent laryngeal branch has the same effect as RLN injury: vocal cord paralysis and hoarseness."
+      }
+     ]
+    },
+    {
+     "order": 47,
+     "why": "C3-C5; anterior to lung root along lateral pericardium; motor to diaphragm, sensory to pericardium.",
+     "questions": [
+      {
+       "q": "From which spinal nerve roots does the phrenic nerve arise?",
+       "choices": [
+        "C5-C7",
+        "C1-C3",
+        "C3-C5",
+        "T1-T4"
+       ],
+       "answer": 2,
+       "explain": "The phrenic nerve arises from C3-C5; injury above this level paralyzes the diaphragm and prevents spontaneous breathing."
+      },
+      {
+       "q": "Below the superior mediastinum, the phrenic nerves descend in what relation to the lung root?",
+       "choices": [
+        "Posterior to it",
+        "Through its hilum",
+        "Inferior to it",
+        "Anterior to it"
+       ],
+       "answer": 3,
+       "explain": "The phrenic nerves descend anterior to the root of the lungs along the lateral fibrous pericardium; the vagus nerves pass posterior to the lung root."
+      },
+      {
+       "q": "Besides motor supply to the diaphragm, the phrenic nerves carry sensory fibers from which structure?",
+       "choices": [
+        "Larynx",
+        "Esophagus",
+        "Pericardium",
+        "Thymus"
+       ],
+       "answer": 2,
+       "explain": "The phrenic nerves provide sensory innervation to the pericardium and to the peritoneum on the underside of the diaphragm."
+      }
+     ]
+    },
+    {
+     "order": 50,
+     "why": "Anterior to esophagus in superior mediastinum; tumor compression -> cough.",
+     "questions": [
+      {
+       "q": "In the superior mediastinum, the trachea lies in what relation to the esophagus?",
+       "choices": [
+        "Posterior to it",
+        "Anterior to it",
+        "To its left",
+        "To its right"
+       ],
+       "answer": 1,
+       "explain": "The trachea lies anterior to the esophagus, which rests in the groove of the posterior trachea."
+      }
+     ]
+    },
+    {
+     "order": 52,
+     "why": "Rests in the posterior tracheal groove; passes into posterior mediastinum.",
+     "questions": []
+    },
+    {
+     "order": 55,
+     "why": "Remnant of ductus arteriosus (pulmonary trunk to aorta); PDA -> L-to-R shunt.",
+     "questions": [
+      {
+       "q": "The ligamentum arteriosum is the remnant of which fetal structure?",
+       "choices": [
+        "Ductus arteriosus",
+        "Foramen ovale",
+        "Ductus venosus",
+        "Umbilical vein"
+       ],
+       "answer": 0,
+       "explain": "The ligamentum arteriosum is the fibrous remnant of the fetal ductus arteriosus, which normally closes after birth."
+      },
+      {
+       "q": "A patent ductus arteriosus produces which type of shunt?",
+       "choices": [
+        "Right-to-left, pulmonary artery to aorta",
+        "Left-to-right, left to right atrium",
+        "Left-to-right, aorta to pulmonary artery",
+        "Right-to-left, right to left atrium"
+       ],
+       "answer": 2,
+       "explain": "A PDA connects the aorta to the pulmonary artery, creating a left-to-right shunt that increases pulmonary blood flow and risks heart failure."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cv-mediastinum-2",
+   "title": "Mediastinum (Part 2 of 2)",
+   "week": 1,
+   "session": "1",
+   "stem": "183_CV",
+   "items": [
+    {
+     "order": 54,
+     "why": "Landmark: anterior mediastinum lies anterior to the sac, posterior mediastinum posterior to it.",
+     "questions": [
+      {
+       "q": "The posterior mediastinum is defined as the region posterior to which structure?",
+       "choices": [
+        "Pericardial sac",
+        "Sternal angle",
+        "Vertebral column",
+        "Diaphragm"
+       ],
+       "answer": 0,
+       "explain": "The anterior mediastinum lies anterior to the pericardial sac and the posterior mediastinum lies posterior to it."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "why": "Posterior mediastinum; gives posterior intercostal arteries; lies posterior to esophagus.",
+     "questions": [
+      {
+       "q": "The descending (thoracic) aorta gives rise to which arteries?",
+       "choices": [
+        "Anterior intercostal arteries",
+        "Internal thoracic artery branches",
+        "Common carotid arteries",
+        "Posterior intercostal arteries"
+       ],
+       "answer": 3,
+       "explain": "The descending aorta is the thoracic portion of the aorta in the posterior mediastinum and gives rise to the posterior intercostal arteries."
+      },
+      {
+       "q": "Which structure lies posterior to the esophagus in the posterior mediastinum?",
+       "choices": [
+        "Left atrium",
+        "Descending aorta",
+        "Thymus",
+        "Left main bronchus"
+       ],
+       "answer": 1,
+       "explain": "The descending aorta is posterior to the esophagus; the heart (left atrium), thymus and bronchi are anterior to it."
+      },
+      {
+       "q": "A patient with chronic dysphagia has a barium swallow showing extrinsic narrowing of the thoracic esophagus. Which vascular lesion is a recognized cause?",
+       "choices": [
+        "Azygos vein thrombosis",
+        "Thoracic aortic aneurysm",
+        "Pulmonary artery dilation",
+        "Coronary sinus dilation"
+       ],
+       "answer": 1,
+       "explain": "Although uncommon, a thoracic aortic aneurysm can compress the esophagus and cause abnormal narrowing and chronic dysphagia."
+      }
+     ]
+    },
+    {
+     "order": 24,
+     "why": "Azygos system drains thoracic wall; alternative pathway to IVC; thoracic duct lies between azygos and esophagus.",
+     "questions": [
+      {
+       "q": "The azygos system can serve as an alternative venous pathway for which vessel?",
+       "choices": [
+        "Pulmonary trunk",
+        "Coronary sinus",
+        "Internal jugular vein",
+        "Inferior vena cava"
+       ],
+       "answer": 3,
+       "explain": "The azygos, hemiazygos and accessory hemiazygos veins drain the thoracic wall and can function as an alternative pathway to the IVC."
+      },
+      {
+       "q": "During ligation for chylothorax, the surgeon finds the thoracic duct between the azygos vein and which structure?",
+       "choices": [
+        "Esophagus",
+        "Trachea",
+        "Pericardial sac",
+        "Sympathetic trunk"
+       ],
+       "answer": 0,
+       "explain": "The thoracic duct (the 'duck between two gooses') lies between the azygos vein and esophagus, with the aorta posterior."
+      }
+     ]
+    },
+    {
+     "order": 26,
+     "why": "Part of azygos system; drains thoracic wall.",
+     "questions": [
+      {
+       "q": "The accessory hemiazygos vein receives venous blood mainly from which region?",
+       "choices": [
+        "Myocardium",
+        "Head, neck, and arms",
+        "Thoracic wall",
+        "Upper limb"
+       ],
+       "answer": 2,
+       "explain": "The azygos system (azygos, accessory hemiazygos and hemiazygos veins) receives venous blood from the thoracic wall."
+      }
+     ]
+    },
+    {
+     "order": 25,
+     "why": "Part of azygos system; drains thoracic wall.",
+     "questions": []
+    },
+    {
+     "order": 48,
+     "why": "Ganglionated chain beside vertebral column; fight-or-flight.",
+     "questions": [
+      {
+       "q": "Which best describes the thoracic sympathetic trunk?",
+       "choices": [
+        "Plexus wrapping around the aortic arch",
+        "Cranial nerve trunk on the esophagus",
+        "Nerve along the lateral pericardium",
+        "Ganglionated chain by the vertebrae"
+       ],
+       "answer": 3,
+       "explain": "The thoracic sympathetic trunk is a ganglionated chain on each side of the vertebral column in the posterior mediastinum."
+      },
+      {
+       "q": "Activation of the sympathetic trunk would be expected to cause which change?",
+       "choices": [
+        "Decreased heart rate",
+        "Bronchoconstriction",
+        "Increased heart rate",
+        "Increased gut motility"
+       ],
+       "answer": 2,
+       "explain": "The sympathetic trunk drives the fight-or-flight response, regulating heart rate, blood pressure and digestion (raising heart rate, slowing digestion)."
+      }
+     ]
+    },
+    {
+     "order": 49,
+     "why": "From T5-T9 ganglia; preganglionic sympathetics through diaphragm to preaortic ganglia.",
+     "questions": [
+      {
+       "q": "The greater thoracic splanchnic nerve originates from which sympathetic ganglia?",
+       "choices": [
+        "T10-T11",
+        "T5-T9",
+        "T1-T4",
+        "T12-L2"
+       ],
+       "answer": 1,
+       "explain": "The greater splanchnic nerve arises from the medial branches of the 5th-9th thoracic sympathetic ganglia; the lesser arises from T10-T11."
+      },
+      {
+       "q": "Which fiber type does the greater splanchnic nerve carry into the abdomen?",
+       "choices": [
+        "Preganglionic sympathetic",
+        "Postganglionic sympathetic",
+        "Preganglionic parasympathetic",
+        "Somatic motor"
+       ],
+       "answer": 0,
+       "explain": "Thoracic splanchnic nerves carry presynaptic (preganglionic) sympathetic fibers from the sympathetic trunk into the abdomen."
+      },
+      {
+       "q": "After traversing the diaphragm, the greater splanchnic nerve synapses in which ganglia?",
+       "choices": [
+        "Paravertebral (sympathetic chain)",
+        "Dorsal root",
+        "Preaortic (prevertebral)",
+        "Cervical sympathetic"
+       ],
+       "answer": 2,
+       "explain": "The splanchnic nerves pass through the diaphragm to reach the preaortic (prevertebral) ganglia for sympathetic innervation of abdominal structures."
+      }
+     ]
+    },
+    {
+     "order": 52,
+     "why": "Posterior to LA, anterior to vertebrae; constrictions at aortic arch, L main bronchus, diaphragm.",
+     "questions": [
+      {
+       "q": "The thoracic esophagus lies directly posterior to which heart chamber?",
+       "choices": [
+        "Left atrium",
+        "Left ventricle",
+        "Right atrium",
+        "Right ventricle"
+       ],
+       "answer": 0,
+       "explain": "The esophagus courses vertically directly posterior to the left atrium and anterior to the vertebral column."
+      },
+      {
+       "q": "On barium swallow, which three structures normally indent the thoracic esophagus?",
+       "choices": [
+        "Aortic arch, right main bronchus, diaphragm",
+        "Azygos arch, left main bronchus, diaphragm",
+        "Aortic arch, left main bronchus, pericardium",
+        "Aortic arch, left main bronchus, diaphragm"
+       ],
+       "answer": 3,
+       "explain": "The thoracic esophagus is compressed by the arch of the aorta, the left main bronchus and the diaphragm; these impressions appear as it fills."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cv-heart-anatomy",
+   "title": "Anatomy of the Heart",
+   "week": 1,
+   "session": "1",
+   "stem": "183_CV",
+   "items": [
+    {
+     "order": 27,
+     "why": "Receives SVC, IVC, coronary sinus; forms right border of cardiac silhouette.",
+     "questions": [
+      {
+       "q": "Which vessels empty into the right atrium?",
+       "choices": [
+        "SVC, IVC, and pulmonary veins",
+        "SVC, IVC, and coronary sinus",
+        "Pulmonary veins only",
+        "IVC, coronary sinus, and azygos"
+       ],
+       "answer": 1,
+       "explain": "The superior vena cava, inferior vena cava and coronary sinus all drain deoxygenated blood into the right atrium."
+      },
+      {
+       "q": "On a PA chest X-ray, the right atrium forms which part of the cardiac silhouette?",
+       "choices": [
+        "Left border",
+        "Right border",
+        "Apex",
+        "Superior border"
+       ],
+       "answer": 1,
+       "explain": "The right atrium is the rightmost part of the heart and forms the right border of the cardiac silhouette."
+      }
+     ]
+    },
+    {
+     "order": 28,
+     "why": "Forms most of anterior surface; 1/3 of diaphragmatic surface; most injured in penetrating trauma.",
+     "questions": [
+      {
+       "q": "A patient has a stab wound just left of the sternum. The right ventricle is the chamber most likely injured because it forms...",
+       "choices": [
+        "The right border of the heart",
+        "The apex of the heart",
+        "The base of the heart",
+        "Most of the anterior surface"
+       ],
+       "answer": 3,
+       "explain": "The RV forms most of the anterior heart and touches the rib cage, making it the chamber most commonly injured in penetrating trauma."
+      },
+      {
+       "q": "What fraction of the diaphragmatic surface of the heart does the right ventricle cover?",
+       "choices": [
+        "One-third",
+        "Two-thirds",
+        "One-half",
+        "Three-quarters"
+       ],
+       "answer": 0,
+       "explain": "The RV covers about one-third of the diaphragmatic surface; the LV forms the remaining two-thirds."
+      }
+     ]
+    },
+    {
+     "order": 29,
+     "why": "Receives pulmonary veins; most posterior chamber, abuts esophagus; enlarged in mitral stenosis.",
+     "questions": [
+      {
+       "q": "A 43-year-old woman with mitral stenosis has dysphagia and hoarseness. Barium swallow shows the esophagus indented from outside. Which chamber is responsible?",
+       "choices": [
+        "Left ventricle",
+        "Right atrium",
+        "Left atrium",
+        "Right ventricle"
+       ],
+       "answer": 2,
+       "explain": "Mitral stenosis raises LA pressure and enlarges the left atrium, the most posterior chamber, which presses on the esophagus (Ortner's syndrome)."
+      },
+      {
+       "q": "The left atrium receives blood from which vessels?",
+       "choices": [
+        "Venae cavae",
+        "Pulmonary arteries",
+        "Coronary sinus",
+        "Pulmonary veins"
+       ],
+       "answer": 3,
+       "explain": "The pulmonary veins return oxygenated blood from the lungs to the left atrium."
+      }
+     ]
+    },
+    {
+     "order": 30,
+     "why": "Pumps oxygenated blood to aorta; forms apex, left border, 2/3 of diaphragmatic surface.",
+     "questions": [
+      {
+       "q": "On a PA chest X-ray, the left ventricle forms which border of the cardiac silhouette?",
+       "choices": [
+        "Right border",
+        "Superior border",
+        "Left border",
+        "Anterior surface"
+       ],
+       "answer": 2,
+       "explain": "The left ventricle forms the left border of the cardiac silhouette; the right atrium forms the right border."
+      },
+      {
+       "q": "What fraction of the heart's diaphragmatic surface does the left ventricle form?",
+       "choices": [
+        "One-third",
+        "Two-thirds",
+        "One-quarter",
+        "All of it"
+       ],
+       "answer": 1,
+       "explain": "The LV forms the apex and about two-thirds of the diaphragmatic border; the RV covers the other third."
+      }
+     ]
+    },
+    {
+     "order": 31,
+     "why": "Right AV valve, three leaflets, separates RA from RV.",
+     "questions": [
+      {
+       "q": "The tricuspid valve separates which two compartments?",
+       "choices": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Right ventricle and pulmonary trunk",
+        "Left ventricle and aorta"
+       ],
+       "answer": 0,
+       "explain": "The tricuspid (right atrioventricular) valve has three leaflets and separates the RA from the RV."
+      }
+     ]
+    },
+    {
+     "order": 34,
+     "why": "Semilunar valve; outflow of RV to pulmonary circulation.",
+     "questions": [
+      {
+       "q": "The pulmonary valve separates the right ventricle from which structure?",
+       "choices": [
+        "Right atrium",
+        "Ascending aorta",
+        "Pulmonary trunk",
+        "Left atrium"
+       ],
+       "answer": 2,
+       "explain": "The pulmonary valve is the semilunar valve in the RV outflow tract, separating the RV from the pulmonary circulation."
+      }
+     ]
+    },
+    {
+     "order": 32,
+     "why": "Left AV (bicuspid) valve; two leaflets; separates LA from LV; stenosis -> LA enlargement.",
+     "questions": [
+      {
+       "q": "How many leaflets does the mitral valve normally have?",
+       "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+       ],
+       "answer": 0,
+       "explain": "The mitral (bicuspid) valve on the left has two leaflets; the tricuspid on the right has three."
+      },
+      {
+       "q": "Mitral stenosis directly increases pressure in which chamber?",
+       "choices": [
+        "Left ventricle",
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium"
+       ],
+       "answer": 3,
+       "explain": "The mitral valve separates the LA from the LV; stenosis raises LA pressure and leads to LA enlargement."
+      }
+     ]
+    },
+    {
+     "order": 35,
+     "why": "Semilunar valve between LV and aorta; normally three leaflets.",
+     "questions": [
+      {
+       "q": "The aortic valve separates which two structures?",
+       "choices": [
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary trunk",
+        "Right atrium and right ventricle"
+       ],
+       "answer": 1,
+       "explain": "The aortic valve is the semilunar valve in the LV outflow tract, separating the LV from the aorta."
+      }
+     ]
+    },
+    {
+     "order": 37,
+     "why": "Separates the ventricles; membranous + muscular parts.",
+     "questions": [
+      {
+       "q": "The interventricular septum consists of which two portions?",
+       "choices": [
+        "Fibrous and adipose",
+        "Membranous and muscular",
+        "Muscular and pectinate",
+        "Membranous and valvular"
+       ],
+       "answer": 1,
+       "explain": "The interventricular septum separates the two ventricles and has a membranous portion and a muscular portion."
+      }
+     ]
+    },
+    {
+     "order": 38,
+     "why": "In interatrial septum; remnant of foramen ovale.",
+     "questions": [
+      {
+       "q": "The fossa ovalis is the remnant of which embryologic structure?",
+       "choices": [
+        "Ductus arteriosus",
+        "Ductus venosus",
+        "Sinus venosus",
+        "Foramen ovale"
+       ],
+       "answer": 3,
+       "explain": "The fossa ovalis, in the interatrial septum between the RA and LA, is a remnant of the embryologic foramen ovale."
+      }
+     ]
+    },
+    {
+     "order": 43,
+     "why": "Parallel myocardial ridges in RA; improve contraction efficiency without much mass.",
+     "questions": [
+      {
+       "q": "Where are the pectinate muscles described in this brick found?",
+       "choices": [
+        "Right atrium",
+        "Right ventricle",
+        "Left ventricle",
+        "Interventricular septum"
+       ],
+       "answer": 0,
+       "explain": "Pectinate muscles are parallel ridges of myocardium in the right atrium, anterior to the crista terminalis."
+      },
+      {
+       "q": "What is the main function of the pectinate muscles?",
+       "choices": [
+        "Anchor the AV valve leaflets during systole",
+        "Carry the right bundle branch onward",
+        "Boost contraction without adding much mass",
+        "Insulate the atria from the ventricles"
+       ],
+       "answer": 2,
+       "explain": "Pectinate muscles increase atrial contraction efficiency without adding significant mass."
+      }
+     ]
+    },
+    {
+     "order": 41,
+     "why": "Ridge separating smooth posterior RA from pectinate region; landmark for SA node.",
+     "questions": [
+      {
+       "q": "The crista terminalis is a surface landmark for which structure?",
+       "choices": [
+        "AV node",
+        "Coronary sinus opening",
+        "Fossa ovalis",
+        "SA node"
+       ],
+       "answer": 3,
+       "explain": "The crista terminalis is a muscular ridge in the RA that serves as a landmark for the SA node."
+      },
+      {
+       "q": "The crista terminalis separates which two regions?",
+       "choices": [
+        "Right atrium and right ventricle",
+        "Membranous and muscular septum",
+        "Smooth wall and pectinate region",
+        "Auricle and coronary sinus opening"
+       ],
+       "answer": 2,
+       "explain": "It separates the smooth posterior wall of the RA from the rough region lined with pectinate muscles."
+      }
+     ]
+    },
+    {
+     "order": 23,
+     "why": "Collects most cardiac venous blood; opens into RA near tricuspid valve.",
+     "questions": [
+      {
+       "q": "The coronary sinus opens into the right atrium near which valve?",
+       "choices": [
+        "Mitral valve",
+        "Tricuspid valve",
+        "Pulmonary valve",
+        "Aortic valve"
+       ],
+       "answer": 1,
+       "explain": "The coronary sinus collects most cardiac venous blood and drains into the RA near the tricuspid valve."
+      }
+     ]
+    },
+    {
+     "order": 60,
+     "why": "RV muscular band carrying part of right bundle branch to anterior papillary muscle.",
+     "questions": [
+      {
+       "q": "What does the septomarginal trabecula (moderator band) carry?",
+       "choices": [
+        "Part of the right bundle branch",
+        "Part of the left bundle branch",
+        "The SA nodal artery",
+        "The small cardiac vein"
+       ],
+       "answer": 0,
+       "explain": "The moderator band is a muscular band in the RV that carries part of the right bundle branch, aiding coordinated contraction."
+      },
+      {
+       "q": "The moderator band runs to which papillary muscle?",
+       "choices": [
+        "Posterior papillary muscle of the RV",
+        "Septal papillary muscle of the LV",
+        "Anterior papillary muscle of the RV",
+        "Posteromedial papillary muscle of the LV"
+       ],
+       "answer": 2,
+       "explain": "The septomarginal trabecula carries conduction fibers to the anterior papillary muscle of the right ventricle."
+      }
+     ]
+    },
+    {
+     "order": 33,
+     "why": "AV valve leaflets open in diastole, held closed in systole by chordae/papillary tension.",
+     "questions": [
+      {
+       "q": "During ventricular diastole, what is the state of the AV valve leaflets and the semilunar valves?",
+       "choices": [
+        "AV open; semilunar closed",
+        "AV closed; semilunar open",
+        "AV open; semilunar open",
+        "AV closed; semilunar closed"
+       ],
+       "answer": 0,
+       "explain": "In diastole the AV valves open to let the ventricles fill from the atria while the semilunar valves stay shut."
+      }
+     ]
+    },
+    {
+     "order": 61,
+     "why": "Semilunar valves have three overlapping leaflets; no chordae.",
+     "questions": [
+      {
+       "q": "Semilunar valves have no chordae tendineae. What prevents their leaflets from prolapsing?",
+       "choices": [
+        "Tension from papillary muscles",
+        "Anchoring by the moderator band",
+        "Contraction of the fibrous rings",
+        "Overlap of their three leaflets"
+       ],
+       "answer": 3,
+       "explain": "Although semilunar valves lack chordae and papillary muscles, the overlap of each valve's three leaflets prevents prolapse."
+      }
+     ]
+    },
+    {
+     "order": 39,
+     "why": "Fibrous cords connecting AV valves to papillary muscles; tense in systole.",
+     "questions": [
+      {
+       "q": "The chordae tendineae connect the AV valve cusps to which structures?",
+       "choices": [
+        "Trabeculae carneae",
+        "Papillary muscles",
+        "Fibrous trigones",
+        "Pectinate muscles"
+       ],
+       "answer": 1,
+       "explain": "The chordae tendineae are fibrous cords in the ventricles that connect the AV valves to the papillary muscles."
+      },
+      {
+       "q": "During ventricular systole, what is the state of the chordae tendineae?",
+       "choices": [
+        "Loose, letting AV valves open",
+        "Tense, holding AV valves shut",
+        "Tense, opening semilunar valves",
+        "Loose, letting cusps prolapse"
+       ],
+       "answer": 1,
+       "explain": "In systole the papillary muscles tension the chordae, which keeps the AV valves from prolapsing into the atria."
+      }
+     ]
+    },
+    {
+     "order": 42,
+     "why": "Anchor chordae; rupture 2-7 days post-MI -> acute mitral regurgitation.",
+     "questions": [
+      {
+       "q": "Four days after an MI, a patient develops sudden heart failure and a new murmur from papillary muscle rupture. Which valve lesion results?",
+       "choices": [
+        "Mitral stenosis",
+        "Aortic stenosis",
+        "Pulmonary stenosis",
+        "Mitral regurgitation"
+       ],
+       "answer": 3,
+       "explain": "Papillary muscle rupture (2-7 days post-MI) can cause complete mitral valve insufficiency/regurgitation, a surgical emergency."
+      },
+      {
+       "q": "Contraction of the papillary muscles during systole serves to...",
+       "choices": [
+        "Keep AV valves from prolapsing",
+        "Open the semilunar valves",
+        "Pull the AV valves open",
+        "Fill the ventricles"
+       ],
+       "answer": 0,
+       "explain": "When the ventricles contract, papillary muscles tension the chordae tendineae so the AV valves don't prolapse into the atria."
+      }
+     ]
+    },
+    {
+     "order": 40,
+     "why": "Irregular muscular ridges lining ventricles; reduce suction.",
+     "questions": [
+      {
+       "q": "What is the function of the trabeculae carneae?",
+       "choices": [
+        "Anchor AV valve cusps during systole",
+        "Insulate the atria from the ventricles",
+        "Reduce suction via rough surfaces",
+        "Mark the location of the SA node"
+       ],
+       "answer": 2,
+       "explain": "Trabeculae carneae are irregular muscular ridges lining the ventricles that help prevent suction during contraction by reducing smooth surfaces."
+      }
+     ]
+    },
+    {
+     "order": 36,
+     "why": "Ear-shaped atrial appendages; LA auricle common thrombus site in AF.",
+     "questions": [
+      {
+       "q": "A patient with atrial fibrillation has an embolic stroke. Where did the thrombus most likely form?",
+       "choices": [
+        "Right atrial auricle",
+        "Coronary sinus",
+        "Fossa ovalis",
+        "Left atrial auricle"
+       ],
+       "answer": 3,
+       "explain": "The left atrial auricle is a common site of thrombus in atrial fibrillation due to blood stasis; dislodged clots cause embolic strokes."
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "why": "Delivers deoxygenated upper-body blood into RA.",
+     "questions": []
+    },
+    {
+     "order": 15,
+     "why": "Delivers deoxygenated lower-body blood into RA.",
+     "questions": [
+      {
+       "q": "The inferior vena cava drains the lower body into which chamber?",
+       "choices": [
+        "Left atrium",
+        "Right ventricle",
+        "Right atrium",
+        "Coronary sinus"
+       ],
+       "answer": 2,
+       "explain": "The SVC and IVC deliver deoxygenated blood from the systemic circulation into the right atrium."
+      }
+     ]
+    },
+    {
+     "order": 57,
+     "why": "Formed by the left atrium; trachea lies superior to it.",
+     "questions": [
+      {
+       "q": "Which chamber forms the base of the heart?",
+       "choices": [
+        "Left ventricle",
+        "Left atrium",
+        "Right atrium",
+        "Right ventricle"
+       ],
+       "answer": 1,
+       "explain": "The left atrium forms the base and the most posterior region of the heart."
+      }
+     ]
+    },
+    {
+     "order": 56,
+     "why": "Formed by LV; points downward, forward and to the left.",
+     "questions": [
+      {
+       "q": "Which chamber forms the apex of the heart?",
+       "choices": [
+        "Left ventricle",
+        "Right ventricle",
+        "Left atrium",
+        "Right atrium"
+       ],
+       "answer": 0,
+       "explain": "The left ventricle forms the apex, the most inferior and leftward point of the heart."
+      },
+      {
+       "q": "In which direction does the apex of the heart point?",
+       "choices": [
+        "Upward, backward, and right",
+        "Downward, backward, and right",
+        "Downward, forward, and left",
+        "Upward, forward, and left"
+       ],
+       "answer": 2,
+       "explain": "The apex points downward, forward and to the left; about two-thirds of the heart lies left of midline."
+      }
+     ]
+    },
+    {
+     "order": 17,
+     "why": "Carries deoxygenated blood from RV to lungs.",
+     "questions": []
+    },
+    {
+     "order": 18,
+     "why": "Only major arteries carrying deoxygenated blood.",
+     "questions": [
+      {
+       "q": "Unlike most arteries, the pulmonary arteries carry which type of blood?",
+       "choices": [
+        "Deoxygenated blood",
+        "Oxygenated blood",
+        "Lymphatic fluid",
+        "Coronary venous blood"
+       ],
+       "answer": 0,
+       "explain": "The pulmonary arteries carry deoxygenated blood from the RV to the lungs and are the only major arteries that do so."
+      }
+     ]
+    },
+    {
+     "order": 19,
+     "why": "Return oxygenated blood from lungs to LA.",
+     "questions": [
+      {
+       "q": "The pulmonary veins carry what kind of blood to which chamber?",
+       "choices": [
+        "Deoxygenated blood to the LA",
+        "Oxygenated blood to the RA",
+        "Deoxygenated blood to the RA",
+        "Oxygenated blood to the LA"
+       ],
+       "answer": 3,
+       "explain": "The pulmonary veins deliver oxygenated blood from the lungs back into the left atrium."
+      }
+     ]
+    },
+    {
+     "order": 54,
+     "why": "Pericardial effusion: rounded enlarged silhouette, tamponade impairs filling.",
+     "questions": [
+      {
+       "q": "A large pericardial effusion causes cardiac tamponade. What does tamponade primarily impair?",
+       "choices": [
+        "Valve closure",
+        "Ventricular filling",
+        "AV nodal conduction",
+        "Coronary origin"
+       ],
+       "answer": 1,
+       "explain": "Tamponade is a pericardial effusion compressing the heart, impairing its ability to fill with blood and reducing cardiac output."
+      }
+     ]
+    },
+    {
+     "order": 50,
+     "why": "Lies superior to the heart base; cardiomegaly widens the carinal angle.",
+     "questions": [
+      {
+       "q": "On chest X-ray, marked cardiomegaly pushes into the tracheal bifurcation. What change is seen?",
+       "choices": [
+        "Narrower angle between the bronchi",
+        "Wider angle between the bronchi",
+        "Trachea shifted anterior to esophagus",
+        "Carina displaced to the left neck"
+       ],
+       "answer": 1,
+       "explain": "An enlarged heart can push into the tracheal bifurcation, increasing the angle between the right and left bronchi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cv-heart-vasculature",
+   "title": "Vasculature and Lymphatics of the Heart",
+   "week": 1,
+   "session": "1",
+   "stem": "183_CV",
+   "items": [
+    {
+     "order": 35,
+     "why": "Coronaries arise just distal to the aortic valve; aortic stenosis -> angina.",
+     "questions": [
+      {
+       "q": "Why can aortic stenosis cause angina?",
+       "choices": [
+        "The coronaries arise from the pulmonary trunk",
+        "The coronaries arise just proximal to the valve",
+        "The coronaries arise from the arch branches",
+        "The coronaries arise just distal to the valve"
+       ],
+       "answer": 3,
+       "explain": "Because the coronary arteries emerge from the aorta just distal to the aortic valve, aortic stenosis limits coronary as well as peripheral flow."
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "why": "Left main: courses behind pulmonary trunk; splits into LAD + LCX; supplies LA, LV, most of septum; fills in diastole.",
+     "questions": [
+      {
+       "q": "The left coronary artery divides into which two branches?",
+       "choices": [
+        "LAD and left circumflex",
+        "LAD and posterior descending",
+        "Left circumflex and right marginal",
+        "Posterior descending and diagonal"
+       ],
+       "answer": 0,
+       "explain": "The LCA courses behind the pulmonary trunk and divides into the left anterior descending (LAD) and left circumflex (LCX) arteries."
+      },
+      {
+       "q": "The left coronary artery courses behind which structure before dividing?",
+       "choices": [
+        "Superior vena cava",
+        "Coronary sinus",
+        "Pulmonary trunk",
+        "Right auricle"
+       ],
+       "answer": 2,
+       "explain": "The LCA passes behind the pulmonary trunk and then splits into the LAD and LCX."
+      },
+      {
+       "q": "During which phase do the coronary arteries receive most of their blood flow?",
+       "choices": [
+        "Ventricular systole",
+        "Isovolumetric contraction",
+        "Rapid ejection",
+        "Ventricular diastole"
+       ],
+       "answer": 3,
+       "explain": "During systole the coronaries are compressed; when the LV relaxes in diastole, backflow from the aorta fills the coronary arteries."
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "why": "Anterior IV groove to apex; anterior LV, anterolateral papillary, anterior 2/3 of septum; diagonals.",
+     "questions": [
+      {
+       "q": "Which portion of the interventricular septum does the LAD supply?",
+       "choices": [
+        "Posterior one-third",
+        "Posterior two-thirds",
+        "Anterior two-thirds",
+        "Membranous part only"
+       ],
+       "answer": 2,
+       "explain": "The LAD supplies the anterior two-thirds of the interventricular septum; the PDA supplies the posterior one-third."
+      },
+      {
+       "q": "In which groove does the LAD travel?",
+       "choices": [
+        "Posterior interventricular groove",
+        "Anterior interventricular groove",
+        "Left atrioventricular groove",
+        "Right atrioventricular groove"
+       ],
+       "answer": 1,
+       "explain": "The LAD (anterior interventricular artery) runs in the anterior interventricular groove, typically to the apex."
+      },
+      {
+       "q": "Which papillary muscle is supplied by the LAD?",
+       "choices": [
+        "Anterolateral papillary muscle",
+        "Posteromedial papillary muscle",
+        "Septal papillary muscle of RV",
+        "Posterior papillary muscle of RV"
+       ],
+       "answer": 0,
+       "explain": "The LAD supplies the anterolateral papillary muscle; the PDA supplies the posteromedial papillary muscle of the LV."
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "why": "Runs between LA and LV; supplies LA and posterior/lateral LV (obtuse marginal); gives PDA in left dominance.",
+     "questions": [
+      {
+       "q": "A 59-year-old man has a severe occlusion of his left circumflex artery. Which structure is most deprived of oxygen?",
+       "choices": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Sinoatrial node"
+       ],
+       "answer": 2,
+       "explain": "The LCX travels posteriorly between the LA and LV to supply the left atrium and left ventricle."
+      },
+      {
+       "q": "In a left-dominant circulation, the left circumflex gives rise to which artery?",
+       "choices": [
+        "Posterior descending artery",
+        "Left anterior descending artery",
+        "Right marginal artery",
+        "Sinoatrial nodal artery"
+       ],
+       "answer": 0,
+       "explain": "In left dominance the LCX gives rise to the PDA, so an LCX occlusion puts more myocardium at risk."
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "why": "Between SVC/RA and pulmonary trunk in RA-RV groove; SA nodal branch; usually gives PDA.",
+     "questions": [
+      {
+       "q": "In most people, the SA node is supplied by a branch of which artery?",
+       "choices": [
+        "Left circumflex artery",
+        "Left anterior descending artery",
+        "Left main coronary artery",
+        "Right coronary artery"
+       ],
+       "answer": 3,
+       "explain": "The SA nodal branch arises near the origin of the RCA; in some variants LCX branches supply the SA node instead."
+      },
+      {
+       "q": "After leaving the aorta, the right coronary artery first passes between which structures?",
+       "choices": [
+        "Aorta and left atrium",
+        "SVC and pulmonary trunk",
+        "Pulmonary trunk and left auricle",
+        "IVC and coronary sinus"
+       ],
+       "answer": 1,
+       "explain": "The RCA first passes between the SVC and pulmonary trunk, then runs between the RA and RV toward the back of the heart."
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "why": "RCA branch along lateral margin of RV; supplies RV and apex; accompanied by small cardiac vein.",
+     "questions": [
+      {
+       "q": "What does the right (acute) marginal artery supply?",
+       "choices": [
+        "Left atrium",
+        "Right ventricle and apex",
+        "Posterior left ventricular wall",
+        "AV node"
+       ],
+       "answer": 1,
+       "explain": "The right acute marginal artery runs along the lateral margin of the RV and supplies the RV and the apex."
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "why": "Usually from RCA (~85% right dominant); posterior IV groove; AV node, posterior 1/3 septum, inferior wall.",
+     "questions": [
+      {
+       "q": "In about 85% of people, the posterior descending artery arises from which vessel?",
+       "choices": [
+        "Left circumflex artery",
+        "Left anterior descending",
+        "Left main coronary artery",
+        "Right coronary artery"
+       ],
+       "answer": 3,
+       "explain": "Most people (~85%) are right-dominant, meaning the PDA is a branch of the RCA."
+      },
+      {
+       "q": "Which conduction structure does the posterior descending artery supply?",
+       "choices": [
+        "AV node",
+        "SA node",
+        "Moderator band",
+        "Crista terminalis"
+       ],
+       "answer": 0,
+       "explain": "The PDA supplies the AV node, the posterior one-third of the septum, the inferior wall and the posteromedial papillary muscle."
+      },
+      {
+       "q": "Compared with a right-dominant patient, a left-dominant patient with a left coronary occlusion has more myocardium at risk in which region?",
+       "choices": [
+        "Anterior free wall of the RV",
+        "SA node and right atrium",
+        "Posterior LV and posterior septum",
+        "Anterior two-thirds of septum"
+       ],
+       "answer": 2,
+       "explain": "In left dominance the PDA territory (posterior LV and posterior septum) also depends on the left system, so left occlusions put more myocardium at risk."
+      }
+     ]
+    },
+    {
+     "order": 37,
+     "why": "Houses bundle of His/bundle branches; perfused by LAD and PDA septal perforators.",
+     "questions": [
+      {
+       "q": "Occlusion of which pair of arteries can damage the conduction system in the interventricular septum?",
+       "choices": [
+        "LCX and right marginal",
+        "SA nodal and LCX",
+        "Right marginal and diagonal",
+        "LAD and PDA"
+       ],
+       "answer": 3,
+       "explain": "The bundle of His and bundle branches lie in the septum, which is perfused by septal perforators of the LAD and PDA."
+      }
+     ]
+    },
+    {
+     "order": 42,
+     "why": "Anterolateral (LAD) vs posteromedial (PDA) papillary muscles.",
+     "questions": [
+      {
+       "q": "The posteromedial papillary muscle of the left ventricle is supplied by which artery?",
+       "choices": [
+        "Left anterior descending artery",
+        "Right marginal artery",
+        "Posterior descending artery",
+        "Diagonal branch of the LAD"
+       ],
+       "answer": 2,
+       "explain": "The PDA supplies the posteromedial papillary muscle; the LAD supplies the anterolateral papillary muscle."
+      }
+     ]
+    },
+    {
+     "order": 23,
+     "why": "Receives great, middle, small cardiac veins in posterior coronary sulcus; empties into RA.",
+     "questions": [
+      {
+       "q": "The coronary sinus empties directly into which chamber?",
+       "choices": [
+        "Left atrium",
+        "Right atrium",
+        "Right ventricle",
+        "Left ventricle"
+       ],
+       "answer": 1,
+       "explain": "The coronary sinus empties directly into the RA, alongside the SVC and IVC."
+      },
+      {
+       "q": "Where is the coronary sinus located?",
+       "choices": [
+        "Posterior coronary sulcus",
+        "Anterior interventricular groove",
+        "Posterior interventricular groove",
+        "Right auricle"
+       ],
+       "answer": 0,
+       "explain": "The great, middle and small cardiac veins coalesce into the coronary sinus at the back of the heart within the coronary sulcus."
+      }
+     ]
+    },
+    {
+     "order": 20,
+     "why": "Starts at apex, runs with LAD in anterior IV groove, then with LCX in coronary sulcus to coronary sinus.",
+     "questions": [
+      {
+       "q": "Which artery does the great cardiac vein accompany in the anterior interventricular groove?",
+       "choices": [
+        "Posterior descending",
+        "Right marginal",
+        "Left anterior descending",
+        "Right coronary"
+       ],
+       "answer": 2,
+       "explain": "The great cardiac vein starts at the apex and runs in the anterior interventricular groove with the LAD, then with the LCX in the coronary sulcus."
+      }
+     ]
+    },
+    {
+     "order": 21,
+     "why": "Ascends posterior IV groove with PDA to coronary sinus.",
+     "questions": [
+      {
+       "q": "The middle cardiac vein runs alongside which artery?",
+       "choices": [
+        "Posterior descending artery",
+        "Left anterior descending artery",
+        "Left circumflex artery",
+        "Right marginal artery"
+       ],
+       "answer": 0,
+       "explain": "The middle cardiac vein ascends the posterior interventricular groove alongside the PDA before draining into the coronary sinus."
+      }
+     ]
+    },
+    {
+     "order": 22,
+     "why": "Accompanies acute marginal artery; right posterior AV groove to coronary sinus.",
+     "questions": [
+      {
+       "q": "Which cardiac vein accompanies a branch of the right coronary artery along the right margin of the heart?",
+       "choices": [
+        "Great cardiac vein",
+        "Middle cardiac vein",
+        "Anterior cardiac vein",
+        "Small cardiac vein"
+       ],
+       "answer": 3,
+       "explain": "The small cardiac vein accompanies the acute marginal artery from the RCA, then runs in the right posterior AV groove to the coronary sinus."
+      },
+      {
+       "q": "Before draining into the coronary sinus, the small cardiac vein courses in which groove?",
+       "choices": [
+        "Anterior interventricular groove",
+        "Right posterior AV groove",
+        "Posterior interventricular groove",
+        "Left anterior AV groove"
+       ],
+       "answer": 1,
+       "explain": "The small cardiac vein courses in the right posterior atrioventricular groove and drains into the coronary sinus."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

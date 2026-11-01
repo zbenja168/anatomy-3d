@@ -5,7 +5,7 @@
   "title": "MSK Posterior Trunk, Neck & Spinal Cord Structure List",
   "items": 51,
   "in3d": 51,
-  "mb": 4.6
+  "mb": 4.1
  },
  {
   "stem": "206_MSK_W2_ShoulderArm",
@@ -13,7 +13,7 @@
   "title": "Shoulder and Arm (Draft) Structure List",
   "items": 90,
   "in3d": 90,
-  "mb": 4.8
+  "mb": 4.3
  },
  {
   "stem": "206_MSK_W2_ForearmHand",
@@ -21,7 +21,7 @@
   "title": "Forearm and Hand Structure List",
   "items": 65,
   "in3d": 65,
-  "mb": 2.8
+  "mb": 2.6
  },
  {
   "stem": "183_CV",
@@ -45,7 +45,7 @@
   "title": "Respiratory Structure List",
   "items": 82,
   "in3d": 81,
-  "mb": 7.7
+  "mb": 7.6
  },
  {
   "stem": "185_Urinary",
@@ -61,7 +61,7 @@
   "title": "GI Structure List 2026 (PDF)",
   "items": 130,
   "in3d": 130,
-  "mb": 6.1
+  "mb": 6.0
  },
  {
   "stem": "205_Repro",
@@ -69,7 +69,7 @@
   "title": "Repro System and BH Structure List 2026",
   "items": 77,
   "in3d": 77,
-  "mb": 2.9
+  "mb": 2.7
  },
  {
   "stem": "210_Endocrine",
@@ -77,6 +77,6 @@
   "title": "Endocrine Structure List 2026",
   "items": 61,
   "in3d": 61,
-  "mb": 4.1
+  "mb": 4.0
  }
 ]

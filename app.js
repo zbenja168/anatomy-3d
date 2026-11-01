@@ -26,6 +26,7 @@ const ctxOp = (p) => (p.system === 'skeletal' ? 0.3 : 0.13);
 const HIGHLIGHT = 0x84e81a, OK = 0x22c55e, BAD = 0xef4444;
 
 let man, meshes = {}, scene, camera, renderer, controls, ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+let brick = null, brickItems = new Map(), bq = { ok: 0, n: 0 }; // brick-by-brick mode (?brick=<id>)
 let redrawUntil = 0; const need = (ms = 400) => { redrawUntil = Math.max(redrawUntil, performance.now() + ms); };
 let body = null; // active donor model: scenes are never mixed
 const BODY_NAME = { 'z-anatomy': 'Z-Anatomy', bodyparts: 'BodyParts3D' };
@@ -170,6 +171,10 @@ function layers() {
 
 // ---------- quiz ----------
 function buildQueue() {
+  if (brick) {
+    queue = brick.items.map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
+    $('sLeft').textContent = `${queue.length} in this brick`; return;
+  }
   const sec = $('section').value, core = $('coreOnly').checked;
   queue = man.items.filter((it) => it.parts.length && (!sec || it.section === sec) && (!core || it.priority !== 'conceptual'));
   for (let i = queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [queue[i], queue[j]] = [queue[j], queue[i]]; }
@@ -179,6 +184,12 @@ function next() { ask(queue.shift() || null); }
 function ask(item) {
   feedback('');
   cur = item; attempts = 0; done = false; markCurrent();
+  $('mcq').innerHTML = '';
+  if (!cur && brick) {
+    $('qlabel').textContent = 'Brick complete'; $('qtext').textContent = '🎉 ' + brick.title;
+    $('qsec').innerHTML = `Found <b>${score.ok}</b> of ${score.tried} on the first try${bq.n ? ` · questions <b>${bq.ok}</b>/${bq.n}` : ''}. <a href="${document.querySelector('.back').href}">Pick another brick</a> or press Next to go again.`;
+    buildQueue(); paint(); return;
+  }
   if (!cur) { $('qtext').textContent = 'Set complete!'; $('qsec').textContent = 'Change the section or press Next to go again.'; buildQueue(); paint(); return; }
   $('sLeft').textContent = `${queue.length} left`;
   setBody(cur.model);
@@ -205,6 +216,25 @@ function finish(ok, solved = ok) {
   $('sOk').textContent = score.ok; $('sTry').textContent = score.tried;
   $('qtext').textContent = cur.structure; paint();
   if (ok && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
+  if (brick) showMCQ((brickItems.get(cur.order) || {}).questions || [], 0);
+}
+function showMCQ(qs, k) {
+  const box = $('mcq'); box.innerHTML = ''; if (k >= qs.length) return;
+  const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const q = qs[k];
+  box.innerHTML = `<div class="mcqhead">Question ${k + 1} of ${qs.length}</div><div class="mcqq">${esc(q.q)}</div>` +
+    q.choices.map((c, i) => `<button class="mcqc" data-i="${i}"><b>${'ABCD'[i]}</b> ${esc(c)}</button>`).join('') + '<div class="mcqx"></div>';
+  box.querySelectorAll('.mcqc').forEach((b) => b.addEventListener('click', () => {
+    if (box.dataset.done === '1') return; box.dataset.done = '1';
+    const i = +b.dataset.i, right = i === q.answer; bq.n++; if (right) bq.ok++;
+    $('sQ').textContent = `${bq.ok}/${bq.n}`;
+    box.querySelectorAll('.mcqc').forEach((x) => x.classList.add(+x.dataset.i === q.answer ? 'right' : (x === b ? 'wrong' : 'dim')));
+    box.querySelector('.mcqx').innerHTML = `${right ? '✓ Correct.' : '✗ Not quite.'} ${esc(q.explain)}` +
+      (k + 1 < qs.length ? ' <button class="btn mcqnext">Next question →</button>' : '');
+    const nx = box.querySelector('.mcqnext'); if (nx) nx.addEventListener('click', () => { box.dataset.done = ''; showMCQ(qs, k + 1); });
+    if (right && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
+  }));
+  box.dataset.done = '';
 }
 
 function pick(ev) {
@@ -293,8 +323,9 @@ async function buildChecklist() {
   }
   $('sheetHdr').innerHTML = (sheet.hdr || []).map((h) => `<span>${esc(h)}</span>`).join('');
   $('clist').innerHTML = html; countChecks(); markCurrent();
+  if (brick) document.querySelectorAll('#clist tr[data-o]').forEach((r) => { if (!brickItems.has(+r.dataset.o)) r.classList.add('outbrick'); });
   $('clist').addEventListener('click', (e) => {
-    const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na')) return;
+    const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na') || r.classList.contains('outbrick')) return;
     const it = byOrder.get(+r.dataset.o);
     if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); ask(it);
@@ -341,6 +372,20 @@ function wire() {
     $('title').textContent = meta.title; $('eyebrow').textContent = `3D Anatomy Trainer · ${meta.course}`;
     document.title = `${meta.title} | 3D Anatomy Trainer`;
     initScene(); await loadBundle();
+    const bid = new URLSearchParams(location.search).get('brick');
+    if (bid) {
+      try {
+        const data = await (await fetch(`data/bricks_${SUBJ[stem.split('_')[0]]}.json`)).json();
+        brick = data.bricks.find((b) => b.id === bid && b.stem === stem) || null;
+      } catch (e) { brick = null; }
+      if (brick) {
+        brick.items.forEach((b) => brickItems.set(b.order, b));
+        $('title').textContent = brick.title; $('eyebrow').textContent = `Brick by brick · Week ${brick.week} · Session ${brick.session} · ${meta.course}`;
+        document.title = `${brick.title} | 3D Anatomy Trainer`;
+        document.body.classList.add('brickmode');
+        $('btnNext').textContent = 'Next structure →';
+      }
+    }
     // sections + priorities come from the list (attached at build time)
     const secs = [...new Set(man.items.filter((i) => i.parts.length).map((i) => i.section).filter(Boolean))];
     secs.forEach((s) => { const o = document.createElement('option'); o.value = s; o.textContent = s; $('section').appendChild(o); });
