@@ -13,6 +13,7 @@ const SYS_COLOR = {
   urinary: 0x9c4a3a, reproductive: 0xd48aa8, endocrine: 0xa98bd6, sensory: 0x9fc6d9, integumentary: 0xe9c6a8,
   custom: 0x58c4b5
 };
+const SHELL_OP = 0.18; // enveloping custom organs (lungs, pericardium…) stay see-through unless asked about
 const ctxOp = (p) => (p.system === 'skeletal' ? 0.3 : 0.13);
 const HIGHLIGHT = 0x84e81a, OK = 0x22c55e, BAD = 0xef4444;
 
@@ -64,10 +65,10 @@ function initScene() {
 }
 
 function baseMaterial(p) {
-  const ctx = p.role === 'context';
+  const ctx = p.role === 'context' || p.shell;
   return new THREE.MeshStandardMaterial({
     color: SYS_COLOR[p.system] ?? 0xbbbbbb, roughness: 0.65, metalness: 0.0,
-    transparent: ctx, opacity: ctx ? ctxOp(p) : 1, depthWrite: !ctx, side: THREE.DoubleSide
+    transparent: ctx, opacity: p.shell ? SHELL_OP : ctx ? ctxOp(p) : 1, depthWrite: !ctx, side: THREE.DoubleSide
   });
 }
 
@@ -87,7 +88,7 @@ async function loadBundle() {
     const g = new THREE.BufferGeometry();
     g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(new THREE.BufferAttribute(idx, 1));
     g.computeVertexNormals(); g.computeBoundingSphere();
-    const m = new THREE.Mesh(g, baseMaterial(p)); m.userData = p; m.renderOrder = p.role === 'context' ? 1 : 0;
+    const m = new THREE.Mesh(g, baseMaterial(p)); m.userData = p; m.renderOrder = p.shell ? 2 : p.role === 'context' ? 1 : 0;
     meshes[p.id] = m; scene.add(m);
   }
   const models = Object.keys(man.models);
@@ -105,7 +106,7 @@ function frame(box, pad = 1.6) {
   const dir = camera.position.clone().sub(controls.target).normalize();
   if (!isFinite(dir.x) || dir.length() < 0.5) dir.set(0, 0, 1);
   controls.target.copy(c);
-  camera.position.copy(c).add(dir.multiplyScalar(Math.max(r * pad / Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)), 0.08)));
+  camera.position.copy(c).add(dir.multiplyScalar(Math.max(r * pad / Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)), 0.15)));
   camera.near = 0.001; camera.updateProjectionMatrix();
 }
 function setBody(m) {
@@ -123,9 +124,9 @@ function paint() {
   for (const [id, m] of Object.entries(meshes)) {
     const p = m.userData, mat = m.material;
     mat.color.setHex(SYS_COLOR[p.system] ?? 0xbbbbbb); mat.emissive?.setHex(0x000000);
-    const ctx = p.role === 'context';
+    const ctx = p.role === 'context' || p.shell;
     m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx);
-    mat.opacity = ctx ? ctxOp(p) : 1; mat.transparent = ctx; mat.depthWrite = !ctx;
+    mat.opacity = p.shell ? SHELL_OP : ctx ? ctxOp(p) : 1; mat.transparent = ctx; mat.depthWrite = !ctx;
   }
   if (cur && (mode === 'name' || done)) {
     cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
@@ -135,7 +136,7 @@ function paint() {
 function dimOthers() {
   for (const [id, m] of Object.entries(meshes)) {
     if (cur.parts.includes(id)) continue;
-    m.material.transparent = true; m.material.opacity = Math.min(m.material.opacity, 0.45); m.material.depthWrite = false;
+    m.material.transparent = true; m.material.opacity = Math.min(m.material.opacity, 0.2); m.material.depthWrite = false;
   }
 }
 
@@ -170,7 +171,18 @@ function next() {
   else { $('qlabel').textContent = 'Name the highlighted structure'; $('qtext').textContent = '?'; $('nameInput').value = ''; setTimeout(() => $('nameInput').focus(), 50); }
   $('qsec').textContent = cur.section ? cur.section : '';
   paint();
+  if (mode === 'find' && isInside(cur.parts)) $('qsec').textContent += (cur.section ? ' · ' : '') + 'Tip: it’s inside another structure. Right-click (long-press) outer parts to hide them, or switch off a layer.';
   if (mode === 'name') frame(boxOf(cur.parts), 2.6);
+}
+function isInside(ids) { // are most sample points of the target enclosed by other solid parts?
+  const others = Object.values(meshes).filter((m) => { const p = m.userData; return m.visible && !ids.includes(p.id) && p.role !== 'context' && !p.shell; });
+  const pts = [];
+  ids.forEach((id) => { const g = meshes[id]?.geometry; if (!g) return; const a = g.attributes.position;
+    for (let k = 0; k < 6; k++) { const v = Math.floor((k + 0.5) / 6 * a.count); pts.push(new THREE.Vector3(a.getX(v), a.getY(v), a.getZ(v))); } });
+  if (!pts.length) return false;
+  const r = new THREE.Raycaster(), dirs = [[1, 0, 0], [-1, 0, 0], [0, 0, 1], [0, 0, -1], [0, 1, 0]].map((d) => new THREE.Vector3(...d));
+  const enclosed = pts.filter((c) => dirs.every((d) => { r.set(c, d); return r.intersectObjects(others, false).length > 0; })).length;
+  return enclosed >= pts.length * 0.6;
 }
 function feedback(html, kind) { const f = $('feedback'); f.innerHTML = html; f.className = 'feedback' + (kind ? ' ' + kind : ''); }
 function finish(ok) {
@@ -185,7 +197,8 @@ function pick(ev) {
   ptr.set(((ev.clientX - r.left) / r.width) * 2 - 1, -((ev.clientY - r.top) / r.height) * 2 + 1);
   ray.setFromCamera(ptr, camera);
   const vis = Object.values(meshes).filter((m) => m.visible && !(m.userData.role === 'context' && m.material.opacity < 0.35 && mode !== 'explore'));
-  const hit = ray.intersectObjects(vis, false)[0];
+  const hits = ray.intersectObjects(vis, false);
+  const hit = hits.find((h) => !h.object.userData.shell) || hits[0]; // click through see-through shells
   return hit ? hit.object : null;
 }
 function onClick(ev) {
