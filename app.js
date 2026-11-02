@@ -483,7 +483,7 @@ function wire() {
     mode = b.dataset.mode; document.querySelectorAll('.mode').forEach((x) => x.classList.toggle('on', x === b));
     $('nameForm').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
     if (mode === 'explore') { cur = null; done = false; $('qlabel').textContent = 'Explore'; $('qtext').textContent = 'Click any structure'; $('qsec').textContent = ''; feedback(''); paint(); }
-    else { buildQueue(); next(); }
+    else { const keep = cur; buildQueue(); if (keep && queue.includes(keep)) { queue = queue.slice(queue.indexOf(keep) + 1); ask(keep); } else next(); } // switching mode keeps your place
   }));
   $('nameForm').addEventListener('submit', (e) => {
     e.preventDefault(); if (!cur || done) return; attempts++;
