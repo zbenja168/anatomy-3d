@@ -9,21 +9,30 @@
    "stem": "205_Repro",
    "items": [
     {
-     "order": 2,
-     "why": "Anterior boundary of the perineum; mons pubis overlies it",
+     "order": 1,
+     "why": "Hip bone component of the bony pelvis",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The bony pelvis consists of the paired hip (coxal) bones, formed by the ilium, ischium, and pubis, together with the sacrum and coccyx."
+    },
+    {
+     "order": 13,
+     "why": "Posterior pelvis; uterosacral ligament attachment",
      "questions": [
       {
-       "q": "The pubic symphysis forms which boundary of the perineum?",
+       "q": "Which ligament extends from the cervix to the sacrum, supporting the uterus posteriorly?",
        "choices": [
-        "Anterior",
-        "Posterior",
-        "Lateral",
-        "Superior"
+        "Cardinal ligament",
+        "Uterosacral ligament",
+        "Round ligament",
+        "Ovarian ligament"
        ],
-       "answer": 0,
-       "explain": "The perineum is bounded anteriorly by the pubic symphysis, laterally by the ischial tuberosities, and posteriorly by the coccyx."
+       "answer": 1,
+       "explain": "The uterosacral ligament extends from the cervix to the sacrum and supports the uterus posteriorly."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Uterosacral Ligament: Extends from the cervix to the sacrum, supporting the uterus posteriorly."
     },
     {
      "order": 3,
@@ -40,7 +49,23 @@
        "answer": 1,
        "explain": "The obturator foramen is bounded in part by the superior pubic ramus and the ischiopubic ramus."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…the obturator foramen, bounded in part by the superior pubic ramus and ischiopubic ramus…"
+    },
+    {
+     "order": 5,
+     "why": "Bounds the obturator foramen",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…bounded in part by the superior pubic ramus and ischiopubic ramus…"
+    },
+    {
+     "order": 6,
+     "why": "Bounds the obturator foramen",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…bounded in part by the superior pubic ramus and ischiopubic ramus…"
     },
     {
      "order": 4,
@@ -57,39 +82,9 @@
        "answer": 2,
        "explain": "The obturator foramen is largely covered by the obturator membrane."
       }
-     ]
-    },
-    {
-     "order": 5,
-     "why": "Bounds the obturator foramen",
-     "questions": []
-    },
-    {
-     "order": 6,
-     "why": "Bounds the obturator foramen",
-     "questions": []
-    },
-    {
-     "order": 7,
-     "why": "Lateral boundary of the perineum; sacrotuberous ligament attachment",
-     "questions": [
-      {
-       "q": "Together with the pubic symphysis and coccyx, the ischial tuberosities form the boundaries of which region?",
-       "choices": [
-        "Pelvic inlet",
-        "Inguinal canal",
-        "Greater sciatic foramen",
-        "Perineum"
-       ],
-       "answer": 3,
-       "explain": "The perineum is bounded anteriorly by the pubic symphysis, laterally by the ischial tuberosities, and posteriorly by the coccyx."
-      }
-     ]
-    },
-    {
-     "order": 8,
-     "why": "Attachment of the sacrospinous ligament",
-     "questions": []
+     ],
+     "yield": "low",
+     "excerpt": "…it is largely covered by the obturator membrane."
     },
     {
      "order": 9,
@@ -106,7 +101,9 @@
        "answer": 0,
        "explain": "The sacrospinous (with the sacrotuberous) ligament converts the sciatic notches into the greater and lesser sciatic foramina."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Posteriorly, the greater and lesser sciatic notches are converted into the greater and lesser sciatic foramina by the sacrospinous and sacrotuberous ligaments."
     },
     {
      "order": 10,
@@ -123,24 +120,9 @@
        "answer": 1,
        "explain": "The sacrospinous and sacrotuberous ligaments convert the lesser sciatic notch into the lesser sciatic foramen and define the boundary between the foramina."
       }
-     ]
-    },
-    {
-     "order": 11,
-     "why": "Sacrum to ischial tuberosity",
-     "questions": [
-      {
-       "q": "The sacrotuberous ligament spans from the sacrum to which bony landmark?",
-       "choices": [
-        "Ischial spine",
-        "Pubic tubercle",
-        "Ischial tuberosity",
-        "Anterior superior iliac spine"
-       ],
-       "answer": 2,
-       "explain": "The sacrotuberous ligament spans to the ischial tuberosity, while the sacrospinous ligament runs to the ischial spine."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…the greater and lesser sciatic notches are converted into the greater and lesser sciatic foramina…"
     },
     {
      "order": 12,
@@ -168,41 +150,35 @@
        "answer": 0,
        "explain": "Together the sacrospinous and sacrotuberous ligaments stabilize the sacrum and define the sciatic foramina."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The sacrospinous ligament extends from the sacrum and coccyx to the ischial spine…"
     },
     {
-     "order": 13,
-     "why": "Posterior pelvis; uterosacral ligament attachment",
-     "questions": [
-      {
-       "q": "Which ligament extends from the cervix to the sacrum, supporting the uterus posteriorly?",
-       "choices": [
-        "Cardinal ligament",
-        "Uterosacral ligament",
-        "Round ligament",
-        "Ovarian ligament"
-       ],
-       "answer": 1,
-       "explain": "The uterosacral ligament extends from the cervix to the sacrum and supports the uterus posteriorly."
-      }
-     ]
+     "order": 8,
+     "why": "Attachment of the sacrospinous ligament",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The sacrospinous ligament extends from the sacrum and coccyx to the ischial spine…"
     },
     {
-     "order": 14,
-     "why": "Posterior boundary of the perineum",
+     "order": 11,
+     "why": "Sacrum to ischial tuberosity",
      "questions": [
       {
-       "q": "The coccyx forms which boundary of the perineum?",
+       "q": "The sacrotuberous ligament spans from the sacrum to which bony landmark?",
        "choices": [
-        "Anterior",
-        "Lateral",
-        "Posterior",
-        "Superior"
+        "Ischial spine",
+        "Pubic tubercle",
+        "Ischial tuberosity",
+        "Anterior superior iliac spine"
        ],
        "answer": 2,
-       "explain": "The perineum is bounded posteriorly by the coccyx, anteriorly by the pubic symphysis, and laterally by the ischial tuberosities."
+       "explain": "The sacrotuberous ligament spans to the ischial tuberosity, while the sacrospinous ligament runs to the ischial spine."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…the sacrotuberous ligament spans to the ischial tuberosity; together they stabilize the sacrum and define the boundaries between these foramina."
     },
     {
      "order": 15,
@@ -230,7 +206,66 @@
        "answer": 0,
        "explain": "The perineum is divided into the urogenital and anal triangles, with the perineal body at their junction."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The perineum is the region inferior to the pelvic diaphragm… divided into the urogenital and anal triangles…"
+    },
+    {
+     "order": 2,
+     "why": "Anterior boundary of the perineum; mons pubis overlies it",
+     "questions": [
+      {
+       "q": "The pubic symphysis forms which boundary of the perineum?",
+       "choices": [
+        "Anterior",
+        "Posterior",
+        "Lateral",
+        "Superior"
+       ],
+       "answer": 0,
+       "explain": "The perineum is bounded anteriorly by the pubic symphysis, laterally by the ischial tuberosities, and posteriorly by the coccyx."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…bounded anteriorly by the pubic symphysis…"
+    },
+    {
+     "order": 7,
+     "why": "Lateral boundary of the perineum; sacrotuberous ligament attachment",
+     "questions": [
+      {
+       "q": "Together with the pubic symphysis and coccyx, the ischial tuberosities form the boundaries of which region?",
+       "choices": [
+        "Pelvic inlet",
+        "Inguinal canal",
+        "Greater sciatic foramen",
+        "Perineum"
+       ],
+       "answer": 3,
+       "explain": "The perineum is bounded anteriorly by the pubic symphysis, laterally by the ischial tuberosities, and posteriorly by the coccyx."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…laterally by the ischial tuberosities…"
+    },
+    {
+     "order": 14,
+     "why": "Posterior boundary of the perineum",
+     "questions": [
+      {
+       "q": "The coccyx forms which boundary of the perineum?",
+       "choices": [
+        "Anterior",
+        "Lateral",
+        "Posterior",
+        "Superior"
+       ],
+       "answer": 2,
+       "explain": "The perineum is bounded posteriorly by the coccyx, anteriorly by the pubic symphysis, and laterally by the ischial tuberosities."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…and posteriorly by the coccyx."
     },
     {
      "order": 16,
@@ -247,7 +282,9 @@
        "answer": 1,
        "explain": "The perineal body lies centrally at the junction of the urogenital and anal triangles."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…with the perineal body located centrally at their junction."
     },
     {
      "order": 21,
@@ -264,7 +301,9 @@
        "answer": 2,
        "explain": "The vulva consists of the mons pubis, labia majora, labia minora, clitoris, and vestibule."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The female external reproductive sex organs are collectively called the vulva, located in the perineum."
     },
     {
      "order": 22,
@@ -281,7 +320,9 @@
        "answer": 3,
        "explain": "The mons pubis is a layer of fatty tissue over the pubic symphysis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The mons pubis is a layer of fatty tissue over the pubic symphysis of the pubic bone."
     },
     {
      "order": 23,
@@ -298,7 +339,9 @@
        "answer": 0,
        "explain": "The round ligament of the uterus connects the uterine fundus to the labia majora, passing through the inguinal canal."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The labia majora (labium majus singular) are two cutaneous folds that extend from the mons pubis to the perineum."
     },
     {
      "order": 24,
@@ -315,7 +358,9 @@
        "answer": 1,
        "explain": "The clitoris is covered by a hood (prepuce) formed by the anterior junction of the labia minora."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Labia serve to protect the urethral and vaginal openings from mechanical irritation, infections, and dryness."
     },
     {
      "order": 25,
@@ -332,7 +377,9 @@
        "answer": 2,
        "explain": "The external portion of the clitoris is the glans; the body and crura extend beneath the vulvar tissue."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "It is highly sensitive and the primary erectile tissue for sexual pleasure, enlarging in response to nerve stimulation."
     },
     {
      "order": 26,
@@ -360,7 +407,9 @@
        "answer": 0,
        "explain": "The vestibule contains the vaginal opening (introitus), the external urethral meatus, and the vestibular glands."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The vestibule is the area enclosed by the labia minora, containing the vaginal opening (introitus), external urethral meatus, and glands…"
     },
     {
      "order": 27,
@@ -377,12 +426,16 @@
        "answer": 1,
        "explain": "The hymen is a thin membrane that partially surrounds the vaginal opening and is present in most newborn females."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The hymen is a thin membrane that partially surrounds the vaginal opening and is present in most newborn females."
     },
     {
      "order": 28,
      "why": "External urethral meatus in the vestibule",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The vestibule includes the external urethral meatus, vaginal opening (introitus), and surrounding glands for secreting mucus."
     },
     {
      "order": 29,
@@ -410,7 +463,9 @@
        "answer": 3,
        "explain": "Bartholin's glands are most commonly associated with cysts or abscesses presenting as labial swellings that may need drainage."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Greater vestibular (Bartholin's) glands, located at the posterior vaginal introitus, secrete mucus to lubricate the vulva, especially during sexual arousal."
     },
     {
      "order": 38,
@@ -427,7 +482,9 @@
        "answer": 0,
        "explain": "Loss of pelvic floor support can let the bladder descend against the anterior vagina (cystocele), causing urinary symptoms."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "This elastic muscular canal lined with non-keratinizing squamous epithelium functions as a pathway for sperm to enter the uterus after vaginal intercourse."
     },
     {
      "order": 39,
@@ -455,12 +512,16 @@
        "answer": 2,
        "explain": "During childbirth the cervix thins and effaces, allowing the fetus to pass through it."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The squamocolumnar junction… is the most common location for cervical dysplasia and cervical squamous cell carcinoma to develop."
     },
     {
      "order": 40,
      "why": "Passage from uterine cavity to vagina",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The cervix contains the cervical canal, a narrow passage connecting the uterine cavity to the vagina…"
     },
     {
      "order": 41,
@@ -477,7 +538,9 @@
        "answer": 3,
        "explain": "The cervical canal opens into the uterus at the internal os and into the vagina at the external os."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…with the internal os opening into the uterus…"
     },
     {
      "order": 42,
@@ -494,7 +557,9 @@
        "answer": 0,
        "explain": "The external os is where the cervical canal opens into the vagina."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…the external os opening into the vagina."
     },
     {
      "order": 43,
@@ -511,7 +576,9 @@
        "answer": 1,
        "explain": "The myometrium is mostly smooth muscle and is responsible for uterine contraction during labor."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The uterus is a pear shaped hollow organ supported by pelvic connective tissue/peritoneal ligaments, with primary dynamic support from the pelvic floor muscles."
     },
     {
      "order": 44,
@@ -550,7 +617,9 @@
        "answer": 0,
        "explain": "In the interstitial portion the surrounding myometrium allows the pregnancy to grow longer before rupture, often causing severe hemorrhage."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…the ampulla is the widest portion and the most common site of fertilization."
     },
     {
      "order": 45,
@@ -578,7 +647,9 @@
        "answer": 2,
        "explain": "Unlike other pelvic organs (S2-S4), the ovaries receive parasympathetic input from the vagus nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The ovaries are not directly attached to the uterine tubes; rather, they are suspended in the peritoneal cavity in proximity to the uterine tubes."
     },
     {
      "order": 46,
@@ -595,7 +666,9 @@
        "answer": 3,
        "explain": "The broad ligament is a double-layered peritoneal fold from the lateral pelvic walls covering the uterus, tubes, and ovaries."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A double-layered peritoneal fold that extends from the lateral pelvic walls, covering the uterus, fallopian tubes, and ovaries."
     },
     {
      "order": 47,
@@ -612,7 +685,9 @@
        "answer": 0,
        "explain": "The round ligament connects the uterine fundus to the labia majora by passing through the inguinal canal."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Connects the fundus of the uterus to the labia majora, passing through the inguinal canal."
     },
     {
      "order": 48,
@@ -640,74 +715,9 @@
        "answer": 2,
        "explain": "The suspensory ligament attaches the ovary to the lateral pelvic wall; the ovarian ligament attaches it to the uterus."
       }
-     ]
-    },
-    {
-     "order": 17,
-     "why": "Pelvic diaphragm (deep layer); prolapse when weak",
-     "questions": [
-      {
-       "q": "The levator ani belongs to which layer of the pelvic floor?",
-       "choices": [
-        "Perineal membrane",
-        "Deep perineal pouch",
-        "Superficial perineal pouch",
-        "Pelvic diaphragm"
-       ],
-       "answer": 3,
-       "explain": "The deep layer of the pelvic floor is the pelvic diaphragm: levator ani (pubococcygeus, puborectalis, iliococcygeus) and coccygeus."
-      },
-      {
-       "q": "A multiparous woman with a weak pelvic floor has a posterior vaginal bulge and difficult defecation. What has descended?",
-       "choices": [
-        "Rectum",
-        "Bladder",
-        "Urethra",
-        "Uterus"
-       ],
-       "answer": 0,
-       "explain": "Loss of pelvic floor support can produce a rectocele (rectal prolapse), causing difficulty with defecation."
-      }
-     ]
-    },
-    {
-     "order": 18,
-     "why": "Completes the pelvic diaphragm",
-     "questions": [
-      {
-       "q": "Which muscle joins the levator ani to complete the pelvic diaphragm?",
-       "choices": [
-        "Piriformis",
-        "Coccygeus",
-        "Obturator internus",
-        "Deep transverse perineal"
-       ],
-       "answer": 1,
-       "explain": "The pelvic diaphragm consists of the levator ani and the coccygeus."
-      }
-     ]
-    },
-    {
-     "order": 19,
-     "why": "Hip muscle forming the pelvic wall; indirect support",
-     "questions": [
-      {
-       "q": "How do the obturator internus and piriformis support the pelvic organs?",
-       "choices": [
-        "Directly, by forming the pelvic diaphragm",
-        "By acting as a urethral sphincter",
-        "Indirectly, by stabilizing the pelvis",
-        "By anchoring the cervix to the sacrum"
-       ],
-       "answer": 2,
-       "explain": "They are primarily hip muscles that indirectly support pelvic organs by stabilizing the pelvis, forming the 'walls' of the pelvic bowl."
-      }
-     ]
-    },
-    {
-     "order": 20,
-     "why": "Pelvic wall muscle; indirect support",
-     "questions": []
+     ],
+     "yield": "high",
+     "excerpt": "Attaches the ovary to the lateral pelvic wall and contains the ovarian vessels and lymphatics."
     },
     {
      "order": 36,
@@ -735,24 +745,84 @@
        "answer": 0,
        "explain": "The ureter passes inferior and posterior to the suspensory ligament of the ovary, so it is at risk during ligation of the ovarian vessels."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…the mnemonic \"water under the bridge\" describes the ureter passing inferior to the uterine artery…"
     },
     {
-     "order": 57,
-     "why": "Common iliac veins form the IVC; left one prone to compression",
+     "order": 17,
+     "why": "Pelvic diaphragm (deep layer); prolapse when weak",
      "questions": [
       {
-       "q": "Why is the left common iliac vein especially prone to compression?",
+       "q": "The levator ani belongs to which layer of the pelvic floor?",
        "choices": [
-        "It enters the left renal vein at a right angle",
-        "It crosses rightward on a long oblique course",
-        "It runs within the broad ligament",
-        "It passes through the inguinal canal"
+        "Perineal membrane",
+        "Deep perineal pouch",
+        "Superficial perineal pouch",
+        "Pelvic diaphragm"
+       ],
+       "answer": 3,
+       "explain": "The deep layer of the pelvic floor is the pelvic diaphragm: levator ani (pubococcygeus, puborectalis, iliococcygeus) and coccygeus."
+      },
+      {
+       "q": "A multiparous woman with a weak pelvic floor has a posterior vaginal bulge and difficult defecation. What has descended?",
+       "choices": [
+        "Rectum",
+        "Bladder",
+        "Urethra",
+        "Uterus"
+       ],
+       "answer": 0,
+       "explain": "Loss of pelvic floor support can produce a rectocele (rectal prolapse), causing difficulty with defecation."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Deep (pelvic diaphragm): levator ani (pubococcygeus, puborectalis, iliococcygeus) and coccygeus."
+    },
+    {
+     "order": 18,
+     "why": "Completes the pelvic diaphragm",
+     "questions": [
+      {
+       "q": "Which muscle joins the levator ani to complete the pelvic diaphragm?",
+       "choices": [
+        "Piriformis",
+        "Coccygeus",
+        "Obturator internus",
+        "Deep transverse perineal"
        ],
        "answer": 1,
-       "explain": "The left common iliac vein must cross to the right to reach the IVC, so its longer, oblique course makes it susceptible to compression."
+       "explain": "The pelvic diaphragm consists of the levator ani and the coccygeus."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…levator ani (pubococcygeus, puborectalis, iliococcygeus) and coccygeus."
+    },
+    {
+     "order": 19,
+     "why": "Hip muscle forming the pelvic wall; indirect support",
+     "questions": [
+      {
+       "q": "How do the obturator internus and piriformis support the pelvic organs?",
+       "choices": [
+        "Directly, by forming the pelvic diaphragm",
+        "By acting as a urethral sphincter",
+        "Indirectly, by stabilizing the pelvis",
+        "By anchoring the cervix to the sacrum"
+       ],
+       "answer": 2,
+       "explain": "They are primarily hip muscles that indirectly support pelvic organs by stabilizing the pelvis, forming the 'walls' of the pelvic bowl."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Obturator internus and piriformis: primarily hip muscles, they indirectly support the pelvic organs by stabilizing the pelvis…"
+    },
+    {
+     "order": 20,
+     "why": "Pelvic wall muscle; indirect support",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "…they indirectly support the pelvic organs by stabilizing the pelvis; sometimes considered the 'walls' of the pelvic bowl."
     },
     {
      "order": 58,
@@ -780,40 +850,9 @@
        "answer": 3,
        "explain": "The uterine vein receives blood from the uterus and drains into the internal iliac vein."
       }
-     ]
-    },
-    {
-     "order": 59,
-     "why": "Joins internal iliac vein to form common iliac vein",
-     "questions": []
-    },
-    {
-     "order": 60,
-     "why": "Ovarian arteries from aorta; right vein to IVC, left to left renal",
-     "questions": [
-      {
-       "q": "The ovarian arteries arise from which vessel?",
-       "choices": [
-        "Abdominal aorta",
-        "Internal iliac artery",
-        "External iliac artery",
-        "Common iliac artery"
-       ],
-       "answer": 0,
-       "explain": "The ovaries are the exception to internal iliac supply; their gonadal arteries descend from the abdominal aorta."
-      },
-      {
-       "q": "The left ovarian vein drains into which vein?",
-       "choices": [
-        "Inferior vena cava",
-        "Left renal vein",
-        "Left common iliac vein",
-        "Left internal iliac vein"
-       ],
-       "answer": 1,
-       "explain": "The right ovarian vein drains directly into the IVC, while the left drains into the left renal vein."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior branch of the internal iliac artery supplies most of the female reproductive organs."
     },
     {
      "order": 62,
@@ -841,7 +880,9 @@
        "answer": 3,
        "explain": "The uterine artery comes from the anterior branch of the internal iliac artery and supplies most of the uterus."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The uterine artery supplies most of the uterus."
     },
     {
      "order": 63,
@@ -858,7 +899,65 @@
        "answer": 0,
        "explain": "The lower uterine segment has a dual blood supply that includes branches of the vaginal artery."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The lower uterine segment has a dual blood supply that includes branches of the vaginal artery."
+    },
+    {
+     "order": 60,
+     "why": "Ovarian arteries from aorta; right vein to IVC, left to left renal",
+     "questions": [
+      {
+       "q": "The ovarian arteries arise from which vessel?",
+       "choices": [
+        "Abdominal aorta",
+        "Internal iliac artery",
+        "External iliac artery",
+        "Common iliac artery"
+       ],
+       "answer": 0,
+       "explain": "The ovaries are the exception to internal iliac supply; their gonadal arteries descend from the abdominal aorta."
+      },
+      {
+       "q": "The left ovarian vein drains into which vein?",
+       "choices": [
+        "Inferior vena cava",
+        "Left renal vein",
+        "Left common iliac vein",
+        "Left internal iliac vein"
+       ],
+       "answer": 1,
+       "explain": "The right ovarian vein drains directly into the IVC, while the left drains into the left renal vein."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The increased length of the left ovarian vein makes it more susceptible to compression, especially during pregnancy."
+    },
+    {
+     "order": 59,
+     "why": "Joins internal iliac vein to form common iliac vein",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The internal iliac vein joins the external iliac vein to form the common iliac vein on each side…"
+    },
+    {
+     "order": 57,
+     "why": "Common iliac veins form the IVC; left one prone to compression",
+     "questions": [
+      {
+       "q": "Why is the left common iliac vein especially prone to compression?",
+       "choices": [
+        "It enters the left renal vein at a right angle",
+        "It crosses rightward on a long oblique course",
+        "It runs within the broad ligament",
+        "It passes through the inguinal canal"
+       ],
+       "answer": 1,
+       "explain": "The left common iliac vein must cross to the right to reach the IVC, so its longer, oblique course makes it susceptible to compression."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…the left common iliac vein must cross toward the right to reach the IVC… particularly susceptible to compression."
     },
     {
      "order": 67,
@@ -875,6 +974,98 @@
        "answer": 1,
        "explain": "The pudendal nerve provides sensory innervation to the inferior vagina/external genitalia and motor innervation to the pelvic floor muscles."
       }
+     ],
+     "yield": "high",
+     "excerpt": "The pudendal nerve provides sensory innervation to the inferior vagina/external genitalia and motor innervation to the pelvic floor muscles in both females and males."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Key Bony and Ligamentous Structures",
+     "orders": [
+      1,
+      13,
+      3,
+      5,
+      6,
+      4,
+      9,
+      10,
+      12,
+      8,
+      11
+     ]
+    },
+    {
+     "title": "Perineum",
+     "orders": [
+      15,
+      2,
+      7,
+      14,
+      16
+     ]
+    },
+    {
+     "title": "External Female Reproductive Organs",
+     "orders": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+     ]
+    },
+    {
+     "title": "Vagina and Cervix",
+     "orders": [
+      38,
+      39,
+      40,
+      41,
+      42
+     ]
+    },
+    {
+     "title": "Uterus, Uterine Tubes, and Ovaries",
+     "orders": [
+      43,
+      44,
+      45
+     ]
+    },
+    {
+     "title": "Supporting Structures of Female Reproductive Organs",
+     "orders": [
+      46,
+      47,
+      48,
+      36
+     ]
+    },
+    {
+     "title": "Pelvic Floor Muscles",
+     "orders": [
+      17,
+      18,
+      19,
+      20
+     ]
+    },
+    {
+     "title": "Vascular Supply and Innervation",
+     "orders": [
+      58,
+      62,
+      63,
+      60,
+      59,
+      57,
+      67
      ]
     }
    ]
@@ -886,6 +1077,74 @@
    "session": "1",
    "stem": "205_Repro",
    "items": [
+    {
+     "order": 33,
+     "why": "Glans and body; supply from internal pudendal arteries",
+     "questions": [
+      {
+       "q": "Penile arterial supply comes mainly from branches of which artery?",
+       "choices": [
+        "Testicular artery",
+        "Inferior vesical artery",
+        "Inferior epigastric artery",
+        "Internal pudendal artery"
+       ],
+       "answer": 3,
+       "explain": "The major blood supply of the penis comes from the internal iliac via the internal pudendal arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The penis body (shaft) ends in the glans, which is covered by the prepuce (foreskin) and attached ventrally by the frenulum."
+    },
+    {
+     "order": 34,
+     "why": "Paired dorsal erectile bodies; deep arteries; parasympathetic erection",
+     "questions": [
+      {
+       "q": "Erection results from which autonomic action?",
+       "choices": [
+        "Parasympathetic dilation of penile vessels",
+        "Sympathetic dilation of penile vessels",
+        "Parasympathetic constriction of penile vessels",
+        "Sympathetic constriction of penile vessels"
+       ],
+       "answer": 0,
+       "explain": "Parasympathetic nerves dilate penile blood vessels to produce erection ('point'); sympathetic nerves constrict and inhibit."
+      },
+      {
+       "q": "Which arteries supply the erectile tissue of the corpora cavernosa?",
+       "choices": [
+        "Dorsal arteries",
+        "Deep (cavernosal) arteries",
+        "Testicular arteries",
+        "Inferior vesical arteries"
+       ],
+       "answer": 1,
+       "explain": "Internal pudendal branches include the deep penile (cavernosal) arteries to the erectile tissue and dorsal arteries to skin, glans, and fascia."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "It is composed of three cylindrical masses of erectile tissue—two paired corpora cavernosa dorsally…"
+    },
+    {
+     "order": 35,
+     "why": "Single ventral erectile body surrounding the urethra",
+     "questions": [
+      {
+       "q": "The corpus spongiosum surrounds which structure?",
+       "choices": [
+        "Prostatic urethra",
+        "Membranous urethra",
+        "Penile urethra",
+        "Deep dorsal vein"
+       ],
+       "answer": 2,
+       "explain": "The single ventral corpus spongiosum surrounds and protects the spongy (penile) urethra."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…a single corpus spongiosum ventrally, which surrounds and protects the spongy (penile) urethra."
+    },
     {
      "order": 31,
      "why": "Gonads: spermatogenesis and testosterone; aortic supply, para-aortic nodes",
@@ -923,7 +1182,9 @@
        "answer": 0,
        "explain": "The testes receive parasympathetic innervation from the vagus nerve, unlike other pelvic organs (S2-S4)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Testes are responsible for spermatogenesis (production of sperm) as well as the synthesis of various sex hormones, including testosterone."
     },
     {
      "order": 30,
@@ -940,7 +1201,9 @@
        "answer": 1,
        "explain": "Although near the testes, the scrotum drains to the superficial inguinal lymph nodes."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Two testes are contained within the scrotum, a sac located underneath the penis consisting of smooth muscle and skin."
     },
     {
      "order": 32,
@@ -968,7 +1231,28 @@
        "answer": 3,
        "explain": "Epididymitis is commonly caused by gonococcus in young males and by E. coli in older males."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The epididymis functions as the structure for sperm storage and maturation."
+    },
+    {
+     "order": 50,
+     "why": "Carries sperm; sympathetic peristalsis; vasectomy",
+     "questions": [
+      {
+       "q": "After a vasectomy, which component is absent from the ejaculate?",
+       "choices": [
+        "Fructose",
+        "Prostatic fluid",
+        "Sperm",
+        "Semenogelin"
+       ],
+       "answer": 2,
+       "explain": "Vasectomy severs the vas deferens, blocking sperm transport; seminal vesicle and prostate secretions still form the ejaculate."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Vasectomy is a surgical procedure in which the vas deferens is severed or ligated to prevent transport of sperm outside of the body."
     },
     {
      "order": 49,
@@ -996,24 +1280,9 @@
        "answer": 1,
        "explain": "The spermatic cord contains the vas deferens, blood and lymphatic vessels (including the pampiniform plexus), and nerves."
       }
-     ]
-    },
-    {
-     "order": 50,
-     "why": "Carries sperm; sympathetic peristalsis; vasectomy",
-     "questions": [
-      {
-       "q": "After a vasectomy, which component is absent from the ejaculate?",
-       "choices": [
-        "Fructose",
-        "Prostatic fluid",
-        "Sperm",
-        "Semenogelin"
-       ],
-       "answer": 2,
-       "explain": "Vasectomy severs the vas deferens, blocking sperm transport; seminal vesicle and prostate secretions still form the ejaculate."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The spermatic cord is wrapped in three layers of tissues: external spermatic fascia, cremasteric muscle, and internal spermatic fascia."
     },
     {
      "order": 51,
@@ -1041,7 +1310,9 @@
        "answer": 0,
        "explain": "The seminal vesicles contribute roughly 70%-85% of seminal fluid volume; the prostate adds about a third."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "It has an especially high concentration of fructose, which provides energy for the sperm."
     },
     {
      "order": 52,
@@ -1058,7 +1329,9 @@
        "answer": 1,
        "explain": "Excretory ducts of the seminal vesicles merge with the vas deferens to form the ejaculatory ducts."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Within the prostate, the two ejaculatory ducts merge at the prostatic urethra."
     },
     {
      "order": 53,
@@ -1097,7 +1370,9 @@
        "answer": 0,
        "explain": "The prostatic plexus drains to the internal iliac vein, which connects with the vertebral venous plexus, a route for vertebral metastasis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The prostate produces an alkaline fluid that makes up a third of the seminal fluid."
     },
     {
      "order": 54,
@@ -1114,12 +1389,16 @@
        "answer": 1,
        "explain": "Within the prostate the two ejaculatory ducts join the prostatic urethra, where seminal and prostatic secretions mix."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The enlarging transitional zone compresses the prostatic urethra."
     },
     {
      "order": 55,
      "why": "Short segment distal to the prostate",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Distal to the prostate, the urethra continues briefly as the membranous urethra before entering the penis as the spongy (penile) urethra."
     },
     {
      "order": 56,
@@ -1136,69 +1415,23 @@
        "answer": 2,
        "explain": "Bulbourethral glands secrete a clear pre-ejaculate that lubricates the distal urethra and neutralizes its acidic pH."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Semen (sperm, prostatic fluid, seminal fluid) exits through the spongy (penile) urethra during ejaculation."
     },
     {
-     "order": 33,
-     "why": "Glans and body; supply from internal pudendal arteries",
-     "questions": [
-      {
-       "q": "Penile arterial supply comes mainly from branches of which artery?",
-       "choices": [
-        "Testicular artery",
-        "Inferior vesical artery",
-        "Inferior epigastric artery",
-        "Internal pudendal artery"
-       ],
-       "answer": 3,
-       "explain": "The major blood supply of the penis comes from the internal iliac via the internal pudendal arteries."
-      }
-     ]
+     "order": 16,
+     "why": "Center of the perineum; prostate lies deep to it",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…the location of the perineal body, with the prostate gland deep to the muscles in this area."
     },
     {
-     "order": 34,
-     "why": "Paired dorsal erectile bodies; deep arteries; parasympathetic erection",
-     "questions": [
-      {
-       "q": "Erection results from which autonomic action?",
-       "choices": [
-        "Parasympathetic dilation of penile vessels",
-        "Sympathetic dilation of penile vessels",
-        "Parasympathetic constriction of penile vessels",
-        "Sympathetic constriction of penile vessels"
-       ],
-       "answer": 0,
-       "explain": "Parasympathetic nerves dilate penile blood vessels to produce erection ('point'); sympathetic nerves constrict and inhibit."
-      },
-      {
-       "q": "Which arteries supply the erectile tissue of the corpora cavernosa?",
-       "choices": [
-        "Dorsal arteries",
-        "Deep (cavernosal) arteries",
-        "Testicular arteries",
-        "Inferior vesical arteries"
-       ],
-       "answer": 1,
-       "explain": "Internal pudendal branches include the deep penile (cavernosal) arteries to the erectile tissue and dorsal arteries to skin, glans, and fascia."
-      }
-     ]
-    },
-    {
-     "order": 35,
-     "why": "Single ventral erectile body surrounding the urethra",
-     "questions": [
-      {
-       "q": "The corpus spongiosum surrounds which structure?",
-       "choices": [
-        "Prostatic urethra",
-        "Membranous urethra",
-        "Penile urethra",
-        "Deep dorsal vein"
-       ],
-       "answer": 2,
-       "explain": "The single ventral corpus spongiosum surrounds and protects the spongy (penile) urethra."
-      }
-     ]
+     "order": 57,
+     "why": "Gives rise to the internal iliac artery",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…the internal iliac artery, which arises from the common iliac artery."
     },
     {
      "order": 58,
@@ -1215,7 +1448,54 @@
        "answer": 3,
        "explain": "The internal iliac artery begins at the level of the L5-S1 intervertebral disc; its anterior branches supply the reproductive viscera."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The prostate first drains into the prostatic plexus, then into the internal iliac vein, which is connected to the vertebral venous plexus."
+    },
+    {
+     "order": 61,
+     "why": "Gives the deep and dorsal arteries of the penis",
+     "questions": [
+      {
+       "q": "Which branches of the internal pudendal artery supply the penis?",
+       "choices": [
+        "Testicular and cremasteric arteries",
+        "Superior and inferior vesical arteries",
+        "Deep penile and dorsal arteries",
+        "Uterine and vaginal arteries"
+       ],
+       "answer": 2,
+       "explain": "The internal pudendal arteries branch into the deep penile (cavernosal) arteries and the dorsal arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The major blood supply of the penis originates from the internal iliac arteries and the internal pudendal arteries…"
+    },
+    {
+     "order": 64,
+     "why": "Supplies skin, glans, fascia",
+     "questions": [
+      {
+       "q": "What does the dorsal artery of the penis supply?",
+       "choices": [
+        "Erectile tissue of the corpora",
+        "Prostate and seminal vesicles",
+        "Scrotum and testes",
+        "Skin, glans, and fascia"
+       ],
+       "answer": 3,
+       "explain": "Dorsal arteries supply the skin, glans, and fascia; deep (cavernosal) arteries supply the erectile tissue."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…dorsal arteries that supply the skin, glans, and fascia."
+    },
+    {
+     "order": 66,
+     "why": "Drains the penis",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Blood drains via the superficial and deep dorsal veins."
     },
     {
      "order": 60,
@@ -1243,46 +1523,9 @@
        "answer": 1,
        "explain": "The left gonadal vein drains into the left renal vein; the right drains directly into the IVC."
       }
-     ]
-    },
-    {
-     "order": 61,
-     "why": "Gives the deep and dorsal arteries of the penis",
-     "questions": [
-      {
-       "q": "Which branches of the internal pudendal artery supply the penis?",
-       "choices": [
-        "Testicular and cremasteric arteries",
-        "Superior and inferior vesical arteries",
-        "Deep penile and dorsal arteries",
-        "Uterine and vaginal arteries"
-       ],
-       "answer": 2,
-       "explain": "The internal pudendal arteries branch into the deep penile (cavernosal) arteries and the dorsal arteries."
-      }
-     ]
-    },
-    {
-     "order": 64,
-     "why": "Supplies skin, glans, fascia",
-     "questions": [
-      {
-       "q": "What does the dorsal artery of the penis supply?",
-       "choices": [
-        "Erectile tissue of the corpora",
-        "Prostate and seminal vesicles",
-        "Scrotum and testes",
-        "Skin, glans, and fascia"
-       ],
-       "answer": 3,
-       "explain": "Dorsal arteries supply the skin, glans, and fascia; deep (cavernosal) arteries supply the erectile tissue."
-      }
-     ]
-    },
-    {
-     "order": 66,
-     "why": "Drains the penis",
-     "questions": []
+     ],
+     "yield": "high",
+     "excerpt": "The left testicular vein drains into the left renal vein at a right angle before reaching the inferior vena cava…"
     },
     {
      "order": 65,
@@ -1310,7 +1553,9 @@
        "answer": 1,
        "explain": "The right pampiniform plexus drains via the right gonadal vein directly into the IVC."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…making the left testis more susceptible to a varicocele, an abnormal dilation of the pampiniform plexus."
     },
     {
      "order": 67,
@@ -1327,6 +1572,73 @@
        "answer": 2,
        "explain": "The primary somatic motor and sensory innervation of the pelvic and perineal structures comes from the pudendal nerve (S2-S4)."
       }
+     ],
+     "yield": "high",
+     "excerpt": "The primary somatic motor and sensory innervation of the pelvic and perineal structures comes from the pudendal nerve (S2–S4)."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Penis",
+     "orders": [
+      33,
+      34,
+      35
+     ]
+    },
+    {
+     "title": "Testes, Scrotum, and Epididymis",
+     "orders": [
+      31,
+      30,
+      32
+     ]
+    },
+    {
+     "title": "Vas Deferens and Spermatic Cord",
+     "orders": [
+      50,
+      49
+     ]
+    },
+    {
+     "title": "Seminal Vesicles and Ejaculatory Ducts",
+     "orders": [
+      51,
+      52
+     ]
+    },
+    {
+     "title": "Prostate Gland and Urethra",
+     "orders": [
+      53,
+      54,
+      55,
+      56
+     ]
+    },
+    {
+     "title": "Supporting Structures of Male Reproductive Organs",
+     "orders": [
+      16
+     ]
+    },
+    {
+     "title": "Arterial Supply and Venous Drainage",
+     "orders": [
+      57,
+      58,
+      61,
+      64,
+      66,
+      60,
+      65
+     ]
+    },
+    {
+     "title": "Autonomic and Somatic Innervation",
+     "orders": [
+      67
      ]
     }
    ]
@@ -1338,6 +1650,13 @@
    "session": "1",
    "stem": "205_Repro",
    "items": [
+    {
+     "order": 77,
+     "why": "Surrounds the nipple",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Nipples are located at the center of the areolas."
+    },
     {
      "order": 68,
      "why": "Breast lies on pectoralis major; retromammary space; 2nd-6th rib base",
@@ -1375,7 +1694,123 @@
        "answer": 1,
        "explain": "The circular base of the breast spans vertically from the second rib to the sixth rib."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The breasts sit in front of the pectoralis major muscle on the chest wall…"
+    },
+    {
+     "order": 70,
+     "why": "Gives the internal thoracic artery",
+     "questions": [
+      {
+       "q": "The internal thoracic artery is a branch of which artery?",
+       "choices": [
+        "Subclavian artery",
+        "Axillary artery",
+        "Thoracoacromial artery",
+        "Brachial artery"
+       ],
+       "answer": 0,
+       "explain": "The internal thoracic artery, a main breast supply, branches from the subclavian artery."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…the internal thoracic artery (branch of subclavian artery)…"
+    },
+    {
+     "order": 71,
+     "why": "Major medial breast supply",
+     "questions": [
+      {
+       "q": "Which two arteries are the primary blood supply of the breast?",
+       "choices": [
+        "Thoracoacromial and intercostal",
+        "Internal and lateral thoracic",
+        "Superior thoracic and thoracodorsal",
+        "Subscapular and superior epigastric"
+       ],
+       "answer": 1,
+       "explain": "The breast is supplied primarily by the internal thoracic (from subclavian) and lateral thoracic (from axillary) arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The breast receives its arterial blood supply primarily from the internal thoracic artery (branch of subclavian artery)…"
+    },
+    {
+     "order": 72,
+     "why": "Gives the lateral thoracic artery",
+     "questions": [
+      {
+       "q": "The lateral thoracic artery is a branch of which artery?",
+       "choices": [
+        "Subclavian artery",
+        "Internal thoracic artery",
+        "Axillary artery",
+        "Brachial artery"
+       ],
+       "answer": 2,
+       "explain": "The lateral thoracic artery, a main breast supply, branches from the axillary artery."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…the lateral thoracic artery (branch of axillary artery)."
+    },
+    {
+     "order": 73,
+     "why": "Major lateral breast supply",
+     "questions": [
+      {
+       "q": "Besides the internal and lateral thoracic arteries, which arteries add blood to the breast?",
+       "choices": [
+        "Thoracodorsal and circumflex scapular",
+        "Superior thyroid and transverse cervical",
+        "Superior and inferior epigastric",
+        "Thoracoacromial and posterior intercostal"
+       ],
+       "answer": 3,
+       "explain": "Additional breast supply comes from the thoracoacromial artery and the posterior intercostal arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…and the lateral thoracic artery (branch of axillary artery)."
+    },
+    {
+     "order": 74,
+     "why": "Main venous drainage of the breast",
+     "questions": [
+      {
+       "q": "Venous drainage of the breast occurs predominantly through which veins?",
+       "choices": [
+        "Lateral and internal thoracic veins",
+        "Cephalic and basilic veins",
+        "Azygos and hemiazygos veins",
+        "External jugular and subclavian veins"
+       ],
+       "answer": 0,
+       "explain": "Breast venous drainage is predominantly through the lateral thoracic veins (to the axillary veins) and internal thoracic veins."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Venous drainage occurs predominantly through the lateral thoracic veins (to the axillary veins) and internal thoracic veins…"
+    },
+    {
+     "order": 75,
+     "why": "Receives the lateral thoracic veins",
+     "questions": [
+      {
+       "q": "The lateral thoracic veins of the breast empty into which vein?",
+       "choices": [
+        "Internal thoracic vein",
+        "Axillary vein",
+        "Cephalic vein",
+        "Brachial vein"
+       ],
+       "answer": 1,
+       "explain": "Breast venous blood returns largely via the lateral thoracic veins to the axillary veins."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…the lateral thoracic veins (to the axillary veins)…"
     },
     {
      "order": 69,
@@ -1403,109 +1838,9 @@
        "answer": 3,
        "explain": "Level III axillary nodes lie medial to the pectoralis minor."
       }
-     ]
-    },
-    {
-     "order": 70,
-     "why": "Gives the internal thoracic artery",
-     "questions": [
-      {
-       "q": "The internal thoracic artery is a branch of which artery?",
-       "choices": [
-        "Subclavian artery",
-        "Axillary artery",
-        "Thoracoacromial artery",
-        "Brachial artery"
-       ],
-       "answer": 0,
-       "explain": "The internal thoracic artery, a main breast supply, branches from the subclavian artery."
-      }
-     ]
-    },
-    {
-     "order": 71,
-     "why": "Major medial breast supply",
-     "questions": [
-      {
-       "q": "Which two arteries are the primary blood supply of the breast?",
-       "choices": [
-        "Thoracoacromial and intercostal",
-        "Internal and lateral thoracic",
-        "Superior thoracic and thoracodorsal",
-        "Subscapular and superior epigastric"
-       ],
-       "answer": 1,
-       "explain": "The breast is supplied primarily by the internal thoracic (from subclavian) and lateral thoracic (from axillary) arteries."
-      }
-     ]
-    },
-    {
-     "order": 72,
-     "why": "Gives the lateral thoracic artery",
-     "questions": [
-      {
-       "q": "The lateral thoracic artery is a branch of which artery?",
-       "choices": [
-        "Subclavian artery",
-        "Internal thoracic artery",
-        "Axillary artery",
-        "Brachial artery"
-       ],
-       "answer": 2,
-       "explain": "The lateral thoracic artery, a main breast supply, branches from the axillary artery."
-      }
-     ]
-    },
-    {
-     "order": 73,
-     "why": "Major lateral breast supply",
-     "questions": [
-      {
-       "q": "Besides the internal and lateral thoracic arteries, which arteries add blood to the breast?",
-       "choices": [
-        "Thoracodorsal and circumflex scapular",
-        "Superior thyroid and transverse cervical",
-        "Superior and inferior epigastric",
-        "Thoracoacromial and posterior intercostal"
-       ],
-       "answer": 3,
-       "explain": "Additional breast supply comes from the thoracoacromial artery and the posterior intercostal arteries."
-      }
-     ]
-    },
-    {
-     "order": 74,
-     "why": "Main venous drainage of the breast",
-     "questions": [
-      {
-       "q": "Venous drainage of the breast occurs predominantly through which veins?",
-       "choices": [
-        "Lateral and internal thoracic veins",
-        "Cephalic and basilic veins",
-        "Azygos and hemiazygos veins",
-        "External jugular and subclavian veins"
-       ],
-       "answer": 0,
-       "explain": "Breast venous drainage is predominantly through the lateral thoracic veins (to the axillary veins) and internal thoracic veins."
-      }
-     ]
-    },
-    {
-     "order": 75,
-     "why": "Receives the lateral thoracic veins",
-     "questions": [
-      {
-       "q": "The lateral thoracic veins of the breast empty into which vein?",
-       "choices": [
-        "Internal thoracic vein",
-        "Axillary vein",
-        "Cephalic vein",
-        "Brachial vein"
-       ],
-       "answer": 1,
-       "explain": "Breast venous blood returns largely via the lateral thoracic veins to the axillary veins."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The axillary nodes are divided into levels (I, II, and III) based on their position relative to the pectoralis minor muscle."
     },
     {
      "order": 76,
@@ -1533,12 +1868,46 @@
        "answer": 3,
        "explain": "The lactiferous sinuses connect to the nipple, also known as the papilla."
       }
+     ],
+     "yield": "high",
+     "excerpt": "Toward the nipple, the lactiferous ducts further converge and dilate, forming lactiferous sinuses, which connect to the nipple (also known as the papilla)."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Surface Anatomy",
+     "orders": [
+      77
      ]
     },
     {
-     "order": 77,
-     "why": "Surrounds the nipple",
-     "questions": []
+     "title": "Muscular and Ligament Support",
+     "orders": [
+      68
+     ]
+    },
+    {
+     "title": "Vascular Support",
+     "orders": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+     ]
+    },
+    {
+     "title": "Lymphatic Drainage",
+     "orders": [
+      69
+     ]
+    },
+    {
+     "title": "Lactiferous Ducts",
+     "orders": [
+      76
+     ]
     }
    ]
   }

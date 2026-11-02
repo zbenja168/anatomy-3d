@@ -23,7 +23,9 @@
        "answer": 0,
        "explain": "The iliopsoas extends from the lumbar vertebrae and iliac fossa to the lesser trochanter of the femur."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The posterior abdominal wall is supported by the lumbar vertebrae, twelfth rib, pelvis, and proximal femur."
     },
     {
      "order": 2,
@@ -62,7 +64,9 @@
        "answer": 1,
        "explain": "In Pott disease, vertebral infection can spread into the psoas compartment, producing a psoas abscess; patients hold the hip flexed to avoid stretching the muscle."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Extending from the lumbar vertebrae and iliac fossa to the lesser trochanter of the femur, it is the primary flexor of the hip…"
     },
     {
      "order": 3,
@@ -90,7 +94,9 @@
        "answer": 0,
        "explain": "Like the other posterior abdominal wall muscles, quadratus lumborum is supplied by anterior rami (T12-L4)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "It stabilizes the twelfth rib during respiration and produces ipsilateral lateral flexion of the vertebral column."
     },
     {
      "order": 4,
@@ -118,7 +124,9 @@
        "answer": 2,
        "explain": "Table 3 lists the transverse cervical artery as the blood supply of the trapezius."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The trapezius is an exception, receiving motor innervation from the spinal accessory nerve (CN XI)."
     },
     {
      "order": 5,
@@ -146,7 +154,9 @@
        "answer": 1,
        "explain": "Latissimus dorsi extends, adducts, and medially rotates the arm (e.g., climbing and pulling)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Latissimus dorsi: Thoracodorsal nerve; Thoracodorsal artery; Extends, adducts, and medially rotates the arm"
     },
     {
      "order": 6,
@@ -163,7 +173,9 @@
        "answer": 0,
        "explain": "Levator scapulae is supplied by the dorsal scapular nerve and artery and elevates the scapula."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Levator scapulae: Dorsal scapular nerve; Dorsal scapular artery; Elevates the scapula"
     },
     {
      "order": 7,
@@ -180,7 +192,9 @@
        "answer": 3,
        "explain": "Rhomboid major and minor retract and stabilize the scapula; they are supplied by the dorsal scapular nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Rhomboid major & minor: Dorsal scapular nerve; Dorsal scapular artery; Retracts and stabilizes the scapula"
     },
     {
      "order": 8,
@@ -197,7 +211,9 @@
        "answer": 3,
        "explain": "Both rhomboids (and levator scapulae) are supplied by the dorsal scapular nerve and dorsal scapular artery."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The superficial extrinsic back muscles include the trapezius, latissimus dorsi, levator scapulae, and rhomboid major and minor"
     },
     {
      "order": 9,
@@ -225,7 +241,338 @@
        "answer": 1,
        "explain": "Serratus posterior superior is supplied by intercostal nerves T2-T5 and serratus posterior inferior by T9-T12."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…they play only a minor role in breathing and are thought to contribute primarily to proprioception."
+    },
+    {
+     "order": 43,
+     "why": "Anterior rami: supply extrinsic back and posterior abdominal wall muscles",
+     "questions": [
+      {
+       "q": "The extrinsic back muscles (except trapezius) are innervated primarily by which branches?",
+       "choices": [
+        "Posterior (dorsal) rami",
+        "Anterior (ventral) rami",
+        "Anterior (ventral) roots",
+        "Cranial nerve XI"
+       ],
+       "answer": 1,
+       "explain": "Extrinsic back muscles are supplied mainly by anterior rami, reflecting their embryologic link with limb musculature."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…they are innervated primarily by anterior rami of spinal nerves, reflecting their embryologic association with the limb musculature."
+    },
+    {
+     "order": 21,
+     "why": "Typical vertebra: body anterior, vertebral arch posterior (pedicles + laminae)",
+     "questions": [
+      {
+       "q": "The vertebral arch of a typical vertebra is formed by which paired parts?",
+       "choices": [
+        "Bodies and pedicles",
+        "Pedicles and laminae",
+        "Laminae and spinous processes",
+        "Transverse and articular processes"
+       ],
+       "answer": 1,
+       "explain": "A typical vertebra has a body anteriorly and a vertebral arch posteriorly formed by paired pedicles and laminae."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "A typical vertebra consists of a body anteriorly and a vertebral arch posteriorly."
+    },
+    {
+     "order": 22,
+     "why": "Pedicle: part of arch; vertebral notches of adjacent pedicles form intervertebral foramen",
+     "questions": [
+      {
+       "q": "The superior and inferior vertebral notches of adjacent pedicles form which opening?",
+       "choices": [
+        "Intervertebral foramen",
+        "Vertebral foramen",
+        "Transverse foramen",
+        "Foramen magnum"
+       ],
+       "answer": 0,
+       "explain": "Each intervertebral foramen is formed in part by the vertebral notches of adjacent pedicles; spinal nerves exit through it."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Each intervertebral foramen is formed in part by the superior and inferior vertebral notches of adjacent pedicles."
+    },
+    {
+     "order": 23,
+     "why": "Lamina: posterior part of arch between transverse and spinous processes",
+     "questions": [
+      {
+       "q": "Which part of a vertebra forms the posterior arch between the transverse and spinous processes?",
+       "choices": [
+        "Lamina",
+        "Pedicle",
+        "Vertebral body",
+        "Superior articular process"
+       ],
+       "answer": 0,
+       "explain": "The laminae form the posterior portion of the vertebral arch, between the transverse process and the spinous process."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Which part of a typical vertebra forms the posterior portion of the vertebral arch between the transverse process and spinous process?"
+    },
+    {
+     "order": 24,
+     "why": "Vertebral foramen: surrounded by body + arch; stacked foramina form vertebral canal",
+     "questions": [
+      {
+       "q": "Successive vertebral foramina together form what structure?",
+       "choices": [
+        "Intervertebral foramen",
+        "Transverse foramen",
+        "Lumbar cistern",
+        "Vertebral canal"
+       ],
+       "answer": 3,
+       "explain": "The body and arch surround the vertebral foramen; the vertebral foramina of successive vertebrae form the vertebral canal."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The vertebral arch is formed by paired pedicles and laminae and, together with the body, surrounds the vertebral foramen."
+    },
+    {
+     "order": 25,
+     "why": "Vertebral canal: formed by stacked vertebral foramina; houses the spinal cord",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The vertebral foramina of successive vertebrae collectively form the vertebral canal."
+    },
+    {
+     "order": 26,
+     "why": "Spinous process: back muscle/ligament attachment; C7 vertebra prominens is a palpable landmark",
+     "questions": [
+      {
+       "q": "Which spinous process is usually easily palpable at the base of the neck and used to count vertebral levels?",
+       "choices": [
+        "C2",
+        "T4",
+        "C7",
+        "C5"
+       ],
+       "answer": 2,
+       "explain": "The spinous process of C7 (vertebra prominens) is a key palpable landmark at the base of the neck."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The spinous process of C7 (vertebra prominens) is usually easily palpable at the base of the neck…"
+    },
+    {
+     "order": 27,
+     "why": "Transverse process: attachment site; QL attaches to TPs of upper lumbar vertebrae",
+     "questions": [
+      {
+       "q": "The quadratus lumborum attaches superiorly to the twelfth rib and to which vertebral feature?",
+       "choices": [
+        "Spinous processes of upper lumbar vertebrae",
+        "Transverse processes of upper lumbar vertebrae",
+        "Bodies of the lower thoracic vertebrae",
+        "Laminae of the lower lumbar vertebrae"
+       ],
+       "answer": 1,
+       "explain": "Quadratus lumborum runs from the iliac crest and iliolumbar ligament to the 12th rib and the transverse processes of the upper lumbar vertebrae."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The spinous and transverse processes provide important attachment sites for the muscles and ligaments of the back."
+    },
+    {
+     "order": 28,
+     "why": "Intervertebral foramen: spinal nerves exit the vertebral canal",
+     "questions": [
+      {
+       "q": "What passes through the intervertebral foramina?",
+       "choices": [
+        "Vertebral arteries",
+        "Spinal nerves",
+        "Spinal accessory nerves",
+        "Lumbar cisterns"
+       ],
+       "answer": 1,
+       "explain": "Spinal nerves exit the vertebral canal through the intervertebral foramina, which lie between adjacent vertebrae."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The intervertebral foramina are openings between adjacent vertebrae through which spinal nerves exit the vertebral canal."
+    },
+    {
+     "order": 29,
+     "why": "Cervical vertebra: identified by transverse foramina",
+     "questions": [
+      {
+       "q": "Which feature is characteristic of cervical vertebrae?",
+       "choices": [
+        "Transverse foramina",
+        "Costal facets",
+        "Massive vertebral bodies",
+        "A fused sacral crest"
+       ],
+       "answer": 0,
+       "explain": "Cervical vertebrae have transverse foramina; thoracic vertebrae have rib facets; lumbar vertebrae have large bodies."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Cervical vertebrae are characterized by transverse foramina."
+    },
+    {
+     "order": 30,
+     "why": "Transverse foramen: transmits the vertebral artery, usually entering at C6",
+     "questions": [
+      {
+       "q": "At which level does the vertebral artery typically enter the transverse foramina?",
+       "choices": [
+        "C1",
+        "C3",
+        "T1",
+        "C6"
+       ],
+       "answer": 3,
+       "explain": "The vertebral arteries typically enter the transverse foramina at C6 and ascend to the atlas before entering the skull through the foramen magnum."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The vertebral arteries ascend through the transverse foramina of the cervical vertebrae, typically entering at the level of C6…"
+    },
+    {
+     "order": 31,
+     "why": "Vertebral artery: ascends in transverse foramina, enters skull via foramen magnum; compression -> vertigo, ataxia",
+     "questions": [
+      {
+       "q": "Osteophytes and extreme neck rotation compress a vertebral artery. Which presentation is most expected?",
+       "choices": [
+        "Winged scapula and weak protraction",
+        "Wrist drop and dorsal hand numbness",
+        "Vertigo, ataxia, and visual disturbance",
+        "Head tilt with contralateral rotation"
+       ],
+       "answer": 2,
+       "explain": "Vertebral artery compression reduces flow to the brainstem, cerebellum, and occipital lobes, causing dizziness, vertigo, ataxia, visual disturbances, or syncope."
+      },
+      {
+       "q": "The vertebral artery enters the cranial cavity through which opening?",
+       "choices": [
+        "Jugular foramen",
+        "Foramen ovale",
+        "Foramen magnum",
+        "Carotid canal"
+       ],
+       "answer": 2,
+       "explain": "After ascending through the cervical transverse foramina to C1, the vertebral artery enters the cranial cavity through the foramen magnum."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…can injure or compress a vertebral artery, reducing blood flow to the brainstem, cerebellum, and occipital lobes."
+    },
+    {
+     "order": 32,
+     "why": "Thoracic vertebra: facets for rib articulation",
+     "questions": [
+      {
+       "q": "Which feature distinguishes thoracic vertebrae?",
+       "choices": [
+        "Transverse foramina",
+        "Facets for the ribs",
+        "A dens",
+        "Very large bodies"
+       ],
+       "answer": 1,
+       "explain": "Thoracic vertebrae have costal facets for articulation with the ribs."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Thoracic vertebrae have facets for articulation with the ribs."
+    },
+    {
+     "order": 33,
+     "why": "Costal facets: rib articulations on thoracic vertebrae",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Thoracic vertebrae have facets for articulation with the ribs."
+    },
+    {
+     "order": 34,
+     "why": "Lumbar vertebra: large bodies to bear greater weight",
+     "questions": [
+      {
+       "q": "Why are lumbar vertebral bodies so large?",
+       "choices": [
+        "To support greater body weight",
+        "To transmit vertebral arteries",
+        "To articulate with the ribs",
+        "To allow rotation of the head"
+       ],
+       "answer": 0,
+       "explain": "Lumbar vertebrae have large vertebral bodies adapted to support greater weight."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Lumbar vertebrae have large vertebral bodies adapted to support greater weight."
+    },
+    {
+     "order": 35,
+     "why": "Atlas (C1): no body or typical spinous process; atlanto-occipital joint with occipital condyles",
+     "questions": [
+      {
+       "q": "Which vertebra lacks a body and articulates with the occipital condyles?",
+       "choices": [
+        "Axis (C2)",
+        "C7 vertebra",
+        "T1 vertebra",
+        "Atlas (C1)"
+       ],
+       "answer": 3,
+       "explain": "The atlas lacks a body and a typical spinous process and articulates with the occipital condyles at the atlanto-occipital joints."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The atlas (C1) lacks a body and a typical spinous process and articulates superiorly with the occipital condyles at the atlanto-occipital joints."
+    },
+    {
+     "order": 36,
+     "why": "Axis (C2) and dens: pivot for head rotation at the atlantoaxial joint",
+     "questions": [
+      {
+       "q": "The dens of the axis is the pivot for which movement?",
+       "choices": [
+        "Flexion of the neck",
+        "Lateral flexion of head",
+        "Nodding at C0-C1",
+        "Rotation of atlas and head"
+       ],
+       "answer": 3,
+       "explain": "The dens projects superiorly and is the pivot around which the atlas and head rotate at the atlantoaxial joint."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The axis (C2) is distinguished by the dens, which projects superiorly and provides a pivot around which the atlas and head rotate…"
+    },
+    {
+     "order": 44,
+     "why": "Posterior rami: innervate all intrinsic back muscles",
+     "questions": [
+      {
+       "q": "Intrinsic back muscles such as the erector spinae and multifidus are supplied by which branches?",
+       "choices": [
+        "Anterior (ventral) rami",
+        "Posterior (dorsal) roots",
+        "Posterior (dorsal) rami",
+        "Intercostal nerves"
+       ],
+       "answer": 2,
+       "explain": "The intrinsic back muscles are innervated by posterior (dorsal) rami of spinal nerves."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "They primarily move and stabilize the vertebral column and head and are innervated by the posterior (dorsal) rami of spinal nerves."
     },
     {
      "order": 10,
@@ -253,7 +600,9 @@
        "answer": 0,
        "explain": "As intrinsic back muscles, the splenius muscles are supplied by posterior (dorsal) rami of cervical spinal nerves."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The splenius capitis and splenius cervicis form the most superficial layer of the intrinsic back muscles in the posterior neck"
     },
     {
      "order": 11,
@@ -281,7 +630,9 @@
        "answer": 2,
        "explain": "All intrinsic back muscles, including the erector spinae, are supplied by posterior (dorsal) rami."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The erector spinae is the largest intrinsic back muscle group and consists of the iliocostalis, longissimus, and spinalis muscles"
     },
     {
      "order": 12,
@@ -298,7 +649,9 @@
        "answer": 1,
        "explain": "The transversospinalis group sits in the groove between transverse and spinous processes, stabilizes adjacent vertebrae, and assists extension and contralateral rotation."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "These muscles stabilize adjacent vertebrae and assist with extension and contralateral rotation of the vertebral column."
     },
     {
      "order": 13,
@@ -315,7 +668,9 @@
        "answer": 1,
        "explain": "The suboccipital muscles lie deep in the posterior neck beneath the semispinalis capitis, a transversospinalis muscle."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "These muscles lie deep in the posterior neck beneath the semispinalis capitis."
     },
     {
      "order": 14,
@@ -332,7 +687,9 @@
        "answer": 0,
        "explain": "The multifidus is particularly important for lumbar stability; its weakness contributes to mechanical low back pain."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The multifidus is particularly important for stabilizing the lumbar spine during movement."
     },
     {
      "order": 15,
@@ -360,7 +717,9 @@
        "answer": 2,
        "explain": "The suboccipital nerve is the posterior ramus of C1; these muscles fine-tune movement at the atlanto-occipital and atlantoaxial joints."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…3 muscles bounding the suboccipital triangle containing the vertebral artery and suboccipital nerve"
     },
     {
      "order": 16,
@@ -399,7 +758,9 @@
        "answer": 0,
        "explain": "Like the trapezius, the SCM receives motor innervation from CN XI; C2-C3 carry sensory/proprioceptive fibers."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Acting unilaterally, it laterally flexes the neck and rotates the head to the opposite side."
     },
     {
      "order": 17,
@@ -416,7 +777,9 @@
        "answer": 3,
        "explain": "The sternocleidomastoid extends from the manubrium and clavicle to the mastoid process."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The sternocleidomastoid … extends from the manubrium and clavicle to the mastoid process of the temporal bone."
     },
     {
      "order": 18,
@@ -444,309 +807,97 @@
        "answer": 2,
        "explain": "The posterior triangle contains the spinal accessory nerve, the roots of the brachial plexus, and the external jugular vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "It is the anterior boundary of the posterior triangle, where the spinal accessory nerve, roots of the brachial plexus, and the external jugular vein…"
     },
     {
      "order": 19,
      "why": "Manubrium: inferior (sternal) attachment of SCM",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The sternocleidomastoid … extends from the manubrium and clavicle to the mastoid process of the temporal bone."
     },
     {
      "order": 20,
      "why": "Clavicle: inferior (clavicular) attachment of SCM",
-     "questions": []
-    },
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The sternocleidomastoid … extends from the manubrium and clavicle to the mastoid process of the temporal bone."
+    }
+   ],
+   "groups": [
     {
-     "order": 21,
-     "why": "Typical vertebra: body anterior, vertebral arch posterior (pedicles + laminae)",
-     "questions": [
-      {
-       "q": "The vertebral arch of a typical vertebra is formed by which paired parts?",
-       "choices": [
-        "Bodies and pedicles",
-        "Pedicles and laminae",
-        "Laminae and spinous processes",
-        "Transverse and articular processes"
-       ],
-       "answer": 1,
-       "explain": "A typical vertebra has a body anteriorly and a vertebral arch posteriorly formed by paired pedicles and laminae."
-      }
+     "title": "Posterior Abdominal Wall Muscles",
+     "orders": [
+      1,
+      2,
+      3
      ]
     },
     {
-     "order": 22,
-     "why": "Pedicle: part of arch; vertebral notches of adjacent pedicles form intervertebral foramen",
-     "questions": [
-      {
-       "q": "The superior and inferior vertebral notches of adjacent pedicles form which opening?",
-       "choices": [
-        "Intervertebral foramen",
-        "Vertebral foramen",
-        "Transverse foramen",
-        "Foramen magnum"
-       ],
-       "answer": 0,
-       "explain": "Each intervertebral foramen is formed in part by the vertebral notches of adjacent pedicles; spinal nerves exit through it."
-      }
+     "title": "Extrinsic Back Muscles",
+     "orders": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      43
      ]
     },
     {
-     "order": 23,
-     "why": "Lamina: posterior part of arch between transverse and spinous processes",
-     "questions": [
-      {
-       "q": "Which part of a vertebra forms the posterior arch between the transverse and spinous processes?",
-       "choices": [
-        "Lamina",
-        "Pedicle",
-        "Vertebral body",
-        "Superior articular process"
-       ],
-       "answer": 0,
-       "explain": "The laminae form the posterior portion of the vertebral arch, between the transverse process and the spinous process."
-      }
+     "title": "Skeletal Framework of the Vertebral Column",
+     "orders": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
      ]
     },
     {
-     "order": 24,
-     "why": "Vertebral foramen: surrounded by body + arch; stacked foramina form vertebral canal",
-     "questions": [
-      {
-       "q": "Successive vertebral foramina together form what structure?",
-       "choices": [
-        "Intervertebral foramen",
-        "Transverse foramen",
-        "Lumbar cistern",
-        "Vertebral canal"
-       ],
-       "answer": 3,
-       "explain": "The body and arch surround the vertebral foramen; the vertebral foramina of successive vertebrae form the vertebral canal."
-      }
+     "title": "Regional Differences",
+     "orders": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
      ]
     },
     {
-     "order": 25,
-     "why": "Vertebral canal: formed by stacked vertebral foramina; houses the spinal cord",
-     "questions": []
-    },
-    {
-     "order": 26,
-     "why": "Spinous process: back muscle/ligament attachment; C7 vertebra prominens is a palpable landmark",
-     "questions": [
-      {
-       "q": "Which spinous process is usually easily palpable at the base of the neck and used to count vertebral levels?",
-       "choices": [
-        "C2",
-        "T4",
-        "C7",
-        "C5"
-       ],
-       "answer": 2,
-       "explain": "The spinous process of C7 (vertebra prominens) is a key palpable landmark at the base of the neck."
-      }
+     "title": "Atlas and Axis",
+     "orders": [
+      35,
+      36
      ]
     },
     {
-     "order": 27,
-     "why": "Transverse process: attachment site; QL attaches to TPs of upper lumbar vertebrae",
-     "questions": [
-      {
-       "q": "The quadratus lumborum attaches superiorly to the twelfth rib and to which vertebral feature?",
-       "choices": [
-        "Spinous processes of upper lumbar vertebrae",
-        "Transverse processes of upper lumbar vertebrae",
-        "Bodies of the lower thoracic vertebrae",
-        "Laminae of the lower lumbar vertebrae"
-       ],
-       "answer": 1,
-       "explain": "Quadratus lumborum runs from the iliac crest and iliolumbar ligament to the 12th rib and the transverse processes of the upper lumbar vertebrae."
-      }
+     "title": "Intrinsic Back Muscles",
+     "orders": [
+      44,
+      10,
+      11,
+      12,
+      13,
+      14
      ]
     },
     {
-     "order": 28,
-     "why": "Intervertebral foramen: spinal nerves exit the vertebral canal",
-     "questions": [
-      {
-       "q": "What passes through the intervertebral foramina?",
-       "choices": [
-        "Vertebral arteries",
-        "Spinal nerves",
-        "Spinal accessory nerves",
-        "Lumbar cisterns"
-       ],
-       "answer": 1,
-       "explain": "Spinal nerves exit the vertebral canal through the intervertebral foramina, which lie between adjacent vertebrae."
-      }
-     ]
-    },
-    {
-     "order": 29,
-     "why": "Cervical vertebra: identified by transverse foramina",
-     "questions": [
-      {
-       "q": "Which feature is characteristic of cervical vertebrae?",
-       "choices": [
-        "Transverse foramina",
-        "Costal facets",
-        "Massive vertebral bodies",
-        "A fused sacral crest"
-       ],
-       "answer": 0,
-       "explain": "Cervical vertebrae have transverse foramina; thoracic vertebrae have rib facets; lumbar vertebrae have large bodies."
-      }
-     ]
-    },
-    {
-     "order": 30,
-     "why": "Transverse foramen: transmits the vertebral artery, usually entering at C6",
-     "questions": [
-      {
-       "q": "At which level does the vertebral artery typically enter the transverse foramina?",
-       "choices": [
-        "C1",
-        "C3",
-        "T1",
-        "C6"
-       ],
-       "answer": 3,
-       "explain": "The vertebral arteries typically enter the transverse foramina at C6 and ascend to the atlas before entering the skull through the foramen magnum."
-      }
-     ]
-    },
-    {
-     "order": 31,
-     "why": "Vertebral artery: ascends in transverse foramina, enters skull via foramen magnum; compression -> vertigo, ataxia",
-     "questions": [
-      {
-       "q": "Osteophytes and extreme neck rotation compress a vertebral artery. Which presentation is most expected?",
-       "choices": [
-        "Winged scapula and weak protraction",
-        "Wrist drop and dorsal hand numbness",
-        "Vertigo, ataxia, and visual disturbance",
-        "Head tilt with contralateral rotation"
-       ],
-       "answer": 2,
-       "explain": "Vertebral artery compression reduces flow to the brainstem, cerebellum, and occipital lobes, causing dizziness, vertigo, ataxia, visual disturbances, or syncope."
-      },
-      {
-       "q": "The vertebral artery enters the cranial cavity through which opening?",
-       "choices": [
-        "Jugular foramen",
-        "Foramen ovale",
-        "Foramen magnum",
-        "Carotid canal"
-       ],
-       "answer": 2,
-       "explain": "After ascending through the cervical transverse foramina to C1, the vertebral artery enters the cranial cavity through the foramen magnum."
-      }
-     ]
-    },
-    {
-     "order": 32,
-     "why": "Thoracic vertebra: facets for rib articulation",
-     "questions": [
-      {
-       "q": "Which feature distinguishes thoracic vertebrae?",
-       "choices": [
-        "Transverse foramina",
-        "Facets for the ribs",
-        "A dens",
-        "Very large bodies"
-       ],
-       "answer": 1,
-       "explain": "Thoracic vertebrae have costal facets for articulation with the ribs."
-      }
-     ]
-    },
-    {
-     "order": 33,
-     "why": "Costal facets: rib articulations on thoracic vertebrae",
-     "questions": []
-    },
-    {
-     "order": 34,
-     "why": "Lumbar vertebra: large bodies to bear greater weight",
-     "questions": [
-      {
-       "q": "Why are lumbar vertebral bodies so large?",
-       "choices": [
-        "To support greater body weight",
-        "To transmit vertebral arteries",
-        "To articulate with the ribs",
-        "To allow rotation of the head"
-       ],
-       "answer": 0,
-       "explain": "Lumbar vertebrae have large vertebral bodies adapted to support greater weight."
-      }
-     ]
-    },
-    {
-     "order": 35,
-     "why": "Atlas (C1): no body or typical spinous process; atlanto-occipital joint with occipital condyles",
-     "questions": [
-      {
-       "q": "Which vertebra lacks a body and articulates with the occipital condyles?",
-       "choices": [
-        "Axis (C2)",
-        "C7 vertebra",
-        "T1 vertebra",
-        "Atlas (C1)"
-       ],
-       "answer": 3,
-       "explain": "The atlas lacks a body and a typical spinous process and articulates with the occipital condyles at the atlanto-occipital joints."
-      }
-     ]
-    },
-    {
-     "order": 36,
-     "why": "Axis (C2) and dens: pivot for head rotation at the atlantoaxial joint",
-     "questions": [
-      {
-       "q": "The dens of the axis is the pivot for which movement?",
-       "choices": [
-        "Flexion of the neck",
-        "Lateral flexion of head",
-        "Nodding at C0-C1",
-        "Rotation of atlas and head"
-       ],
-       "answer": 3,
-       "explain": "The dens projects superiorly and is the pivot around which the atlas and head rotate at the atlantoaxial joint."
-      }
-     ]
-    },
-    {
-     "order": 44,
-     "why": "Posterior rami: innervate all intrinsic back muscles",
-     "questions": [
-      {
-       "q": "Intrinsic back muscles such as the erector spinae and multifidus are supplied by which branches?",
-       "choices": [
-        "Anterior (ventral) rami",
-        "Posterior (dorsal) roots",
-        "Posterior (dorsal) rami",
-        "Intercostal nerves"
-       ],
-       "answer": 2,
-       "explain": "The intrinsic back muscles are innervated by posterior (dorsal) rami of spinal nerves."
-      }
-     ]
-    },
-    {
-     "order": 43,
-     "why": "Anterior rami: supply extrinsic back and posterior abdominal wall muscles",
-     "questions": [
-      {
-       "q": "The extrinsic back muscles (except trapezius) are innervated primarily by which branches?",
-       "choices": [
-        "Posterior (dorsal) rami",
-        "Anterior (ventral) rami",
-        "Anterior (ventral) roots",
-        "Cranial nerve XI"
-       ],
-       "answer": 1,
-       "explain": "Extrinsic back muscles are supplied mainly by anterior rami, reflecting their embryologic link with limb musculature."
-      }
+     "title": "Posterior Neck Muscles",
+     "orders": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
      ]
     }
    ]
@@ -784,41 +935,9 @@
        "answer": 0,
        "explain": "C1-C7 exit above their vertebrae; there is no C8 vertebra, so C8 exits above T1 and thoracic and lower nerves exit below their vertebrae."
       }
-     ]
-    },
-    {
-     "order": 38,
-     "why": "Conus medullaris: tapered end of cord at about L1-L2 in adults",
-     "questions": [
-      {
-       "q": "In adults, the spinal cord tapers into the conus medullaris at about which vertebral level?",
-       "choices": [
-        "T10-T11",
-        "L3-L4",
-        "S1-S2",
-        "L1-L2"
-       ],
-       "answer": 3,
-       "explain": "In adults the cord extends from the foramen magnum to about L1-L2, where it ends as the conus medullaris."
-      }
-     ]
-    },
-    {
-     "order": 39,
-     "why": "Cauda equina: lumbar, sacral, coccygeal roots descending below the conus",
-     "questions": [
-      {
-       "q": "Why do lower spinal nerve roots descend within the vertebral canal as the cauda equina?",
-       "choices": [
-        "The roots must pass through the dura",
-        "The cord ends at the coccyx in adults",
-        "The vertebral column outgrows the cord",
-        "The roots join the brachial plexus"
-       ],
-       "answer": 2,
-       "explain": "Because the vertebral column grows faster than the cord, lumbar, sacral, and coccygeal roots descend before exiting, forming the cauda equina."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "There are 31 pairs of spinal nerves grouped into five regions: cervical, thoracic, lumbar, sacral, and coccygeal"
     },
     {
      "order": 40,
@@ -835,7 +954,9 @@
        "answer": 1,
        "explain": "Sensory fibers enter through the posterior roots; their primary sensory neuron cell bodies lie in the dorsal root ganglia."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "At each segment, sensory fibers enter the spinal cord through the posterior (dorsal) roots, while motor fibers leave through the anterior (ventral) roots."
     },
     {
      "order": 41,
@@ -852,7 +973,9 @@
        "answer": 1,
        "explain": "Motor fibers, including preganglionic autonomic axons from the lateral horn, leave the cord through the anterior roots."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Axons from these autonomic motor neurons leave the spinal cord through the ventral roots before traveling to autonomic ganglia."
     },
     {
      "order": 42,
@@ -869,17 +992,61 @@
        "answer": 0,
        "explain": "The posterior and anterior roots join to form a mixed spinal nerve, which leaves through the intervertebral foramen and splits into rami."
       }
-     ]
-    },
-    {
-     "order": 43,
-     "why": "Anterior ramus: mixed primary ramus of the spinal nerve",
-     "questions": []
+     ],
+     "yield": "high",
+     "excerpt": "The posterior and anterior roots join to form a mixed spinal nerve that connects the spinal cord with the periphery…"
     },
     {
      "order": 44,
      "why": "Posterior ramus: mixed primary ramus of the spinal nerve",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…connects the spinal cord with the periphery through mixed dorsal (posterior) and ventral (anterior) primary rami."
+    },
+    {
+     "order": 43,
+     "why": "Anterior ramus: mixed primary ramus of the spinal nerve",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…are distributed through the dorsal and ventral primary rami to innervate skeletal muscles of the back, trunk, and limbs"
+    },
+    {
+     "order": 38,
+     "why": "Conus medullaris: tapered end of cord at about L1-L2 in adults",
+     "questions": [
+      {
+       "q": "In adults, the spinal cord tapers into the conus medullaris at about which vertebral level?",
+       "choices": [
+        "T10-T11",
+        "L3-L4",
+        "S1-S2",
+        "L1-L2"
+       ],
+       "answer": 3,
+       "explain": "In adults the cord extends from the foramen magnum to about L1-L2, where it ends as the conus medullaris."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "In adults, the spinal cord extends from the foramen magnum to approximately the L1–L2 vertebral level, where it tapers to form the conus medullaris."
+    },
+    {
+     "order": 39,
+     "why": "Cauda equina: lumbar, sacral, coccygeal roots descending below the conus",
+     "questions": [
+      {
+       "q": "Why do lower spinal nerve roots descend within the vertebral canal as the cauda equina?",
+       "choices": [
+        "The roots must pass through the dura",
+        "The cord ends at the coccyx in adults",
+        "The vertebral column outgrows the cord",
+        "The roots join the brachial plexus"
+       ],
+       "answer": 2,
+       "explain": "Because the vertebral column grows faster than the cord, lumbar, sacral, and coccygeal roots descend before exiting, forming the cauda equina."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "In adults, the spinal cord typically ends at the L1-L2 vertebral level as the conus medullaris; spinal nerve roots continuing inferiorly form the cauda equina."
     },
     {
      "order": 45,
@@ -907,7 +1074,9 @@
        "answer": 2,
        "explain": "Puncturing the dura can let CSF leak, producing a post-dural puncture headache."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Accidental puncture of the dura mater may result in leakage of cerebrospinal fluid and a post-dural puncture headache."
     },
     {
      "order": 46,
@@ -924,12 +1093,16 @@
        "answer": 2,
        "explain": "The subarachnoid space, between the arachnoid and pia mater, contains cerebrospinal fluid."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Between the arachnoid and pia mater is the subarachnoid space, which contains cerebrospinal fluid (CSF)."
     },
     {
      "order": 47,
      "why": "Pia mater: innermost meninx, directly on the cord",
-     "questions": []
+     "questions": [],
+     "yield": "high",
+     "excerpt": "The meninges are composed of three layers … Pia mater (most internal)"
     },
     {
      "order": 48,
@@ -957,7 +1130,9 @@
        "answer": 0,
        "explain": "In the vertebral canal the epidural space is an actual space filled with fat; around the brain it is only a potential space between skull and dura."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Within the vertebral column, the epidural space of the spinal cord is an actual space occupied by the epidural fat."
     },
     {
      "order": 50,
@@ -974,7 +1149,9 @@
        "answer": 3,
        "explain": "The subarachnoid space, between the arachnoid and pia mater, contains CSF."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The subarachnoid space, between the arachnoid mater and pia mater, contains cerebrospinal fluid."
     },
     {
      "order": 51,
@@ -1002,6 +1179,73 @@
        "answer": 2,
        "explain": "The needle passes the supraspinous ligament, then the interspinous ligament, then the ligamentum flavum before entering the vertebral canal."
       }
+     ],
+     "yield": "high",
+     "excerpt": "Inferior to the conus medullaris, the subarachnoid space enlarges to form the lumbar cistern, which contains CSF and the nerve roots of the cauda equina."
+    },
+    {
+     "order": 25,
+     "why": "Vertebral canal: houses the spinal cord",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The spinal cord is a tubular structure of nervous tissue that … extends caudally within the vertebral canal."
+    },
+    {
+     "order": 24,
+     "why": "Vertebral foramina stack to form the vertebral canal",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "As described in the regional anatomy of the back, successive vertebral foramina form the vertebral canal."
+    },
+    {
+     "order": 28,
+     "why": "Intervertebral foramina: exit of spinal nerves",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Spinal nerve roots extend from the spinal cord and join to form spinal nerves, which leave the vertebral column through the intervertebral foramina"
+    }
+   ],
+   "groups": [
+    {
+     "title": "How Is the Spinal Cord Organized?",
+     "orders": [
+      37,
+      40,
+      41,
+      42,
+      44,
+      43
+     ]
+    },
+    {
+     "title": "Where Does the Spinal Cord End?",
+     "orders": [
+      38,
+      39
+     ]
+    },
+    {
+     "title": "Meninges",
+     "orders": [
+      45,
+      46,
+      47
+     ]
+    },
+    {
+     "title": "Meningeal Spaces and Clinical Procedures",
+     "orders": [
+      48,
+      50,
+      51
+     ]
+    },
+    {
+     "title": "Vertebral Column",
+     "orders": [
+      25,
+      24,
+      28
      ]
     }
    ]
@@ -1028,7 +1272,23 @@
        "answer": 1,
        "explain": "The clavicle acts as a strut that holds the upper limb away from the thoracic wall, articulating with the sternum medially and the acromion laterally."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The clavicle acts as a strut that holds the upper limb away from the thoracic wall, allowing greater freedom of movement."
+    },
+    {
+     "order": 2,
+     "why": "Sternum: medial articulation of the clavicle (SC joint)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Medially, it articulates with the sternum at the sternoclavicular joint."
+    },
+    {
+     "order": 3,
+     "why": "Scapula: flat triangular bone on the posterior thoracic wall",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The scapula is a flat triangular bone located on the posterior thoracic wall."
     },
     {
      "order": 4,
@@ -1045,7 +1305,9 @@
        "answer": 0,
        "explain": "The scapular spine divides the posterior surface into the supraspinous and infraspinous fossae and expands laterally as the acromion."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The spine of the scapula divides its posterior surface into supraspinous and infraspinous fossae."
     },
     {
      "order": 5,
@@ -1062,7 +1324,9 @@
        "answer": 0,
        "explain": "Supraspinatus (in the supraspinous fossa) initiates abduction and is supplied by the suprascapular nerve."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The spine of the scapula divides its posterior surface into supraspinous and infraspinous fossae."
     },
     {
      "order": 6,
@@ -1079,7 +1343,9 @@
        "answer": 3,
        "explain": "Infraspinatus, in the infraspinous fossa, laterally rotates the humerus and is supplied by the suprascapular nerve."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The spine of the scapula divides its posterior surface into supraspinous and infraspinous fossae."
     },
     {
      "order": 7,
@@ -1096,7 +1362,9 @@
        "answer": 2,
        "explain": "The supraspinatus tendon passes beneath the acromion and coracoacromial arch to the greater tubercle, making it vulnerable to impingement and tears."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The supraspinatus tendon passes beneath the acromion before inserting on the greater tubercle of the humerus."
     },
     {
      "order": 8,
@@ -1113,7 +1381,9 @@
        "answer": 1,
        "explain": "The short head of biceps and the coracobrachialis arise from the coracoid process; the long head of biceps arises from the supraglenoid tubercle."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The coracoid process projects anteriorly and serves as an attachment site for several muscles and ligaments."
     },
     {
      "order": 9,
@@ -1130,7 +1400,94 @@
        "answer": 1,
        "explain": "The glenoid cavity articulates with the head of the humerus to form the glenohumeral joint."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The glenoid cavity articulates with the head of the humerus to form the glenohumeral joint."
+    },
+    {
+     "order": 60,
+     "why": "Suprascapular n.: under superior transverse scapular ligament ('Navy under the bridge')",
+     "questions": [
+      {
+       "q": "At the suprascapular notch, how does the suprascapular nerve relate to the superior transverse scapular ligament?",
+       "choices": [
+        "It passes above the ligament",
+        "It passes beneath the ligament",
+        "It pierces the ligament",
+        "It runs lateral to the notch"
+       ],
+       "answer": 1,
+       "explain": "'Army over the bridge, Navy under': the artery passes above the ligament and the nerve passes beneath it."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The suprascapular notch … transmits the suprascapular nerve beneath the superior transverse scapular ligament, while the suprascapular artery passes above the ligament."
+    },
+    {
+     "order": 10,
+     "why": "Humerus: single long bone of the arm",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The arm extends from the shoulder to the elbow and contains a single long bone, the humerus."
+    },
+    {
+     "order": 11,
+     "why": "Head of humerus: articulates with glenoid cavity",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The glenohumeral joint is a ball and socket synovial joint formed by the head of the humerus and the glenoid cavity of the scapula."
+    },
+    {
+     "order": 12,
+     "why": "Anatomical neck: part of the proximal humerus",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The proximal humerus includes the head, anatomical neck, greater and lesser tubercles, intertubercular groove, and surgical neck."
+    },
+    {
+     "order": 14,
+     "why": "Greater tubercle: rotator cuff attachment; supraspinatus inserts here",
+     "questions": [
+      {
+       "q": "Where does the supraspinatus tendon insert?",
+       "choices": [
+        "Lesser tubercle",
+        "Intertubercular groove",
+        "Greater tubercle",
+        "Deltoid tuberosity"
+       ],
+       "answer": 2,
+       "explain": "The supraspinatus tendon passes beneath the acromion and inserts on the greater tubercle of the humerus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The greater and lesser tubercles serve as attachment sites for rotator cuff muscles…"
+    },
+    {
+     "order": 15,
+     "why": "Lesser tubercle: rotator cuff attachment",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The greater and lesser tubercles serve as attachment sites for rotator cuff muscles…"
+    },
+    {
+     "order": 16,
+     "why": "Intertubercular groove: transmits long head of biceps tendon; tendinitis -> anterior shoulder pain",
+     "questions": [
+      {
+       "q": "Which tendon runs in the intertubercular groove?",
+       "choices": [
+        "Short head of biceps brachii",
+        "Long head of triceps",
+        "Long head of biceps brachii",
+        "Subscapularis"
+       ],
+       "answer": 2,
+       "explain": "The long head of biceps arises from the supraglenoid tubercle, crosses the joint cavity, and runs in the intertubercular groove; inflammation causes anterior shoulder pain."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…the intertubercular groove transmits the tendon of the long head of the biceps brachii."
     },
     {
      "order": 13,
@@ -1158,159 +1515,9 @@
        "answer": 3,
        "explain": "Axillary nerve injury weakens the deltoid (abduction beyond initiation) and removes sensation over the lateral shoulder."
       }
-     ]
-    },
-    {
-     "order": 14,
-     "why": "Greater tubercle: rotator cuff attachment; supraspinatus inserts here",
-     "questions": [
-      {
-       "q": "Where does the supraspinatus tendon insert?",
-       "choices": [
-        "Lesser tubercle",
-        "Intertubercular groove",
-        "Greater tubercle",
-        "Deltoid tuberosity"
-       ],
-       "answer": 2,
-       "explain": "The supraspinatus tendon passes beneath the acromion and inserts on the greater tubercle of the humerus."
-      }
-     ]
-    },
-    {
-     "order": 16,
-     "why": "Intertubercular groove: transmits long head of biceps tendon; tendinitis -> anterior shoulder pain",
-     "questions": [
-      {
-       "q": "Which tendon runs in the intertubercular groove?",
-       "choices": [
-        "Short head of biceps brachii",
-        "Long head of triceps",
-        "Long head of biceps brachii",
-        "Subscapularis"
-       ],
-       "answer": 2,
-       "explain": "The long head of biceps arises from the supraglenoid tubercle, crosses the joint cavity, and runs in the intertubercular groove; inflammation causes anterior shoulder pain."
-      }
-     ]
-    },
-    {
-     "order": 17,
-     "why": "Radial groove: radial n. + deep brachial a.; midshaft fracture -> wrist drop",
-     "questions": [
-      {
-       "q": "Which artery accompanies the radial nerve in the radial groove?",
-       "choices": [
-        "Posterior circumflex humeral artery",
-        "Deep brachial artery",
-        "Superior ulnar collateral artery",
-        "Thoracodorsal artery"
-       ],
-       "answer": 1,
-       "explain": "The radial nerve travels with the deep brachial artery (profunda brachii) in the radial groove of the posterior humerus."
-      },
-      {
-       "q": "A midshaft humeral fracture damages the nerve in the radial groove. What is the classic deficit?",
-       "choices": [
-        "Wrist drop",
-        "Winged scapula",
-        "Claw hand",
-        "Weak supination only"
-       ],
-       "answer": 0,
-       "explain": "Radial nerve injury in the radial groove weakens wrist and finger extension, causing wrist drop."
-      }
-     ]
-    },
-    {
-     "order": 18,
-     "why": "Trochlea: articulates with trochlear notch of ulna (humeroulnar joint)",
-     "questions": [
-      {
-       "q": "The trochlea of the humerus articulates with which structure?",
-       "choices": [
-        "Head of the radius",
-        "Radial notch of the ulna",
-        "Olecranon fossa",
-        "Trochlear notch of the ulna"
-       ],
-       "answer": 3,
-       "explain": "The humeroulnar joint is between the trochlea of the humerus and the trochlear notch of the ulna."
-      }
-     ]
-    },
-    {
-     "order": 19,
-     "why": "Capitulum: articulates with head of radius (humeroradial joint)",
-     "questions": [
-      {
-       "q": "The capitulum articulates with which structure?",
-       "choices": [
-        "Trochlear notch of the ulna",
-        "Coronoid process of ulna",
-        "Radial notch of the ulna",
-        "Head of the radius"
-       ],
-       "answer": 3,
-       "explain": "The humeroradial joint is formed by the capitulum of the humerus and the head of the radius."
-      }
-     ]
-    },
-    {
-     "order": 21,
-     "why": "Olecranon: insertion of triceps common tendon",
-     "questions": [
-      {
-       "q": "Which muscle inserts on the olecranon?",
-       "choices": [
-        "Brachialis",
-        "Biceps brachii",
-        "Triceps brachii",
-        "Coracobrachialis"
-       ],
-       "answer": 2,
-       "explain": "All three heads of the triceps converge on a common tendon inserting on the olecranon of the ulna."
-      }
-     ]
-    },
-    {
-     "order": 22,
-     "why": "Trochlear notch: ulnar side of the humeroulnar joint",
-     "questions": []
-    },
-    {
-     "order": 23,
-     "why": "Quadrangular space: axillary n. + posterior circumflex humeral a.",
-     "questions": [
-      {
-       "q": "Which nerve passes through the quadrangular space?",
-       "choices": [
-        "Radial nerve",
-        "Axillary nerve",
-        "Suprascapular nerve",
-        "Thoracodorsal nerve"
-       ],
-       "answer": 1,
-       "explain": "The axillary nerve passes posteriorly through the quadrangular space with the posterior circumflex humeral artery."
-      }
-     ]
-    },
-    {
-     "order": 25,
-     "why": "Triangular interval: radial n. enters posterior compartment of arm",
-     "questions": [
-      {
-       "q": "Which nerve enters the posterior compartment of the arm through the triangular interval?",
-       "choices": [
-        "Radial nerve",
-        "Axillary nerve",
-        "Ulnar nerve",
-        "Musculocutaneous nerve"
-       ],
-       "answer": 0,
-       "explain": "The radial nerve passes through the triangular interval to enter the posterior compartment, then runs in the radial groove."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The patient's fracture involves the surgical neck of the humerus, a region closely associated with the axillary nerve."
     },
     {
      "order": 27,
@@ -1327,7 +1534,9 @@
        "answer": 0,
        "explain": "The sternoclavicular joint, a synovial saddle joint, is the only bony connection of the upper limb to the axial skeleton."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The sternoclavicular joint is the only bony articulation between the upper limb and axial skeleton."
     },
     {
      "order": 28,
@@ -1344,7 +1553,28 @@
        "answer": 3,
        "explain": "A shoulder separation is an injury to the acromioclavicular joint and its ligaments, unlike a glenohumeral dislocation."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Unlike a glenohumeral dislocation, a shoulder separation involves injury to the acromioclavicular (AC) joint."
+    },
+    {
+     "order": 30,
+     "why": "Scapulothoracic articulation: functional (not true) joint; key to scapulohumeral rhythm",
+     "questions": [
+      {
+       "q": "What is true of the scapulothoracic articulation?",
+       "choices": [
+        "It is a synovial saddle joint",
+        "It is a functional, not true, joint",
+        "It is a fibrous joint with ligaments",
+        "It is a ball-and-socket joint"
+       ],
+       "answer": 1,
+       "explain": "The scapulothoracic articulation is not a true synovial joint but is essential for shoulder mobility and scapulohumeral rhythm."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Although not a true synovial joint, the scapulothoracic articulation is the functional interface between the scapula and posterior thoracic wall."
     },
     {
      "order": 29,
@@ -1372,24 +1602,9 @@
        "answer": 1,
        "explain": "The ball-and-socket glenohumeral joint permits a wide range of motion, but at the cost of stability."
       }
-     ]
-    },
-    {
-     "order": 30,
-     "why": "Scapulothoracic articulation: functional (not true) joint; key to scapulohumeral rhythm",
-     "questions": [
-      {
-       "q": "What is true of the scapulothoracic articulation?",
-       "choices": [
-        "It is a synovial saddle joint",
-        "It is a functional, not true, joint",
-        "It is a fibrous joint with ligaments",
-        "It is a ball-and-socket joint"
-       ],
-       "answer": 1,
-       "explain": "The scapulothoracic articulation is not a true synovial joint but is essential for shoulder mobility and scapulohumeral rhythm."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The glenohumeral joint is the most frequently dislocated major joint of the body."
     },
     {
      "order": 31,
@@ -1406,7 +1621,9 @@
        "answer": 0,
        "explain": "Passive stabilizers include the glenoid labrum, joint capsule, and glenohumeral ligaments; the rotator cuff provides dynamic stability."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Passive stabilizers include the glenoid labrum … joint capsule, and glenohumeral ligaments."
     },
     {
      "order": 32,
@@ -1423,7 +1640,9 @@
        "answer": 3,
        "explain": "The AC ligament primarily provides horizontal stability, whereas the coracoclavicular ligaments provide vertical stability."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The acromioclavicular ligament primarily provides horizontal stability, whereas the coracoclavicular ligaments provide vertical stability between the clavicle and scapula."
     },
     {
      "order": 33,
@@ -1440,7 +1659,9 @@
        "answer": 2,
        "explain": "The coracoclavicular ligaments provide vertical stability; more severe separations involving them allow greater clavicular displacement."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…more severe injuries involving the coracoclavicular ligaments allow greater displacement of the clavicle relative to the scapula."
     },
     {
      "order": 34,
@@ -1457,24 +1678,9 @@
        "answer": 2,
        "explain": "The coracoacromial ligament joins the coracoid process and the acromion, forming a protective arch over the joint."
       }
-     ]
-    },
-    {
-     "order": 35,
-     "why": "Coracoacromial arch: acromion + coracoid + CA ligament; supraspinatus impingement",
-     "questions": [
-      {
-       "q": "Repetitive overhead movement impinges which tendon beneath the coracoacromial arch?",
-       "choices": [
-        "Teres minor",
-        "Supraspinatus",
-        "Subscapularis",
-        "Long head of triceps"
-       ],
-       "answer": 1,
-       "explain": "The supraspinatus tendon passes through the subacromial space beneath the coracoacromial arch, making it vulnerable to impingement."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "…the coracoacromial ligament forms a protective arch over the joint"
     },
     {
      "order": 36,
@@ -1502,7 +1708,47 @@
        "answer": 3,
        "explain": "Upward rotation by the trapezius (CN XI) and serratus anterior (long thoracic nerve) allows continued elevation above the horizontal plane."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The trapezius, levator scapulae, and rhomboids connect the scapula to the axial skeleton and contribute to elevation, retraction, depression, and rotation."
+    },
+    {
+     "order": 59,
+     "why": "Dorsal scapular n.: levator scapulae and rhomboids",
+     "questions": [
+      {
+       "q": "The dorsal scapular nerve supplies which muscles?",
+       "choices": [
+        "Trapezius and rhomboids",
+        "Serratus anterior and rhomboids",
+        "Rhomboids and levator scapulae",
+        "Teres major and levator scapulae"
+       ],
+       "answer": 2,
+       "explain": "The dorsal scapular nerve supplies the levator scapulae and rhomboids (elevation, retraction, downward rotation)."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Retraction: Trapezius, rhomboids; CN XI, dorsal scapular nerve"
+    },
+    {
+     "order": 58,
+     "why": "Long thoracic n.: serratus anterior; injury -> winged scapula",
+     "questions": [
+      {
+       "q": "Which nerve innervates the serratus anterior, the muscle that protracts the scapula?",
+       "choices": [
+        "Dorsal scapular nerve",
+        "Thoracodorsal nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve"
+       ],
+       "answer": 3,
+       "explain": "Serratus anterior protracts and upwardly rotates the scapula and is supplied by the long thoracic nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Injury to this nerve weakens scapular protraction and upward rotation, producing a winged scapula…"
     },
     {
      "order": 37,
@@ -1519,7 +1765,28 @@
        "answer": 3,
        "explain": "Pectoralis minor, which stabilizes the scapula and assists protraction and depression, is supplied by the medial pectoral nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Pectoralis minor stabilizes the scapula by drawing it anteriorly and inferiorly against the thoracic wall and assists with scapular protraction."
+    },
+    {
+     "order": 61,
+     "why": "Medial pectoral n.: pectoralis minor (and major)",
+     "questions": [
+      {
+       "q": "Scapular depression by pectoralis minor depends on which nerve?",
+       "choices": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve",
+        "Spinal accessory nerve"
+       ],
+       "answer": 1,
+       "explain": "Table 1: depression is by the lower trapezius (CN XI) and pectoralis minor (medial pectoral nerve)."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Pectoralis minor: Stabilizes scapula; assists protraction and depression; Medial pectoral nerve"
     },
     {
      "order": 38,
@@ -1547,7 +1814,28 @@
        "answer": 1,
        "explain": "Supraspinatus and infraspinatus are both supplied by the suprascapular nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Rotator cuff tears most commonly involve the supraspinatus tendon as it passes beneath the acromion."
+    },
+    {
+     "order": 35,
+     "why": "Coracoacromial arch: acromion + coracoid + CA ligament; supraspinatus impingement",
+     "questions": [
+      {
+       "q": "Repetitive overhead movement impinges which tendon beneath the coracoacromial arch?",
+       "choices": [
+        "Teres minor",
+        "Supraspinatus",
+        "Subscapularis",
+        "Long head of triceps"
+       ],
+       "answer": 1,
+       "explain": "The supraspinatus tendon passes through the subacromial space beneath the coracoacromial arch, making it vulnerable to impingement."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The tendon passes through the subacromial space beneath the coracoacromial arch, a protective arch formed by the acromion, coracoid process, and coracoacromial ligament."
     },
     {
      "order": 39,
@@ -1564,7 +1852,9 @@
        "answer": 0,
        "explain": "The suprascapular nerve supplies supraspinatus (abduction) and infraspinatus (lateral rotation)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Infraspinatus: Lateral rotation; Suprascapular nerve"
     },
     {
      "order": 40,
@@ -1581,7 +1871,9 @@
        "answer": 0,
        "explain": "Teres minor (lateral rotation) is the rotator cuff muscle supplied by the axillary nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The teres minor contributes to lateral rotation of the humerus."
     },
     {
      "order": 41,
@@ -1598,7 +1890,16 @@
        "answer": 3,
        "explain": "Subscapularis medially rotates the humerus and is supplied by the upper and lower subscapular nerves."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Subscapularis: Medial rotation; Upper and lower subscapular nerves"
+    },
+    {
+     "order": 64,
+     "why": "Upper subscapular n.: subscapularis",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Subscapularis: Medial rotation; Upper and lower subscapular nerves"
     },
     {
      "order": 42,
@@ -1615,7 +1916,9 @@
        "answer": 2,
        "explain": "The deltoid becomes the primary abductor once supraspinatus has initiated abduction; it is supplied by the axillary nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The deltoid … is the primary muscle responsible for shoulder abduction beyond the initial phase initiated by the supraspinatus."
     },
     {
      "order": 43,
@@ -1632,7 +1935,16 @@
        "answer": 1,
        "explain": "Pectoralis major (flexion, adduction, medial rotation) is supplied by both the medial and lateral pectoral nerves."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Pectoralis major contributes to pushing movements and movements that bring the upper limb toward the midline."
+    },
+    {
+     "order": 62,
+     "why": "Lateral pectoral n.: pectoralis major",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Pectoralis major: Flexion, adduction, medial rotation; Medial and lateral pectoral nerves"
     },
     {
      "order": 44,
@@ -1649,7 +1961,16 @@
        "answer": 1,
        "explain": "Latissimus dorsi (thoracodorsal nerve) and teres major extend, adduct, and medially rotate the arm, working together in climbing, rowing, and pulling."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Latissimus dorsi and teres major act together during climbing, rowing, and pulling movements."
+    },
+    {
+     "order": 63,
+     "why": "Thoracodorsal n.: latissimus dorsi",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Latissimus dorsi: Extension, adduction, medial rotation; Thoracodorsal nerve"
     },
     {
      "order": 45,
@@ -1666,281 +1987,9 @@
        "answer": 0,
        "explain": "Teres major is supplied by the lower subscapular nerve."
       }
-     ]
-    },
-    {
-     "order": 46,
-     "why": "Roots of brachial plexus: anterior rami C5-T1",
-     "questions": [
-      {
-       "q": "The brachial plexus is formed by which nerve fibers?",
-       "choices": [
-        "Posterior rami of C5-T1",
-        "Anterior rami of C3-C7",
-        "Posterior roots of C5-T1",
-        "Anterior rami of C5-T1"
-       ],
-       "answer": 3,
-       "explain": "The brachial plexus forms from the anterior rami of C5 through T1: roots, trunks, divisions, cords, terminal branches."
-      }
-     ]
-    },
-    {
-     "order": 47,
-     "why": "Superior trunk: C5-C6; Erb-Duchenne palsy",
-     "questions": [
-      {
-       "q": "Injury to the superior trunk weakens shoulder abduction, lateral rotation, and elbow flexion. Which roots are involved?",
-       "choices": [
-        "C7",
-        "C8-T1",
-        "C5-C6",
-        "C3-C4"
-       ],
-       "answer": 2,
-       "explain": "The superior trunk (C5-C6) supplies deltoid, supraspinatus, infraspinatus, biceps, and brachialis; its injury is Erb-Duchenne palsy."
-      }
-     ]
-    },
-    {
-     "order": 48,
-     "why": "Middle trunk: C7 root",
-     "questions": [
-      {
-       "q": "Which root alone forms the middle trunk of the brachial plexus?",
-       "choices": [
-        "C6",
-        "C8",
-        "C7",
-        "T1"
-       ],
-       "answer": 2,
-       "explain": "The superior trunk is C5-C6, the middle trunk is C7, and the inferior trunk is C8-T1."
-      }
-     ]
-    },
-    {
-     "order": 49,
-     "why": "Inferior trunk: C8-T1 roots",
-     "questions": [
-      {
-       "q": "Which roots form the inferior trunk of the brachial plexus?",
-       "choices": [
-        "C7-C8",
-        "C8-T1",
-        "C5-C6",
-        "T1-T2"
-       ],
-       "answer": 1,
-       "explain": "The inferior trunk is formed by the C8 and T1 roots."
-      }
-     ]
-    },
-    {
-     "order": 50,
-     "why": "Lateral cord: gives musculocutaneous n.; cords named by relation to axillary a.",
-     "questions": [
-      {
-       "q": "Which terminal nerve arises from the lateral cord of the brachial plexus?",
-       "choices": [
-        "Musculocutaneous nerve",
-        "Axillary nerve",
-        "Radial nerve",
-        "Thoracodorsal nerve"
-       ],
-       "answer": 0,
-       "explain": "The musculocutaneous nerve arises from the lateral cord; the axillary and radial nerves come from the posterior cord."
-      }
-     ]
-    },
-    {
-     "order": 51,
-     "why": "Medial cord: cords named by relation to axillary artery",
-     "questions": [
-      {
-       "q": "The lateral, medial, and posterior cords are named for their relationship to which structure?",
-       "choices": [
-        "Axillary vein",
-        "Clavicle",
-        "Pectoralis minor",
-        "Axillary artery"
-       ],
-       "answer": 3,
-       "explain": "The cords are named according to their relationship to the axillary artery."
-      }
-     ]
-    },
-    {
-     "order": 52,
-     "why": "Posterior cord: gives axillary and radial nn.",
-     "questions": [
-      {
-       "q": "Which two nerves arise from the posterior cord?",
-       "choices": [
-        "Median and ulnar",
-        "Musculocutaneous and median",
-        "Ulnar and axillary",
-        "Axillary and radial"
-       ],
-       "answer": 3,
-       "explain": "Both the axillary nerve and the radial nerve arise from the posterior cord of the brachial plexus."
-      }
-     ]
-    },
-    {
-     "order": 53,
-     "why": "Musculocutaneous n.: lateral cord; pierces coracobrachialis; anterior arm; lateral cutaneous n. of forearm",
-     "questions": [
-      {
-       "q": "Musculocutaneous nerve injury causes sensory loss over which region?",
-       "choices": [
-        "Lateral shoulder",
-        "Medial forearm",
-        "Lateral forearm",
-        "Dorsal first web space"
-       ],
-       "answer": 2,
-       "explain": "The musculocutaneous nerve continues as the lateral cutaneous nerve of the forearm; injury weakens elbow flexion and supination."
-      },
-      {
-       "q": "The musculocutaneous nerve typically pierces which muscle?",
-       "choices": [
-        "Brachialis",
-        "Coracobrachialis",
-        "Biceps brachii",
-        "Pectoralis minor"
-       ],
-       "answer": 1,
-       "explain": "A useful relationship: the musculocutaneous nerve typically pierces the coracobrachialis as it enters the anterior compartment."
-      }
-     ]
-    },
-    {
-     "order": 54,
-     "why": "Axillary n.: posterior cord; deltoid + teres minor; superior lateral cutaneous n. of arm",
-     "questions": [
-      {
-       "q": "Which two muscles does the axillary nerve innervate?",
-       "choices": [
-        "Deltoid and teres minor",
-        "Deltoid and teres major",
-        "Supraspinatus and deltoid",
-        "Teres minor and infraspinatus"
-       ],
-       "answer": 0,
-       "explain": "The axillary nerve supplies the deltoid and teres minor, and the skin of the lateral shoulder."
-      }
-     ]
-    },
-    {
-     "order": 55,
-     "why": "Radial n.: posterior cord; all posterior arm and forearm extensors",
-     "questions": [
-      {
-       "q": "The radial nerve innervates muscles of which compartments?",
-       "choices": [
-        "Posterior arm and posterior forearm",
-        "Anterior arm and anterior forearm",
-        "Posterior arm and anterior forearm",
-        "Rotator cuff and posterior arm"
-       ],
-       "answer": 0,
-       "explain": "The radial nerve supplies all posterior compartment muscles of the arm and continues to the forearm extensors."
-      }
-     ]
-    },
-    {
-     "order": 56,
-     "why": "Median n.: terminal branch to most anterior forearm muscles",
-     "questions": []
-    },
-    {
-     "order": 57,
-     "why": "Ulnar n.: terminal branch to some forearm and many intrinsic hand muscles",
-     "questions": []
-    },
-    {
-     "order": 58,
-     "why": "Long thoracic n.: serratus anterior; injury -> winged scapula",
-     "questions": [
-      {
-       "q": "Which nerve innervates the serratus anterior, the muscle that protracts the scapula?",
-       "choices": [
-        "Dorsal scapular nerve",
-        "Thoracodorsal nerve",
-        "Medial pectoral nerve",
-        "Long thoracic nerve"
-       ],
-       "answer": 3,
-       "explain": "Serratus anterior protracts and upwardly rotates the scapula and is supplied by the long thoracic nerve."
-      }
-     ]
-    },
-    {
-     "order": 59,
-     "why": "Dorsal scapular n.: levator scapulae and rhomboids",
-     "questions": [
-      {
-       "q": "The dorsal scapular nerve supplies which muscles?",
-       "choices": [
-        "Trapezius and rhomboids",
-        "Serratus anterior and rhomboids",
-        "Rhomboids and levator scapulae",
-        "Teres major and levator scapulae"
-       ],
-       "answer": 2,
-       "explain": "The dorsal scapular nerve supplies the levator scapulae and rhomboids (elevation, retraction, downward rotation)."
-      }
-     ]
-    },
-    {
-     "order": 60,
-     "why": "Suprascapular n.: under superior transverse scapular ligament ('Navy under the bridge')",
-     "questions": [
-      {
-       "q": "At the suprascapular notch, how does the suprascapular nerve relate to the superior transverse scapular ligament?",
-       "choices": [
-        "It passes above the ligament",
-        "It passes beneath the ligament",
-        "It pierces the ligament",
-        "It runs lateral to the notch"
-       ],
-       "answer": 1,
-       "explain": "'Army over the bridge, Navy under': the artery passes above the ligament and the nerve passes beneath it."
-      }
-     ]
-    },
-    {
-     "order": 61,
-     "why": "Medial pectoral n.: pectoralis minor (and major)",
-     "questions": [
-      {
-       "q": "Scapular depression by pectoralis minor depends on which nerve?",
-       "choices": [
-        "Lateral pectoral nerve",
-        "Medial pectoral nerve",
-        "Long thoracic nerve",
-        "Spinal accessory nerve"
-       ],
-       "answer": 1,
-       "explain": "Table 1: depression is by the lower trapezius (CN XI) and pectoralis minor (medial pectoral nerve)."
-      }
-     ]
-    },
-    {
-     "order": 62,
-     "why": "Lateral pectoral n.: pectoralis major",
-     "questions": []
-    },
-    {
-     "order": 63,
-     "why": "Thoracodorsal n.: latissimus dorsi",
-     "questions": []
-    },
-    {
-     "order": 64,
-     "why": "Upper subscapular n.: subscapularis",
-     "questions": []
+     ],
+     "yield": "high",
+     "excerpt": "Teres major: Extension, adduction, medial rotation; Lower subscapular nerve"
     },
     {
      "order": 65,
@@ -1957,7 +2006,215 @@
        "answer": 0,
        "explain": "The lower subscapular nerve supplies teres major and, with the upper subscapular nerve, the subscapularis."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Teres major: Extension, adduction, medial rotation; Lower subscapular nerve"
+    },
+    {
+     "order": 54,
+     "why": "Axillary n.: posterior cord; deltoid + teres minor; superior lateral cutaneous n. of arm",
+     "questions": [
+      {
+       "q": "Which two muscles does the axillary nerve innervate?",
+       "choices": [
+        "Deltoid and teres minor",
+        "Deltoid and teres major",
+        "Supraspinatus and deltoid",
+        "Teres minor and infraspinatus"
+       ],
+       "answer": 0,
+       "explain": "The axillary nerve supplies the deltoid and teres minor, and the skin of the lateral shoulder."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Because the axillary nerve passes near the surgical neck of the humerus, shoulder dislocations may produce weakness of shoulder abduction…"
+    },
+    {
+     "order": 23,
+     "why": "Quadrangular space: axillary n. + posterior circumflex humeral a.",
+     "questions": [
+      {
+       "q": "Which nerve passes through the quadrangular space?",
+       "choices": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Suprascapular nerve",
+        "Thoracodorsal nerve"
+       ],
+       "answer": 1,
+       "explain": "The axillary nerve passes posteriorly through the quadrangular space with the posterior circumflex humeral artery."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "It passes posteriorly through the quadrangular space with the posterior circumflex humeral artery…"
+    },
+    {
+     "order": 83,
+     "why": "Posterior circumflex humeral a.: with axillary n. at surgical neck",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The surgical neck is located distal to the tubercles and is closely related to the axillary nerve and posterior circumflex humeral artery."
+    },
+    {
+     "order": 75,
+     "why": "Axillary a.: axillary content; cords named by relation to it",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The axilla contains the brachial plexus, axillary artery, axillary vein, lymphatic vessels, and associated connective tissue"
+    },
+    {
+     "order": 89,
+     "why": "Axillary v.: content of the axilla",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The axilla contains the brachial plexus, axillary artery, axillary vein, lymphatic vessels, and associated connective tissue"
+    },
+    {
+     "order": 46,
+     "why": "Roots of brachial plexus: anterior rami C5-T1",
+     "questions": [
+      {
+       "q": "The brachial plexus is formed by which nerve fibers?",
+       "choices": [
+        "Posterior rami of C5-T1",
+        "Anterior rami of C3-C7",
+        "Posterior roots of C5-T1",
+        "Anterior rami of C5-T1"
+       ],
+       "answer": 3,
+       "explain": "The brachial plexus forms from the anterior rami of C5 through T1: roots, trunks, divisions, cords, terminal branches."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The brachial plexus is formed by the anterior rami of spinal nerves C5 through T1."
+    },
+    {
+     "order": 47,
+     "why": "Superior trunk: C5-C6; Erb-Duchenne palsy",
+     "questions": [
+      {
+       "q": "Injury to the superior trunk weakens shoulder abduction, lateral rotation, and elbow flexion. Which roots are involved?",
+       "choices": [
+        "C7",
+        "C8-T1",
+        "C5-C6",
+        "C3-C4"
+       ],
+       "answer": 2,
+       "explain": "The superior trunk (C5-C6) supplies deltoid, supraspinatus, infraspinatus, biceps, and brachialis; its injury is Erb-Duchenne palsy."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Injury involving the superior trunk of the brachial plexus (C5–C6) may impair muscles responsible for shoulder abduction, lateral rotation, and elbow flexion."
+    },
+    {
+     "order": 48,
+     "why": "Middle trunk: C7 root",
+     "questions": [
+      {
+       "q": "Which root alone forms the middle trunk of the brachial plexus?",
+       "choices": [
+        "C6",
+        "C8",
+        "C7",
+        "T1"
+       ],
+       "answer": 2,
+       "explain": "The superior trunk is C5-C6, the middle trunk is C7, and the inferior trunk is C8-T1."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The roots unite to form three trunks: … Middle trunk (C7 root)"
+    },
+    {
+     "order": 49,
+     "why": "Inferior trunk: C8-T1 roots",
+     "questions": [
+      {
+       "q": "Which roots form the inferior trunk of the brachial plexus?",
+       "choices": [
+        "C7-C8",
+        "C8-T1",
+        "C5-C6",
+        "T1-T2"
+       ],
+       "answer": 1,
+       "explain": "The inferior trunk is formed by the C8 and T1 roots."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The roots unite to form three trunks: … Inferior trunk (C8–T1 roots)"
+    },
+    {
+     "order": 50,
+     "why": "Lateral cord: gives musculocutaneous n.; cords named by relation to axillary a.",
+     "questions": [
+      {
+       "q": "Which terminal nerve arises from the lateral cord of the brachial plexus?",
+       "choices": [
+        "Musculocutaneous nerve",
+        "Axillary nerve",
+        "Radial nerve",
+        "Thoracodorsal nerve"
+       ],
+       "answer": 0,
+       "explain": "The musculocutaneous nerve arises from the lateral cord; the axillary and radial nerves come from the posterior cord."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "These divisions reorganize to form the lateral, medial, and posterior cords, which are named according to their relationship to the axillary artery."
+    },
+    {
+     "order": 51,
+     "why": "Medial cord: cords named by relation to axillary artery",
+     "questions": [
+      {
+       "q": "The lateral, medial, and posterior cords are named for their relationship to which structure?",
+       "choices": [
+        "Axillary vein",
+        "Clavicle",
+        "Pectoralis minor",
+        "Axillary artery"
+       ],
+       "answer": 3,
+       "explain": "The cords are named according to their relationship to the axillary artery."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "These divisions reorganize to form the lateral, medial, and posterior cords, which are named according to their relationship to the axillary artery."
+    },
+    {
+     "order": 52,
+     "why": "Posterior cord: gives axillary and radial nn.",
+     "questions": [
+      {
+       "q": "Which two nerves arise from the posterior cord?",
+       "choices": [
+        "Median and ulnar",
+        "Musculocutaneous and median",
+        "Ulnar and axillary",
+        "Axillary and radial"
+       ],
+       "answer": 3,
+       "explain": "Both the axillary nerve and the radial nerve arise from the posterior cord of the brachial plexus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The axillary nerve … arises from the posterior cord of the brachial plexus."
+    },
+    {
+     "order": 56,
+     "why": "Median n.: terminal branch to most anterior forearm muscles",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Median: Most muscles of the anterior forearm and selected hand muscles"
+    },
+    {
+     "order": 57,
+     "why": "Ulnar n.: terminal branch to some forearm and many intrinsic hand muscles",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Ulnar: Selected forearm muscles and many intrinsic hand muscles"
     },
     {
      "order": 66,
@@ -1985,7 +2242,9 @@
        "answer": 2,
        "explain": "The long head arises from the supraglenoid tubercle (and superior labrum); the short head arises from the coracoid process."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Because the muscle inserts on the radius, it functions as both an elbow flexor and a powerful supinator of the forearm."
     },
     {
      "order": 67,
@@ -2002,7 +2261,9 @@
        "answer": 2,
        "explain": "The brachialis inserts on the ulnar tuberosity, so it cannot rotate the radius; it is the primary elbow flexor."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Because it acts on the ulna rather than the radius, it functions as a pure elbow flexor…"
     },
     {
      "order": 68,
@@ -2019,7 +2280,39 @@
        "answer": 1,
        "explain": "The coracobrachialis runs from the coracoid process to the humerus and flexes and adducts the arm; it is supplied by the musculocutaneous nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The coracobrachialis extends from the coracoid process of the scapula to the humerus and assists with flexion and adduction of the arm at the shoulder."
+    },
+    {
+     "order": 53,
+     "why": "Musculocutaneous n.: lateral cord; pierces coracobrachialis; anterior arm; lateral cutaneous n. of forearm",
+     "questions": [
+      {
+       "q": "Musculocutaneous nerve injury causes sensory loss over which region?",
+       "choices": [
+        "Lateral shoulder",
+        "Medial forearm",
+        "Lateral forearm",
+        "Dorsal first web space"
+       ],
+       "answer": 2,
+       "explain": "The musculocutaneous nerve continues as the lateral cutaneous nerve of the forearm; injury weakens elbow flexion and supination."
+      },
+      {
+       "q": "The musculocutaneous nerve typically pierces which muscle?",
+       "choices": [
+        "Brachialis",
+        "Coracobrachialis",
+        "Biceps brachii",
+        "Pectoralis minor"
+       ],
+       "answer": 1,
+       "explain": "A useful relationship: the musculocutaneous nerve typically pierces the coracobrachialis as it enters the anterior compartment."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "A useful anatomical relationship is that the nerve typically pierces the coracobrachialis as it enters the compartment."
     },
     {
      "order": 69,
@@ -2036,7 +2329,110 @@
        "answer": 0,
        "explain": "The long head arises from the infraglenoid tubercle of the scapula, so it crosses the shoulder; the lateral and medial heads arise from the humerus."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The long head originates from the infraglenoid tubercle of the scapula, whereas the lateral and medial heads originate from the posterior humerus."
+    },
+    {
+     "order": 21,
+     "why": "Olecranon: insertion of triceps common tendon",
+     "questions": [
+      {
+       "q": "Which muscle inserts on the olecranon?",
+       "choices": [
+        "Brachialis",
+        "Biceps brachii",
+        "Triceps brachii",
+        "Coracobrachialis"
+       ],
+       "answer": 2,
+       "explain": "All three heads of the triceps converge on a common tendon inserting on the olecranon of the ulna."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "All three heads converge on a common tendon that inserts on the olecranon of the ulna."
+    },
+    {
+     "order": 55,
+     "why": "Radial n.: posterior cord; all posterior arm and forearm extensors",
+     "questions": [
+      {
+       "q": "The radial nerve innervates muscles of which compartments?",
+       "choices": [
+        "Posterior arm and posterior forearm",
+        "Anterior arm and anterior forearm",
+        "Posterior arm and anterior forearm",
+        "Rotator cuff and posterior arm"
+       ],
+       "answer": 0,
+       "explain": "The radial nerve supplies all posterior compartment muscles of the arm and continues to the forearm extensors."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The radial nerve innervates all muscles of the posterior compartment of the arm and continues into the forearm…"
+    },
+    {
+     "order": 25,
+     "why": "Triangular interval: radial n. enters posterior compartment of arm",
+     "questions": [
+      {
+       "q": "Which nerve enters the posterior compartment of the arm through the triangular interval?",
+       "choices": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve"
+       ],
+       "answer": 0,
+       "explain": "The radial nerve passes through the triangular interval to enter the posterior compartment, then runs in the radial groove."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The radial nerve arises from the posterior cord of the brachial plexus and enters the posterior compartment of the arm through the triangular interval."
+    },
+    {
+     "order": 85,
+     "why": "Deep brachial a.: travels with radial n. in radial groove",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "It travels with the deep brachial artery in the radial groove on the posterior surface of the humerus…"
+    },
+    {
+     "order": 17,
+     "why": "Radial groove: radial n. + deep brachial a.; midshaft fracture -> wrist drop",
+     "questions": [
+      {
+       "q": "Which artery accompanies the radial nerve in the radial groove?",
+       "choices": [
+        "Posterior circumflex humeral artery",
+        "Deep brachial artery",
+        "Superior ulnar collateral artery",
+        "Thoracodorsal artery"
+       ],
+       "answer": 1,
+       "explain": "The radial nerve travels with the deep brachial artery (profunda brachii) in the radial groove of the posterior humerus."
+      },
+      {
+       "q": "A midshaft humeral fracture damages the nerve in the radial groove. What is the classic deficit?",
+       "choices": [
+        "Wrist drop",
+        "Winged scapula",
+        "Claw hand",
+        "Weak supination only"
+       ],
+       "answer": 0,
+       "explain": "Radial nerve injury in the radial groove weakens wrist and finger extension, causing wrist drop."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The radial nerve is particularly vulnerable to injury in fractures involving the midshaft of the humerus because it courses within the radial groove."
+    },
+    {
+     "order": 20,
+     "why": "Lateral epicondyle: radial n. passes anteriorly near it",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…before passing anteriorly near the lateral epicondyle."
     },
     {
      "order": 70,
@@ -2053,7 +2449,54 @@
        "answer": 3,
        "explain": "Flexion/extension occur at the humeroulnar and humeroradial joints; pronation/supination occur at the proximal radioulnar joint."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The elbow joint complex includes the humeroulnar, humeroradial, and proximal radioulnar joints and permits flexion, extension, pronation, and supination."
+    },
+    {
+     "order": 18,
+     "why": "Trochlea: articulates with trochlear notch of ulna (humeroulnar joint)",
+     "questions": [
+      {
+       "q": "The trochlea of the humerus articulates with which structure?",
+       "choices": [
+        "Head of the radius",
+        "Radial notch of the ulna",
+        "Olecranon fossa",
+        "Trochlear notch of the ulna"
+       ],
+       "answer": 3,
+       "explain": "The humeroulnar joint is between the trochlea of the humerus and the trochlear notch of the ulna."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Humeroulnar joint between the trochlea of the humerus and trochlear notch of the ulna"
+    },
+    {
+     "order": 22,
+     "why": "Trochlear notch: ulnar side of the humeroulnar joint",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Humeroulnar joint between the trochlea of the humerus and trochlear notch of the ulna"
+    },
+    {
+     "order": 19,
+     "why": "Capitulum: articulates with head of radius (humeroradial joint)",
+     "questions": [
+      {
+       "q": "The capitulum articulates with which structure?",
+       "choices": [
+        "Trochlear notch of the ulna",
+        "Coronoid process of ulna",
+        "Radial notch of the ulna",
+        "Head of the radius"
+       ],
+       "answer": 3,
+       "explain": "The humeroradial joint is formed by the capitulum of the humerus and the head of the radius."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Humeroradial joint between the capitulum of the humerus and head of the radius"
     },
     {
      "order": 71,
@@ -2081,6 +2524,138 @@
        "answer": 2,
        "explain": "Nursemaid's elbow is subluxation of the radial head from the annular ligament after sudden traction."
       }
+     ],
+     "yield": "high",
+     "excerpt": "The ulnar collateral ligament resists valgus stress at the elbow."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Skeletal Framework",
+     "orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      60,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      13
+     ]
+    },
+    {
+     "title": "Joints of the Shoulder Complex",
+     "orders": [
+      27,
+      28,
+      30,
+      29,
+      31,
+      32,
+      33,
+      34
+     ]
+    },
+    {
+     "title": "Scapular Stabilization and Movement",
+     "orders": [
+      36,
+      59,
+      58
+     ]
+    },
+    {
+     "title": "Muscles of the Pectoral Girdle",
+     "orders": [
+      37,
+      61
+     ]
+    },
+    {
+     "title": "Rotator Cuff Muscles",
+     "orders": [
+      38,
+      35,
+      39,
+      40,
+      41,
+      64
+     ]
+    },
+    {
+     "title": "Major Movers of the Shoulder",
+     "orders": [
+      42,
+      43,
+      62,
+      44,
+      63,
+      45,
+      65
+     ]
+    },
+    {
+     "title": "Axillary Nerve",
+     "orders": [
+      54,
+      23,
+      83
+     ]
+    },
+    {
+     "title": "The Axilla and Brachial Plexus",
+     "orders": [
+      75,
+      89,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      56,
+      57
+     ]
+    },
+    {
+     "title": "Anterior Compartment of the Arm",
+     "orders": [
+      66,
+      67,
+      68,
+      53
+     ]
+    },
+    {
+     "title": "Posterior Compartment of the Arm",
+     "orders": [
+      69,
+      21,
+      55,
+      25,
+      85,
+      17,
+      20
+     ]
+    },
+    {
+     "title": "Elbow Joint",
+     "orders": [
+      70,
+      18,
+      22,
+      19,
+      71
      ]
     }
    ]
@@ -2118,7 +2693,9 @@
        "answer": 0,
        "explain": "The right subclavian arises from the brachiocephalic trunk; the left arises directly from the aortic arch."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The right subclavian artery arises from the brachiocephalic trunk, whereas the left subclavian artery arises directly from the aortic arch."
     },
     {
      "order": 73,
@@ -2135,7 +2712,9 @@
        "answer": 0,
        "explain": "The suprascapular artery comes from the thyrocervical trunk and contributes to the scapular anastomosis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Among these branches, the suprascapular artery and dorsal scapular artery … contribute to the scapular anastomosis"
     },
     {
      "order": 74,
@@ -2152,7 +2731,28 @@
        "answer": 3,
        "explain": "The dorsal scapular artery (from the subclavian or transverse cervical artery) joins the suprascapular and circumflex scapular arteries around the scapula."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Dorsal scapular artery (from the subclavian artery or the transverse cervical artery)"
+    },
+    {
+     "order": 80,
+     "why": "Circumflex scapular a.: from subscapular; axillary contributor to scapular anastomosis",
+     "questions": [
+      {
+       "q": "With a proximal subclavian occlusion, scapular collaterals reroute blood into the axillary system through which artery?",
+       "choices": [
+        "Superior thoracic artery",
+        "Lateral thoracic artery",
+        "Circumflex scapular artery",
+        "Anterior circumflex humeral"
+       ],
+       "answer": 2,
+       "explain": "Collateral flow through the scapular anastomosis reaches the circumflex scapular branch (via subscapular) of the axillary artery."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Collateral circulation through the scapular anastomosis can route blood from branches of the subclavian artery to the circumflex scapular branch of the axillary artery…"
     },
     {
      "order": 75,
@@ -2180,7 +2780,16 @@
        "answer": 1,
        "explain": "Assessing the radial pulse is key after shoulder trauma; a normal pulse does not fully exclude injury because collaterals may maintain flow."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The axillary artery is divided into three parts … by the pectoralis minor muscle."
+    },
+    {
+     "order": 37,
+     "why": "Pectoralis minor: divides the axillary a. into three parts",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The axillary artery is divided into three parts … by the pectoralis minor muscle."
     },
     {
      "order": 76,
@@ -2197,7 +2806,9 @@
        "answer": 1,
        "explain": "Part 1 gives the superior thoracic artery; part 2 gives thoracoacromial and lateral thoracic; part 3 gives subscapular and both circumflex humerals."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Part 1: Superior thoracic artery"
     },
     {
      "order": 77,
@@ -2214,12 +2825,16 @@
        "answer": 0,
        "explain": "Part 2 of the axillary artery (deep to pectoralis minor) gives the thoracoacromial and lateral thoracic arteries."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Part 2: Thoracoacromial artery, Lateral thoracic artery"
     },
     {
      "order": 78,
      "why": "Lateral thoracic a.: part 2 of axillary a.",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Part 2: Thoracoacromial artery, Lateral thoracic artery"
     },
     {
      "order": 79,
@@ -2236,24 +2851,9 @@
        "answer": 3,
        "explain": "The subscapular artery, from part 3, is the largest branch and gives rise to the circumflex scapular artery."
       }
-     ]
-    },
-    {
-     "order": 80,
-     "why": "Circumflex scapular a.: from subscapular; axillary contributor to scapular anastomosis",
-     "questions": [
-      {
-       "q": "With a proximal subclavian occlusion, scapular collaterals reroute blood into the axillary system through which artery?",
-       "choices": [
-        "Superior thoracic artery",
-        "Lateral thoracic artery",
-        "Circumflex scapular artery",
-        "Anterior circumflex humeral"
-       ],
-       "answer": 2,
-       "explain": "Collateral flow through the scapular anastomosis reaches the circumflex scapular branch (via subscapular) of the axillary artery."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The subscapular artery is the largest branch of the axillary artery and gives rise to the circumflex scapular artery…"
     },
     {
      "order": 82,
@@ -2270,7 +2870,9 @@
        "answer": 2,
        "explain": "Both circumflex humeral arteries, from part 3 of the axillary artery, encircle the surgical neck of the humerus."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior and posterior circumflex humeral arteries encircle the surgical neck of the humerus and contribute to the blood supply of the shoulder region."
     },
     {
      "order": 83,
@@ -2287,7 +2889,16 @@
        "answer": 1,
        "explain": "The axillary nerve passes through the quadrangular space with the posterior circumflex humeral artery."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior and posterior circumflex humeral arteries encircle the surgical neck of the humerus and contribute to the blood supply of the shoulder region."
+    },
+    {
+     "order": 13,
+     "why": "Surgical neck: encircled by the circumflex humeral aa.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The anterior and posterior circumflex humeral arteries encircle the surgical neck of the humerus…"
     },
     {
      "order": 84,
@@ -2304,7 +2915,16 @@
        "answer": 0,
        "explain": "After passing the inferior border of the teres major, the axillary artery is called the brachial artery."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "As the axillary artery passes the inferior border of the teres major muscle, it becomes the brachial artery."
+    },
+    {
+     "order": 45,
+     "why": "Teres major: inferior border marks axillary to brachial a.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "As the axillary artery passes the inferior border of the teres major muscle, it becomes the brachial artery."
     },
     {
      "order": 85,
@@ -2321,7 +2941,16 @@
        "answer": 3,
        "explain": "The deep brachial artery, the largest brachial branch, travels with the radial nerve and supplies the posterior compartment of the arm."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The largest branch of the brachial artery is the deep brachial artery (profunda brachii), which accompanies the radial nerve…"
+    },
+    {
+     "order": 55,
+     "why": "Radial n.: accompanied by the deep brachial a.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…the deep brachial artery (profunda brachii), which accompanies the radial nerve and supplies the posterior compartment of the arm."
     },
     {
      "order": 26,
@@ -2338,7 +2967,9 @@
        "answer": 3,
        "explain": "The median cubital vein, connecting cephalic and basilic veins in the cubital fossa, is superficial, stable, and easily accessed."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "As the brachial artery passes through the cubital fossa, it divides into the radial artery … and the ulnar artery…"
     },
     {
      "order": 86,
@@ -2355,7 +2986,9 @@
        "answer": 2,
        "explain": "The radial and ulnar veins unite to form the brachial veins, which join the basilic vein to form the axillary vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Blood from the hand and forearm drains into the radial and ulnar veins, which unite to form the brachial veins."
     },
     {
      "order": 87,
@@ -2372,7 +3005,9 @@
        "answer": 1,
        "explain": "The basilic vein runs along the medial side of the forearm and arm; the cephalic vein runs laterally."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "As venous blood returns proximally, the basilic vein joins the brachial veins to form the axillary vein."
     },
     {
      "order": 88,
@@ -2389,7 +3024,9 @@
        "answer": 0,
        "explain": "The cephalic vein courses laterally and ascends through the deltopectoral groove to empty into the axillary vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The cephalic vein ascends independently, coursing through the deltopectoral groove, before emptying into the axillary vein near the shoulder"
     },
     {
      "order": 89,
@@ -2406,7 +3043,9 @@
        "answer": 0,
        "explain": "The axillary vein continues as the subclavian vein at the lateral border of the first rib."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The axillary vein then continues as the subclavian vein at the lateral border of the first rib."
     },
     {
      "order": 90,
@@ -2423,6 +3062,58 @@
        "answer": 3,
        "explain": "On each side the subclavian vein joins the internal jugular vein to form the brachiocephalic vein; the two brachiocephalics form the SVC."
       }
+     ],
+     "yield": "high",
+     "excerpt": "On each side, the subclavian vein joins the internal jugular vein to form the brachiocephalic vein."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Subclavian Artery",
+     "orders": [
+      72
+     ]
+    },
+    {
+     "title": "Scapular Anastomosis",
+     "orders": [
+      73,
+      74,
+      80
+     ]
+    },
+    {
+     "title": "Axillary Artery",
+     "orders": [
+      75,
+      37,
+      76,
+      77,
+      78,
+      79,
+      82,
+      83,
+      13
+     ]
+    },
+    {
+     "title": "Brachial Artery and Cubital Fossa",
+     "orders": [
+      84,
+      45,
+      85,
+      55,
+      26
+     ]
+    },
+    {
+     "title": "Veins of the Upper Extremity",
+     "orders": [
+      86,
+      87,
+      88,
+      89,
+      90
      ]
     }
    ]
@@ -2434,6 +3125,32 @@
    "session": "1",
    "stem": "206_MSK_W2_ForearmHand",
    "items": [
+    {
+     "order": 60,
+     "why": "Anterior ulnar recurrent a.: elbow anastomosis with ulnar collaterals",
+     "questions": [
+      {
+       "q": "Recurrent branches of the ulnar artery anastomose with which branches of the brachial artery around the elbow?",
+       "choices": [
+        "Superior and inferior ulnar collaterals",
+        "Radial and middle collaterals",
+        "Anterior and posterior circumflex humerals",
+        "Anterior and posterior interosseous"
+       ],
+       "answer": 0,
+       "explain": "The superior and inferior ulnar collateral arteries (from the brachial artery) anastomose with the anterior and posterior ulnar recurrent arteries."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "These vessels anastomose with the radial recurrent, anterior and posterior ulnar recurrent, and recurrent interosseous arteries to form the arterial network around the elbow."
+    },
+    {
+     "order": 61,
+     "why": "Posterior ulnar recurrent a.: elbow anastomosis",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "These vessels anastomose with the radial recurrent, anterior and posterior ulnar recurrent, and recurrent interosseous arteries to form the arterial network around the elbow."
+    },
     {
      "order": 54,
      "why": "Radial a.: lateral forearm; main contributor to deep palmar arch; radial pulse",
@@ -2460,7 +3177,9 @@
        "answer": 1,
        "explain": "The radial pulse at the wrist is the most commonly assessed; ulnar, brachial, and axillary pulses can also be palpated."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…the radial pulse at the wrist is the most commonly assessed pulse in the upper extremity…"
     },
     {
      "order": 55,
@@ -2488,7 +3207,9 @@
        "answer": 0,
        "explain": "The ulnar artery is the main contributor to the superficial palmar arch."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The ulnar artery is the primary contributor to the superficial palmar arch, whereas the radial artery is the primary contributor to the deep palmar arch"
     },
     {
      "order": 56,
@@ -2505,7 +3226,9 @@
        "answer": 3,
        "explain": "The common interosseous artery divides into the anterior and posterior interosseous arteries, which supply the deep forearm."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Shortly after its origin, the ulnar artery gives rise to the common interosseous artery, which divides into the anterior and posterior interosseous arteries."
     },
     {
      "order": 57,
@@ -2522,7 +3245,9 @@
        "answer": 2,
        "explain": "The anterior interosseous artery supplies the deep flexor compartment; the posterior interosseous artery supplies the extensors."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior interosseous artery supplies much of the deep flexor compartment of the forearm, whereas the posterior interosseous artery supplies the extensor compartment."
     },
     {
      "order": 58,
@@ -2539,7 +3264,9 @@
        "answer": 2,
        "explain": "The posterior interosseous artery supplies the extensor compartment and gives rise to the recurrent interosseous artery."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior interosseous artery supplies much of the deep flexor compartment of the forearm, whereas the posterior interosseous artery supplies the extensor compartment."
     },
     {
      "order": 59,
@@ -2556,63 +3283,9 @@
        "answer": 1,
        "explain": "The recurrent interosseous artery joins the anastomosis around the elbow, which maintains flow during flexion and extension."
       }
-     ]
-    },
-    {
-     "order": 60,
-     "why": "Anterior ulnar recurrent a.: elbow anastomosis with ulnar collaterals",
-     "questions": [
-      {
-       "q": "Recurrent branches of the ulnar artery anastomose with which branches of the brachial artery around the elbow?",
-       "choices": [
-        "Superior and inferior ulnar collaterals",
-        "Radial and middle collaterals",
-        "Anterior and posterior circumflex humerals",
-        "Anterior and posterior interosseous"
-       ],
-       "answer": 0,
-       "explain": "The superior and inferior ulnar collateral arteries (from the brachial artery) anastomose with the anterior and posterior ulnar recurrent arteries."
-      }
-     ]
-    },
-    {
-     "order": 61,
-     "why": "Posterior ulnar recurrent a.: elbow anastomosis",
-     "questions": []
-    },
-    {
-     "order": 62,
-     "why": "Superficial palmar branch of radial a.: completes superficial palmar arch",
-     "questions": [
-      {
-       "q": "The superficial palmar arch receives a contribution from which branch?",
-       "choices": [
-        "Deep branch of the ulnar artery",
-        "Anterior interosseous artery",
-        "Recurrent interosseous artery",
-        "Superficial branch of the radial artery"
-       ],
-       "answer": 3,
-       "explain": "The ulnar artery mainly forms the superficial arch, which is completed by the superficial branch of the radial artery."
-      }
-     ]
-    },
-    {
-     "order": 63,
-     "why": "Deep palmar branch of ulnar a.: completes deep palmar arch",
-     "questions": [
-      {
-       "q": "Which branch completes the deep palmar arch alongside the radial artery?",
-       "choices": [
-        "Superficial branch of radial artery",
-        "Posterior interosseous artery",
-        "Common interosseous artery",
-        "Deep branch of the ulnar artery"
-       ],
-       "answer": 3,
-       "explain": "The deep palmar arch, formed mainly by the radial artery, receives a contribution from the deep branch of the ulnar artery."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The posterior interosseous artery also gives rise to the recurrent interosseous artery, which contributes to the arterial network around the elbow"
     },
     {
      "order": 64,
@@ -2629,12 +3302,83 @@
        "answer": 2,
        "explain": "Because the superficial and deep palmar arches are connected, blood can reach the digits through multiple pathways."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Because the two arches are connected, blood can reach the digits through multiple pathways, providing collateral circulation within the hand."
+    },
+    {
+     "order": 62,
+     "why": "Superficial palmar branch of radial a.: completes superficial palmar arch",
+     "questions": [
+      {
+       "q": "The superficial palmar arch receives a contribution from which branch?",
+       "choices": [
+        "Deep branch of the ulnar artery",
+        "Anterior interosseous artery",
+        "Recurrent interosseous artery",
+        "Superficial branch of the radial artery"
+       ],
+       "answer": 3,
+       "explain": "The ulnar artery mainly forms the superficial arch, which is completed by the superficial branch of the radial artery."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The superficial palmar arch receives a contribution from the superficial branch of the radial artery…"
     },
     {
      "order": 65,
      "why": "Deep palmar arch: mainly radial a.",
-     "questions": []
+     "questions": [],
+     "yield": "high",
+     "excerpt": "…the radial artery is the primary contributor to the deep palmar arch"
+    },
+    {
+     "order": 63,
+     "why": "Deep palmar branch of ulnar a.: completes deep palmar arch",
+     "questions": [
+      {
+       "q": "Which branch completes the deep palmar arch alongside the radial artery?",
+       "choices": [
+        "Superficial branch of radial artery",
+        "Posterior interosseous artery",
+        "Common interosseous artery",
+        "Deep branch of the ulnar artery"
+       ],
+       "answer": 3,
+       "explain": "The deep palmar arch, formed mainly by the radial artery, receives a contribution from the deep branch of the ulnar artery."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…the deep palmar arch receives a contribution from the deep branch of the ulnar artery."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Arterial Network Around the Elbow",
+     "orders": [
+      60,
+      61
+     ]
+    },
+    {
+     "title": "Radial and Ulnar Arteries",
+     "orders": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ]
+    },
+    {
+     "title": "Arteries of the Hand",
+     "orders": [
+      64,
+      62,
+      65,
+      63
+     ]
     }
    ]
   },
@@ -2671,7 +3415,9 @@
        "answer": 0,
        "explain": "A Colles fracture is a distal radius fracture with dorsal displacement of the distal fragment; severe displacement may compress the median nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The ulna provides a relatively stable axis for forearm movement, whereas the radius rotates around the ulna during pronation and supination."
     },
     {
      "order": 2,
@@ -2688,63 +3434,9 @@
        "answer": 0,
        "explain": "The ulna stays relatively stationary while the radius rotates around it."
       }
-     ]
-    },
-    {
-     "order": 3,
-     "why": "Head of radius: rotates within annular ligament at proximal radioulnar joint",
-     "questions": [
-      {
-       "q": "At the proximal radioulnar joint, the head of the radius rotates within which structure?",
-       "choices": [
-        "Ulnar collateral ligament",
-        "Interosseous membrane",
-        "Flexor retinaculum",
-        "Annular ligament"
-       ],
-       "answer": 3,
-       "explain": "Proximally, the head of the radius rotates within the annular ligament at the proximal radioulnar joint."
-      }
-     ]
-    },
-    {
-     "order": 4,
-     "why": "Radial tuberosity: biceps insertion; makes biceps a supinator, esp. with elbow flexed",
-     "questions": [
-      {
-       "q": "Which muscle inserts on the radial tuberosity, making it an effective supinator when the elbow is flexed?",
-       "choices": [
-        "Brachialis",
-        "Supinator",
-        "Biceps brachii",
-        "Pronator teres"
-       ],
-       "answer": 2,
-       "explain": "Because the biceps inserts on the radial tuberosity, it is a particularly effective supinator with the elbow flexed."
-      }
-     ]
-    },
-    {
-     "order": 5,
-     "why": "Head of ulna: ulnar notch of radius rotates around it at DRUJ",
-     "questions": [
-      {
-       "q": "At the distal radioulnar joint, which surface rotates around the head of the ulna?",
-       "choices": [
-        "Head of the radius",
-        "Ulnar notch of the radius",
-        "Radial notch of the ulna",
-        "Styloid process of radius"
-       ],
-       "answer": 1,
-       "explain": "Distally, the ulnar notch of the radius rotates around the head of the ulna at the distal radioulnar joint."
-      }
-     ]
-    },
-    {
-     "order": 6,
-     "why": "Ulnar notch of radius: distal radioulnar joint",
-     "questions": []
+     ],
+     "yield": "high",
+     "excerpt": "Because the ulna remains relatively stationary while the radius rotates around it, the ulna provides a stable axis for forearm rotation."
     },
     {
      "order": 9,
@@ -2761,7 +3453,9 @@
        "answer": 1,
        "explain": "The proximal scaphoid has a limited blood supply from the radial artery, so missed fractures risk avascular necrosis and nonunion."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Following a fall onto an outstretched hand, tenderness within the snuffbox raises concern for a scaphoid fracture."
     },
     {
      "order": 10,
@@ -2778,7 +3472,9 @@
        "answer": 0,
        "explain": "The first metacarpal articulates with the trapezium at the saddle-shaped thumb carpometacarpal joint."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The first metacarpal is especially mobile because it articulates with the trapezium at the thumb carpometacarpal joint, permitting opposition…"
     },
     {
      "order": 11,
@@ -2795,7 +3491,9 @@
        "answer": 3,
        "explain": "The metacarpals articulate proximally with the distal carpal row and distally with the proximal phalanges at the MCP joints."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The five metacarpals form the framework of the palm."
     },
     {
      "order": 12,
@@ -2812,7 +3510,9 @@
        "answer": 2,
        "explain": "Digits 2-5 have proximal, middle, and distal phalanges; the thumb has only proximal and distal phalanges (14 in total)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Digits 2–5 each contain proximal, middle, and distal phalanges, whereas the thumb contains only proximal and distal phalanges."
     },
     {
      "order": 13,
@@ -2840,193 +3540,73 @@
        "answer": 1,
        "explain": "The forearm's fascial compartments are separated by the radius, ulna, and interosseous membrane."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Pronation and supination occur at two anatomically separate but functionally linked joints."
     },
     {
-     "order": 14,
-     "why": "Radiocarpal joint: condyloid synovial; flexion, extension, radial/ulnar deviation, circumduction",
+     "order": 3,
+     "why": "Head of radius: rotates within annular ligament at proximal radioulnar joint",
      "questions": [
       {
-       "q": "What type of joint is the radiocarpal (wrist) joint?",
+       "q": "At the proximal radioulnar joint, the head of the radius rotates within which structure?",
        "choices": [
-        "Condyloid synovial joint",
-        "Saddle synovial joint",
-        "Pivot synovial joint",
-        "Hinge synovial joint"
-       ],
-       "answer": 0,
-       "explain": "The radiocarpal joint is a condyloid synovial joint allowing flexion, extension, radial and ulnar deviation, and circumduction."
-      }
-     ]
-    },
-    {
-     "order": 15,
-     "why": "Carpometacarpal joints (2-5): limited movement, stability during grasp",
-     "questions": [
-      {
-       "q": "What is the main functional contribution of carpometacarpal joints 2-5?",
-       "choices": [
-        "Opposition of the digits",
-        "Abduction of the fingers",
-        "Pronation of the hand",
-        "Stability during grasp"
+        "Ulnar collateral ligament",
+        "Interosseous membrane",
+        "Flexor retinaculum",
+        "Annular ligament"
        ],
        "answer": 3,
-       "explain": "Most carpometacarpal joints allow only limited movement, providing stability during grasp."
+       "explain": "Proximally, the head of the radius rotates within the annular ligament at the proximal radioulnar joint."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Proximally, the head of the radius rotates within the annular ligament at the proximal radioulnar joint."
     },
     {
-     "order": 16,
-     "why": "First CMC joint: saddle joint permitting opposition; CMC osteoarthritis",
+     "order": 6,
+     "why": "Ulnar notch of radius: distal radioulnar joint",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "Distally, the ulnar notch of the radius rotates around the head of the ulna at the distal radioulnar joint."
+    },
+    {
+     "order": 5,
+     "why": "Head of ulna: ulnar notch of radius rotates around it at DRUJ",
      "questions": [
       {
-       "q": "Which joint is a saddle joint that permits opposition of the thumb?",
+       "q": "At the distal radioulnar joint, which surface rotates around the head of the ulna?",
        "choices": [
-        "First metacarpophalangeal joint",
-        "Thumb interphalangeal joint",
-        "Radiocarpal joint",
-        "First carpometacarpal joint"
+        "Head of the radius",
+        "Ulnar notch of the radius",
+        "Radial notch of the ulna",
+        "Styloid process of radius"
        ],
-       "answer": 3,
-       "explain": "The first carpometacarpal joint is a saddle joint allowing flexion, extension, abduction, adduction, and opposition."
-      },
+       "answer": 1,
+       "explain": "Distally, the ulnar notch of the radius rotates around the head of the ulna at the distal radioulnar joint."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Distally, the ulnar notch of the radius rotates around the head of the ulna at the distal radioulnar joint."
+    },
+    {
+     "order": 4,
+     "why": "Radial tuberosity: biceps insertion; makes biceps a supinator, esp. with elbow flexed",
+     "questions": [
       {
-       "q": "An older patient has pain at the base of the thumb and weak pinch when opening jars. Degeneration of which joint is most likely?",
+       "q": "Which muscle inserts on the radial tuberosity, making it an effective supinator when the elbow is flexed?",
        "choices": [
-        "Distal radioulnar joint",
-        "Fifth metacarpophalangeal joint",
-        "First carpometacarpal joint",
-        "Radiocarpal joint"
+        "Brachialis",
+        "Supinator",
+        "Biceps brachii",
+        "Pronator teres"
        ],
        "answer": 2,
-       "explain": "Thumb CMC osteoarthritis causes pain at the base of the thumb, weak pinch, and trouble opening jars or turning keys."
+       "explain": "Because the biceps inserts on the radial tuberosity, it is a particularly effective supinator with the elbow flexed."
       }
-     ]
-    },
-    {
-     "order": 17,
-     "why": "MCP joints: flexed by lumbricals and interossei",
-     "questions": [
-      {
-       "q": "The lumbricals and interossei act on the MCP and IP joints in which way?",
-       "choices": [
-        "Extend MCP, flex IP",
-        "Flex MCP, extend IP",
-        "Flex MCP, flex IP",
-        "Extend MCP, extend IP"
-       ],
-       "answer": 1,
-       "explain": "Lumbricals and interossei flex the metacarpophalangeal joints while extending the interphalangeal joints."
-      }
-     ]
-    },
-    {
-     "order": 18,
-     "why": "IP joints: FDS flexes PIP, FDP flexes DIP; claw = IP flexion",
-     "questions": [
-      {
-       "q": "In an ulnar claw deformity, what is the position of the interphalangeal joints of digits 4 and 5?",
-       "choices": [
-        "Flexed",
-        "Hyperextended",
-        "Abducted",
-        "Fully extended"
-       ],
-       "answer": 0,
-       "explain": "Ulnar claw shows MCP hyperextension with IP flexion, most marked in digits 4 and 5."
-      }
-     ]
-    },
-    {
-     "order": 19,
-     "why": "Flexor and extensor retinacula: hold tendons close to wrist; flexor retinaculum roofs carpal tunnel",
-     "questions": [
-      {
-       "q": "What is the main function of the flexor and extensor retinacula?",
-       "choices": [
-        "Hold tendons close to the wrist",
-        "Separate the forearm compartments",
-        "Anchor the palmar arches",
-        "Attach the thenar muscles to bone"
-       ],
-       "answer": 0,
-       "explain": "The retinacula hold forearm tendons close to the wrist, improving their mechanical efficiency."
-      }
-     ]
-    },
-    {
-     "order": 20,
-     "why": "Anatomical snuffbox: APL, EPB, EPL tendons; tenderness = scaphoid fracture",
-     "questions": [
-      {
-       "q": "Which tendons border the anatomical snuffbox?",
-       "choices": [
-        "FCR, FPL, and APL",
-        "ECRL, ECRB, and EPL",
-        "EDM, ECU, and EPB",
-        "APL, EPB, and EPL"
-       ],
-       "answer": 3,
-       "explain": "The anatomical snuffbox is bordered by the tendons of extensor pollicis longus, extensor pollicis brevis, and abductor pollicis longus."
-      },
-      {
-       "q": "Snuffbox tenderness after a fall on an outstretched hand raises concern for fracture of which bone?",
-       "choices": [
-        "Lunate",
-        "Hamate",
-        "Scaphoid",
-        "Pisiform"
-       ],
-       "answer": 2,
-       "explain": "Snuffbox tenderness after a FOOSH suggests a scaphoid fracture."
-      }
-     ]
-    },
-    {
-     "order": 21,
-     "why": "Carpal tunnel: carpal bones + flexor retinaculum; median n. + 9 tendons (4 FDS, 4 FDP, FPL)",
-     "questions": [
-      {
-       "q": "Which tendon does NOT pass through the carpal tunnel?",
-       "choices": [
-        "Flexor pollicis longus",
-        "Flexor carpi radialis",
-        "Flexor digitorum profundus",
-        "Flexor digitorum superficialis"
-       ],
-       "answer": 1,
-       "explain": "The carpal tunnel transmits the median nerve and 9 tendons (4 FDS, 4 FDP, FPL); flexor carpi radialis is not within it."
-      },
-      {
-       "q": "Carpal tunnel compression most typically causes which deficit?",
-       "choices": [
-        "Numb medial 1.5 digits, weak abduction",
-        "Numb lateral 3.5 digits, weak opposition",
-        "Numb dorsal web space, wrist drop",
-        "Numb lateral forearm, weak supination"
-       ],
-       "answer": 1,
-       "explain": "Median nerve compression in the carpal tunnel causes numbness of the lateral three and one-half digits and weak thumb opposition."
-      }
-     ]
-    },
-    {
-     "order": 22,
-     "why": "Guyon's canal: ulnar n. and a. enter hand superficial to flexor retinaculum",
-     "questions": [
-      {
-       "q": "Which structures enter the hand through Guyon's canal?",
-       "choices": [
-        "Ulnar nerve and ulnar artery",
-        "Median nerve and FPL tendon",
-        "Radial nerve and radial artery",
-        "Median nerve and FDS tendons"
-       ],
-       "answer": 0,
-       "explain": "The ulnar nerve and artery do not pass through the carpal tunnel; they enter superficial to the flexor retinaculum through Guyon's canal."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The biceps brachii is particularly effective when the elbow is flexed because of its insertion on the radial tuberosity."
     },
     {
      "order": 23,
@@ -3043,7 +3623,9 @@
        "answer": 3,
        "explain": "Pronator teres (median nerve) pronates the forearm and assists elbow flexion."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "These muscles primarily flex the wrist, while pronator teres also contributes to forearm pronation."
     },
     {
      "order": 24,
@@ -3060,7 +3642,9 @@
        "answer": 2,
        "explain": "Flexor carpi radialis (median nerve) flexes the wrist and radially deviates it."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Flexor carpi radialis is not within the carpal tunnel."
     },
     {
      "order": 25,
@@ -3077,7 +3661,9 @@
        "answer": 2,
        "explain": "Palmaris longus flexes the wrist and tenses the palmar aponeurosis; it is supplied by the median nerve."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Palmaris longus: Wrist flexion; tenses palmar aponeurosis; Median"
     },
     {
      "order": 26,
@@ -3094,7 +3680,9 @@
        "answer": 1,
        "explain": "Flexor carpi ulnaris is supplied by the ulnar nerve, so it is spared in median nerve injury."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "However, flexor carpi ulnaris and the medial half of flexor digitorum profundus continue to function because they receive innervation from the ulnar nerve."
     },
     {
      "order": 27,
@@ -3111,7 +3699,9 @@
        "answer": 0,
        "explain": "Flexor digitorum superficialis (median nerve) flexes the PIP joints of digits 2-5."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The intermediate layer consists of the flexor digitorum superficialis, which flexes the proximal interphalangeal joints of digits 2–5."
     },
     {
      "order": 28,
@@ -3128,7 +3718,9 @@
        "answer": 3,
        "explain": "FDP's lateral half is supplied by the anterior interosseous nerve (median) and its medial half by the ulnar nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Flexor digitorum profundus: Flexes DIP joints (digits 2-5); Lateral half: Median (AIN); Medial half: Ulnar"
     },
     {
      "order": 29,
@@ -3145,7 +3737,9 @@
        "answer": 3,
        "explain": "In AIN syndrome, weakness of FPL (and lateral FDP) prevents flexion of the distal thumb and index phalanges."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Flexor pollicis longus: Flexes thumb; Median (AIN)"
     },
     {
      "order": 30,
@@ -3162,7 +3756,28 @@
        "answer": 2,
        "explain": "Pronator quadratus, a deep anterior muscle supplied by the AIN, is the primary pronator in slow, unresisted movement."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "…pronator quadratus serves as the primary pronator during slow, unresisted movements."
+    },
+    {
+     "order": 47,
+     "why": "AIN: median branch to FPL, lateral FDP, PQ; AIN syndrome = weak OK sign",
+     "questions": [
+      {
+       "q": "Anterior interosseous nerve syndrome weakens which group of muscles?",
+       "choices": [
+        "FPL, lateral FDP, pronator quadratus",
+        "FCU, medial FDP, adductor pollicis",
+        "APB, opponens pollicis, lumbricals",
+        "Supinator, EPL, extensor indicis"
+       ],
+       "answer": 0,
+       "explain": "AIN syndrome is a motor neuropathy weakening flexor pollicis longus, lateral FDP, and pronator quadratus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Anterior interosseous nerve syndrome is a motor neuropathy of the median nerve that weakens the flexor pollicis longus, lateral flexor digitorum profundus, and pronator quadratus."
     },
     {
      "order": 31,
@@ -3179,7 +3794,9 @@
        "answer": 1,
        "explain": "Brachioradialis, a mobile wad muscle supplied by the radial nerve, flexes the elbow maximally in the neutral position."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Brachioradialis: Elbow flexion (maximal in neutral position); Radial"
     },
     {
      "order": 32,
@@ -3196,7 +3813,9 @@
        "answer": 0,
        "explain": "ECRL is supplied by the radial nerve (main trunk) and extends and radially deviates the wrist."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Extensor carpi radialis longus: Wrist extension; radial deviation; Radial"
     },
     {
      "order": 33,
@@ -3213,7 +3832,9 @@
        "answer": 0,
        "explain": "ECRB is supplied by the deep branch of the radial nerve, unlike ECRL, which is supplied by the radial nerve itself."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Extensor carpi radialis brevis: Wrist extension; radial deviation; Deep branch of radial"
     },
     {
      "order": 34,
@@ -3230,12 +3851,16 @@
        "answer": 3,
        "explain": "Extensor digitorum (PIN) extends digits 2-5."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Extensor digitorum: Extends digits 2-5; Radial (PIN)"
     },
     {
      "order": 35,
      "why": "Extensor digiti minimi: extends 5th digit; PIN",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Extensor digiti minimi: Extends 5th digit; Radial (PIN)"
     },
     {
      "order": 36,
@@ -3252,7 +3877,9 @@
        "answer": 2,
        "explain": "Extensor carpi ulnaris (PIN) extends and ulnarly deviates the wrist."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The superficial layer includes the extensor digitorum, extensor digiti minimi, and extensor carpi ulnaris, which extend the wrist and digits."
     },
     {
      "order": 37,
@@ -3269,7 +3896,9 @@
        "answer": 1,
        "explain": "The supinator, in the deep extensor layer, is supplied by the deep branch of the radial nerve."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Supinator: Supination; Deep branch of radial"
     },
     {
      "order": 38,
@@ -3286,7 +3915,9 @@
        "answer": 1,
        "explain": "Abductor pollicis longus (PIN) abducts the thumb and borders the anatomical snuffbox."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Abductor pollicis longus: Thumb abduction; Radial (PIN)"
     },
     {
      "order": 39,
@@ -3303,7 +3934,9 @@
        "answer": 0,
        "explain": "EPB extends the proximal phalanx of the thumb; EPL extends the distal phalanx."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Extensor pollicis brevis: Extends thumb (proximal phalanx); Radial (PIN)"
     },
     {
      "order": 40,
@@ -3320,7 +3953,9 @@
        "answer": 3,
        "explain": "EPL, which extends the thumb's distal phalanx, is supplied by the posterior interosseous nerve (deep branch of radial)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Extensor pollicis longus; posterior interosseous nerve (deep branch of the radial nerve)."
     },
     {
      "order": 41,
@@ -3337,97 +3972,47 @@
        "answer": 2,
        "explain": "Extensor indicis (PIN) extends the index finger."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Extensor indicis: Extends index finger; Radial (PIN)"
     },
     {
-     "order": 42,
-     "why": "Thenar muscles (APB, FPB, OP): opposition; recurrent branch of median n.",
+     "order": 51,
+     "why": "Deep branch of radial n.: ECRB + supinator; continues as PIN",
      "questions": [
       {
-       "q": "A patient can grasp a hammer firmly but cannot pick up a coin. Which movement is most impaired?",
+       "q": "The deep branch of the radial nerve continues as which nerve?",
        "choices": [
-        "Wrist extension",
-        "Forearm pronation",
-        "Thumb opposition",
-        "Finger extension"
-       ],
-       "answer": 2,
-       "explain": "Picking up a coin is a precision grip that depends on thumb opposition by the thenar muscles."
-      },
-      {
-       "q": "Which nerve supplies most of the thenar muscles?",
-       "choices": [
-        "Deep branch of ulnar nerve",
-        "Recurrent branch of median nerve",
+        "Posterior interosseous nerve",
         "Anterior interosseous nerve",
-        "Superficial branch of radial"
-       ],
-       "answer": 1,
-       "explain": "The recurrent (motor) branch of the median nerve curves around the flexor retinaculum to supply most thenar muscles."
-      }
-     ]
-    },
-    {
-     "order": 43,
-     "why": "Adductor pollicis: thumb adductor, not thenar; ulnar n.",
-     "questions": [
-      {
-       "q": "Which nerve innervates the adductor pollicis?",
-       "choices": [
-        "Ulnar nerve",
-        "Median nerve",
-        "Radial nerve",
-        "Anterior interosseous nerve"
+        "Superficial radial nerve",
+        "Recurrent branch of median"
        ],
        "answer": 0,
-       "explain": "Adductor pollicis is an intrinsic thumb muscle but not in the thenar group; it is supplied by the ulnar nerve."
+       "explain": "The deep branch of the radial nerve continues as the posterior interosseous nerve, which supplies most deep posterior compartment muscles."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The deep branch of the radial nerve continues as the posterior interosseous nerve, which supplies most muscles of the deep posterior compartment."
     },
     {
-     "order": 44,
-     "why": "Hypothenar muscles: move little finger, cup hand; ulnar n.",
+     "order": 52,
+     "why": "PIN: motor to most posterior forearm muscles; injury weakens finger/thumb extension, sensation spared",
      "questions": [
       {
-       "q": "Which nerve innervates the hypothenar muscles?",
+       "q": "Why does a posterior interosseous nerve injury largely spare sensation?",
        "choices": [
-        "Median nerve",
-        "Radial nerve",
-        "Recurrent branch of median",
-        "Ulnar nerve"
+        "It is primarily a sensory nerve",
+        "It only supplies the dorsal hand",
+        "It joins the median nerve distally",
+        "It is primarily a motor nerve"
        ],
        "answer": 3,
-       "explain": "The hypothenar muscles (abductor, flexor, opponens digiti minimi) are supplied by the ulnar nerve."
+       "explain": "PIN injury weakens extension of the fingers and thumb but largely spares sensation because the PIN is primarily motor."
       }
-     ]
-    },
-    {
-     "order": 45,
-     "why": "Lumbricals (1-2 median, 3-4 ulnar) and interossei (DAB/PAD, ulnar)",
-     "questions": [
-      {
-       "q": "Which nerve innervates lumbricals 1 and 2?",
-       "choices": [
-        "Ulnar nerve",
-        "Radial nerve",
-        "Anterior interosseous nerve",
-        "Median nerve"
-       ],
-       "answer": 3,
-       "explain": "Lumbricals 1-2 are supplied by the median nerve; lumbricals 3-4 and all interossei by the ulnar nerve."
-      },
-      {
-       "q": "What do the dorsal interossei do?",
-       "choices": [
-        "Adduct the digits",
-        "Flex the DIP joints",
-        "Abduct the digits",
-        "Oppose the thumb"
-       ],
-       "answer": 2,
-       "explain": "Dorsal interossei abduct (DAB) and palmar interossei adduct (PAD) the fingers relative to the third digit."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Injury to this nerve weakens extension of the fingers and thumb while largely preserving sensation because the posterior interosseous nerve is primarily a motor nerve."
     },
     {
      "order": 46,
@@ -3455,41 +4040,9 @@
        "answer": 0,
        "explain": "The median nerve supplies the lateral palm and lateral 3.5 digits, including their distal dorsal surfaces."
       }
-     ]
-    },
-    {
-     "order": 47,
-     "why": "AIN: median branch to FPL, lateral FDP, PQ; AIN syndrome = weak OK sign",
-     "questions": [
-      {
-       "q": "Anterior interosseous nerve syndrome weakens which group of muscles?",
-       "choices": [
-        "FPL, lateral FDP, pronator quadratus",
-        "FCU, medial FDP, adductor pollicis",
-        "APB, opponens pollicis, lumbricals",
-        "Supinator, EPL, extensor indicis"
-       ],
-       "answer": 0,
-       "explain": "AIN syndrome is a motor neuropathy weakening flexor pollicis longus, lateral FDP, and pronator quadratus."
-      }
-     ]
-    },
-    {
-     "order": 48,
-     "why": "Recurrent branch of median n.: curves around flexor retinaculum; thenar muscles; injury spares sensation",
-     "questions": [
-      {
-       "q": "A superficial palm laceration injures the recurrent branch of the median nerve. What is expected?",
-       "choices": [
-        "Weak opposition, numb lateral digits",
-        "Weak finger abduction and claw hand",
-        "Wrist drop with numb first web space",
-        "Weak opposition, normal sensation"
-       ],
-       "answer": 3,
-       "explain": "The recurrent branch is motor; injury weakens thumb opposition while sparing cutaneous sensation."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Median nerve injury: Weak thumb opposition; sensory loss in the lateral 3½ digits."
     },
     {
      "order": 49,
@@ -3517,7 +4070,9 @@
        "answer": 1,
        "explain": "The ulnar nerve supplies the medial hand and medial one and one-half digits."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "In more severe injuries, an ulnar claw deformity may develop because of imbalance between the intrinsic and extrinsic muscles of the hand."
     },
     {
      "order": 50,
@@ -3534,46 +4089,446 @@
        "answer": 1,
        "explain": "The radial nerve supplies the posterior forearm and dorsolateral hand, including the dorsal first web space."
       }
-     ]
-    },
-    {
-     "order": 51,
-     "why": "Deep branch of radial n.: ECRB + supinator; continues as PIN",
-     "questions": [
-      {
-       "q": "The deep branch of the radial nerve continues as which nerve?",
-       "choices": [
-        "Posterior interosseous nerve",
-        "Anterior interosseous nerve",
-        "Superficial radial nerve",
-        "Recurrent branch of median"
-       ],
-       "answer": 0,
-       "explain": "The deep branch of the radial nerve continues as the posterior interosseous nerve, which supplies most deep posterior compartment muscles."
-      }
-     ]
-    },
-    {
-     "order": 52,
-     "why": "PIN: motor to most posterior forearm muscles; injury weakens finger/thumb extension, sensation spared",
-     "questions": [
-      {
-       "q": "Why does a posterior interosseous nerve injury largely spare sensation?",
-       "choices": [
-        "It is primarily a sensory nerve",
-        "It only supplies the dorsal hand",
-        "It joins the median nerve distally",
-        "It is primarily a motor nerve"
-       ],
-       "answer": 3,
-       "explain": "PIN injury weakens extension of the fingers and thumb but largely spares sensation because the PIN is primarily motor."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Radial nerve injury: Weak wrist and finger extension; sensory loss over the dorsolateral hand, particularly the dorsal first web space…"
     },
     {
      "order": 53,
      "why": "Superficial branch of radial n.: dorsolateral hand sensation",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The radial nerve supplies much of the posterior forearm and dorsolateral hand, including the dorsal first web space."
+    },
+    {
+     "order": 21,
+     "why": "Carpal tunnel: carpal bones + flexor retinaculum; median n. + 9 tendons (4 FDS, 4 FDP, FPL)",
+     "questions": [
+      {
+       "q": "Which tendon does NOT pass through the carpal tunnel?",
+       "choices": [
+        "Flexor pollicis longus",
+        "Flexor carpi radialis",
+        "Flexor digitorum profundus",
+        "Flexor digitorum superficialis"
+       ],
+       "answer": 1,
+       "explain": "The carpal tunnel transmits the median nerve and 9 tendons (4 FDS, 4 FDP, FPL); flexor carpi radialis is not within it."
+      },
+      {
+       "q": "Carpal tunnel compression most typically causes which deficit?",
+       "choices": [
+        "Numb medial 1.5 digits, weak abduction",
+        "Numb lateral 3.5 digits, weak opposition",
+        "Numb dorsal web space, wrist drop",
+        "Numb lateral forearm, weak supination"
+       ],
+       "answer": 1,
+       "explain": "Median nerve compression in the carpal tunnel causes numbness of the lateral three and one-half digits and weak thumb opposition."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Compression of the median nerve within the carpal tunnel may produce numbness in the lateral three and one-half digits and weaken thumb opposition."
+    },
+    {
+     "order": 22,
+     "why": "Guyon's canal: ulnar n. and a. enter hand superficial to flexor retinaculum",
+     "questions": [
+      {
+       "q": "Which structures enter the hand through Guyon's canal?",
+       "choices": [
+        "Ulnar nerve and ulnar artery",
+        "Median nerve and FPL tendon",
+        "Radial nerve and radial artery",
+        "Median nerve and FDS tendons"
+       ],
+       "answer": 0,
+       "explain": "The ulnar nerve and artery do not pass through the carpal tunnel; they enter superficial to the flexor retinaculum through Guyon's canal."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Instead, they enter the hand superficial to the flexor retinaculum through Guyon's canal."
+    },
+    {
+     "order": 55,
+     "why": "Ulnar a.: enters hand through Guyon's canal, not the carpal tunnel",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The ulnar nerve and ulnar artery do not pass through the carpal tunnel either."
+    },
+    {
+     "order": 14,
+     "why": "Radiocarpal joint: condyloid synovial; flexion, extension, radial/ulnar deviation, circumduction",
+     "questions": [
+      {
+       "q": "What type of joint is the radiocarpal (wrist) joint?",
+       "choices": [
+        "Condyloid synovial joint",
+        "Saddle synovial joint",
+        "Pivot synovial joint",
+        "Hinge synovial joint"
+       ],
+       "answer": 0,
+       "explain": "The radiocarpal joint is a condyloid synovial joint allowing flexion, extension, radial and ulnar deviation, and circumduction."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "This condyloid synovial joint permits flexion, extension, abduction (radial deviation), adduction (ulnar deviation), and circumduction."
+    },
+    {
+     "order": 15,
+     "why": "Carpometacarpal joints (2-5): limited movement, stability during grasp",
+     "questions": [
+      {
+       "q": "What is the main functional contribution of carpometacarpal joints 2-5?",
+       "choices": [
+        "Opposition of the digits",
+        "Abduction of the fingers",
+        "Pronation of the hand",
+        "Stability during grasp"
+       ],
+       "answer": 3,
+       "explain": "Most carpometacarpal joints allow only limited movement, providing stability during grasp."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Most carpometacarpal joints allow only limited movement, providing stability during grasp."
+    },
+    {
+     "order": 16,
+     "why": "First CMC joint: saddle joint permitting opposition; CMC osteoarthritis",
+     "questions": [
+      {
+       "q": "Which joint is a saddle joint that permits opposition of the thumb?",
+       "choices": [
+        "First metacarpophalangeal joint",
+        "Thumb interphalangeal joint",
+        "Radiocarpal joint",
+        "First carpometacarpal joint"
+       ],
+       "answer": 3,
+       "explain": "The first carpometacarpal joint is a saddle joint allowing flexion, extension, abduction, adduction, and opposition."
+      },
+      {
+       "q": "An older patient has pain at the base of the thumb and weak pinch when opening jars. Degeneration of which joint is most likely?",
+       "choices": [
+        "Distal radioulnar joint",
+        "Fifth metacarpophalangeal joint",
+        "First carpometacarpal joint",
+        "Radiocarpal joint"
+       ],
+       "answer": 2,
+       "explain": "Thumb CMC osteoarthritis causes pain at the base of the thumb, weak pinch, and trouble opening jars or turning keys."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…the first carpometacarpal joint of the thumb is a saddle joint that permits flexion, extension, abduction, adduction, and opposition."
+    },
+    {
+     "order": 20,
+     "why": "Anatomical snuffbox: APL, EPB, EPL tendons; tenderness = scaphoid fracture",
+     "questions": [
+      {
+       "q": "Which tendons border the anatomical snuffbox?",
+       "choices": [
+        "FCR, FPL, and APL",
+        "ECRL, ECRB, and EPL",
+        "EDM, ECU, and EPB",
+        "APL, EPB, and EPL"
+       ],
+       "answer": 3,
+       "explain": "The anatomical snuffbox is bordered by the tendons of extensor pollicis longus, extensor pollicis brevis, and abductor pollicis longus."
+      },
+      {
+       "q": "Snuffbox tenderness after a fall on an outstretched hand raises concern for fracture of which bone?",
+       "choices": [
+        "Lunate",
+        "Hamate",
+        "Scaphoid",
+        "Pisiform"
+       ],
+       "answer": 2,
+       "explain": "Snuffbox tenderness after a FOOSH suggests a scaphoid fracture."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The anatomical snuffbox is a triangular depression on the lateral wrist bordered by the tendons of the extensor pollicis longus, extensor pollicis brevis…"
+    },
+    {
+     "order": 54,
+     "why": "Radial a.: supplies the proximal scaphoid (AVN risk)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Because the proximal scaphoid has a limited blood supply from the radial artery, missed fractures can result in avascular necrosis and nonunion."
+    },
+    {
+     "order": 19,
+     "why": "Flexor and extensor retinacula: hold tendons close to wrist; flexor retinaculum roofs carpal tunnel",
+     "questions": [
+      {
+       "q": "What is the main function of the flexor and extensor retinacula?",
+       "choices": [
+        "Hold tendons close to the wrist",
+        "Separate the forearm compartments",
+        "Anchor the palmar arches",
+        "Attach the thenar muscles to bone"
+       ],
+       "answer": 0,
+       "explain": "The retinacula hold forearm tendons close to the wrist, improving their mechanical efficiency."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…they pass beneath fibrous bands called the flexor retinaculum and extensor retinaculum, which hold the tendons close to the wrist…"
+    },
+    {
+     "order": 42,
+     "why": "Thenar muscles (APB, FPB, OP): opposition; recurrent branch of median n.",
+     "questions": [
+      {
+       "q": "A patient can grasp a hammer firmly but cannot pick up a coin. Which movement is most impaired?",
+       "choices": [
+        "Wrist extension",
+        "Forearm pronation",
+        "Thumb opposition",
+        "Finger extension"
+       ],
+       "answer": 2,
+       "explain": "Picking up a coin is a precision grip that depends on thumb opposition by the thenar muscles."
+      },
+      {
+       "q": "Which nerve supplies most of the thenar muscles?",
+       "choices": [
+        "Deep branch of ulnar nerve",
+        "Recurrent branch of median nerve",
+        "Anterior interosseous nerve",
+        "Superficial branch of radial"
+       ],
+       "answer": 1,
+       "explain": "The recurrent (motor) branch of the median nerve curves around the flexor retinaculum to supply most thenar muscles."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The thenar muscles control movements of the thumb, including opposition, a movement that brings the thumb into contact with the fingertips."
+    },
+    {
+     "order": 48,
+     "why": "Recurrent branch of median n.: curves around flexor retinaculum; thenar muscles; injury spares sensation",
+     "questions": [
+      {
+       "q": "A superficial palm laceration injures the recurrent branch of the median nerve. What is expected?",
+       "choices": [
+        "Weak opposition, numb lateral digits",
+        "Weak finger abduction and claw hand",
+        "Wrist drop with numb first web space",
+        "Weak opposition, normal sensation"
+       ],
+       "answer": 3,
+       "explain": "The recurrent branch is motor; injury weakens thumb opposition while sparing cutaneous sensation."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Because of its superficial location in the palm, injury to the recurrent branch of the median nerve may weaken thumb opposition while sparing cutaneous sensation."
+    },
+    {
+     "order": 43,
+     "why": "Adductor pollicis: thumb adductor, not thenar; ulnar n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the adductor pollicis?",
+       "choices": [
+        "Ulnar nerve",
+        "Median nerve",
+        "Radial nerve",
+        "Anterior interosseous nerve"
+       ],
+       "answer": 0,
+       "explain": "Adductor pollicis is an intrinsic thumb muscle but not in the thenar group; it is supplied by the ulnar nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Note: adductor pollicis muscle is an intrinsic thumb muscle, but not in the thenar group."
+    },
+    {
+     "order": 44,
+     "why": "Hypothenar muscles: move little finger, cup hand; ulnar n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the hypothenar muscles?",
+       "choices": [
+        "Median nerve",
+        "Radial nerve",
+        "Recurrent branch of median",
+        "Ulnar nerve"
+       ],
+       "answer": 3,
+       "explain": "The hypothenar muscles (abductor, flexor, opponens digiti minimi) are supplied by the ulnar nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The hypothenar muscles move the little finger and contribute to cupping of the hand during grasp."
+    },
+    {
+     "order": 45,
+     "why": "Lumbricals (1-2 median, 3-4 ulnar) and interossei (DAB/PAD, ulnar)",
+     "questions": [
+      {
+       "q": "Which nerve innervates lumbricals 1 and 2?",
+       "choices": [
+        "Ulnar nerve",
+        "Radial nerve",
+        "Anterior interosseous nerve",
+        "Median nerve"
+       ],
+       "answer": 3,
+       "explain": "Lumbricals 1-2 are supplied by the median nerve; lumbricals 3-4 and all interossei by the ulnar nerve."
+      },
+      {
+       "q": "What do the dorsal interossei do?",
+       "choices": [
+        "Adduct the digits",
+        "Flex the DIP joints",
+        "Abduct the digits",
+        "Oppose the thumb"
+       ],
+       "answer": 2,
+       "explain": "Dorsal interossei abduct (DAB) and palmar interossei adduct (PAD) the fingers relative to the third digit."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The interossei also abduct and adduct the fingers relative to the third digit."
+    },
+    {
+     "order": 17,
+     "why": "MCP joints: flexed by lumbricals and interossei",
+     "questions": [
+      {
+       "q": "The lumbricals and interossei act on the MCP and IP joints in which way?",
+       "choices": [
+        "Extend MCP, flex IP",
+        "Flex MCP, extend IP",
+        "Flex MCP, flex IP",
+        "Extend MCP, extend IP"
+       ],
+       "answer": 1,
+       "explain": "Lumbricals and interossei flex the metacarpophalangeal joints while extending the interphalangeal joints."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Together, they flex the metacarpophalangeal joints while extending the interphalangeal joints, allowing the fingers to conform to objects of different shapes."
+    },
+    {
+     "order": 18,
+     "why": "IP joints: FDS flexes PIP, FDP flexes DIP; claw = IP flexion",
+     "questions": [
+      {
+       "q": "In an ulnar claw deformity, what is the position of the interphalangeal joints of digits 4 and 5?",
+       "choices": [
+        "Flexed",
+        "Hyperextended",
+        "Abducted",
+        "Fully extended"
+       ],
+       "answer": 0,
+       "explain": "Ulnar claw shows MCP hyperextension with IP flexion, most marked in digits 4 and 5."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The deformity is characterized by hyperextension at the metacarpophalangeal joints and flexion of the interphalangeal joints…"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Skeletal Framework",
+     "orders": [
+      1,
+      2,
+      9,
+      10,
+      11,
+      12
+     ]
+    },
+    {
+     "title": "Forearm Rotation: Pronation and Supination",
+     "orders": [
+      13,
+      3,
+      6,
+      5,
+      4
+     ]
+    },
+    {
+     "title": "Anterior Compartment of the Forearm",
+     "orders": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      47
+     ]
+    },
+    {
+     "title": "Posterior Compartment of the Forearm",
+     "orders": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      51,
+      52
+     ]
+    },
+    {
+     "title": "Regional Innervation and Sensory Distribution",
+     "orders": [
+      46,
+      49,
+      50,
+      53
+     ]
+    },
+    {
+     "title": "Carpal Tunnel and Guyon's Canal",
+     "orders": [
+      21,
+      22,
+      55
+     ]
+    },
+    {
+     "title": "Wrist and Hand",
+     "orders": [
+      14,
+      15,
+      16,
+      20,
+      54
+     ]
+    },
+    {
+     "title": "Intrinsic Muscles of the Hand",
+     "orders": [
+      19,
+      42,
+      48,
+      43,
+      44,
+      45,
+      17,
+      18
+     ]
     }
    ]
   }

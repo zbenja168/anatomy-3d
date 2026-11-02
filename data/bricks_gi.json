@@ -34,7 +34,9 @@
        "answer": 2,
        "explain": "The orbicularis oris provides oral competence (a complete lip seal); its loss, as after a CVA, causes drooling and leakage of food or liquid."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The orbicularis oris … functions as a sphincter of the mouth, enabling lip closure and articulation of labial sounds"
     },
     {
      "order": 11,
@@ -62,7 +64,9 @@
        "answer": 3,
        "explain": "The parotid (Stensen's) duct crosses the buccinator and opens into the oral vestibule opposite the maxillary second molar."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The buccinator works with the tongue to keep food between the occlusal surfaces of the teeth during mastication"
     },
     {
      "order": 5,
@@ -90,24 +94,9 @@
        "answer": 2,
        "explain": "The oral vestibule lies between the lips/cheeks and the teeth/gums; the parotid duct opens into it opposite the maxillary second molar."
       }
-     ]
-    },
-    {
-     "order": 6,
-     "why": "Purely serous; amylase",
-     "questions": [
-      {
-       "q": "The secretion of the parotid gland is best described as:",
-       "choices": [
-        "Purely serous, rich in amylase",
-        "Mostly mucous, few serous acini",
-        "Mixed, with serous demilunes",
-        "Mostly IgA from plasma cells"
-       ],
-       "answer": 0,
-       "explain": "The parotid gland consists entirely of serous acini producing amylase, which breaks down complex carbohydrates."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The parotid duct (Stensen's duct) … crosses the buccinator muscle and opens into the oral vestibule opposite the maxillary second molar."
     },
     {
      "order": 14,
@@ -135,7 +124,9 @@
        "answer": 1,
        "explain": "All tongue muscles are innervated by the hypoglossal nerve (CN XII) except the palatoglossus, which is supplied by the vagus (CN X)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The tongue will deviate toward the side of the CN XII lesion on protrusion because the intact genioglossus muscle pulls the tongue forward"
     },
     {
      "order": 15,
@@ -152,7 +143,9 @@
        "answer": 1,
        "explain": "The hyoglossus depresses the tongue; it is an extrinsic muscle innervated by CN XII."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Hyoglossus - depresses the tongue"
     },
     {
      "order": 16,
@@ -169,7 +162,9 @@
        "answer": 2,
        "explain": "The styloglossus retracts and elevates the tongue; intrinsic muscles (not attached to bone) are the ones that only change its shape."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Styloglossus - retracts and elevates the tongue"
     },
     {
      "order": 17,
@@ -197,7 +192,9 @@
        "answer": 0,
        "explain": "The fauces are bounded by the palatoglossal folds (anterior pillars) and palatopharyngeal folds (posterior pillars), with the palatine tonsils between them."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Palatoglossus muscle … elevates the posterior tongue and is innervated by CN X"
     },
     {
      "order": 20,
@@ -225,7 +222,9 @@
        "answer": 1,
        "explain": "All tongue muscles are supplied by CN XII except the palatoglossus, which is innervated by CN X."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "All tongue muscles are innervated by the hypoglossal nerve (CN XII), except the palatoglossus, which is innervated by the vagus nerve (CN X)."
     },
     {
      "order": 19,
@@ -253,52 +252,9 @@
        "answer": 0,
        "explain": "Superior to the mylohyoid lies the sublingual space, which contains the sublingual glands, lingual nerve, and submandibular duct."
       }
-     ]
-    },
-    {
-     "order": 21,
-     "why": "Taste anterior 2/3 via chorda tympani; lip movement",
-     "questions": [
-      {
-       "q": "Taste from the anterior two-thirds of the tongue travels in which nerve?",
-       "choices": [
-        "Lingual nerve of CN V3",
-        "Glossopharyngeal nerve",
-        "Chorda tympani of CN VII",
-        "Vagus nerve"
-       ],
-       "answer": 2,
-       "explain": "Taste from the anterior two-thirds is carried by the chorda tympani, a branch of the facial nerve (CN VII); general sensation travels in the lingual nerve."
-      },
-      {
-       "q": "Assessing lip movement and symmetry during an oral exam tests which cranial nerve?",
-       "choices": [
-        "Facial nerve (CN VII)",
-        "Trigeminal nerve (CN V)",
-        "Hypoglossal nerve (CN XII)",
-        "Vagus nerve (CN X)"
-       ],
-       "answer": 0,
-       "explain": "In the oral exam, CN VII is assessed by lip movement and symmetry; CN V by mucosal sensation, CN X by palate elevation, and CN XII by tongue protrusion."
-      }
-     ]
-    },
-    {
-     "order": 22,
-     "why": "General sensation of oral mucosa and anterior tongue",
-     "questions": [
-      {
-       "q": "General sensation of the oral mucosa is assessed as a test of which cranial nerve?",
-       "choices": [
-        "Facial nerve (CN VII)",
-        "Glossopharyngeal nerve (CN IX)",
-        "Hypoglossal nerve (CN XII)",
-        "Trigeminal nerve (CN V)"
-       ],
-       "answer": 3,
-       "explain": "The trigeminal nerve (CN V) provides general sensation to the oral mucosa and, via the lingual branch of V3, the anterior tongue."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "General sensation: Lingual nerve (branch of CN V₃)"
     },
     {
      "order": 1,
@@ -315,7 +271,9 @@
        "answer": 3,
        "explain": "The hard palate is formed by the palatine processes of the maxillae and the horizontal plates of the palatine bones, providing a rigid surface for tongue-mediated food manipulation."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The hard palate is a bony structure formed by the palatine processes of the maxillae, and the horizontal plates of the palatine bones"
     },
     {
      "order": 2,
@@ -343,7 +301,9 @@
        "answer": 1,
        "explain": "Inadequate soft palate elevation produces hypernasal speech, and incomplete closure allows nasal regurgitation during swallowing."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "During swallowing, the soft palate elevates to close off the nasopharynx by contacting the posterior pharyngeal wall, preventing food from entering the nasal cavity."
     },
     {
      "order": 3,
@@ -360,7 +320,9 @@
        "answer": 3,
        "explain": "Saying \"ahh\" shows soft palate elevation and uvula position; uvula deviation or poor elevation indicates vagus nerve (CN X) dysfunction."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Its free posterior margin contains the uvula … a midline projection visible during oral examination."
     },
     {
      "order": 4,
@@ -377,7 +339,9 @@
        "answer": 2,
        "explain": "The palatine tonsils sit between the palatoglossal (anterior) and palatopharyngeal (posterior) folds, at the junction of the oral cavity and oropharynx."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The palatine tonsils are lymphoid tissue involved in immune surveillance and are commonly enlarged or infected in children."
     },
     {
      "order": 12,
@@ -405,24 +369,9 @@
        "answer": 1,
        "explain": "Inferior to the mylohyoid lies the submandibular space, which communicates with deeper cervical spaces."
       }
-     ]
-    },
-    {
-     "order": 9,
-     "why": "In sublingual space with lingual n. and submandibular duct",
-     "questions": [
-      {
-       "q": "Along with the sublingual glands, the sublingual space contains:",
-       "choices": [
-        "Hypoglossal nerve and parotid duct",
-        "Lingual nerve and submandibular duct",
-        "Facial nerve and parotid duct",
-        "Chorda tympani and Stensen's duct"
-       ],
-       "answer": 1,
-       "explain": "Superior to the mylohyoid, the sublingual space contains the sublingual glands, lingual nerve, and submandibular duct."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The floor of the mouth is primarily formed by the mylohyoid muscle … a partition between the oral cavity and the neck."
     },
     {
      "order": 7,
@@ -439,24 +388,65 @@
        "answer": 2,
        "explain": "The submandibular ducts run anteriorly along the floor of the mouth and open at the sublingual papillae (caruncles) on either side of the lingual frenulum."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The bilateral submandibular ducts run anteriorly along the floor of the mouth and open at small elevations called the sublingual papillae (caruncle)"
     },
     {
-     "order": 8,
-     "why": "Mixed gland; 2/3 of saliva",
+     "order": 21,
+     "why": "Taste anterior 2/3 via chorda tympani; lip movement",
      "questions": [
       {
-       "q": "Which gland produces about two-thirds of all saliva?",
+       "q": "Taste from the anterior two-thirds of the tongue travels in which nerve?",
        "choices": [
-        "Parotid gland",
-        "Sublingual gland",
-        "Minor salivary glands",
-        "Submandibular gland"
+        "Lingual nerve of CN V3",
+        "Glossopharyngeal nerve",
+        "Chorda tympani of CN VII",
+        "Vagus nerve"
+       ],
+       "answer": 2,
+       "explain": "Taste from the anterior two-thirds is carried by the chorda tympani, a branch of the facial nerve (CN VII); general sensation travels in the lingual nerve."
+      },
+      {
+       "q": "Assessing lip movement and symmetry during an oral exam tests which cranial nerve?",
+       "choices": [
+        "Facial nerve (CN VII)",
+        "Trigeminal nerve (CN V)",
+        "Hypoglossal nerve (CN XII)",
+        "Vagus nerve (CN X)"
+       ],
+       "answer": 0,
+       "explain": "In the oral exam, CN VII is assessed by lip movement and symmetry; CN V by mucosal sensation, CN X by palate elevation, and CN XII by tongue protrusion."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Facial nerve (CN VII): Lip movement and symmetry"
+    },
+    {
+     "order": 22,
+     "why": "General sensation of oral mucosa and anterior tongue",
+     "questions": [
+      {
+       "q": "General sensation of the oral mucosa is assessed as a test of which cranial nerve?",
+       "choices": [
+        "Facial nerve (CN VII)",
+        "Glossopharyngeal nerve (CN IX)",
+        "Hypoglossal nerve (CN XII)",
+        "Trigeminal nerve (CN V)"
        ],
        "answer": 3,
-       "explain": "The submandibular gland, a mixed sero-mucous gland, produces about two-thirds of all saliva."
+       "explain": "The trigeminal nerve (CN V) provides general sensation to the oral mucosa and, via the lingual branch of V3, the anterior tongue."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Trigeminal nerve (CN V): general sensation of oral mucosa and anterior tongue"
+    },
+    {
+     "order": 81,
+     "why": "Say 'ahh' tests CN X; motor to palatoglossus",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "During examination, asking a patient to say \"ahh\" allows visualization of soft palate elevation and assessment of vagus nerve (CN X) function."
     },
     {
      "order": 18,
@@ -473,6 +463,124 @@
        "answer": 3,
        "explain": "Masseter, temporalis, and medial pterygoid elevate the mandible; the lateral pterygoid assists with protrusion and lateral grinding movements."
       }
+     ],
+     "yield": "low",
+     "excerpt": "masseter, temporalis, and medial pterygoid muscles elevate the mandible; lateral pterygoid assists with protrusion and lateral movements for grinding"
+    },
+    {
+     "order": 6,
+     "why": "Purely serous; amylase",
+     "questions": [
+      {
+       "q": "The secretion of the parotid gland is best described as:",
+       "choices": [
+        "Purely serous, rich in amylase",
+        "Mostly mucous, few serous acini",
+        "Mixed, with serous demilunes",
+        "Mostly IgA from plasma cells"
+       ],
+       "answer": 0,
+       "explain": "The parotid gland consists entirely of serous acini producing amylase, which breaks down complex carbohydrates."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The parotid gland consists entirely of serous acini with cells producing amylase and other proteins for storage in secretory granules."
+    },
+    {
+     "order": 8,
+     "why": "Mixed gland; 2/3 of saliva",
+     "questions": [
+      {
+       "q": "Which gland produces about two-thirds of all saliva?",
+       "choices": [
+        "Parotid gland",
+        "Sublingual gland",
+        "Minor salivary glands",
+        "Submandibular gland"
+       ],
+       "answer": 3,
+       "explain": "The submandibular gland, a mixed sero-mucous gland, produces about two-thirds of all saliva."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The submandibular gland produces 2/3 of all saliva. It is a mixed sero-mucous gland"
+    },
+    {
+     "order": 9,
+     "why": "In sublingual space with lingual n. and submandibular duct",
+     "questions": [
+      {
+       "q": "Along with the sublingual glands, the sublingual space contains:",
+       "choices": [
+        "Hypoglossal nerve and parotid duct",
+        "Lingual nerve and submandibular duct",
+        "Facial nerve and parotid duct",
+        "Chorda tympani and Stensen's duct"
+       ],
+       "answer": 1,
+       "explain": "Superior to the mylohyoid, the sublingual space contains the sublingual glands, lingual nerve, and submandibular duct."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The sublingual gland predominantly consists of mucous acini with mucus as their main product; few serous acini are present"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Lips and Cheeks",
+     "orders": [
+      10,
+      11,
+      5
+     ]
+    },
+    {
+     "title": "Tongue: Musculature and Innervation",
+     "orders": [
+      14,
+      15,
+      16,
+      17,
+      20,
+      19
+     ]
+    },
+    {
+     "title": "Palate, Fauces and Tonsils",
+     "orders": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "title": "Floor of the Mouth and Sublingual Region",
+     "orders": [
+      12,
+      7
+     ]
+    },
+    {
+     "title": "Cranial Nerve Assessment",
+     "orders": [
+      21,
+      22,
+      81
+     ]
+    },
+    {
+     "title": "Mastication Mechanics",
+     "orders": [
+      18
+     ]
+    },
+    {
+     "title": "The Three Paired Salivary Glands",
+     "orders": [
+      6,
+      8,
+      9
      ]
     }
    ]
@@ -499,7 +607,9 @@
        "answer": 1,
        "explain": "The GI tract is supplied by three unpaired anterior aortic branches: the celiac trunk, SMA, and IMA. The renal arteries are paired lateral branches."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The gastrointestinal (GI) tract is supplied by three unpaired anterior branches of the abdominal aorta."
     },
     {
      "order": 53,
@@ -527,7 +637,28 @@
        "answer": 2,
        "explain": "The celiac trunk supplies foregut derivatives (abdominal esophagus, stomach, proximal duodenum); the cecum and jejunum are SMA and the descending colon is IMA."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The foregut gives rise to the abdominal esophagus, stomach, and proximal duodenum. These structures are supplied by branches of the celiac trunk."
+    },
+    {
+     "order": 54,
+     "why": "Gives left gastroepiploic and short gastrics",
+     "questions": [
+      {
+       "q": "Which celiac branch gives rise to the short gastric and left gastroepiploic arteries?",
+       "choices": [
+        "Common hepatic artery",
+        "Left gastric artery",
+        "Gastroduodenal artery",
+        "Splenic artery"
+       ],
+       "answer": 3,
+       "explain": "The splenic artery gives the short gastric arteries (fundus) and the left gastroepiploic artery (greater curvature)."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The celiac trunk gives rise to three primary branches: the left gastric, splenic, and common hepatic arteries"
     },
     {
      "order": 56,
@@ -555,46 +686,23 @@
        "answer": 3,
        "explain": "The left gastric is one of the three primary celiac branches and runs along the lesser curvature to anastomose with the right gastric."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Only the abdominal esophagus is supplied by the left gastric artery (a branch of the celiac trunk) and is therefore considered part of the foregut."
     },
     {
-     "order": 54,
-     "why": "Gives left gastroepiploic and short gastrics",
-     "questions": [
-      {
-       "q": "Which celiac branch gives rise to the short gastric and left gastroepiploic arteries?",
-       "choices": [
-        "Common hepatic artery",
-        "Left gastric artery",
-        "Gastroduodenal artery",
-        "Splenic artery"
-       ],
-       "answer": 3,
-       "explain": "The splenic artery gives the short gastric arteries (fundus) and the left gastroepiploic artery (greater curvature)."
-      }
-     ]
+     "order": 34,
+     "why": "Only abdominal part is foregut (left gastric a.)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The esophagus is divided into cervical, thoracic, and abdominal portions, each with a distinct blood supply."
     },
     {
-     "order": 58,
-     "why": "Celiac branch -> GDA + proper hepatic",
-     "questions": [
-      {
-       "q": "The common hepatic artery branches into which two arteries?",
-       "choices": [
-        "Left gastric and splenic",
-        "Right gastric and cystic",
-        "Right and left hepatic",
-        "Proper hepatic and gastroduodenal"
-       ],
-       "answer": 3,
-       "explain": "The common hepatic artery gives the proper hepatic artery and the gastroduodenal artery, which in turn supplies the proximal duodenum and greater curvature."
-      }
-     ]
-    },
-    {
-     "order": 60,
-     "why": "Gives right gastric",
-     "questions": []
+     "order": 38,
+     "why": "Celiac branches anastomose along both curvatures",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The stomach is supplied by branches of the celiac trunk that form arterial anastomoses along its curvatures."
     },
     {
      "order": 55,
@@ -611,24 +719,16 @@
        "answer": 3,
        "explain": "On the lesser curvature, the right gastric (from the proper hepatic) anastomoses with the left gastric (from the celiac trunk)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Lesser curvature → right gastric artery (from the proper hepatic artery) and left gastric artery (from the celiac trunk)"
     },
     {
-     "order": 59,
-     "why": "Gives right gastroepiploic + superior pancreaticoduodenals",
-     "questions": [
-      {
-       "q": "Which artery gives rise to the right gastroepiploic artery?",
-       "choices": [
-        "Gastroduodenal artery",
-        "Splenic artery",
-        "Proper hepatic artery",
-        "Superior mesenteric artery"
-       ],
-       "answer": 0,
-       "explain": "The right gastroepiploic (gastro-omental) artery comes from the gastroduodenal artery and runs along the greater curvature."
-      }
-     ]
+     "order": 60,
+     "why": "Gives right gastric",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "right gastric artery (from the proper hepatic artery)"
     },
     {
      "order": 64,
@@ -645,7 +745,9 @@
        "answer": 2,
        "explain": "The greater curvature is supplied by the right gastroepiploic (from the GDA) and left gastroepiploic (from the splenic) arteries."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "right gastroepiploic artery (aka right gastroomental) from the gastroduodenal artery"
     },
     {
      "order": 65,
@@ -662,7 +764,9 @@
        "answer": 1,
        "explain": "The left (from the splenic) and right (from the GDA) gastroepiploic arteries form the greater-curvature anastomosis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "left gastroepiploic artery (aka left gastroomental) from the splenic artery"
     },
     {
      "order": 57,
@@ -679,7 +783,47 @@
        "answer": 3,
        "explain": "The short gastric arteries, branches of the splenic artery, supply the fundus."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Fundus → short gastric arteries (from the splenic artery)"
+    },
+    {
+     "order": 58,
+     "why": "Celiac branch -> GDA + proper hepatic",
+     "questions": [
+      {
+       "q": "The common hepatic artery branches into which two arteries?",
+       "choices": [
+        "Left gastric and splenic",
+        "Right gastric and cystic",
+        "Right and left hepatic",
+        "Proper hepatic and gastroduodenal"
+       ],
+       "answer": 3,
+       "explain": "The common hepatic artery gives the proper hepatic artery and the gastroduodenal artery, which in turn supplies the proximal duodenum and greater curvature."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "the gastroduodenal artery, a branch of the common hepatic artery"
+    },
+    {
+     "order": 59,
+     "why": "Gives right gastroepiploic + superior pancreaticoduodenals",
+     "questions": [
+      {
+       "q": "Which artery gives rise to the right gastroepiploic artery?",
+       "choices": [
+        "Gastroduodenal artery",
+        "Splenic artery",
+        "Proper hepatic artery",
+        "Superior mesenteric artery"
+       ],
+       "answer": 0,
+       "explain": "The right gastroepiploic (gastro-omental) artery comes from the gastroduodenal artery and runs along the greater curvature."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The proximal duodenum is supplied by the supraduodenal and superior pancreaticoduodenal arteries … which arise from the gastroduodenal artery"
     },
     {
      "order": 62,
@@ -696,7 +840,9 @@
        "answer": 3,
        "explain": "The proximal duodenum is supplied by the supraduodenal and superior pancreaticoduodenal arteries from the gastroduodenal artery."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "superior pancreaticoduodenal arteries (anterior & posterior) which arise from the gastroduodenal artery"
     },
     {
      "order": 73,
@@ -724,7 +870,9 @@
        "answer": 3,
        "explain": "Proximal SMA occlusion can kill the entire midgut: jejunum, ileum, and proximal colon, which is often unsurvivable."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "cardioembolic emboli most commonly lodge in the SMA because of its large diameter, high volume blood flow, and shallow takeoff angle from the aorta."
     },
     {
      "order": 63,
@@ -741,7 +889,16 @@
        "answer": 1,
        "explain": "The distal duodenum (beyond the major papilla) is midgut, supplied by the inferior pancreaticoduodenal artery and jejunal branches of the SMA."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Distal duodenum is supplied by the inferior pancreaticoduodenal artery (anterior & posterior) and proximal jejunal branches of the SMA."
+    },
+    {
+     "order": 40,
+     "why": "Jejunum: longer vasa recta, fewer arcades than ileum",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Note that the jejunum has greater vascular perfusion, with longer vasa recta and fewer arterial arcades than the ileum"
     },
     {
      "order": 68,
@@ -758,52 +915,9 @@
        "answer": 0,
        "explain": "The proximal colon is supplied by the ileocolic, right colic, and middle colic branches of the SMA."
       }
-     ]
-    },
-    {
-     "order": 69,
-     "why": "Terminal branch of ileocolic",
-     "questions": [
-      {
-       "q": "The appendicular artery is a terminal branch of the:",
-       "choices": [
-        "Right colic artery",
-        "Middle colic artery",
-        "Ileocolic artery",
-        "Inferior pancreaticoduodenal artery"
-       ],
-       "answer": 2,
-       "explain": "The appendix gets its blood supply primarily from the appendicular artery, a terminal branch of the ileocolic artery."
-      }
-     ]
-    },
-    {
-     "order": 43,
-     "why": "Appendicitis: periumbilical (T10) then RLQ",
-     "questions": [
-      {
-       "q": "Early appendicitis pain is typically felt in which region?",
-       "choices": [
-        "Epigastric region",
-        "Suprapubic region",
-        "Periumbilical region",
-        "Right shoulder"
-       ],
-       "answer": 2,
-       "explain": "The appendix is midgut, so early visceral pain is referred to the T10 periumbilical region before localizing to the right lower quadrant."
-      },
-      {
-       "q": "Appendicitis pain shifts to the right lower quadrant because inflammation reaches the:",
-       "choices": [
-        "Visceral peritoneum",
-        "Greater omentum",
-        "Parietal peritoneum",
-        "Mesoappendix"
-       ],
-       "answer": 2,
-       "explain": "Once inflammation involves the somatically innervated parietal peritoneum, pain becomes sharply localized to the RLQ."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Proximal colon (cecum, ascending colon, proximal two-thirds of the transverse colon) is supplied by the ileocolic, right colic, and middle colic branches of the SMA."
     },
     {
      "order": 66,
@@ -820,7 +934,9 @@
        "answer": 3,
        "explain": "The ascending colon is midgut, supplied by the right colic (and ileocolic) branches of the SMA."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Proximal colon … is supplied by the ileocolic, right colic, and middle colic branches of the SMA."
     },
     {
      "order": 70,
@@ -837,24 +953,28 @@
        "answer": 0,
        "explain": "The middle colic branch of the SMA supplies the proximal two-thirds of the transverse colon, where the midgut ends."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "proximal two-thirds of the transverse colon) is supplied by the ileocolic, right colic, and middle colic branches of the SMA."
     },
     {
-     "order": 44,
-     "why": "Splenic flexure = SMA/IMA watershed",
+     "order": 69,
+     "why": "Terminal branch of ileocolic",
      "questions": [
       {
-       "q": "Which part of the colon is a watershed zone between SMA and IMA territories?",
+       "q": "The appendicular artery is a terminal branch of the:",
        "choices": [
-        "Right (hepatic) colic flexure",
-        "Left (splenic) colic flexure",
-        "Cecum near the ileocecal valve",
-        "Mid-ascending colon"
+        "Right colic artery",
+        "Middle colic artery",
+        "Ileocolic artery",
+        "Inferior pancreaticoduodenal artery"
        ],
-       "answer": 1,
-       "explain": "The splenic flexure lies at the junction of the SMA and IMA territories and, with limited collaterals, is vulnerable to ischemic colitis."
+       "answer": 2,
+       "explain": "The appendix gets its blood supply primarily from the appendicular artery, a terminal branch of the ileocolic artery."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The appendix gets its blood supply primarily from the appendicular artery, a terminal branch of the ilecolic artery"
     },
     {
      "order": 74,
@@ -871,7 +991,9 @@
        "answer": 0,
        "explain": "The IMA supplies the hindgut: distal third of the transverse colon, descending colon, sigmoid colon, and upper rectum."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The hindgut gives rise to the distal one-third of the transverse colon … These structures are supplied by branches of the inferior mesenteric artery (IMA)"
     },
     {
      "order": 67,
@@ -888,7 +1010,9 @@
        "answer": 1,
        "explain": "The distal colon is supplied by the left colic and sigmoid arteries, branches of the IMA."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Distal colon → left colic and sigmoid arteries"
     },
     {
      "order": 71,
@@ -905,7 +1029,9 @@
        "answer": 2,
        "explain": "The rectosigmoid junction is a watershed between the IMA (sigmoid/superior rectal) and the rectal arterial supply."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Rectosigmoid junction → junction of IMA and rectal arterial supply"
     },
     {
      "order": 72,
@@ -922,7 +1048,28 @@
        "answer": 0,
        "explain": "The superior rectal artery is the IMA's supply to the upper rectum; the middle and inferior rectal arteries come from the internal iliac and internal pudendal."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Upper rectum → superior rectal artery"
+    },
+    {
+     "order": 44,
+     "why": "Splenic flexure = SMA/IMA watershed",
+     "questions": [
+      {
+       "q": "Which part of the colon is a watershed zone between SMA and IMA territories?",
+       "choices": [
+        "Right (hepatic) colic flexure",
+        "Left (splenic) colic flexure",
+        "Cecum near the ileocecal valve",
+        "Mid-ascending colon"
+       ],
+       "answer": 1,
+       "explain": "The splenic flexure lies at the junction of the SMA and IMA territories and, with limited collaterals, is vulnerable to ischemic colitis."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Splenic flexure → junction of SMA and IMA territories"
     },
     {
      "order": 75,
@@ -950,24 +1097,9 @@
        "answer": 2,
        "explain": "Raised portal pressure passes to the left gastric vein and its esophageal branches, dilating submucosal veins of the distal esophagus."
       }
-     ]
-    },
-    {
-     "order": 29,
-     "why": "Recanalized in portal HTN -> caput medusae",
-     "questions": [
-      {
-       "q": "Caput medusae in portal hypertension results from recanalization of the:",
-       "choices": [
-        "Ligamentum venosum",
-        "Median umbilical ligament",
-        "Medial umbilical ligament",
-        "Round ligament (umbilical vein)"
-       ],
-       "answer": 3,
-       "explain": "Elevated portal pressure recanalizes the round ligament, reopening the umbilical vein so blood flows into superficial abdominal wall veins."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The portal vein is primarily formed by the confluence of the splenic vein (often receiving the inferior mesenteric vein) and the superior mesenteric vein"
     },
     {
      "order": 77,
@@ -984,7 +1116,9 @@
        "answer": 1,
        "explain": "Left gastroepiploic and short gastric veins drain into the splenic vein; right and left gastric veins drain directly into the portal vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Left gastroepiploic and short gastric veins → drain into the splenic vein"
     },
     {
      "order": 76,
@@ -1001,7 +1135,9 @@
        "answer": 0,
        "explain": "The right gastroepiploic vein drains into the SMV, which also drains the small intestine and proximal colon."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Venous blood from the small intestine drains into the superior mesenteric vein (SMV), which contributes to formation of the portal vein."
     },
     {
      "order": 78,
@@ -1018,7 +1154,16 @@
        "answer": 2,
        "explain": "The distal colon drains into the IMV, which typically joins the splenic vein before the splenic vein and SMV form the portal vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "the distal colon drains into the inferior mesenteric vein (IMV), which typically joins the splenic vein."
+    },
+    {
+     "order": 42,
+     "why": "Proximal colon -> SMA/SMV; distal colon -> IMA/IMV",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Venous drainage of the colon reflects its arterial supply. The proximal colon drains into the superior mesenteric vein (SMV)"
     },
     {
      "order": 80,
@@ -1035,7 +1180,28 @@
        "answer": 1,
        "explain": "The portal system lets the liver process absorbed nutrients before blood enters systemic circulation via the IVC."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "allowing the liver to process absorbed nutrients before the blood enters systemic circulation via the inferior vena cava (IVC)."
+    },
+    {
+     "order": 29,
+     "why": "Recanalized in portal HTN -> caput medusae",
+     "questions": [
+      {
+       "q": "Caput medusae in portal hypertension results from recanalization of the:",
+       "choices": [
+        "Ligamentum venosum",
+        "Median umbilical ligament",
+        "Medial umbilical ligament",
+        "Round ligament (umbilical vein)"
+       ],
+       "answer": 3,
+       "explain": "Elevated portal pressure recanalizes the round ligament, reopening the umbilical vein so blood flows into superficial abdominal wall veins."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Caput medusae - elevated portal pressures recanalize the round ligament, reopening the umbilical vein and allowing blood to flow into the superficial abdominal wall veins."
     },
     {
      "order": 81,
@@ -1052,7 +1218,9 @@
        "answer": 2,
        "explain": "The vagus supplies the foregut and midgut, as far as the proximal two-thirds of the transverse colon; the hindgut gets pelvic splanchnics."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The vagus nerve arises from the brainstem and supplies the GI tract as far as the proximal two-thirds of the transverse colon (foregut & midgut)."
     },
     {
      "order": 82,
@@ -1069,35 +1237,28 @@
        "answer": 0,
        "explain": "Passing through the diaphragm, the vagus splits into the anterior trunk (mainly left vagus) and posterior trunk (mainly right vagus)."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "it splits into the anterior vagal trunk (primarily from the left vagus nerve) and posterior vagal trunks (primarily from the right vagus nerve)"
     },
     {
-     "order": 83,
-     "why": "Preganglionic sympathetic synapse; celiac block",
+     "order": 86,
+     "why": "Parasympathetic S2-S4 to hindgut",
      "questions": [
       {
-       "q": "Intractable pain from unresectable pancreatic cancer can be relieved by blocking the:",
+       "q": "The pelvic splanchnic nerves carry which fibers?",
        "choices": [
-        "Pelvic splanchnic nerves",
-        "Anterior vagal trunk",
-        "Celiac plexus",
-        "Inferior mesenteric ganglion"
+        "Parasympathetic fibers from S2–S4",
+        "Sympathetic fibers from S2–S4",
+        "Parasympathetic fibers from L1–L2",
+        "Sympathetic fibers from T12–L2"
        ],
-       "answer": 2,
-       "explain": "Celiac plexus block (local anesthetic) or neurolysis (alcohol) interrupts visceral foregut pain transmission."
-      },
-      {
-       "q": "Which fibers synapse in the celiac ganglia?",
-       "choices": [
-        "Preganglionic vagal fibers",
-        "Visceral afferent pain fibers",
-        "Preganglionic sympathetic fibers",
-        "Somatic motor fibers"
-       ],
-       "answer": 2,
-       "explain": "Preganglionic sympathetic fibers from the splanchnic nerves synapse in preaortic ganglia such as the celiac; postganglionic fibers then follow the arteries."
+       "answer": 0,
+       "explain": "Pelvic splanchnics are the only parasympathetic splanchnics (\"two Ps\"), carrying S2–S4 outflow to the hindgut."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Hindgut → innervated by the pelvic splanchnic nerves (S2–S4)"
     },
     {
      "order": 84,
@@ -1125,7 +1286,9 @@
        "answer": 3,
        "explain": "Foregut afferents enter at T5–T9, so foregut pain is referred to the epigastric region."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "sympathetic innervation of the gastrointestinal (GI) tract decreases motility, secretion, and blood flow. These fibers are carried primarily by thoracic and lumbar splanchnic nerves"
     },
     {
      "order": 85,
@@ -1142,23 +1305,150 @@
        "answer": 2,
        "explain": "Hindgut sympathetics travel in the lumbar splanchnic nerves; pain afferents follow them to T12–L2, giving suprapubic referred pain."
       }
+     ],
+     "yield": "high",
+     "excerpt": "These fibers travel through thoracic and lumbar splanchnic nerves to reach preaortic (prevertebral) ganglia located near the major branches of the abdominal aorta."
+    },
+    {
+     "order": 83,
+     "why": "Preganglionic sympathetic synapse; celiac block",
+     "questions": [
+      {
+       "q": "Intractable pain from unresectable pancreatic cancer can be relieved by blocking the:",
+       "choices": [
+        "Pelvic splanchnic nerves",
+        "Anterior vagal trunk",
+        "Celiac plexus",
+        "Inferior mesenteric ganglion"
+       ],
+       "answer": 2,
+       "explain": "Celiac plexus block (local anesthetic) or neurolysis (alcohol) interrupts visceral foregut pain transmission."
+      },
+      {
+       "q": "Which fibers synapse in the celiac ganglia?",
+       "choices": [
+        "Preganglionic vagal fibers",
+        "Visceral afferent pain fibers",
+        "Preganglionic sympathetic fibers",
+        "Somatic motor fibers"
+       ],
+       "answer": 2,
+       "explain": "Preganglionic sympathetic fibers from the splanchnic nerves synapse in preaortic ganglia such as the celiac; postganglionic fibers then follow the arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Intractable visceral foregut pain, such as that caused by unresectable pancreatic cancer, can be treated with celiac plexus block or neurolysis"
+    },
+    {
+     "order": 43,
+     "why": "Appendicitis: periumbilical (T10) then RLQ",
+     "questions": [
+      {
+       "q": "Early appendicitis pain is typically felt in which region?",
+       "choices": [
+        "Epigastric region",
+        "Suprapubic region",
+        "Periumbilical region",
+        "Right shoulder"
+       ],
+       "answer": 2,
+       "explain": "The appendix is midgut, so early visceral pain is referred to the T10 periumbilical region before localizing to the right lower quadrant."
+      },
+      {
+       "q": "Appendicitis pain shifts to the right lower quadrant because inflammation reaches the:",
+       "choices": [
+        "Visceral peritoneum",
+        "Greater omentum",
+        "Parietal peritoneum",
+        "Mesoappendix"
+       ],
+       "answer": 2,
+       "explain": "Once inflammation involves the somatically innervated parietal peritoneum, pain becomes sharply localized to the RLQ."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Pain in the T10 dermatome (periumbilical region) may be an early sign of appendicitis."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Aortic Branches to the GI Tract",
+     "orders": [
+      52
      ]
     },
     {
-     "order": 86,
-     "why": "Parasympathetic S2-S4 to hindgut",
-     "questions": [
-      {
-       "q": "The pelvic splanchnic nerves carry which fibers?",
-       "choices": [
-        "Parasympathetic fibers from S2–S4",
-        "Sympathetic fibers from S2–S4",
-        "Parasympathetic fibers from L1–L2",
-        "Sympathetic fibers from T12–L2"
-       ],
-       "answer": 0,
-       "explain": "Pelvic splanchnics are the only parasympathetic splanchnics (\"two Ps\"), carrying S2–S4 outflow to the hindgut."
-      }
+     "title": "Foregut Arterial Supply",
+     "orders": [
+      53,
+      54,
+      56,
+      34,
+      38,
+      55,
+      60,
+      64,
+      65,
+      57,
+      58,
+      59,
+      62
+     ]
+    },
+    {
+     "title": "Midgut Arterial Supply",
+     "orders": [
+      73,
+      63,
+      40,
+      68,
+      66,
+      70,
+      69
+     ]
+    },
+    {
+     "title": "Hindgut Supply and Watershed Areas",
+     "orders": [
+      74,
+      67,
+      71,
+      72,
+      44
+     ]
+    },
+    {
+     "title": "Portal Venous Drainage",
+     "orders": [
+      75,
+      77,
+      76,
+      78,
+      42,
+      80,
+      29
+     ]
+    },
+    {
+     "title": "Parasympathetic Innervation",
+     "orders": [
+      81,
+      82,
+      86
+     ]
+    },
+    {
+     "title": "Sympathetic Innervation",
+     "orders": [
+      84,
+      85,
+      83
+     ]
+    },
+    {
+     "title": "Referred Pain from the GI Tract",
+     "orders": [
+      43
      ]
     }
    ]
@@ -1185,7 +1475,9 @@
        "answer": 1,
        "explain": "A mesentery connects an organ to the posterior abdominal wall and conducts vessels, nerves, and lymphatics; omenta attach the stomach, and ligaments link organ to organ or wall."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A mesentery is a double layer of visceral peritoneum that connects an organ to the posterior abdominal wall"
     },
     {
      "order": 23,
@@ -1213,7 +1505,9 @@
        "answer": 0,
        "explain": "The greater omentum can adhere to inflamed areas, helping wall off and limit the spread of infection."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The greater omentum extends from the greater curvature of the stomach … ascends to attach to the transverse colon"
     },
     {
      "order": 24,
@@ -1241,7 +1535,9 @@
        "answer": 0,
        "explain": "The lesser omentum consists of the hepatogastric (liver to stomach) and hepatoduodenal (liver to duodenum) ligaments."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The lesser omentum also forms the anterior boundary of an opening known as the omental or epiploic foramen."
     },
     {
      "order": 26,
@@ -1258,7 +1554,9 @@
        "answer": 1,
        "explain": "The hepatogastric ligament runs from the liver to the lesser curvature; unlike the hepatoduodenal ligament, it does not carry the portal triad."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The hepatogastric ligament … connects the liver to the lesser curvature of the stomach and does not contain the portal triad."
     },
     {
      "order": 25,
@@ -1275,7 +1573,9 @@
        "answer": 2,
        "explain": "The hepatoduodenal ligament, part of the lesser omentum, contains the portal triad: portal vein, proper hepatic artery, and common bile duct."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The hepatoduodenal ligament is the clinically important part, as it contains the portal triad: proper hepatic artery, portal vein, and common bile duct."
     },
     {
      "order": 28,
@@ -1292,7 +1592,9 @@
        "answer": 1,
        "explain": "The falciform ligament anchors the liver to the anterior abdominal wall and is a remnant of the embryonic ventral mesentery."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Falciform ligament: Anchors the liver to the anterior abdominal wall. It is a remnant of the embryonic ventral mesentery."
     },
     {
      "order": 29,
@@ -1309,7 +1611,9 @@
        "answer": 0,
        "explain": "The ligamentum teres (round ligament of the liver) is the remnant of the fetal umbilical vein, lying within the falciform ligament."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Ligamentum teres: Remnant of the fetal umbilical vein within the falciform ligament."
     },
     {
      "order": 30,
@@ -1326,7 +1630,9 @@
        "answer": 0,
        "explain": "The coronary ligament extends between the diaphragm and liver and outlines the bare area of the liver."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Coronary ligament: Extends between the diaphragm and the liver and helps define the bare area of the liver."
     },
     {
      "order": 31,
@@ -1343,7 +1649,9 @@
        "answer": 3,
        "explain": "In males the single peritoneal pouch, the rectovesical pouch, lies between the rectum and urinary bladder."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "In males, there is a single pouch, the rectovesical pouch, located between the rectum and the urinary bladder."
     },
     {
      "order": 32,
@@ -1360,7 +1668,9 @@
        "answer": 1,
        "explain": "The vesicouterine pouch lies between the bladder and uterus; the rectouterine pouch lies between the uterus and rectum."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Vesicouterine pouch: Located between the urinary bladder and the uterus"
     },
     {
      "order": 33,
@@ -1377,7 +1687,9 @@
        "answer": 3,
        "explain": "The rectouterine pouch (of Douglas), between the uterus and rectum, is the most dependent point of the female peritoneal cavity."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Rectouterine pouch (pouch of Douglas): Located between the uterus and the rectum - It is the lowest point of the peritoneal cavity in females"
     },
     {
      "order": 52,
@@ -1394,7 +1706,23 @@
        "answer": 0,
        "explain": "The aorta is retroperitoneal; its closed fascial compartments can temporarily contain hemorrhage, whereas free rupture into the peritoneal cavity is rapidly fatal."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A ruptured Abdominal Aortic Aneurysm that bleeds into the retroperitoneum can sometimes remain contained long enough for the patient to present to the hospital"
+    },
+    {
+     "order": 80,
+     "why": "Retroperitoneal (SAID PUCKER)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Major retroperitoneal structures include the suprarenal glands, aorta, inferior vena cava, portions of the duodenum and pancreas"
+    },
+    {
+     "order": 99,
+     "why": "Secondarily retroperitoneal (except tail)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Examples of secondarily retroperitoneal structures include the pancreas, duodenum, and the ascending and descending colon."
     },
     {
      "order": 34,
@@ -1411,7 +1739,9 @@
        "answer": 3,
        "explain": "The esophagus begins at the level of C6 and ends at the gastroesophageal junction."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The esophagus is a muscular tube that transports a bolus of food from the pharynx to the stomach by peristalsis."
     },
     {
      "order": 36,
@@ -1439,7 +1769,9 @@
        "answer": 2,
        "explain": "The UES is tonically contracted at rest; during swallowing, vagal-mediated inhibition relaxes it so the bolus can enter the esophagus."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The cricopharyngeus muscle, composed of skeletal muscle, forms the UES … During swallowing, vagal-mediated inhibition causes it to relax"
     },
     {
      "order": 37,
@@ -1467,7 +1799,9 @@
        "answer": 3,
        "explain": "Low LES resting tone causes GERD, while failure of LES relaxation causes dysphagia."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A specialized thickened region of the inner circular layer of smooth muscle at the distal esophagus forms the LES"
     },
     {
      "order": 124,
@@ -1484,7 +1818,16 @@
        "answer": 3,
        "explain": "The esophagus passes predominantly through the right crus; crural contraction acts as an \"external sphincter\" in the antireflux barrier."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Contraction of the crural diaphragm augments lower esophageal sphincter (LES) pressure, functioning as an \"external sphincter\""
+    },
+    {
+     "order": 127,
+     "why": "Esophagus passes through it, ringed by the crura",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The diaphragmatic crura surround the esophagus as it passes through the esophageal hiatus"
     },
     {
      "order": 35,
@@ -1501,7 +1844,9 @@
        "answer": 3,
        "explain": "The cardia sits next to the GEJ and the LES opening; it receives the bolus and has limited digestive function."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "It begins at the level of C6 and ends at the gastroesophageal junction (GEJ)."
     },
     {
      "order": 38,
@@ -1540,7 +1885,9 @@
        "answer": 2,
        "explain": "Cells in the body and fundus produce HCl, intrinsic factor, and pepsinogen."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The stomach consists of five regions: fundus, cardia, body, antrum, and pylorus"
     },
     {
      "order": 39,
@@ -1557,7 +1904,9 @@
        "answer": 0,
        "explain": "The fundus helps form the angle of His, a flap valve; displacing it (hiatal hernia) blunts the angle and predisposes to GERD."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The fundus of the stomach helps form the esophagogastric angle (angle of His) … creating a flap-valve mechanism that prevents reflux."
     },
     {
      "order": 40,
@@ -1596,86 +1945,16 @@
        "answer": 0,
        "explain": "The jejunum has a larger diameter, thicker wall, longer vasa recta, and fewer arcades; the ileum has more fat, shorter vasa recta, and more arcades."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The jejunum is particularly important for folate absorption, while the ileum absorbs vitamin B12 and bile salts."
     },
     {
-     "order": 41,
-     "why": "Colon, rectum, anal canal; rectum retroperitoneal",
-     "questions": [
-      {
-       "q": "Which part of the large intestine is retroperitoneal?",
-       "choices": [
-        "Transverse colon",
-        "Sigmoid colon",
-        "Rectum",
-        "Appendix"
-       ],
-       "answer": 2,
-       "explain": "The rectum is a retroperitoneal organ (the R in SAID PUCKER), as are the ascending and descending colon."
-      }
-     ]
-    },
-    {
-     "order": 42,
-     "why": "Five parts; ascending/descending secondarily retroperitoneal",
-     "questions": [
-      {
-       "q": "Which colon segments are secondarily retroperitoneal?",
-       "choices": [
-        "Transverse and sigmoid colon",
-        "Ascending and descending colon",
-        "Cecum and transverse colon",
-        "Sigmoid and descending colon"
-       ],
-       "answer": 1,
-       "explain": "The ascending and descending colon develop with a mesentery and then fuse to the posterior wall, becoming secondarily retroperitoneal."
-      },
-      {
-       "q": "Which colon segment is S-shaped and stores feces before defecation?",
-       "choices": [
-        "Descending colon",
-        "Sigmoid colon",
-        "Transverse colon",
-        "Ascending colon"
-       ],
-       "answer": 1,
-       "explain": "The sigmoid colon stores fecal material before defecation and transitions to the rectum at the rectosigmoid junction."
-      }
-     ]
-    },
-    {
-     "order": 43,
-     "why": "Hangs from inferior cecum; mesoappendix",
-     "questions": [
-      {
-       "q": "The appendix is suspended from the:",
-       "choices": [
-        "Medial ascending colon",
-        "Terminal ileum wall",
-        "Sigmoid mesocolon",
-        "Inferior aspect of the cecum"
-       ],
-       "answer": 3,
-       "explain": "The appendix is a narrow tube suspended from the inferior aspect of the cecum by the mesoappendix."
-      }
-     ]
-    },
-    {
-     "order": 44,
-     "why": "Hepatic (right) and splenic (left) flexures",
-     "questions": [
-      {
-       "q": "The left colic flexure is also called the:",
-       "choices": [
-        "Hepatic flexure",
-        "Splenic flexure",
-        "Duodenojejunal flexure",
-        "Rectosigmoid flexure"
-       ],
-       "answer": 1,
-       "explain": "The right colic flexure is the hepatic flexure and the left colic flexure is the splenic flexure."
-      }
-     ]
+     "order": 98,
+     "why": "D2 receives bile and pancreatic secretions",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Second part (descending): Receives bile and pancreatic secretions via the major duodenal papilla"
     },
     {
      "order": 45,
@@ -1703,7 +1982,9 @@
        "answer": 2,
        "explain": "At the rectosigmoid junction the three teniae spread out and fuse into a continuous outer longitudinal muscle layer around the rectum."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Teniae coli: three longitudinal bands of smooth muscle that facilitate motility"
     },
     {
      "order": 46,
@@ -1720,7 +2001,9 @@
        "answer": 2,
        "explain": "Haustra are pouch-like sacculations along the colon, with semilunar folds between them internally."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Haustra: pouch-like sacculations along the colon"
     },
     {
      "order": 47,
@@ -1737,7 +2020,96 @@
        "answer": 2,
        "explain": "Omental appendices are small fatty projections that help distinguish the large intestine from the small intestine."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Omental appendices: small fatty projections"
+    },
+    {
+     "order": 44,
+     "why": "Hepatic (right) and splenic (left) flexures",
+     "questions": [
+      {
+       "q": "The left colic flexure is also called the:",
+       "choices": [
+        "Hepatic flexure",
+        "Splenic flexure",
+        "Duodenojejunal flexure",
+        "Rectosigmoid flexure"
+       ],
+       "answer": 1,
+       "explain": "The right colic flexure is the hepatic flexure and the left colic flexure is the splenic flexure."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Right (hepatic) and left (splenic) colic flexures"
+    },
+    {
+     "order": 41,
+     "why": "Colon, rectum, anal canal; rectum retroperitoneal",
+     "questions": [
+      {
+       "q": "Which part of the large intestine is retroperitoneal?",
+       "choices": [
+        "Transverse colon",
+        "Sigmoid colon",
+        "Rectum",
+        "Appendix"
+       ],
+       "answer": 2,
+       "explain": "The rectum is a retroperitoneal organ (the R in SAID PUCKER), as are the ascending and descending colon."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The large intestine extends from the ileocecal valve to the anus and consists of the colon, rectum, and anal canal."
+    },
+    {
+     "order": 42,
+     "why": "Five parts; ascending/descending secondarily retroperitoneal",
+     "questions": [
+      {
+       "q": "Which colon segments are secondarily retroperitoneal?",
+       "choices": [
+        "Transverse and sigmoid colon",
+        "Ascending and descending colon",
+        "Cecum and transverse colon",
+        "Sigmoid and descending colon"
+       ],
+       "answer": 1,
+       "explain": "The ascending and descending colon develop with a mesentery and then fuse to the posterior wall, becoming secondarily retroperitoneal."
+      },
+      {
+       "q": "Which colon segment is S-shaped and stores feces before defecation?",
+       "choices": [
+        "Descending colon",
+        "Sigmoid colon",
+        "Transverse colon",
+        "Ascending colon"
+       ],
+       "answer": 1,
+       "explain": "The sigmoid colon stores fecal material before defecation and transitions to the rectum at the rectosigmoid junction."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The ascending colon is located in the right abdomen and is the primary site for absorption of remaining water and electrolytes."
+    },
+    {
+     "order": 43,
+     "why": "Hangs from inferior cecum; mesoappendix",
+     "questions": [
+      {
+       "q": "The appendix is suspended from the:",
+       "choices": [
+        "Medial ascending colon",
+        "Terminal ileum wall",
+        "Sigmoid mesocolon",
+        "Inferior aspect of the cecum"
+       ],
+       "answer": 3,
+       "explain": "The appendix is a narrow tube suspended from the inferior aspect of the cecum by the mesoappendix."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "It is associated with the appendix, a narrow tubular structure suspended from the inferior aspect of the cecum."
     },
     {
      "order": 48,
@@ -1754,7 +2126,9 @@
        "answer": 1,
        "explain": "Defecation involves involuntary relaxation of the internal anal sphincter and voluntary relaxation of the external anal sphincter."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Defecation is a coordinated process involving involuntary (autonomic control) relaxation of the internal anal sphincter"
     },
     {
      "order": 49,
@@ -1771,7 +2145,9 @@
        "answer": 2,
        "explain": "The external anal sphincter is under voluntary (somatic) control, unlike the autonomic internal sphincter."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "voluntary (somatic control) relaxation of the external anal sphincter, allowing controlled passage of stool"
     },
     {
      "order": 51,
@@ -1788,12 +2164,98 @@
        "answer": 0,
        "explain": "The proximal two-thirds of the anal canal is under autonomic control and the distal third under somatic control, divided by the dentate line."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Its proximal two-thirds is under autonomic control, while the distal third is under somatic control, separated by the dentate (aka pectinate) line."
     },
     {
      "order": 50,
      "why": "End of anal canal",
-     "questions": []
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The anal canal extends from the anorectal junction to the anus."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Mesenteries and Omenta",
+     "orders": [
+      27,
+      23,
+      24
+     ]
+    },
+    {
+     "title": "Peritoneal Ligaments",
+     "orders": [
+      26,
+      25,
+      28,
+      29,
+      30
+     ]
+    },
+    {
+     "title": "Peritoneal Pouches",
+     "orders": [
+      31,
+      32,
+      33
+     ]
+    },
+    {
+     "title": "Retroperitoneal Structures",
+     "orders": [
+      52,
+      80,
+      99
+     ]
+    },
+    {
+     "title": "Anatomy of the Esophagus",
+     "orders": [
+      34,
+      36,
+      37,
+      124,
+      127,
+      35
+     ]
+    },
+    {
+     "title": "Anatomy of the Stomach",
+     "orders": [
+      38,
+      39
+     ]
+    },
+    {
+     "title": "Anatomy of the Small Intestine",
+     "orders": [
+      40,
+      98
+     ]
+    },
+    {
+     "title": "Features of the Large Intestine",
+     "orders": [
+      45,
+      46,
+      47,
+      44
+     ]
+    },
+    {
+     "title": "Colon, Rectum and Anal Canal",
+     "orders": [
+      41,
+      42,
+      43,
+      48,
+      49,
+      51,
+      50
+     ]
     }
    ]
   },
@@ -1830,7 +2292,9 @@
        "answer": 3,
        "explain": "The quadrate lobe lies right of the falciform ligament but receives blood supply and biliary drainage with the functional left lobe."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Importantly, the caudate lobe is the only lobe with direct venous drainage into the IVC."
     },
     {
      "order": 88,
@@ -1858,7 +2322,9 @@
        "answer": 3,
        "explain": "The porta hepatis, the hilum of the liver, lies between the caudate and quadrate lobes on the visceral surface."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Located on the visceral surface of the liver between the caudate and quadrate lobes, the porta hepatis transmits the hepatic portal vein … common hepatic duct"
     },
     {
      "order": 28,
@@ -1875,7 +2341,9 @@
        "answer": 3,
        "explain": "The right and left anatomical lobes are divided by the falciform ligament, which attaches the liver to the anterior abdominal wall."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The right and left lobes are divided by the falciform ligament."
     },
     {
      "order": 29,
@@ -1892,7 +2360,16 @@
        "answer": 3,
        "explain": "The falciform ligament contains the ligamentum teres (round ligament of the liver), the remnant of the fetal umbilical vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The falciform ligament contains the ligamentum teres which is a remnant of the fetal umbilical vein (otherwise known as the round ligament of the liver)."
+    },
+    {
+     "order": 30,
+     "why": "Peritoneal reflection from liver to diaphragm",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The coronary and triangular ligaments are reflections of peritoneum coursing from the diaphragmatic surface of the liver to the diaphragm."
     },
     {
      "order": 26,
@@ -1909,7 +2386,9 @@
        "answer": 2,
        "explain": "The hepatogastric ligament (liver to stomach) contains the left and right gastric vessels; the portal triad runs in the hepatoduodenal ligament."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "the hepatogastric ligament, which connects the liver to the stomach and contains the left and right gastric vessels"
     },
     {
      "order": 25,
@@ -1926,7 +2405,16 @@
        "answer": 2,
        "explain": "The Pringle maneuver occludes the hepatoduodenal ligament, stopping inflow through the portal vein and hepatic artery."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The Pringle maneuver, hepatic inflow occlusion, temporarily occludes the hepatoduodenal ligament, halting hepatic inflow through the portal vein and hepatic artery"
+    },
+    {
+     "order": 53,
+     "why": "Gives left gastric, splenic, common hepatic",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The celiac trunk has three branches … Left gastric artery … Splenic artery … Common hepatic artery"
     },
     {
      "order": 58,
@@ -1943,7 +2431,9 @@
        "answer": 0,
        "explain": "The common hepatic artery branches into the proper hepatic artery and the gastroduodenal artery."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The common hepatic artery enters the hepatoduodenal ligament of the liver. It then gives rise to the proper hepatic artery."
     },
     {
      "order": 60,
@@ -1960,7 +2450,9 @@
        "answer": 0,
        "explain": "The proper hepatic artery brings oxygenated blood to the liver and divides into right and left hepatic arteries for each side."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The proper hepatic artery, which brings oxygenated blood to the liver"
     },
     {
      "order": 89,
@@ -1977,7 +2469,9 @@
        "answer": 1,
        "explain": "The cystic artery most commonly arises from the right hepatic artery and is found in Calot's triangle."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Eventually, the proper hepatic artery divides into the left and right hepatic arteries, which supply the left and right sides of the liver, respectively."
     },
     {
      "order": 75,
@@ -1994,7 +2488,23 @@
        "answer": 0,
        "explain": "The portal vein forms from the superior mesenteric and splenic veins; the IMV joins via the splenic vein."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The portal vein carries nutrient-rich blood from the gastrointestinal tract, spleen, pancreas, and gallbladder to the liver for processing, storage, metabolism, and detoxification."
+    },
+    {
+     "order": 76,
+     "why": "Joins splenic v. to form portal v.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The hepatic portal vein is formed from the joining of the superior mesenteric vein and the splenic vein."
+    },
+    {
+     "order": 78,
+     "why": "Joins portal circulation via splenic v.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The inferior mesenteric vein also joins the portal circulation via the splenic vein."
     },
     {
      "order": 90,
@@ -2011,7 +2521,16 @@
        "answer": 0,
        "explain": "Functional lobes are defined by vascular inflow and biliary drainage and are separated by the middle hepatic vein, not the falciform ligament."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The functional right and left lobes are separated by the middle hepatic vein"
+    },
+    {
+     "order": 79,
+     "why": "Drain liver directly into IVC",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "the right, middle, and left hepatic veins drain directly into the inferior vena cava"
     },
     {
      "order": 80,
@@ -2028,7 +2547,39 @@
        "answer": 3,
        "explain": "Sinusoids drain to central veins and then to the hepatic veins, which empty directly into the IVC at the superior liver."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A section of the inferior vena cava is embedded in the liver to the right of the caudate lobe."
+    },
+    {
+     "order": 82,
+     "why": "Parasympathetics to liver and pancreas",
+     "questions": [
+      {
+       "q": "Preganglionic vagal fibers to the pancreas pass through the celiac ganglion and then:",
+       "choices": [
+        "Synapse in ganglia within the pancreas",
+        "Synapse in the celiac ganglion",
+        "Synapse in sympathetic chain ganglia",
+        "Synapse in the superior mesenteric ganglion"
+       ],
+       "answer": 0,
+       "explain": "Posterior vagal trunk fibers pass through the celiac ganglion without synapsing and synapse in ganglia within the pancreas."
+      },
+      {
+       "q": "Vagal acetylcholine release at the pancreas stimulates:",
+       "choices": [
+        "Glucagon release from α cells",
+        "Acinar enzymes and β-cell insulin",
+        "Inhibition of acinar secretion",
+        "Bile storage in the gallbladder"
+       ],
+       "answer": 1,
+       "explain": "Vagal ACh stimulates digestive juice release from acinar cells and insulin release from β cells (\"rest and digest\")."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "parasympathetic innervation from the vagal trunks is involved in modulating bile secretion and hepatic metabolic activity"
     },
     {
      "order": 92,
@@ -2045,7 +2596,9 @@
        "answer": 1,
        "explain": "Bile canaliculi merge into bile ducts, then the right and left hepatic ducts, which join to form the common hepatic duct."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The right and left hepatic ducts join to form the common hepatic duct"
     },
     {
      "order": 93,
@@ -2062,69 +2615,9 @@
        "answer": 0,
        "explain": "The common hepatic duct leaves the porta hepatis and joins the cystic duct to form the common bile duct."
       }
-     ]
-    },
-    {
-     "order": 91,
-     "why": "Stores bile; fundus/body/neck; shoulder-referred pain",
-     "questions": [
-      {
-       "q": "Which part of the gallbladder is continuous with the cystic duct?",
-       "choices": [
-        "Fundus",
-        "Neck",
-        "Body",
-        "Hilum"
-       ],
-       "answer": 1,
-       "explain": "The gallbladder has a fundus, body, and neck; the neck continues as the cystic duct."
-      },
-      {
-       "q": "Gallbladder inflammation irritating the overlying peritoneum and diaphragm may refer sharp pain to the:",
-       "choices": [
-        "Right shoulder",
-        "Mid back",
-        "Periumbilical region",
-        "Suprapubic region"
-       ],
-       "answer": 0,
-       "explain": "Somatic pain from the peritoneum over the liver and gallbladder travels in the phrenic nerve (C3–C5), so it is referred to the right shoulder."
-      }
-     ]
-    },
-    {
-     "order": 61,
-     "why": "Usually from right hepatic; in Calot's triangle",
-     "questions": [
-      {
-       "q": "During cholecystectomy, the cystic artery is found in Calot's triangle. What are its borders?",
-       "choices": [
-        "Liver edge, CBD, pancreatic duct",
-        "Liver edge, CHD, cystic duct",
-        "CHD, CBD, and duodenum",
-        "Cystic duct, CBD, portal vein"
-       ],
-       "answer": 1,
-       "explain": "Calot's (hepatobiliary) triangle is bounded by the liver edge, the common hepatic duct, and the cystic duct."
-      }
-     ]
-    },
-    {
-     "order": 94,
-     "why": "From gallbladder neck; stone -> cholecystitis",
-     "questions": [
-      {
-       "q": "A gallstone lodged in the cystic duct most typically causes:",
-       "choices": [
-        "Acute cholecystitis",
-        "Choledocholithiasis",
-        "Gallstone pancreatitis",
-        "Esophageal varices"
-       ],
-       "answer": 0,
-       "explain": "A stone in the gallbladder neck or cystic duct blocks bile outflow from the gallbladder, causing acute cholecystitis."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The common hepatic duct exits the liver at the porta hepatis and then joins the cystic duct … to form the common bile duct"
     },
     {
      "order": 95,
@@ -2152,24 +2645,9 @@
        "answer": 2,
        "explain": "The common bile duct passes behind/through the pancreatic head, so a head mass can obstruct it and cause jaundice."
       }
-     ]
-    },
-    {
-     "order": 96,
-     "why": "Runs length of pancreas; joins CBD at ampulla",
-     "questions": [
-      {
-       "q": "The main pancreatic duct joins which duct at the hepatopancreatic ampulla?",
-       "choices": [
-        "Common hepatic duct",
-        "Common bile duct",
-        "Cystic duct",
-        "Right hepatic duct"
-       ],
-       "answer": 1,
-       "explain": "The main pancreatic duct runs along the length of the pancreas and joins the common bile duct at the ampulla of Vater."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "A gallstone may also pass through the cystic duct and enter the common bile duct. If it becomes lodged there, the condition is called choledocholithiasis"
     },
     {
      "order": 97,
@@ -2186,7 +2664,9 @@
        "answer": 2,
        "explain": "Impaction at the ampulla blocks both the common bile duct and pancreatic duct and can cause gallstone pancreatitis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "If a gallstone becomes impacted at the ampulla of Vater, it may obstruct both the common bile duct and pancreatic duct"
     },
     {
      "order": 98,
@@ -2214,7 +2694,77 @@
        "answer": 3,
        "explain": "The sphincter of Oddi is a muscular ring around the ampulla that controls the flow of bile and pancreatic secretions into the duodenum."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Together, the ampulla and sphincter form the major duodenal papilla on the medial wall of the second portion of the duodenum."
+    },
+    {
+     "order": 91,
+     "why": "Stores bile; fundus/body/neck; shoulder-referred pain",
+     "questions": [
+      {
+       "q": "Which part of the gallbladder is continuous with the cystic duct?",
+       "choices": [
+        "Fundus",
+        "Neck",
+        "Body",
+        "Hilum"
+       ],
+       "answer": 1,
+       "explain": "The gallbladder has a fundus, body, and neck; the neck continues as the cystic duct."
+      },
+      {
+       "q": "Gallbladder inflammation irritating the overlying peritoneum and diaphragm may refer sharp pain to the:",
+       "choices": [
+        "Right shoulder",
+        "Mid back",
+        "Periumbilical region",
+        "Suprapubic region"
+       ],
+       "answer": 0,
+       "explain": "Somatic pain from the peritoneum over the liver and gallbladder travels in the phrenic nerve (C3–C5), so it is referred to the right shoulder."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Its main function is to store bile made in the liver and release it in a pulse when needed in the duodenum"
+    },
+    {
+     "order": 94,
+     "why": "From gallbladder neck; stone -> cholecystitis",
+     "questions": [
+      {
+       "q": "A gallstone lodged in the cystic duct most typically causes:",
+       "choices": [
+        "Acute cholecystitis",
+        "Choledocholithiasis",
+        "Gallstone pancreatitis",
+        "Esophageal varices"
+       ],
+       "answer": 0,
+       "explain": "A stone in the gallbladder neck or cystic duct blocks bile outflow from the gallbladder, causing acute cholecystitis."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "If a gallstone becomes lodged in the gallbladder neck or cystic duct, obstruction of bile outflow can lead to acute cholecystitis"
+    },
+    {
+     "order": 61,
+     "why": "Usually from right hepatic; in Calot's triangle",
+     "questions": [
+      {
+       "q": "During cholecystectomy, the cystic artery is found in Calot's triangle. What are its borders?",
+       "choices": [
+        "Liver edge, CBD, pancreatic duct",
+        "Liver edge, CHD, cystic duct",
+        "CHD, CBD, and duodenum",
+        "Cystic duct, CBD, portal vein"
+       ],
+       "answer": 1,
+       "explain": "Calot's (hepatobiliary) triangle is bounded by the liver edge, the common hepatic duct, and the cystic duct."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The cystic artery is most commonly a branch of the right hepatic artery."
     },
     {
      "order": 99,
@@ -2253,7 +2803,35 @@
        "answer": 0,
        "explain": "Pancreatic afferents reach T6–T9, which also receive input from the epigastrium and mid back, so pain is felt in both."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The head lies in the curve of the duodenum, anterior to the inferior vena cava and the common bile duct."
+    },
+    {
+     "order": 96,
+     "why": "Runs length of pancreas; joins CBD at ampulla",
+     "questions": [
+      {
+       "q": "The main pancreatic duct joins which duct at the hepatopancreatic ampulla?",
+       "choices": [
+        "Common hepatic duct",
+        "Common bile duct",
+        "Cystic duct",
+        "Right hepatic duct"
+       ],
+       "answer": 1,
+       "explain": "The main pancreatic duct runs along the length of the pancreas and joins the common bile duct at the ampulla of Vater."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The main pancreatic duct carries the digestive enzymes produced in the pancreas to the duodenum."
+    },
+    {
+     "order": 40,
+     "why": "Duodenum curves around pancreatic head",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The pancreas and duodenum lie at the junction of the foregut and midgut, with the transition occurring near the major duodenal papilla."
     },
     {
      "order": 59,
@@ -2270,7 +2848,9 @@
        "answer": 3,
        "explain": "The gastroduodenal artery (from the common hepatic) divides into the anterior and posterior superior pancreaticoduodenal arteries."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The gastroduodenal artery divides into the anterior and posterior superior pancreaticoduodenal arteries."
     },
     {
      "order": 62,
@@ -2287,41 +2867,9 @@
        "answer": 3,
        "explain": "The pancreatic head sits at the foregut–midgut junction, so celiac (superior) and SMA (inferior) pancreaticoduodenal arteries anastomose there."
       }
-     ]
-    },
-    {
-     "order": 63,
-     "why": "First branch of SMA; inferior head",
-     "questions": [
-      {
-       "q": "The inferior pancreaticoduodenal artery supplies which part of the pancreas?",
-       "choices": [
-        "Inferior part of the head",
-        "Body and tail",
-        "Neck only",
-        "Tail near the spleen"
-       ],
-       "answer": 0,
-       "explain": "The inferior pancreaticoduodenal artery, the first branch of the SMA, splits into anterior and posterior rami serving the inferior pancreatic head."
-      }
-     ]
-    },
-    {
-     "order": 73,
-     "why": "Behind pancreatic neck, in front of D3",
-     "questions": [
-      {
-       "q": "Together with the SMV, the superior mesenteric artery passes:",
-       "choices": [
-        "In front of the pancreatic neck, behind D3",
-        "Behind the pancreatic tail, in front of D2",
-        "Behind the pancreatic neck, in front of D3",
-        "Behind the stomach, in front of the left kidney"
-       ],
-       "answer": 2,
-       "explain": "The SMA and SMV pass posterior to the neck of the pancreas and anterior to the third (horizontal) part of the duodenum."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The anterior and posterior superior pancreaticoduodenal arteries supply the duodenum and head of the pancreas."
     },
     {
      "order": 54,
@@ -2338,7 +2886,9 @@
        "answer": 2,
        "explain": "The splenic artery courses along the superior border of the pancreas, directly supplying the body and tail before reaching the spleen."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The splenic artery courses along the superior border of the pancreas, directly supplying its body and tail before reaching the spleen"
     },
     {
      "order": 100,
@@ -2366,7 +2916,47 @@
        "answer": 1,
        "explain": "An enlarged spleen extends below the costal margin and is more fragile, so even minor trauma can cause rupture and life-threatening hemorrhage."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The enlarged spleen … is more fragile than the normal spleen, increasing the risk of rupture even with minor trauma."
+    },
+    {
+     "order": 73,
+     "why": "Behind pancreatic neck, in front of D3",
+     "questions": [
+      {
+       "q": "Together with the SMV, the superior mesenteric artery passes:",
+       "choices": [
+        "In front of the pancreatic neck, behind D3",
+        "Behind the pancreatic tail, in front of D2",
+        "Behind the pancreatic neck, in front of D3",
+        "Behind the stomach, in front of the left kidney"
+       ],
+       "answer": 2,
+       "explain": "The SMA and SMV pass posterior to the neck of the pancreas and anterior to the third (horizontal) part of the duodenum."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "with the superior mesenteric vein (SMV), it passes posterior to the neck of the pancreas and anterior to the third (transverse) portion of the duodenum."
+    },
+    {
+     "order": 63,
+     "why": "First branch of SMA; inferior head",
+     "questions": [
+      {
+       "q": "The inferior pancreaticoduodenal artery supplies which part of the pancreas?",
+       "choices": [
+        "Inferior part of the head",
+        "Body and tail",
+        "Neck only",
+        "Tail near the spleen"
+       ],
+       "answer": 0,
+       "explain": "The inferior pancreaticoduodenal artery, the first branch of the SMA, splits into anterior and posterior rami serving the inferior pancreatic head."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The inferior pancreaticoduodenal artery is the first branch of the SMA."
     },
     {
      "order": 77,
@@ -2383,35 +2973,23 @@
        "answer": 0,
        "explain": "Pancreatic venous drainage is predominantly via the splenic vein, which carries blood from the body and tail to the portal vein."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "The splenic vein collects blood from the body and tail of the pancreas, delivering it to the hepatic portal vein."
     },
     {
-     "order": 82,
-     "why": "Parasympathetics to liver and pancreas",
-     "questions": [
-      {
-       "q": "Preganglionic vagal fibers to the pancreas pass through the celiac ganglion and then:",
-       "choices": [
-        "Synapse in ganglia within the pancreas",
-        "Synapse in the celiac ganglion",
-        "Synapse in sympathetic chain ganglia",
-        "Synapse in the superior mesenteric ganglion"
-       ],
-       "answer": 0,
-       "explain": "Posterior vagal trunk fibers pass through the celiac ganglion without synapsing and synapse in ganglia within the pancreas."
-      },
-      {
-       "q": "Vagal acetylcholine release at the pancreas stimulates:",
-       "choices": [
-        "Glucagon release from α cells",
-        "Acinar enzymes and β-cell insulin",
-        "Inhibition of acinar secretion",
-        "Bile storage in the gallbladder"
-       ],
-       "answer": 1,
-       "explain": "Vagal ACh stimulates digestive juice release from acinar cells and insulin release from β cells (\"rest and digest\")."
-      }
-     ]
+     "order": 81,
+     "why": "Parasympathetic: stimulates pancreatic secretion",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "When the vagus nerve releases acetylcholine, it stimulates release of digestive juices from acinar cells and insulin from β cells."
+    },
+    {
+     "order": 83,
+     "why": "Vagal fibers pass through without synapsing",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Preganglionic parasympathetic fibers from the posterior vagal trunk first pass through the celiac ganglion without synapsing and then travel to ganglia within the pancreas."
     },
     {
      "order": 84,
@@ -2439,6 +3017,99 @@
        "answer": 2,
        "explain": "Pancreatic afferents pass through the celiac ganglia and travel with sympathetic splanchnic nerves to dorsal root ganglia at T6–T9."
       }
+     ],
+     "yield": "high",
+     "excerpt": "The visceral afferent fibers travel with sympathetic splanchnic nerves to the dorsal root ganglia at T6–T9."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Lobes of the Liver",
+     "orders": [
+      87
+     ]
+    },
+    {
+     "title": "Porta Hepatis",
+     "orders": [
+      88
+     ]
+    },
+    {
+     "title": "Ligaments of the Liver",
+     "orders": [
+      28,
+      29,
+      30,
+      26,
+      25
+     ]
+    },
+    {
+     "title": "Blood Supply of the Liver",
+     "orders": [
+      53,
+      58,
+      60,
+      89,
+      75,
+      76,
+      78,
+      90,
+      79,
+      80
+     ]
+    },
+    {
+     "title": "Innervation of the Liver",
+     "orders": [
+      82
+     ]
+    },
+    {
+     "title": "Transport of Bile",
+     "orders": [
+      92,
+      93,
+      95,
+      97,
+      98
+     ]
+    },
+    {
+     "title": "Gallbladder",
+     "orders": [
+      91,
+      94,
+      61
+     ]
+    },
+    {
+     "title": "Parts and Ducts of the Pancreas",
+     "orders": [
+      99,
+      96,
+      40
+     ]
+    },
+    {
+     "title": "Pancreatic Blood Supply",
+     "orders": [
+      59,
+      62,
+      54,
+      100,
+      73,
+      63,
+      77
+     ]
+    },
+    {
+     "title": "Innervation of the Pancreas",
+     "orders": [
+      81,
+      83,
+      84
      ]
     }
    ]
@@ -2465,7 +3136,9 @@
        "answer": 0,
        "explain": "The paired rectus abdominis run vertically in the midline from the sternum to the pelvis, flexing the spine and raising abdominal pressure."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "They run midline, connecting the sternum to the pelvis. They are key in generating abdominal pressure and flexing the spine."
     },
     {
      "order": 106,
@@ -2493,7 +3166,9 @@
        "answer": 1,
        "explain": "A midline laparotomy divides no muscle; it passes through the linea alba between the right and left rectus abdominis."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Diastasis recti presents as a midline abdominal bulge … due to widening and attenuation of the linea alba rather than a true fascial defect"
     },
     {
      "order": 101,
@@ -2510,7 +3185,9 @@
        "answer": 0,
        "explain": "The external oblique is the largest and most superficial lateral muscle, with fibers running inferomedially (\"hands in pockets\")."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "External oblique: This muscle is the largest and most superficial of the three, with its fibers running in an inferomedial direction"
     },
     {
      "order": 102,
@@ -2527,7 +3204,9 @@
        "answer": 3,
        "explain": "The internal oblique lies deep to the external oblique, with fibers running at 90° to it."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Above the arcuate line, the internal oblique aponeurosis splits to contribute to both the anterior and posterior rectus sheaths."
     },
     {
      "order": 103,
@@ -2544,7 +3223,9 @@
        "answer": 1,
        "explain": "Transversus abdominis is the deepest of the three lateral muscles, with horizontal fibers."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Transversus (transverse) abdominis: This muscle is the deepest, with horizontal fibers."
     },
     {
      "order": 109,
@@ -2561,7 +3242,9 @@
        "answer": 3,
        "explain": "Superficial to the muscles (deep to superficial) are the membranous (Scarpa) fascia, fat (Camper fascia), and skin."
       }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "It would go through, in order, the following: skin, subcutaneous fat (Camper fascia), membranous fascia (Scarpa fascia)"
     },
     {
      "order": 110,
@@ -2578,35 +3261,9 @@
        "answer": 0,
        "explain": "The RLQ incision passes skin, Camper fascia, Scarpa fascia, external oblique, internal oblique, transversus, transversalis fascia, preperitoneal fat, and peritoneum."
       }
-     ]
-    },
-    {
-     "order": 107,
-     "why": "Deep to TA; deep ring; posterior wall of canal",
-     "questions": [
-      {
-       "q": "The posterior wall of the inguinal canal is formed mainly by the:",
-       "choices": [
-        "Transversalis fascia",
-        "External oblique aponeurosis",
-        "Inguinal ligament",
-        "Internal oblique muscle"
-       ],
-       "answer": 0,
-       "explain": "The posterior wall of the inguinal canal and the floor of the inguinal triangle are formed primarily by the transversalis fascia."
-      },
-      {
-       "q": "The deep inguinal ring is an opening in which layer?",
-       "choices": [
-        "External oblique aponeurosis",
-        "Internal oblique muscle",
-        "Transversus abdominis aponeurosis",
-        "Transversalis fascia"
-       ],
-       "answer": 3,
-       "explain": "The deep inguinal ring is an opening in the transversalis fascia just lateral to the inferior epigastric vessels."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Superficial to these muscles (listing from deep to superficial) are the membranous (Scarpa) fascia, fat (Camper fascia), and skin."
     },
     {
      "order": 105,
@@ -2623,24 +3280,9 @@
        "answer": 2,
        "explain": "Below the arcuate line all three aponeuroses pass anterior to the rectus abdominis, leaving no posterior rectus sheath."
       }
-     ]
-    },
-    {
-     "order": 108,
-     "why": "Superficial ring; anterior wall of canal",
-     "questions": [
-      {
-       "q": "The superficial inguinal ring is an opening in the:",
-       "choices": [
-        "Transversalis fascia",
-        "Internal oblique aponeurosis",
-        "External oblique aponeurosis",
-        "Transversus abdominis muscle"
-       ],
-       "answer": 2,
-       "explain": "The four canal walls converge at the superficial inguinal ring, an opening in the external oblique aponeurosis; that aponeurosis also forms most of the anterior wall."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The arcuate line is the transition from both an anterior and posterior rectus sheath to only an anterior rectus sheath."
     },
     {
      "order": 120,
@@ -2657,24 +3299,9 @@
        "answer": 2,
        "explain": "The anterior wall is supplied by T7–T12 plus L1 via the iliohypogastric and ilioinguinal nerves, giving T7–L1 dermatomes."
       }
-     ]
-    },
-    {
-     "order": 119,
-     "why": "L1; in inguinal canal (both sexes)",
-     "questions": [
-      {
-       "q": "Which nerve travels within the inguinal canal in both males and females?",
-       "choices": [
-        "Iliohypogastric nerve",
-        "Femoral nerve",
-        "Subcostal nerve",
-        "Ilioinguinal nerve"
-       ],
-       "answer": 3,
-       "explain": "Both the female and male inguinal canals contain the ilioinguinal nerve, the genital branch of the genitofemoral nerve, vessels, and lymphatics."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "with additional motor and sensory contributions from L1 via the iliohypogastric and ilioinguinal nerves"
     },
     {
      "order": 117,
@@ -2691,7 +3318,9 @@
        "answer": 2,
        "explain": "The superior epigastric (from the internal thoracic) and inferior epigastric (from the external iliac) arteries anastomose within the rectus sheath."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The superior epigastric artery, a terminal branch of the internal thoracic artery, and the inferior epigastric artery … form an important anastomosis within the rectus sheath"
     },
     {
      "order": 118,
@@ -2719,41 +3348,9 @@
        "answer": 1,
        "explain": "Below the arcuate line the posterior rectus sheath is absent, so inferior epigastric bleeding is less confined."
       }
-     ]
-    },
-    {
-     "order": 121,
-     "why": "Lateral attachment of inguinal ligament",
-     "questions": [
-      {
-       "q": "The inguinal ligament spans from the anterior superior iliac spine to the:",
-       "choices": [
-        "Pubic bone",
-        "Ischial tuberosity",
-        "Sacral promontory",
-        "Iliac tubercle"
-       ],
-       "answer": 0,
-       "explain": "The inguinal ligament, the superior border of the femoral triangle, spans from the ASIS to the pubic bone."
-      }
-     ]
-    },
-    {
-     "order": 122,
-     "why": "Superficial ring lies above it",
-     "questions": [
-      {
-       "q": "The superficial inguinal ring lies directly above the:",
-       "choices": [
-        "Anterior superior iliac spine",
-        "Ischial spine",
-        "Pubic crest",
-        "Iliac crest"
-       ],
-       "answer": 2,
-       "explain": "The superficial inguinal ring lies directly above the pubic crest."
-      }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "Because the posterior rectus sheath is absent below the arcuate line, bleeding from the inferior epigastric artery is less confined and may produce larger hematomas"
     },
     {
      "order": 111,
@@ -2781,97 +3378,28 @@
        "answer": 3,
        "explain": "The femoral vein lies medial to the femoral artery; palpate the arterial pulse and insert the needle just medial to it."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The femoral triangle is bordered by the inguinal ligament, sartorius muscle, and adductor longus muscle"
     },
     {
-     "order": 112,
-     "why": "Deep ring (lateral to IEV) -> superficial ring; indirect hernia",
+     "order": 121,
+     "why": "Lateral attachment of inguinal ligament",
      "questions": [
       {
-       "q": "Relative to the inferior epigastric vessels, the deep inguinal ring lies:",
+       "q": "The inguinal ligament spans from the anterior superior iliac spine to the:",
        "choices": [
-        "Lateral to them",
-        "Medial to them",
-        "Directly anterior to them",
-        "Directly inferior to them"
+        "Pubic bone",
+        "Ischial tuberosity",
+        "Sacral promontory",
+        "Iliac tubercle"
        ],
        "answer": 0,
-       "explain": "The deep ring is an opening in the transversalis fascia just lateral to the inferior epigastric vessels; indirect hernias enter here."
-      },
-      {
-       "q": "A 5-month-old boy has a groin mass from abdominal contents passing through the deep ring into the inguinal canal. Diagnosis?",
-       "choices": [
-        "Indirect inguinal hernia",
-        "Direct inguinal hernia",
-        "Femoral hernia",
-        "Femoral lymphadenopathy"
-       ],
-       "answer": 0,
-       "explain": "Indirect hernias pass obliquely through the deep inguinal ring and inguinal canal and are most common in males, especially infants."
+       "explain": "The inguinal ligament, the superior border of the femoral triangle, spans from the ASIS to the pubic bone."
       }
-     ]
-    },
-    {
-     "order": 113,
-     "why": "Rectus abdominis / IEV / inguinal ligament; direct hernia",
-     "questions": [
-      {
-       "q": "What are the borders of the inguinal (Hesselbach) triangle?",
-       "choices": [
-        "Sartorius, adductor longus, inguinal ligament",
-        "Rectus abdominis, femoral vein, lacunar ligament",
-        "Inferior epigastrics, sartorius, pubic crest line",
-        "Rectus abdominis, inferior epigastrics, inguinal ligament"
-       ],
-       "answer": 3,
-       "explain": "Hesselbach's triangle is bounded by the rectus abdominis (medial), inferior epigastric vessels (lateral), and inguinal ligament (inferior)."
-      },
-      {
-       "q": "A hernia that protrudes straight through the inguinal triangle due to abdominal wall weakness is a:",
-       "choices": [
-        "Indirect inguinal hernia",
-        "Direct inguinal hernia",
-        "Femoral hernia",
-        "Incisional hernia"
-       ],
-       "answer": 1,
-       "explain": "Herniation through the inguinal triangle (medial to the inferior epigastric vessels) is a direct inguinal hernia."
-      }
-     ]
-    },
-    {
-     "order": 129,
-     "why": "Male canal content; processus vaginalis -> indirect hernia",
-     "questions": [
-      {
-       "q": "Indirect inguinal hernias are much more common in males mainly because of:",
-       "choices": [
-        "A wider femoral canal",
-        "A weaker linea alba",
-        "Absent posterior sheath",
-        "Persistent processus vaginalis"
-       ],
-       "answer": 3,
-       "explain": "Indirect hernias are more frequent in males due to persistence of the processus vaginalis and passage of the spermatic cord through the canal."
-      }
-     ]
-    },
-    {
-     "order": 130,
-     "why": "Female canal content, to mons pubis",
-     "questions": [
-      {
-       "q": "In females, the round ligament of the uterus passes through the inguinal canal to the:",
-       "choices": [
-        "Ovary",
-        "Mons pubis",
-        "Uterine cervix",
-        "Pubic symphysis"
-       ],
-       "answer": 1,
-       "explain": "In females the inguinal canal contains the round ligament of the uterus, which passes to the mons pubis."
-      }
-     ]
+     ],
+     "yield": "low",
+     "excerpt": "Superior border: Inguinal Ligament … spans from the anterior superior iliac spine to pubic bone"
     },
     {
      "order": 114,
@@ -2888,7 +3416,9 @@
        "answer": 1,
        "explain": "The femoral artery is in the lateral compartment, the vein in the intermediate, and the femoral canal in the medial compartment."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The femoral artery, vein, and lymphatics reside within a fibrous wrapping called the femoral sheath"
     },
     {
      "order": 115,
@@ -2916,7 +3446,9 @@
        "answer": 1,
        "explain": "Females have a wider pelvis and femoral canal, so they get femoral hernias more often than males, though inguinal hernias are still more common in both."
       }
-     ]
+     ],
+     "yield": "high",
+     "excerpt": "The femoral canal, just below the inguinal ligament and medial to the femoral vein, is where femoral hernias occur."
     },
     {
      "order": 116,
@@ -2944,6 +3476,254 @@
        "answer": 1,
        "explain": "The femoral artery, vein, and lymphatics lie inside the femoral sheath; the femoral nerve runs outside it, just lateral."
       }
+     ],
+     "yield": "high",
+     "excerpt": "The femoral nerve runs outside the femoral sheath just laterally."
+    },
+    {
+     "order": 112,
+     "why": "Deep ring (lateral to IEV) -> superficial ring; indirect hernia",
+     "questions": [
+      {
+       "q": "Relative to the inferior epigastric vessels, the deep inguinal ring lies:",
+       "choices": [
+        "Lateral to them",
+        "Medial to them",
+        "Directly anterior to them",
+        "Directly inferior to them"
+       ],
+       "answer": 0,
+       "explain": "The deep ring is an opening in the transversalis fascia just lateral to the inferior epigastric vessels; indirect hernias enter here."
+      },
+      {
+       "q": "A 5-month-old boy has a groin mass from abdominal contents passing through the deep ring into the inguinal canal. Diagnosis?",
+       "choices": [
+        "Indirect inguinal hernia",
+        "Direct inguinal hernia",
+        "Femoral hernia",
+        "Femoral lymphadenopathy"
+       ],
+       "answer": 0,
+       "explain": "Indirect hernias pass obliquely through the deep inguinal ring and inguinal canal and are most common in males, especially infants."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "the passageway starts at an opening in the transversalis fascia just lateral to the inferior epigastric vessels; this opening is called the deep inguinal ring"
+    },
+    {
+     "order": 108,
+     "why": "Superficial ring; anterior wall of canal",
+     "questions": [
+      {
+       "q": "The superficial inguinal ring is an opening in the:",
+       "choices": [
+        "Transversalis fascia",
+        "Internal oblique aponeurosis",
+        "External oblique aponeurosis",
+        "Transversus abdominis muscle"
+       ],
+       "answer": 2,
+       "explain": "The four canal walls converge at the superficial inguinal ring, an opening in the external oblique aponeurosis; that aponeurosis also forms most of the anterior wall."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The anterior wall is derived predominately from the external oblique aponeurosis with some contribution from the internal oblique aponeurosis."
+    },
+    {
+     "order": 122,
+     "why": "Superficial ring lies above it",
+     "questions": [
+      {
+       "q": "The superficial inguinal ring lies directly above the:",
+       "choices": [
+        "Anterior superior iliac spine",
+        "Ischial spine",
+        "Pubic crest",
+        "Iliac crest"
+       ],
+       "answer": 2,
+       "explain": "The superficial inguinal ring lies directly above the pubic crest."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The superficial inguinal ring lies directly above the pubic crest."
+    },
+    {
+     "order": 129,
+     "why": "Male canal content; processus vaginalis -> indirect hernia",
+     "questions": [
+      {
+       "q": "Indirect inguinal hernias are much more common in males mainly because of:",
+       "choices": [
+        "A wider femoral canal",
+        "A weaker linea alba",
+        "Absent posterior sheath",
+        "Persistent processus vaginalis"
+       ],
+       "answer": 3,
+       "explain": "Indirect hernias are more frequent in males due to persistence of the processus vaginalis and passage of the spermatic cord through the canal."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "they occur much more frequently in males due to persistence of the processus vaginalis … and passage of the spermatic cord through the inguinal canal"
+    },
+    {
+     "order": 130,
+     "why": "Female canal content, to mons pubis",
+     "questions": [
+      {
+       "q": "In females, the round ligament of the uterus passes through the inguinal canal to the:",
+       "choices": [
+        "Ovary",
+        "Mons pubis",
+        "Uterine cervix",
+        "Pubic symphysis"
+       ],
+       "answer": 1,
+       "explain": "In females the inguinal canal contains the round ligament of the uterus, which passes to the mons pubis."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "In females, the inguinal canal contains the round ligament of the uterus to the mons pubis."
+    },
+    {
+     "order": 119,
+     "why": "L1; in inguinal canal (both sexes)",
+     "questions": [
+      {
+       "q": "Which nerve travels within the inguinal canal in both males and females?",
+       "choices": [
+        "Iliohypogastric nerve",
+        "Femoral nerve",
+        "Subcostal nerve",
+        "Ilioinguinal nerve"
+       ],
+       "answer": 3,
+       "explain": "Both the female and male inguinal canals contain the ilioinguinal nerve, the genital branch of the genitofemoral nerve, vessels, and lymphatics."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Both the female and male inguinal canals contain the genital branch of the genitofemoral nerve, ilioinguinal nerve, blood vessels, and lymphatics."
+    },
+    {
+     "order": 113,
+     "why": "Rectus abdominis / IEV / inguinal ligament; direct hernia",
+     "questions": [
+      {
+       "q": "What are the borders of the inguinal (Hesselbach) triangle?",
+       "choices": [
+        "Sartorius, adductor longus, inguinal ligament",
+        "Rectus abdominis, femoral vein, lacunar ligament",
+        "Inferior epigastrics, sartorius, pubic crest line",
+        "Rectus abdominis, inferior epigastrics, inguinal ligament"
+       ],
+       "answer": 3,
+       "explain": "Hesselbach's triangle is bounded by the rectus abdominis (medial), inferior epigastric vessels (lateral), and inguinal ligament (inferior)."
+      },
+      {
+       "q": "A hernia that protrudes straight through the inguinal triangle due to abdominal wall weakness is a:",
+       "choices": [
+        "Indirect inguinal hernia",
+        "Direct inguinal hernia",
+        "Femoral hernia",
+        "Incisional hernia"
+       ],
+       "answer": 1,
+       "explain": "Herniation through the inguinal triangle (medial to the inferior epigastric vessels) is a direct inguinal hernia."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The inguinal (Hesselbach) triangle is bordered by the rectus abdominis medially, the inferior epigastric vessels laterally, and the inguinal ligament inferiorly"
+    },
+    {
+     "order": 107,
+     "why": "Deep to TA; deep ring; posterior wall of canal",
+     "questions": [
+      {
+       "q": "The posterior wall of the inguinal canal is formed mainly by the:",
+       "choices": [
+        "Transversalis fascia",
+        "External oblique aponeurosis",
+        "Inguinal ligament",
+        "Internal oblique muscle"
+       ],
+       "answer": 0,
+       "explain": "The posterior wall of the inguinal canal and the floor of the inguinal triangle are formed primarily by the transversalis fascia."
+      },
+      {
+       "q": "The deep inguinal ring is an opening in which layer?",
+       "choices": [
+        "External oblique aponeurosis",
+        "Internal oblique muscle",
+        "Transversus abdominis aponeurosis",
+        "Transversalis fascia"
+       ],
+       "answer": 3,
+       "explain": "The deep inguinal ring is an opening in the transversalis fascia just lateral to the inferior epigastric vessels."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The floor/posterior wall of the inguinal triangle is formed primarily by the transversalis fascia, with no muscular contribution from transversus abdominis."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Anterior Midline Abdominal Muscles",
+     "orders": [
+      104,
+      106
+     ]
+    },
+    {
+     "title": "Lateral Abdominal Muscles and Wall Layers",
+     "orders": [
+      101,
+      102,
+      103,
+      109,
+      110
+     ]
+    },
+    {
+     "title": "The Rectus Sheath",
+     "orders": [
+      105
+     ]
+    },
+    {
+     "title": "Neurovascular Supply of Abdominal Wall",
+     "orders": [
+      120,
+      117,
+      118
+     ]
+    },
+    {
+     "title": "Femoral Triangle",
+     "orders": [
+      111,
+      121,
+      114,
+      115,
+      116
+     ]
+    },
+    {
+     "title": "Inguinal Canal",
+     "orders": [
+      112,
+      108,
+      122,
+      129,
+      130,
+      119
+     ]
+    },
+    {
+     "title": "Inguinal (Hesselbach) Triangle",
+     "orders": [
+      113,
+      107
      ]
     }
    ]

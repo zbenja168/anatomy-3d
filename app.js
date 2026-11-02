@@ -26,7 +26,7 @@ const ctxOp = (p) => (p.system === 'skeletal' ? 0.3 : 0.13);
 const HIGHLIGHT = 0x84e81a, OK = 0x22c55e, BAD = 0xef4444;
 
 let man, meshes = {}, scene, camera, renderer, controls, ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
-let brick = null, brickItems = new Map(), bq = { ok: 0, n: 0 }; // brick-by-brick mode (?brick=<id>)
+let brick = null, brickItems = new Map(), bq = { ok: 0, n: 0 }, hyOnly = false; // brick-by-brick mode (?brick=<id>)
 let redrawUntil = 0; const need = (ms = 400) => { redrawUntil = Math.max(redrawUntil, performance.now() + ms); };
 let body = null; // active donor model: scenes are never mixed
 const BODY_NAME = { 'z-anatomy': 'Z-Anatomy', bodyparts: 'BodyParts3D' };
@@ -172,8 +172,8 @@ function layers() {
 // ---------- quiz ----------
 function buildQueue() {
   if (brick) {
-    queue = brick.items.map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
-    $('sLeft').textContent = `${queue.length} in this brick`; return;
+    queue = brick.items.filter((b) => !hyOnly || b.yield !== 'low').map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
+    $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
   const sec = $('section').value, core = $('coreOnly').checked;
   queue = man.items.filter((it) => it.parts.length && (!sec || it.section === sec) && (!core || it.priority !== 'conceptual'));
@@ -268,7 +268,7 @@ function loadChecks() { try { checked = new Set(JSON.parse(localStorage.getItem(
 function saveChecks() { try { localStorage.setItem(CKEY(), JSON.stringify([...checked])); } catch (e) {} }
 function check(order) {
   if (order == null || checked.has(order)) return; checked.add(order); saveChecks();
-  const r = document.querySelector(`#clist tr[data-o="${order}"]`); if (r) { r.classList.add('done', 'pop'); setTimeout(() => r.classList.remove('pop'), 700); }
+  document.querySelectorAll(`.checklist [data-o="${order}"]`).forEach((r) => { r.classList.add('done', 'pop'); setTimeout(() => r.classList.remove('pop'), 700); });
   countChecks();
 }
 function countChecks() {
@@ -276,10 +276,9 @@ function countChecks() {
   $('clCount').textContent = `${inl.filter((i) => checked.has(i.order)).length} / ${inl.length} checked`;
 }
 function markCurrent() {
-  document.querySelectorAll('#clist tr.cur').forEach((r) => r.classList.remove('cur'));
+  document.querySelectorAll('.checklist .cur').forEach((r) => r.classList.remove('cur'));
   if (!cur || cur.order == null || (mode === 'name' && !done)) return; // never give away a Name-it answer
-  const r = document.querySelector(`#clist tr[data-o="${cur.order}"]`);
-  if (r) { r.classList.add('cur'); r.scrollIntoView({ block: 'nearest' }); }
+  document.querySelectorAll(`.checklist [data-o="${cur.order}"]`).forEach((r) => { r.classList.add('cur'); if (r.offsetParent) r.scrollIntoView({ block: 'nearest' }); });
 }
 async function buildChecklist() {
   loadChecks();
@@ -330,7 +329,44 @@ async function buildChecklist() {
     if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); ask(it);
   });
-  $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); document.querySelectorAll('#clist tr.done').forEach((r) => r.classList.remove('done')); countChecks(); });
+  $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); document.querySelectorAll('.checklist .done').forEach((r) => r.classList.remove('done')); countChecks(); });
+}
+
+// ---------- brick guide: the brick's structures grouped as the lecture presents them ----------
+function buildGuide() {
+  const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const byOrder = new Map(man.items.map((i) => [i.order, i]));
+  const groups = brick.groups && brick.groups.length ? brick.groups : [{ title: brick.title, orders: brick.items.map((b) => b.order) }];
+  const nHi = brick.items.filter((b) => b.yield !== 'low').length;
+  let html = `<div class="ghead"><div class="gtitle">${esc(brick.title)}</div><div class="gmeta">Week ${esc(brick.week)} · Session ${esc(brick.session)} · ` +
+    `<span class="hy">${nHi} high-yield</span> · <span class="ly">${brick.items.length - nHi} low-yield</span></div>` +
+    `<label class="gfilter"><input type="checkbox" id="hyOnly"> Quiz high-yield only</label></div>`;
+  for (const g of groups) {
+    html += `<div class="ggroup"><div class="gsec">${esc(g.title)}</div>`;
+    for (const o of g.orders) {
+      const b = brickItems.get(o), it = byOrder.get(o); if (!b || !it) continue;
+      const low = b.yield === 'low', nq = (b.questions || []).length;
+      html += `<div class="gitem${low ? ' low' : ''}${checked.has(o) ? ' done' : ''}${it.parts.length ? '' : ' na'}" data-o="${o}">` +
+        `<span class="ck"></span><div class="gbody"><div class="gname">${esc(it.structure)}` +
+        ` <span class="tag ${low ? 'ly' : 'hy'}">${low ? 'Low yield' : 'High yield'}</span>${nq ? ` <span class="nq">${nq} Q</span>` : ''}</div>` +
+        (b.excerpt ? `<div class="gex">“${esc(b.excerpt)}”</div>` : '') + `</div></div>`;
+    }
+    html += '</div>';
+  }
+  $('guide').innerHTML = html;
+  $('guide').addEventListener('click', (e) => {
+    const r = e.target.closest('.gitem'); if (!r || r.classList.contains('na')) return;
+    const it = byOrder.get(+r.dataset.o);
+    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
+    queue = queue.filter((q) => q !== it); ask(it);
+  });
+  $('hyOnly').addEventListener('change', (e) => { hyOnly = e.target.checked; $('guide').classList.toggle('hyonly', hyOnly); buildQueue(); next(); });
+  // tabs: brick guide <-> class sheet
+  document.querySelectorAll('.cltab').forEach((t) => t.addEventListener('click', () => {
+    document.querySelectorAll('.cltab').forEach((x) => x.classList.toggle('on', x === t));
+    const g = t.dataset.t === 'guide'; $('guide').hidden = !g; document.querySelector('.clwrap').hidden = g; markCurrent();
+  }));
+  $('guide').hidden = false; document.querySelector('.clwrap').hidden = true; markCurrent();
 }
 
 // ---------- wiring ----------
@@ -392,7 +428,7 @@ function wire() {
     const ms = Object.keys(man.models).map((m) => BODY_NAME[m] || m);
     $('modelNote').textContent = `${man.items.filter((i) => i.parts.length).length} of ${man.items.length} list structures are in 3D. ` +
       (ms.length > 1 ? `They come from two reference bodies (${ms.join(' and ')}); each question shows the body that has that structure, and the two are never mixed in one scene.` : `Model: ${ms[0]}.`);
-    $('loading').remove(); wire(); buildChecklist();
+    $('loading').remove(); wire(); await buildChecklist(); if (brick) buildGuide();
     const qs = $('quality'); qs.value = QUALITY;
     qs.addEventListener('change', () => { try { localStorage.setItem(QKEY, qs.value); } catch (e) {} const u = new URL(location.href); u.searchParams.delete('q'); location.href = u.toString(); });
     need(1500);
