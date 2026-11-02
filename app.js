@@ -145,13 +145,14 @@ function paint() {
   }
   if (cur && (mode === 'name' || done)) {
     cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
-    if (mode === 'name' && !done) dimOthers();
+    if ((mode === 'name' && !done) || revealDim) dimOthers();
   }
 }
 function dimOthers() {
   for (const [id, m] of Object.entries(meshes)) {
     if (cur.parts.includes(id)) continue;
-    m.material.transparent = true; m.material.opacity = Math.min(m.material.opacity, 0.2); m.material.depthWrite = false;
+    const cap = revealDim ? (m.userData.role === 'context' || m.userData.shell ? 0.04 : 0.1) : 0.2; // Show me: fade harder
+    m.material.transparent = true; m.material.opacity = Math.min(m.material.opacity, cap); m.material.depthWrite = false;
   }
 }
 
@@ -172,7 +173,11 @@ function layers() {
 // ---------- quiz ----------
 function buildQueue() {
   if (brick) {
-    queue = brick.items.filter((b) => !hyOnly || b.yield !== 'low').map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
+    // the order shown in the brick guide: group by group, top to bottom
+    const seq = (brick.groups && brick.groups.length ? brick.groups.flatMap((g) => g.orders) : brick.items.map((b) => b.order));
+    queue = seq.map((o) => brickItems.get(o)).filter((b) => b && (!hyOnly || b.yield !== 'low'))
+      .map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
+    brickSeq = queue.slice();
     $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
   const sec = $('section').value, core = $('coreOnly').checked;
@@ -180,9 +185,15 @@ function buildQueue() {
   for (let i = queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [queue[i], queue[j]] = [queue[j], queue[i]]; }
   $('sLeft').textContent = `${queue.length} in this set`;
 }
-function next() { ask(queue.shift() || null); }
+function next() {
+  if (brick && cur && brickSeq.includes(cur)) { // continue down the guide from wherever you are
+    const i = brickSeq.indexOf(cur); queue = brickSeq.slice(i + 1);
+  }
+  ask(queue.shift() || null);
+}
 function ask(item) {
   feedback('');
+  restoreAutoHidden();
   cur = item; attempts = 0; done = false; markCurrent();
   $('mcq').innerHTML = '';
   if (!cur && brick) {
@@ -244,7 +255,95 @@ function pick(ev) {
   const vis = Object.values(meshes).filter((m) => m.visible && !(m.userData.role === 'context' && m.material.opacity < 0.35 && mode !== 'explore'));
   const hits = ray.intersectObjects(vis, false);
   const hit = hits.find((h) => !h.object.userData.shell) || hits[0]; // click through see-through shells
+  lastHits = hits.filter((h) => !h.object.userData.shell); lastHit = hit || null;
   return hit ? hit.object : null;
+}
+let lastHits = [], lastHit = null, brickSeq = [];
+const _v = new THREE.Vector3();
+function nearTarget(point, ids, tol) { // is the clicked point within tol (m) of any target vertex?
+  for (const id of ids) {
+    const m = meshes[id]; if (!m || !m.visible) continue;
+    const a = m.geometry.attributes.position;
+    for (let i = 0; i < a.count; i++) { _v.fromBufferAttribute(a, i); if (_v.distanceToSquared(point) < tol * tol) return true; }
+  }
+  return false;
+}
+// Find-it is forgiving for small or tucked-in targets: a click counts if it lands on the target, on the target just
+// behind a thin covering part (e.g. glenoid under the humeral head rim), or within a few mm of it.
+function hitsTarget(m) {
+  if (cur.parts.includes(m.userData.id)) return true;
+  const first = lastHit; if (!first) return false;
+  if (lastHits.some((h) => cur.parts.includes(h.object.userData.id) && h.distance - first.distance < 0.025)) return true;
+  if (nearTarget(first.point, cur.parts, 0.006)) return true;
+  const o = ray.ray.origin, d = ray.ray.direction, H = renderer.domElement.clientHeight;
+  const k = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) / H * 14; // world size of 14 px per metre of depth
+  for (const id of cur.parts) {
+    const m = meshes[id]; if (!m || !m.visible) continue;
+    const a = m.geometry.attributes.position;
+    for (let i = 0; i < a.count; i += 2) {
+      _v.fromBufferAttribute(a, i).sub(o); const t = _v.dot(d);
+      if (t < first.distance - 0.01 || t > first.distance + 0.04) continue;
+      if (_v.addScaledVector(d, -t).lengthSq() < (k * t) ** 2) return true;
+    }
+  }
+  return false;
+}
+// "Show me": pick the clearest viewing angle, zoom in, and temporarily hide whatever still blocks the structure
+const autoHidden = new Set(); let revealDim = false, savedView = null;
+function restoreAutoHidden() {
+  revealDim = false;
+  if (savedView) { camera.position.copy(savedView[0]); controls.target.copy(savedView[1]); controls.update(); savedView = null; need(600); } if (autoHidden.size) { autoHidden.forEach((id) => hidden.delete(id)); autoHidden.clear(); paint(); } }
+function blockersFrom(eye, ids, samples) {
+  const r = new THREE.Raycaster(), out = new Map();
+  const solid = Object.values(meshes).filter((m) => m.visible && !ids.includes(m.userData.id) && m.userData.role !== 'context' && !m.userData.shell);
+  for (const p of samples) {
+    const dir = p.clone().sub(eye), dist = dir.length(); r.set(eye, dir.normalize()); r.far = dist - 0.002;
+    for (const h of r.intersectObjects(solid, false)) out.set(h.object.userData.id, (out.get(h.object.userData.id) || 0) + 1);
+  }
+  return out;
+}
+function revealTarget(ids) {
+  if (!savedView) savedView = [camera.position.clone(), controls.target.clone()]; // Next puts the view back
+  let samples = [];
+  ids.forEach((id) => { const a = meshes[id]?.geometry.attributes.position; if (!a || !meshes[id].visible) return; for (let i = 0; i < 40; i++) samples.push(new THREE.Vector3().fromBufferAttribute(a, Math.floor((i + 0.5) / 40 * a.count))); });
+  if (!samples.length) return;
+  // bilateral structure (left + right): zoom on the side nearer the camera
+  const L = samples.filter((p) => p.x > 0.02), Rr = samples.filter((p) => p.x < -0.02);
+  if (L.length > 4 && Rr.length > 4) samples = (camera.position.x > 0 ? L : Rr);
+  const box = new THREE.Box3().setFromPoints(samples);
+  const c = box.getCenter(new THREE.Vector3()), rad = Math.max(box.getBoundingSphere(new THREE.Sphere()).radius, 0.02);
+  const dist = Math.max(rad * (rad < 0.03 ? 3.2 : 1.9) / Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)), 0.09);
+  samples = samples.filter((_, i) => i % 3 === 0);
+  const curDir = camera.position.clone().sub(controls.target).normalize();
+  const dirs = [curDir, [0, 0, 1], [0, 0, -1], [1, 0, 0], [-1, 0, 0], [0, 1, 0.2], [0, -1, 0.2], [1, 0, 1], [-1, 0, 1], [1, 0, -1], [-1, 0, -1], [1, 1, 1], [-1, 1, 1], [1, 1, -1], [-1, 1, -1]]
+    .map((d) => (d.isVector3 ? d : new THREE.Vector3(...d).normalize()));
+  // average surface normal: a flat patch (fossa, notch, septum region) should be seen face-on, not edge-on
+  const nrm = new THREE.Vector3();
+  ids.forEach((id) => { const g = meshes[id]?.geometry; const n = g?.attributes.normal; if (!n) return;
+    for (let i = 0; i < n.count; i += 3) nrm.add(_v.fromBufferAttribute(n, i)); });
+  const flat = nrm.length() / Math.max(1, ids.reduce((a, id) => a + ((meshes[id]?.geometry.attributes.normal?.count || 0) / 3), 0));
+  nrm.normalize();
+  let best = null;
+  for (const d of dirs) {
+    const eye = c.clone().addScaledVector(d, dist), bl = blockersFrom(eye, ids, samples);
+    // fewer blockers is better (they get hidden/dimmed anyway, so this weighs less than seeing a flat patch face-on)
+    const cost = 0.4 * [...bl.values()].reduce((a, b) => a + b, 0) + (d === curDir ? -0.5 : 0)
+      - (flat > 0.2 ? 12 * Math.abs(d.dot(nrm)) : 0) - (d.z > 0.3 ? 0.5 : 0); // slight preference for anterior views
+    if (!best || cost < best.cost) best = { d, eye, bl, cost };
+  }
+  controls.target.copy(c); camera.position.copy(best.eye); camera.near = 0.001; camera.updateProjectionMatrix(); controls.update();
+  best.bl.forEach((n, id) => { if (!hidden.has(id)) { hidden.add(id); autoHidden.add(id); } });
+  // also clear the area around it: anything in front of the target that covers a ring 1.8x its size
+  const u = new THREE.Vector3(), w = new THREE.Vector3(), d = best.d.clone().negate();
+  u.crossVectors(d, Math.abs(d.y) < 0.9 ? new THREE.Vector3(0, 1, 0) : new THREE.Vector3(1, 0, 0)).normalize(); w.crossVectors(d, u);
+  const ring = [];
+  for (let i = 0; i < 16; i++) { const a = i / 16 * Math.PI * 2; ring.push(c.clone().addScaledVector(u, Math.cos(a) * rad * 1.8).addScaledVector(w, Math.sin(a) * rad * 1.8)); }
+  const front = best.eye.distanceTo(c) - rad;
+  const rr = new THREE.Raycaster(), solid = Object.values(meshes).filter((m) => m.visible && !hidden.has(m.userData.id) && !ids.includes(m.userData.id) && m.userData.role !== 'context' && !m.userData.shell);
+  for (const q of ring) { rr.set(best.eye, q.clone().sub(best.eye).normalize()); rr.far = front;
+    for (const h of rr.intersectObjects(solid, false)) { const id = h.object.userData.id; if (!hidden.has(id)) { hidden.add(id); autoHidden.add(id); } } }
+  revealDim = true; paint(); need(800);
+  if (autoHidden.size) feedback(($('feedback').innerHTML || '') + ` <span class="hid">(${autoHidden.size} part${autoHidden.size > 1 ? 's' : ''} in the way hidden for now)</span>`);
 }
 function onClick(ev) {
   const m = pick(ev); if (!m) return;
@@ -252,7 +351,7 @@ function onClick(ev) {
   if (mode === 'explore') { feedback(`<b>${name}</b>${itemFor(m.userData.id) ? ' · on your list as “' + itemFor(m.userData.id).structure + '”' : ''}`); flash(m); return; }
   if (mode !== 'find' || !cur || done) return;
   attempts++;
-  if (cur.parts.includes(m.userData.id)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
+  if (hitsTarget(m)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
   else { flash(m, BAD); feedback(`✗ That's <b>${name}</b>. Try again${attempts >= 2 ? ' — or press “Show me”' : ''}.`, 'bad'); }
 }
 function itemFor(id) { return man.items.find((it) => it.parts.includes(id)); }
@@ -372,8 +471,8 @@ function buildGuide() {
 // ---------- wiring ----------
 function wire() {
   const el = renderer.domElement; let down = null, lp = null;
-  el.addEventListener('pointerdown', (e) => { down = [e.clientX, e.clientY]; lp = setTimeout(() => { const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } lp = null; }, 650); });
-  el.addEventListener('pointerup', (e) => { if (lp) clearTimeout(lp); if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5 && lp !== null) onClick(e); down = null; });
+  el.addEventListener('pointerdown', (e) => { if (e.button !== 0) { down = null; lp = null; return; } down = [e.clientX, e.clientY]; lp = setTimeout(() => { const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } lp = null; }, 650); });
+  el.addEventListener('pointerup', (e) => { if (e.button !== 0) return; if (lp) clearTimeout(lp); if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5 && lp !== null) onClick(e); down = null; });
   el.addEventListener('pointermove', (e) => { if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5 && lp) { clearTimeout(lp); lp = null; } });
   el.addEventListener('contextmenu', (e) => { e.preventDefault(); const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } });
   document.querySelectorAll('.mode').forEach((b) => b.addEventListener('click', () => {
@@ -387,7 +486,7 @@ function wire() {
     if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
     else feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad');
   });
-  $('btnReveal').addEventListener('click', () => { if (!cur || done) return; feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); frame(boxOf(cur.parts), 2.6); });
+  $('btnReveal').addEventListener('click', () => { if (!cur || done) return; feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); revealTarget(cur.parts); });
   $('btnNext').addEventListener('click', next);
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
@@ -444,5 +543,6 @@ function wire() {
       window.__a3dReady = true; return;
     }
     buildQueue(); next(); window.__a3dReady = true;
+    window.__a3dTest = { screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray(), cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible])] };
   } catch (e) { $('loadmsg').textContent = 'Could not load this model: ' + e.message; }
 })();

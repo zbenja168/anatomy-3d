@@ -172,3 +172,4 @@ h1{font-size:1.2rem;font-weight:800}
 .gitem.na{opacity:.45;cursor:default}
 .guide.hyonly .gitem.low{opacity:.35}
 .brickmode .clhead b{display:none}
+.feedback .hid{font-size:.78em;color:var(--muted);font-weight:400}
