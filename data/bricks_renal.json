@@ -1,0 +1,1085 @@
+{
+ "subject": "renal",
+ "bricks": [
+  {
+   "id": "renal-urinary-anatomy",
+   "title": "Anatomy of the Urinary System",
+   "week": 1,
+   "session": "1",
+   "stem": "185_Urinary",
+   "items": [
+    {
+     "order": 3,
+     "why": "Adrenal glands sit superior to the kidneys; make aldosterone, sex hormones, corticosteroids",
+     "questions": [
+      {
+       "q": "Which hormone is produced by the gland that sits on the superior pole of the kidney?",
+       "choices": [
+        "Aldosterone",
+        "Insulin",
+        "Glucagon",
+        "Somatostatin"
+       ],
+       "answer": 0,
+       "explain": "The adrenal (suprarenal) glands sit above the kidneys and make aldosterone, sex hormones, and corticosteroids."
+      }
+     ]
+    },
+    {
+     "order": 25,
+     "why": "Psoas: posterior to lower kidney; ureters descend on its anterior surface",
+     "questions": [
+      {
+       "q": "As the ureter descends from the renal hilum, it runs along the anterior surface of which muscle?",
+       "choices": [
+        "Quadratus lumborum",
+        "Psoas major",
+        "Iliacus",
+        "Obturator internus"
+       ],
+       "answer": 1,
+       "explain": "The ureters begin at the hilum and descend anterior to the psoas muscles before crossing the common iliac vessels."
+      }
+     ]
+    },
+    {
+     "order": 24,
+     "why": "Quadratus lumborum: lateral, posterior to the lower kidney",
+     "questions": [
+      {
+       "q": "Which muscle lies immediately posterior to the lower kidney, lateral to the psoas?",
+       "choices": [
+        "Iliacus",
+        "Latissimus dorsi",
+        "Quadratus lumborum",
+        "Piriformis"
+       ],
+       "answer": 2,
+       "explain": "The medial psoas and the lateral quadratus lumborum lie immediately posterior to the lower parts of the kidneys."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "why": "Renal capsule: fibrous outer layer; surrounded by perinephric fat then renal fascia",
+     "questions": [
+      {
+       "q": "What tissue makes up the renal capsule?",
+       "choices": [
+        "Fibrous connective tissue",
+        "Adipose tissue",
+        "Smooth muscle",
+        "Transitional epithelium"
+       ],
+       "answer": 0,
+       "explain": "The renal capsule is fibrous connective tissue that gives the kidney a smooth, firm surface."
+      },
+      {
+       "q": "Moving outward, which layer lies immediately outside the renal capsule?",
+       "choices": [
+        "Renal fascia",
+        "Parietal peritoneum",
+        "Transversalis fascia",
+        "Perinephric fat"
+       ],
+       "answer": 3,
+       "explain": "The capsule is surrounded by perinephric (perirenal) fat, which is covered by the renal (perinephric) fascia."
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "why": "Cortex: renal corpuscles + convoluted tubules; primary filtration site",
+     "questions": [
+      {
+       "q": "Which structures are found in the renal cortex?",
+       "choices": [
+        "Loops of Henle and collecting ducts",
+        "Minor calyces and major calyces",
+        "Renal papillae and renal pelvis",
+        "Renal corpuscles and convoluted tubules"
+       ],
+       "answer": 3,
+       "explain": "The cortex lies beneath the capsule and contains renal corpuscles and convoluted tubules."
+      },
+      {
+       "q": "The renal cortex is the primary site of which process?",
+       "choices": [
+        "Urine concentration",
+        "Urine storage",
+        "Blood filtration",
+        "Ureteral peristalsis"
+       ],
+       "answer": 2,
+       "explain": "Containing the renal corpuscles, the cortex is the primary site of blood filtration and early urine modification."
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "why": "Medulla: inner region made of renal pyramids",
+     "questions": [
+      {
+       "q": "The renal medulla is composed mainly of which structures?",
+       "choices": [
+        "Renal columns",
+        "Renal pyramids",
+        "Renal corpuscles",
+        "Major calyces"
+       ],
+       "answer": 1,
+       "explain": "The renal medulla is composed of cone-shaped renal pyramids."
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "why": "Pyramids: loops of Henle + collecting ducts; urine concentration",
+     "questions": [
+      {
+       "q": "The loops of Henle and collecting ducts in the renal pyramids are critical for what?",
+       "choices": [
+        "Filtering blood",
+        "Producing aldosterone",
+        "Storing urine",
+        "Concentrating urine"
+       ],
+       "answer": 3,
+       "explain": "Renal pyramids contain loops of Henle and collecting ducts, which are critical for urine concentration."
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "why": "Renal columns: cortical extensions between pyramids; vessel pathways",
+     "questions": [
+      {
+       "q": "What is the main role of the renal columns?",
+       "choices": [
+        "Carry vessels between cortex and medulla",
+        "Drain urine from papillae to calyces",
+        "Concentrate urine in the medulla",
+        "Anchor the kidney to renal fascia"
+       ],
+       "answer": 0,
+       "explain": "Renal columns are cortical extensions between pyramids that serve as pathways for blood vessels traveling between cortex and medulla."
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "why": "Papillae drain urine from pyramids into minor calyces",
+     "questions": [
+      {
+       "q": "Urine leaving the renal papillae drains first into which structure?",
+       "choices": [
+        "Major calyx",
+        "Renal pelvis",
+        "Minor calyx",
+        "Ureter"
+       ],
+       "answer": 2,
+       "explain": "Urine formed in the pyramids drains from the renal papillae into minor calyces."
+      }
+     ]
+    },
+    {
+     "order": 9,
+     "why": "Minor calyces merge into major calyces",
+     "questions": [
+      {
+       "q": "Minor calyces merge to form which structures?",
+       "choices": [
+        "Renal papillae",
+        "Renal columns",
+        "Renal pyramids",
+        "Major calyces"
+       ],
+       "answer": 3,
+       "explain": "Minor calyces merge to form major calyces, which funnel urine into the renal pelvis."
+      }
+     ]
+    },
+    {
+     "order": 10,
+     "why": "Major calyces funnel urine into the renal pelvis",
+     "questions": [
+      {
+       "q": "Major calyces funnel urine directly into which structure?",
+       "choices": [
+        "Minor calyces",
+        "Renal pelvis",
+        "Renal papillae",
+        "Urinary bladder"
+       ],
+       "answer": 1,
+       "explain": "Major calyces funnel urine into the renal pelvis and then the ureter."
+      }
+     ]
+    },
+    {
+     "order": 11,
+     "why": "Renal pelvis -> ureter at the UPJ (stone site)",
+     "questions": [
+      {
+       "q": "Where the renal pelvis narrows into the ureter is a common site for what?",
+       "choices": [
+        "Ureteric reflux",
+        "Arterial aneurysm",
+        "Kidney stone impaction",
+        "Lymph node enlargement"
+       ],
+       "answer": 2,
+       "explain": "The ureteropelvic junction is one of three common ureteral narrowings where kidney stones get stuck."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "why": "Hilum: medial gateway for renal artery, vein, pelvis/ureter, lymphatics",
+     "questions": [
+      {
+       "q": "On which aspect of the kidney is the renal hilum located?",
+       "choices": [
+        "Lateral",
+        "Superior pole",
+        "Medial",
+        "Inferior pole"
+       ],
+       "answer": 2,
+       "explain": "The renal hilum is a medial indentation where the renal pelvis, artery, vein, and ureter enter or exit."
+      },
+      {
+       "q": "Lymphatics leaving the left kidney at the hilum drain primarily to which nodes?",
+       "choices": [
+        "Inguinal nodes",
+        "Para-aortic nodes",
+        "Internal iliac nodes",
+        "Celiac nodes"
+       ],
+       "answer": 1,
+       "explain": "All renal lymphatics exit at the hilum; the left kidney drains primarily to para-aortic (lumbar) nodes."
+      }
+     ]
+    },
+    {
+     "order": 12,
+     "why": "Ureters: 25-30 cm; three narrowings (UPJ, pelvic brim, UVJ); pass under uterine a.",
+     "questions": [
+      {
+       "q": "Approximately how long is each ureter?",
+       "choices": [
+        "4-5 cm",
+        "25-30 cm",
+        "10-12 cm",
+        "45-50 cm"
+       ],
+       "answer": 1,
+       "explain": "The ureters are smooth muscle-lined tubes about 25-30 cm long connecting the kidneys to the bladder."
+      },
+      {
+       "q": "Besides the UPJ and UVJ, where else do kidney stones commonly lodge in the ureter?",
+       "choices": [
+        "Level of the twelfth rib",
+        "Iliac vessel crossing at the brim",
+        "Passage behind the renal vein",
+        "Crossing over the psoas tendon"
+       ],
+       "answer": 1,
+       "explain": "The three common narrowings are the ureteropelvic junction, the pelvic brim where the ureter crosses the iliac vessels, and the ureterovesical junction."
+      },
+      {
+       "q": "In females, the pelvic segment of the ureter passes inferior to which artery?",
+       "choices": [
+        "Ovarian artery",
+        "Superior vesical artery",
+        "Uterine artery",
+        "Internal pudendal artery"
+       ],
+       "answer": 2,
+       "explain": "In females, the pelvic ureter crosses inferior to the uterine artery."
+      }
+     ]
+    },
+    {
+     "order": 26,
+     "why": "Apex: anterior, directed toward the pubic symphysis",
+     "questions": [
+      {
+       "q": "The apex of the bladder points toward which structure?",
+       "choices": [
+        "Pubic symphysis",
+        "Sacral promontory",
+        "Rectum",
+        "Uterus"
+       ],
+       "answer": 0,
+       "explain": "The bladder apex is anterior, directed toward the pubic symphysis."
+      }
+     ]
+    },
+    {
+     "order": 27,
+     "why": "Body: main expandable portion; superior bladder lymph to external iliac nodes",
+     "questions": [
+      {
+       "q": "Lymph from the superior part of the bladder drains to which nodes?",
+       "choices": [
+        "Internal iliac nodes",
+        "Para-aortic nodes",
+        "Inguinal nodes",
+        "External iliac nodes"
+       ],
+       "answer": 3,
+       "explain": "Superior bladder lymphatics drain to external iliac nodes; inferior bladder lymphatics drain to internal iliac nodes."
+      }
+     ]
+    },
+    {
+     "order": 28,
+     "why": "Fundus: posterior base where the ureters enter",
+     "questions": [
+      {
+       "q": "Which structures enter the bladder at its fundus (base)?",
+       "choices": [
+        "The urethra",
+        "The ureters",
+        "The umbilical arteries",
+        "The gonadal veins"
+       ],
+       "answer": 1,
+       "explain": "The fundus is the posterior base of the bladder where the ureters enter."
+      }
+     ]
+    },
+    {
+     "order": 29,
+     "why": "Neck: inferior, narrows into the urethra; inferior bladder lymph to internal iliac",
+     "questions": [
+      {
+       "q": "The bladder neck narrows inferiorly into which structure?",
+       "choices": [
+        "Urethra",
+        "Ureter",
+        "Vagina",
+        "Rectum"
+       ],
+       "answer": 0,
+       "explain": "The neck is the inferior region of the bladder that narrows into the urethra."
+      },
+      {
+       "q": "Lymph from the inferior bladder drains to which nodes?",
+       "choices": [
+        "Internal iliac nodes",
+        "External iliac nodes",
+        "Para-aortic nodes",
+        "Paracaval nodes"
+       ],
+       "answer": 0,
+       "explain": "Lymphatic vessels from the inferior bladder drain into the internal iliac nodes."
+      }
+     ]
+    },
+    {
+     "order": 35,
+     "why": "Ureteric orifices: oblique entry, no valve, compression prevents reflux",
+     "questions": [
+      {
+       "q": "What prevents reflux of urine into the ureters during voiding?",
+       "choices": [
+        "Oblique passage through the bladder wall",
+        "A discrete flap valve at each orifice",
+        "Contraction of the external sphincter",
+        "Sympathetic contraction of the trigone"
+       ],
+       "answer": 0,
+       "explain": "The ureters pass obliquely through the bladder musculature without a discrete valve, so bladder contraction compresses the orifices and prevents reflux."
+      }
+     ]
+    },
+    {
+     "order": 31,
+     "why": "Trigone: smooth triangle of ureteric orifices + internal urethral orifice; stretch sensation",
+     "questions": [
+      {
+       "q": "Which three openings define the trigone?",
+       "choices": [
+        "Both ureteric orifices and external urethral orifice",
+        "One ureteric orifice and both urethral orifices",
+        "Both ureteric orifices and internal urethral orifice",
+        "Both ureteric orifices and the urachal opening"
+       ],
+       "answer": 2,
+       "explain": "The trigone is a smooth triangular region on the posterior wall defined by the two ureteric orifices and the internal urethral orifice."
+      },
+      {
+       "q": "Stretch sensed in the region of the trigone triggers contraction of which muscle?",
+       "choices": [
+        "External urethral sphincter",
+        "Levator ani",
+        "Bulbospongiosus",
+        "Detrusor"
+       ],
+       "answer": 3,
+       "explain": "Sensory fibers stimulated by stretch, particularly in the trigone, lead the detrusor to contract and empty the bladder."
+      }
+     ]
+    },
+    {
+     "order": 32,
+     "why": "Internal urethral orifice: opening of the bladder into the urethra (trigone apex)",
+     "questions": []
+    },
+    {
+     "order": 30,
+     "why": "Detrusor: smooth muscle; relaxes in filling (sympathetic), contracts in micturition (parasympathetic)",
+     "questions": [
+      {
+       "q": "Which fibers stimulate contraction of the detrusor muscle?",
+       "choices": [
+        "Parasympathetic S2-S4 via pelvic splanchnics",
+        "Sympathetic L1-L2 via hypogastric nerves",
+        "Somatic S2-S4 via the pudendal nerve",
+        "Visceral afferents T11-L2 via renal plexus"
+       ],
+       "answer": 0,
+       "explain": "Parasympathetic fibers from S2-S4, carried by the pelvic splanchnic nerves, stimulate detrusor contraction and urine expulsion."
+      },
+      {
+       "q": "What effect does sympathetic stimulation have on the detrusor?",
+       "choices": [
+        "Relaxation, promoting storage",
+        "Contraction, promoting voiding",
+        "Contraction, promoting storage",
+        "No effect; it is somatic"
+       ],
+       "answer": 0,
+       "explain": "Sympathetic fibers (L1-L2) relax the bladder muscle, promoting urine retention and storage."
+      }
+     ]
+    },
+    {
+     "order": 49,
+     "why": "Bladder lies posterior to the pubic symphysis in both sexes",
+     "questions": [
+      {
+       "q": "In both sexes, the urinary bladder lies immediately posterior to which structure?",
+       "choices": [
+        "Pubic symphysis",
+        "Sacral promontory",
+        "Coccyx",
+        "Iliac crest"
+       ],
+       "answer": 0,
+       "explain": "The bladder lies posterior to the pubic symphysis in both sexes."
+      }
+     ]
+    },
+    {
+     "order": 53,
+     "why": "Rectum: posterior to the bladder in males",
+     "questions": [
+      {
+       "q": "In males, which structure borders the bladder posteriorly?",
+       "choices": [
+        "Pubic symphysis",
+        "Rectum",
+        "Levator ani",
+        "Prostate gland"
+       ],
+       "answer": 1,
+       "explain": "In males the bladder is bordered posteriorly by the rectum and supported inferiorly by the levator ani and prostate."
+      }
+     ]
+    },
+    {
+     "order": 50,
+     "why": "Levator ani: sling pubis->coccyx; supports bladder inferiorly",
+     "questions": [
+      {
+       "q": "The levator ani muscles form a sling between which bones?",
+       "choices": [
+        "Ilium and sacrum",
+        "Ischium and femur",
+        "Pubic bone and coccyx",
+        "Pubis and ischium"
+       ],
+       "answer": 2,
+       "explain": "The levator ani muscles are a muscular sling from the pubic bone to the coccyx that supports the bladder inferiorly."
+      }
+     ]
+    },
+    {
+     "order": 51,
+     "why": "Prostate: inferior support of bladder; BPH compresses prostatic urethra; DRE",
+     "questions": [
+      {
+       "q": "A 65-year-old man has urinary hesitancy and a smooth, symmetrically enlarged prostate on rectal exam. Which urethral segment is compressed?",
+       "choices": [
+        "Prostatic urethra",
+        "Membranous urethra",
+        "Spongy urethra",
+        "Ureterovesical junction"
+       ],
+       "answer": 0,
+       "explain": "BPH is age-related prostate enlargement that compresses the prostatic urethra, causing hesitancy and incomplete emptying."
+      },
+      {
+       "q": "Why can prostate size be assessed by digital rectal exam?",
+       "choices": [
+        "Its anterior surface abuts the symphysis",
+        "Its base projects into the bladder neck",
+        "It is enclosed within the levator ani",
+        "Its posterior surface lies against the rectum"
+       ],
+       "answer": 3,
+       "explain": "Because the posterior surface of the prostate lies directly anterior to the rectum, DRE can assess its size, contour, and consistency."
+      }
+     ]
+    },
+    {
+     "order": 52,
+     "why": "Uterus: posterior to the bladder in females (bladder-uterus-rectum)",
+     "questions": [
+      {
+       "q": "From anterior to posterior, which order is correct in the female pelvis?",
+       "choices": [
+        "Uterus, bladder, rectum",
+        "Bladder, uterus, rectum",
+        "Bladder, rectum, uterus",
+        "Rectum, uterus, bladder"
+       ],
+       "answer": 1,
+       "explain": "In the female pelvis the anterior-to-posterior order is bladder, uterus, rectum."
+      }
+     ]
+    },
+    {
+     "order": 54,
+     "why": "Vaginal canal: posterior bladder border in females; urethra-vagina-anus",
+     "questions": [
+      {
+       "q": "From anterior to posterior, which order of openings is correct in the female perineum?",
+       "choices": [
+        "Vaginal canal, urethra, anus",
+        "Urethra, anus, vaginal canal",
+        "Anus, vaginal canal, urethra",
+        "Urethra, vaginal canal, anus"
+       ],
+       "answer": 3,
+       "explain": "Inferiorly, the female anterior-to-posterior order is urethra, vaginal canal, anus."
+      }
+     ]
+    },
+    {
+     "order": 55,
+     "why": "Anus: most posterior of urethra-vagina-anus",
+     "questions": []
+    },
+    {
+     "order": 36,
+     "why": "Urethra: female ~4 cm (UTI risk); male 18-20 cm, urine + semen",
+     "questions": [
+      {
+       "q": "Why are females more prone to urinary tract infections than males?",
+       "choices": [
+        "Short urethra lying near the rectum",
+        "Long urethra lying near the vagina",
+        "No internal urethral sphincter",
+        "Wider ureteric orifices in the bladder"
+       ],
+       "answer": 0,
+       "explain": "The shorter female urethra lets bacteria reach the bladder more easily, and it lies closer to the bacteria-carrying rectum."
+      },
+      {
+       "q": "Approximately how long is the female urethra?",
+       "choices": [
+        "1 cm",
+        "12 cm",
+        "4 cm",
+        "20 cm"
+       ],
+       "answer": 2,
+       "explain": "The female urethra is about 1.5 inches (4 cm) long, below the clitoris and above the vaginal opening."
+      },
+      {
+       "q": "Approximately how long is the male urethra?",
+       "choices": [
+        "4-5 cm",
+        "8-10 cm",
+        "18-20 cm",
+        "30-35 cm"
+       ],
+       "answer": 2,
+       "explain": "The male urethra is about 7-8 inches (18-20 cm) long and carries both urine and semen."
+      }
+     ]
+    },
+    {
+     "order": 33,
+     "why": "Internal urethral sphincter: smooth, involuntary; sympathetic contraction prevents semen reflux",
+     "questions": [
+      {
+       "q": "Which best describes the internal urethral sphincter?",
+       "choices": [
+        "Smooth muscle, involuntary",
+        "Skeletal muscle, voluntary",
+        "Smooth muscle, voluntary",
+        "Skeletal muscle, involuntary"
+       ],
+       "answer": 0,
+       "explain": "The internal urethral sphincter, at the bladder-urethra junction, is smooth muscle under involuntary control."
+      },
+      {
+       "q": "In males, sympathetic contraction of this sphincter during ejaculation prevents what?",
+       "choices": [
+        "Urine reflux into the ureters",
+        "Stress urinary incontinence",
+        "Bladder overdistension",
+        "Semen reflux into the bladder"
+       ],
+       "answer": 3,
+       "explain": "Sympathetic innervation contracts the internal urethral sphincter, which in males prevents reflux of semen into the bladder during ejaculation."
+      }
+     ]
+    },
+    {
+     "order": 34,
+     "why": "External urethral sphincter: skeletal, voluntary; pudendal n.; surrounds membranous urethra",
+     "questions": [
+      {
+       "q": "The external urethral sphincter surrounds which segment of the male urethra?",
+       "choices": [
+        "Prostatic urethra",
+        "Spongy urethra",
+        "Bladder neck",
+        "Membranous urethra"
+       ],
+       "answer": 3,
+       "explain": "The membranous urethra passes through the perineal membrane and is surrounded by the external urethral sphincter."
+      }
+     ]
+    },
+    {
+     "order": 37,
+     "why": "Prostatic urethra: passes through prostate; compressed in BPH",
+     "questions": []
+    },
+    {
+     "order": 38,
+     "why": "Membranous urethra: through perineal membrane; fixed, narrow; catheter rupture",
+     "questions": [
+      {
+       "q": "Forceful urethral catheterization is most likely to rupture which segment?",
+       "choices": [
+        "Prostatic urethra",
+        "Spongy urethra",
+        "Membranous urethra",
+        "Ureterovesical junction"
+       ],
+       "answer": 2,
+       "explain": "The membranous urethra is fixed and narrow as it passes through the perineal membrane, so forceful catheterization can rupture it."
+      },
+      {
+       "q": "The membranous urethra passes through which structure?",
+       "choices": [
+        "Prostate gland",
+        "Corpus cavernosum",
+        "Perineal membrane",
+        "Pubic symphysis"
+       ],
+       "answer": 2,
+       "explain": "The membranous urethra passes through the perineal membrane, surrounded by the external urethral sphincter."
+      }
+     ]
+    },
+    {
+     "order": 39,
+     "why": "Spongy urethra: runs the length of the penis",
+     "questions": []
+    },
+    {
+     "order": 40,
+     "why": "External urethral orifice: terminal opening in both sexes",
+     "questions": []
+    },
+    {
+     "order": 13,
+     "why": "Abdominal aorta gives the renal and gonadal arteries",
+     "questions": [
+      {
+       "q": "A renal carcinoma invades the left renal artery. That artery is a direct branch of which vessel?",
+       "choices": [
+        "Superior mesenteric artery",
+        "Celiac trunk",
+        "Common iliac artery",
+        "Abdominal aorta"
+       ],
+       "answer": 3,
+       "explain": "Both renal arteries branch directly from the abdominal aorta."
+      }
+     ]
+    },
+    {
+     "order": 16,
+     "why": "Renal arteries: from aorta; kidneys get ~25% of cardiac output",
+     "questions": [
+      {
+       "q": "About what fraction of cardiac output do the kidneys receive?",
+       "choices": [
+        "5%",
+        "25%",
+        "10%",
+        "50%"
+       ],
+       "answer": 1,
+       "explain": "The kidneys are among the most well-perfused organs, receiving about 25% of cardiac output."
+      }
+     ]
+    },
+    {
+     "order": 23,
+     "why": "Segmental -> interlobar -> arcuate -> interlobular -> glomerulus",
+     "questions": [
+      {
+       "q": "Segmental renal arteries give rise to which arteries next?",
+       "choices": [
+        "Arcuate arteries",
+        "Interlobar arteries",
+        "Interlobular arteries",
+        "Afferent arterioles"
+       ],
+       "answer": 1,
+       "explain": "The renal artery splits into segmental arteries, which give off interlobar arteries, then arcuate and interlobular arteries."
+      },
+      {
+       "q": "Arcuate arteries continue as which vessels?",
+       "choices": [
+        "Interlobular arteries",
+        "Interlobar arteries",
+        "Segmental arteries",
+        "Efferent arterioles"
+       ],
+       "answer": 0,
+       "explain": "Interlobar arteries lead to arcuate arteries, which turn into interlobular arteries before the glomerulus."
+      }
+     ]
+    },
+    {
+     "order": 17,
+     "why": "Renal veins: left is longer, crosses aorta under SMA; receives left gonadal v.; nutcracker",
+     "questions": [
+      {
+       "q": "Why is the left renal vein usually longer than the right?",
+       "choices": [
+        "The left kidney sits lower than the right",
+        "It crosses the aorta to reach the IVC",
+        "It drains into the left common iliac vein",
+        "It must loop around the left ureter"
+       ],
+       "answer": 1,
+       "explain": "The left renal vein is longer because it must cross over the aorta to reach the inferior vena cava."
+      },
+      {
+       "q": "Nutcracker syndrome is compression of the left renal vein between which two vessels?",
+       "choices": [
+        "SMA and aorta",
+        "Celiac trunk and aorta",
+        "IMA and aorta",
+        "SMA and IVC"
+       ],
+       "answer": 0,
+       "explain": "In nutcracker syndrome the left renal vein is compressed between the superior mesenteric artery and the aorta."
+      }
+     ]
+    },
+    {
+     "order": 14,
+     "why": "IVC: receives renal veins and right gonadal vein",
+     "questions": [
+      {
+       "q": "The right gonadal vein drains directly into which vessel?",
+       "choices": [
+        "Right renal vein",
+        "Inferior vena cava",
+        "Right common iliac vein",
+        "Right internal iliac vein"
+       ],
+       "answer": 1,
+       "explain": "The right gonadal vein drains directly into the lower-pressure IVC, whereas the left drains into the left renal vein."
+      }
+     ]
+    },
+    {
+     "order": 19,
+     "why": "SMA: left renal vein passes beneath it (nutcracker)",
+     "questions": [
+      {
+       "q": "Which vessel passes beneath the superior mesenteric artery, between it and the aorta?",
+       "choices": [
+        "Right renal vein",
+        "Left gonadal vein",
+        "Left renal vein",
+        "Inferior vena cava"
+       ],
+       "answer": 2,
+       "explain": "The left renal vein passes underneath the SMA as it crosses the aorta, where it can be compressed (nutcracker syndrome)."
+      }
+     ]
+    },
+    {
+     "order": 22,
+     "why": "Gonadal veins: left -> left renal v. (left varicocele, pelvic congestion); right -> IVC",
+     "questions": [
+      {
+       "q": "Where does the left gonadal vein drain?",
+       "choices": [
+        "Inferior vena cava",
+        "Left common iliac vein",
+        "Left internal iliac vein",
+        "Left renal vein"
+       ],
+       "answer": 3,
+       "explain": "The left gonadal vein drains into the left renal vein, which can be compressed by outside structures."
+      },
+      {
+       "q": "A man with nutcracker syndrome develops a varicocele. On which side is it most likely?",
+       "choices": [
+        "Left",
+        "Right",
+        "Bilateral",
+        "Midline"
+       ],
+       "answer": 0,
+       "explain": "Left renal vein obstruction raises pressure in the left gonadal vein that drains into it, commonly causing a left-sided varicocele."
+      }
+     ]
+    },
+    {
+     "order": 21,
+     "why": "Gonadal arteries: from aorta; testicular via inguinal canal, ovarian in suspensory ligament",
+     "questions": [
+      {
+       "q": "The gonadal arteries typically arise from which vessel?",
+       "choices": [
+        "Renal arteries",
+        "Abdominal aorta",
+        "Internal iliac arteries",
+        "Common iliac arteries"
+       ],
+       "answer": 1,
+       "explain": "The gonadal arteries typically arise directly from the abdominal aorta and descend retroperitoneally."
+      },
+      {
+       "q": "In females, the ovarian artery reaches the ovary within which structure?",
+       "choices": [
+        "Round ligament of the uterus",
+        "Ligament of the ovary proper",
+        "Suspensory ligament of the ovary",
+        "Uterosacral ligament"
+       ],
+       "answer": 2,
+       "explain": "Ovarian arteries travel within the suspensory ligament of the ovary."
+      }
+     ]
+    },
+    {
+     "order": 41,
+     "why": "Common iliac aa.: ureter crosses them at the brim (stone site); bifurcate into int/ext iliac",
+     "questions": [
+      {
+       "q": "A kidney stone lodges where the ureter crosses into the pelvis. Which vessels does the ureter cross there?",
+       "choices": [
+        "Renal vessels",
+        "Uterine vessels",
+        "Superior vesical vessels",
+        "Common iliac vessels"
+       ],
+       "answer": 3,
+       "explain": "The ureters cross the common iliac arteries and veins to enter the pelvis, a common site for stones to get stuck."
+      },
+      {
+       "q": "Lymph from the middle third of the ureter drains to which nodes?",
+       "choices": [
+        "Para-aortic nodes",
+        "Common iliac nodes",
+        "Paracaval nodes",
+        "Inguinal nodes"
+       ],
+       "answer": 1,
+       "explain": "Middle-third ureteral lymph drains to common iliac nodes; the lower third drains to common, internal, and external iliac nodes."
+      }
+     ]
+    },
+    {
+     "order": 42,
+     "why": "Common iliac veins: formed by int+ext iliac; unite to form IVC",
+     "questions": [
+      {
+       "q": "The two common iliac veins unite to form which vessel?",
+       "choices": [
+        "Left renal vein",
+        "Inferior vena cava",
+        "Internal iliac vein",
+        "Left gonadal vein"
+       ],
+       "answer": 1,
+       "explain": "The internal and external iliac veins form the common iliac veins, which join to create the inferior vena cava."
+      }
+     ]
+    },
+    {
+     "order": 43,
+     "why": "Internal iliac aa.: supply pelvic organs; give umbilical -> superior vesical",
+     "questions": [
+      {
+       "q": "What do the internal iliac arteries mainly supply?",
+       "choices": [
+        "Pelvic organs",
+        "Lower limbs",
+        "Kidneys",
+        "Small intestine"
+       ],
+       "answer": 0,
+       "explain": "The common iliac arteries bifurcate into internal iliac arteries supplying pelvic organs and external iliac arteries supplying the lower limbs."
+      }
+     ]
+    },
+    {
+     "order": 44,
+     "why": "Internal iliac vv.: receive superior and inferior vesical veins",
+     "questions": [
+      {
+       "q": "The superior and inferior vesical veins are tributaries of which veins?",
+       "choices": [
+        "External iliac veins",
+        "Gonadal veins",
+        "Renal veins",
+        "Internal iliac veins"
+       ],
+       "answer": 3,
+       "explain": "The superior and inferior vesical veins drain into the internal iliac veins."
+      }
+     ]
+    },
+    {
+     "order": 45,
+     "why": "External iliac aa.: supply the lower limbs",
+     "questions": [
+      {
+       "q": "What does the external iliac artery primarily supply?",
+       "choices": [
+        "Pelvic organs",
+        "Lower limb",
+        "Urinary bladder",
+        "Kidney"
+       ],
+       "answer": 1,
+       "explain": "External iliac arteries supply the lower limbs, while internal iliac arteries supply pelvic organs."
+      }
+     ]
+    },
+    {
+     "order": 46,
+     "why": "External iliac vv.: join internal iliac vv. to form common iliac vv.",
+     "questions": []
+    },
+    {
+     "order": 47,
+     "why": "Superior vesical aa.: from umbilical aa. (internal iliac); supply upper bladder",
+     "questions": [
+      {
+       "q": "The superior vesical arteries are branches of which arteries?",
+       "choices": [
+        "Gonadal arteries",
+        "External iliac arteries",
+        "Inferior mesenteric artery",
+        "Umbilical arteries"
+       ],
+       "answer": 3,
+       "explain": "The superior vesical arteries branch from the umbilical arteries, which come from the internal iliac arteries."
+      },
+      {
+       "q": "Which part of the bladder do the superior vesical arteries supply?",
+       "choices": [
+        "Upper bladder",
+        "Lower bladder",
+        "Bladder neck",
+        "Trigone"
+       ],
+       "answer": 0,
+       "explain": "The upper bladder is supplied by the superior vesical artery; the lower bladder by the inferior vesical artery."
+      }
+     ]
+    },
+    {
+     "order": 15,
+     "why": "Sympathetics: kidney T10-L1 via aorticorenal ganglion; ureter pain T11-L5; bladder L1-L2",
+     "questions": [
+      {
+       "q": "Sympathetic preganglionic neurons to the kidney originate from which spinal levels?",
+       "choices": [
+        "S2-S4",
+        "C8-T2",
+        "T10-L1",
+        "T1-T4"
+       ],
+       "answer": 2,
+       "explain": "Kidney sympathetic preganglionics arise from T10-L1 and synapse in the aorticorenal ganglion; postganglionics follow the renal artery."
+      },
+      {
+       "q": "Ureteric pain afferents follow sympathetic fibers back to which cord segments?",
+       "choices": [
+        "C5-T1",
+        "T1-T4",
+        "T11-L5",
+        "S2-S4"
+       ],
+       "answer": 2,
+       "explain": "Visceral afferent pain fibers from the ureters follow sympathetic fibers retrograde to cord segments T11-L5."
+      },
+      {
+       "q": "Sympathetic fibers to the urinary bladder come from which cord levels?",
+       "choices": [
+        "S2-S4",
+        "T1-T4",
+        "C5-C8",
+        "L1-L2"
+       ],
+       "answer": 3,
+       "explain": "The bladder receives sympathetic fibers from L1-L2 and parasympathetic fibers from S2-S4."
+      }
+     ]
+    },
+    {
+     "order": 48,
+     "why": "Pudendal n.: somatic motor to external urethral sphincter; voluntary control",
+     "questions": [
+      {
+       "q": "A 72-year-old man leaks urine when he coughs. Damage to which nerve is most likely?",
+       "choices": [
+        "Pelvic splanchnic nerves",
+        "Hypogastric nerve",
+        "Genitofemoral nerve",
+        "Pudendal nerve"
+       ],
+       "answer": 3,
+       "explain": "The somatic pudendal nerve supplies the external urethral sphincter, which gives voluntary control of urination."
+      },
+      {
+       "q": "What type of innervation does the pudendal nerve provide to the external urethral sphincter?",
+       "choices": [
+        "Sympathetic",
+        "Parasympathetic",
+        "Somatic motor",
+        "Visceral afferent"
+       ],
+       "answer": 2,
+       "explain": "The somatic pudendal nerve supplies motor innervation to the external urethral sphincter, allowing voluntary control."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
