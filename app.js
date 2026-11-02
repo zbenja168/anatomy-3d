@@ -182,18 +182,22 @@ function buildQueue() {
   }
   const sec = $('section').value, core = $('coreOnly').checked;
   queue = man.items.filter((it) => it.parts.length && (!sec || it.section === sec) && (!core || it.priority !== 'conceptual'));
-  for (let i = queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [queue[i], queue[j]] = [queue[j], queue[i]]; }
+  // follow the class sheet top to bottom (row order of the Word sheet; list order until the sheet is drawn)
+  const rows = [...document.querySelectorAll('#clist tr[data-o]')].map((r) => +r.dataset.o);
+  if (rows.length) { const pos = new Map(rows.map((o, i) => [o, i])); queue.sort((a, b) => (pos.get(a.order) ?? 1e9) - (pos.get(b.order) ?? 1e9)); }
+  else queue.sort((a, b) => a.order - b.order);
+  brickSeq = queue.slice();
   $('sLeft').textContent = `${queue.length} in this set`;
 }
 function next() {
-  if (brick && cur && brickSeq.includes(cur)) { // continue down the guide from wherever you are
+  if (cur && brickSeq.includes(cur)) { // continue down the guide / sheet from wherever you are
     const i = brickSeq.indexOf(cur); queue = brickSeq.slice(i + 1);
   }
   ask(queue.shift() || null);
 }
 function ask(item) {
   feedback('');
-  restoreAutoHidden();
+  restoreAutoHidden(); $('btnReveal').textContent = 'Show me';
   cur = item; attempts = 0; done = false; markCurrent();
   $('mcq').innerHTML = '';
   if (!cur && brick) {
@@ -486,7 +490,12 @@ function wire() {
     if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
     else feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad');
   });
-  $('btnReveal').addEventListener('click', () => { if (!cur || done) return; feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); revealTarget(cur.parts); });
+  $('btnReveal').addEventListener('click', () => {
+    if (!cur) return;
+    if (revealDim) { restoreAutoHidden(); paint(); $('btnReveal').textContent = 'Show me'; return; } // toggle off: view + parts back
+    if (!done) { feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); }
+    revealTarget(cur.parts); $('btnReveal').textContent = 'Hide it';
+  });
   $('btnNext').addEventListener('click', next);
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
