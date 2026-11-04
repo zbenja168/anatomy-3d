@@ -1,0 +1,426 @@
+{
+ "stem": "185_Urinary",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Tough fibrous coat investing kidney; stretching causes flank pain (e.g. pyelonephritis)",
+    "attachments": "Surrounded by perirenal fat, then renal (Gerota) fascia, then pararenal fat"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Medial slit transmitting renal vein (anterior), renal artery, renal pelvis (posterior), nerves and lymphatics",
+    "attachments": "Opens into renal sinus; lies at about L1 (transpyloric plane)"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Cortex secretes aldosterone, cortisol, androgens; medulla secretes catecholamines",
+    "innervation": "Medulla receives preganglionic sympathetic fibers directly (thoracic splanchnic nerves)",
+    "attachments": "Cap superomedial poles of kidneys within renal fascia; right pyramidal, left crescent-shaped",
+    "supply": "Superior (inferior phrenic), middle (aorta), inferior (renal) suprarenal arteries; right vein → IVC, left → left renal vein"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Outer kidney layer containing glomeruli and proximal/distal convoluted tubules; extends between pyramids as renal columns"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Inner region made of renal pyramids; loops of Henle and collecting ducts concentrate urine via countercurrent mechanism",
+    "supply": "Vasa recta; relatively hypoxic, vulnerable to ischemic injury"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Cone-shaped medullary units (~8–18); base faces cortex, apex forms renal papilla; contain loops of Henle and collecting ducts"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Cortical tissue extending between renal pyramids; carries interlobar arteries and veins"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Apex of each pyramid; papillary ducts empty urine into a minor calyx; papillary necrosis with NSAIDs, sickle cell, diabetes"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Cups around each renal papilla collecting urine; several unite to form a major calyx"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Usually 2–3 per kidney; formed by minor calyces, drain into renal pelvis; staghorn calculi fill them"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Funnel-shaped upper ureter in renal sinus collecting urine from major calyces; ureteropelvic junction is common obstruction site"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Carry urine by peristalsis to bladder; stones lodge at ureteropelvic junction, pelvic brim, ureterovesical junction",
+    "innervation": "Renal/hypogastric plexuses; pain referred loin to groin (T11–L2)",
+    "attachments": "Renal pelvis → on psoas → crosses iliac bifurcation at pelvic brim → under uterine artery/ductus deferens → bladder",
+    "supply": "Segmental branches of renal, gonadal, aorta, common/internal iliac and vesical arteries"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Supplies abdominal viscera and walls: celiac, SMA, renal, gonadal, IMA and lumbar branches",
+    "attachments": "Aortic hiatus (T12) → descends left of IVC → bifurcates at L4 into common iliac arteries"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Returns blood from below diaphragm to RA; receives renal, right gonadal, right suprarenal and hepatic veins",
+    "attachments": "Union of common iliac veins at L5 → ascends right of aorta → caval opening (T8) → right atrium"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Paravertebral ganglion chain giving splanchnic nerves to renal and hypogastric plexuses (vasoconstriction, bladder filling/storage)",
+    "innervation": "Preganglionics T1–L2; kidney via lesser/least thoracic and lumbar splanchnics (~T10–L1)",
+    "attachments": "Lumbar part runs on anterolateral vertebral bodies along medial border of psoas"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Supply kidneys (~20–25% of cardiac output); stenosis causes renovascular hypertension",
+    "attachments": "Abdominal aorta at L1–L2 below SMA → right longer, passes behind IVC → anterior/posterior divisions → segmental arteries"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Drain kidneys into IVC",
+    "attachments": "Left longer, crosses anterior to aorta beneath SMA (nutcracker), receives left gonadal and suprarenal veins; right short"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Foregut artery: stomach, liver, gallbladder, spleen, part of pancreas, proximal duodenum",
+    "attachments": "Anterior aorta at T12 → left gastric, splenic and common hepatic arteries"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Midgut artery: distal duodenum to proximal two-thirds of transverse colon",
+    "attachments": "Anterior aorta at L1 below celiac → passes over left renal vein and third part of duodenum"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Hindgut artery: distal third of transverse colon to upper rectum",
+    "attachments": "Anterior aorta at L3 → left colic, sigmoid and superior rectal arteries"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Supply testes (testicular) or ovaries (ovarian)",
+    "attachments": "Anterior aorta at L2 below renal arteries → descend on psoas, crossing ureter anteriorly → deep inguinal ring or suspensory ligament"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Drain testes (from pampiniform plexus) or ovaries",
+    "attachments": "Right → IVC directly; left → left renal vein at right angle, so left varicocele is more common"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "End arteries supplying renal vascular segments; no anastomoses, so occlusion causes segmental infarction",
+    "attachments": "From anterior and posterior divisions of renal artery in renal sinus → interlobar arteries"
+   },
+   "subs": [
+    {
+     "name": "Superior (apical) segmental artery",
+     "parts": [
+      "FJ2042",
+      "FJ2052"
+     ],
+     "facts": {
+      "function": "Supplies superior (apical) segment of kidney",
+      "attachments": "Usually from anterior division of renal artery"
+     }
+    },
+    {
+     "name": "Anterior division (anterosuperior and anteroinferior segmental arteries)",
+     "parts": [
+      "FJ3558",
+      "FJ3559",
+      "FJ3560",
+      "FJ3561",
+      "FJ3562",
+      "FJ3563",
+      "FJ3458",
+      "FJ3459",
+      "FJ3460",
+      "FJ3461",
+      "FJ3462",
+      "FJ3463"
+     ],
+     "facts": {
+      "function": "Supplies anterior kidney via anterosuperior and anteroinferior segmental arteries",
+      "attachments": "Anterior branch of renal artery, passing anterior to renal pelvis"
+     }
+    },
+    {
+     "name": "Inferior segmental artery",
+     "parts": [
+      "FJ2043",
+      "FJ2049"
+     ],
+     "facts": {
+      "function": "Supplies inferior pole segment of kidney",
+      "attachments": "Usually from anterior division of renal artery"
+     }
+    },
+    {
+     "name": "Posterior segmental artery",
+     "parts": [
+      "FJ2045",
+      "FJ2053",
+      "FJ2054"
+     ],
+     "facts": {
+      "function": "Supplies posterior segment of kidney",
+      "attachments": "Posterior division of renal artery, passing posterior to renal pelvis"
+     }
+    }
+   ]
+  },
+  "24": {
+   "facts": {
+    "function": "Laterally flexes trunk and fixes 12th rib in inspiration; posterior relation of kidney",
+    "innervation": "Subcostal nerve (T12) and ventral rami L1–L4",
+    "attachments": "Iliac crest and iliolumbar ligament → 12th rib and L1–L4 transverse processes"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Flexes hip (with iliacus as iliopsoas); posterior relation of kidney and ureter; psoas sign with retroperitoneal inflammation",
+    "innervation": "Ventral rami L1–L3",
+    "attachments": "T12–L5 vertebral bodies, discs, transverse processes → lesser trochanter of femur"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Anterosuperior tip of bladder facing pubic symphysis; continues as median umbilical ligament (urachus remnant)"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Main part of bladder between apex and fundus; rises into abdomen when full (palpable suprapubically)"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Posterior surface of bladder facing rectum (male) or vagina (female); contains trigone internally"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Inferior, most fixed part of bladder leading into urethra; rests on prostate in males"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Smooth muscle of bladder wall; contracts to empty bladder during micturition",
+    "innervation": "Pelvic splanchnics (S2–S4, parasympathetic, M3) contract; sympathetic (β3) relaxes during filling"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Smooth triangle between two ureteric orifices and internal urethral orifice; derived from mesonephric ducts"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Opening of bladder into urethra at inferior apex of trigone; prostatic enlargement can obstruct it"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Involuntary smooth muscle at bladder neck; maintains continence and prevents retrograde ejaculation in males",
+    "innervation": "Sympathetic (T10–L2 via hypogastric nerve, α1) contracts; parasympathetic relaxes"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Voluntary skeletal muscle around membranous urethra; provides voluntary continence",
+    "innervation": "Pudendal nerve (S2–S4), somatic"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Slit-like ureter openings at posterolateral angles of trigone; oblique intramural course acts as flap valve against vesicoureteral reflux"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Conveys urine (and semen in males) from bladder to exterior",
+    "attachments": "Female ~4 cm, opens anterior to vagina (UTI-prone); male ~20 cm: prostatic, membranous, spongy parts"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Widest, most dilatable part; receives ejaculatory ducts at seminal colliculus and prostatic ducts; compressed in BPH"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Shortest, narrowest, least distensible part, surrounded by external urethral sphincter; injured in pelvic fractures"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Longest part, within corpus spongiosum; receives bulbourethral gland ducts; bulbar part injured in straddle injuries"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Male: slit at tip of glans (narrowest point; ventral in hypospadias); female: in vestibule between clitoris and vaginal opening"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Supply pelvis and lower limbs",
+    "attachments": "Aortic bifurcation (L4) → divide at sacroiliac joint/pelvic brim into internal and external iliacs; ureter crosses here"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Drain pelvis and lower limbs",
+    "attachments": "Internal + external iliac veins → unite at L5 to form IVC; left compressed by right common iliac artery (May–Thurner)"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Supply pelvic viscera, perineum, gluteal region and medial thigh",
+    "attachments": "Common iliac at sacroiliac joint → anterior division (vesical, uterine, internal pudendal, obturator) and posterior division"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Drain pelvic viscera (via pelvic venous plexuses), perineum and gluteal region",
+    "attachments": "Tributaries accompany internal iliac branches → join external iliac vein at pelvic brim → common iliac vein"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Main supply to lower limb; gives inferior epigastric and deep circumflex iliac arteries",
+    "attachments": "Common iliac → along pelvic brim on psoas → femoral artery beneath inguinal ligament"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Drain lower limb and lower anterior abdominal wall",
+    "attachments": "Continuation of femoral vein at inguinal ligament → joins internal iliac vein to form common iliac vein"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Supply superior bladder and distal ureter",
+    "attachments": "Branches of patent proximal umbilical artery (anterior division of internal iliac)"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Motor to external urethral and anal sphincters and perineal muscles; sensory to perineum and external genitalia",
+    "innervation": "S2–S4 ventral rami (somatic)",
+    "attachments": "Exits greater sciatic foramen → around ischial spine/sacrospinous ligament → lesser sciatic foramen → pudendal canal"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Secondary cartilaginous joint uniting pubic bones; bladder lies directly behind it (retropubic space)",
+    "attachments": "Fibrocartilaginous disc between pubic bodies; reinforced by superior and inferior pubic ligaments"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Forms most of pelvic floor; supports pelvic viscera, resists intra-abdominal pressure, aids urinary and fecal continence",
+    "innervation": "Nerve to levator ani (S4) and pudendal nerve (inferior rectal) branches",
+    "attachments": "Pubic bodies, tendinous arch of obturator fascia, ischial spines → perineal body, anococcygeal ligament, coccyx"
+   },
+   "subs": [
+    {
+     "name": "Pubococcygeus",
+     "parts": [
+      "FJ2550",
+      "FJ2545"
+     ],
+     "facts": {
+      "function": "Main part of levator ani; supports pelvic viscera around urethra, vagina and rectum",
+      "innervation": "Nerve to levator ani (S4) and pudendal nerve (inferior rectal) branches",
+      "attachments": "Posterior pubic body and anterior tendinous arch → anococcygeal ligament and coccyx"
+     }
+    },
+    {
+     "name": "Iliococcygeus",
+     "parts": [
+      "FJ2549",
+      "FJ2544"
+     ],
+     "facts": {
+      "function": "Thin posterolateral part of levator ani supporting pelvic floor",
+      "innervation": "Nerve to levator ani (S4) and pudendal nerve (inferior rectal) branches",
+      "attachments": "Posterior tendinous arch and ischial spine → coccyx and anococcygeal ligament"
+     }
+    },
+    {
+     "name": "Puborectalis",
+     "parts": [
+      "FJ2551",
+      "FJ2546"
+     ],
+     "facts": {
+      "function": "U-shaped sling around anorectal junction maintaining anorectal angle; key to fecal continence, relaxes for defecation",
+      "innervation": "Nerve to levator ani (S4) and pudendal nerve (inferior rectal) branches",
+      "attachments": "Pubic bodies → loops behind anorectal junction (no bony insertion)"
+     }
+    }
+   ]
+  },
+  "51": {
+   "facts": {
+    "function": "Secretes PSA-rich seminal fluid into prostatic urethra; BPH arises in transition zone, carcinoma in peripheral zone (DRE)",
+    "attachments": "Base at bladder neck → apex on urogenital diaphragm; posterior surface palpable through rectum",
+    "supply": "Inferior vesical (prostatic) arteries; prostatic venous plexus drains to internal iliac and vertebral plexus (bone metastases)"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Site of implantation and fetal development; usually anteverted and anteflexed over bladder",
+    "attachments": "Between bladder (vesicouterine pouch) and rectum (rectouterine pouch); held by cardinal and uterosacral ligaments",
+    "supply": "Uterine artery (internal iliac), crossing superior to ureter ('water under the bridge')"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Stores feces before defecation; lies posterior to bladder/prostate (male) or uterus/vagina (female)",
+    "attachments": "Continues sigmoid colon at S3 → anorectal junction at puborectalis sling",
+    "supply": "Superior (IMA), middle (internal iliac) and inferior (internal pudendal) rectal arteries"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Fibromuscular canal: menstrual outflow, copulation and birth canal; lies posterior to bladder and urethra, anterior to rectum",
+    "attachments": "Cervix → opens into vestibule",
+    "supply": "Vaginal and uterine arteries (internal iliac); upper lymph to iliac, lower to superficial inguinal nodes"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Terminal GI outlet; continence via internal (involuntary smooth) and external (voluntary skeletal) anal sphincters",
+    "innervation": "Above pectinate line visceral (painless); below via inferior rectal nerve (pudendal), painful",
+    "supply": "Above pectinate: superior rectal artery; below: inferior rectal artery"
+   }
+  }
+ }
+}

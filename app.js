@@ -170,18 +170,79 @@ function layers() {
   });
 }
 
+// ---------- functional notes + split rows (data/<stem>.facts.json) ----------
+const esc0 = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const FACT_FIELDS = [['function', 'Function'], ['innervation', 'Innervation'], ['attachments', 'Attachments'], ['supply', 'Blood supply']];
+let byOrderAll = new Map();
+function applyFacts(facts) {
+  const out = [];
+  for (const it of man.items) {
+    const f = facts[String(it.order)] || {};
+    it.facts = f.facts || null; out.push(it);
+    const subs = (f.subs || []).map((sb) => ({ ...sb, parts: (sb.parts || []).filter((id) => it.parts.includes(id) && meshes[id]) })).filter((sb) => sb.parts.length);
+    if (subs.length) { // "Femoral triangle: inguinal ligament, sartorius…" -> the triangle itself is a part too
+      const used = new Set(subs.flatMap((sb) => sb.parts)), head = it.structure.split(':')[0].trim().toLowerCase();
+      const self = it.parts.filter((id) => !used.has(id) && meshes[id] && head.length > 3 && meshes[id].userData.name.toLowerCase().includes(head));
+      if (self.length) subs.unshift({ name: it.structure.split(':')[0].trim(), parts: self, facts: f.facts || null });
+    }
+    if (subs.length >= 2) {
+      it.subs = subs.map((sb, k) => {
+        const o = Math.round((it.order + (k + 1) / 100) * 100) / 100;
+        out.push({ order: o, structure: sb.name, parts: sb.parts, section: it.section, priority: it.priority, status: 'sub', model: it.model, parent: it.order, facts: sb.facts || null });
+        return o;
+      });
+    }
+  }
+  man.items = out; byOrderAll = new Map(out.map((i) => [i.order, i]));
+}
+const leaves = () => man.items.filter((i) => i.parts.length && !(i.subs && i.subs.length));
+const expandItem = (it) => (it && it.subs && it.subs.length ? it.subs.map((o) => byOrderAll.get(o)).filter(Boolean) : [it]);
+function factsHTML(f, short = false) {
+  if (!f) return '';
+  const SHORT = { function: 'Function', innervation: 'Nerve', attachments: 'Attach', supply: 'Supply' };
+  return FACT_FIELDS.filter(([k]) => f[k]).map(([k, lab]) => short ? `<b>${SHORT[k]}</b> ${esc0(f[k])}` : `<div class="frow"><b>${lab}</b><span>${esc0(f[k])}</span></div>`).join(short ? '<br>' : '');
+}
+function showFacts(it) {
+  const box = $('facts'); if (!box) return;
+  const f = it && (it.facts || (it.parent != null ? byOrderAll.get(it.parent)?.facts : null));
+  box.innerHTML = f ? `<div class="fhead">${esc0(it.structure)}</div>${factsHTML(f)}` : ''; box.hidden = !f;
+}
+// missed / marked (for review + the Anki export)
+const MKEY = (k) => `a3d-${k}-${stem}`;
+const loadSet = (k) => { try { return new Set(JSON.parse(localStorage.getItem(MKEY(k)) || '[]')); } catch (e) { return new Set(); } };
+const saveSet = (k, set) => { try { localStorage.setItem(MKEY(k), JSON.stringify([...set])); } catch (e) {} };
+let missed = new Set(), marked = new Set();
+function setRowFlag(order, cls, on) { document.querySelectorAll(`.checklist [data-o="${order}"]`).forEach((r) => r.classList.toggle(cls, on)); }
+function addMissed(it) { if (!it || missed.has(it.order)) return; missed.add(it.order); saveSet('missed', missed); setRowFlag(it.order, 'missed', true); }
+function toggleMark() {
+  if (!cur) return; const o = cur.order, on = !marked.has(o);
+  on ? marked.add(o) : marked.delete(o); saveSet('marked', marked); setRowFlag(o, 'marked', on); markBtn();
+}
+function markBtn() { const b = $('btnMark'); if (b) { const on = cur && marked.has(cur.order); b.textContent = on ? '★ Marked' : '☆ Mark'; b.classList.toggle('on', !!on); } }
+// auto-next
+let autoTimer = null, autoNext = true;
+try { autoNext = localStorage.getItem('a3d-autonext') !== '0'; } catch (e) {}
+function cancelAuto() { if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; } const b = $('autobar'); if (b) b.hidden = true; }
+function autoAdvance(ms) {
+  cancelAuto(); if (!autoNext || !cur) return;
+  const me = cur, bar = $('autobar'); bar.hidden = false;
+  const fill = bar.querySelector('i'); fill.style.transition = 'none'; fill.style.width = '0%';
+  requestAnimationFrame(() => { fill.style.transition = `width ${ms}ms linear`; fill.style.width = '100%'; });
+  autoTimer = setTimeout(() => { autoTimer = null; bar.hidden = true; if (cur === me) next(); }, ms);
+}
+
 // ---------- quiz ----------
 function buildQueue() {
   if (brick) {
     // the order shown in the brick guide: group by group, top to bottom
     const seq = (brick.groups && brick.groups.length ? brick.groups.flatMap((g) => g.orders) : brick.items.map((b) => b.order));
     queue = seq.map((o) => brickItems.get(o)).filter((b) => b && (!hyOnly || b.yield !== 'low'))
-      .map((b) => man.items.find((i) => i.order === b.order)).filter((it) => it && it.parts.length);
+      .map((b) => byOrderAll.get(b.order)).flatMap(expandItem).filter((it) => it && it.parts.length);
     brickSeq = queue.slice();
     $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
   const sec = $('section').value, core = $('coreOnly').checked;
-  queue = man.items.filter((it) => it.parts.length && (!sec || it.section === sec) && (!core || it.priority !== 'conceptual'));
+  queue = leaves().filter((it) => (!sec || it.section === sec) && (!core || it.priority !== 'conceptual'));
   // follow the class sheet top to bottom (row order of the Word sheet; list order until the sheet is drawn)
   const rows = [...document.querySelectorAll('#clist tr[data-o]')].map((r) => +r.dataset.o);
   if (rows.length) { const pos = new Map(rows.map((o, i) => [o, i])); queue.sort((a, b) => (pos.get(a.order) ?? 1e9) - (pos.get(b.order) ?? 1e9)); }
@@ -198,7 +259,8 @@ function next() {
 function ask(item) {
   feedback('');
   restoreAutoHidden(); $('btnReveal').textContent = 'Show me';
-  cur = item; attempts = 0; done = false; markCurrent();
+  cancelAuto(); showFacts(null);
+  cur = item; attempts = 0; done = false; markCurrent(); markBtn();
   $('mcq').innerHTML = '';
   if (!cur && brick) {
     $('qlabel').textContent = 'Brick complete'; $('qtext').textContent = '🎉 ' + brick.title;
@@ -231,7 +293,15 @@ function finish(ok, solved = ok) {
   $('sOk').textContent = score.ok; $('sTry').textContent = score.tried;
   $('qtext').textContent = cur.structure; paint();
   if (ok && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
-  if (brick) showMCQ((brickItems.get(cur.order) || {}).questions || [], 0);
+  showFacts(cur);
+  let qs = [];
+  if (brick) {
+    const par = cur.parent != null ? byOrderAll.get(cur.parent) : null;
+    const lastSub = !par || par.subs[par.subs.length - 1] === cur.order; // a split row's questions come after its last part
+    qs = lastSub ? ((brickItems.get(cur.parent ?? cur.order) || {}).questions || []) : [];
+    showMCQ(qs, 0);
+  }
+  if (solved && !qs.length) autoAdvance(cur.facts || (cur.parent != null && byOrderAll.get(cur.parent)?.facts) ? 3200 : 1300);
 }
 function showMCQ(qs, k) {
   const box = $('mcq'); box.innerHTML = ''; if (k >= qs.length) return;
@@ -248,6 +318,7 @@ function showMCQ(qs, k) {
       (k + 1 < qs.length ? ' <button class="btn mcqnext">Next question →</button>' : '');
     const nx = box.querySelector('.mcqnext'); if (nx) nx.addEventListener('click', () => { box.dataset.done = ''; showMCQ(qs, k + 1); });
     if (right && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
+    if (right && k + 1 >= qs.length) autoAdvance(2600); // stay put after a miss so the explanation can be read
   }));
   box.dataset.done = '';
 }
@@ -352,13 +423,13 @@ function revealTarget(ids) {
 function onClick(ev) {
   const m = pick(ev); if (!m) return;
   const name = m.userData.name + (m.userData.role === 'custom' ? ' <span class="built">(built for this tool)</span>' : '');
-  if (mode === 'explore') { feedback(`<b>${name}</b>${itemFor(m.userData.id) ? ' · on your list as “' + itemFor(m.userData.id).structure + '”' : ''}`); flash(m); return; }
+  if (mode === 'explore') { const it = itemFor(m.userData.id); feedback(`<b>${name}</b>${it ? ' · on your list as “' + it.structure + '”' : ''}`); showFacts(it); flash(m); return; }
   if (mode !== 'find' || !cur || done) return;
   attempts++;
   if (hitsTarget(m)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
-  else { flash(m, BAD); feedback(`✗ That's <b>${name}</b>. Try again${attempts >= 2 ? ' — or press “Show me”' : ''}.`, 'bad'); }
+  else { flash(m, BAD); addMissed(cur); feedback(`✗ That's <b>${name}</b>. Try again${attempts >= 2 ? ' — or press “Show me”' : ''}.`, 'bad'); }
 }
-function itemFor(id) { return man.items.find((it) => it.parts.includes(id)); }
+function itemFor(id) { return man.items.find((it) => it.parent != null && it.parts.includes(id)) || man.items.find((it) => it.parts.includes(id)); }
 function flash(m, color = HIGHLIGHT) {
   const old = m.material.color.getHex(); m.material.color.setHex(color);
   setTimeout(() => { if (!done || !cur?.parts.includes(m.userData.id)) m.material.color.setHex(old); }, 900);
@@ -372,10 +443,23 @@ function saveChecks() { try { localStorage.setItem(CKEY(), JSON.stringify([...ch
 function check(order) {
   if (order == null || checked.has(order)) return; checked.add(order); saveChecks();
   document.querySelectorAll(`.checklist [data-o="${order}"]`).forEach((r) => { r.classList.add('done', 'pop'); setTimeout(() => r.classList.remove('pop'), 700); });
+  const it = byOrderAll.get(order), par = it && it.parent != null ? byOrderAll.get(it.parent) : null;
+  if (par && par.subs.every((o) => checked.has(o))) check(par.order); // all parts of a split row found -> the row
   countChecks();
 }
+function uncheck(order) {
+  if (!checked.delete(order)) return; saveChecks();
+  document.querySelectorAll(`.checklist [data-o="${order}"]`).forEach((r) => r.classList.remove('done'));
+  const it = byOrderAll.get(order); if (it && it.parent != null) uncheck(it.parent);
+  countChecks();
+}
+function toggleCheck(order) { // ticking the box by hand (no quiz needed)
+  const it = byOrderAll.get(order); if (!it) return;
+  const on = !checked.has(order);
+  for (const x of [it, ...(it.subs || []).map((o) => byOrderAll.get(o))]) if (x) (on ? check(x.order) : uncheck(x.order));
+}
 function countChecks() {
-  const inl = man.items.filter((i) => i.parts.length);
+  const inl = leaves();
   $('clCount').textContent = `${inl.filter((i) => checked.has(i.order)).length} / ${inl.length} checked`;
 }
 function markCurrent() {
@@ -384,14 +468,14 @@ function markCurrent() {
   document.querySelectorAll(`.checklist [data-o="${cur.order}"]`).forEach((r) => { r.classList.add('cur'); if (r.offsetParent) r.scrollIntoView({ block: 'nearest' }); });
 }
 async function buildChecklist() {
-  loadChecks();
+  loadChecks(); missed = loadSet('missed'); marked = loadSet('marked');
   const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const byOrder = new Map(man.items.map((i) => [i.order, i]));
+  const byOrder = byOrderAll;
   let sheet = null;
   try { const r = await fetch(`data/${stem}.sheet.json`); if (r.ok) sheet = await r.json(); } catch (e) {}
   if (!sheet) { // no Word sheet for this class (GI's list was a PDF): same layout, built from the list
     const rows = []; let sec = null;
-    man.items.slice().sort((a, b) => a.order - b.order).forEach((it) => {
+    man.items.filter((it) => it.parent == null).sort((a, b) => a.order - b.order).forEach((it) => {
       if (it.section !== sec) { sec = it.section; if (sec) rows.push({ t: 'sec', text: sec.split(' > ').pop(), fill: 'D9F2D0' }); }
       rows.push({ t: 'item', order: it.order, fill: '', cells: ['', '', ''] });
     });
@@ -403,14 +487,20 @@ async function buildChecklist() {
   const tot = sheet.grid.slice(0, ncol).reduce((a, b) => a + b, 0) || 1;
   const fill = (f) => (f && f !== 'auto' ? `background:#${f};color:${dark(f) ? '#fff' : '#111'}` : '');
   function dark(f) { const n = parseInt(f, 16); return ((n >> 16) * 299 + ((n >> 8) & 255) * 587 + (n & 255) * 114) / 1000 < 120; }
-  let html = '<colgroup>' + head.map((h, c) => `<col style="width:${(100 * (sheet.grid[c] || 0) / tot).toFixed(1)}%">`).join('') + '</colgroup>';
-  const headRow = (f) => `<tr class="shead" style="${fill(f || sheet.headFill)}">` + head.map((h) => `<th>${esc(h)}</th>`).join('') + '</tr>';
+  const hasFn = man.items.some((i) => i.facts), FN = tot * 0.75; // functional notes column (toggle)
+  const all = tot + (hasFn ? FN : 0);
+  let html = '<colgroup>' + head.map((h, c) => `<col style="width:${(100 * (sheet.grid[c] || 0) / all).toFixed(1)}%">`).join('') +
+    (hasFn ? `<col class="fncol" style="width:${(100 * FN / all).toFixed(1)}%">` : '') + '</colgroup>';
+  const headRow = (f) => `<tr class="shead" style="${fill(f || sheet.headFill)}">` + head.map((h) => `<th>${esc(h)}</th>`).join('') + (hasFn ? '<th class="fncol">Functional notes</th>' : '') + '</tr>';
+  const fnCell = (it) => (hasFn ? `<td class="fncol">${factsHTML(it.facts, true)}</td>` : '');
+  const flags = (o) => `${checked.has(o) ? ' done' : ''}${missed.has(o) ? ' missed' : ''}${marked.has(o) ? ' marked' : ''}`;
+  const NC = ncol + (hasFn ? 1 : 0);
   html += headRow(sheet.headFill);
   for (const r of sheet.rows) {
-    if (r.t === 'sec') html += `<tr class="ssec" style="${fill(r.fill)}"><th colspan="${ncol}">${esc(r.text)}</th></tr>`;
-    else if (r.t === 'sub') html += `<tr class="ssub" style="${fill(r.fill)}"><th>${esc(r.text)}</th>${(r.cells || []).slice(0, ncol - 1).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`;
+    if (r.t === 'sec') html += `<tr class="ssec" style="${fill(r.fill)}"><th colspan="${NC}">${esc(r.text)}</th></tr>`;
+    else if (r.t === 'sub') html += `<tr class="ssub" style="${fill(r.fill)}"><th>${esc(r.text)}</th>${(r.cells || []).slice(0, ncol - 1).map((c) => `<td>${esc(c)}</td>`).join('')}${hasFn ? '<td class="fncol"></td>' : ''}</tr>`;
     else if (r.t === 'rep') html += headRow(r.fill);
-    else if (r.t === 'blank') html += `<tr class="sblank" style="${fill(r.fill)}"><td colspan="${ncol}"></td></tr>`;
+    else if (r.t === 'blank') html += `<tr class="sblank" style="${fill(r.fill)}"><td colspan="${NC}"></td></tr>`;
     else {
       const it = byOrder.get(r.order); if (!it) continue;
       const na = !it.parts.length;
@@ -420,25 +510,89 @@ async function buildChecklist() {
         cells.push(c === indiv ? `<td class="ck"><span></span></td>` : `<td>${esc(v)}</td>`);
       }
       const name = `${indiv < 0 ? '<span class="ckin"></span>' : ''}${esc(it.structure)}${it.status === 'custom' ? ' <i class="bt" title="Built for this tool">◆</i>' : ''}${na ? ' <em>not in 3D</em>' : ''}`;
-      html += `<tr data-o="${it.order}" class="sitem${na ? ' na' : ''}${checked.has(it.order) ? ' done' : ''}" style="${fill(r.fill)}" title="${na ? 'Not in the 3D model' : 'Click to quiz this one'}"><td class="sname">${name}</td>${cells.join('')}</tr>`;
+      html += `<tr data-o="${it.order}" class="sitem${na ? ' na' : ''}${it.subs ? ' hassubs' : ''}${flags(it.order)}" style="${fill(r.fill)}" title="${na ? 'Not in the 3D model' : 'Click to quiz this one'}"><td class="sname">${name}</td>${cells.join('')}${fnCell(it)}</tr>`;
+      for (const so of it.subs || []) { // a row listing several structures: one sub-row each
+        const sb = byOrder.get(so); if (!sb) continue;
+        const sc = []; for (let c = 1; c < ncol; c++) sc.push(c === indiv ? `<td class="ck"><span></span></td>` : '<td></td>');
+        html += `<tr data-o="${so}" class="sitem subrow${flags(so)}" style="${fill(r.fill)}" title="Click to quiz this one"><td class="sname">${indiv < 0 ? '<span class="ckin"></span>' : ''}<span class="subarrow">↳</span> ${esc(sb.structure)}</td>${sc.join('')}${fnCell(sb)}</tr>`;
+      }
     }
   }
   $('sheetHdr').innerHTML = (sheet.hdr || []).map((h) => `<span>${esc(h)}</span>`).join('');
   $('clist').innerHTML = html; countChecks(); markCurrent();
-  if (brick) document.querySelectorAll('#clist tr[data-o]').forEach((r) => { if (!brickItems.has(+r.dataset.o)) r.classList.add('outbrick'); });
+  if (brick) document.querySelectorAll('#clist tr[data-o]').forEach((r) => { const it = byOrder.get(+r.dataset.o); if (!brickItems.has(it?.parent ?? +r.dataset.o)) r.classList.add('outbrick'); });
+  $('clist').classList.toggle('nofn', !fnOn());
   $('clist').addEventListener('click', (e) => {
     const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na') || r.classList.contains('outbrick')) return;
-    const it = byOrder.get(+r.dataset.o);
+    if (e.target.closest('td.ck, .ckin')) { toggleCheck(+r.dataset.o); return; } // tick by hand
+    const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0; // a split row starts at its first part
     if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); ask(it);
   });
-  $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); document.querySelectorAll('.checklist .done').forEach((r) => r.classList.remove('done')); countChecks(); });
+  $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); missed.clear(); saveSet('missed', missed); document.querySelectorAll('.checklist .done, .checklist .missed').forEach((r) => r.classList.remove('done', 'missed')); countChecks(); });
+  $('fnToggle').checked = fnOn(); $('fnToggle').hidden = !hasFn; $('fnToggle').parentElement.hidden = !hasFn;
+  $('fnToggle').addEventListener('change', (e) => { try { localStorage.setItem('a3d-fncol', e.target.checked ? '1' : '0'); } catch (x) {} $('clist').classList.toggle('nofn', !e.target.checked); document.querySelector('.layout').classList.toggle('wide', e.target.checked); });
+  document.querySelector('.layout').classList.toggle('wide', hasFn && fnOn());
+}
+
+function fnOn() { try { return localStorage.getItem('a3d-fncol') !== '0'; } catch (e) { return true; } }
+
+// ---------- export: spreadsheet, printable sheet, Anki ----------
+function scopeItems() { // brick mode: the brick (guide order); otherwise the whole class list (sheet order)
+  if (brick) {
+    const seq = brick.groups && brick.groups.length ? brick.groups.flatMap((g) => g.orders) : brick.items.map((b) => b.order);
+    return seq.map((o) => byOrderAll.get(o)).filter(Boolean).flatMap((it) => [it, ...(it.subs || []).map((o) => byOrderAll.get(o))]);
+  }
+  const rows = [...document.querySelectorAll('#clist tr[data-o]')].map((r) => byOrderAll.get(+r.dataset.o)).filter(Boolean);
+  return rows.length ? rows : man.items;
+}
+function download(name, text, type) {
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name;
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+const fileBase = () => (brick ? brick.title : $('title').textContent).replace(/[^\w&() -]+/g, '').trim().replace(/\s+/g, '_');
+const factOf = (it, k) => (it.facts && it.facts[k]) || '';
+function exportCSV() {
+  const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+  const lines = [['Section', 'Structure', 'In 3D', 'Checked', 'Missed', 'Marked', 'Function', 'Innervation', 'Attachments', 'Blood supply'].map(q).join(',')];
+  for (const it of scopeItems()) lines.push([it.section, (it.parent != null ? '  - ' : '') + it.structure, it.parts.length ? 'yes' : 'no', checked.has(it.order) ? 'yes' : '', missed.has(it.order) ? 'yes' : '', marked.has(it.order) ? 'yes' : '',
+    factOf(it, 'function'), factOf(it, 'innervation'), factOf(it, 'attachments'), factOf(it, 'supply')].map(q).join(','));
+  download(fileBase() + '.csv', '\ufeff' + lines.join('\r\n'), 'text/csv;charset=utf-8');
+}
+function exportPrint() {
+  const rows = scopeItems().map((it) => `<tr class="${it.parent != null ? 'sub' : ''}"><td class="c">${checked.has(it.order) ? '☑' : '☐'}</td><td><b>${it.parent != null ? '↳ ' : ''}${esc0(it.structure)}</b>${marked.has(it.order) ? ' ★' : ''}${missed.has(it.order) ? ' <span class="m">missed</span>' : ''}<div class="s">${esc0(it.section || '')}</div></td><td>${factsHTML(it.facts, true)}</td></tr>`).join('');
+  const w = window.open('', '_blank'); if (!w) return;
+  w.document.write(`<!doctype html><meta charset="utf-8"><title>${esc0(brick ? brick.title : $('title').textContent)}</title><style>body{font:12px Calibri,Arial,sans-serif;margin:24px;color:#111}h1{font-size:17px;margin:0 0 4px}p{color:#555;margin:0 0 12px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #000;padding:4px 6px;vertical-align:top}th{background:#d9f2d0}td.c{text-align:center;width:28px;font-size:15px}tr.sub td{background:#f6f6f6}.s{color:#666;font-size:10px}.m{color:#b91c1c;font-size:10px}@media print{button{display:none}}</style>` +
+    `<h1>${esc0(brick ? brick.title : $('title').textContent)}</h1><p>${esc0($('eyebrow').textContent)} · ${esc0($('clCount').textContent)} · exported ${new Date().toLocaleDateString()}</p><button onclick="print()">Print / Save as PDF</button>` +
+    `<table><tr><th>✓</th><th>Structure</th><th>Functional notes</th></tr>${rows}</table>`);
+  w.document.close(); setTimeout(() => { try { w.print(); } catch (e) {} }, 400);
+}
+function exportAnki(onlyFlagged) {
+  const clean = (t) => String(t ?? '').replace(/[\t\r\n]+/g, ' ');
+  const title = brick ? brick.title : $('title').textContent;
+  let items = scopeItems().filter((it) => it.parts.length || it.facts);
+  if (onlyFlagged) items = items.filter((it) => missed.has(it.order) || marked.has(it.order));
+  if (!items.length) { feedback('Nothing missed or marked yet. Mark structures with ☆, or export the whole list.'); return; }
+  const deck = `Active Transport::3D Anatomy::${clean(title).replace(/::/g, ' ')}`;
+  const tagBase = 'AT_3D ' + stem;
+  const out = ['#separator:tab', '#html:true', '#notetype:Basic', `#deck:${deck}`, '#tags column:3'];
+  for (const it of items) {
+    const f = it.facts || (it.parent != null ? byOrderAll.get(it.parent)?.facts : null);
+    const ex = brick && brickItems.get(it.parent ?? it.order)?.excerpt;
+    const front = `<b>${esc0(it.structure)}</b><br><span style="font-size:12px;color:#888">${esc0(title)}${it.section ? ' · ' + esc0(it.section) : ''}</span><br><br>Function? Innervation? Attachments? Supply?`;
+    const back = (f ? FACT_FIELDS.filter(([k]) => f[k]).map(([k, lab]) => `<b>${lab}:</b> ${esc0(f[k])}`).join('<br>') : '') + (ex ? `<br><br><i>“${esc0(ex)}”</i>` : '');
+    const tags = [tagBase, missed.has(it.order) ? 'missed' : '', marked.has(it.order) ? 'marked' : ''].filter(Boolean).join(' ');
+    out.push([clean(front), clean(back || 'See the 3D model'), tags].join('\t'));
+  }
+  download(fileBase() + (onlyFlagged ? '_missed_marked' : '') + '_anki.txt', out.join('\n'), 'text/plain;charset=utf-8');
+  feedback(`Anki file downloaded (${items.length} cards). In Anki: File → Import → pick the file.`);
 }
 
 // ---------- brick guide: the brick's structures grouped as the lecture presents them ----------
 function buildGuide() {
   const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const byOrder = new Map(man.items.map((i) => [i.order, i]));
+  const byOrder = byOrderAll;
+  const flags = (o) => `${checked.has(o) ? ' done' : ''}${missed.has(o) ? ' missed' : ''}${marked.has(o) ? ' marked' : ''}`;
   const groups = brick.groups && brick.groups.length ? brick.groups : [{ title: brick.title, orders: brick.items.map((b) => b.order) }];
   const nHi = brick.items.filter((b) => b.yield !== 'low').length;
   let html = `<div class="ghead"><div class="gtitle">${esc(brick.title)}</div><div class="gmeta">Week ${esc(brick.week)} · Session ${esc(brick.session)} · ` +
@@ -449,17 +603,20 @@ function buildGuide() {
     for (const o of g.orders) {
       const b = brickItems.get(o), it = byOrder.get(o); if (!b || !it) continue;
       const low = b.yield === 'low', nq = (b.questions || []).length;
-      html += `<div class="gitem${low ? ' low' : ''}${checked.has(o) ? ' done' : ''}${it.parts.length ? '' : ' na'}" data-o="${o}">` +
+      html += `<div class="gitem${low ? ' low' : ''}${flags(o)}${it.parts.length ? '' : ' na'}" data-o="${o}">` +
         `<span class="ck"></span><div class="gbody"><div class="gname">${esc(it.structure)}` +
         ` <span class="tag ${low ? 'ly' : 'hy'}">${low ? 'Low yield' : 'High yield'}</span>${nq ? ` <span class="nq">${nq} Q</span>` : ''}</div>` +
         (b.excerpt ? `<div class="gex">“${esc(b.excerpt)}”</div>` : '') + `</div></div>`;
+      for (const so of it.subs || []) { const sb = byOrder.get(so); if (!sb) continue;
+        html += `<div class="gitem sub${low ? ' low' : ''}${flags(so)}" data-o="${so}"><span class="ck"></span><div class="gbody"><div class="gname">↳ ${esc(sb.structure)}</div></div></div>`; }
     }
     html += '</div>';
   }
   $('guide').innerHTML = html;
   $('guide').addEventListener('click', (e) => {
     const r = e.target.closest('.gitem'); if (!r || r.classList.contains('na')) return;
-    const it = byOrder.get(+r.dataset.o);
+    if (e.target.closest('.ck')) { toggleCheck(+r.dataset.o); return; } // tick by hand
+    const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0;
     if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); ask(it);
   });
@@ -488,15 +645,16 @@ function wire() {
   $('nameForm').addEventListener('submit', (e) => {
     e.preventDefault(); if (!cur || done) return; attempts++;
     if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
-    else feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad');
+    else { addMissed(cur); feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad'); }
   });
   $('btnReveal').addEventListener('click', () => {
     if (!cur) return;
     if (revealDim) { restoreAutoHidden(); paint(); $('btnReveal').textContent = 'Show me'; return; } // toggle off: view + parts back
-    if (!done) { feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); }
+    cancelAuto();
+    if (!done) { addMissed(cur); feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); }
     revealTarget(cur.parts); $('btnReveal').textContent = 'Hide it';
   });
-  $('btnNext').addEventListener('click', next);
+  $('btnNext').addEventListener('click', () => { cancelAuto(); next(); });
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
   $('btnUnhide').addEventListener('click', () => { hidden.clear(); paint(); });
@@ -536,7 +694,18 @@ function wire() {
     const ms = Object.keys(man.models).map((m) => BODY_NAME[m] || m);
     $('modelNote').textContent = `${man.items.filter((i) => i.parts.length).length} of ${man.items.length} list structures are in 3D. ` +
       (ms.length > 1 ? `They come from two reference bodies (${ms.join(' and ')}); each question shows the body that has that structure, and the two are never mixed in one scene.` : `Model: ${ms[0]}.`);
+    let facts = {};
+    try { const r = await fetch(`data/${stem}.facts.json`); if (r.ok) facts = (await r.json()).items || {}; } catch (e) {}
+    applyFacts(facts);
     $('loading').remove(); wire(); await buildChecklist(); if (brick) buildGuide();
+    $('autoNext').checked = autoNext;
+    $('autoNext').addEventListener('change', (e) => { autoNext = e.target.checked; try { localStorage.setItem('a3d-autonext', autoNext ? '1' : '0'); } catch (x) {} if (!autoNext) cancelAuto(); });
+    $('btnMark').addEventListener('click', toggleMark);
+    $('autobar').querySelector('button').addEventListener('click', cancelAuto);
+    $('btnExport').addEventListener('click', (e) => { e.stopPropagation(); $('exportMenu').hidden = !$('exportMenu').hidden; });
+    document.addEventListener('click', () => { $('exportMenu').hidden = true; });
+    $('exportMenu').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; const k = b.dataset.x;
+      if (k === 'csv') exportCSV(); else if (k === 'print') exportPrint(); else exportAnki(k === 'anki-flagged'); });
     const qs = $('quality'); qs.value = QUALITY;
     qs.addEventListener('change', () => { try { localStorage.setItem(QKEY, qs.value); } catch (e) {} const u = new URL(location.href); u.searchParams.delete('q'); location.href = u.toString(); });
     need(1500);

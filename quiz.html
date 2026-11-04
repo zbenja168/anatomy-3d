@@ -46,6 +46,7 @@
     <div class="filters">
       <label>Section <select id="section"><option value="">All sections</option></select></label>
       <label class="chk"><input type="checkbox" id="coreOnly"> High-priority only</label>
+      <label class="chk"><input type="checkbox" id="autoNext" checked> Auto-next after a correct answer</label>
       <label class="qual">3D quality <select id="quality" title="Low is faster on older computers"><option value="lo">Low (faster)</option><option value="hi">High (sharper)</option></select></label>
     </div>
     <div class="card" id="qcard">
@@ -54,9 +55,12 @@
       <div class="qsec" id="qsec"></div>
       <form id="nameForm" class="nameform" hidden><input id="nameInput" autocomplete="off" spellcheck="false" placeholder="Type the structure name"><button class="btn primary">Check</button></form>
       <div class="feedback" id="feedback"></div>
+      <div class="facts" id="facts" hidden></div>
       <div class="mcq" id="mcq"></div>
+      <div class="autobar" id="autobar" hidden><i></i><span>Next in a moment…</span><button type="button">Stay</button></div>
       <div class="qbtns">
         <button class="btn" id="btnReveal">Show me</button>
+        <button class="btn mark" id="btnMark" title="Mark for review (goes into the Anki export)">☆ Mark</button>
         <button class="btn primary" id="btnNext">Next →</button>
       </div>
     </div>
@@ -68,7 +72,8 @@
   </aside>
   <aside class="checklist" aria-label="Structure list">
     <div class="cltabs"><button class="cltab on" data-t="guide">Brick guide</button><button class="cltab" data-t="sheet">Class sheet</button></div>
-    <div class="clhead"><b>Structure list</b><span id="clCount"></span><button id="clReset" class="linkbtn" title="Clear your checks">Reset</button></div>
+    <div class="clhead"><b>Structure list</b><span id="clCount"></span><label class="fnt"><input type="checkbox" id="fnToggle"> Functional notes</label><span class="exwrap"><button id="btnExport" class="linkbtn" title="Export this list">Export ▾</button>
+      <span class="exmenu" id="exportMenu" hidden><button data-x="csv">Spreadsheet (.csv)</button><button data-x="print">Printable sheet / PDF</button><button data-x="anki-flagged">Anki: missed + marked</button><button data-x="anki-all">Anki: whole list</button></span></span><button id="clReset" class="linkbtn" title="Clear your checks and misses">Reset</button></div>
     <div class="guide" id="guide" hidden></div>
     <div class="clwrap"><div class="paper"><div class="sheethdr" id="sheetHdr"></div><table id="clist" class="sheet"></table></div></div>
     <p class="clfoot">Checks save in this browser. ◆ = built for this tool. Click a structure to quiz it.</p>

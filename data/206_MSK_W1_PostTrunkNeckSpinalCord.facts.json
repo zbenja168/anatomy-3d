@@ -1,0 +1,498 @@
+{
+ "stem": "206_MSK_W1_PostTrunkNeckSpinalCord",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Bony framework of the posterior abdominal wall; attachment sites for psoas, iliacus and quadratus lumborum"
+   },
+   "subs": [
+    {
+     "name": "Lumbar vertebrae",
+     "parts": [
+      "SRC_Z_VERTEBRA_L1",
+      "SRC_Z_VERTEBRA_L2",
+      "SRC_Z_VERTEBRA_L3",
+      "SRC_Z_VERTEBRA_L4",
+      "SRC_Z_VERTEBRA_L5"
+     ],
+     "facts": {
+      "function": "Five large weight-bearing vertebrae; bodies and transverse processes anchor psoas major and quadratus lumborum",
+      "attachments": "Articulate with T12 above and sacrum below via intervertebral discs and zygapophysial (facet) joints"
+     }
+    },
+    {
+     "name": "12th rib",
+     "parts": [
+      "SRC_Z_TWELFTH_RIB_R",
+      "SRC_Z_TWELFTH_RIB_L"
+     ],
+     "facts": {
+      "function": "Floating rib forming the superior boundary of the posterior abdominal wall",
+      "attachments": "Articulates with T12 body only; inferior border receives quadratus lumborum"
+     }
+    },
+    {
+     "name": "Iliac crest and iliac fossa (hip bone)",
+     "parts": [
+      "SRC_Z_HIP_BONE_R",
+      "SRC_Z_HIP_BONE_L"
+     ],
+     "facts": {
+      "function": "Iliac crest anchors quadratus lumborum and abdominal wall muscles; iliac fossa gives origin to iliacus",
+      "attachments": "Iliac crest = superior border of ilium; iliac fossa = concave internal surface of ilium"
+     }
+    },
+    {
+     "name": "Lesser trochanter of the femur",
+     "parts": [
+      "SRC_Z_FEMUR_R",
+      "SRC_Z_FEMUR_L"
+     ],
+     "facts": {
+      "function": "Common insertion of iliopsoas (psoas major + iliacus)",
+      "attachments": "Posteromedial projection at the junction of femoral neck and shaft"
+     }
+    }
+   ]
+  },
+  "2": {
+   "facts": {
+    "function": "Iliopsoas: chief flexor of the hip; flexes trunk when femur fixed",
+    "attachments": "Lumbar vertebrae and iliac fossa → lesser trochanter of femur"
+   },
+   "subs": [
+    {
+     "name": "Psoas major",
+     "parts": [
+      "SRC_Z_PSOAS_MAJOR_R",
+      "SRC_Z_PSOAS_MAJOR_L"
+     ],
+     "facts": {
+      "function": "Flexes hip; bilaterally flexes trunk, unilaterally laterally flexes lumbar spine",
+      "innervation": "Anterior rami of L1–L3 (lumbar plexus)",
+      "attachments": "Bodies, discs and transverse processes of T12–L5 → lesser trochanter of femur",
+      "supply": "Lumbar arteries"
+     }
+    },
+    {
+     "name": "Iliacus",
+     "parts": [
+      "SRC_Z_ILIACUS_MUSCLE_R",
+      "SRC_Z_ILIACUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Flexes hip together with psoas major (iliopsoas)",
+      "innervation": "Femoral nerve (L2–L4)",
+      "attachments": "Iliac fossa, iliac crest, sacral ala → lesser trochanter via psoas tendon",
+      "supply": "Iliac branch of iliolumbar artery"
+     }
+    }
+   ]
+  },
+  "3": {
+   "facts": {
+    "function": "Extends and laterally flexes lumbar spine; fixes 12th rib during inspiration",
+    "innervation": "Anterior rami of T12–L4",
+    "attachments": "Iliac crest and iliolumbar ligament → 12th rib and transverse processes of L1–L4",
+    "supply": "Lumbar and subcostal arteries"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Elevates, retracts and upwardly rotates scapula; descending fibers elevate, ascending fibers depress",
+    "innervation": "Spinal accessory nerve (CN XI); C3–C4 proprioception",
+    "attachments": "External occipital protuberance, nuchal ligament, C7–T12 spinous processes → lateral clavicle, acromion, scapular spine",
+    "supply": "Transverse cervical artery"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Extends, adducts and medially rotates the humerus",
+    "innervation": "Thoracodorsal nerve (C6–C8)",
+    "attachments": "T7–T12 spinous processes, thoracolumbar fascia, iliac crest, lower ribs → floor of intertubercular sulcus of humerus",
+    "supply": "Thoracodorsal artery"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Elevates scapula and rotates glenoid inferiorly",
+    "innervation": "Dorsal scapular nerve (C5) and cervical nerves C3–C4",
+    "attachments": "Transverse processes of C1–C4 → medial border of scapula above the spine (superior angle)",
+    "supply": "Dorsal scapular artery"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Retracts scapula, rotates glenoid inferiorly, fixes scapula to thoracic wall",
+    "innervation": "Dorsal scapular nerve (C4–C5)",
+    "attachments": "Spinous processes T2–T5 → medial border of scapula below the spine",
+    "supply": "Dorsal scapular artery"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Retracts scapula, rotates glenoid inferiorly, fixes scapula to thoracic wall",
+    "innervation": "Dorsal scapular nerve (C4–C5)",
+    "attachments": "Nuchal ligament, spinous processes C7–T1 → medial border of scapula at root of spine",
+    "supply": "Dorsal scapular artery"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Intermediate extrinsic back muscles; weak rib movers, likely mainly proprioceptive"
+   },
+   "subs": [
+    {
+     "name": "Serratus posterior superior",
+     "parts": [
+      "SRC_Z_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_R",
+      "SRC_Z_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Proposed to elevate upper ribs (inspiration); likely proprioceptive",
+      "innervation": "2nd–5th intercostal nerves",
+      "attachments": "Nuchal ligament, spinous processes C7–T3 → superior borders of ribs 2–4"
+     }
+    },
+    {
+     "name": "Serratus posterior inferior",
+     "parts": [
+      "SRC_Z_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_R",
+      "SRC_Z_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Proposed to depress lower ribs (expiration); likely proprioceptive",
+      "innervation": "Anterior rami of T9–T12",
+      "attachments": "Spinous processes T11–L2 → inferior borders of ribs 8–12 near their angles"
+     }
+    }
+   ]
+  },
+  "10": {
+   "facts": {
+    "function": "Superficial intrinsic back layer; extend, laterally flex and ipsilaterally rotate head and neck",
+    "innervation": "Posterior rami of cervical spinal nerves"
+   },
+   "subs": [
+    {
+     "name": "Splenius capitis",
+     "parts": [
+      "SRC_Z_SPLENIUS_CAPITIS_MUSCLE_R",
+      "SRC_Z_SPLENIUS_CAPITIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Bilateral: extends head and neck; unilateral: laterally flexes and rotates face to same side",
+      "innervation": "Posterior rami of middle cervical spinal nerves",
+      "attachments": "Nuchal ligament, spinous processes C7–T3/T4 → mastoid process and lateral superior nuchal line"
+     }
+    },
+    {
+     "name": "Splenius cervicis",
+     "parts": [
+      "SRC_Z_SPLENIUS_COLLI_MUSCLE_R",
+      "SRC_Z_SPLENIUS_COLLI_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Bilateral: extends neck; unilateral: laterally flexes and rotates neck to same side",
+      "innervation": "Posterior rami of lower cervical spinal nerves",
+      "attachments": "Spinous processes T3–T6 → transverse processes of C1–C3/C4"
+     }
+    }
+   ]
+  },
+  "11": {
+   "facts": {
+    "function": "Chief extensors of the vertebral column; unilaterally laterally flex it",
+    "innervation": "Posterior rami of spinal nerves",
+    "attachments": "Common tendon from posterior iliac crest, sacrum, lumbar spinous processes → ribs, vertebrae, skull"
+   },
+   "subs": [
+    {
+     "name": "Iliocostalis",
+     "parts": [
+      "SRC_Z_ILIOCOSTALIS_COLLI_MUSCLE_R",
+      "SRC_Z_ILIOCOSTALIS_COLLI_MUSCLE",
+      "SRC_Z_ILIOCOSTALIS_THORACIS_MUSCLE_R",
+      "SRC_Z_ILIOCOSTALIS_THORACIS_MUSCLE_L",
+      "SRC_Z_ILIOCOSTALIS_LUMBORUM_MUSCLE_R",
+      "SRC_Z_ILIOCOSTALIS_LUMBORUM_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Lateral column; extends and laterally flexes the vertebral column",
+      "innervation": "Posterior rami of spinal nerves",
+      "attachments": "Common erector spinae tendon → angles of lower ribs and cervical transverse processes"
+     }
+    },
+    {
+     "name": "Longissimus",
+     "parts": [
+      "SRC_Z_LONGISSIMUS_CAPITIS_MUSCLE_R",
+      "SRC_Z_LONGISSIMUS_CAPITIS_MUSCLE_L",
+      "SRC_Z_LONGISSIMUS_COLLI_MUSCLE_R",
+      "SRC_Z_LONGISSIMUS_COLLI_MUSCLE_L",
+      "SRC_Z_LONGISSIMUS_THORACIS_MUSCLE_R",
+      "SRC_Z_LONGISSIMUS_THORACIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Intermediate column; extends vertebral column; capitis part extends head and turns face ipsilaterally",
+      "innervation": "Posterior rami of spinal nerves",
+      "attachments": "Common tendon → thoracic and cervical transverse processes, ribs, mastoid process (capitis)"
+     }
+    },
+    {
+     "name": "Spinalis",
+     "parts": [
+      "SRC_Z_SPINALIS_CAPITIS_MUSCLE_R",
+      "SRC_Z_SPINALIS_CAPITIS_MUSCLE_L",
+      "SRC_Z_SPINALIS_COLLI_MUSCLE_R",
+      "SRC_Z_SPINALIS_COLLI_MUSCLE_L",
+      "SRC_Z_SPINALIS_THORACIS_MUSCLE_R",
+      "SRC_Z_SPINALIS_THORACIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Medial column; extends vertebral column",
+      "innervation": "Posterior rami of spinal nerves",
+      "attachments": "Spinous processes of upper lumbar/lower thoracic vertebrae → spinous processes of upper thoracic vertebrae (and skull)"
+     }
+    }
+   ]
+  },
+  "12": {
+   "facts": {
+    "function": "Deep intrinsic group (semispinalis, multifidus, rotatores); stabilize, extend and contralaterally rotate vertebral column",
+    "innervation": "Posterior rami of spinal nerves",
+    "attachments": "Transverse processes → spinous processes of more superior vertebrae"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Extends head and thoracic/cervical spine; rotates contralaterally",
+    "innervation": "Posterior rami of spinal nerves",
+    "attachments": "Transverse processes C4–T10 → spinous processes 4–6 levels higher; capitis → occipital bone between nuchal lines"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Stabilizes vertebrae during local movement; thickest in lumbar region",
+    "innervation": "Posterior rami of spinal nerves",
+    "attachments": "Sacrum, ilium, thoracic transverse and cervical articular processes → spinous processes 2–4 segments higher"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Contains vertebral artery (3rd part) and suboccipital nerve (C1 posterior ramus)",
+    "attachments": "Bounded by rectus capitis posterior major, obliquus capitis superior and inferior; floor = posterior atlanto-occipital membrane, C1 arch"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Unilateral: laterally flexes neck, turns face to opposite side; bilateral: flexes neck",
+    "innervation": "Spinal accessory nerve (CN XI); C2–C3 proprioception",
+    "attachments": "Manubrium (sternal head) and medial clavicle (clavicular head) → mastoid process and lateral superior nuchal line",
+    "supply": "Occipital and superior thyroid arteries"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Contains mastoid air cells continuous with the middle ear",
+    "attachments": "Insertion of SCM, splenius capitis, longissimus capitis; digastric posterior belly attaches at mastoid notch"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Contains spinal accessory nerve, cervical plexus branches, brachial plexus trunks, subclavian artery (3rd part), external jugular vein",
+    "attachments": "Bounded by posterior SCM, anterior trapezius border, middle third of clavicle; roof = investing fascia"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Superior part of sternum; jugular notch palpable in midline; origin of SCM sternal head",
+    "attachments": "Articulates with clavicles, 1st costal cartilages, and sternal body at sternal angle (T4/T5)"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Strut holding upper limb away from trunk; transmits limb forces to axial skeleton; often fractured at middle third",
+    "attachments": "Sternoclavicular joint medially, acromioclavicular joint laterally; SCM, trapezius, deltoid, pectoralis major attach"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Body bears weight; arch and body enclose vertebral foramen protecting spinal cord",
+    "attachments": "Arch = paired pedicles + laminae; bodies joined by intervertebral discs"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Short stout bar joining arch to body; vertebral notches form intervertebral foramina",
+    "attachments": "Connects vertebral body to lamina, transverse and articular processes"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Flat plate forming posterior vertebral arch; removed in laminectomy",
+    "attachments": "Joins pedicle to spinous process; ligamenta flava connect adjacent laminae"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Opening bounded by body and arch of one vertebra; transmits spinal cord and meninges"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Stacked vertebral foramina; contains spinal cord, meninges, CSF, epidural fat, internal vertebral venous plexus"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Lever for intrinsic back muscles; palpable midline landmark",
+    "attachments": "Projects posteriorly from junction of laminae; supraspinous and interspinous ligaments attach"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Lever and attachment site for deep back muscles",
+    "attachments": "Projects laterally from pedicle–lamina junction; thoracic ones articulate with rib tubercles"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Transmits spinal nerve, dorsal root ganglion and segmental vessels",
+    "attachments": "Bounded by adjacent pedicle notches, disc and bodies anteriorly, facet joint posteriorly"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Seven vertebrae; small bodies, transverse foramina, bifid spinous processes (C3–C6)",
+    "attachments": "Uncovertebral joints between bodies; C7 = vertebra prominens"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Transmits vertebral artery (C6–C1) and vertebral veins; C7 usually transmits only veins"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Supplies brainstem, cerebellum, posterior cerebrum and spinal cord (posterior circulation)",
+    "attachments": "Subclavian branch → transverse foramina C6–C1 → suboccipital triangle → foramen magnum → joins partner to form basilar"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Twelve rib-bearing vertebrae; heart-shaped bodies, long inferiorly sloping spinous processes",
+    "attachments": "Costal facets on bodies (rib heads) and on transverse processes (rib tubercles, T1–T10)"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Articular surfaces for the ribs",
+    "attachments": "Superior/inferior costal facets on body → rib heads; transverse costal facet → rib tubercle (T1–T10)"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Five largest vertebrae; kidney-shaped bodies, hatchet-shaped spinous processes",
+    "attachments": "Sagittally oriented facets limit rotation; mammillary processes anchor multifidus"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Flexion–extension of head (nodding, 'yes')",
+    "attachments": "Occipital condyles ↔ superior articular facets of atlas (C1); atlas lacks body and spinous process"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Rotation of head ('no'); about half of cervical rotation",
+    "attachments": "Dens of axis (C2) ↔ anterior arch of atlas, held by transverse ligament; plus paired lateral atlantoaxial joints"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Conducts ascending and descending tracts; cervical and lumbosacral enlargements supply limbs; 31 segment pairs",
+    "attachments": "Continuous with medulla at foramen magnum → ends as conus medullaris at L1–L2 in adults",
+    "supply": "One anterior and two posterior spinal arteries, reinforced by segmental medullary arteries (artery of Adamkiewicz)"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Tapered end of spinal cord at L1–L2 (adult); gives rise to filum terminale",
+    "attachments": "Filum terminale anchors cord to coccyx"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Lumbar, sacral and coccygeal roots descending in lumbar cistern below conus; compression → saddle anesthesia, bowel/bladder dysfunction"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Carries afferent (sensory) fibers into dorsal horn",
+    "attachments": "Bears dorsal root ganglion (sensory cell bodies) in the intervertebral foramen"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Carries efferent motor fibers from anterior horn (plus preganglionic sympathetics at T1–L2)"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Mixed (motor + sensory) nerve formed by union of dorsal and ventral roots; 31 pairs",
+    "attachments": "Exits intervertebral foramen → divides into anterior and posterior rami"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Supplies anterolateral trunk and limbs; forms cervical, brachial, lumbar, sacral plexuses and intercostal nerves",
+    "innervation": "Mixed: motor and sensory"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Supplies intrinsic (deep) back muscles, zygapophysial joints and overlying back skin",
+    "innervation": "Mixed: motor and sensory"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Tough outermost meninx; dural sac ends at S2",
+    "attachments": "Attached to foramen magnum margin; separated from vertebrae by epidural space; sleeves follow nerve roots"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Avascular middle meninx lining dura; encloses CSF in subarachnoid space",
+    "attachments": "Held against dura by CSF pressure; ends with dural sac at S2"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Innermost meninx adherent to cord; forms denticulate ligaments and filum terminale",
+    "attachments": "Denticulate ligaments anchor cord laterally to dura"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Between dura and vertebral canal walls; contains fat and internal vertebral venous plexus; site of epidural anesthesia"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Potential space between dura and arachnoid; normally contains no CSF"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Between arachnoid and pia; contains CSF and spinal vessels; site of spinal anesthesia"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Enlarged subarachnoid space from conus (L2) to S2; contains cauda equina and CSF; lumbar puncture at L3–L4 or L4–L5"
+   }
+  }
+ }
+}

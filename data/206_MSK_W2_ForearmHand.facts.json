@@ -1,0 +1,777 @@
+{
+ "stem": "206_MSK_W2_ForearmHand",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Lateral forearm bone; rotates around ulna in pronation/supination; main wrist articulation (distal fracture = Colles)",
+    "attachments": "Head with capitulum and radial notch of ulna; distally with scaphoid, lunate, and ulnar head"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Medial forearm bone; forms the stable hinge articulation at the elbow",
+    "attachments": "Trochlear notch with trochlea; radial notch with radial head; distal head with ulnar notch of radius"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Disc-shaped proximal radius that spins within annular ligament during pronation/supination",
+    "attachments": "Articulates with capitulum and radial notch of ulna; encircled by annular ligament"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Medial projection below radial neck; lever point for supination",
+    "attachments": "Insertion of biceps brachii tendon"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Distal end of ulna forming distal radioulnar joint",
+    "attachments": "Articulates with ulnar notch of radius; separated from carpus by articular disc (TFCC)"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Concavity on medial distal radius receiving ulnar head; site of distal radioulnar joint",
+    "attachments": "Articulates with head of ulna; articular disc attaches to its margin"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Lateral distal radial projection, extending farther distally than ulnar styloid; palpable at proximal anatomical snuffbox",
+    "attachments": "Brachioradialis inserts at its base; radial collateral ligament of wrist attaches"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Medial distal ulnar projection palpable posteromedially at wrist",
+    "attachments": "Ulnar collateral ligament of wrist; articular disc (TFCC) attaches near its base"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Proximal carpal row; scaphoid and lunate articulate with radius at the wrist"
+   },
+   "subs": [
+    {
+     "name": "Scaphoid",
+     "parts": [
+      "SRC_Z_SCAPHOID_BONE_R",
+      "SRC_Z_SCAPHOID_BONE_L"
+     ],
+     "facts": {
+      "function": "Most commonly fractured carpal (snuffbox tenderness); retrograde supply → proximal pole avascular necrosis or nonunion",
+      "attachments": "Articulates with radius, lunate, capitate, trapezium, trapezoid; tubercle anchors flexor retinaculum",
+      "supply": "Radial artery branches entering distally (retrograde flow)"
+     }
+    },
+    {
+     "name": "Lunate",
+     "parts": [
+      "SRC_Z_LUNATE_BONE_R",
+      "SRC_Z_LUNATE_BONE_L"
+     ],
+     "facts": {
+      "function": "Most commonly dislocated carpal; anterior dislocation compresses median nerve in carpal tunnel",
+      "attachments": "Articulates with radius, scaphoid, triquetrum, capitate"
+     }
+    },
+    {
+     "name": "Triquetrum",
+     "parts": [
+      "SRC_Z_TRIQUETRUM_BONE_R",
+      "SRC_Z_TRIQUETRUM_BONE_L"
+     ],
+     "facts": {
+      "function": "Pyramidal medial bone of proximal carpal row",
+      "attachments": "Articulates with lunate, hamate, pisiform; separated from ulna by articular disc"
+     }
+    },
+    {
+     "name": "Pisiform",
+     "parts": [
+      "SRC_Z_PISIFORM_BONE_R",
+      "SRC_Z_PISIFORM_BONE_L"
+     ],
+     "facts": {
+      "function": "Sesamoid bone in FCU tendon; medial wall of Guyon's canal",
+      "attachments": "Articulates with triquetrum; FCU insertion, flexor retinaculum, abductor digiti minimi origin"
+     }
+    }
+   ]
+  },
+  "10": {
+   "facts": {
+    "function": "Distal carpal row; articulates with metacarpal bases at carpometacarpal joints"
+   },
+   "subs": [
+    {
+     "name": "Trapezium",
+     "parts": [
+      "SRC_Z_TRAPEZIUM_BONE_R",
+      "SRC_Z_TRAPEZIUM_BONE_L"
+     ],
+     "facts": {
+      "function": "Forms saddle-shaped thumb CMC joint; groove transmits FCR tendon",
+      "attachments": "Articulates with scaphoid, trapezoid, metacarpals I–II; tubercle anchors flexor retinaculum"
+     }
+    },
+    {
+     "name": "Trapezoid",
+     "parts": [
+      "SRC_Z_TRAPEZOID_BONE_R",
+      "SRC_Z_TRAPEZOID_BONE_L"
+     ],
+     "facts": {
+      "function": "Smallest, wedge-shaped bone of distal carpal row",
+      "attachments": "Articulates with 2nd metacarpal, trapezium, scaphoid, capitate"
+     }
+    },
+    {
+     "name": "Capitate",
+     "parts": [
+      "SRC_Z_CAPITATE_BONE_R",
+      "SRC_Z_CAPITATE_BONE_L"
+     ],
+     "facts": {
+      "function": "Largest carpal and first to ossify; keystone of carpal arch",
+      "attachments": "Articulates mainly with 3rd metacarpal; also lunate, scaphoid, trapezoid, hamate"
+     }
+    },
+    {
+     "name": "Hamate",
+     "parts": [
+      "SRC_Z_HAMATE_BONE_R",
+      "SRC_Z_HAMATE_BONE_L"
+     ],
+     "facts": {
+      "function": "Hook forms lateral wall of Guyon's canal; hook fracture can injure ulnar nerve",
+      "attachments": "Articulates with metacarpals IV–V, triquetrum, capitate; hook anchors flexor retinaculum"
+     }
+    }
+   ]
+  },
+  "11": {
+   "facts": {
+    "function": "Five bones of the palm, numbered I (thumb) to V"
+   },
+   "subs": [
+    {
+     "name": "Metacarpal I",
+     "parts": [
+      "SRC_Z_FIRST_METACARPAL_BONE_R",
+      "SRC_Z_FIRST_METACARPAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Shortest, thickest metacarpal; mobile saddle joint permits thumb opposition",
+      "attachments": "Base with trapezium; APL inserts on base, opponens pollicis on shaft"
+     }
+    },
+    {
+     "name": "Metacarpal II",
+     "parts": [
+      "SRC_Z_SECOND_METACARPAL_BONE_R",
+      "SRC_Z_SECOND_METACARPAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Longest metacarpal; nearly immobile CMC joint",
+      "attachments": "Base with trapezoid (plus trapezium, capitate); ECRL and FCR insert on base"
+     }
+    },
+    {
+     "name": "Metacarpal III",
+     "parts": [
+      "SRC_Z_THIRD_METACARPAL_BONE_R",
+      "SRC_Z_THIRD_METACARPAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Styloid process at base; central immobile axis of hand for ab/adduction",
+      "attachments": "Base with capitate; ECRB inserts on base"
+     }
+    },
+    {
+     "name": "Metacarpal IV",
+     "parts": [
+      "SRC_Z_FOURTH_METACARPAL_BONE_R",
+      "SRC_Z_FOURTH_METACARPAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Slender metacarpal with slightly mobile CMC joint",
+      "attachments": "Base with capitate and hamate"
+     }
+    },
+    {
+     "name": "Metacarpal V",
+     "parts": [
+      "SRC_Z_FIFTH_METACARPAL_BONE_R",
+      "SRC_Z_FIFTH_METACARPAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Most mobile medial metacarpal; neck fracture = boxer's fracture",
+      "attachments": "Base with hamate; ECU inserts on base"
+     }
+    }
+   ]
+  },
+  "12": {
+   "facts": {
+    "function": "14 per hand: thumb has proximal and distal; digits 2–5 have proximal, middle, distal"
+   },
+   "subs": [
+    {
+     "name": "Proximal phalanges",
+     "parts": [
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIRST_FINGER_OF_HAND_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIRST_FINGER_OF_HAND_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_SECOND_FINGER_OF_HAND_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_SECOND_FINGER_OF_HAND_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_THIRD_FINGER_OF_HAND_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_THIRD_FINGER_OF_HAND_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FOURTH_FINGER_OF_HAND_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FOURTH_FINGER_OF_HAND_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIFTH_FINGER_OF_HAND_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIFTH_FINGER_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Link metacarpals to distal digit; form MCP joints proximally",
+      "attachments": "Bases articulate with metacarpal heads (MCP); heads with middle phalanges (thumb: distal phalanx)"
+     }
+    },
+    {
+     "name": "Middle phalanges",
+     "parts": [
+      "SRC_Z_MIDDLE_PHALANX_OF_SECOND_FINGER_OF_HAND_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_SECOND_FINGER_OF_HAND_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_THIRD_FINGER_OF_HAND_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_THIRD_FINGER_OF_HAND_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_FOURTH_FINGER_OF_HAND_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_FOURTH_FINGER_OF_HAND_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_FIFTH_FINGER_OF_HAND_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_FIFTH_FINGER_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Present in digits 2–5 only; between PIP and DIP joints",
+      "attachments": "FDS inserts on sides of middle phalanges"
+     }
+    },
+    {
+     "name": "Distal phalanges",
+     "parts": [
+      "SRC_Z_DISTAL_PHALANX_OF_FIRST_FINGER_OF_HAND_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FIRST_FINGER_OF_HAND_L",
+      "SRC_Z_DISTAL_PHALANX_OF_SECOND_FINGER_OF_HAND_R",
+      "SRC_Z_DISTAL_PHALANX_OF_SECOND_FINGER_OF_HAND_L",
+      "SRC_Z_DISTAL_PHALANX_OF_THIRD_FINGER_OF_HAND_R",
+      "SRC_Z_DISTAL_PHALANX_OF_THIRD_FINGER_OF_HAND_L",
+      "SRC_Z_DISTAL_PHALANX_OF_FOURTH_FINGER_OF_HAND_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FOURTH_FINGER_OF_HAND_L",
+      "SRC_Z_DISTAL_PHALANX_OF_FIFTH_FINGER_OF_HAND_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FIFTH_FINGER_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Terminal phalanges supporting nail bed and fingertip pulp",
+      "attachments": "FDP inserts on bases (digits 2–5); FPL on thumb; extensor terminal tendon dorsally"
+     }
+    }
+   ]
+  },
+  "13": {
+   "facts": {
+    "function": "Pronation/supination: radius rotates around ulna at proximal and distal radioulnar pivot joints",
+    "attachments": "Interosseous membrane links radius and ulna shafts, transfers force radius → ulna, separates compartments"
+   },
+   "subs": [
+    {
+     "name": "Annular ligament",
+     "parts": [
+      "SRC_Z_ANNULAR_LIGAMENT_OF_RADIUS_R",
+      "SRC_Z_ANNULAR_LIGAMENT_OF_RADIUS_L"
+     ],
+     "facts": {
+      "function": "Holds radial head in radial notch during rotation; subluxation = nursemaid's elbow",
+      "attachments": "Anterior and posterior margins of radial notch of ulna, encircling radial head"
+     }
+    }
+   ]
+  },
+  "14": {
+   "facts": {
+    "function": "Condyloid synovial joint: flexion, extension, abduction, adduction, circumduction",
+    "attachments": "Distal radius and articular disc ↔ scaphoid, lunate, triquetrum"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Thumb CMC is a mobile saddle joint; CMC 2–3 nearly immobile; CMC 4–5 slightly mobile",
+    "attachments": "Distal carpal row ↔ bases of metacarpals I–V"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Saddle joint allowing flexion, extension, abduction, adduction, opposition; common osteoarthritis site",
+    "attachments": "Trapezium ↔ base of 1st metacarpal"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Condyloid joints: flexion/extension and abduction/adduction; collateral ligaments taut in flexion",
+    "attachments": "Metacarpal heads ↔ bases of proximal phalanges; palmar plates anteriorly"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Hinge joints allowing flexion/extension only; PIP and DIP in digits 2–5, single IP in thumb",
+    "attachments": "Phalangeal heads ↔ bases of next distal phalanges; collateral ligaments and palmar plates"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Fibrous bands holding tendons against the wrist, preventing bowstringing"
+   },
+   "subs": [
+    {
+     "name": "Flexor retinaculum",
+     "parts": [
+      "CUSTOM_FLEXOR_RETINACULUM"
+     ],
+     "facts": {
+      "function": "Roof of carpal tunnel; divided in carpal tunnel release",
+      "attachments": "Scaphoid and trapezium tubercles ↔ pisiform and hook of hamate"
+     }
+    },
+    {
+     "name": "Extensor retinaculum",
+     "parts": [
+      "SRC_Z_EXTENSOR_RETINACULUM_OF_WRIST_R",
+      "SRC_Z_EXTENSOR_RETINACULUM_OF_WRIST_L"
+     ],
+     "facts": {
+      "function": "Holds extensor tendons; septa divide them into six dorsal compartments",
+      "attachments": "Distal radius (lateral) ↔ ulnar styloid, triquetrum, pisiform (medial)"
+     }
+    }
+   ]
+  },
+  "20": {
+   "facts": {
+    "function": "Contains radial artery; floor is scaphoid and trapezium; tenderness suggests scaphoid fracture",
+    "attachments": "Bounded by APL and EPB tendons (lateral) and EPL tendon (medial)"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Transmits median nerve and 9 tendons (4 FDS, 4 FDP, FPL); compression → carpal tunnel syndrome",
+    "attachments": "Carpal bones form floor and walls; flexor retinaculum forms roof"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Transmits ulnar nerve and artery at wrist; compression (cyclists, hook of hamate fracture) → ulnar neuropathy",
+    "attachments": "Between pisiform (medial) and hook of hamate (lateral); roofed by palmar carpal ligament"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Pronates forearm; weakly flexes elbow; median nerve passes between its two heads",
+    "innervation": "Median nerve (C6–C7)",
+    "attachments": "Medial epicondyle (humeral head) and coronoid process (ulnar head) → mid lateral radius"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Flexes and abducts (radially deviates) wrist",
+    "innervation": "Median nerve (C6–C7)",
+    "attachments": "Medial epicondyle → base of 2nd metacarpal"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Weak wrist flexor; tenses palmar aponeurosis; absent in ~14%; tendon graft source",
+    "innervation": "Median nerve (C7–C8)",
+    "attachments": "Medial epicondyle → flexor retinaculum and palmar aponeurosis"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Flexes and adducts (ulnar deviates) wrist; ulnar nerve enters forearm between its heads",
+    "innervation": "Ulnar nerve (C7–C8)",
+    "attachments": "Medial epicondyle and olecranon/posterior ulna → pisiform, hook of hamate, 5th metacarpal"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Flexes PIP joints of digits 2–5; also MCP and wrist",
+    "innervation": "Median nerve (C7–T1)",
+    "attachments": "Medial epicondyle, coronoid process, anterior radius → shafts of middle phalanges of digits 2–5"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Only muscle flexing DIP joints of digits 2–5; also PIP, MCP, wrist; origin of lumbricals",
+    "innervation": "Medial half: ulnar nerve; lateral half: anterior interosseous nerve (C8–T1)",
+    "attachments": "Proximal anterior ulna and interosseous membrane → bases of distal phalanges of digits 2–5"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Flexes thumb at IP joint (and MCP)",
+    "innervation": "Anterior interosseous nerve (C8–T1)",
+    "attachments": "Anterior radius and interosseous membrane → base of distal phalanx of thumb"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Prime pronator of forearm; binds distal radius and ulna",
+    "innervation": "Anterior interosseous nerve (C8–T1)",
+    "attachments": "Distal anterior ulna → distal anterior radius"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Flexes elbow, strongest in midprone (thumb-up) position",
+    "innervation": "Radial nerve (C5–C6)",
+    "attachments": "Lateral supracondylar ridge of humerus → base of radial styloid"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Extends and abducts wrist; key for fist clenching",
+    "innervation": "Radial nerve (C6–C7)",
+    "attachments": "Lateral supracondylar ridge of humerus → dorsal base of 2nd metacarpal"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Extends and abducts wrist; origin implicated in lateral epicondylitis (tennis elbow)",
+    "innervation": "Deep branch of radial nerve (C7–C8)",
+    "attachments": "Lateral epicondyle (common extensor origin) → dorsal base of 3rd metacarpal"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Extends digits 2–5 at MCP (IPs via extensor expansions); assists wrist extension",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Lateral epicondyle → extensor expansions of digits 2–5"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Extends 5th digit",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Lateral epicondyle → extensor expansion of 5th digit"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Extends and adducts (ulnar deviates) wrist",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Lateral epicondyle and posterior ulna → base of 5th metacarpal"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Supinates forearm (main supinator when elbow extended)",
+    "innervation": "Deep branch of radial nerve, which passes through it to become posterior interosseous nerve",
+    "attachments": "Lateral epicondyle, radial collateral and annular ligaments, supinator crest of ulna → proximal lateral radius"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Abducts and extends thumb at CMC; lateral snuffbox border; de Quervain tenosynovitis",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Posterior radius, ulna, interosseous membrane → base of 1st metacarpal"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Extends thumb at MCP (and CMC); lateral snuffbox border; de Quervain tenosynovitis with APL",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Posterior radius and interosseous membrane → base of proximal phalanx of thumb"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Extends thumb at IP (and MCP, CMC); hooks around dorsal (Lister) tubercle; medial snuffbox border",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Posterior middle ulna and interosseous membrane → base of distal phalanx of thumb"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Extends index finger independently (pointing); assists wrist extension",
+    "innervation": "Posterior interosseous nerve (C7–C8)",
+    "attachments": "Posterior distal ulna and interosseous membrane → extensor expansion of 2nd digit"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Form thenar eminence; position the thumb for opposition and grip",
+    "innervation": "Recurrent branch of median nerve (C8–T1)"
+   },
+   "subs": [
+    {
+     "name": "Abductor pollicis brevis",
+     "parts": [
+      "SRC_Z_ABDUCTOR_POLLICIS_BREVIS_R",
+      "SRC_Z_ABDUCTOR_POLLICIS_BREVIS_L"
+     ],
+     "facts": {
+      "function": "Abducts thumb; tests recurrent median nerve",
+      "innervation": "Recurrent branch of median nerve (C8–T1)",
+      "attachments": "Flexor retinaculum, scaphoid and trapezium tubercles → lateral base of thumb proximal phalanx"
+     }
+    },
+    {
+     "name": "Flexor pollicis brevis",
+     "parts": [
+      "SRC_Z_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+      "SRC_Z_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L",
+      "SRC_Z_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+      "SRC_Z_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L"
+     ],
+     "facts": {
+      "function": "Flexes thumb at MCP joint",
+      "innervation": "Superficial head: recurrent branch of median nerve; deep head: often deep ulnar nerve",
+      "attachments": "Flexor retinaculum and trapezium tubercle → lateral base of thumb proximal phalanx"
+     }
+    },
+    {
+     "name": "Opponens pollicis",
+     "parts": [
+      "SRC_Z_OPPONENS_POLLICIS_MUSCLE_R",
+      "SRC_Z_OPPONENS_POLLICIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Opposes thumb: flexes and medially rotates 1st metacarpal",
+      "innervation": "Recurrent branch of median nerve (C8–T1)",
+      "attachments": "Flexor retinaculum and trapezium tubercle → lateral side of 1st metacarpal"
+     }
+    }
+   ]
+  },
+  "43": {
+   "facts": {
+    "function": "Adducts thumb; key for pinch grip (weakness → Froment sign)",
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "attachments": "Oblique head: capitate, bases of MC II–III; transverse head: MC III shaft → medial base of thumb proximal phalanx",
+    "supply": "Deep palmar arch"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Form hypothenar eminence; move the little finger",
+    "innervation": "Deep branch of ulnar nerve (C8–T1)"
+   },
+   "subs": [
+    {
+     "name": "Abductor digiti minimi",
+     "parts": [
+      "SRC_Z_ABDUCTOR_DIGITI_MINIMI_OF_HAND_R",
+      "SRC_Z_ABDUCTOR_DIGITI_MINIMI_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Abducts 5th digit",
+      "innervation": "Deep branch of ulnar nerve (C8–T1)",
+      "attachments": "Pisiform and FCU tendon → medial base of proximal phalanx of 5th digit"
+     }
+    },
+    {
+     "name": "Flexor digiti minimi brevis",
+     "parts": [
+      "SRC_Z_FLEXOR_DIGITI_MINIMI_OF_HAND_R",
+      "SRC_Z_FLEXOR_DIGITI_MINIMI_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Flexes 5th digit at MCP joint",
+      "innervation": "Deep branch of ulnar nerve (C8–T1)",
+      "attachments": "Hook of hamate and flexor retinaculum → medial base of proximal phalanx of 5th digit"
+     }
+    },
+    {
+     "name": "Opponens digiti minimi",
+     "parts": [
+      "SRC_Z_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_R",
+      "SRC_Z_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Draws 5th metacarpal anteriorly and rotates it toward thumb",
+      "innervation": "Deep branch of ulnar nerve (C8–T1)",
+      "attachments": "Hook of hamate and flexor retinaculum → medial border of 5th metacarpal"
+     }
+    }
+   ]
+  },
+  "45": {
+   "facts": {
+    "function": "Fine finger control: flex MCPs and extend IPs; interossei abduct and adduct digits"
+   },
+   "subs": [
+    {
+     "name": "Lumbricals",
+     "parts": [
+      "SRC_Z_LUMBRICAL_MUSCLES_OF_HAND_R",
+      "SRC_Z_LUMBRICAL_MUSCLES_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Flex MCP and extend IP joints of digits 2–5",
+      "innervation": "1st–2nd: median nerve; 3rd–4th: deep branch of ulnar nerve",
+      "attachments": "FDP tendons → lateral sides of extensor expansions of digits 2–5"
+     }
+    },
+    {
+     "name": "Dorsal interossei",
+     "parts": [
+      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_R",
+      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_L"
+     ],
+     "facts": {
+      "function": "Abduct digits from 3rd-digit axis (DAB); assist MCP flexion and IP extension",
+      "innervation": "Deep branch of ulnar nerve (C8–T1)",
+      "attachments": "Adjacent sides of metacarpals I–V → proximal phalanx bases and extensor expansions of digits 2–4"
+     }
+    },
+    {
+     "name": "Palmar interossei",
+     "parts": [
+      "SRC_Z_PALMAR_INTEROSSEI_MUSCLES_R",
+      "SRC_Z_PALMAR_INTEROSSEI_MUSCLES_L"
+     ],
+     "facts": {
+      "function": "Adduct digits 2, 4, 5 toward 3rd-digit axis (PAD); assist MCP flexion and IP extension",
+      "innervation": "Deep branch of ulnar nerve (C8–T1)",
+      "attachments": "Palmar surfaces of metacarpals II, IV, V → proximal phalanx bases and extensor expansions of same digits"
+     }
+    }
+   ]
+  },
+  "46": {
+   "facts": {
+    "function": "Motor to most anterior forearm flexors, thenar muscles, lateral two lumbricals; sensory to lateral palm and 3½ digits",
+    "innervation": "C5–T1, from lateral and medial cord roots",
+    "attachments": "Between pronator teres heads → deep to FDS → carpal tunnel → recurrent and digital branches"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Motor to FPL, lateral FDP, pronator quadratus; no cutaneous branch; lesion → cannot make OK sign",
+    "innervation": "C8–T1 fibers; branch of median nerve",
+    "attachments": "Arises from median nerve near pronator teres → descends on interosseous membrane with anterior interosseous artery"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Motor to thenar muscles (APB, FPB, OP); 'million-dollar nerve' at risk in carpal tunnel surgery",
+    "innervation": "C8–T1; branch of median nerve",
+    "attachments": "Arises distal to flexor retinaculum and curves back (recurrent) into thenar eminence"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Motor to FCU, medial FDP, hypothenar muscles, interossei, medial lumbricals, adductor pollicis; sensory to medial 1½ digits",
+    "innervation": "C8–T1, from medial cord",
+    "attachments": "Behind medial epicondyle → between FCU heads → with ulnar artery → Guyon's canal → superficial and deep branches"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Motor to arm and forearm extensors, brachioradialis, supinator; sensory to dorsolateral hand",
+    "innervation": "C5–T1, from posterior cord",
+    "attachments": "Anterior to lateral epicondyle between brachialis and brachioradialis → divides into superficial and deep branches"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Motor to ECRB and supinator; continues as posterior interosseous nerve",
+    "innervation": "Motor fibers of radial nerve",
+    "attachments": "Arises anterior to lateral epicondyle → pierces supinator (arcade of Frohse) into posterior compartment"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Motor to posterior forearm extensors (ED, EDM, ECU, APL, EPB, EPL, EI); lesion → finger drop without sensory loss",
+    "innervation": "C7–C8; motor, plus sensory to wrist joint",
+    "attachments": "Continuation of deep radial branch after supinator → runs with posterior interosseous artery"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Sensory to dorsolateral hand, thumb, and lateral 2½ digits proximally (first dorsal web space)",
+    "innervation": "Purely cutaneous sensory branch of radial nerve",
+    "attachments": "Runs deep to brachioradialis beside radial artery → emerges dorsally in distal forearm"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Supplies lateral forearm, thumb, index finger; pulse at wrist; arterial blood gas and catheter site",
+    "attachments": "Terminal branch of brachial → deep to brachioradialis → anatomical snuffbox → forms deep palmar arch"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Larger brachial terminal branch; supplies medial forearm and most of the hand",
+    "attachments": "Brachial artery → gives common interosseous → lateral to ulnar nerve through Guyon's canal → superficial palmar arch"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Supplies deep forearm via its interosseous branches",
+    "attachments": "Short branch of ulnar artery near radial tuberosity → anterior and posterior interosseous arteries"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Supplies deep anterior compartment (FPL, FDP, pronator quadratus), radius, and ulna",
+    "attachments": "Branch of common interosseous → on anterior interosseous membrane with AIN → pierces it distally to dorsal carpal network"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Supplies posterior (extensor) compartment of forearm",
+    "attachments": "Branch of common interosseous → over interosseous membrane → between superficial and deep extensors with PIN"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Contributes to elbow anastomosis posterolaterally",
+    "attachments": "Branch of posterior interosseous artery → ascends to anastomose with middle collateral artery"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Contributes to elbow anastomosis anterior to medial epicondyle",
+    "attachments": "Branch of ulnar artery → ascends to anastomose with inferior ulnar collateral artery"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Contributes to elbow anastomosis posterior to medial epicondyle",
+    "attachments": "Branch of ulnar artery → ascends to anastomose with superior ulnar collateral artery"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Supplies thenar muscles; often completes superficial palmar arch",
+    "attachments": "Arises from radial artery near wrist → through or over thenar muscles → joins superficial palmar arch"
+   }
+  },
+  "63": {
+   "facts": {
+    "function": "Supplies hypothenar muscles; completes deep palmar arch",
+    "attachments": "Arises from ulnar artery distal to pisiform → with deep ulnar nerve between hypothenar muscles → deep arch"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Supplies fingers via common palmar digital arteries",
+    "attachments": "Mainly ulnar artery, completed by superficial palmar branch of radial; deep to palmar aponeurosis, distal to deep arch"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Supplies palmar metacarpal arteries, interossei, and deep palm",
+    "attachments": "Mainly radial artery, completed by deep palmar branch of ulnar; on metacarpal bases, proximal to superficial arch"
+   }
+  }
+ }
+}

@@ -1,0 +1,634 @@
+{
+ "stem": "205_Repro",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Anterior bone of hip; forms anterior pelvic wall",
+    "attachments": "Body, superior and inferior rami; joins opposite pubis at symphysis"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Midline secondary cartilaginous joint; widens slightly in pregnancy",
+    "attachments": "Joins bodies of right and left pubic bones via fibrocartilaginous disc"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Large opening in hip bone, mostly closed by obturator membrane; obturator canal transmits obturator nerve and vessels",
+    "attachments": "Bounded by pubis and ischium"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Closes obturator foramen except obturator canal; attachment for obturator muscles",
+    "attachments": "Spans margins of obturator foramen"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Forms upper boundary of obturator foramen; pectineal line on superior surface",
+    "attachments": "Pubic body → acetabulum (joins ilium and ischium)"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Bony bar forming pubic arch sides; anchors perineal membrane and crura of penis/clitoris",
+    "attachments": "Inferior pubic ramus + ischial ramus"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Bears weight when sitting; landmark for pudendal block",
+    "attachments": "Origin of hamstrings; sacrotuberous ligament attaches"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Landmark for pudendal nerve block; separates greater and lesser sciatic notches",
+    "attachments": "Sacrospinous ligament, coccygeus, levator ani (tendinous arch)"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Greater sciatic foramen transmits piriformis, sciatic, pudendal nerves, gluteal and internal pudendal vessels",
+    "attachments": "Converted to foramen by sacrospinous and sacrotuberous ligaments"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Lesser sciatic foramen transmits obturator internus tendon, pudendal nerve, internal pudendal vessels (re-entering perineum)",
+    "attachments": "Between ischial spine and tuberosity; bounded by sacrospinous and sacrotuberous ligaments"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Stabilizes sacrum against rotation; forms sciatic foramina boundaries",
+    "attachments": "Sacrum/coccyx and posterior ilium → ischial tuberosity"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Divides greater from lesser sciatic foramen; resists sacral tilting",
+    "attachments": "Lateral sacrum/coccyx → ischial spine"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Fused S1–S5 vertebrae forming posterior pelvic wall; transmits sacral nerves via foramina",
+    "attachments": "Articulates with L5, ilia (sacroiliac joints), coccyx; promontory is obstetric landmark"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Tailbone; attachment for pelvic floor muscles and anococcygeal body",
+    "attachments": "Articulates with sacrum; coccygeus, iliococcygeus, gluteus maximus attach"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Diamond-shaped region below pelvic diaphragm; urogenital (anterior) and anal (posterior) triangles",
+    "attachments": "Pubic symphysis, ischial tuberosities, coccyx",
+    "innervation": "Pudendal nerve (S2–S4)"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Fibromuscular central tendon supporting pelvic floor; torn in obstetric lacerations/episiotomy",
+    "attachments": "Between urogenital and anal triangles; bulbospongiosus, superficial transverse perineal, external anal sphincter converge"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Main pelvic diaphragm muscle; supports pelvic viscera, resists intra-abdominal pressure, maintains fecal continence",
+    "innervation": "Nerve to levator ani (S3–S4) and pudendal nerve"
+   },
+   "subs": [
+    {
+     "name": "Puborectalis",
+     "parts": [
+      "FJ2551",
+      "FJ2546"
+     ],
+     "facts": {
+      "function": "U-shaped sling around anorectal junction; maintains anorectal angle for fecal continence",
+      "attachments": "Pubic bodies → sling behind anorectal junction"
+     }
+    },
+    {
+     "name": "Pubococcygeus",
+     "parts": [
+      "FJ2550",
+      "FJ2545"
+     ],
+     "facts": {
+      "function": "Main part of levator ani; supports pelvic viscera; injured in childbirth",
+      "attachments": "Pubic body and anterior tendinous arch → anococcygeal body, coccyx"
+     }
+    },
+    {
+     "name": "Iliococcygeus",
+     "parts": [
+      "FJ2549",
+      "FJ2544"
+     ],
+     "facts": {
+      "function": "Posterolateral pelvic floor support",
+      "attachments": "Ischial spine and posterior tendinous arch → anococcygeal body, coccyx"
+     }
+    }
+   ]
+  },
+  "18": {
+   "facts": {
+    "function": "Posterior pelvic diaphragm; supports viscera, flexes coccyx",
+    "innervation": "Anterior rami S4–S5",
+    "attachments": "Ischial spine → lateral sacrum and coccyx (overlies sacrospinous ligament)"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Laterally rotates thigh; forms lateral pelvic wall",
+    "innervation": "Nerve to obturator internus (L5–S2)",
+    "attachments": "Obturator membrane inner surface → exits lesser sciatic foramen → greater trochanter"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Laterally rotates extended thigh; key landmark in greater sciatic foramen",
+    "innervation": "Nerve to piriformis (S1–S2)",
+    "attachments": "Anterior sacrum → greater sciatic foramen → greater trochanter"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Female external genitalia",
+    "innervation": "Pudendal nerve (S2–S4); anterior labial branches of ilioinguinal nerve",
+    "supply": "Internal and external pudendal arteries"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Fatty eminence anterior to pubic symphysis",
+    "attachments": "Continuous posteriorly with labia majora"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Fat-filled skin folds bounding pudendal cleft; homologue of scrotum",
+    "attachments": "Round ligament of uterus terminates here"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Hairless folds bounding vestibule; anteriorly form prepuce and frenulum of clitoris; homologue of penile ventral skin"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Erectile sensory organ; homologue of penis (glans, corpora cavernosa)",
+    "innervation": "Dorsal nerve of clitoris (pudendal); cavernous nerves (parasympathetic, erection)",
+    "attachments": "Crura attach to ischiopubic rami, covered by ischiocavernosus"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Space between labia minora containing urethral and vaginal openings and Bartholin gland ducts"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Opening of vagina into vestibule, posterior to urethral orifice; may be partly covered by hymen"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Urethral opening in vestibule, between clitoris and vaginal opening (female)"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Secrete lubricating mucus into vestibule; cyst/abscess common",
+    "attachments": "Posterolateral to vaginal opening at 4 and 8 o'clock; homologue of bulbourethral glands"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Skin-muscle sac housing testes; dartos and cremaster regulate temperature",
+    "innervation": "Anterior: ilioinguinal/genitofemoral; posterior: pudendal and posterior femoral cutaneous",
+    "supply": "Lymph drains to superficial inguinal nodes (unlike testis)"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Produce sperm (seminiferous tubules) and testosterone (Leydig cells)",
+    "supply": "Testicular artery from aorta (L2); lymph drains to para-aortic nodes",
+    "innervation": "Testicular plexus (T10 referred pain)"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Stores and matures sperm; head, body, tail continuous with ductus deferens",
+    "attachments": "Posterolateral surface of testis"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Copulatory and urinary organ; erectile tissue in three corpora",
+    "innervation": "Pudendal (dorsal nerve, sensory); pelvic splanchnics 'point' erection; sympathetics 'shoot' emission",
+    "supply": "Internal pudendal artery: deep, dorsal and bulbar arteries"
+   },
+   "subs": [
+    {
+     "name": "Glans penis",
+     "parts": [
+      "FJ3134"
+     ],
+     "facts": {
+      "function": "Expanded distal corpus spongiosum; contains external urethral orifice and navicular fossa",
+      "innervation": "Dorsal nerve of penis (pudendal)"
+     }
+    },
+    {
+     "name": "Body of penis",
+     "parts": [
+      "FJ3132",
+      "FJ3133"
+     ],
+     "facts": {
+      "function": "Shaft formed by two dorsal corpora cavernosa and ventral corpus spongiosum within Buck fascia"
+     }
+    }
+   ]
+  },
+  "34": {
+   "facts": {
+    "function": "Paired dorsal erectile bodies; main tissue for rigidity during erection",
+    "attachments": "Crura attach to ischiopubic rami, covered by ischiocavernosus",
+    "supply": "Deep artery of penis (helicine arteries)"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Ventral erectile body surrounding spongy urethra; expands distally as glans, proximally as bulb",
+    "attachments": "Bulb attached to perineal membrane, covered by bulbospongiosus"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Carries urine from kidney to bladder",
+    "attachments": "Crosses pelvic brim at iliac bifurcation; passes under uterine artery/ductus deferens ('water under the bridge')"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Opening of bladder into urethra at apex of trigone",
+    "attachments": "Surrounded by internal urethral sphincter in males (prevents retrograde ejaculation)"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Fibromuscular canal from cervix to vestibule; birth canal",
+    "attachments": "Posterior fornix adjacent to rectouterine pouch (culdocentesis)",
+    "supply": "Vaginal and uterine arteries; upper lymph to iliac nodes, lower to superficial inguinal"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Narrow inferior uterus projecting into vagina; transformation zone is site of cervical neoplasia",
+    "attachments": "Supported by cardinal (transverse cervical) and uterosacral ligaments",
+    "supply": "Cervical branches of uterine artery"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Canal through cervix linking uterine cavity and vagina; lined by mucus-secreting columnar epithelium"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Opening of cervical canal into uterine cavity"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Opening of cervical canal into vagina; round in nulliparous, slit-like after vaginal birth"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Fundus above tube entry; body houses implantation and fetal development",
+    "supply": "Uterine artery (internal iliac); anastomoses with ovarian artery",
+    "attachments": "Usually anteverted and anteflexed"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Transport ova; ampulla is usual site of fertilization and ectopic pregnancy; fimbriae capture ovum",
+    "attachments": "Uterine horn (interstitial) → isthmus → ampulla → infundibulum; in mesosalpinx of broad ligament",
+    "supply": "Uterine and ovarian arteries"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Produces oocytes and estrogen/progesterone",
+    "attachments": "Suspensory ligament to pelvic wall; ovarian ligament to uterus; mesovarium to broad ligament",
+    "supply": "Ovarian artery from aorta (L2); lymph to para-aortic nodes"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Peritoneal fold draping uterus, tubes, ovaries; contains uterine vessels, round ligament, ureter at base",
+    "attachments": "Lateral uterus → lateral pelvic wall; parts: mesometrium, mesosalpinx, mesovarium"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Maintains uterine anteversion; derivative of gubernaculum; can cause pain in pregnancy",
+    "attachments": "Uterine horn → deep inguinal ring → inguinal canal → labia majora",
+    "supply": "Artery of round ligament (Sampson artery)"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Contains ovarian vessels, nerves, lymphatics; ureter at risk when ligated in oophorectomy",
+    "attachments": "Ovary → lateral pelvic wall"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Suspends testis; contains ductus deferens, testicular artery, pampiniform plexus, nerves, lymphatics",
+    "attachments": "Deep inguinal ring → inguinal canal → testis; coverings from abdominal wall layers"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Carries sperm from epididymis to ejaculatory duct; cut in vasectomy",
+    "attachments": "Tail of epididymis → spermatic cord → deep ring → crosses over ureter → ampulla joins seminal vesicle duct",
+    "supply": "Artery to ductus deferens (from superior vesical)"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Secrete fructose-rich alkaline fluid (most of semen volume)",
+    "attachments": "Posterior bladder; duct joins ductus deferens to form ejaculatory duct"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Carry sperm and seminal fluid into prostatic urethra",
+    "attachments": "Ductus deferens + seminal vesicle duct → pierce prostate → open on seminal colliculus"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Secretes alkaline fluid (PSA, citrate) into semen; BPH in transition zone, carcinoma in peripheral zone",
+    "attachments": "Below bladder, surrounds prostatic urethra; palpable on DRE through anterior rectum",
+    "supply": "Inferior vesical (prostatic) arteries; venous plexus drains to vertebral veins (bone mets)"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Widest urethra; receives ejaculatory and prostatic ducts at seminal colliculus",
+    "attachments": "Bladder neck → through prostate → membranous urethra"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Shortest, narrowest fixed part; surrounded by external urethral sphincter; ruptures in pelvic fracture",
+    "attachments": "Prostate apex → through deep perineal pouch → bulb of penis"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Longest urethral segment in corpus spongiosum; bulbourethral glands open here; straddle injury site",
+    "attachments": "Bulb of penis → external urethral orifice in glans"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Arteries supply pelvis and lower limbs; veins drain them to IVC",
+    "attachments": "Aorta bifurcates at L4 → common iliacs → divide at sacroiliac joint into internal and external"
+   },
+   "subs": [
+    {
+     "name": "Common iliac arteries",
+     "parts": [
+      "SRC_Z_COMMON_ILIAC_ARTERY_R",
+      "SRC_Z_COMMON_ILIAC_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supply pelvis and lower limb",
+      "attachments": "Aortic bifurcation (L4) → internal and external iliac at sacroiliac joint"
+     }
+    },
+    {
+     "name": "Common iliac veins",
+     "parts": [
+      "SRC_Z_COMMON_ILIAC_VEIN_R",
+      "SRC_Z_COMMON_ILIAC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Drain pelvis and lower limb",
+      "attachments": "Internal + external iliac veins → join at L5 to form IVC; right artery crosses left vein (May-Thurner)"
+     }
+    }
+   ]
+  },
+  "58": {
+   "facts": {
+    "function": "Supply/drain pelvic walls, viscera, perineum, gluteal region",
+    "attachments": "From common iliac at sacroiliac joint → anterior and posterior divisions"
+   },
+   "subs": [
+    {
+     "name": "Internal iliac arteries",
+     "parts": [
+      "SRC_Z_INTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_INTERNAL_ILIAC_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supply pelvic viscera, walls, perineum, gluteal region",
+      "attachments": "Common iliac → anterior division (visceral: uterine, vesical, internal pudendal) and posterior division (parietal)"
+     }
+    },
+    {
+     "name": "Internal iliac veins",
+     "parts": [
+      "SRC_Z_INTERNAL_ILIAC_VEIN_R",
+      "SRC_Z_INTERNAL_ILIAC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Drain pelvis, perineum, gluteal region",
+      "attachments": "Join external iliac vein → common iliac vein"
+     }
+    }
+   ]
+  },
+  "59": {
+   "facts": {
+    "function": "Continue into lower limb as femoral vessels",
+    "attachments": "From common iliac → along psoas → under inguinal ligament → femoral artery/vein"
+   },
+   "subs": [
+    {
+     "name": "External iliac arteries",
+     "parts": [
+      "SRC_Z_EXTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_EXTERNAL_ILIAC_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supply lower limb; give inferior epigastric and deep circumflex iliac",
+      "attachments": "Common iliac → under inguinal ligament → femoral artery"
+     }
+    },
+    {
+     "name": "External iliac veins",
+     "parts": [
+      "SRC_Z_EXTERNAL_ILIAC_VEIN_R",
+      "SRC_Z_EXTERNAL_ILIAC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Drain lower limb",
+      "attachments": "Femoral vein → external iliac → joins internal iliac → common iliac"
+     }
+    }
+   ]
+  },
+  "60": {
+   "facts": {
+    "function": "Supply/drain gonads; arise high because gonads descend from lumbar region",
+    "attachments": "Arteries from aorta at L2; right vein → IVC, left vein → left renal vein (left varicocele)"
+   },
+   "subs": [
+    {
+     "name": "Gonadal arteries",
+     "parts": [
+      "SRC_Z_RIGHT_TESTICULAR_ARTERY_R",
+      "SRC_Z_LEFT_TESTICULAR_ARTERY"
+     ],
+     "facts": {
+      "function": "Supply testes/ovaries",
+      "attachments": "Anterolateral abdominal aorta at L2 → testis via spermatic cord or ovary via suspensory ligament"
+     }
+    },
+    {
+     "name": "Gonadal veins",
+     "parts": [
+      "SRC_Z_RIGHT_TESTICULAR_VEIN",
+      "SRC_Z_LEFT_TESTICULAR_VEIN"
+     ],
+     "facts": {
+      "function": "Drain gonads; left more prone to varicocele (right-angle entry, nutcracker)",
+      "attachments": "Pampiniform plexus → right gonadal vein → IVC; left → left renal vein"
+     }
+    }
+   ]
+  },
+  "61": {
+   "facts": {
+    "function": "Main artery of perineum: supplies external genitalia, anal canal, erectile tissue",
+    "attachments": "Internal iliac anterior division → exits greater, re-enters lesser sciatic foramen → pudendal (Alcock) canal"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Main supply of uterus; also cervix and upper vagina",
+    "attachments": "Internal iliac anterior division → base of broad ligament, crosses OVER ureter ~2 cm lateral to cervix"
+   }
+  },
+  "63": {
+   "facts": {
+    "function": "Supplies vagina; may also supply bladder base",
+    "attachments": "Branch of internal iliac (or of uterine artery)"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Supplies glans and penile skin/fascia",
+    "attachments": "Terminal branch of internal pudendal artery; runs dorsally between deep dorsal vein and dorsal nerve"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Venous network around testicular artery; countercurrent cooling of testis; dilation = varicocele",
+    "attachments": "Converges into testicular vein at deep inguinal ring"
+   }
+  },
+  "66": {
+   "facts": {
+    "function": "Main venous drainage of erectile bodies",
+    "attachments": "Midline under Buck fascia → passes below pubic symphysis → prostatic venous plexus"
+   }
+  },
+  "67": {
+   "facts": {
+    "function": "Sensory to perineum and external genitalia; motor to perineal muscles and external urethral/anal sphincters",
+    "innervation": "S2–S4 (somatic)",
+    "attachments": "Exits greater sciatic foramen, around ischial spine/sacrospinous ligament, re-enters lesser → pudendal canal"
+   }
+  },
+  "68": {
+   "facts": {
+    "function": "Adducts, medially rotates and flexes humerus; deep to breast, retromammary space overlies its fascia",
+    "innervation": "Medial and lateral pectoral nerves (C5–T1)",
+    "attachments": "Clavicle, sternum, costal cartilages 1–6 → lateral lip of intertubercular groove"
+   }
+  },
+  "69": {
+   "facts": {
+    "function": "Stabilizes and protracts scapula; landmark dividing axillary nodes into levels I–III",
+    "innervation": "Medial pectoral nerve (C8–T1)",
+    "attachments": "Ribs 3–5 → coracoid process"
+   }
+  },
+  "70": {
+   "facts": {
+    "function": "Supplies upper limb, neck, brain (vertebral), chest wall (internal thoracic)",
+    "attachments": "Right from brachiocephalic, left from aortic arch → becomes axillary at lateral border of rib 1"
+   }
+  },
+  "71": {
+   "facts": {
+    "function": "Supplies medial breast (~60%), anterior chest wall, sternum",
+    "attachments": "Branch of subclavian → descends beside sternum → perforating branches to breast"
+   }
+  },
+  "72": {
+   "facts": {
+    "function": "Main artery of axilla; supplies shoulder, lateral chest wall, breast",
+    "attachments": "Continuation of subclavian at rib 1 → becomes brachial at teres major; three parts around pectoralis minor"
+   }
+  },
+  "73": {
+   "facts": {
+    "function": "Supplies lateral breast and lateral thoracic wall (serratus anterior)",
+    "attachments": "Branch of 2nd part of axillary artery; descends along lateral border of pectoralis minor"
+   }
+  },
+  "74": {
+   "facts": {
+    "function": "Drains medial breast and anterior chest wall",
+    "attachments": "Accompanies internal thoracic artery → brachiocephalic vein"
+   }
+  },
+  "75": {
+   "facts": {
+    "function": "Drains upper limb, lateral breast and lateral chest wall",
+    "attachments": "Basilic + brachial veins at teres major → becomes subclavian vein at lateral border of rib 1"
+   }
+  },
+  "76": {
+   "facts": {
+    "function": "Site of lactiferous duct openings; marks T4 dermatome in males",
+    "innervation": "Anterior and lateral cutaneous branches of 4th intercostal nerve"
+   }
+  },
+  "77": {
+   "facts": {
+    "function": "Pigmented skin around nipple; Montgomery (areolar) glands lubricate during nursing",
+    "supply": "Subareolar lymphatic plexus drains mainly to axillary nodes"
+   }
+  }
+ }
+}

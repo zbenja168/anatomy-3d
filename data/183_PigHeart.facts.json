@@ -1,0 +1,339 @@
+{
+ "stem": "183_PigHeart",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "RCA supplies right heart, SA/AV nodes, inferior LV (usually); LCA supplies most of LV and anterior septum",
+    "attachments": "Arise from right and left aortic sinuses just above aortic valve → run in coronary sulcus"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Supplies anterior LV wall, anterior two-thirds of IV septum and apex; most commonly occluded coronary artery (anterior MI)",
+    "attachments": "Branch of LCA → anterior interventricular sulcus toward apex; gives diagonal and septal perforator branches"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Supplies LA and lateral/posterior LV wall; gives obtuse marginal branches",
+    "attachments": "Branch of LCA → left in coronary sulcus around to posterior heart; gives PDA in left-dominant hearts"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Supplies lateral (obtuse margin) wall of left ventricle",
+    "attachments": "Branch of circumflex artery → descends along obtuse (left) margin of heart"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Supplies posterior one-third of IV septum, inferior LV wall and posteromedial papillary muscle",
+    "attachments": "Usually from RCA (right-dominant ~70–85%) → posterior interventricular sulcus; from circumflex in left-dominant hearts"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Supplies lateral wall of right ventricle",
+    "attachments": "Branch of RCA → runs along acute (right inferior) margin of heart toward apex"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Collects most cardiac venous blood and returns it to the right atrium; dilates with pulmonary hypertension",
+    "attachments": "Posterior coronary sulcus → opens into RA between IVC opening and tricuspid orifice"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Drains anterior heart (LAD territory)",
+    "attachments": "Anterior interventricular sulcus with LAD → coronary sulcus with circumflex → becomes coronary sinus"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Drains posterior/inferior ventricles and posterior septum",
+    "attachments": "Posterior interventricular sulcus with PDA → coronary sinus near its right end"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Drains right margin of heart (posterolateral RA and RV)",
+    "attachments": "Accompanies right marginal artery → right coronary sulcus with RCA → coronary sinus"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Main systemic artery carrying LV output; ascending, arch and descending (thoracic) parts"
+   },
+   "subs": [
+    {
+     "name": "Ascending aorta",
+     "parts": [
+      "SRC_Z_ASCENDING_AORTA"
+     ],
+     "facts": {
+      "function": "Carries LV output; its only branches are the right and left coronary arteries (from aortic sinuses)",
+      "attachments": "Arises from LV at aortic valve → ascends within pericardium → aortic arch at sternal angle"
+     }
+    },
+    {
+     "name": "Aortic arch",
+     "parts": [
+      "SRC_Z_AORTIC_ARCH"
+     ],
+     "facts": {
+      "function": "Distributes blood to head, neck and upper limbs via brachiocephalic trunk, left common carotid and left subclavian arteries",
+      "attachments": "Continues ascending aorta at sternal angle (T4) → arches posteriorly over left main bronchus → descending aorta at T4"
+     }
+    },
+    {
+     "name": "Descending (thoracic) aorta",
+     "parts": [
+      "SRC_Z_THORACIC_AORTA"
+     ],
+     "facts": {
+      "function": "Supplies posterior intercostal, bronchial, esophageal, pericardial and superior phrenic arteries",
+      "attachments": "Continues arch at T4 in posterior mediastinum → aortic hiatus of diaphragm (T12) → abdominal aorta"
+     }
+    }
+   ]
+  },
+  "12": {
+   "facts": {
+    "function": "Supplies right side of head and neck and right upper limb",
+    "attachments": "First branch of aortic arch → ascends behind right sternoclavicular joint → right common carotid and right subclavian"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Supplies left side of head and neck",
+    "attachments": "Second branch of aortic arch → ascends in left carotid sheath → bifurcates at C4 into internal and external carotids"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Supplies left upper limb; gives vertebral, internal thoracic, thyrocervical and costocervical branches; proximal stenosis causes subclavian steal",
+    "attachments": "Third branch of aortic arch → between anterior and middle scalenes → axillary artery at lateral border of rib 1"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Carries deoxygenated blood from RV to the lungs",
+    "attachments": "Arises from RV conus arteriosus at pulmonary valve → bifurcates under aortic arch into right and left pulmonary arteries"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Carry deoxygenated blood to the lungs",
+    "attachments": "Branches of pulmonary trunk; right passes behind ascending aorta and SVC; left joined to arch by ligamentum arteriosum"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Remnant of fetal ductus arteriosus (shunted pulmonary trunk blood to aorta); left RLN hooks around arch beside it",
+    "attachments": "Connects origin of left pulmonary artery to inferior surface of aortic arch"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Formed by LV; site of apical impulse (PMI) and mitral valve auscultation",
+    "attachments": "Points anteroinferiorly to the left, at left 5th intercostal space, midclavicular line"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Posterior surface formed mainly by LA (with some RA); receives the pulmonary veins",
+    "attachments": "Faces posteriorly toward T6–T9 vertebrae; separated from esophagus by pericardium (oblique sinus)"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Groove encircling heart between atria and ventricles; contains RCA, circumflex artery, coronary sinus, small and great cardiac veins"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Mark the interventricular septum: anterior holds LAD and great cardiac vein; posterior holds PDA and middle cardiac vein"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Receiving chambers: RA gets systemic venous return (SVC, IVC, coronary sinus); LA gets oxygenated pulmonary venous return"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Pumping chambers: RV to pulmonary trunk (anterior, thin-walled); LV to aorta (thickest wall, forms apex)",
+    "supply": "RV: RCA; LV: LAD and circumflex, inferior wall via PDA"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Separates ventricles; thick muscular part plus thin membranous part (most common VSD site); carries bundle of His branches",
+    "supply": "Anterior two-thirds: LAD septal perforators; posterior one-third: PDA"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Ear-like appendage of RA overlapping root of aorta; lined by pectinate muscles (primitive atrium derivative)"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Right AV valve (anterior, posterior, septal leaflets); prevents RV → RA backflow in systole; heard at left lower sternal border",
+    "attachments": "Leaflets anchored by chordae tendineae to anterior, posterior and septal papillary muscles"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Remnant of fetal foramen ovale in interatrial septum; patent foramen ovale permits paradoxical emboli",
+    "attachments": "Floor from septum primum; rim (limbus fossae ovalis) from septum secundum"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Opening of SVC into upper smooth RA (sinus venarum); no valve; SA node lies at junction with crista terminalis"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "IVC opens into lower RA; valve of IVC (Eustachian) directed fetal oxygenated IVC blood toward foramen ovale"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Coronary sinus opens into RA between IVC opening and tricuspid orifice; guarded by Thebesian valve; landmark of Koch triangle (AV node)"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Parallel muscular ridges in auricles and anterior RA wall anterior to crista terminalis; derived from primitive atrium"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Ridge separating smooth sinus venarum from rough pectinate RA; SA node lies at its upper end near SVC",
+    "attachments": "Runs from SVC opening to IVC opening; external correlate is sulcus terminalis"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "RV papillary muscles: tense tricuspid chordae in systole, preventing leaflet prolapse"
+   },
+   "subs": [
+    {
+     "name": "Anterior papillary muscle",
+     "parts": [
+      "FJ2419"
+     ],
+     "facts": {
+      "function": "Largest RV papillary muscle; chordae to anterior and posterior tricuspid leaflets; moderator band attaches at its base"
+     }
+    },
+    {
+     "name": "Posterior papillary muscle",
+     "parts": [
+      "FJ2430"
+     ],
+     "facts": {
+      "function": "RV papillary muscle with chordae to posterior and septal tricuspid leaflets"
+     }
+    },
+    {
+     "name": "Septal papillary muscle",
+     "parts": [
+      "FJ2437"
+     ],
+     "facts": {
+      "function": "Small RV papillary muscle arising from septum; chordae to anterior and septal tricuspid leaflets"
+     }
+    }
+   ]
+  },
+  "34": {
+   "facts": {
+    "function": "Tendinous cords that prevent tricuspid leaflets from everting into the RA during systole",
+    "attachments": "Anterior, posterior and septal papillary muscles → tricuspid leaflets"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Coarse muscular ridges of RV inflow wall; outflow tract (conus arteriosus/infundibulum) is smooth"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Carries right bundle branch from septum to anterior papillary muscle, coordinating its contraction; prevents RV overdistension",
+    "attachments": "Interventricular septum → base of anterior papillary muscle of RV"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Semilunar valve preventing pulmonary trunk → RV backflow in diastole; closure = P2; heard at left 2nd intercostal space",
+    "attachments": "Three cusps (right anterior, left anterior, posterior) at outflow of RV conus arteriosus"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Return oxygenated blood from lungs to left atrium; ostia are common atrial fibrillation trigger sites (ablation target)",
+    "attachments": "Usually four (superior and inferior from each lung) → enter posterior wall of left atrium"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Ear-like appendage of LA overlapping pulmonary trunk; main site of thrombus formation in atrial fibrillation"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Left AV valve (anterior and posterior leaflets); prevents LV → LA backflow in systole; heard at apex",
+    "attachments": "Leaflets anchored by chordae tendineae to anterolateral and posteromedial papillary muscles; anterior leaflet continuous with aortic valve"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "LV papillary muscles: tense mitral chordae in systole, preventing leaflet prolapse"
+   },
+   "subs": [
+    {
+     "name": "Anterolateral papillary muscle",
+     "parts": [
+      "FJ2429",
+      "FJ2418"
+     ],
+     "facts": {
+      "function": "LV papillary muscle with chordae to both mitral leaflets; rarely ruptures",
+      "supply": "Dual supply: LAD (diagonals) and circumflex"
+     }
+    },
+    {
+     "name": "Posteromedial papillary muscle",
+     "parts": [
+      "CUSTOM_LV_POSTEROMEDIAL_PAPILLARY"
+     ],
+     "facts": {
+      "function": "LV papillary muscle with chordae to both mitral leaflets; most prone to rupture after inferior MI (acute mitral regurgitation)",
+      "supply": "Single supply, usually PDA (RCA)"
+     }
+    }
+   ]
+  },
+  "42": {
+   "facts": {
+    "function": "Tendinous cords that prevent mitral leaflets from prolapsing into the LA during systole",
+    "attachments": "Anterolateral and posteromedial papillary muscles → both mitral leaflets"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Fine muscular ridges of LV wall; outflow tract (aortic vestibule) is smooth"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Semilunar valve preventing aorta → LV backflow in diastole; closure = A2; heard at right 2nd intercostal space",
+    "attachments": "Three cusps; coronary arteries arise from aortic sinuses just above the right and left cusps"
+   }
+  }
+ }
+}

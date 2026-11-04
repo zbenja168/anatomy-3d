@@ -1,0 +1,433 @@
+{
+ "stem": "210_Endocrine",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Secretes GH, PRL, ACTH, TSH, FSH, LH; derived from Rathke pouch (oral ectoderm)",
+    "supply": "Hypophyseal portal system from superior hypophyseal arteries (ICA); little direct arterial supply"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Releases ADH and oxytocin made in supraoptic and paraventricular nuclei; neuroectoderm origin",
+    "supply": "Inferior hypophyseal arteries (ICA)"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Connects hypothalamus to pituitary; carries hypothalamo-hypophyseal axons and portal vessels",
+    "attachments": "Median eminence → through diaphragma sellae → posterior pituitary"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Controls pituitary via releasing hormones and ADH/oxytocin neurons; regulates temperature, hunger, thirst, circadian rhythm",
+    "attachments": "Floor of diencephalon; forms floor and lower lateral walls of third ventricle"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Nasal retinal fibers decussate here; pituitary adenoma compression → bitemporal hemianopia",
+    "attachments": "Lies superior to pituitary, above diaphragma sellae"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "CN II; carries vision from retina",
+    "innervation": "Special sensory (vision)",
+    "attachments": "Optic canal → optic chiasm"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Dural venous sinus lateral to sella; ICA and CN VI pass through; CN III, IV, V1, V2 in lateral wall",
+    "attachments": "Receives ophthalmic veins; drains to superior and inferior petrosal sinuses"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Anterior circulation of brain and eye; gives superior/inferior hypophyseal arteries",
+    "attachments": "Common carotid → carotid canal → cavernous sinus → terminates as anterior and middle cerebral arteries"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Saddle-shaped depression of sphenoid body housing the pituitary",
+    "attachments": "Tuberculum sellae anteriorly, hypophyseal fossa centrally, dorsum sellae posteriorly"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Deepest part of sella turcica; holds pituitary gland",
+    "attachments": "Roofed by diaphragma sellae; sphenoid sinus lies inferior and anterior"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Posterior wall of sella turcica",
+    "attachments": "Posterior clinoid processes at its superolateral corners; continuous posteriorly with clivus"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Paranasal sinus beneath sella; route for transsphenoidal pituitary surgery",
+    "attachments": "Within sphenoid body; drains into sphenoethmoidal recess"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Follicular cells make T3/T4; parafollicular C cells make calcitonin",
+    "attachments": "Lateral to larynx and trachea; parathyroids on posterior surface",
+    "supply": "Superior and inferior thyroid arteries; superior, middle, inferior thyroid veins"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Follicular cells make T3/T4; parafollicular C cells make calcitonin",
+    "attachments": "Lateral to larynx and trachea; parathyroids on posterior surface",
+    "supply": "Superior and inferior thyroid arteries; superior, middle, inferior thyroid veins"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Connects right and left thyroid lobes across midline",
+    "attachments": "Overlies tracheal rings 2–3"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Thyroglossal duct remnant; present in about half of people",
+    "attachments": "Extends superiorly from isthmus toward hyoid bone"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Supplies superior thyroid pole and larynx (via superior laryngeal artery)",
+    "attachments": "First branch of external carotid → descends to superior pole with external branch of superior laryngeal nerve"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Supplies inferior thyroid and main supply of both parathyroid glands",
+    "attachments": "Thyrocervical trunk → ascends, then medially behind carotid sheath; closely related to recurrent laryngeal nerve"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Supplies thyroid, neck and scapular region",
+    "attachments": "First part of subclavian → inferior thyroid, suprascapular, transverse cervical arteries"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Drain head, neck and upper limbs; receive inferior thyroid veins",
+    "attachments": "IJV + subclavian behind sternoclavicular joint → unite to form SVC; left is longer, crosses anteriorly"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Drain the thyroid gland",
+    "attachments": "Superior and middle thyroid veins → internal jugular vein; inferior thyroid veins → brachiocephalic veins"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Airway from cricoid cartilage (C6) to carina (T4/T5)",
+    "attachments": "C-shaped cartilage rings open posteriorly; thyroid isthmus anterior to rings 2–3"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Conveys food from pharynx (C6) to stomach; posterior to trachea",
+    "attachments": "Recurrent laryngeal nerves run in tracheoesophageal groove"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Strap muscles; depress hyoid and larynx during swallowing and speech",
+    "innervation": "Ansa cervicalis (C1–C3), except thyrohyoid (C1 via hypoglossal nerve)"
+   },
+   "subs": [
+    {
+     "name": "Sternohyoid",
+     "parts": [
+      "SRC_Z_STERNOHYOID_MUSCLE_R",
+      "SRC_Z_STERNOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses hyoid",
+      "innervation": "Ansa cervicalis (C1–C3)",
+      "attachments": "Manubrium and medial clavicle → body of hyoid"
+     }
+    },
+    {
+     "name": "Sternothyroid",
+     "parts": [
+      "SRC_Z_STERNOTHYROID_MUSCLE_R",
+      "SRC_Z_STERNOTHYROID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses larynx (thyroid cartilage)",
+      "innervation": "Ansa cervicalis (C2–C3)",
+      "attachments": "Posterior manubrium → oblique line of thyroid cartilage"
+     }
+    },
+    {
+     "name": "Thyrohyoid",
+     "parts": [
+      "SRC_Z_THYROHYOID_MUSCLE_R",
+      "SRC_Z_THYROHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses hyoid; elevates larynx when hyoid fixed",
+      "innervation": "C1 fibers via hypoglossal nerve",
+      "attachments": "Oblique line of thyroid cartilage → body and greater horn of hyoid"
+     }
+    },
+    {
+     "name": "Omohyoid",
+     "parts": [
+      "SRC_Z_OMOHYOID_MUSCLE_R",
+      "SRC_Z_OMOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses and fixes hyoid",
+      "innervation": "Ansa cervicalis (C1–C3)",
+      "attachments": "Superior border of scapula near suprascapular notch → body of hyoid; intermediate tendon tethered to clavicle"
+     }
+    }
+   ]
+  },
+  "25": {
+   "facts": {
+    "function": "Supply head and neck; lie in carotid sheath with IJV and vagus",
+    "attachments": "Right from brachiocephalic trunk, left from aortic arch → bifurcate at C4 into internal and external carotids"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Drains brain, face and neck; receives superior and middle thyroid veins",
+    "attachments": "Sigmoid sinus at jugular foramen → joins subclavian to form brachiocephalic vein; lateral in carotid sheath"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Motor to all intrinsic laryngeal muscles except cricothyroid; sensory below vocal folds; at risk in thyroidectomy",
+    "innervation": "Branch of vagus (CN X)",
+    "attachments": "Right hooks subclavian artery, left hooks aortic arch → ascend in tracheoesophageal groove"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Only complete cartilage ring of airway; at C6 level",
+    "attachments": "Articulates with thyroid cartilage (cricothyroid joints) and arytenoids; trachea attached below"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Largest laryngeal cartilage; laryngeal prominence (Adam's apple); shields vocal folds",
+    "attachments": "Thyrohyoid membrane to hyoid above; cricothyroid membrane and joints to cricoid below"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Site of emergency cricothyrotomy",
+    "attachments": "Thyroid cartilage inferior border → cricoid arch; thickened median part = median cricothyroid ligament"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Chief cells secrete PTH to raise serum calcium",
+    "attachments": "Posterior thyroid lobes near cricothyroid junction; derived from 4th pharyngeal pouch",
+    "supply": "Mainly inferior thyroid artery"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Chief cells secrete PTH; position more variable, may descend into thymus",
+    "attachments": "Near inferior thyroid poles; derived from 3rd pharyngeal pouch (with thymus)",
+    "supply": "Inferior thyroid artery"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Cortex secretes corticosteroids and androgens; medulla secretes catecholamines",
+    "innervation": "Medulla: preganglionic sympathetics via thoracic splanchnic nerves synapse directly on chromaffin cells",
+    "attachments": "Superomedial to kidneys within renal fascia; right pyramidal, left crescent-shaped",
+    "supply": "Superior (inferior phrenic), middle (aorta), inferior (renal) suprarenal arteries; right vein → IVC, left → left renal vein"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Mesoderm-derived; glomerulosa → aldosterone, fasciculata → cortisol, reticularis → androgens"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Chromaffin cells secrete epinephrine and norepinephrine; neural crest origin",
+    "innervation": "Preganglionic sympathetic fibers via thoracic splanchnic nerves (cells act as modified postganglionic neurons)"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Supplies superior part of adrenal gland",
+    "attachments": "Multiple small branches of inferior phrenic artery"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Supplies middle part of adrenal gland",
+    "attachments": "Direct lateral branch of abdominal aorta near SMA origin (L1)"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Supplies inferior part of adrenal gland",
+    "attachments": "Branch of renal artery"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Drain the adrenal glands",
+    "attachments": "Right (short) → IVC directly; left → left renal vein, often joined by left inferior phrenic vein"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Capped by adrenal gland; lies near T12, related posteriorly to diaphragm and 12th rib",
+    "attachments": "Adrenal separated from it by perirenal fat, both within renal fascia"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Primary muscle of inspiration; crura lie posterior to adrenals and kidneys",
+    "innervation": "Phrenic nerve (C3–C5)",
+    "attachments": "Xiphoid, lower six costal cartilages, L1–L3 bodies (crura) → central tendon",
+    "supply": "Inferior phrenic arteries (which also give superior suprarenal arteries)"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Returns blood from lower body to right atrium; receives right adrenal vein directly",
+    "attachments": "Common iliac veins unite at L5 → ascends right of aorta → caval foramen at T8"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Supplies abdominal viscera; gives celiac, SMA, middle suprarenal, renal arteries",
+    "attachments": "Aortic hiatus at T12 → bifurcates at L4 into common iliac arteries"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Metabolism, bile production, detoxification; bare area contacts right adrenal and IVC",
+    "supply": "Portal vein (~75%) and hepatic artery proper (~25%); drains via hepatic veins to IVC"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Gastric digestion; posterior wall faces left adrenal across lesser sac (stomach bed)",
+    "supply": "Celiac branches: left/right gastric, gastroepiploic, short gastric arteries"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Exocrine enzymes; endocrine islets: β insulin, α glucagon, δ somatostatin",
+    "attachments": "Retroperitoneal; head in duodenal C-loop, tail at splenic hilum; anterior to left adrenal and kidney",
+    "supply": "Pancreaticoduodenal arcades (head); splenic artery branches (body/tail)"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Filters blood, removes old RBCs, immune function; lies lateral to left kidney and adrenal",
+    "attachments": "Gastrosplenic and splenorenal ligaments; deep to left ribs 9–11",
+    "supply": "Splenic artery; splenic vein → portal vein"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Head in duodenal C-loop; uncinate behind SMV/SMA; neck over portal vein; body crosses L2; tail at splenic hilum",
+    "supply": "Head: superior/inferior pancreaticoduodenal arteries; body/tail: splenic artery (dorsal, great pancreatic)"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Receives bile and pancreatic juice at major duodenal papilla (ampulla of Vater)",
+    "attachments": "Descending, retroperitoneal part curving around pancreatic head, L1–L3",
+    "supply": "Superior and inferior pancreaticoduodenal arteries (foregut–midgut junction)"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Supplies foregut: stomach, liver, gallbladder, spleen, part of pancreas and proximal duodenum",
+    "attachments": "Abdominal aorta at T12 → left gastric, splenic, common hepatic arteries"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Supplies liver, gallbladder, stomach, proximal duodenum, pancreatic head",
+    "attachments": "Celiac trunk → gastroduodenal artery and hepatic artery proper"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Supplies pylorus, proximal duodenum, pancreatic head; bleeds in posterior duodenal ulcers",
+    "attachments": "Common hepatic → behind 1st part of duodenum → superior pancreaticoduodenal and right gastroepiploic arteries"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Supply pancreatic head and duodenum",
+    "attachments": "Gastroduodenal → anterior and posterior branches anastomose with inferior pancreaticoduodenals (celiac–SMA arcades)"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Supplies midgut: distal duodenum to proximal two-thirds of transverse colon; inferior pancreatic head",
+    "attachments": "Aorta at L1 → behind pancreatic neck, over uncinate process and 3rd part of duodenum"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Supply pancreatic head and duodenum",
+    "attachments": "First branch of SMA → anterior and posterior branches anastomose with superior pancreaticoduodenals"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Supplies spleen, pancreatic body and tail, stomach (short gastric, left gastroepiploic)",
+    "attachments": "Celiac trunk → tortuous course along superior border of pancreas → splenic hilum"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Supplies neck and body of pancreas",
+    "attachments": "Variable origin, usually proximal splenic artery → right and left branches; left becomes inferior (transverse) pancreatic artery"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Largest pancreatic branch; supplies body and tail of pancreas",
+    "attachments": "Branch of splenic artery entering pancreas near body–tail junction"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Drains spleen, pancreas and stomach; usually receives inferior mesenteric vein",
+    "attachments": "Runs posterior to pancreatic body → joins SMV behind pancreatic neck to form portal vein"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Drains midgut territory (small intestine, cecum to transverse colon)",
+    "attachments": "Lies right of SMA → joins splenic vein behind pancreatic neck to form portal vein"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Carries nutrient-rich blood from GI tract and spleen to liver (~75% of hepatic blood flow)",
+    "attachments": "SMV + splenic vein behind pancreatic neck → hepatoduodenal ligament → right and left branches at porta hepatis"
+   }
+  }
+ }
+}

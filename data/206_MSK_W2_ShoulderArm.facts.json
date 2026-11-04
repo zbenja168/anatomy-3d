@@ -1,0 +1,760 @@
+{
+ "stem": "206_MSK_W2_ShoulderArm",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Strut holding limb away from trunk; transmits limb forces to axial skeleton; most commonly fractured bone (middle third)",
+    "attachments": "Sternoclavicular joint medially, acromioclavicular joint laterally; coracoclavicular ligament inferiorly; SCM, pectoralis major, deltoid, trapezius"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Anterior midline thoracic bone; manubrium gives the only bony link of upper limb to axial skeleton",
+    "attachments": "Manubrium, body, xiphoid; manubrium articulates with clavicles and 1st costal cartilages; sternal angle at 2nd rib"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Mobile base for the upper limb; glides on posterior thorax (ribs 2–7); anchors rotator cuff",
+    "attachments": "Glenoid articulates with humeral head; acromion with clavicle; coracoid anchors pectoralis minor, coracobrachialis, short head biceps"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Divides posterior scapula into supraspinous and infraspinous fossae; continues laterally as acromion",
+    "attachments": "Trapezius inserts on superior lip; posterior (spinal) deltoid arises from inferior lip"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Fossa above scapular spine housing supraspinatus; suprascapular nerve and artery pass through",
+    "attachments": "Origin of supraspinatus; suprascapular nerve passes under, artery over, superior transverse scapular ligament"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Fossa below scapular spine housing infraspinatus",
+    "attachments": "Origin of infraspinatus; suprascapular nerve and artery reach it via spinoglenoid notch"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Lateral end of scapular spine forming point of shoulder; roofs GH joint with coracoacromial ligament",
+    "attachments": "Articulates with lateral clavicle (AC joint); middle deltoid origin; trapezius insertion"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Hook-like anterior scapular process; muscle and ligament anchor palpable below lateral clavicle",
+    "attachments": "Pectoralis minor, coracobrachialis, short head of biceps; coracoclavicular and coracoacromial ligaments"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Shallow socket of GH joint deepened by labrum; shallowness permits mobility but favors dislocation",
+    "attachments": "Articulates with humeral head; supraglenoid tubercle = long head biceps; infraglenoid tubercle = long head triceps"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Arm bone; fracture-nerve pairs: surgical neck–axillary, midshaft–radial, supracondylar–median, medial epicondyle–ulnar",
+    "attachments": "Head articulates with glenoid; trochlea with ulna; capitulum with radius"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Hemispherical articular surface of proximal humerus; anterior dislocation most common",
+    "attachments": "Articulates with glenoid cavity; bounded by anatomical neck",
+    "supply": "Anterior and posterior circumflex humeral arteries"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Groove just beyond articular head marking former epiphyseal line; fractures rare",
+    "attachments": "Attachment of glenohumeral joint capsule"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Narrowing distal to tubercles; common fracture in elderly, risking axillary nerve and posterior circumflex humeral artery"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Lateral proximal humeral prominence; insertion of three rotator cuff muscles",
+    "attachments": "Superior, middle, inferior facets: supraspinatus, infraspinatus, teres minor"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Anterior proximal humeral prominence; insertion of the only anterior rotator cuff muscle",
+    "attachments": "Subscapularis inserts here"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Groove between tubercles transmitting long head of biceps tendon, held by transverse humeral ligament",
+    "attachments": "Lateral lip: pectoralis major; floor: latissimus dorsi; medial lip: teres major (lady between two majors)"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Spiral groove on posterior humerus carrying radial nerve and deep brachial artery; midshaft fracture → wrist drop",
+    "attachments": "Separates origins of lateral head (above) and medial head (below) of triceps"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Spool-shaped medial articular surface of distal humerus forming humeroulnar hinge",
+    "attachments": "Articulates with trochlear notch of ulna"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Rounded lateral articular surface of distal humerus forming humeroradial joint",
+    "attachments": "Articulates with head of radius"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Non-articular distal humeral projections; ulnar nerve runs behind medial epicondyle (funny bone)",
+    "attachments": "Medial: common flexor-pronator origin, ulnar collateral ligament; lateral: common extensor-supinator origin, radial collateral ligament"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Proximal ulnar projection forming point of elbow; fits olecranon fossa in extension",
+    "attachments": "Insertion of triceps brachii; anconeus attaches laterally"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Ulnar notch between olecranon and coronoid process that grips the trochlea (humeroulnar hinge)",
+    "attachments": "Articulates with trochlea of humerus"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Transmits axillary nerve and posterior circumflex humeral artery",
+    "attachments": "Teres minor (superior), teres major (inferior), long head triceps (medial), surgical neck of humerus (lateral)"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Transmits circumflex scapular artery",
+    "attachments": "Teres minor (superior), teres major (inferior), long head of triceps (lateral)"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Transmits radial nerve and deep brachial artery into posterior arm",
+    "attachments": "Teres major (superior), long head triceps (medial), lateral head triceps or humerus (lateral)"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Contains, lateral→medial, radial nerve, biceps tendon, brachial artery, median nerve; median cubital vein superficial for venipuncture",
+    "attachments": "Bounded by interepicondylar line (superior), brachioradialis (lateral), pronator teres (medial); roof is bicipital aponeurosis"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Saddle synovial joint with articular disc; only bony joint linking upper limb to axial skeleton",
+    "attachments": "Medial clavicle ↔ manubrium and 1st costal cartilage; costoclavicular ligament is main stabilizer"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Plane synovial joint letting scapula glide and rotate on clavicle; injured in shoulder separation",
+    "attachments": "Lateral clavicle ↔ acromion; stabilized by acromioclavicular and coracoclavicular ligaments"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Ball-and-socket joint; most mobile and most often dislocated joint (usually anteroinferior)",
+    "innervation": "Axillary, suprascapular, and lateral pectoral nerves",
+    "attachments": "Humeral head ↔ glenoid cavity; stabilized by capsule, labrum, glenohumeral ligaments, and rotator cuff",
+    "supply": "Anterior and posterior circumflex humeral and suprascapular arteries"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Physiologic (non-synovial) joint; scapular gliding on thorax gives ~1/3 of arm abduction (2:1 scapulohumeral rhythm)",
+    "attachments": "Scapula ↔ posterior thoracic wall, with serratus anterior and subscapularis between"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Fibrocartilage rim deepening the glenoid; SLAP tear superiorly, Bankart lesion anteroinferiorly after dislocation",
+    "attachments": "Glenoid rim; superiorly continuous with long head of biceps tendon"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Strengthens AC joint capsule superiorly; resists horizontal displacement",
+    "attachments": "Acromion ↔ lateral end of clavicle"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Main vertical stabilizer of AC joint; suspends scapula from clavicle; torn in high-grade separations",
+    "attachments": "Coracoid process ↔ inferior clavicle; conoid (medial) and trapezoid (lateral) parts"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Completes coracoacromial arch; prevents superior displacement of humeral head",
+    "attachments": "Coracoid process ↔ acromion"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Roof over GH joint; supraspinatus tendon and subacromial bursa pass beneath (impingement site)",
+    "attachments": "Acromion, coracoid process, and coracoacromial ligament"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Anchor and position the scapula on the thorax for upper limb movement"
+   },
+   "subs": [
+    {
+     "name": "Trapezius",
+     "parts": [
+      "SRC_Z_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "SRC_Z_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_L",
+      "SRC_Z_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "SRC_Z_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_L",
+      "SRC_Z_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "SRC_Z_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Superior fibers elevate, middle retract, inferior depress scapula; superior plus inferior upwardly rotate",
+      "innervation": "Spinal accessory nerve (CN XI); C3–C4 proprioception",
+      "attachments": "Occipital bone, nuchal ligament, C7–T12 spinous processes → lateral clavicle, acromion, spine of scapula",
+      "supply": "Transverse cervical artery"
+     }
+    },
+    {
+     "name": "Levator scapulae",
+     "parts": [
+      "SRC_Z_LEVATOR_SCAPULAE_R",
+      "SRC_Z_LEVATOR_SCAPULAE_L"
+     ],
+     "facts": {
+      "function": "Elevates scapula and rotates glenoid inferiorly",
+      "innervation": "Dorsal scapular nerve (C5) and cervical nerves C3–C4",
+      "attachments": "Transverse processes C1–C4 → superior medial border of scapula",
+      "supply": "Dorsal scapular artery"
+     }
+    },
+    {
+     "name": "Rhomboid major",
+     "parts": [
+      "SRC_Z_RHOMBOID_MAJOR_MUSCLE_R",
+      "SRC_Z_RHOMBOID_MAJOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Retracts scapula, rotates glenoid inferiorly, fixes scapula to thoracic wall",
+      "innervation": "Dorsal scapular nerve (C4–C5)",
+      "attachments": "Spinous processes T2–T5 → medial border of scapula below spine",
+      "supply": "Dorsal scapular artery"
+     }
+    },
+    {
+     "name": "Rhomboid minor",
+     "parts": [
+      "SRC_Z_RHOMBOID_MINOR_MUSCLE_R",
+      "SRC_Z_RHOMBOID_MINOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Retracts scapula, rotates glenoid inferiorly, fixes scapula to thoracic wall",
+      "innervation": "Dorsal scapular nerve (C4–C5)",
+      "attachments": "Nuchal ligament, spinous processes C7–T1 → medial border at root of scapular spine",
+      "supply": "Dorsal scapular artery"
+     }
+    },
+    {
+     "name": "Serratus anterior",
+     "parts": [
+      "SRC_Z_SERRATUS_ANTERIOR_MUSCLE_R",
+      "SRC_Z_SERRATUS_ANTERIOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Protracts and upwardly rotates scapula, holding it to thorax; paralysis → winged scapula",
+      "innervation": "Long thoracic nerve (C5–C7)",
+      "attachments": "External surfaces of ribs 1–8 → anterior surface of medial border of scapula",
+      "supply": "Lateral thoracic and thoracodorsal arteries"
+     }
+    }
+   ]
+  },
+  "37": {
+   "facts": {
+    "function": "Stabilizes, depresses, and protracts scapula; landmark dividing axillary artery into three parts",
+    "innervation": "Medial pectoral nerve (C8–T1)",
+    "attachments": "Ribs 3–5 near costal cartilages → coracoid process",
+    "supply": "Pectoral branch of thoracoacromial artery"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Initiates arm abduction (first ~15°); rotator cuff stabilizer; most commonly torn cuff tendon (impingement)",
+    "innervation": "Suprascapular nerve (C5–C6)",
+    "attachments": "Supraspinous fossa → superior facet of greater tubercle",
+    "supply": "Suprascapular artery"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Laterally rotates arm; rotator cuff stabilizer of GH joint",
+    "innervation": "Suprascapular nerve (C5–C6)",
+    "attachments": "Infraspinous fossa → middle facet of greater tubercle",
+    "supply": "Suprascapular and circumflex scapular arteries"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Laterally rotates and weakly adducts arm; rotator cuff stabilizer",
+    "innervation": "Axillary nerve (C5–C6)",
+    "attachments": "Middle lateral border of scapula → inferior facet of greater tubercle",
+    "supply": "Circumflex scapular and posterior circumflex humeral arteries"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Medially rotates and adducts arm; anterior rotator cuff stabilizer",
+    "innervation": "Upper and lower subscapular nerves (C5–C6)",
+    "attachments": "Subscapular fossa → lesser tubercle",
+    "supply": "Subscapular artery"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Acromial part abducts arm 15–90°; clavicular part flexes and medially rotates; spinal part extends and laterally rotates",
+    "innervation": "Axillary nerve (C5–C6)",
+    "attachments": "Lateral clavicle, acromion, spine of scapula → deltoid tuberosity of humerus",
+    "supply": "Posterior circumflex humeral artery and deltoid branch of thoracoacromial artery"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Adducts and medially rotates arm; clavicular head flexes, sternocostal head extends the flexed arm",
+    "innervation": "Lateral and medial pectoral nerves (C5–T1)",
+    "attachments": "Medial clavicle, sternum, costal cartilages 1–6, external oblique aponeurosis → lateral lip of intertubercular groove",
+    "supply": "Pectoral branch of thoracoacromial artery"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Extends, adducts, and medially rotates arm (climbing, swimming)",
+    "innervation": "Thoracodorsal nerve (C6–C8)",
+    "attachments": "T7–T12 spinous processes, thoracolumbar fascia, iliac crest, lower ribs → floor of intertubercular groove",
+    "supply": "Thoracodorsal artery"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Adducts and medially rotates arm",
+    "innervation": "Lower subscapular nerve (C5–C6)",
+    "attachments": "Posterior inferior angle of scapula → medial lip of intertubercular groove",
+    "supply": "Thoracodorsal and circumflex scapular arteries"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Anterior rami of C5–T1 forming the plexus; give dorsal scapular (C5) and long thoracic (C5–C7) nerves",
+    "innervation": "Mixed motor and sensory fibers of spinal nerves C5–T1",
+    "attachments": "Emerge between anterior and middle scalenes with subclavian artery → unite into trunks"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Union of C5–C6; gives suprascapular nerve and nerve to subclavius; injury = Erb palsy (waiter's tip)",
+    "innervation": "C5–C6 motor and sensory fibers",
+    "attachments": "Anterior division → lateral cord; posterior division → posterior cord"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Continuation of the C7 root alone",
+    "innervation": "C7 motor and sensory fibers",
+    "attachments": "Anterior division → lateral cord; posterior division → posterior cord"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Union of C8–T1; injury = Klumpke palsy (claw hand), e.g., grabbing a branch, Pancoast tumor, cervical rib",
+    "innervation": "C8–T1 motor and sensory fibers",
+    "attachments": "Anterior division → medial cord; posterior division → posterior cord"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Gives lateral pectoral nerve, musculocutaneous nerve, and lateral root of median nerve",
+    "innervation": "C5–C7; from anterior divisions of superior and middle trunks",
+    "attachments": "Lies lateral to 2nd part of axillary artery, deep to pectoralis minor"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Gives medial pectoral, medial brachial and antebrachial cutaneous, ulnar nerve, and medial root of median",
+    "innervation": "C8–T1; anterior division of inferior trunk",
+    "attachments": "Lies medial to 2nd part of axillary artery, deep to pectoralis minor"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Gives upper and lower subscapular, thoracodorsal, axillary, and radial nerves (ULTRA)",
+    "innervation": "C5–T1; all three posterior divisions",
+    "attachments": "Lies posterior to 2nd part of axillary artery"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Motor to anterior arm (coracobrachialis, biceps, brachialis); sensory to lateral forearm via lateral antebrachial cutaneous nerve",
+    "innervation": "C5–C7, from lateral cord",
+    "attachments": "Pierces coracobrachialis, runs between biceps and brachialis, emerges lateral to biceps tendon"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Motor to deltoid and teres minor; sensory over lateral shoulder; injured in surgical neck fracture or anterior dislocation",
+    "innervation": "C5–C6, from posterior cord",
+    "attachments": "Through quadrangular space with posterior circumflex humeral artery, winding around surgical neck"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Motor to posterior arm and forearm extensors; sensory to posterior arm, forearm, dorsolateral hand; midshaft fracture → wrist drop",
+    "innervation": "C5–T1, terminal branch of posterior cord",
+    "attachments": "Triangular interval → radial groove with deep brachial artery → anterior to lateral epicondyle → superficial and deep branches"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Motor to most forearm flexors, thenar muscles, lateral lumbricals; sensory to lateral palm and 3½ digits",
+    "innervation": "C5–T1, from lateral and medial cord roots",
+    "attachments": "With brachial artery in arm (no branches) → between pronator teres heads → deep to FDS → carpal tunnel"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Motor to FCU, medial FDP, most intrinsic hand muscles; sensory to medial 1½ digits; injury → claw hand",
+    "innervation": "C8–T1, from medial cord",
+    "attachments": "Medial arm (no branches) → behind medial epicondyle (cubital tunnel) → between FCU heads → Guyon's canal"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Motor to serratus anterior; injury (axillary node dissection, mastectomy) → winged scapula",
+    "innervation": "C5–C7 roots; motor",
+    "attachments": "Descends behind brachial plexus onto superficial surface of serratus anterior on lateral thoracic wall"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Motor to rhomboids and part of levator scapulae",
+    "innervation": "C5 root; motor",
+    "attachments": "Pierces middle scalene, descends deep to levator scapulae and rhomboids along medial scapular border"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Motor to supraspinatus and infraspinatus; sensory to GH and AC joints",
+    "innervation": "C5–C6, from superior trunk",
+    "attachments": "Through suprascapular notch beneath superior transverse scapular ligament → around spinoglenoid notch"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Motor to pectoralis minor and sternocostal part of pectoralis major",
+    "innervation": "C8–T1, from medial cord",
+    "attachments": "Pierces pectoralis minor to reach pectoralis major"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Motor mainly to pectoralis major (clavicular head); some fibers reach pectoralis minor",
+    "innervation": "C5–C7, from lateral cord",
+    "attachments": "Pierces clavipectoral fascia to reach deep surface of pectoralis major"
+   }
+  },
+  "63": {
+   "facts": {
+    "function": "Motor to latissimus dorsi; at risk in axillary surgery",
+    "innervation": "C6–C8, from posterior cord",
+    "attachments": "Descends along posterior axillary wall with thoracodorsal artery"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Motor to superior part of subscapularis",
+    "innervation": "C5–C6, from posterior cord"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Motor to inferior part of subscapularis and teres major",
+    "innervation": "C5–C6, from posterior cord"
+   }
+  },
+  "66": {
+   "facts": {
+    "function": "Supinates forearm (strongest with elbow flexed) and flexes elbow; weakly flexes shoulder",
+    "innervation": "Musculocutaneous nerve (C5–C6)",
+    "attachments": "Long head supraglenoid tubercle; short head coracoid → radial tuberosity and bicipital aponeurosis",
+    "supply": "Muscular branches of brachial artery"
+   },
+   "subs": [
+    {
+     "name": "Long head of biceps brachii",
+     "parts": [
+      "SRC_Z_LONG_HEAD_OF_BICEPS_BRACHII_R",
+      "SRC_Z_LONG_HEAD_OF_BICEPS_BRACHII_L"
+     ],
+     "facts": {
+      "function": "Flexes elbow, supinates forearm; tendon in intertubercular groove helps hold humeral head down",
+      "innervation": "Musculocutaneous nerve (C5–C6)",
+      "attachments": "Supraglenoid tubercle and superior labrum, through GH joint → radial tuberosity"
+     }
+    },
+    {
+     "name": "Short head of biceps brachii",
+     "parts": [
+      "SRC_Z_SHORT_HEAD_OF_BICEPS_BRACHII_R",
+      "SRC_Z_SHORT_HEAD_OF_BICEPS_BRACHII_L"
+     ],
+     "facts": {
+      "function": "Flexes elbow, supinates forearm; assists shoulder flexion",
+      "innervation": "Musculocutaneous nerve (C5–C6)",
+      "attachments": "Tip of coracoid process (with coracobrachialis) → radial tuberosity"
+     }
+    }
+   ]
+  },
+  "67": {
+   "facts": {
+    "function": "Main flexor of the elbow in all forearm positions",
+    "innervation": "Musculocutaneous nerve (C5–C6); small lateral part by radial nerve",
+    "attachments": "Distal anterior humerus → coronoid process and ulnar tuberosity",
+    "supply": "Muscular branches of brachial artery"
+   }
+  },
+  "68": {
+   "facts": {
+    "function": "Flexes and adducts arm",
+    "innervation": "Musculocutaneous nerve (C5–C7), which pierces it",
+    "attachments": "Tip of coracoid process → middle of medial humerus",
+    "supply": "Muscular branches of brachial artery"
+   }
+  },
+  "69": {
+   "facts": {
+    "function": "Main extensor of elbow; long head also extends and adducts arm",
+    "innervation": "Radial nerve (C6–C8)",
+    "attachments": "Infraglenoid tubercle and posterior humerus → olecranon",
+    "supply": "Deep brachial artery"
+   },
+   "subs": [
+    {
+     "name": "Long head of triceps brachii",
+     "parts": [
+      "SRC_Z_LONG_HEAD_OF_TRICEPS_BRACHII_R",
+      "SRC_Z_LONG_HEAD_OF_TRICEPS_BRACHII_L"
+     ],
+     "facts": {
+      "function": "Extends elbow; crosses shoulder to extend and adduct arm; borders quadrangular and triangular spaces",
+      "innervation": "Radial nerve (C6–C8)",
+      "attachments": "Infraglenoid tubercle of scapula → olecranon"
+     }
+    },
+    {
+     "name": "Lateral head of triceps brachii",
+     "parts": [
+      "SRC_Z_LATERAL_HEAD_OF_TRICEPS_BRACHII_R",
+      "SRC_Z_LATERAL_HEAD_OF_TRICEPS_BRACHII_L"
+     ],
+     "facts": {
+      "function": "Extends elbow; strongest for forceful extension",
+      "innervation": "Radial nerve (C6–C8)",
+      "attachments": "Posterior humerus above radial groove → olecranon"
+     }
+    },
+    {
+     "name": "Medial head of triceps brachii",
+     "parts": [
+      "SRC_Z_MEDIAL_HEAD_OF_TRICEPS_BRACHII_R",
+      "SRC_Z_MEDIAL_HEAD_OF_TRICEPS_BRACHII_L"
+     ],
+     "facts": {
+      "function": "Extends elbow; workhorse active in all extension",
+      "innervation": "Radial nerve (C6–C8)",
+      "attachments": "Posterior humerus below radial groove → olecranon"
+     }
+    }
+   ]
+  },
+  "70": {
+   "facts": {
+    "function": "Humeroulnar and humeroradial hinge flex/extend elbow; proximal radioulnar pivot allows pronation/supination; one shared capsule",
+    "attachments": "Trochlea–trochlear notch; capitulum–radial head; radial head–radial notch of ulna",
+    "supply": "Elbow anastomosis of collateral (brachial, deep brachial) and recurrent (radial, ulnar, interosseous) arteries"
+   }
+  },
+  "71": {
+   "facts": {
+    "function": "Collateral ligaments resist varus/valgus stress; annular ligament holds radial head against ulna"
+   },
+   "subs": [
+    {
+     "name": "Ulnar collateral ligament",
+     "parts": [
+      "SRC_Z_ULNAR_COLLATERAL_LIGAMENT_R",
+      "SRC_Z_ULNAR_COLLATERAL_LIGAMENT_L"
+     ],
+     "facts": {
+      "function": "Resists valgus stress; anterior band injured in throwing athletes (Tommy John repair)",
+      "attachments": "Medial epicondyle → coronoid process and olecranon of ulna"
+     }
+    },
+    {
+     "name": "Radial collateral ligament",
+     "parts": [
+      "SRC_Z_RADIAL_COLLATERAL_LIGAMENT_R",
+      "SRC_Z_RADIAL_COLLATERAL_LIGAMENT_L"
+     ],
+     "facts": {
+      "function": "Resists varus stress; lateral elbow stabilizer",
+      "attachments": "Lateral epicondyle → blends with annular ligament"
+     }
+    },
+    {
+     "name": "Annular ligament",
+     "parts": [
+      "SRC_Z_ANNULAR_LIGAMENT_OF_RADIUS_R",
+      "SRC_Z_ANNULAR_LIGAMENT_OF_RADIUS_L"
+     ],
+     "facts": {
+      "function": "Encircles radial head in radial notch; radial head subluxation = nursemaid's elbow",
+      "attachments": "Anterior and posterior margins of radial notch of ulna"
+     }
+    }
+   ]
+  },
+  "72": {
+   "facts": {
+    "function": "Supplies upper limb, plus brain (vertebral), neck, and thoracic wall",
+    "attachments": "Right from brachiocephalic trunk, left from aortic arch; between anterior and middle scalenes → axillary at 1st rib lateral border"
+   }
+  },
+  "73": {
+   "facts": {
+    "function": "Supplies supraspinatus and infraspinatus; part of scapular anastomosis",
+    "attachments": "Branch of thyrocervical trunk → passes over superior transverse scapular ligament"
+   }
+  },
+  "74": {
+   "facts": {
+    "function": "Supplies rhomboids, levator scapulae, trapezius; part of scapular anastomosis",
+    "attachments": "Branch of subclavian artery or deep branch of transverse cervical artery → along medial border of scapula"
+   }
+  },
+  "75": {
+   "facts": {
+    "function": "Supplies shoulder, axillary walls, lateral thoracic wall",
+    "attachments": "Subclavian at lateral border of 1st rib → brachial at inferior border of teres major; pectoralis minor divides it into 3 parts"
+   }
+  },
+  "76": {
+   "facts": {
+    "function": "Supplies 1st–2nd intercostal spaces and superior serratus anterior",
+    "attachments": "Only branch of 1st part of axillary artery"
+   }
+  },
+  "77": {
+   "facts": {
+    "function": "Supplies pectoral muscles, deltoid, acromion, clavicle",
+    "attachments": "2nd part of axillary; pierces clavipectoral fascia → pectoral, acromial, clavicular, deltoid branches"
+   }
+  },
+  "78": {
+   "facts": {
+    "function": "Supplies serratus anterior, pectoral muscles, lateral breast",
+    "attachments": "2nd part of axillary artery → descends along lateral border of pectoralis minor"
+   }
+  },
+  "79": {
+   "facts": {
+    "function": "Largest axillary branch; supplies subscapularis, latissimus, teres major; major scapular anastomosis contributor",
+    "attachments": "3rd part of axillary artery → circumflex scapular and thoracodorsal arteries"
+   }
+  },
+  "80": {
+   "facts": {
+    "function": "Supplies muscles on dorsal scapula; scapular anastomosis with suprascapular and dorsal scapular arteries",
+    "attachments": "Branch of subscapular artery → through triangular space to infraspinous fossa"
+   }
+  },
+  "81": {
+   "facts": {
+    "function": "Supplies latissimus dorsi",
+    "attachments": "Continuation of subscapular artery; accompanies thoracodorsal nerve"
+   }
+  },
+  "82": {
+   "facts": {
+    "function": "Supplies humeral head and shoulder joint",
+    "attachments": "3rd part of axillary → winds anterior to surgical neck → anastomoses with posterior circumflex humeral"
+   }
+  },
+  "83": {
+   "facts": {
+    "function": "Supplies deltoid, teres minor, GH joint; injured with axillary nerve in surgical neck fracture",
+    "attachments": "3rd part of axillary → quadrangular space with axillary nerve → around surgical neck"
+   }
+  },
+  "84": {
+   "facts": {
+    "function": "Main artery of arm supplying anterior compartment; site of blood pressure measurement",
+    "attachments": "Axillary at inferior border of teres major → with median nerve → radial and ulnar arteries in cubital fossa"
+   }
+  },
+  "85": {
+   "facts": {
+    "function": "Supplies posterior compartment (triceps); contributes to elbow anastomosis",
+    "attachments": "Proximal brachial branch → radial groove with radial nerve → middle and radial collateral arteries"
+   }
+  },
+  "86": {
+   "facts": {
+    "function": "Paired venae comitantes draining deep structures of the arm",
+    "attachments": "Accompany brachial artery → join basilic vein to form axillary vein"
+   }
+  },
+  "87": {
+   "facts": {
+    "function": "Superficial vein draining medial hand, forearm, and arm",
+    "attachments": "Ulnar dorsal venous network → medial forearm and arm → pierces deep fascia → joins brachial veins forming axillary vein"
+   }
+  },
+  "88": {
+   "facts": {
+    "function": "Superficial vein draining lateral hand, forearm, and arm",
+    "attachments": "Radial dorsal venous network → lateral arm → deltopectoral groove → pierces clavipectoral fascia → axillary vein"
+   }
+  },
+  "89": {
+   "facts": {
+    "function": "Drains upper limb, axilla, and lateral thoracic wall",
+    "attachments": "Basilic plus brachial veins at teres major → subclavian vein at 1st rib; lies medial to axillary artery"
+   }
+  },
+  "90": {
+   "facts": {
+    "function": "Drains upper limb; common central venous access site",
+    "attachments": "Axillary vein at 1st rib → anterior to anterior scalene → joins internal jugular forming brachiocephalic vein"
+   }
+  }
+ }
+}

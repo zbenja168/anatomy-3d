@@ -1,0 +1,1431 @@
+{
+ "stem": "204_GI",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Bony anterior 2/3 of the palate; separates oral and nasal cavities; failed palatine shelf fusion → cleft palate",
+    "innervation": "Sensation: greater palatine and nasopalatine nerves (CN V2)",
+    "attachments": "Palatine processes of maxillae + horizontal plates of palatine bones; incisive foramen anteriorly",
+    "supply": "Greater palatine artery (from maxillary artery)"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Mobile posterior 1/3 of palate; elevates to seal nasopharynx during swallowing and speech",
+    "innervation": "Motor: vagus (pharyngeal plexus) except tensor veli palatini (CN V3); sensory: lesser palatine nerves (V2)",
+    "attachments": "Hangs from posterior edge of hard palate; palatine aponeurosis",
+    "supply": "Lesser palatine and ascending palatine arteries"
+   }
+  },
+  "3": {
+   "facts": {
+    "function": "Midline projection of soft palate; deviates AWAY from side of a CN X lesion",
+    "innervation": "Musculus uvulae: vagus nerve via pharyngeal plexus",
+    "attachments": "Posterior border of soft palate (palatine aponeurosis)"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Lymphoid tissue (part of Waldeyer ring) in tonsillar fossa between palatoglossal and palatopharyngeal arches",
+    "innervation": "Sensory: glossopharyngeal nerve (CN IX), basis of referred ear pain after tonsillectomy",
+    "supply": "Tonsillar branch of facial artery; external palatine vein bleeding post-tonsillectomy"
+   }
+  },
+  "5": {
+   "facts": {
+    "function": "Carries parotid saliva to oral cavity; opens opposite upper 2nd molar",
+    "attachments": "Crosses masseter superficially, pierces buccinator → opens at parotid papilla"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Largest salivary gland; mostly serous saliva; facial nerve branches pass through it (not innervating it)",
+    "innervation": "Secretomotor: CN IX → otic ganglion → auriculotemporal nerve (V3)",
+    "attachments": "Over ramus and masseter, in front of ear; drained by parotid (Stensen) duct",
+    "supply": "External carotid branches (superficial temporal, transverse facial); retromandibular vein runs through"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Wharton duct; carries submandibular saliva; common site of sialolithiasis",
+    "attachments": "Runs forward on hyoglossus, looped by lingual nerve → opens at sublingual caruncle beside frenulum"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Mixed serous/mucous saliva; largest share of unstimulated saliva",
+    "innervation": "Secretomotor: CN VII chorda tympani → submandibular ganglion",
+    "attachments": "Submandibular triangle, wraps around posterior border of mylohyoid",
+    "supply": "Facial artery"
+   }
+  },
+  "9": {
+   "facts": {
+    "function": "Smallest major salivary gland; mostly mucous saliva",
+    "innervation": "Secretomotor: CN VII chorda tympani → submandibular ganglion",
+    "attachments": "Floor of mouth above mylohyoid; many small ducts open on sublingual fold",
+    "supply": "Sublingual and submental arteries"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Sphincter of mouth; closes and purses lips",
+    "innervation": "Facial nerve (CN VII): buccal and marginal mandibular branches",
+    "attachments": "Encircles the oral fissure; blends with other perioral muscles at modiolus",
+    "supply": "Superior and inferior labial arteries (facial artery)"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Presses cheek against teeth; keeps food between molars during chewing; aids blowing",
+    "innervation": "Facial nerve (CN VII) buccal branch (not the buccal nerve of V3, which is sensory)",
+    "attachments": "Alveolar processes of maxilla and mandible + pterygomandibular raphe → angle of mouth/orbicularis oris",
+    "supply": "Buccal artery (maxillary) and facial artery"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Forms muscular floor of mouth; elevates hyoid and floor during swallowing",
+    "innervation": "Nerve to mylohyoid (CN V3, from inferior alveolar nerve)",
+    "attachments": "Mylohyoid line of mandible → body of hyoid and midline raphe",
+    "supply": "Submental artery (facial)"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Elevates and pulls hyoid forward; depresses mandible when hyoid fixed",
+    "innervation": "C1 fibers traveling with hypoglossal nerve",
+    "attachments": "Inferior mental spine of mandible → body of hyoid"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Protrudes tongue; unilateral lesion → tongue deviates TOWARD the lesioned side",
+    "innervation": "Hypoglossal nerve (CN XII)",
+    "attachments": "Superior mental spine of mandible → tongue body and hyoid",
+    "supply": "Lingual artery"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Depresses and retracts the tongue",
+    "innervation": "Hypoglossal nerve (CN XII)",
+    "attachments": "Body and greater horn of hyoid → side of tongue",
+    "supply": "Lingual artery (passes deep to hyoglossus)"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Retracts and elevates the tongue",
+    "innervation": "Hypoglossal nerve (CN XII)",
+    "attachments": "Styloid process → side and inferior tongue",
+    "supply": "Lingual artery"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Elevates posterior tongue; narrows oropharyngeal isthmus; forms palatoglossal arch",
+    "innervation": "Vagus nerve (pharyngeal plexus): the only tongue muscle not supplied by CN XII",
+    "attachments": "Palatine aponeurosis → side of tongue",
+    "supply": "Ascending palatine artery"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Muscles that move the mandible during chewing; all derived from 1st pharyngeal arch",
+    "innervation": "Mandibular division of trigeminal (CN V3)",
+    "supply": "Branches of maxillary artery"
+   },
+   "subs": [
+    {
+     "name": "Masseter",
+     "parts": [
+      "SRC_Z_SUPERFICIAL_PART_OF_MASSETER_R",
+      "SRC_Z_SUPERFICIAL_PART_OF_MASSETER_L",
+      "SRC_Z_DEEP_PART_OF_MASSETER_R",
+      "SRC_Z_DEEP_PART_OF_MASSETER_L"
+     ],
+     "facts": {
+      "function": "Elevates mandible (closes jaw); powerful chewing muscle",
+      "innervation": "Masseteric nerve (CN V3)",
+      "attachments": "Zygomatic arch → lateral ramus and angle of mandible",
+      "supply": "Masseteric artery (maxillary)"
+     }
+    },
+    {
+     "name": "Temporalis",
+     "parts": [
+      "SRC_Z_TEMPORALIS_MUSCLE_R",
+      "SRC_Z_TEMPORALIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates mandible; posterior fibers retract mandible",
+      "innervation": "Deep temporal nerves (CN V3)",
+      "attachments": "Temporal fossa → coronoid process and anterior ramus",
+      "supply": "Deep temporal arteries (maxillary)"
+     }
+    },
+    {
+     "name": "Medial pterygoid",
+     "parts": [
+      "SRC_Z_MEDIAL_PTERYGOID_MUSCLE_R",
+      "SRC_Z_MEDIAL_PTERYGOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates mandible and aids side-to-side grinding",
+      "innervation": "Nerve to medial pterygoid (CN V3)",
+      "attachments": "Medial lateral pterygoid plate, maxillary tuberosity → medial ramus and angle",
+      "supply": "Pterygoid branches of maxillary artery"
+     }
+    },
+    {
+     "name": "Lateral pterygoid",
+     "parts": [
+      "SRC_Z_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+      "SRC_Z_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L",
+      "SRC_Z_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+      "SRC_Z_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Opens jaw: protrudes and depresses mandible; the only mastication muscle that opens",
+      "innervation": "Nerve to lateral pterygoid (CN V3)",
+      "attachments": "Greater wing of sphenoid, lateral pterygoid plate → condylar neck, TMJ disc",
+      "supply": "Pterygoid branches of maxillary artery"
+     }
+    }
+   ]
+  },
+  "19": {
+   "facts": {
+    "function": "Sensory to anterior 2/3 of tongue; carries chorda tympani taste and preganglionic secretomotor fibers",
+    "innervation": "Branch of CN V3 (general sensation); joined by chorda tympani (CN VII)",
+    "attachments": "Runs between medial pterygoid and ramus → loops under submandibular duct → tongue"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Motor to all tongue muscles except palatoglossus; lesion → tongue deviates toward lesioned side",
+    "innervation": "Pure motor; nucleus in medulla; exits via hypoglossal canal",
+    "attachments": "Hypoglossal canal → loops around occipital artery, lateral to carotids → above hyoid to tongue"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Muscles of facial expression, taste anterior 2/3 tongue, submandibular/sublingual/lacrimal glands, stapedius",
+    "innervation": "Mixed: branchial motor, special sensory (chorda tympani), parasympathetic (2nd arch nerve)",
+    "attachments": "Internal acoustic meatus → facial canal → stylomastoid foramen → branches within parotid gland"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Sensation to face, oral and nasal cavities; motor to muscles of mastication via V3",
+    "innervation": "Mixed: V1 ophthalmic and V2 maxillary sensory; V3 mandibular sensory + motor (1st arch)",
+    "attachments": "Pons → trigeminal ganglion; V1 superior orbital fissure, V2 foramen rotundum, V3 foramen ovale"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Apron of peritoneum from greater curvature; fat storage, immune 'policeman' walling off inflammation",
+    "attachments": "Greater curvature of stomach → folds back → transverse colon (gastrocolic ligament)",
+    "supply": "Right and left gastroepiploic arteries"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Double peritoneal fold from liver to stomach/duodenum; anterior wall of omental bursa",
+    "attachments": "Lesser curvature and proximal duodenum → liver; hepatogastric + hepatoduodenal ligaments",
+    "supply": "Contains left and right gastric vessels along lesser curvature"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Free edge of lesser omentum containing portal triad; anterior border of epiploic foramen; Pringle maneuver clamps it",
+    "attachments": "Proximal duodenum → porta hepatis",
+    "supply": "Portal vein (posterior), proper hepatic artery (medial), common bile duct (lateral)"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Part of lesser omentum connecting liver to stomach",
+    "attachments": "Lesser curvature of stomach → fissure for ligamentum venosum",
+    "supply": "Contains left and right gastric arteries and veins"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Fan-shaped double peritoneal fold suspending jejunum and ileum; conduit for vessels, nerves, lymphatics",
+    "attachments": "Root runs obliquely from duodenojejunal flexure (left L2) → right sacroiliac joint/ileocecal junction",
+    "supply": "Contains superior mesenteric vessels and their jejunal/ileal branches"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Attaches liver to anterior abdominal wall; divides anatomical right and left lobes; derived from ventral mesentery",
+    "attachments": "Anterior abdominal wall/diaphragm → anterior liver surface; free edge contains ligamentum teres",
+    "supply": "Contains ligamentum teres and paraumbilical veins"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Fibrous remnant of the fetal left umbilical vein",
+    "attachments": "Umbilicus → free edge of falciform ligament → umbilical fissure, joins left portal vein branch",
+    "supply": "Accompanied by paraumbilical veins (portosystemic route → caput medusae)"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Peritoneal reflection from liver to diaphragm bounding the bare area of the liver",
+    "attachments": "Diaphragmatic surface of liver → inferior diaphragm; lateral ends form triangular ligaments"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Lowest peritoneal recess in males; site where fluid/pus collects when upright",
+    "attachments": "Between rectum (posterior) and bladder (anterior)"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Shallow peritoneal recess in females between uterus and bladder",
+    "attachments": "Between anterior uterus and posterosuperior bladder"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Lowest peritoneal point in upright females; fluid/blood collects here; accessed via posterior vaginal fornix (culdocentesis)",
+    "attachments": "Between rectum (posterior) and uterus/posterior vaginal fornix (anterior)"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Muscular tube carrying food bolus from pharynx to stomach by peristalsis; upper 1/3 skeletal, lower 1/3 smooth",
+    "innervation": "Vagus nerve (esophageal plexus) parasympathetic; sympathetic trunk",
+    "attachments": "C6 (cricoid) → through esophageal hiatus at T10 → cardia of stomach",
+    "supply": "Inferior thyroid, aortic esophageal, and left gastric arteries; lower 1/3 is portosystemic site (varices)"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Junction of esophagus and stomach; squamocolumnar Z-line; site of Barrett esophagus and adenocarcinoma",
+    "innervation": "Vagus nerve",
+    "attachments": "Just left of midline at about T11, below esophageal hiatus",
+    "supply": "Esophageal branches of left gastric artery; left gastric vein (portosystemic anastomosis)"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Upper esophageal sphincter; prevents air entering esophagus; Zenker diverticulum forms above it (Killian triangle)",
+    "innervation": "Vagus nerve (pharyngeal plexus / recurrent laryngeal)",
+    "attachments": "Lowest part of inferior pharyngeal constrictor, encircling pharyngoesophageal junction at C6 (cricoid cartilage)"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Physiologic smooth muscle sphincter preventing reflux; fails to relax in achalasia (loss of myenteric plexus)",
+    "innervation": "Vagal inhibitory (NO/VIP) myenteric neurons relax it",
+    "attachments": "Distal esophagus at GEJ, reinforced by right crus of diaphragm"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Stores and mixes food, begins protein digestion; acid, pepsinogen, intrinsic factor",
+    "innervation": "Parasympathetic: vagal trunks; sympathetic: greater splanchnic via celiac ganglion",
+    "attachments": "Foregut; from GEJ (T11) to pylorus (L1)",
+    "supply": "Celiac trunk: left/right gastric, left/right gastroepiploic, short gastric arteries"
+   },
+   "subs": [
+    {
+     "name": "Cardia",
+     "parts": [
+      "CUSTOM_STOMACH_CARDIA"
+     ],
+     "facts": {
+      "function": "Region surrounding GEJ opening; receives esophagus",
+      "attachments": "Around cardial orifice at about T11"
+     }
+    },
+    {
+     "name": "Fundus",
+     "parts": [
+      "CUSTOM_STOMACH_FUNDUS"
+     ],
+     "facts": {
+      "function": "Dome above cardia, usually gas-filled; contains parietal cells; site of short gastric supply",
+      "attachments": "Above level of cardial orifice, under left hemidiaphragm",
+      "supply": "Short gastric arteries"
+     }
+    },
+    {
+     "name": "Body",
+     "parts": [
+      "CUSTOM_STOMACH_BODY"
+     ],
+     "facts": {
+      "function": "Largest region; parietal (acid, intrinsic factor) and chief cells (pepsinogen)",
+      "attachments": "Between fundus and angular incisure"
+     }
+    },
+    {
+     "name": "Antrum",
+     "parts": [
+      "CUSTOM_STOMACH_ANTRUM"
+     ],
+     "facts": {
+      "function": "Grinds food; G cells secrete gastrin; common H. pylori and gastric ulcer site",
+      "attachments": "Angular incisure → pyloric canal"
+     }
+    },
+    {
+     "name": "Pylorus",
+     "parts": [
+      "CUSTOM_STOMACH_PYLORUS"
+     ],
+     "facts": {
+      "function": "Pyloric sphincter regulates gastric emptying; hypertrophied in infant pyloric stenosis (projectile vomiting)",
+      "attachments": "Junction with 1st part of duodenum at L1 (transpyloric plane)"
+     }
+    }
+   ]
+  },
+  "39": {
+   "facts": {
+    "function": "Acute angle between esophagus and fundus; acts as flap valve against reflux",
+    "attachments": "Between left border of abdominal esophagus and fundus of stomach"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Main site of digestion and absorption; ~6–7 m long",
+    "innervation": "Vagus (parasympathetic); sympathetic via celiac and superior mesenteric ganglia",
+    "attachments": "Pylorus → duodenum → duodenojejunal flexure → jejunum → ileum → ileocecal valve",
+    "supply": "Celiac (proximal duodenum) and superior mesenteric artery"
+   },
+   "subs": [
+    {
+     "name": "Duodenum",
+     "parts": [
+      "FJ2573"
+     ],
+     "facts": {
+      "function": "Receives chyme, bile and pancreatic juice; Brunner glands; most common peptic ulcer site (1st part)",
+      "attachments": "C-shaped, mostly retroperitoneal; 4 parts: superior, descending (papilla), horizontal, ascending → duodenojejunal flexure",
+      "supply": "Gastroduodenal and pancreaticoduodenal arteries (celiac + SMA)"
+     }
+    },
+    {
+     "name": "Jejunum",
+     "parts": [
+      "FJ2606",
+      "FJ2607",
+      "FJ2608",
+      "FJ2609",
+      "FJ2610",
+      "FJ2611",
+      "FJ2612",
+      "FJ2613",
+      "FJ2614",
+      "FJ2615",
+      "FJ2616",
+      "FJ2617",
+      "FJ2618",
+      "FJ2619",
+      "FJ2620",
+      "FJ2621",
+      "FJ2622",
+      "FJ2623",
+      "FJ2624",
+      "FJ2625",
+      "FJ2626",
+      "FJ2627",
+      "FJ2628"
+     ],
+     "facts": {
+      "function": "Main absorption site; tall plicae circulares, long vasa recta, few arcades",
+      "attachments": "Proximal 2/5 of mesenteric small bowel, mainly left upper abdomen",
+      "supply": "Jejunal branches of SMA"
+     }
+    },
+    {
+     "name": "Ileum",
+     "parts": [
+      "FJ2574",
+      "FJ2575",
+      "FJ2576",
+      "FJ2577",
+      "FJ2578",
+      "FJ2579",
+      "FJ2580",
+      "FJ2581",
+      "FJ2582",
+      "FJ2583",
+      "FJ2584",
+      "FJ2585",
+      "FJ2586",
+      "FJ2587",
+      "FJ2588",
+      "FJ2589",
+      "FJ2590",
+      "FJ2591",
+      "FJ2592",
+      "FJ2593",
+      "FJ2594",
+      "FJ2595",
+      "FJ2596",
+      "FJ2597",
+      "FJ2598",
+      "FJ2600",
+      "FJ2601",
+      "FJ2602",
+      "FJ2603",
+      "FJ2604",
+      "FJ2605"
+     ],
+     "facts": {
+      "function": "Absorbs B12 and bile salts (terminal ileum); Peyer patches; more arcades, shorter vasa recta",
+      "attachments": "Distal 3/5 of mesenteric small bowel → ileocecal valve",
+      "supply": "Ileal and ileocolic branches of SMA"
+     }
+    }
+   ]
+  },
+  "41": {
+   "facts": {
+    "function": "Absorbs water and electrolytes, stores and eliminates feces",
+    "innervation": "Vagus to splenic flexure; pelvic splanchnics (S2–S4) beyond; sympathetic lumbar splanchnics",
+    "attachments": "Cecum → colon → rectum → anal canal → anus",
+    "supply": "SMA to proximal 2/3 transverse colon; IMA distally; rectum also middle/inferior rectal"
+   },
+   "subs": [
+    {
+     "name": "Colon",
+     "parts": [
+      "FJ2566",
+      "FJ2572",
+      "FJ2567",
+      "CUSTOM_CECUM",
+      "CUSTOM_SIGMOID_COLON"
+     ],
+     "facts": {
+      "function": "Absorbs water and electrolytes; forms feces; taeniae, haustra, omental appendages",
+      "attachments": "Cecum → ascending → transverse → descending → sigmoid colon",
+      "supply": "SMA and IMA via marginal artery"
+     }
+    },
+    {
+     "name": "Rectum",
+     "parts": [
+      "FJ2571"
+     ],
+     "facts": {
+      "function": "Stores feces; no taeniae, haustra or appendages; distension triggers defecation reflex",
+      "attachments": "Rectosigmoid junction at S3 → anorectal junction at puborectalis",
+      "supply": "Superior (IMA), middle and inferior rectal arteries; upper part drains to portal system"
+     }
+    },
+    {
+     "name": "Anal canal",
+     "parts": [
+      "CUSTOM_ANAL_CANAL"
+     ],
+     "facts": {
+      "function": "Terminal 3–4 cm of GI tract; continence via internal and external sphincters",
+      "attachments": "Anorectal junction → anus; divided by dentate line",
+      "supply": "Superior rectal above dentate line; inferior rectal below"
+     }
+    }
+   ]
+  },
+  "42": {
+   "facts": {
+    "function": "Absorbs water and electrolytes; forms and moves feces",
+    "attachments": "Cecum in right iliac fossa → hepatic flexure → splenic flexure → sigmoid → rectum at S3",
+    "supply": "SMA (ileocolic, right colic, middle colic); IMA (left colic, sigmoid); watershed at splenic flexure"
+   },
+   "subs": [
+    {
+     "name": "Cecum",
+     "parts": [
+      "CUSTOM_CECUM"
+     ],
+     "facts": {
+      "function": "Blind pouch receiving ileum via ileocecal valve; bears appendix; site of volvulus and right-sided cancers",
+      "attachments": "Right iliac fossa, below ileocecal junction; intraperitoneal",
+      "supply": "Ileocolic artery"
+     }
+    },
+    {
+     "name": "Ascending colon",
+     "parts": [
+      "FJ2566"
+     ],
+     "facts": {
+      "function": "Absorbs water and electrolytes",
+      "attachments": "Cecum → right colic (hepatic) flexure; retroperitoneal",
+      "supply": "Ileocolic and right colic arteries"
+     }
+    },
+    {
+     "name": "Transverse colon",
+     "parts": [
+      "FJ2572"
+     ],
+     "facts": {
+      "function": "Most mobile colon segment; midgut-hindgut transition at distal 1/3",
+      "attachments": "Hepatic → splenic flexure; intraperitoneal on transverse mesocolon",
+      "supply": "Middle colic (SMA); distal 1/3 left colic (IMA)"
+     }
+    },
+    {
+     "name": "Descending colon",
+     "parts": [
+      "FJ2567"
+     ],
+     "facts": {
+      "function": "Stores and moves feces toward sigmoid",
+      "attachments": "Splenic flexure → left iliac fossa; retroperitoneal",
+      "supply": "Left colic artery (IMA)"
+     }
+    },
+    {
+     "name": "Sigmoid colon",
+     "parts": [
+      "CUSTOM_SIGMOID_COLON"
+     ],
+     "facts": {
+      "function": "Most common site of diverticulosis and volvulus in adults",
+      "attachments": "Left iliac fossa → rectum at S3; intraperitoneal on sigmoid mesocolon",
+      "supply": "Sigmoid arteries (IMA)"
+     }
+    }
+   ]
+  },
+  "43": {
+   "facts": {
+    "function": "Blind lymphoid diverticulum of cecum; appendicitis pain starts periumbilical → McBurney point",
+    "innervation": "Visceral afferents with sympathetics to T10 (periumbilical referred pain)",
+    "attachments": "Posteromedial cecum where the three taeniae coli converge; held by mesoappendix",
+    "supply": "Appendicular artery (from ileocolic artery)"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Bends of colon: hepatic (right) and splenic (left); splenic flexure is SMA/IMA watershed area",
+    "attachments": "Right flexure under liver joins ascending→transverse colon; left flexure near spleen, higher, joins transverse→descending colon",
+    "supply": "Right: right colic artery; left: middle and left colic arteries"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Three longitudinal smooth muscle bands of colon; converge at appendix base; absent on rectum",
+    "attachments": "Taenia libera, mesocolica, omentalis; run cecum → sigmoid colon"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Sacculations of colon wall from taeniae being shorter than the colon; distinguish colon from small bowel on X-ray",
+    "attachments": "Colon from cecum to sigmoid; separated by semilunar folds"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Small fat-filled peritoneal tags on colon; can torse/infarct (epiploic appendagitis)",
+    "attachments": "Along taeniae of colon, especially transverse and sigmoid colon"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Involuntary sphincter maintaining resting anal tone; continuation of circular smooth muscle of rectum",
+    "innervation": "Autonomic: sympathetic contracts, parasympathetic (pelvic splanchnics) relaxes",
+    "attachments": "Surrounds upper 2/3 of anal canal, deep to external sphincter"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Voluntary skeletal muscle sphincter of anal canal; injured in obstetric tears → fecal incontinence",
+    "innervation": "Inferior rectal (anal) nerve, branch of pudendal nerve (S2–S4)",
+    "attachments": "Surrounds anal canal; subcutaneous, superficial, deep parts; attaches to perineal body and anococcygeal ligament",
+    "supply": "Inferior rectal artery (internal pudendal)"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "External opening of anal canal; below dentate line is somatic and painful",
+    "innervation": "Inferior rectal nerve (pudendal)",
+    "attachments": "Terminal opening of anal canal in the perineum",
+    "supply": "Inferior rectal artery; drains to superficial inguinal nodes"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Divides endoderm (above) from ectoderm (below) of anal canal; internal vs external hemorrhoids",
+    "innervation": "Above: visceral, painless; below: inferior rectal nerve (pudendal), painful",
+    "attachments": "Line formed by bases of anal valves/columns in anal canal",
+    "supply": "Above: superior rectal (IMA), portal, internal iliac nodes; below: inferior rectal, systemic, superficial inguinal nodes"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Main arterial supply to abdominal viscera, walls, pelvis and lower limbs",
+    "attachments": "Aortic hiatus T12 → bifurcates into common iliacs at L4; unpaired celiac (T12), SMA (L1), IMA (L3)"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Artery of the foregut (esophagus to 2nd part of duodenum, liver, gallbladder, pancreas, spleen)",
+    "attachments": "Anterior aorta at T12 → left gastric, splenic, common hepatic arteries"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Supplies spleen, pancreatic body/tail, and stomach (via short gastrics and left gastroepiploic)",
+    "attachments": "Celiac trunk → tortuous course along superior border of pancreas → splenorenal ligament → splenic hilum"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Supplies lesser curvature of stomach (pyloric part)",
+    "attachments": "Usually proper (or common) hepatic artery → runs left along lesser curvature, anastomoses with left gastric"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Supplies lesser curvature of stomach and distal esophagus; bleeds in lesser-curvature ulcers",
+    "attachments": "Smallest branch of celiac trunk → up to GEJ (esophageal branches) → along lesser curvature"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Supply fundus of stomach; poor anastomoses so fundus prone to ischemia if splenic artery blocked",
+    "attachments": "Splenic artery near hilum → through gastrosplenic ligament → fundus"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Supplies liver, gallbladder, stomach, duodenum, pancreatic head",
+    "attachments": "Celiac trunk → right along pancreas → divides into gastroduodenal and proper hepatic arteries"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Supplies pylorus, proximal duodenum, pancreatic head; bleeds in posterior duodenal ulcers",
+    "attachments": "Common hepatic artery → behind 1st part of duodenum → right gastroepiploic + superior pancreaticoduodenal arteries"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Supplies liver and gallbladder",
+    "attachments": "Common hepatic artery → in hepatoduodenal ligament (medial to CBD) → right and left hepatic arteries"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Supplies gallbladder and cystic duct; ligated in cholecystectomy",
+    "attachments": "Usually right hepatic artery, within hepatobiliary triangle (Calot) → gallbladder neck"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Supplies pancreatic head and duodenum; celiac–SMA anastomosis",
+    "attachments": "Gastroduodenal artery → anterior and posterior arcades → anastomose with inferior pancreaticoduodenal (SMA)"
+   }
+  },
+  "63": {
+   "facts": {
+    "function": "Supplies pancreatic head and duodenum (2nd–4th parts); SMA–celiac anastomosis",
+    "attachments": "First branch of SMA → anterior and posterior branches → anastomose with superior pancreaticoduodenal"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Supplies greater curvature of stomach and greater omentum",
+    "attachments": "Gastroduodenal artery → left along greater curvature in greater omentum → anastomoses with left gastroepiploic"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Supplies greater curvature of stomach and greater omentum",
+    "attachments": "Splenic artery → right along greater curvature → anastomoses with right gastroepiploic"
+   }
+  },
+  "66": {
+   "facts": {
+    "function": "Supplies ascending colon",
+    "attachments": "SMA (right side) → retroperitoneal → ascending colon; contributes to marginal artery"
+   }
+  },
+  "67": {
+   "facts": {
+    "function": "Supplies distal transverse colon and descending colon",
+    "attachments": "First branch of IMA → left → ascending and descending branches; joins middle colic via marginal artery"
+   }
+  },
+  "68": {
+   "facts": {
+    "function": "Supplies terminal ileum, cecum, appendix, proximal ascending colon",
+    "attachments": "Last branch from right side of SMA → toward ileocecal junction; gives appendicular artery"
+   }
+  },
+  "69": {
+   "facts": {
+    "function": "Supplies appendix",
+    "attachments": "Ileocolic artery → behind terminal ileum → free edge of mesoappendix"
+   }
+  },
+  "70": {
+   "facts": {
+    "function": "Supplies proximal 2/3 of transverse colon",
+    "attachments": "SMA just below pancreas → transverse mesocolon → right and left branches"
+   }
+  },
+  "71": {
+   "facts": {
+    "function": "Supply sigmoid colon",
+    "attachments": "IMA (2–4 branches) → sigmoid mesocolon; anastomose with left colic and superior rectal"
+   }
+  },
+  "72": {
+   "facts": {
+    "function": "Supplies upper rectum; above dentate line",
+    "attachments": "Terminal continuation of IMA → crosses left common iliac → rectum; anastomoses with middle/inferior rectal"
+   }
+  },
+  "73": {
+   "facts": {
+    "function": "Artery of the midgut: distal duodenum to proximal 2/3 transverse colon",
+    "attachments": "Aorta at L1 → behind pancreatic neck, over 3rd duodenum (SMA syndrome; nutcracker of left renal vein)"
+   }
+  },
+  "74": {
+   "facts": {
+    "function": "Artery of the hindgut: distal 1/3 transverse colon to upper rectum",
+    "attachments": "Aorta at L3 → left colic, sigmoid, superior rectal arteries"
+   }
+  },
+  "75": {
+   "facts": {
+    "function": "Carries nutrient-rich blood from GI tract, spleen, pancreas to liver (~75% of hepatic blood flow)",
+    "attachments": "SMV + splenic vein behind pancreatic neck → hepatoduodenal ligament (posterior) → porta hepatis"
+   }
+  },
+  "76": {
+   "facts": {
+    "function": "Drains small intestine, cecum, ascending and transverse colon",
+    "attachments": "Runs right of SMA → joins splenic vein behind pancreatic neck to form portal vein"
+   }
+  },
+  "77": {
+   "facts": {
+    "function": "Drains spleen, pancreas, part of stomach; receives IMV",
+    "attachments": "Splenic hilum → posterior to pancreas → joins SMV behind pancreatic neck"
+   }
+  },
+  "78": {
+   "facts": {
+    "function": "Drains descending/sigmoid colon and upper rectum",
+    "attachments": "Superior rectal vein → ascends left of IMA → usually joins splenic vein (or SMV)"
+   }
+  },
+  "79": {
+   "facts": {
+    "function": "Drain liver into IVC; obstruction → Budd-Chiari syndrome",
+    "attachments": "Right, middle, left hepatic veins between segments → IVC just below diaphragm"
+   }
+  },
+  "80": {
+   "facts": {
+    "function": "Returns venous blood from lower body to right atrium",
+    "attachments": "Common iliac veins at L5 → right of aorta → caval opening (T8) → right atrium"
+   }
+  },
+  "81": {
+   "facts": {
+    "function": "Parasympathetic to thoracic and abdominal viscera up to splenic flexure; also pharynx, larynx, heart",
+    "innervation": "Mixed: branchial motor, parasympathetic, visceral sensory; nuclei in medulla",
+    "attachments": "Jugular foramen → carotid sheath → esophageal plexus → vagal trunks through esophageal hiatus"
+   }
+  },
+  "82": {
+   "facts": {
+    "function": "Carry vagal parasympathetics to abdominal foregut and midgut",
+    "innervation": "Anterior trunk mostly left vagus; posterior trunk mostly right vagus (rotation of stomach)",
+    "attachments": "Form from esophageal plexus → pass with esophagus through hiatus at T10 → gastric, hepatic, celiac branches"
+   }
+  },
+  "83": {
+   "facts": {
+    "function": "Prevertebral sympathetic ganglia where splanchnic fibers synapse; postganglionics supply foregut",
+    "innervation": "Receive preganglionic greater (T5–T9) and lesser splanchnic nerves",
+    "attachments": "Around the root of the celiac trunk on the anterior aorta"
+   }
+  },
+  "84": {
+   "facts": {
+    "function": "Carry preganglionic sympathetic and visceral afferent fibers to abdominal viscera",
+    "innervation": "Greater (T5–T9), lesser (T10–T11), least (T12) splanchnic nerves",
+    "attachments": "Sympathetic trunk → pierce crura → celiac, aorticorenal, renal ganglia"
+   }
+  },
+  "85": {
+   "facts": {
+    "function": "Carry preganglionic sympathetic fibers to hindgut and pelvic viscera",
+    "innervation": "L1–L2 preganglionic sympathetic",
+    "attachments": "Lumbar sympathetic trunk → inferior mesenteric and superior hypogastric plexuses"
+   }
+  },
+  "86": {
+   "facts": {
+    "function": "Parasympathetic to hindgut (distal to splenic flexure) and pelvic organs; erection, defecation, micturition",
+    "innervation": "S2–S4 preganglionic parasympathetic + visceral afferents",
+    "attachments": "Ventral rami S2–S4 → inferior hypogastric plexus"
+   }
+  },
+  "87": {
+   "facts": {
+    "function": "Liver: metabolism, bile production, detoxification, protein and clotting factor synthesis",
+    "innervation": "Hepatic plexus (vagus, celiac); capsule pain via phrenic/intercostals",
+    "attachments": "Anatomical lobes defined by falciform ligament and fissures; 8 Couinaud segments",
+    "supply": "Dual supply: hepatic artery (~25%) and portal vein (~75%); drains via hepatic veins to IVC"
+   },
+   "subs": [
+    {
+     "name": "Right lobe",
+     "parts": [
+      "FJ2821",
+      "FJ2822",
+      "FJ2409",
+      "FJ2823",
+      "FJ2824"
+     ],
+     "facts": {
+      "function": "Largest lobe; segments V–VIII",
+      "attachments": "Right of falciform ligament and gallbladder/IVC plane",
+      "supply": "Right hepatic artery and right portal vein"
+     }
+    },
+    {
+     "name": "Left lobe",
+     "parts": [
+      "FJ2818",
+      "FJ2819"
+     ],
+     "facts": {
+      "function": "Anatomical left lobe: segments II and III",
+      "attachments": "Left of falciform ligament and fissure for ligamentum venosum",
+      "supply": "Left hepatic artery and left portal vein"
+     }
+    },
+    {
+     "name": "Caudate lobe",
+     "parts": [
+      "FJ2816"
+     ],
+     "facts": {
+      "function": "Segment I; drains directly into IVC, so spared/hypertrophied in Budd-Chiari",
+      "attachments": "Posterior, between IVC and fissure for ligamentum venosum, above porta hepatis",
+      "supply": "Both right and left hepatic arteries and portal branches"
+     }
+    },
+    {
+     "name": "Quadrate lobe",
+     "parts": [
+      "FJ2820"
+     ],
+     "facts": {
+      "function": "Segment IV(b); functionally part of left liver",
+      "attachments": "Between gallbladder fossa and fissure for ligamentum teres, anterior to porta hepatis",
+      "supply": "Left hepatic artery and left portal vein"
+     }
+    }
+   ]
+  },
+  "88": {
+   "facts": {
+    "function": "Hilum of liver transmitting portal vein, hepatic arteries, hepatic ducts, nerves, lymphatics",
+    "attachments": "Transverse fissure on visceral surface between quadrate and caudate lobes"
+   }
+  },
+  "89": {
+   "facts": {
+    "function": "Supply right and left halves of the liver",
+    "attachments": "Proper hepatic artery → right and left hepatic arteries at porta hepatis; right gives cystic artery"
+   }
+  },
+  "90": {
+   "facts": {
+    "function": "Drain liver into IVC; run between Couinaud segments",
+    "attachments": "Intersegmental planes → IVC just below diaphragm; middle and left often join first"
+   },
+   "subs": [
+    {
+     "name": "Right hepatic vein",
+     "parts": [
+      "FJ2416"
+     ],
+     "facts": {
+      "function": "Drains right liver (segments V–VIII)",
+      "attachments": "Between anterior and posterior right sectors → IVC"
+     }
+    },
+    {
+     "name": "Middle hepatic vein",
+     "parts": [
+      "FJ2414"
+     ],
+     "facts": {
+      "function": "Drains central liver (segments IV, V, VIII); marks Cantlie line between functional lobes",
+      "attachments": "Main portal fissure → IVC, often with left hepatic vein"
+     }
+    },
+    {
+     "name": "Left hepatic vein",
+     "parts": [
+      "FJ2415"
+     ],
+     "facts": {
+      "function": "Drains left lateral liver (segments II, III)",
+      "attachments": "Left fissure → IVC, often joins middle hepatic vein"
+     }
+    }
+   ]
+  },
+  "91": {
+   "facts": {
+    "function": "Stores and concentrates bile; contracts to CCK",
+    "innervation": "Hepatic plexus (vagus, celiac); referred pain to right shoulder via phrenic nerve",
+    "attachments": "Gallbladder fossa on visceral surface of liver; fundus at 9th costal cartilage, midclavicular line",
+    "supply": "Cystic artery (right hepatic)"
+   },
+   "subs": [
+    {
+     "name": "Fundus",
+     "parts": [
+      "CUSTOM_GALLBLADDER_FUNDUS"
+     ],
+     "facts": {
+      "function": "Rounded blind end; projects past liver edge; Murphy sign palpation point",
+      "attachments": "At tip of right 9th costal cartilage, midclavicular line"
+     }
+    },
+    {
+     "name": "Body",
+     "parts": [
+      "CUSTOM_GALLBLADDER_BODY"
+     ],
+     "facts": {
+      "function": "Main storage portion of the gallbladder",
+      "attachments": "Lies in gallbladder fossa; contacts duodenum and transverse colon"
+     }
+    },
+    {
+     "name": "Neck",
+     "parts": [
+      "CUSTOM_GALLBLADDER_NECK"
+     ],
+     "facts": {
+      "function": "Tapered end continuous with cystic duct; Hartmann pouch where stones lodge",
+      "attachments": "Toward porta hepatis → cystic duct"
+     }
+    }
+   ]
+  },
+  "92": {
+   "facts": {
+    "function": "Drain bile from right and left functional halves of the liver",
+    "attachments": "Emerge at porta hepatis → join to form common hepatic duct"
+   }
+  },
+  "93": {
+   "facts": {
+    "function": "Carries bile from liver; forms border of hepatobiliary triangle (Calot)",
+    "attachments": "Union of right and left hepatic ducts → joins cystic duct to form CBD"
+   }
+  },
+  "94": {
+   "facts": {
+    "function": "Carries bile to and from gallbladder; spiral valve (Heister); stone here causes biliary colic/cholecystitis",
+    "attachments": "Gallbladder neck → joins common hepatic duct to form CBD"
+   }
+  },
+  "95": {
+   "facts": {
+    "function": "Carries bile to duodenum; obstruction → jaundice; pancreatic head cancer compresses it",
+    "attachments": "CHD + cystic duct → hepatoduodenal ligament (lateral) → behind duodenum → through pancreatic head → ampulla"
+   }
+  },
+  "96": {
+   "facts": {
+    "function": "Wirsung duct; carries pancreatic enzymes to duodenum",
+    "attachments": "Runs tail → head → joins CBD at hepatopancreatic ampulla → major duodenal papilla"
+   }
+  },
+  "97": {
+   "facts": {
+    "function": "Hepatopancreatic ampulla where CBD and main pancreatic duct unite; gallstone here → pancreatitis",
+    "attachments": "Within wall of 2nd part of duodenum, surrounded by sphincter of Oddi"
+   }
+  },
+  "98": {
+   "facts": {
+    "function": "Opening of hepatopancreatic ampulla into duodenum; marks foregut–midgut junction",
+    "attachments": "Posteromedial wall of 2nd (descending) part of duodenum; sphincter of Oddi controls flow"
+   }
+  },
+  "99": {
+   "facts": {
+    "function": "Exocrine (digestive enzymes, bicarbonate) and endocrine (islets: insulin, glucagon) gland; retroperitoneal except tail",
+    "innervation": "Vagus (parasympathetic) and celiac/superior mesenteric plexuses (sympathetic)",
+    "attachments": "Head in duodenal C-loop → neck over SMV/portal vein → body → tail in splenorenal ligament",
+    "supply": "Splenic artery (body/tail); superior and inferior pancreaticoduodenal arteries (head)"
+   },
+   "subs": [
+    {
+     "name": "Head",
+     "parts": [
+      "CUSTOM_PANCREAS_HEAD"
+     ],
+     "facts": {
+      "function": "Lies in duodenal C-loop; most common site of pancreatic cancer (painless jaundice)",
+      "attachments": "Right of SMV; uncinate process hooks behind SMV/SMA",
+      "supply": "Superior and inferior pancreaticoduodenal arteries"
+     }
+    },
+    {
+     "name": "Neck",
+     "parts": [
+      "CUSTOM_PANCREAS_NECK"
+     ],
+     "facts": {
+      "function": "Narrow connection between head and body",
+      "attachments": "Anterior to SMV–splenic vein confluence (portal vein formation)",
+      "supply": "Gastroduodenal artery branches"
+     }
+    },
+    {
+     "name": "Body",
+     "parts": [
+      "CUSTOM_PANCREAS_BODY"
+     ],
+     "facts": {
+      "function": "Main central portion; crosses aorta and L1–L2, vulnerable in blunt trauma",
+      "attachments": "Behind stomach, forms bed of stomach; splenic artery along superior border",
+      "supply": "Splenic artery (dorsal and great pancreatic)"
+     }
+    },
+    {
+     "name": "Tail",
+     "parts": [
+      "CUSTOM_PANCREAS_TAIL"
+     ],
+     "facts": {
+      "function": "Highest islet density; only intraperitoneal part",
+      "attachments": "In splenorenal ligament, reaching splenic hilum",
+      "supply": "Splenic artery"
+     }
+    }
+   ]
+  },
+  "100": {
+   "facts": {
+    "function": "Filters blood, removes old RBCs and encapsulated bacteria; immune function",
+    "attachments": "Left upper quadrant at ribs 9–11; gastrosplenic and splenorenal ligaments; mesodermal (dorsal mesentery) origin",
+    "supply": "Splenic artery; splenic vein → portal vein"
+   }
+  },
+  "101": {
+   "facts": {
+    "function": "Compresses abdomen, flexes and contralaterally rotates trunk",
+    "innervation": "Thoracoabdominal nerves (T7–T11) and subcostal nerve (T12)",
+    "attachments": "External surfaces of ribs 5–12 → linea alba, pubic tubercle, anterior iliac crest",
+    "supply": "Inferior epigastric, deep circumflex iliac, posterior intercostal arteries"
+   }
+  },
+  "102": {
+   "facts": {
+    "function": "Compresses abdomen, flexes and ipsilaterally rotates trunk; forms conjoint tendon",
+    "innervation": "Thoracoabdominal nerves (T7–T11), subcostal (T12), iliohypogastric and ilioinguinal nerves (L1)",
+    "attachments": "Thoracolumbar fascia, iliac crest, lateral inguinal ligament → ribs 10–12, linea alba, pubis via conjoint tendon",
+    "supply": "Superior/inferior epigastric, deep circumflex iliac arteries"
+   }
+  },
+  "103": {
+   "facts": {
+    "function": "Compresses abdominal contents; deepest flat abdominal muscle",
+    "innervation": "Thoracoabdominal nerves (T7–T11), subcostal (T12), iliohypogastric and ilioinguinal nerves (L1)",
+    "attachments": "Costal cartilages 7–12, thoracolumbar fascia, iliac crest, lateral inguinal ligament → linea alba, pubic crest via conjoint tendon",
+    "supply": "Deep circumflex iliac and inferior epigastric arteries"
+   }
+  },
+  "104": {
+   "facts": {
+    "function": "Flexes trunk, compresses abdomen; tendinous intersections create 'six-pack'",
+    "innervation": "Thoracoabdominal nerves (T7–T11) and subcostal nerve (T12)",
+    "attachments": "Pubic symphysis and pubic crest → xiphoid process and costal cartilages 5–7",
+    "supply": "Superior and inferior epigastric arteries"
+   }
+  },
+  "105": {
+   "facts": {
+    "function": "Aponeurotic sheath enclosing rectus abdominis and epigastric vessels",
+    "attachments": "Formed by flat-muscle aponeuroses; below arcuate line all layers pass anterior, leaving transversalis fascia posteriorly"
+   }
+  },
+  "106": {
+   "facts": {
+    "function": "Midline tendinous raphe; relatively avascular surgical incision site; diastasis recti when widened",
+    "attachments": "Fusion of flat-muscle aponeuroses from xiphoid process → pubic symphysis; umbilicus within it"
+   }
+  },
+  "107": {
+   "facts": {
+    "function": "Deep fascial layer lining transversus abdominis; deep inguinal ring is an opening in it",
+    "attachments": "Lines abdominal wall between transversus abdominis and extraperitoneal fat; forms anterior femoral sheath"
+   }
+  },
+  "108": {
+   "facts": {
+    "function": "Forms anterior wall of inguinal canal, superficial ring and inguinal ligament",
+    "attachments": "External oblique → linea alba; inferior rolled edge = inguinal ligament (ASIS → pubic tubercle)"
+   }
+  },
+  "109": {
+   "facts": {
+    "function": "Superficial fatty layer of the subcutaneous tissue of lower abdominal wall",
+    "attachments": "Continuous with superficial fat of thigh and perineum"
+   }
+  },
+  "110": {
+   "facts": {
+    "function": "Deep membranous layer of subcutaneous tissue; guides extravasated urine to abdomen in urethral injury",
+    "attachments": "Continuous with Colles fascia of perineum and dartos; fuses with fascia lata below inguinal ligament"
+   }
+  },
+  "111": {
+   "facts": {
+    "function": "Region of anterior thigh containing (lateral → medial) femoral nerve, artery, vein, lymphatics (NAVeL)",
+    "attachments": "Borders: inguinal ligament (superior), sartorius (lateral), adductor longus (medial); floor iliopsoas, pectineus"
+   },
+   "subs": [
+    {
+     "name": "Inguinal ligament",
+     "parts": [
+      "CUSTOM_INGUINAL_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Superior border of femoral triangle; floor of inguinal canal",
+      "attachments": "ASIS → pubic tubercle; rolled lower edge of external oblique aponeurosis"
+     }
+    },
+    {
+     "name": "Sartorius",
+     "parts": [
+      "SRC_Z_SARTORIUS_MUSCLE_R",
+      "SRC_Z_SARTORIUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Lateral border of femoral triangle; flexes, abducts, laterally rotates hip; flexes knee",
+      "innervation": "Femoral nerve (L2–L3)",
+      "attachments": "ASIS → pes anserinus on superomedial tibia",
+      "supply": "Femoral artery branches"
+     }
+    },
+    {
+     "name": "Adductor longus",
+     "parts": [
+      "SRC_Z_ADDUCTOR_LONGUS_R",
+      "SRC_Z_ADDUCTOR_LONGUS_L"
+     ],
+     "facts": {
+      "function": "Medial border of femoral triangle; adducts and flexes thigh",
+      "innervation": "Obturator nerve (L2–L4)",
+      "attachments": "Body of pubis below pubic crest → middle third of linea aspera",
+      "supply": "Deep femoral and obturator arteries"
+     }
+    }
+   ]
+  },
+  "112": {
+   "facts": {
+    "function": "Passage through lower abdominal wall for spermatic cord (male) or round ligament (female); indirect hernias",
+    "attachments": "Deep ring (transversalis fascia, lateral to inferior epigastrics) → superficial ring (external oblique aponeurosis, above pubic tubercle)"
+   }
+  },
+  "113": {
+   "facts": {
+    "function": "Hesselbach triangle; weak area where direct inguinal hernias protrude medial to inferior epigastric vessels",
+    "attachments": "Borders: rectus abdominis lateral edge (medial), inferior epigastric vessels (lateral), inguinal ligament (inferior)"
+   },
+   "subs": [
+    {
+     "name": "Rectus abdominis",
+     "parts": [
+      "SRC_Z_RECTUS_ABDOMINIS_MUSCLE_R",
+      "SRC_Z_RECTUS_ABDOMINIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Lateral border of rectus forms medial border of inguinal triangle",
+      "innervation": "Thoracoabdominal nerves (T7–T11), subcostal (T12)",
+      "attachments": "Pubic crest and symphysis → xiphoid, costal cartilages 5–7"
+     }
+    },
+    {
+     "name": "Inferior epigastric vessels",
+     "parts": [
+      "SRC_Z_INFERIOR_EPIGASTRIC_ARTERY_R",
+      "SRC_Z_INFERIOR_EPIGASTRIC_ARTERY_L",
+      "SRC_Z_INFERIOR_EPIGASTRIC_VEIN_R",
+      "SRC_Z_INFERIOR_EPIGASTRIC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Lateral border of inguinal triangle; indirect hernias lateral, direct hernias medial to them",
+      "attachments": "External iliac artery/vein → ascend medial to deep ring → rectus sheath"
+     }
+    },
+    {
+     "name": "Inguinal ligament",
+     "parts": [
+      "CUSTOM_INGUINAL_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Inferior border of inguinal triangle",
+      "attachments": "ASIS → pubic tubercle"
+     }
+    }
+   ]
+  },
+  "114": {
+   "facts": {
+    "function": "Fascial tube enclosing femoral artery, vein and canal (lymphatics), NOT the femoral nerve",
+    "attachments": "Extension of transversalis (anterior) and iliac (posterior) fascia below inguinal ligament"
+   },
+   "subs": [
+    {
+     "name": "Femoral artery",
+     "parts": [
+      "SRC_Z_FEMORAL_ARTERY_R",
+      "SRC_Z_FEMORAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Main arterial supply of lower limb; lateral compartment of femoral sheath; palpable at midinguinal point",
+      "attachments": "Continuation of external iliac below inguinal ligament → adductor hiatus → popliteal artery"
+     }
+    },
+    {
+     "name": "Femoral vein",
+     "parts": [
+      "SRC_Z_FEMORAL_VEIN_R",
+      "SRC_Z_FEMORAL_VEIN_L"
+     ],
+     "facts": {
+      "function": "Main deep venous drainage of lower limb; middle compartment of femoral sheath; receives great saphenous vein",
+      "attachments": "Popliteal vein → femoral triangle (medial to artery) → external iliac vein"
+     }
+    }
+   ]
+  },
+  "115": {
+   "facts": {
+    "function": "Medial compartment of femoral sheath with lymphatics and Cloquet node; site of femoral hernias (more in women)",
+    "attachments": "Femoral ring borders: inguinal ligament, lacunar ligament, pectineal ligament, femoral vein"
+   }
+  },
+  "116": {
+   "facts": {
+    "function": "Motor to anterior thigh (quadriceps, sartorius, pectineus); sensory to anterior thigh and medial leg (saphenous)",
+    "innervation": "Lumbar plexus L2–L4 posterior divisions",
+    "attachments": "Lateral border of psoas → under inguinal ligament lateral to femoral sheath → femoral triangle"
+   }
+  },
+  "117": {
+   "facts": {
+    "function": "Supplies upper rectus abdominis and anterior abdominal wall",
+    "attachments": "Terminal branch of internal thoracic artery → enters rectus sheath → anastomoses with inferior epigastric"
+   }
+  },
+  "118": {
+   "facts": {
+    "function": "Supplies lower rectus abdominis; lateral border of Hesselbach triangle (direct vs indirect hernia landmark)",
+    "attachments": "External iliac artery above inguinal ligament → ascends medial to deep ring → enters rectus sheath at arcuate line"
+   }
+  },
+  "119": {
+   "facts": {
+    "function": "Sensory to medial thigh, root of penis/anterior scrotum or mons/labia majora; motor to internal oblique, transversus",
+    "innervation": "L1 (anterior ramus)",
+    "attachments": "Lumbar plexus → through inguinal canal → exits superficial ring (not through deep ring)"
+   }
+  },
+  "120": {
+   "facts": {
+    "function": "Sensory to suprapubic and lateral gluteal skin; motor to internal oblique and transversus abdominis",
+    "innervation": "L1 (anterior ramus)",
+    "attachments": "Lumbar plexus → between internal oblique and transversus → pierces external oblique aponeurosis above superficial ring"
+   }
+  },
+  "121": {
+   "facts": {
+    "function": "Palpable bony landmark; lateral attachment of inguinal ligament",
+    "attachments": "Anterior end of iliac crest; attachment of sartorius, inguinal ligament, tensor fasciae latae"
+   }
+  },
+  "122": {
+   "facts": {
+    "function": "Palpable bony ridge of pubic body; attachment of abdominal wall muscles",
+    "attachments": "Superior border of pubic body ending laterally at pubic tubercle; rectus abdominis, conjoint tendon attach"
+   }
+  },
+  "123": {
+   "facts": {
+    "function": "Primary muscle of inspiration; separates thoracic and abdominal cavities",
+    "innervation": "Phrenic nerve (C3–C5) motor; 'C3, 4, 5 keeps the diaphragm alive'; referred shoulder pain",
+    "attachments": "Xiphoid, lower 6 costal cartilages, L1–L3 vertebrae (crura), arcuate ligaments → central tendon",
+    "supply": "Pericardiacophrenic, musculophrenic, superior and inferior phrenic arteries"
+   }
+  },
+  "124": {
+   "facts": {
+    "function": "Muscular tendinous attachments of diaphragm to lumbar spine; right crus forms esophageal hiatus sling",
+    "innervation": "Phrenic nerve (C3–C5)",
+    "attachments": "Right crus L1–L3, left crus L1–L2 bodies; join as median arcuate ligament over aorta"
+   }
+  },
+  "125": {
+   "facts": {
+    "function": "Aponeurotic center of diaphragm into which muscle fibers insert; contains caval opening",
+    "attachments": "Trefoil-shaped tendon fused superiorly with fibrous pericardium"
+   }
+  },
+  "126": {
+   "facts": {
+    "function": "Transmits IVC and branches of right phrenic nerve at T8",
+    "attachments": "Opening in central tendon of diaphragm; widens on inspiration"
+   }
+  },
+  "127": {
+   "facts": {
+    "function": "Transmits esophagus and vagal trunks at T10; site of hiatal hernia",
+    "attachments": "Muscular opening formed by right crus of diaphragm"
+   }
+  },
+  "128": {
+   "facts": {
+    "function": "Transmits aorta, thoracic duct, azygos vein at T12",
+    "attachments": "Behind median arcuate ligament between crura (technically posterior to diaphragm)"
+   }
+  },
+  "129": {
+   "facts": {
+    "function": "Carries vas deferens, testicular artery, pampiniform plexus, lymphatics, genital branch of genitofemoral nerve",
+    "innervation": "Genital branch of genitofemoral nerve (cremaster); ilioinguinal runs on (not in) cord",
+    "attachments": "Deep inguinal ring → inguinal canal → superficial ring → testis; coverings: internal spermatic, cremasteric, external spermatic fascia",
+    "supply": "Testicular artery (aorta); pampiniform plexus → testicular vein (left to left renal vein)"
+   }
+  },
+  "130": {
+   "facts": {
+    "function": "Remnant of gubernaculum in females; maintains anteversion of uterus",
+    "attachments": "Uterine horn (below uterine tube) → inguinal canal → labium majus",
+    "supply": "Artery of round ligament (inferior epigastric); lymph can drain to superficial inguinal nodes"
+   }
+  }
+ }
+}

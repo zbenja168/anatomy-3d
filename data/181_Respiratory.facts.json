@@ -1,0 +1,1111 @@
+{
+ "stem": "181_Respiratory",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "External openings of the nasal cavity; lead into the vestibule"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Vestibule (skin, vibrissae) filters; respiratory region warms/humidifies air; olfactory region (roof) senses smell",
+    "supply": "Sphenopalatine, anterior/posterior ethmoidal, greater palatine, superior labial arteries"
+   },
+   "subs": [
+    {
+     "name": "Nasal vestibule",
+     "parts": [
+      "CUSTOM_NASAL_VESTIBULE"
+     ],
+     "facts": {
+      "function": "Skin-lined entrance with vibrissae (hairs) that filter large particles"
+     }
+    },
+    {
+     "name": "Respiratory region",
+     "parts": [
+      "CUSTOM_NASAL_RESPIRATORY_REGION"
+     ],
+     "facts": {
+      "function": "Bulk of cavity; ciliated pseudostratified epithelium with venous plexuses warms and humidifies air"
+     }
+    },
+    {
+     "name": "Olfactory region",
+     "parts": [
+      "CUSTOM_NASAL_OLFACTORY_REGION"
+     ],
+     "facts": {
+      "function": "Roof of cavity and superior concha; olfactory epithelium for smell",
+      "innervation": "Olfactory nerve (CN I) fibers through cribriform plate"
+     }
+    }
+   ]
+  },
+  "3": {
+   "facts": {
+    "function": "Midline partition dividing nasal cavity into right and left halves",
+    "attachments": "Perpendicular plate of ethmoid (superior), vomer (posteroinferior), septal cartilage (anterior)",
+    "supply": "Kiesselbach plexus anteriorly (Little's area): common site of anterior epistaxis"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Scroll-like projections from lateral wall; increase surface area to warm, humidify and filter air"
+   },
+   "subs": [
+    {
+     "name": "Inferior nasal concha",
+     "parts": [
+      "SRC_Z_INFERIOR_NASAL_CONCHA_BONE_R",
+      "SRC_Z_INFERIOR_NASAL_CONCHA_BONE_L"
+     ],
+     "facts": {
+      "function": "Separate bone; largest concha; nasolacrimal duct opens beneath it",
+      "attachments": "Articulates with maxilla, lacrimal, ethmoid, palatine bones"
+     }
+    },
+    {
+     "name": "Middle and superior nasal conchae",
+     "parts": [
+      "CUSTOM_ETHMOID_CONCHAE"
+     ],
+     "facts": {
+      "function": "Processes of ethmoid bone; overlie middle and superior meatuses"
+     }
+    }
+   ]
+  },
+  "5": {
+   "facts": {
+    "function": "Air passages beneath each concha; receive drainage of paranasal sinuses and nasolacrimal duct"
+   },
+   "subs": [
+    {
+     "name": "Inferior meatus",
+     "parts": [
+      "CUSTOM_INFERIOR_MEATUS"
+     ],
+     "facts": {
+      "function": "Receives nasolacrimal duct"
+     }
+    },
+    {
+     "name": "Middle meatus",
+     "parts": [
+      "CUSTOM_MIDDLE_MEATUS"
+     ],
+     "facts": {
+      "function": "Receives frontal, maxillary, anterior/middle ethmoidal sinuses via semilunar hiatus and ethmoidal bulla"
+     }
+    },
+    {
+     "name": "Superior meatus",
+     "parts": [
+      "CUSTOM_SUPERIOR_MEATUS"
+     ],
+     "facts": {
+      "function": "Receives posterior ethmoidal cells"
+     }
+    }
+   ]
+  },
+  "7": {
+   "facts": {
+    "function": "Drains tears from lacrimal sac into the inferior meatus",
+    "attachments": "Lacrimal sac → nasolacrimal canal → inferior meatus"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Form the walls, roof and floor of the nasal cavity"
+   },
+   "subs": [
+    {
+     "name": "Ethmoid",
+     "parts": [
+      "SRC_Z_ETHMOID_BONE"
+     ],
+     "facts": {
+      "function": "Forms roof (cribriform plate), upper septum (perpendicular plate), middle/superior conchae"
+     }
+    },
+    {
+     "name": "Frontal",
+     "parts": [
+      "SRC_Z_FRONTAL_BONE"
+     ],
+     "facts": {
+      "function": "Forms anterior roof; contains frontal sinus"
+     }
+    },
+    {
+     "name": "Maxilla",
+     "parts": [
+      "SRC_Z_MAXILLA_R",
+      "SRC_Z_MAXILLA_L"
+     ],
+     "facts": {
+      "function": "Forms floor (palatine process) and lateral wall; contains maxillary sinus"
+     }
+    },
+    {
+     "name": "Nasal",
+     "parts": [
+      "SRC_Z_NASAL_BONE_R",
+      "SRC_Z_NASAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Forms bridge of nose and anterior roof"
+     }
+    },
+    {
+     "name": "Palatine",
+     "parts": [
+      "SRC_Z_PALATINE_BONE_R",
+      "SRC_Z_PALATINE_BONE_L"
+     ],
+     "facts": {
+      "function": "Posterior floor (horizontal plate) and posterior lateral wall (perpendicular plate)"
+     }
+    },
+    {
+     "name": "Sphenoid",
+     "parts": [
+      "SRC_Z_SPHENOID_BONE"
+     ],
+     "facts": {
+      "function": "Posterior roof; body contains sphenoid sinus"
+     }
+    },
+    {
+     "name": "Vomer",
+     "parts": [
+      "SRC_Z_VOMER"
+     ],
+     "facts": {
+      "function": "Posteroinferior part of nasal septum"
+     }
+    }
+   ]
+  },
+  "9": {
+   "facts": {
+    "function": "Main supply of nasal cavity (septum and lateral wall); key vessel in posterior epistaxis",
+    "attachments": "Terminal branch of maxillary artery; enters via sphenopalatine foramen → posterior lateral nasal and septal branches"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Paranasal sinus in frontal bone; lightens skull, humidifies air",
+    "attachments": "Drains via frontonasal duct into semilunar hiatus of middle meatus",
+    "innervation": "Supraorbital nerve (CN V1)"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Largest paranasal sinus; most commonly infected; maxillary molar roots lie in its floor",
+    "attachments": "Drains into semilunar hiatus of middle meatus; ostium high on medial wall, poor gravity drainage",
+    "innervation": "Infraorbital and superior alveolar nerves (CN V2)"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Air cells of ethmoid labyrinth between nasal cavity and orbit; infection can spread to orbit (orbital cellulitis)",
+    "attachments": "Anterior/middle cells → middle meatus (ethmoidal bulla, semilunar hiatus); posterior cells → superior meatus"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Paranasal sinus in sphenoid body; lies beneath sella turcica/pituitary (transsphenoidal approach)",
+    "attachments": "Drains into sphenoethmoidal recess above superior concha"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Supplies deep face, muscles of mastication, nasal cavity, palate, meninges (middle meningeal)",
+    "attachments": "Terminal branch of external carotid → passes through infratemporal fossa into pterygopalatine fossa"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Supplies face, neck, scalp and nasal cavity",
+    "attachments": "From common carotid at C4 (upper thyroid cartilage) → ends as maxillary and superficial temporal arteries"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Supplies brain and orbit; no branches in the neck",
+    "attachments": "From common carotid at C4 → carotid canal → cavernous sinus → ophthalmic and cerebral branches"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Uppermost pharynx behind nasal cavity; respiratory only; contains adenoids and auditory tube openings",
+    "attachments": "Choanae to soft palate (C1 level)"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Lymphoid tissue (MALT) on posterior nasopharynx roof; enlargement causes mouth breathing, otitis media"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Equalizes middle ear pressure with atmosphere; route for infection to middle ear",
+    "attachments": "Middle ear → opens on lateral wall of nasopharynx (torus tubarius)",
+    "innervation": "Opened by tensor veli palatini (CN V3) and salpingopharyngeus (CN X)"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Shared airway/food passage behind oral cavity; contains palatine tonsils",
+    "attachments": "Soft palate to superior border of epiglottis (C2–C3)",
+    "innervation": "Sensory: glossopharyngeal nerve (CN IX), afferent limb of gag reflex"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Supplies face, palatine tonsil (tonsillar branch), lips and side of nose",
+    "attachments": "Branch of external carotid → hooks over mandible at masseter → angular artery"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Lymphoid tissue between palatoglossal and palatopharyngeal arches; tonsillitis site",
+    "supply": "Tonsillar branch of facial artery",
+    "innervation": "Glossopharyngeal nerve (CN IX); referred ear pain after tonsillectomy"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Midline projection of soft palate; deviates away from side of CN X lesion",
+    "innervation": "Musculus uvulae: vagus nerve (CN X, pharyngeal plexus)"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Lowest pharynx behind larynx; opens into esophagus and larynx",
+    "attachments": "Epiglottis to inferior border of cricoid (C6), continuous with esophagus",
+    "innervation": "Sensory: vagus nerve (internal laryngeal branch)"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Elastic cartilage flap covering laryngeal inlet during swallowing",
+    "attachments": "Attached to thyroid cartilage (thyroepiglottic ligament) and hyoid",
+    "innervation": "Sensory: internal laryngeal nerve (CN X); lingual surface partly CN IX"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Recess beside laryngeal inlet where food/fish bones lodge; internal laryngeal nerve lies beneath mucosa",
+    "attachments": "Between aryepiglottic fold medially and thyroid cartilage laterally"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Sequentially constrict the pharynx to propel bolus during swallowing",
+    "innervation": "Vagus nerve (CN X) via pharyngeal plexus"
+   },
+   "subs": [
+    {
+     "name": "Superior pharyngeal constrictor",
+     "parts": [
+      "SRC_Z_SUPERIOR_PHARYNGEAL_CONSTRICTOR_R",
+      "SRC_Z_SUPERIOR_PHARYNGEAL_CONSTRICTOR_L"
+     ],
+     "facts": {
+      "function": "Constricts upper pharynx",
+      "attachments": "Pterygoid hamulus, pterygomandibular raphe, mandible → pharyngeal raphe",
+      "innervation": "Vagus (pharyngeal plexus)"
+     }
+    },
+    {
+     "name": "Middle pharyngeal constrictor",
+     "parts": [
+      "SRC_Z_MIDDLE_PHARYNGEAL_CONSTRICTOR_R",
+      "SRC_Z_MIDDLE_PHARYNGEAL_CONSTRICTOR_L"
+     ],
+     "facts": {
+      "function": "Constricts middle pharynx",
+      "attachments": "Hyoid (greater/lesser horns), stylohyoid ligament → pharyngeal raphe",
+      "innervation": "Vagus (pharyngeal plexus)"
+     }
+    },
+    {
+     "name": "Inferior pharyngeal constrictor",
+     "parts": [
+      "SRC_Z_INFERIOR_PHARYNGEAL_CONSTRICTOR_R",
+      "SRC_Z_INFERIOR_PHARYNGEAL_CONSTRICTOR_L"
+     ],
+     "facts": {
+      "function": "Constricts lower pharynx; cricopharyngeus part is upper esophageal sphincter; Zenker diverticulum at Killian triangle",
+      "attachments": "Thyroid and cricoid cartilages → pharyngeal raphe",
+      "innervation": "Vagus (pharyngeal plexus, plus recurrent/external laryngeal)"
+     }
+    }
+   ]
+  },
+  "28": {
+   "facts": {
+    "function": "Mixed: taste/sensation posterior 1/3 tongue, pharynx sensation (gag afferent), carotid sinus/body; parotid secretion",
+    "innervation": "Motor to stylopharyngeus only; parasympathetic to parotid via otic ganglion",
+    "attachments": "Exits skull via jugular foramen"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Mixed: motor to pharynx, larynx, soft palate (except tensor veli palatini); parasympathetic to thoracoabdominal viscera",
+    "innervation": "Sensory to larynx and laryngopharynx; efferent limb of gag and cough reflexes",
+    "attachments": "Exits jugular foramen → carotid sheath → thorax"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Supraglottis: epiglottis to false folds; glottis: true vocal folds and rima glottidis; subglottis: below folds to cricoid",
+    "innervation": "Mucosa above vocal folds: internal laryngeal n.; below: recurrent laryngeal n."
+   },
+   "subs": [
+    {
+     "name": "Supraglottis",
+     "parts": [
+      "CUSTOM_LARYNX_SUPRAGLOTTIS"
+     ],
+     "facts": {
+      "function": "Laryngeal vestibule: from laryngeal inlet to vestibular (false) folds"
+     }
+    },
+    {
+     "name": "Glottis",
+     "parts": [
+      "CUSTOM_LARYNX_GLOTTIS"
+     ],
+     "facts": {
+      "function": "True vocal folds and rima glottidis; narrowest part of adult larynx"
+     }
+    },
+    {
+     "name": "Subglottis",
+     "parts": [
+      "CUSTOM_LARYNX_SUBGLOTTIS"
+     ],
+     "facts": {
+      "function": "From vocal folds to lower cricoid; narrowest part of infant airway; croup site"
+     }
+    }
+   ]
+  },
+  "31": {
+   "facts": {
+    "function": "U-shaped bone anchoring tongue and larynx; does not articulate with other bones",
+    "attachments": "Attachment of supra- and infrahyoid muscles; C3 level; thyrohyoid membrane to thyroid cartilage"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Largest laryngeal cartilage; shields larynx and anchors vocal folds (anteriorly)",
+    "attachments": "Hyaline; articulates with cricoid (cricothyroid joint); thyrohyoid membrane to hyoid; C4–C5 level"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Adam's apple: anterior midline projection of thyroid cartilage laminae, more prominent in males"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Only complete cartilaginous ring of airway; signet-ring shape",
+    "attachments": "C6 level; articulates with thyroid and arytenoid cartilages; continuous below with trachea"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Site of emergency cricothyrotomy (airway access below vocal folds)",
+    "attachments": "Connects thyroid cartilage to cricoid cartilage in the midline"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Pyramidal cartilages whose movement adjusts vocal fold tension and position",
+    "attachments": "Sit on cricoid lamina; vocal process → vocal ligament; muscular process → cricoarytenoid muscles"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "True folds (vocal ligament + vocalis) vibrate for phonation; false (vestibular) folds are protective, non-phonatory",
+    "innervation": "Vocalis: recurrent laryngeal nerve"
+   },
+   "subs": [
+    {
+     "name": "True vocal folds",
+     "parts": [
+      "FJ2805",
+      "FJ2787",
+      "FJ2806",
+      "FJ2788"
+     ],
+     "facts": {
+      "function": "Vibrate for phonation; vocal ligament with vocalis muscle; stratified squamous epithelium",
+      "innervation": "Vocalis: recurrent laryngeal nerve",
+      "attachments": "Vocal process of arytenoid → posterior thyroid cartilage"
+     }
+    },
+    {
+     "name": "Vestibular (false) vocal folds",
+     "parts": [
+      "CUSTOM_VESTIBULAR_FOLDS"
+     ],
+     "facts": {
+      "function": "Protective folds above true folds; not involved in phonation"
+     }
+    }
+   ]
+  },
+  "38": {
+   "facts": {
+    "function": "ONLY abductor of vocal folds (opens rima glottidis); bilateral loss causes airway obstruction",
+    "innervation": "Recurrent laryngeal nerve (CN X)",
+    "attachments": "Posterior cricoid lamina → muscular process of arytenoid"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Tenses/lengthens vocal folds (raises pitch); only intrinsic muscle on external larynx",
+    "innervation": "External branch of superior laryngeal nerve (CN X)",
+    "attachments": "Anterolateral cricoid arch → inferior border and inferior horn of thyroid cartilage"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Adduct arytenoids, closing posterior rima glottidis",
+    "innervation": "Recurrent laryngeal nerve (CN X)",
+    "attachments": "Between posterior surfaces of the two arytenoid cartilages"
+   },
+   "subs": [
+    {
+     "name": "Transverse arytenoid",
+     "parts": [
+      "FJ2809"
+     ],
+     "facts": {
+      "function": "Adducts arytenoids to close posterior rima glottidis",
+      "innervation": "Recurrent laryngeal nerve",
+      "attachments": "Posterior surface of one arytenoid → the other (unpaired)"
+     }
+    },
+    {
+     "name": "Oblique arytenoid",
+     "parts": [
+      "FJ2798",
+      "FJ2780"
+     ],
+     "facts": {
+      "function": "Adducts arytenoids; continues as aryepiglotticus to narrow laryngeal inlet",
+      "innervation": "Recurrent laryngeal nerve",
+      "attachments": "Muscular process of one arytenoid → apex of opposite arytenoid"
+     }
+    }
+   ]
+  },
+  "41": {
+   "facts": {
+    "function": "Relaxes and shortens vocal folds (lowers pitch); thyroepiglottic part widens laryngeal inlet",
+    "innervation": "Recurrent laryngeal nerve (CN X)",
+    "attachments": "Posterior surface of thyroid cartilage → anterolateral arytenoid"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Internal branch: sensory to laryngeal mucosa above vocal folds; external branch: motor to cricothyroid",
+    "innervation": "Branch of vagus (CN X); external branch at risk with superior thyroid artery ligation",
+    "attachments": "Internal branch pierces thyrohyoid membrane with superior laryngeal artery"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Motor to all intrinsic laryngeal muscles except cricothyroid; sensory below vocal folds",
+    "innervation": "Branches of vagus (CN X); injury → hoarseness (thyroidectomy, aortic aneurysm, Pancoast tumor)",
+    "attachments": "Left hooks under aortic arch (ligamentum arteriosum); right hooks under right subclavian artery"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Elevate hyoid and larynx during swallowing; depress mandible"
+   },
+   "subs": [
+    {
+     "name": "Digastric",
+     "parts": [
+      "SRC_Z_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+      "SRC_Z_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L",
+      "SRC_Z_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+      "SRC_Z_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses mandible; elevates hyoid",
+      "innervation": "Anterior belly: nerve to mylohyoid (CN V3); posterior belly: facial nerve (CN VII)",
+      "attachments": "Mastoid notch → intermediate tendon on hyoid → digastric fossa of mandible"
+     }
+    },
+    {
+     "name": "Stylohyoid",
+     "parts": [
+      "SRC_Z_STYLOHYOID_MUSCLE_R",
+      "SRC_Z_STYLOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates and retracts hyoid",
+      "innervation": "Facial nerve (CN VII)",
+      "attachments": "Styloid process → hyoid body"
+     }
+    },
+    {
+     "name": "Mylohyoid",
+     "parts": [
+      "SRC_Z_MYLOHYOID_MUSCLE_R",
+      "SRC_Z_MYLOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Forms floor of mouth; elevates hyoid and tongue",
+      "innervation": "Nerve to mylohyoid (CN V3)",
+      "attachments": "Mylohyoid line of mandible → hyoid body and midline raphe"
+     }
+    },
+    {
+     "name": "Geniohyoid",
+     "parts": [
+      "SRC_Z_GENIOHYOID_MUSCLE_R",
+      "SRC_Z_GENIOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Pulls hyoid anterosuperiorly",
+      "innervation": "C1 via hypoglossal nerve",
+      "attachments": "Inferior mental spine of mandible → hyoid body"
+     }
+    }
+   ]
+  },
+  "45": {
+   "facts": {
+    "function": "'Strap muscles': depress hyoid and larynx after swallowing/phonation",
+    "innervation": "Ansa cervicalis (C1–C3), except thyrohyoid (C1 via hypoglossal nerve)"
+   },
+   "subs": [
+    {
+     "name": "Sternohyoid",
+     "parts": [
+      "SRC_Z_STERNOHYOID_MUSCLE_R",
+      "SRC_Z_STERNOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses hyoid",
+      "innervation": "Ansa cervicalis (C1–C3)",
+      "attachments": "Manubrium, medial clavicle → hyoid body"
+     }
+    },
+    {
+     "name": "Omohyoid",
+     "parts": [
+      "SRC_Z_OMOHYOID_MUSCLE_R",
+      "SRC_Z_OMOHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses and retracts hyoid",
+      "innervation": "Ansa cervicalis (C1–C3)",
+      "attachments": "Superior border of scapula → intermediate tendon → hyoid body"
+     }
+    },
+    {
+     "name": "Sternothyroid",
+     "parts": [
+      "SRC_Z_STERNOTHYROID_MUSCLE_R",
+      "SRC_Z_STERNOTHYROID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses larynx (thyroid cartilage)",
+      "innervation": "Ansa cervicalis (C2–C3)",
+      "attachments": "Posterior manubrium → oblique line of thyroid cartilage"
+     }
+    },
+    {
+     "name": "Thyrohyoid",
+     "parts": [
+      "SRC_Z_THYROHYOID_MUSCLE_R",
+      "SRC_Z_THYROHYOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Depresses hyoid; elevates larynx when hyoid fixed",
+      "innervation": "C1 via hypoglossal nerve",
+      "attachments": "Oblique line of thyroid cartilage → hyoid body and greater horn"
+     }
+    }
+   ]
+  },
+  "46": {
+   "facts": {
+    "function": "Elevate ribs during inspiration (forced and quiet)",
+    "innervation": "Intercostal nerves (T1–T11)",
+    "attachments": "Inferior border of rib above → superior border of rib below; fibers run inferomedially (hands in pockets)"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Depress ribs during forced expiration (interosseous part)",
+    "innervation": "Intercostal nerves (T1–T11)",
+    "attachments": "Rib below → costal groove of rib above; fibers perpendicular to externals"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Assist internal intercostals in forced expiration; intercostal neurovascular bundle runs between it and internal layer",
+    "innervation": "Intercostal nerves",
+    "attachments": "Internal surfaces of adjacent ribs, deepest layer"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Inspiratory accessories elevate ribs/sternum; abdominal muscles drive forced expiration by raising intra-abdominal pressure"
+   },
+   "subs": [
+    {
+     "name": "Sternocleidomastoid",
+     "parts": [
+      "SRC_Z_STERNOCLEIDOMASTOID_MUSCLE_R",
+      "SRC_Z_STERNOCLEIDOMASTOID_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Accessory inspiration: elevates sternum when head fixed",
+      "innervation": "Spinal accessory nerve (CN XI)",
+      "attachments": "Manubrium, medial clavicle → mastoid process"
+     }
+    },
+    {
+     "name": "Scalenes",
+     "parts": [
+      "SRC_Z_SCALENUS_ANTERIOR_MUSCLE_R",
+      "SRC_Z_SCALENUS_ANTERIOR_MUSCLE_L",
+      "SRC_Z_SCALENUS_MEDIUS_MUSCLE_R",
+      "SRC_Z_SCALENUS_MEDIUS_MUSCLE_L",
+      "SRC_Z_SCALENUS_POSTERIOR_MUSCLE_R",
+      "SRC_Z_SCALENUS_POSTERIOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevate ribs 1–2 in forced inspiration",
+      "innervation": "Anterior rami of cervical nerves (C3–C8)",
+      "attachments": "Cervical transverse processes → anterior/middle to rib 1, posterior to rib 2"
+     }
+    },
+    {
+     "name": "Pectoralis major",
+     "parts": [
+      "SRC_Z_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "SRC_Z_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+      "SRC_Z_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "SRC_Z_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+      "SRC_Z_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "SRC_Z_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates ribs when arm fixed (forced inspiration)",
+      "innervation": "Medial and lateral pectoral nerves"
+     }
+    },
+    {
+     "name": "Pectoralis minor",
+     "parts": [
+      "SRC_Z_PECTORALIS_MINOR_MUSCLE_R",
+      "SRC_Z_PECTORALIS_MINOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates ribs 3–5 when scapula fixed",
+      "innervation": "Medial pectoral nerve",
+      "attachments": "Ribs 3–5 → coracoid process"
+     }
+    },
+    {
+     "name": "Serratus anterior",
+     "parts": [
+      "SRC_Z_SERRATUS_ANTERIOR_MUSCLE_R",
+      "SRC_Z_SERRATUS_ANTERIOR_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Elevates ribs when scapula fixed",
+      "innervation": "Long thoracic nerve (C5–C7)",
+      "attachments": "Ribs 1–8 → medial border of scapula"
+     }
+    },
+    {
+     "name": "Rectus abdominis",
+     "parts": [
+      "SRC_Z_RECTUS_ABDOMINIS_MUSCLE_R",
+      "SRC_Z_RECTUS_ABDOMINIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Forced expiration: depresses ribs, compresses abdomen",
+      "innervation": "Thoracoabdominal nerves (T7–T11), subcostal (T12)",
+      "attachments": "Pubic crest/symphysis → xiphoid and costal cartilages 5–7"
+     }
+    },
+    {
+     "name": "External oblique",
+     "parts": [
+      "SRC_Z_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+      "SRC_Z_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Forced expiration: compresses abdomen, depresses ribs",
+      "innervation": "Thoracoabdominal nerves (T7–T11), subcostal (T12)",
+      "attachments": "Ribs 5–12 → linea alba, pubic tubercle, iliac crest"
+     }
+    },
+    {
+     "name": "Internal oblique",
+     "parts": [
+      "SRC_Z_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+      "SRC_Z_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Forced expiration: compresses abdomen",
+      "innervation": "Thoracoabdominal (T7–T11), subcostal, iliohypogastric, ilioinguinal nerves",
+      "attachments": "Thoracolumbar fascia, iliac crest, lateral inguinal ligament → ribs 10–12, linea alba"
+     }
+    },
+    {
+     "name": "Transversus abdominis",
+     "parts": [
+      "SRC_Z_TRANSVERSUS_ABDOMINIS_MUSCLE_R",
+      "SRC_Z_TRANSVERSUS_ABDOMINIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Forced expiration: compresses abdominal contents",
+      "innervation": "Thoracoabdominal (T7–T11), subcostal, iliohypogastric, ilioinguinal nerves",
+      "attachments": "Costal cartilages 7–12, thoracolumbar fascia, iliac crest → linea alba"
+     }
+    }
+   ]
+  },
+  "50": {
+   "facts": {
+    "function": "Primary muscle of inspiration; contraction flattens dome, enlarging thoracic volume",
+    "innervation": "Phrenic nerve (C3–C5): 'C3, 4, 5 keeps the diaphragm alive'",
+    "attachments": "Xiphoid, lower 6 costal cartilages, L1–L3 vertebrae (crura) → central tendon",
+    "supply": "Pericardiacophrenic, musculophrenic, superior and inferior phrenic arteries"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Motor to diaphragm; sensory to central diaphragm, pericardium, mediastinal pleura (referred shoulder pain)",
+    "innervation": "Roots C3–C5",
+    "attachments": "Over anterior scalene → anterior to lung root → diaphragm"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Supplies anterior chest wall, breast, sternum, diaphragm; used in CABG grafts",
+    "attachments": "Branch of subclavian → descends 1 cm lateral to sternum → musculophrenic and superior epigastric arteries"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Supply and drain anterior intercostal spaces"
+   },
+   "subs": [
+    {
+     "name": "Anterior intercostal arteries",
+     "parts": [
+      "CUSTOM_ANTERIOR_INTERCOSTAL_ARTERIES"
+     ],
+     "facts": {
+      "function": "Supply anterior intercostal spaces",
+      "attachments": "From internal thoracic (spaces 1–6) and musculophrenic (7–9); anastomose with posterior intercostals"
+     }
+    },
+    {
+     "name": "Anterior intercostal veins",
+     "parts": [
+      "FJ1985",
+      "FJ1994"
+     ],
+     "facts": {
+      "function": "Drain anterior intercostal spaces",
+      "attachments": "Into internal thoracic and musculophrenic veins"
+     }
+    }
+   ]
+  },
+  "54": {
+   "facts": {
+    "function": "Supply and drain posterior intercostal spaces, back muscles, spinal cord segments"
+   },
+   "subs": [
+    {
+     "name": "Posterior intercostal arteries",
+     "parts": [
+      "SRC_Z_POSTERIOR_INTERCOSTAL_ARTERIES_R",
+      "SRC_Z_POSTERIOR_INTERCOSTAL_ARTERIES_L",
+      "SRC_Z_FIRST_POSTERIOR_INTERCOSTAL_ARTERY_R",
+      "SRC_Z_FIRST_POSTERIOR_INTERCOSTAL_ARTERY_L",
+      "SRC_Z_SECOND_POSTERIOR_INTERCOSTAL_ARTERY_R",
+      "SRC_Z_SECOND_POSTERIOR_INTERCOSTAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supply intercostal spaces, back muscles, spinal cord",
+      "attachments": "Spaces 1–2 from supreme intercostal (costocervical trunk); 3–11 from thoracic aorta; run in costal groove"
+     }
+    },
+    {
+     "name": "Posterior intercostal veins",
+     "parts": [
+      "SRC_Z_RIGHT_SUPERIOR_INTERCOSTAL_VEIN",
+      "SRC_Z_LEFT_SUPERIOR_INTERCOSTAL_VEIN",
+      "CUSTOM_POSTERIOR_INTERCOSTAL_VEINS"
+     ],
+     "facts": {
+      "function": "Drain intercostal spaces",
+      "attachments": "Into azygos (right) and hemiazygos/accessory hemiazygos (left); upper spaces via superior intercostal veins"
+     }
+    }
+   ]
+  },
+  "55": {
+   "facts": {
+    "function": "Motor to intercostal muscles; sensory to thoracic wall skin and parietal pleura",
+    "innervation": "Anterior rami of T1–T11",
+    "attachments": "Run in costal groove below the vein and artery (VAN), in plane between internal and innermost intercostals"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Superior sternum; site of sternoclavicular joints and first costal cartilage attachment",
+    "attachments": "Articulates with clavicles, 1st costal cartilage, upper 2nd costal cartilage; T3–T4 level"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Middle sternum; site of sternal marrow biopsy",
+    "attachments": "Articulates with costal cartilages 2–7; joins manubrium at sternal angle"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Palpable notch at superior manubrium; landmark for trachea",
+    "attachments": "Between clavicular notches; level of T2–T3"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Angle of Louis: landmark for rib 2, T4/T5 disc, tracheal bifurcation, aortic arch start/end",
+    "attachments": "Manubriosternal joint"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Inferior tip of sternum; marks superior limit of liver/central diaphragm",
+    "attachments": "Attachment of diaphragm and linea alba; T9 level; cartilaginous in youth"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Only bony articulation between upper limb and axial skeleton",
+    "attachments": "Medial clavicle ↔ manubrium and 1st costal cartilage; saddle joint with articular disc"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Ribs 1–7 (vertebrosternal); attach directly to sternum by own costal cartilage"
+   }
+  },
+  "63": {
+   "facts": {
+    "function": "Ribs 8–12; do not attach directly to sternum (8–10 join cartilage above via costal margin)"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Ribs 11–12; no anterior attachment, end in posterior abdominal musculature"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Hyaline cartilage connecting ribs to sternum/costal margin; adds chest wall elasticity",
+    "attachments": "Ribs 1–7 → sternum; 8–10 → cartilage above (costal margin)"
+   }
+  },
+  "66": {
+   "facts": {
+    "function": "Carry deoxygenated blood from right ventricle to lungs",
+    "attachments": "Pulmonary trunk bifurcates at T4–T5; right passes under aortic arch, behind SVC"
+   }
+  },
+  "67": {
+   "facts": {
+    "function": "Carry oxygenated blood from lungs to left atrium (two per side)",
+    "attachments": "Superior and inferior pulmonary veins each side → left atrium; most anterior/inferior structures in hilum"
+   }
+  },
+  "68": {
+   "facts": {
+    "function": "Nutritive supply to bronchi, bronchial walls and visceral pleura",
+    "attachments": "Left from descending thoracic aorta; right usually from 3rd posterior intercostal artery",
+    "supply": "Drained by bronchial veins → azygos/hemiazygos (some to pulmonary veins)"
+   }
+  },
+  "69": {
+   "facts": {
+    "function": "Conducts air from larynx to bronchi; C-shaped hyaline rings keep lumen open",
+    "attachments": "C6 (cricoid) to sternal angle (T4–T5); trachealis muscle closes posterior gap"
+   }
+  },
+  "70": {
+   "facts": {
+    "function": "Ridge at tracheal bifurcation; highly sensitive mucosa triggers cough reflex",
+    "attachments": "At level of sternal angle (T4–T5)"
+   }
+  },
+  "71": {
+   "facts": {
+    "function": "Conduct air to each lung; right is wider, shorter, more vertical so aspirated objects lodge right",
+    "attachments": "Trachea → right/left main bronchi → lobar bronchi"
+   }
+  },
+  "72": {
+   "facts": {
+    "function": "One per lobe: three right, two left",
+    "attachments": "Branch of main bronchus → divide into segmental bronchi"
+   }
+  },
+  "73": {
+   "facts": {
+    "function": "Each supplies one bronchopulmonary segment (functional surgical unit with its own artery)",
+    "attachments": "Branch of lobar bronchus; ~10 right, ~8–10 left segments"
+   }
+  },
+  "74": {
+   "facts": {
+    "function": "Lowest pleural recess; fluid collects here; site for thoracentesis",
+    "attachments": "Between costal and diaphragmatic parietal pleura; mid-axillary line ~ ribs 8–10"
+   }
+  },
+  "75": {
+   "facts": {
+    "function": "Three lobes: superior, middle, inferior; middle lobe auscultated anteriorly"
+   },
+   "subs": [
+    {
+     "name": "Right superior lobe",
+     "parts": [
+      "CUSTOM_LOBE_RUL"
+     ],
+     "facts": {
+      "function": "Above horizontal fissure; posterior segment is common aspiration site when supine"
+     }
+    },
+    {
+     "name": "Right middle lobe",
+     "parts": [
+      "CUSTOM_LOBE_RML"
+     ],
+     "facts": {
+      "function": "Between horizontal and oblique fissures; auscultated anteriorly (rib 4–6)"
+     }
+    },
+    {
+     "name": "Right inferior lobe",
+     "parts": [
+      "CUSTOM_LOBE_RLL"
+     ],
+     "facts": {
+      "function": "Below oblique fissure; most common aspiration site when upright; auscultated posteriorly"
+     }
+    }
+   ]
+  },
+  "76": {
+   "facts": {
+    "function": "Two lobes: superior (with lingula) and inferior"
+   },
+   "subs": [
+    {
+     "name": "Left superior lobe",
+     "parts": [
+      "CUSTOM_LOBE_LUL"
+     ],
+     "facts": {
+      "function": "Above oblique fissure; includes cardiac notch and lingula"
+     }
+    },
+    {
+     "name": "Left inferior lobe",
+     "parts": [
+      "CUSTOM_LOBE_LLL"
+     ],
+     "facts": {
+      "function": "Below oblique fissure; auscultated posteriorly"
+     }
+    }
+   ]
+  },
+  "77": {
+   "facts": {
+    "function": "Oblique fissure separates inferior from superior/middle lobes; horizontal fissure (rib 4) separates superior from middle"
+   }
+  },
+  "78": {
+   "facts": {
+    "function": "Separates superior and inferior lobes of left lung; runs from ~T3 posteriorly to rib 6 anteriorly"
+   }
+  },
+  "79": {
+   "facts": {
+    "function": "Apex rises above clavicle; base sits on diaphragm; root (hilum) transmits bronchi, vessels, nerves, lymphatics"
+   },
+   "subs": [
+    {
+     "name": "Apex of lung",
+     "parts": [
+      "CUSTOM_LUNG_APEX"
+     ],
+     "facts": {
+      "function": "Projects above clavicle into neck under cervical pleura; Pancoast tumor site (Horner, brachial plexus)"
+     }
+    },
+    {
+     "name": "Base of lung",
+     "parts": [
+      "CUSTOM_LUNG_BASE"
+     ],
+     "facts": {
+      "function": "Concave diaphragmatic surface resting on diaphragm dome"
+     }
+    },
+    {
+     "name": "Root of lung",
+     "parts": [
+      "CUSTOM_LUNG_ROOT"
+     ],
+     "facts": {
+      "function": "Pulmonary artery, veins, main bronchus, bronchial vessels, nerves, lymphatics entering at hilum",
+      "attachments": "Phrenic passes anterior, vagus posterior to root"
+     }
+    }
+   ]
+  },
+  "80": {
+   "facts": {
+    "function": "Serous membrane: visceral covers lung; parietal lines cavity; pleural cavity between holds thin fluid",
+    "innervation": "Parietal: intercostal and phrenic nerves (pain-sensitive); visceral: autonomic (pain-insensitive)"
+   }
+  },
+  "81": {
+   "facts": {
+    "function": "Indentation of anterior border of left lung that accommodates the heart"
+   }
+  },
+  "82": {
+   "facts": {
+    "function": "Tongue-like projection of left superior lobe below cardiac notch; homologue of right middle lobe"
+   }
+  }
+ }
+}
