@@ -4531,6 +4531,3027 @@
      ]
     }
    ]
+  },
+  {
+   "id": "msk-gluteal-thigh-knee",
+   "title": "Functional Anatomy of the Gluteal Region, Hip, Thigh & Knee",
+   "week": 3,
+   "session": "1",
+   "stem": "206_MSK_W3_GlutealThigh",
+   "items": [
+    {
+     "order": 1,
+     "why": "Iliac crest ends anteriorly at ASIS; attachment landmarks",
+     "questions": [
+      {
+       "q": "The iliac crest terminates anteriorly at which landmark?",
+       "choices": [
+        "Anterior inferior iliac spine",
+        "Pubic tubercle",
+        "Anterior superior iliac spine",
+        "Ischial spine"
+       ],
+       "answer": 2,
+       "explain": "The superior border of the ilium forms the iliac crest, which ends anteriorly at the anterior superior iliac spine (ASIS)."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The superior border of the ilium forms the iliac crest, which terminates anteriorly at the anterior superior iliac spine (ASIS)."
+    },
+    {
+     "order": 2,
+     "why": "Ischial tuberosity: posterior thigh (hamstring) attachment; bears weight when sitting",
+     "questions": [
+      {
+       "q": "Which bony landmark bears weight when sitting and anchors the posterior thigh muscles?",
+       "choices": [
+        "Ischial spine",
+        "Greater trochanter",
+        "Lesser trochanter",
+        "Ischial tuberosity"
+       ],
+       "answer": 3,
+       "explain": "The ischial tuberosity bears weight when sitting and is the attachment site for the hamstring muscles of the posterior thigh."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Inferiorly, the ischial tuberosity provides an important attachment site for muscles of the posterior thigh and bears weight when sitting."
+    },
+    {
+     "order": 3,
+     "why": "Pubis: one of three bones fusing to form the hip bone",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Each hip bone is formed by three bones: the ilium, ischium, and pubis, which fuse during development."
+    },
+    {
+     "order": 6,
+     "why": "Acetabulum: deep socket for femoral head; more bony stability than the glenoid",
+     "questions": [
+      {
+       "q": "Which three bones meet at the acetabulum?",
+       "choices": [
+        "Ilium, sacrum, and pubis",
+        "Ilium, ischium, and pubis",
+        "Ischium, pubis, and femur",
+        "Ilium, ischium, and sacrum"
+       ],
+       "answer": 1,
+       "explain": "The ilium, ischium, and pubis fuse during development and meet at the acetabulum, the socket for the femoral head."
+      },
+      {
+       "q": "What gives the hip joint greater inherent stability than the shoulder joint?",
+       "choices": [
+        "A deep acetabular bony socket",
+        "A capsule reinforced by rotator cuff",
+        "Nearly flat articular surfaces",
+        "A shallow glenoid-like socket"
+       ],
+       "answer": 0,
+       "explain": "The acetabulum forms a deep socket around the femoral head, providing more bony stability than the shallow glenoid cavity."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The acetabulum forms a deep socket around the head of the femur, providing greater bony stability than the relatively shallow glenoid cavity of the shoulder."
+    },
+    {
+     "order": 7,
+     "why": "Femoral head articulates with acetabulum; neck fracture -> avascular necrosis",
+     "questions": [
+      {
+       "q": "An older woman sustains a femoral neck fracture. Which complication is of particular concern?",
+       "choices": [
+        "Avascular necrosis of femoral head",
+        "Avulsion of the greater trochanter",
+        "Rupture of the iliofemoral ligament",
+        "Tear of the acetabular labrum"
+       ],
+       "answer": 0,
+       "explain": "Femoral neck fractures can disrupt vessels supplying the femoral head, producing avascular necrosis, a particular concern in older adults."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "A fracture of the femoral neck can disrupt blood vessels that supply the femoral head."
+    },
+    {
+     "order": 8,
+     "why": "Greater trochanter: gluteus medius/minimus insertion; lesser trochanter: iliopsoas",
+     "questions": [
+      {
+       "q": "Which muscle inserts on the lesser trochanter of the femur?",
+       "choices": [
+        "Gluteus medius",
+        "Piriformis",
+        "Rectus femoris",
+        "Iliopsoas"
+       ],
+       "answer": 3,
+       "explain": "The lesser trochanter is the attachment site for the primary hip flexor, the iliopsoas."
+      },
+      {
+       "q": "The gluteus medius and gluteus minimus insert on which landmark?",
+       "choices": [
+        "Lesser trochanter",
+        "Ischial tuberosity",
+        "Greater trochanter",
+        "Iliac crest"
+       ],
+       "answer": 2,
+       "explain": "Gluteus medius and minimus insert on the greater trochanter, which lets them abduct and medially rotate the thigh."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The smaller lesser trochanter projects from the posteromedial femur and serves as an attachment site for the primary hip flexor."
+    },
+    {
+     "order": 9,
+     "why": "Acetabular labrum: fibrocartilage ring deepening the socket",
+     "questions": [
+      {
+       "q": "What is the main function of the acetabular labrum?",
+       "choices": [
+        "Limits excessive hip extension",
+        "Deepens the socket to add stability",
+        "Carries blood to the femoral head",
+        "Anchors the ligament of the head"
+       ],
+       "answer": 1,
+       "explain": "The acetabular labrum is a fibrocartilage ring on the acetabular rim that deepens the socket and adds stability; the iliofemoral ligament limits extension."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The acetabular labrum, a ring of fibrocartilage attached to the rim of the acetabulum, deepens the socket and further contributes to joint stability."
+    },
+    {
+     "order": 11,
+     "why": "Gmax: hip extension + lateral rotation (inferior gluteal n.); Gmed/min: abduct, medially rotate (superior gluteal n.)",
+     "questions": [
+      {
+       "q": "Which nerve innervates the gluteus maximus?",
+       "choices": [
+        "Inferior gluteal nerve",
+        "Superior gluteal nerve",
+        "Femoral nerve",
+        "Sciatic nerve"
+       ],
+       "answer": 0,
+       "explain": "The gluteus maximus, the primary hip extensor, is innervated by the inferior gluteal nerve."
+      },
+      {
+       "q": "Besides abducting the thigh, gluteus medius and gluteus minimus produce which movement?",
+       "choices": [
+        "Lateral rotation",
+        "Medial rotation",
+        "Extension",
+        "Adduction"
+       ],
+       "answer": 1,
+       "explain": "Inserting on the greater trochanter, gluteus medius and minimus abduct and medially rotate the thigh."
+      },
+      {
+       "q": "Standing on her right leg, a patient's pelvis drops on the left side. Weakness of which muscles explains this?",
+       "choices": [
+        "Left gluteus medius and minimus",
+        "Right gluteus maximus and hamstrings",
+        "Right gluteus medius and minimus",
+        "Right adductor longus and brevis"
+       ],
+       "answer": 2,
+       "explain": "The abductors on the weight-bearing side keep the pelvis from dropping toward the unsupported side; right gluteus medius/minimus weakness gives a Trendelenburg sign."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The gluteus maximus is the primary gluteal muscle responsible for extension of the hip and also contributes to lateral rotation of the thigh"
+    },
+    {
+     "order": 33,
+     "why": "Inferior gluteal n. -> gluteus maximus (hip extension, propulsion)",
+     "questions": [
+      {
+       "q": "Injury to the inferior gluteal nerve would most weaken which activity?",
+       "choices": [
+        "Hip abduction in single-leg stance",
+        "Knee extension when climbing stairs",
+        "Thigh adduction when crossing legs",
+        "Hip extension when climbing stairs"
+       ],
+       "answer": 3,
+       "explain": "The inferior gluteal nerve supplies gluteus maximus, which extends the hip and works with the hamstrings for propulsion such as climbing stairs."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The gluteus maximus is innervated by the inferior gluteal nerve."
+    },
+    {
+     "order": 12,
+     "why": "TFL: abducts, medially rotates, assists hip flexion; superior gluteal n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the tensor fasciae latae?",
+       "choices": [
+        "Inferior gluteal nerve",
+        "Femoral nerve",
+        "Obturator nerve",
+        "Superior gluteal nerve"
+       ],
+       "answer": 3,
+       "explain": "Gluteus medius, gluteus minimus, and tensor fasciae latae are all innervated by the superior gluteal nerve."
+      },
+      {
+       "q": "In addition to abducting the thigh, the tensor fasciae latae assists with which hip movement?",
+       "choices": [
+        "Extension",
+        "Adduction",
+        "Flexion",
+        "Lateral rotation"
+       ],
+       "answer": 2,
+       "explain": "The tensor fasciae latae abducts and medially rotates the thigh and assists with hip flexion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The gluteus medius, gluteus minimus, and tensor fasciae latae work together to abduct the thigh and stabilize the pelvis during walking"
+    },
+    {
+     "order": 32,
+     "why": "Superior gluteal n. injury -> Gmed/Gmin weakness -> Trendelenburg gait",
+     "questions": [
+      {
+       "q": "Which nerve injury is most likely in a patient with a positive Trendelenburg sign?",
+       "choices": [
+        "Superior gluteal nerve",
+        "Inferior gluteal nerve",
+        "Obturator nerve",
+        "Femoral nerve"
+       ],
+       "answer": 0,
+       "explain": "Superior gluteal nerve injury weakens gluteus medius and minimus, so the pelvis drops toward the unsupported side (Trendelenburg sign)."
+      },
+      {
+       "q": "After right hip surgery, a patient's pelvis drops on the left when she stands on her right leg, and she leans her trunk right. Which nerve is injured?",
+       "choices": [
+        "Left superior gluteal nerve",
+        "Right superior gluteal nerve",
+        "Right inferior gluteal nerve",
+        "Left inferior gluteal nerve"
+       ],
+       "answer": 1,
+       "explain": "The right superior gluteal nerve supplies the right hip abductors that hold the pelvis level during right single-leg stance; patients compensate by leaning toward the affected side."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Weakness of these muscles or injury to the superior gluteal nerve can therefore produce an abnormal Trendelenburg gait."
+    },
+    {
+     "order": 13,
+     "why": "Piriformis: lateral rotator; sciatic n. exits inferior to it; piriformis syndrome",
+     "questions": [
+      {
+       "q": "Gluteal pain radiating into the posterior thigh, worse with prolonged sitting, suggests the piriformis is compressing which nerve?",
+       "choices": [
+        "Femoral nerve",
+        "Obturator nerve",
+        "Sciatic nerve",
+        "Superior gluteal nerve"
+       ],
+       "answer": 2,
+       "explain": "In piriformis syndrome the piriformis irritates or compresses the sciatic nerve as it exits the pelvis, causing gluteal pain radiating to the posterior thigh."
+      },
+      {
+       "q": "Which nerve innervates the piriformis?",
+       "choices": [
+        "Nerve to obturator internus",
+        "Nerve to quadratus femoris",
+        "Inferior gluteal nerve",
+        "Nerve to piriformis"
+       ],
+       "answer": 3,
+       "explain": "The piriformis is supplied by the nerve to piriformis, one of the small sacral plexus branches to the deep rotators."
+      },
+      {
+       "q": "Piriformis and obturator internus laterally rotate the extended thigh. Which action do they assist when the hip is flexed?",
+       "choices": [
+        "Adduction",
+        "Abduction",
+        "Medial rotation",
+        "Extension"
+       ],
+       "answer": 1,
+       "explain": "The piriformis and obturator internus can also assist with abduction when the hip is flexed."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Piriformis syndrome occurs when the piriformis irritates or compresses the sciatic nerve as it exits the pelvis."
+    },
+    {
+     "order": 14,
+     "why": "Obturator internus: lateral rotation; abducts flexed thigh; nerve to obturator internus",
+     "questions": [
+      {
+       "q": "What is the primary action of the obturator internus?",
+       "choices": [
+        "Lateral rotation of the thigh",
+        "Medial rotation of the thigh",
+        "Adduction of the flexed thigh",
+        "Extension of the thigh"
+       ],
+       "answer": 0,
+       "explain": "The deep external rotators, including obturator internus, primarily laterally rotate the thigh and stabilize the femoral head in the acetabulum."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The piriformis and obturator internus can also assist with abduction when the hip is flexed."
+    },
+    {
+     "order": 15,
+     "why": "Gemelli: lateral rotators; superior = n. to obturator internus, inferior = n. to quadratus femoris",
+     "questions": [
+      {
+       "q": "Which nerves supply the superior and inferior gemelli, respectively?",
+       "choices": [
+        "N. to quadratus femoris; n. to obturator internus",
+        "N. to piriformis; inferior gluteal nerve",
+        "N. to obturator internus; n. to quadratus femoris",
+        "Obturator nerve; n. to obturator internus"
+       ],
+       "answer": 2,
+       "explain": "The superior gemellus travels with obturator internus (nerve to obturator internus); the inferior gemellus with quadratus femoris (nerve to quadratus femoris)."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The nerve to obturator internus innervates the obturator internus and superior gemellus, while the nerve to quadratus femoris innervates the quadratus femoris and inferior gemellus."
+    },
+    {
+     "order": 16,
+     "why": "Quadratus femoris: lateral rotator; nerve to quadratus femoris",
+     "questions": [
+      {
+       "q": "Which nerve innervates the quadratus femoris?",
+       "choices": [
+        "Nerve to obturator internus",
+        "Nerve to quadratus femoris",
+        "Inferior gluteal nerve",
+        "Obturator nerve"
+       ],
+       "answer": 1,
+       "explain": "The nerve to quadratus femoris supplies the quadratus femoris and the inferior gemellus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…a group of smaller muscles that primarily laterally rotate the thigh and stabilize the head of the femur within the acetabulum."
+    },
+    {
+     "order": 17,
+     "why": "Obturator externus: lateral rotator, the exception innervated by the obturator n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the obturator externus?",
+       "choices": [
+        "Obturator nerve",
+        "Nerve to quadratus femoris",
+        "Nerve to obturator internus",
+        "Femoral nerve"
+       ],
+       "answer": 0,
+       "explain": "Unlike the other deep external rotators (sacral plexus branches), the obturator externus is innervated by the obturator nerve."
+      },
+      {
+       "q": "Although grouped with the medial thigh, the obturator externus's primary action is which?",
+       "choices": [
+        "Medial rotation of the thigh",
+        "Adduction of the thigh at hip",
+        "Extension of the thigh at the hip",
+        "Lateral rotation of the thigh"
+       ],
+       "answer": 3,
+       "explain": "The obturator externus differs from the other medial compartment muscles because its primary action is lateral rotation of the thigh."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The obturator externus is an exception and is innervated by the obturator nerve."
+    },
+    {
+     "order": 18,
+     "why": "Greater sciatic foramen: sciatic n. exits inferior to piriformis",
+     "questions": [
+      {
+       "q": "The sciatic nerve typically exits the pelvis through the greater sciatic foramen in what relation to the piriformis?",
+       "choices": [
+        "Superior to it",
+        "Through its belly",
+        "Anterior to it",
+        "Inferior to it"
+       ],
+       "answer": 3,
+       "explain": "The piriformis is the landmark of the greater sciatic foramen; the sciatic nerve typically exits inferior to it."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The sciatic nerve typically exits the pelvis through the greater sciatic foramen inferior to the piriformis before descending into the posterior thigh."
+    },
+    {
+     "order": 34,
+     "why": "Nerve to piriformis: small sacral plexus branch (Table 1)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The deep external rotators receive innervation from several small branches of the sacral plexus."
+    },
+    {
+     "order": 35,
+     "why": "Nerve to obturator internus: obturator internus + superior gemellus",
+     "questions": [
+      {
+       "q": "Besides the obturator internus, which muscle does the nerve to obturator internus supply?",
+       "choices": [
+        "Inferior gemellus",
+        "Superior gemellus",
+        "Quadratus femoris",
+        "Piriformis"
+       ],
+       "answer": 1,
+       "explain": "The nerve to obturator internus supplies the obturator internus and the superior gemellus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The nerve to obturator internus innervates the obturator internus and superior gemellus…"
+    },
+    {
+     "order": 36,
+     "why": "Nerve to quadratus femoris: quadratus femoris + inferior gemellus",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "…the nerve to quadratus femoris innervates the quadratus femoris and inferior gemellus."
+    },
+    {
+     "order": 20,
+     "why": "Sartorius: flexes hip and knee, abducts and laterally rotates thigh; femoral n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the sartorius?",
+       "choices": [
+        "Femoral nerve",
+        "Obturator nerve",
+        "Sciatic nerve",
+        "Superior gluteal nerve"
+       ],
+       "answer": 0,
+       "explain": "The femoral nerve innervates the quadriceps femoris, sartorius, and most of the iliacus."
+      },
+      {
+       "q": "Which combination of actions does the sartorius perform?",
+       "choices": [
+        "Extends hip and knee; adducts, medially rotates thigh",
+        "Flexes hip, extends knee; adducts, laterally rotates thigh",
+        "Flexes hip and knee; abducts, laterally rotates thigh",
+        "Extends hip, flexes knee; abducts, medially rotates thigh"
+       ],
+       "answer": 2,
+       "explain": "The sartorius flexes the hip and knee and assists with abduction and lateral rotation of the thigh."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The sartorius also flexes the hip and knee and assists with abduction and lateral rotation of the thigh."
+    },
+    {
+     "order": 21,
+     "why": "Rectus femoris: crosses hip and knee; knee extension + hip flexion",
+     "questions": [
+      {
+       "q": "Which quadriceps muscle also flexes the hip because it crosses both the hip and knee joints?",
+       "choices": [
+        "Rectus femoris",
+        "Vastus lateralis",
+        "Vastus medialis",
+        "Vastus intermedius"
+       ],
+       "answer": 0,
+       "explain": "Only the rectus femoris crosses both joints, so it extends the knee and also assists hip flexion; the vasti act only at the knee."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Because the rectus femoris crosses both the hip and knee joints, it also contributes to hip flexion."
+    },
+    {
+     "order": 22,
+     "why": "Vasti: knee extension (quadriceps); femoral n.",
+     "questions": [
+      {
+       "q": "What is the action of the vastus lateralis, medialis, and intermedius?",
+       "choices": [
+        "Flexion of the leg at the knee",
+        "Flexion of the thigh at the hip",
+        "Adduction of the thigh at the hip",
+        "Extension of the leg at the knee"
+       ],
+       "answer": 3,
+       "explain": "The three vasti, with rectus femoris, form the quadriceps femoris, the primary extensor of the knee."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The quadriceps femoris is the primary extensor of the knee, and consists of the rectus femoris, vastus lateralis, vastus medialis, and vastus intermedius."
+    },
+    {
+     "order": 37,
+     "why": "Femoral n.: quadriceps, sartorius, iliacus; injury weakens knee extension +/- hip flexion",
+     "questions": [
+      {
+       "q": "A patient cannot extend the knee after injury to a major nerve of the thigh. Which additional finding is most consistent?",
+       "choices": [
+        "Weakness of hip extension",
+        "Weakness of hip flexion",
+        "Impaired thigh adduction",
+        "Impaired thigh abduction"
+       ],
+       "answer": 1,
+       "explain": "Weak knee extension points to the femoral nerve, which also supplies sartorius and most of iliacus, so hip flexion may be impaired."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Injury to the femoral nerve therefore weakens knee extension and may also impair hip flexion."
+    },
+    {
+     "order": 23,
+     "why": "Adductors: adduct thigh (longus/brevis assist flexion); obturator n.",
+     "questions": [
+      {
+       "q": "Adductor longus and brevis adduct the thigh and also assist with which hip movement?",
+       "choices": [
+        "Extension",
+        "Abduction",
+        "Flexion",
+        "Medial rotation"
+       ],
+       "answer": 2,
+       "explain": "Per Table 3, adductor longus and brevis adduct the thigh and assist with hip flexion (obturator nerve)."
+      },
+      {
+       "q": "A muscle in the medial compartment of the thigh most likely has which action and innervation?",
+       "choices": [
+        "Thigh abduction; superior gluteal nerve",
+        "Thigh adduction; obturator nerve",
+        "Hip extension; inferior gluteal nerve",
+        "Knee extension; femoral nerve"
+       ],
+       "answer": 1,
+       "explain": "The medial compartment primarily adducts the thigh and is innervated primarily by the obturator nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The muscles of the medial thigh compartment primarily adduct the thigh at the hip and receive innervation primarily from the obturator nerve."
+    },
+    {
+     "order": 24,
+     "why": "Adductor magnus: adductor part (obturator n.) vs hamstring part (tibial division)",
+     "questions": [
+      {
+       "q": "The hamstring part of the adductor magnus is innervated by which nerve?",
+       "choices": [
+        "Tibial division of the sciatic nerve",
+        "Common fibular division of sciatic nerve",
+        "Obturator nerve",
+        "Femoral nerve"
+       ],
+       "answer": 0,
+       "explain": "The hamstring part of adductor magnus extends the thigh and is supplied by the tibial division of the sciatic nerve."
+      },
+      {
+       "q": "The adductor part of the adductor magnus is innervated by which nerve?",
+       "choices": [
+        "Tibial division of sciatic nerve",
+        "Femoral nerve",
+        "Obturator nerve",
+        "Inferior gluteal nerve"
+       ],
+       "answer": 2,
+       "explain": "The adductor part adducts the thigh and is innervated by the obturator nerve, reflecting the muscle's dual function."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Its hamstring part extends the thigh and receives innervation from the tibial division of the sciatic nerve."
+    },
+    {
+     "order": 26,
+     "why": "Gracilis: crosses hip and knee; adducts thigh, flexes and medially rotates leg; obturator n.",
+     "questions": [
+      {
+       "q": "Besides adducting the thigh, the gracilis assists with which movement at the knee?",
+       "choices": [
+        "Extension and lateral rotation of the leg",
+        "Flexion and lateral rotation of the leg",
+        "Extension and medial rotation of the leg",
+        "Flexion and medial rotation of the leg"
+       ],
+       "answer": 3,
+       "explain": "The gracilis crosses the hip and knee: it adducts the thigh and assists with flexion and medial rotation of the leg at the knee."
+      },
+      {
+       "q": "Which nerve innervates the gracilis?",
+       "choices": [
+        "Femoral nerve",
+        "Tibial division of sciatic nerve",
+        "Superior gluteal nerve",
+        "Obturator nerve"
+       ],
+       "answer": 3,
+       "explain": "The gracilis, like the adductors, is innervated by the obturator nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…In addition to adducting the thigh, it assists with flexion and medial rotation of the leg at the knee."
+    },
+    {
+     "order": 27,
+     "why": "Pectineus: transitional anterior/medial muscle; usually femoral n.",
+     "questions": [
+      {
+       "q": "The pectineus is usually innervated by which nerve?",
+       "choices": [
+        "Obturator nerve",
+        "Femoral nerve",
+        "Sciatic nerve",
+        "Inferior gluteal nerve"
+       ],
+       "answer": 1,
+       "explain": "Pectineus is transitional between the anterior and medial compartments and is usually innervated by the femoral nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Pectineus is a transitional muscle between the anterior and medial compartments and is usually innervated by the femoral nerve."
+    },
+    {
+     "order": 38,
+     "why": "Obturator n.: medial compartment adductors, gracilis, obturator externus",
+     "questions": [
+      {
+       "q": "Injury to the obturator nerve would most weaken which movement?",
+       "choices": [
+        "Adduction of the thigh",
+        "Abduction of the thigh",
+        "Extension of the knee",
+        "Flexion of the knee"
+       ],
+       "answer": 0,
+       "explain": "The obturator nerve supplies the medial compartment, whose dominant action is adduction of the thigh."
+      },
+      {
+       "q": "Which deep lateral rotator of the hip would also be weakened by an obturator nerve injury?",
+       "choices": [
+        "Obturator internus",
+        "Quadratus femoris",
+        "Obturator externus",
+        "Piriformis"
+       ],
+       "answer": 2,
+       "explain": "Obturator externus is the deep rotator innervated by the obturator nerve; the others receive sacral plexus branches."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The medial compartment primarily adducts the thigh and is innervated primarily by the obturator nerve."
+    },
+    {
+     "order": 28,
+     "why": "Semitendinosus: ischial tuberosity; extends hip, flexes knee, medially rotates flexed leg",
+     "questions": [
+      {
+       "q": "Which posterior thigh muscle medially rotates the flexed leg?",
+       "choices": [
+        "Biceps femoris, long head",
+        "Biceps femoris, short head",
+        "Rectus femoris",
+        "Semitendinosus"
+       ],
+       "answer": 3,
+       "explain": "Semitendinosus and semimembranosus medially rotate the flexed leg, while the biceps femoris laterally rotates it."
+      },
+      {
+       "q": "The semitendinosus originates from which landmark?",
+       "choices": [
+        "Ischial tuberosity",
+        "Ischial spine",
+        "Greater trochanter",
+        "Pubic tubercle"
+       ],
+       "answer": 0,
+       "explain": "Semitendinosus, semimembranosus, and the long head of biceps femoris originate from the ischial tuberosity."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "In addition to extending the thigh and flexing the knee, the semitendinosus and semimembranosus medially rotate the flexed leg…"
+    },
+    {
+     "order": 29,
+     "why": "Semimembranosus: ischial tuberosity; tibial division",
+     "questions": [
+      {
+       "q": "Which nerve innervates the semimembranosus?",
+       "choices": [
+        "Common fibular division of the sciatic nerve",
+        "Tibial division of the sciatic nerve",
+        "Femoral nerve",
+        "Obturator nerve"
+       ],
+       "answer": 1,
+       "explain": "Semimembranosus, like semitendinosus and the long head of biceps femoris, is innervated by the tibial division of the sciatic nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The semitendinosus, semimembranosus, and long head of the biceps femoris originate from the ischial tuberosity and are innervated by the tibial division…"
+    },
+    {
+     "order": 30,
+     "why": "Biceps femoris long head: ischial tuberosity; laterally rotates flexed leg; tibial division",
+     "questions": [
+      {
+       "q": "Which rotation does the biceps femoris produce when the knee is flexed?",
+       "choices": [
+        "Medial rotation of the leg",
+        "Lateral rotation of the thigh",
+        "Lateral rotation of the leg",
+        "Medial rotation of the thigh"
+       ],
+       "answer": 2,
+       "explain": "The biceps femoris laterally rotates the flexed leg; semitendinosus and semimembranosus medially rotate it."
+      },
+      {
+       "q": "The long head of the biceps femoris is innervated by which nerve?",
+       "choices": [
+        "Common fibular division of sciatic nerve",
+        "Inferior gluteal nerve",
+        "Femoral nerve",
+        "Tibial division of sciatic nerve"
+       ],
+       "answer": 3,
+       "explain": "The long head arises from the ischial tuberosity and is supplied by the tibial division; the short head gets the common fibular division."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…while the biceps femoris laterally rotates the flexed leg."
+    },
+    {
+     "order": 31,
+     "why": "Biceps femoris short head: arises from femur, acts only at knee; common fibular division",
+     "questions": [
+      {
+       "q": "Which posterior thigh muscle is innervated by the common fibular division of the sciatic nerve?",
+       "choices": [
+        "Biceps femoris, long head",
+        "Biceps femoris, short head",
+        "Semitendinosus",
+        "Semimembranosus"
+       ],
+       "answer": 1,
+       "explain": "The short head of biceps femoris is the exception in the posterior thigh: common fibular division rather than tibial division."
+      },
+      {
+       "q": "Why does the short head of the biceps femoris act only at the knee?",
+       "choices": [
+        "It originates from the femur",
+        "It originates from the sacrum",
+        "It inserts proximal to the knee",
+        "It is supplied by the tibial division"
+       ],
+       "answer": 0,
+       "explain": "The short head arises from the femur rather than the ischial tuberosity, so it does not cross the hip and acts only at the knee."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The short head of the biceps femoris … acts only at the knee, and receives innervation from the common fibular division of the sciatic nerve."
+    },
+    {
+     "order": 39,
+     "why": "Sciatic n.: exits below piriformis; supplies posterior compartment",
+     "questions": [
+      {
+       "q": "Which thigh compartment is innervated primarily by the sciatic nerve?",
+       "choices": [
+        "Anterior compartment",
+        "Medial compartment",
+        "Posterior compartment",
+        "Lateral compartment"
+       ],
+       "answer": 2,
+       "explain": "Anterior = femoral nerve, medial = obturator nerve, posterior = sciatic nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The posterior compartment primarily flexes the knee and extends the hip and receives innervation primarily through the sciatic nerve."
+    },
+    {
+     "order": 40,
+     "why": "Tibial division: semitendinosus, semimembranosus, BF long head, hamstring part of adductor magnus",
+     "questions": [
+      {
+       "q": "A lesion confined to the tibial division of the sciatic nerve would spare which posterior thigh muscle?",
+       "choices": [
+        "Biceps femoris, short head",
+        "Semitendinosus",
+        "Semimembranosus",
+        "Biceps femoris, long head"
+       ],
+       "answer": 0,
+       "explain": "The short head of biceps femoris is supplied by the common fibular division, so a tibial-division lesion spares it."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The semitendinosus, semimembranosus, and long head of the biceps femoris … are innervated by the tibial division of the sciatic nerve."
+    },
+    {
+     "order": 41,
+     "why": "Common fibular division: biceps femoris short head",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "It originates from the femur, acts only at the knee, and receives innervation from the common fibular division of the sciatic nerve."
+    },
+    {
+     "order": 42,
+     "why": "Femoral condyles articulate with tibial condyles",
+     "questions": [
+      {
+       "q": "The medial and lateral condyles of the femur articulate with which structures?",
+       "choices": [
+        "Head and neck of the fibula",
+        "Tibial tuberosity",
+        "Intercondylar eminence",
+        "Condyles of the proximal tibia"
+       ],
+       "answer": 3,
+       "explain": "The femoral condyles articulate with the corresponding condyles of the proximal tibia; the fibula does not join the knee joint."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "At the distal femur, the medial condyle and lateral condyle articulate with the corresponding condyles of the proximal tibia."
+    },
+    {
+     "order": 43,
+     "why": "Patellar surface: anterior, between condyles, articulates with patella",
+     "questions": [
+      {
+       "q": "Which part of the distal femur articulates with the patella?",
+       "choices": [
+        "Intercondylar fossa",
+        "Patellar surface",
+        "Medial condyle",
+        "Lateral epicondyle"
+       ],
+       "answer": 1,
+       "explain": "The patellar surface lies anteriorly between the femoral condyles and articulates with the patella."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The patellar surface lies anteriorly between the femoral condyles and articulates with the patella."
+    },
+    {
+     "order": 44,
+     "why": "Intercondylar fossa separates the condyles posteriorly",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Posteriorly, the condyles are separated by the intercondylar fossa."
+    },
+    {
+     "order": 45,
+     "why": "Tibia: weight-bearing articulation at the knee",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The knee connects the thigh and leg through articulations among the femur, tibia, and patella."
+    },
+    {
+     "order": 47,
+     "why": "Tibial condyles bear weight transmitted across the knee",
+     "questions": [
+      {
+       "q": "Through which structures does the proximal tibia bear the weight transmitted across the knee?",
+       "choices": [
+        "Tibial tuberosity",
+        "Intercondylar eminence",
+        "Tibial condyles",
+        "Fibular head"
+       ],
+       "answer": 2,
+       "explain": "The proximal tibia bears weight through its medial and lateral condyles, which articulate with the femoral condyles."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The proximal tibia bears the weight transmitted across the knee through its medial condyle and lateral condyle."
+    },
+    {
+     "order": 48,
+     "why": "Intercondylar eminence: central attachment region for stabilizing structures",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Between these articular surfaces is the intercondylar eminence, which contributes to the central region where important stabilizing structures of the knee attach."
+    },
+    {
+     "order": 49,
+     "why": "Tibial tuberosity: patellar ligament attachment",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "Anteriorly, the tibial tuberosity provides attachment for the patellar ligament."
+    },
+    {
+     "order": 50,
+     "why": "Patella: embedded in quadriceps tendon; links quadriceps to tibia",
+     "questions": [
+      {
+       "q": "The patella is embedded within which structure?",
+       "choices": [
+        "Patellar ligament",
+        "Iliotibial tract",
+        "Tibial collateral ligament",
+        "Quadriceps tendon"
+       ],
+       "answer": 3,
+       "explain": "The patella is embedded within the quadriceps tendon and connects to the tibial tuberosity through the patellar ligament."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The patella is embedded within the quadriceps tendon and connects inferiorly to the tibial tuberosity through the patellar ligament"
+    },
+    {
+     "order": 51,
+     "why": "Fibula: adjacent to knee, not part of knee joint",
+     "questions": [
+      {
+       "q": "Which bone lies adjacent to the knee but does not participate directly in the knee joint?",
+       "choices": [
+        "Patella",
+        "Tibia",
+        "Fibula",
+        "Femur"
+       ],
+       "answer": 2,
+       "explain": "The knee joint is formed by the femur, tibia, and patella; the fibula lies adjacent but does not participate."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The fibula lies adjacent to the knee but does not participate directly in the knee joint."
+    },
+    {
+     "order": 52,
+     "why": "Quadriceps tendon: contains the patella",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "This arrangement links the quadriceps femoris to the tibia and allows force generated by the anterior thigh to be transmitted across the knee."
+    },
+    {
+     "order": 53,
+     "why": "Patellar ligament: patella to tibial tuberosity",
+     "questions": [
+      {
+       "q": "The patellar ligament connects the patella to which landmark?",
+       "choices": [
+        "Intercondylar eminence",
+        "Tibial tuberosity",
+        "Medial tibial condyle",
+        "Head of the fibula"
+       ],
+       "answer": 1,
+       "explain": "The patella connects inferiorly to the tibial tuberosity through the patellar ligament, transmitting quadriceps force to the tibia."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The patella … connects inferiorly to the tibial tuberosity through the patellar ligament"
+    },
+    {
+     "order": 54,
+     "why": "Menisci: congruency, shock absorption, weight distribution; medial meniscus attached to MCL",
+     "questions": [
+      {
+       "q": "What is a main function of the medial and lateral menisci?",
+       "choices": [
+        "Absorb shock and distribute weight",
+        "Limit anterior tibial translation",
+        "Resist valgus stress on the knee",
+        "Limit posterior tibial translation"
+       ],
+       "answer": 0,
+       "explain": "The fibrocartilaginous menisci improve congruency, absorb shock, and distribute weight; the cruciates and collaterals limit translation and varus/valgus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The menisci improve joint congruency, absorb shock, and distribute weight across the knee."
+    },
+    {
+     "order": 55,
+     "why": "ACL limits anterior tibial translation; unhappy triad",
+     "questions": [
+      {
+       "q": "Disruption of the anterior cruciate ligament would most affect which displacement?",
+       "choices": [
+        "Posterior translation of the tibia",
+        "Medial (valgus) opening of the knee",
+        "Lateral (varus) opening of the knee",
+        "Anterior translation of the tibia"
+       ],
+       "answer": 3,
+       "explain": "The ACL limits anterior translation of the tibia relative to the femur."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The ACL limits anterior translation of the tibia, while the PCL limits posterior translation."
+    },
+    {
+     "order": 56,
+     "why": "PCL limits posterior tibial translation",
+     "questions": [
+      {
+       "q": "Which ligament limits posterior translation of the tibia?",
+       "choices": [
+        "Anterior cruciate ligament",
+        "Tibial collateral ligament",
+        "Posterior cruciate ligament",
+        "Fibular collateral ligament"
+       ],
+       "answer": 2,
+       "explain": "The PCL limits posterior translation of the tibia; the ACL limits anterior translation."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The anterior cruciate ligament (ACL) and posterior cruciate ligament (PCL) cross within the joint … limiting anterior and posterior translation of the tibia, respectively."
+    },
+    {
+     "order": 57,
+     "why": "MCL resists valgus (attached to medial meniscus), LCL resists varus; unhappy triad",
+     "questions": [
+      {
+       "q": "Which ligament resists valgus stress at the knee?",
+       "choices": [
+        "Fibular (lateral) collateral ligament",
+        "Tibial (medial) collateral ligament",
+        "Anterior cruciate ligament",
+        "Posterior cruciate ligament"
+       ],
+       "answer": 1,
+       "explain": "The MCL resists valgus stress, a force driving the knee medially; the LCL resists varus stress."
+      },
+      {
+       "q": "A soccer player with a planted foot is struck on the lateral knee, producing a strong valgus force. Which structures are classically injured?",
+       "choices": [
+        "ACL, MCL, and medial meniscus",
+        "PCL, MCL, and medial meniscus",
+        "ACL, LCL, and lateral meniscus",
+        "PCL, LCL, and lateral meniscus"
+       ],
+       "answer": 0,
+       "explain": "A valgus force can injure the ACL, MCL, and medial meniscus (unhappy triad), reflecting the MCL's attachment to the medial meniscus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The MCL is attached to the medial meniscus, an anatomical relationship with important clinical consequences."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Skeletal Framework of the Hip",
+     "orders": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+     ]
+    },
+    {
+     "title": "Hip Joint",
+     "orders": [
+      9
+     ]
+    },
+    {
+     "title": "Hip Extension and Propulsion",
+     "orders": [
+      11,
+      33
+     ]
+    },
+    {
+     "title": "Pelvic Stabilization and Hip Abduction",
+     "orders": [
+      12,
+      32
+     ]
+    },
+    {
+     "title": "Deep External Rotator System",
+     "orders": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      34,
+      35,
+      36
+     ]
+    },
+    {
+     "title": "Anterior Thigh Compartment",
+     "orders": [
+      20,
+      21,
+      22,
+      37
+     ]
+    },
+    {
+     "title": "Medial Thigh Compartment",
+     "orders": [
+      23,
+      24,
+      26,
+      27,
+      38
+     ]
+    },
+    {
+     "title": "Posterior Thigh Compartment",
+     "orders": [
+      28,
+      29,
+      30,
+      31,
+      39,
+      40,
+      41
+     ]
+    },
+    {
+     "title": "Knee: Skeletal Framework",
+     "orders": [
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ]
+    },
+    {
+     "title": "Knee Joint and Stabilizing Structures",
+     "orders": [
+      54,
+      55,
+      56,
+      57
+     ]
+    }
+   ]
+  },
+  {
+   "id": "msk-le-vasculature-1",
+   "title": "Vasculature and Lymphatics of the Lower Extremities (Gluteal & Thigh list)",
+   "week": 3,
+   "session": "1",
+   "stem": "206_MSK_W3_GlutealThigh",
+   "items": [
+    {
+     "order": 61,
+     "why": "Common iliac aa.: aortic bifurcation at L4; PAD can block them",
+     "questions": [
+      {
+       "q": "At what vertebral level does the abdominal aorta bifurcate into the common iliac arteries?",
+       "choices": [
+        "L4",
+        "L1",
+        "T12",
+        "S1"
+       ],
+       "answer": 0,
+       "explain": "The abdominal aorta divides at the level of L4 into the right and left common iliac arteries."
+      },
+      {
+       "q": "A patient has buttock and leg pain while climbing stairs that is relieved by rest; imaging shows a blocked common iliac artery. Diagnosis?",
+       "choices": [
+        "Deep vein thrombosis",
+        "Peripheral artery disease",
+        "Varicose veins",
+        "Lumbar lymphatic obstruction"
+       ],
+       "answer": 1,
+       "explain": "Atherosclerosis of lower extremity arteries causes peripheral artery disease with claudication: exertional pain relieved by rest."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The abdominal aorta divides at the level of L4 into the right and left common iliac arteries"
+    },
+    {
+     "order": 62,
+     "why": "Internal iliac: pelvis, gluteal region, medial thigh; external iliac continues into limb",
+     "questions": [
+      {
+       "q": "Which artery gives rise to the superior gluteal, inferior gluteal, and obturator arteries?",
+       "choices": [
+        "External iliac artery",
+        "Femoral artery",
+        "Internal iliac artery",
+        "Deep femoral artery"
+       ],
+       "answer": 2,
+       "explain": "The internal iliac artery gives the superior gluteal, inferior gluteal, and obturator arteries to the lower extremity."
+      },
+      {
+       "q": "What does the internal iliac artery supply?",
+       "choices": [
+        "Anterior thigh, knee, and proximal leg",
+        "Posterior thigh and popliteal fossa",
+        "Abdominal wall and anterior thigh",
+        "Pelvis, gluteal region, and medial thigh"
+       ],
+       "answer": 3,
+       "explain": "The internal iliac artery supplies the pelvis, gluteal region, and medial thigh compartment muscles."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Each common iliac artery divides into an internal iliac artery, which supplies the pelvis and gluteal region, and an external iliac artery…"
+    },
+    {
+     "order": 63,
+     "why": "Superior gluteal a.: trochanteric anastomosis; inferior gluteal a.: cruciate anastomosis",
+     "questions": [
+      {
+       "q": "Branches of which artery join the medial and lateral circumflex femoral arteries to form the trochanteric anastomosis?",
+       "choices": [
+        "Superior gluteal artery",
+        "Inferior gluteal artery",
+        "Obturator artery",
+        "Popliteal artery"
+       ],
+       "answer": 0,
+       "explain": "The circumflex femoral arteries and branches of the superior gluteal artery form the trochanteric anastomosis around the femoral neck."
+      },
+      {
+       "q": "The cruciate anastomosis connects the circumflex femoral and first perforating arteries with which artery?",
+       "choices": [
+        "Superior gluteal artery",
+        "Inferior gluteal artery",
+        "Obturator artery",
+        "External iliac artery"
+       ],
+       "answer": 1,
+       "explain": "Posterior to the proximal femur near the lesser trochanter, the cruciate anastomosis links the inferior gluteal artery with the circumflex femoral and first perforating arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The major branches relevant to the lower extremity are the superior gluteal, inferior gluteal, and obturator arteries."
+    },
+    {
+     "order": 64,
+     "why": "Obturator a.: internal iliac branch to medial thigh",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The internal iliac artery supplies the pelvis and gives rise to branches that supply the gluteal region and medial thigh compartment."
+    },
+    {
+     "order": 58,
+     "why": "Inguinal ligament: external iliac becomes femoral a.; GSV joins femoral v. just below",
+     "questions": [
+      {
+       "q": "The external iliac artery becomes the femoral artery as it passes which structure?",
+       "choices": [
+        "Adductor hiatus",
+        "Obturator foramen",
+        "Inguinal ligament",
+        "Greater sciatic foramen"
+       ],
+       "answer": 2,
+       "explain": "After passing deep to the inguinal ligament, the external iliac artery becomes the femoral artery."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The external iliac artery passes beneath the inguinal ligament, where it becomes the femoral artery"
+    },
+    {
+     "order": 65,
+     "why": "Femoral a.: main supply of thigh; catheterization site, compress against femoral head",
+     "questions": [
+      {
+       "q": "Why is the femoral artery commonly used for arterial catheterization?",
+       "choices": [
+        "It lies deep and is well protected",
+        "It has no accompanying vein or nerve",
+        "It passes through the adductor hiatus",
+        "It is large, superficial, and accessible"
+       ],
+       "answer": 3,
+       "explain": "The femoral artery is large, superficial, and readily accessible, allowing catheters to be advanced into the aorta and coronary arteries."
+      },
+      {
+       "q": "After a femoral catheter is removed, bleeding is controlled by compressing the artery against which structure?",
+       "choices": [
+        "Greater trochanter",
+        "Femoral head",
+        "Ischial tuberosity",
+        "Pubic symphysis"
+       ],
+       "answer": 1,
+       "explain": "Because the femoral artery can be compressed against the femoral head, bleeding can usually be controlled after catheter removal."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The femoral artery is commonly used for arterial catheterization because it is large, superficial, and readily accessible."
+    },
+    {
+     "order": 66,
+     "why": "Deep femoral a.: largest femoral branch; gives circumflex and perforating aa.",
+     "questions": [
+      {
+       "q": "What is the largest branch of the femoral artery?",
+       "choices": [
+        "Lateral circumflex femoral artery",
+        "Descending genicular artery",
+        "Medial circumflex femoral artery",
+        "Deep femoral artery"
+       ],
+       "answer": 3,
+       "explain": "The deep femoral artery (profunda femoris) is the largest branch of the femoral artery."
+      },
+      {
+       "q": "Which arteries arise from the deep femoral artery?",
+       "choices": [
+        "Superior and inferior gluteal arteries",
+        "Anterior and posterior tibial arteries",
+        "Circumflex femoral and perforating arteries",
+        "Genicular and sural arteries"
+       ],
+       "answer": 2,
+       "explain": "The deep femoral artery gives rise to the medial and lateral circumflex femoral arteries and several perforating arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The largest branch of the femoral artery is the deep femoral artery (profunda femoris)…"
+    },
+    {
+     "order": 67,
+     "why": "Perforating aa.: supply most of the posterior thigh; first joins cruciate anastomosis",
+     "questions": [
+      {
+       "q": "Which vessels supply most of the posterior compartment of the thigh?",
+       "choices": [
+        "Perforating arteries",
+        "Genicular arteries",
+        "Sural arteries",
+        "Circumflex femoral arteries"
+       ],
+       "answer": 0,
+       "explain": "Perforating branches of the deep femoral artery supply most of the posterior thigh; the femoral artery supplies the anterior thigh."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The femoral artery supplies the anterior thigh, while the perforating arteries supply most of the posterior compartment of the thigh."
+    },
+    {
+     "order": 59,
+     "why": "Adductor hiatus: femoral a. becomes popliteal a.",
+     "questions": [
+      {
+       "q": "The femoral artery becomes the popliteal artery after passing through which opening?",
+       "choices": [
+        "Obturator canal",
+        "Greater sciatic foramen",
+        "Tarsal tunnel",
+        "Adductor hiatus"
+       ],
+       "answer": 3,
+       "explain": "The femoral artery becomes the popliteal artery after passing through the adductor hiatus into the popliteal fossa."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The femoral artery continues distally and becomes the popliteal artery after passing through the adductor hiatus."
+    },
+    {
+     "order": 71,
+     "why": "Popliteal a.: continuation of femoral a. beyond the adductor hiatus",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The popliteal artery is the continuation of the femoral artery and serves as the primary arterial supply to the knee and proximal leg."
+    },
+    {
+     "order": 68,
+     "why": "Medial circumflex femoral a.: principal femoral head/neck supply; trochanteric + cruciate anastomoses",
+     "questions": [
+      {
+       "q": "A femoral neck fracture compromises the primary blood supply to the femoral head. Which artery is most directly involved?",
+       "choices": [
+        "Lateral circumflex femoral artery",
+        "Inferior gluteal artery",
+        "Medial circumflex femoral artery",
+        "Obturator artery"
+       ],
+       "answer": 2,
+       "explain": "The medial circumflex femoral artery, a deep femoral branch, is the principal supply of the femoral head and neck."
+      },
+      {
+       "q": "The circumflex femoral arteries and superior gluteal branches form which network around the femoral neck and greater trochanter?",
+       "choices": [
+        "Trochanteric anastomosis",
+        "Cruciate anastomosis",
+        "Genicular anastomosis",
+        "Scapular anastomosis"
+       ],
+       "answer": 0,
+       "explain": "The trochanteric anastomosis surrounds the femoral neck and greater trochanter and provides collateral flow to the femoral head."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The medial circumflex femoral artery … is the principal blood supply to the head and neck of the femur"
+    },
+    {
+     "order": 70,
+     "why": "Artery of the ligament of the head: minor supply in adults",
+     "questions": [
+      {
+       "q": "In adults, the artery of the ligament of the head of the femur provides what?",
+       "choices": [
+        "The principal supply of the femoral head",
+        "A minor contribution to the femoral head",
+        "The main supply of the posterior thigh",
+        "The main supply of the acetabular rim"
+       ],
+       "answer": 1,
+       "explain": "The medial circumflex femoral artery is the principal supply; the lateral circumflex and the artery of the ligament of the head contribute less in adults."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…the artery of the ligament of the head of the femur (ligamentum teres), although these are less important in adults."
+    },
+    {
+     "order": 7,
+     "why": "Femoral head/neck: intracapsular neck fracture -> avascular necrosis",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "An intracapsular fracture of the femoral neck may disrupt branches of the medial circumflex femoral artery…"
+    },
+    {
+     "order": 8,
+     "why": "Trochanters: trochanteric anastomosis (greater) and cruciate anastomosis (lesser)",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Located posterior to the proximal femur near the lesser trochanter, it connects branches of the inferior gluteal artery…"
+    },
+    {
+     "order": 10,
+     "why": "Ligament of the head of the femur carries a small artery",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Smaller contributions arise from the lateral circumflex femoral artery and the artery of the ligament of the head of the femur (ligamentum teres)…"
+    },
+    {
+     "order": 72,
+     "why": "GSV: starts medial dorsum of foot, ascends medially, joins femoral v. below inguinal ligament; varicose veins",
+     "questions": [
+      {
+       "q": "The great saphenous vein empties into which vein?",
+       "choices": [
+        "Popliteal vein",
+        "External iliac vein",
+        "Femoral vein",
+        "Small saphenous vein"
+       ],
+       "answer": 2,
+       "explain": "The great saphenous vein empties into the femoral vein just inferior to the inguinal ligament."
+      },
+      {
+       "q": "Where does the great saphenous vein begin?",
+       "choices": [
+        "Medial side of the dorsum of the foot",
+        "Lateral side of the dorsum of the foot",
+        "Posterior to the lateral malleolus",
+        "Plantar surface of the heel"
+       ],
+       "answer": 0,
+       "explain": "The great saphenous vein begins on the medial side of the dorsum of the foot and ascends along the medial leg and thigh."
+      },
+      {
+       "q": "Varicose great saphenous veins develop mainly because of what?",
+       "choices": [
+        "Arterial atherosclerosis",
+        "Incompetent venous valves",
+        "Lymphatic obstruction",
+        "An overactive muscle pump"
+       ],
+       "answer": 1,
+       "explain": "Varicose veins develop when venous valves become incompetent, allowing blood to pool within superficial veins."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…it ascends along the medial leg and thigh before emptying into the femoral vein just inferior to the inguinal ligament."
+    },
+    {
+     "order": 73,
+     "why": "Femoral v.: deep vein with femoral a.; receives GSV",
+     "questions": [
+      {
+       "q": "Which superficial vein drains into the femoral vein just inferior to the inguinal ligament?",
+       "choices": [
+        "Small saphenous vein",
+        "Popliteal vein",
+        "Posterior tibial vein",
+        "Great saphenous vein"
+       ],
+       "answer": 3,
+       "explain": "The great saphenous vein ascends the medial leg and thigh and empties into the femoral vein just below the inguinal ligament."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The deep veins of the lower extremity generally accompany the major arteries and share the same names"
+    },
+    {
+     "order": 75,
+     "why": "Popliteal v.: deep vein draining to femoral v.; DVT site in the case",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "CF's deep vein thrombosis (DVT) obstructed venous return through the popliteal vein, causing blood to back up in the distal limb."
+    },
+    {
+     "order": 76,
+     "why": "External iliac v.: deep venous pathway",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…femoral vein, external iliac vein, and common iliac vein, which ultimately drain into the inferior vena cava."
+    },
+    {
+     "order": 77,
+     "why": "Common iliac v.: drains to IVC",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…femoral vein, external iliac vein, and common iliac vein, which ultimately drain into the inferior vena cava."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Iliac Arteries",
+     "orders": [
+      61,
+      62,
+      63,
+      64,
+      58
+     ]
+    },
+    {
+     "title": "Femoral Artery",
+     "orders": [
+      65,
+      66,
+      67,
+      59,
+      71
+     ]
+    },
+    {
+     "title": "Blood Supply to the Femoral Head",
+     "orders": [
+      68,
+      70,
+      7,
+      8,
+      10
+     ]
+    },
+    {
+     "title": "Veins of the Lower Extremity",
+     "orders": [
+      72,
+      73,
+      75,
+      76,
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "msk-le-vasculature-2",
+   "title": "Vasculature and Lymphatics of the Lower Extremities (Leg, Ankle & Foot list)",
+   "week": 3,
+   "session": "1",
+   "stem": "206_MSK_W3_LegAnkleFoot",
+   "items": [
+    {
+     "order": 54,
+     "why": "Popliteal fossa: popliteal artery lies deep and fixed",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The popliteal artery lies deep within the popliteal fossa and is relatively fixed in position."
+    },
+    {
+     "order": 55,
+     "why": "Popliteal a.: genicular + sural branches; divides at popliteus into anterior/posterior tibial; injured in knee dislocation",
+     "questions": [
+      {
+       "q": "Why is the popliteal artery vulnerable in knee dislocations?",
+       "choices": [
+        "It is highly mobile in the fossa",
+        "It is relatively fixed in position",
+        "It lies superficial to the patella",
+        "It lacks any collateral branches"
+       ],
+       "answer": 1,
+       "explain": "The popliteal artery lies deep in the popliteal fossa and is relatively fixed, so knee dislocations and distal femur/proximal tibia fractures can injure it."
+      },
+      {
+       "q": "Near the inferior border of the popliteus, the popliteal artery divides into which arteries?",
+       "choices": [
+        "Medial and lateral plantar arteries",
+        "Fibular and dorsalis pedis arteries",
+        "Anterior and posterior tibial arteries",
+        "Medial and lateral genicular arteries"
+       ],
+       "answer": 2,
+       "explain": "The popliteal artery terminates near the inferior border of popliteus by dividing into the anterior and posterior tibial arteries."
+      },
+      {
+       "q": "Which branches of the popliteal artery supply the gastrocnemius and soleus?",
+       "choices": [
+        "Sural arteries",
+        "Genicular arteries",
+        "Perforating arteries",
+        "Fibular arteries"
+       ],
+       "answer": 0,
+       "explain": "The sural arteries supply gastrocnemius, soleus, and plantaris; the genicular arteries form the knee anastomosis."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Consequently, knee dislocations and fractures involving the distal femur or proximal tibia may injure the artery and compromise blood flow to the leg and foot"
+    },
+    {
+     "order": 17,
+     "why": "Gastrocnemius: supplied by sural arteries",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…the sural arteries, which supply the gastrocnemius, soleus, and plantaris muscles."
+    },
+    {
+     "order": 18,
+     "why": "Soleus: supplied by sural arteries",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…the sural arteries, which supply the gastrocnemius, soleus, and plantaris muscles."
+    },
+    {
+     "order": 20,
+     "why": "Popliteus: popliteal a. divides at its inferior border",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Near the inferior border of the popliteus muscle, the popliteal artery terminates by dividing into the anterior tibial and posterior tibial arteries"
+    },
+    {
+     "order": 56,
+     "why": "Anterior tibial a.: through interosseous membrane; supplies dorsiflexors; becomes dorsalis pedis",
+     "questions": [
+      {
+       "q": "Weak dorsiflexion follows an injury compromising blood supply to the anterior compartment of the leg. Which artery is most likely affected?",
+       "choices": [
+        "Posterior tibial artery",
+        "Fibular artery",
+        "Deep femoral artery",
+        "Anterior tibial artery"
+       ],
+       "answer": 3,
+       "explain": "The anterior tibial artery passes through the interosseous membrane into the anterior compartment and supplies the dorsiflexors."
+      },
+      {
+       "q": "At the ankle, the anterior tibial artery continues as which artery?",
+       "choices": [
+        "Dorsalis pedis artery",
+        "Lateral plantar artery",
+        "Medial plantar artery",
+        "Fibular artery"
+       ],
+       "answer": 0,
+       "explain": "At the ankle, the anterior tibial artery continues onto the dorsum of the foot as the dorsalis pedis artery."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "It passes anteriorly through an opening in the interosseous membrane to enter the anterior compartment of the leg, where it supplies the dorsiflexor muscles."
+    },
+    {
+     "order": 57,
+     "why": "Posterior tibial a.: larger terminal branch; plantarflexors; gives fibular a.; tarsal tunnel; pulse behind medial malleolus",
+     "questions": [
+      {
+       "q": "A clinician palpates a pulse just posterior to the medial malleolus. Which artery is being assessed?",
+       "choices": [
+        "Dorsalis pedis artery",
+        "Posterior tibial artery",
+        "Fibular (peroneal) artery",
+        "Anterior tibial artery"
+       ],
+       "answer": 1,
+       "explain": "The posterior tibial artery passes posterior to the medial malleolus through the tarsal tunnel, where its pulse is palpated."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The posterior tibial artery is the larger terminal branch of the popliteal artery"
+    },
+    {
+     "order": 58,
+     "why": "Fibular (peroneal) a.: from posterior tibial; supplies lateral compartment",
+     "questions": [
+      {
+       "q": "The fibular (peroneal) artery arises from which artery?",
+       "choices": [
+        "Anterior tibial artery",
+        "Popliteal artery",
+        "Posterior tibial artery",
+        "Dorsalis pedis artery"
+       ],
+       "answer": 2,
+       "explain": "The posterior tibial artery gives rise to the fibular (peroneal) artery as it descends through the posterior compartment."
+      },
+      {
+       "q": "Which compartment does the fibular (peroneal) artery supply?",
+       "choices": [
+        "Anterior compartment of the leg",
+        "Medial compartment of the thigh",
+        "Posterior compartment of the thigh",
+        "Lateral compartment of the leg"
+       ],
+       "answer": 3,
+       "explain": "The fibular (peroneal) artery supplies the lateral compartment of the leg."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "giving rise to the fibular (peroneal) artery, which supplies the lateral compartment of the leg."
+    },
+    {
+     "order": 1,
+     "why": "Medial malleolus: posterior tibial pulse palpated just behind it",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "A clinician palpates a pulse just posterior to the medial malleolus."
+    },
+    {
+     "order": 34,
+     "why": "Tarsal tunnel: posterior tibial a. passes behind medial malleolus",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "After passing posterior to the medial malleolus through the tarsal tunnel, the posterior tibial artery divides into the medial and lateral plantar arteries"
+    },
+    {
+     "order": 59,
+     "why": "Dorsalis pedis: continuation of anterior tibial; deep plantar branch; pulse; weak in PAD",
+     "questions": [
+      {
+       "q": "A patient has a weak dorsalis pedis pulse but a normal femoral pulse. Where is the arterial obstruction most likely?",
+       "choices": [
+        "Distal to the femoral artery",
+        "Proximal to the femoral artery",
+        "In the internal iliac artery",
+        "In the great saphenous vein"
+       ],
+       "answer": 0,
+       "explain": "A weak dorsalis pedis pulse with a normal femoral pulse points to obstruction distal to the femoral artery (popliteal, anterior tibial, or dorsalis pedis path)."
+      },
+      {
+       "q": "The dorsalis pedis artery contributes to the plantar arch through which branch?",
+       "choices": [
+        "Lateral plantar branch",
+        "Deep plantar branch",
+        "Medial calcaneal branch",
+        "Perforating branch"
+       ],
+       "answer": 1,
+       "explain": "The dorsalis pedis supplies the dorsum of the foot and contributes to the plantar arch through its deep plantar branch."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Because it lies superficially on the dorsum of the foot, the dorsalis pedis artery is a common site for palpating the dorsalis pedis pulse."
+    },
+    {
+     "order": 60,
+     "why": "Medial and lateral plantar aa.: terminal posterior tibial branches; sole of foot",
+     "questions": [
+      {
+       "q": "The medial and lateral plantar arteries are the terminal branches of which artery?",
+       "choices": [
+        "Dorsalis pedis artery",
+        "Anterior tibial artery",
+        "Fibular (peroneal) artery",
+        "Posterior tibial artery"
+       ],
+       "answer": 3,
+       "explain": "After passing through the tarsal tunnel, the posterior tibial artery divides into the medial and lateral plantar arteries."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The posterior tibial artery terminates by dividing into the medial and lateral plantar arteries, which supply the plantar surface of the foot."
+    },
+    {
+     "order": 61,
+     "why": "Plantar arch: formed by lateral plantar a.; digital aa. to toes",
+     "questions": [
+      {
+       "q": "Which artery forms the plantar arterial arch?",
+       "choices": [
+        "Medial plantar artery",
+        "Dorsalis pedis artery",
+        "Lateral plantar artery",
+        "Fibular (peroneal) artery"
+       ],
+       "answer": 2,
+       "explain": "The lateral plantar artery forms the plantar arch, which gives rise to digital arteries to the toes."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The lateral plantar artery forms the plantar arch, an arterial anastomosis that gives rise to digital arteries supplying the toes."
+    },
+    {
+     "order": 62,
+     "why": "Anterior and posterior tibial vv.: deep veins accompanying same-named arteries",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "These include the anterior and posterior tibial veins, popliteal vein, femoral vein, external iliac vein, and common iliac vein…"
+    },
+    {
+     "order": 63,
+     "why": "Popliteal v.: DVT site; muscle pump; PE risk",
+     "questions": [
+      {
+       "q": "A woman develops a popliteal vein thrombosis after a long flight. What is the greatest danger?",
+       "choices": [
+        "Pulmonary embolism",
+        "Peripheral artery disease",
+        "Myocardial infarction",
+        "Lymphedema"
+       ],
+       "answer": 0,
+       "explain": "Part of a DVT can dislodge and travel through the venous circulation to the lungs, producing a potentially life-threatening pulmonary embolism."
+      },
+      {
+       "q": "A soldier standing motionless faints. Which mechanism normally propels venous blood from the legs toward the heart?",
+       "choices": [
+        "Diaphragm contraction",
+        "Skeletal muscle pump",
+        "Femoral artery constriction",
+        "Lymphatic drainage"
+       ],
+       "answer": 1,
+       "explain": "Calf and thigh muscle contraction compresses the deep veins (skeletal muscle pump); standing motionless reduces venous return."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "CF's deep vein thrombosis (DVT) obstructed venous return through the popliteal vein, causing blood to back up in the distal limb."
+    },
+    {
+     "order": 64,
+     "why": "GSV: begins on medial dorsum of the foot, ascends medial leg",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Beginning on the medial side of the dorsum of the foot, it ascends along the medial leg and thigh…"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Popliteal Artery",
+     "orders": [
+      54,
+      55,
+      17,
+      18,
+      20
+     ]
+    },
+    {
+     "title": "Anterior Tibial Artery",
+     "orders": [
+      56
+     ]
+    },
+    {
+     "title": "Posterior Tibial Artery",
+     "orders": [
+      57,
+      58,
+      1,
+      34
+     ]
+    },
+    {
+     "title": "Arteries of the Foot",
+     "orders": [
+      59,
+      60,
+      61
+     ]
+    },
+    {
+     "title": "Veins of the Lower Extremity",
+     "orders": [
+      62,
+      63,
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "id": "msk-leg-ankle-foot",
+   "title": "Functional Anatomy of the Leg, Ankle and Foot",
+   "week": 3,
+   "session": "3",
+   "stem": "206_MSK_W3_LegAnkleFoot",
+   "items": [
+    {
+     "order": 1,
+     "why": "Medial malleolus: medial side of ankle mortise; tarsal tunnel structures pass behind it",
+     "questions": [
+      {
+       "q": "The medial and lateral malleoli form a mortise that surrounds which bone?",
+       "choices": [
+        "Calcaneus",
+        "Navicular",
+        "Cuboid",
+        "Talus"
+       ],
+       "answer": 3,
+       "explain": "The medial malleolus of the tibia and the lateral malleolus of the fibula form the ankle mortise around the talus."
+      },
+      {
+       "q": "Which tendon lies most anteriorly among the structures passing posterior to the medial malleolus?",
+       "choices": [
+        "Flexor digitorum longus",
+        "Flexor hallucis longus",
+        "Tibialis posterior",
+        "Fibularis longus"
+       ],
+       "answer": 2,
+       "explain": "Behind the medial malleolus, from anterior to posterior: tibialis posterior, flexor digitorum longus, posterior tibial artery and veins, tibial nerve, flexor hallucis longus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Distally, the medial malleolus of the tibia and lateral malleolus of the fibula form the sides of the ankle mortise that surrounds the talus."
+    },
+    {
+     "order": 2,
+     "why": "Fibular neck: common fibular nerve wraps around it, vulnerable to injury",
+     "questions": [
+      {
+       "q": "Which nerve passes around the neck of the fibula, making it vulnerable to injury there?",
+       "choices": [
+        "Tibial nerve",
+        "Superficial fibular nerve",
+        "Common fibular nerve",
+        "Saphenous nerve"
+       ],
+       "answer": 2,
+       "explain": "The common fibular nerve passes around the fibular neck, where compression or injury is common."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "the common fibular nerve passes around the fibular neck, making it vulnerable to injury in this region."
+    },
+    {
+     "order": 3,
+     "why": "Lateral malleolus: lateral side of mortise; fibularis tendons pass behind it",
+     "questions": [
+      {
+       "q": "Which tendons pass posterior to the lateral malleolus?",
+       "choices": [
+        "Fibularis longus and brevis",
+        "Tibialis anterior and fibularis tertius",
+        "Flexor hallucis and digitorum longus",
+        "Extensor hallucis and digitorum longus"
+       ],
+       "answer": 0,
+       "explain": "The fibularis longus and brevis tendons pass posterior to the lateral malleolus before entering the foot."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The tendons of both muscles pass posterior to the lateral malleolus before entering the foot."
+    },
+    {
+     "order": 4,
+     "why": "Talus: articulates with tibia/fibula (trochlea in mortise); head supported by spring ligament",
+     "questions": [
+      {
+       "q": "The talocrural joint is formed by the distal tibia and fibula surrounding which part of the talus?",
+       "choices": [
+        "Head",
+        "Trochlea",
+        "Neck",
+        "Tuberosity"
+       ],
+       "answer": 1,
+       "explain": "The talocrural joint is formed by the distal tibia and fibula surrounding the trochlea of the talus."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The talus articulates with the tibia and fibula and receives forces transmitted through the leg"
+    },
+    {
+     "order": 5,
+     "why": "Calcaneus: heel; lever for plantarflexors; calcaneal tendon inserts on calcaneal tuberosity",
+     "questions": [
+      {
+       "q": "Gastrocnemius and soleus insert on which landmark via the calcaneal tendon?",
+       "choices": [
+        "Navicular tuberosity",
+        "Base of fifth metatarsal",
+        "Medial malleolus",
+        "Calcaneal tuberosity"
+       ],
+       "answer": 3,
+       "explain": "The triceps surae insert on the calcaneal tuberosity through the calcaneal (Achilles) tendon; the calcaneus is a lever for plantarflexion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "the calcaneus forms the heel and provides a strong lever for muscles that plantarflex the ankle."
+    },
+    {
+     "order": 6,
+     "why": "Navicular: anterior to talus; tuberosity = tibialis posterior insertion",
+     "questions": [
+      {
+       "q": "Which muscle inserts on the tuberosity of the navicular?",
+       "choices": [
+        "Tibialis anterior",
+        "Fibularis longus",
+        "Fibularis brevis",
+        "Tibialis posterior"
+       ],
+       "answer": 3,
+       "explain": "Tibialis posterior is a powerful inverter through its insertion on the navicular tuberosity."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Anterior to the talus is the navicular, and anterior to the calcaneus is the cuboid."
+    },
+    {
+     "order": 7,
+     "why": "Cuboid: anterior to calcaneus",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Anterior to the talus is the navicular, and anterior to the calcaneus is the cuboid."
+    },
+    {
+     "order": 8,
+     "why": "Cuneiforms: between navicular and medial three metatarsals",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The medial, intermediate, and lateral cuneiforms lie between the navicular and the medial three metatarsals."
+    },
+    {
+     "order": 9,
+     "why": "Metatarsals: forefoot framework; fibularis brevis on base of 5th",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The five metatarsals form much of the framework of the forefoot and articulate distally with the proximal phalanges at the metatarsophalangeal joints."
+    },
+    {
+     "order": 10,
+     "why": "Phalanges: 3 in digits 2-5, only 2 in hallux",
+     "questions": [
+      {
+       "q": "How do the phalanges of the hallux differ from those of digits 2-5?",
+       "choices": [
+        "It lacks a middle phalanx",
+        "It lacks a distal phalanx",
+        "It lacks a proximal phalanx",
+        "It has four phalanges"
+       ],
+       "answer": 0,
+       "explain": "Digits 2-5 have proximal, middle, and distal phalanges, whereas the hallux has only proximal and distal phalanges."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Digits 2 through 5 each contain proximal, middle, and distal phalanges, whereas the hallux contains only proximal and distal phalanges."
+    },
+    {
+     "order": 11,
+     "why": "Tibialis anterior: dorsiflexion + inversion; deep fibular n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the tibialis anterior?",
+       "choices": [
+        "Superficial fibular nerve",
+        "Deep fibular nerve",
+        "Tibial nerve",
+        "Sural nerve"
+       ],
+       "answer": 1,
+       "explain": "All anterior compartment muscles, including tibialis anterior, are innervated by the deep fibular nerve."
+      },
+      {
+       "q": "Besides dorsiflexing the ankle, the tibialis anterior contributes to which movement?",
+       "choices": [
+        "Eversion",
+        "Plantarflexion",
+        "Inversion",
+        "Toe flexion"
+       ],
+       "answer": 2,
+       "explain": "Tibialis anterior also contributes to inversion, while fibularis tertius assists with eversion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Tibialis anterior also contributes to inversion, while fibularis tertius assists with eversion."
+    },
+    {
+     "order": 12,
+     "why": "EHL: extends great toe, dorsiflexes; deep fibular n.",
+     "questions": [
+      {
+       "q": "Which muscle extends the great toe?",
+       "choices": [
+        "Flexor hallucis longus",
+        "Extensor digitorum longus",
+        "Extensor hallucis longus",
+        "Fibularis tertius"
+       ],
+       "answer": 2,
+       "explain": "Extensor hallucis longus extends the great toe and dorsiflexes the ankle (deep fibular nerve)."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Extension of the toes by extensor hallucis longus and extensor digitorum longus further assists with toe clearance."
+    },
+    {
+     "order": 13,
+     "why": "EDL: extends digits 2-5, dorsiflexes; deep fibular n.",
+     "questions": [
+      {
+       "q": "Extensor digitorum longus belongs to which compartment, with which innervation?",
+       "choices": [
+        "Lateral; superficial fibular nerve",
+        "Anterior; deep fibular nerve",
+        "Posterior; tibial nerve",
+        "Anterior; superficial fibular nerve"
+       ],
+       "answer": 1,
+       "explain": "Extensor digitorum longus is an anterior compartment muscle (extends digits 2-5) innervated by the deep fibular nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Extension of the toes by extensor hallucis longus and extensor digitorum longus further assists with toe clearance."
+    },
+    {
+     "order": 14,
+     "why": "Fibularis tertius: anterior compartment; dorsiflexion + eversion",
+     "questions": [
+      {
+       "q": "Fibularis tertius, an anterior compartment muscle, assists with which movement besides dorsiflexion?",
+       "choices": [
+        "Inversion",
+        "Plantarflexion",
+        "Toe extension",
+        "Eversion"
+       ],
+       "answer": 3,
+       "explain": "Fibularis tertius dorsiflexes with the anterior compartment and assists with eversion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Tibialis anterior also contributes to inversion, while fibularis tertius assists with eversion."
+    },
+    {
+     "order": 15,
+     "why": "Fibularis longus: everts; crosses plantar foot, supports transverse arch; superficial fibular n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the fibularis longus?",
+       "choices": [
+        "Superficial fibular nerve",
+        "Deep fibular nerve",
+        "Tibial nerve",
+        "Medial plantar nerve"
+       ],
+       "answer": 0,
+       "explain": "The lateral compartment (fibularis longus and brevis) is innervated by the superficial fibular nerve."
+      },
+      {
+       "q": "By crossing the plantar surface of the foot, the fibularis longus helps support which arch?",
+       "choices": [
+        "Medial longitudinal arch",
+        "Lateral longitudinal arch",
+        "Transverse arch",
+        "Plantar arterial arch"
+       ],
+       "answer": 2,
+       "explain": "Fibularis longus crosses the plantar foot to insert medially, which lets it support the transverse arch."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "This course allows fibularis longus to contribute to support of the transverse arch"
+    },
+    {
+     "order": 16,
+     "why": "Fibularis brevis: everts; inserts on base of 5th metatarsal",
+     "questions": [
+      {
+       "q": "The fibularis brevis inserts on which landmark?",
+       "choices": [
+        "Base of the fifth metatarsal",
+        "Base of the first metatarsal",
+        "Navicular tuberosity",
+        "Plantar surface of the cuboid"
+       ],
+       "answer": 0,
+       "explain": "Fibularis brevis inserts on the base of the fifth metatarsal; fibularis longus inserts medially after crossing the sole."
+      },
+      {
+       "q": "What are the primary actions of the lateral compartment muscles of the leg?",
+       "choices": [
+        "Invert the foot; assist dorsiflexion",
+        "Evert the foot; assist plantarflexion",
+        "Dorsiflex the ankle; extend the toes",
+        "Plantarflex the ankle; flex the toes"
+       ],
+       "answer": 1,
+       "explain": "Fibularis longus and brevis primarily evert the foot and assist with plantarflexion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Fibularis brevis inserts on the base of the fifth metatarsal, while fibularis longus crosses the plantar surface of the foot to insert medially."
+    },
+    {
+     "order": 17,
+     "why": "Gastrocnemius: triceps surae; crosses knee and ankle, also flexes knee; tibial n.",
+     "questions": [
+      {
+       "q": "Which posterior leg muscle crosses both the knee and ankle and also flexes the knee?",
+       "choices": [
+        "Soleus",
+        "Tibialis posterior",
+        "Flexor hallucis longus",
+        "Gastrocnemius"
+       ],
+       "answer": 3,
+       "explain": "Gastrocnemius crosses the knee and ankle and contributes to knee flexion; soleus acts only at the ankle."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Gastrocnemius crosses both the knee and ankle and also contributes to knee flexion, whereas soleus acts only at the ankle"
+    },
+    {
+     "order": 18,
+     "why": "Soleus: triceps surae, acts only at ankle, postural during standing",
+     "questions": [
+      {
+       "q": "Which muscle acts only at the ankle and is particularly important for maintaining posture during standing?",
+       "choices": [
+        "Soleus",
+        "Gastrocnemius",
+        "Tibialis anterior",
+        "Popliteus"
+       ],
+       "answer": 0,
+       "explain": "The soleus acts only at the ankle and is particularly important for maintaining posture during standing."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…whereas soleus acts only at the ankle and is particularly important for maintaining posture during standing."
+    },
+    {
+     "order": 19,
+     "why": "Calcaneal tendon: triceps surae to calcaneal tuberosity; rupture, Thompson test",
+     "questions": [
+      {
+       "q": "Squeezing a patient's calf fails to produce passive plantarflexion of the foot. Which structure is ruptured?",
+       "choices": [
+        "Plantar aponeurosis",
+        "Calcaneal tendon",
+        "Tibialis posterior tendon",
+        "Fibularis longus tendon"
+       ],
+       "answer": 1,
+       "explain": "A positive Thompson test suggests rupture of the calcaneal (Achilles) tendon, which transmits gastrocnemius and soleus force to the calcaneus."
+      },
+      {
+       "q": "Calcaneal (Achilles) tendon rupture most commonly occurs during which action?",
+       "choices": [
+        "Sudden forceful inversion",
+        "Prolonged motionless standing",
+        "Repetitive toe extension",
+        "Sudden forceful plantarflexion"
+       ],
+       "answer": 3,
+       "explain": "Achilles rupture most commonly occurs during sudden forceful plantarflexion; patients report a pop and weak push off."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "A positive Thompson test occurs when squeezing the calf fails to produce the normal passive plantarflexion of the foot"
+    },
+    {
+     "order": 20,
+     "why": "Popliteus: deep posterior group, acts at knee",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Popliteus acts primarily at the knee."
+    },
+    {
+     "order": 21,
+     "why": "Tibialis posterior: powerful inverter (navicular tuberosity); dynamic support of medial longitudinal arch",
+     "questions": [
+      {
+       "q": "Which muscle is a powerful inverter and a dynamic supporter of the medial longitudinal arch?",
+       "choices": [
+        "Tibialis anterior",
+        "Fibularis longus",
+        "Tibialis posterior",
+        "Flexor digitorum longus"
+       ],
+       "answer": 2,
+       "explain": "Tibialis posterior inverts the foot via its navicular tuberosity insertion and dynamically supports the medial longitudinal arch."
+      },
+      {
+       "q": "Inversion is produced by tibialis anterior and tibialis posterior. Which nerves supply them?",
+       "choices": [
+        "Deep fibular and tibial nerves",
+        "Superficial fibular and tibial nerves",
+        "Deep and superficial fibular nerves",
+        "Tibial and sural nerves"
+       ],
+       "answer": 0,
+       "explain": "Tibialis anterior is supplied by the deep fibular nerve and tibialis posterior by the tibial nerve (Table 1)."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Tibialis posterior is a powerful inverter, through its insertion on the navicular tuberosity, and a dynamic supporter of the medial longitudinal arch"
+    },
+    {
+     "order": 22,
+     "why": "FDL: flexes digits 2-5; tibial n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the flexor digitorum longus?",
+       "choices": [
+        "Deep fibular nerve",
+        "Tibial nerve",
+        "Medial plantar nerve",
+        "Superficial fibular nerve"
+       ],
+       "answer": 1,
+       "explain": "Flexor digitorum longus is a deep posterior compartment muscle; the whole posterior compartment is innervated by the tibial nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…while the long digital flexors flex the toes."
+    },
+    {
+     "order": 23,
+     "why": "FHL: flexes great toe; propulsion through the hallux",
+     "questions": [
+      {
+       "q": "Which muscle is particularly important for propulsion through the great toe during walking and running?",
+       "choices": [
+        "Extensor hallucis longus",
+        "Flexor hallucis brevis",
+        "Flexor hallucis longus",
+        "Abductor hallucis"
+       ],
+       "answer": 2,
+       "explain": "Flexor hallucis longus flexes the great toe and is particularly important for propulsion during walking and running."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Flexor hallucis longus is particularly important for propulsion through the great toe during walking and running."
+    },
+    {
+     "order": 24,
+     "why": "Deltoid ligament: strong medial ankle ligament; eversion injuries",
+     "questions": [
+      {
+       "q": "An eversion ankle injury is most likely to damage which ligament?",
+       "choices": [
+        "Anterior talofibular ligament",
+        "Calcaneofibular ligament",
+        "Posterior talofibular ligament",
+        "Deltoid ligament"
+       ],
+       "answer": 3,
+       "explain": "Eversion injuries may damage the strong medial deltoid ligament; they are less common than inversion sprains."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Eversion injuries may damage the stronger medial deltoid ligament and are less common."
+    },
+    {
+     "order": 25,
+     "why": "ATFL: most commonly injured in inversion sprain",
+     "questions": [
+      {
+       "q": "Which ligament is most commonly injured in an inversion ankle sprain?",
+       "choices": [
+        "Posterior talofibular ligament",
+        "Anterior talofibular ligament",
+        "Deltoid ligament",
+        "Calcaneofibular ligament"
+       ],
+       "answer": 1,
+       "explain": "An inversion sprain injures the lateral ligament complex, most commonly the ATFL."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "An inversion ankle sprain typically injures the lateral ligament complex, with the ATFL most commonly affected."
+    },
+    {
+     "order": 26,
+     "why": "CFL: lateral ankle ligament complex",
+     "questions": [
+      {
+       "q": "Which of these ligaments belongs to the lateral ligament complex of the ankle?",
+       "choices": [
+        "Calcaneofibular ligament",
+        "Deltoid ligament",
+        "Spring ligament",
+        "Long plantar ligament"
+       ],
+       "answer": 0,
+       "explain": "The talocrural joint is supported laterally by the ATFL, calcaneofibular ligament, and PTFL; medially by the deltoid ligament."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "…laterally by the anterior talofibular (ATFL), calcaneofibular (CFL), and posterior talofibular (PTFL) ligaments"
+    },
+    {
+     "order": 27,
+     "why": "PTFL: lateral ankle ligament complex",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "…laterally by the anterior talofibular (ATFL), calcaneofibular (CFL), and posterior talofibular (PTFL) ligaments"
+    },
+    {
+     "order": 28,
+     "why": "Medial and lateral longitudinal arches: static (bones, ligaments, aponeurosis) and dynamic support",
+     "questions": [
+      {
+       "q": "Which structures provide the static support of the foot's arches?",
+       "choices": [
+        "Tibialis posterior and fibularis longus",
+        "Intrinsic muscles and long flexors",
+        "Bones, plantar ligaments, plantar aponeurosis",
+        "Extensor tendons and retinacula"
+       ],
+       "answer": 2,
+       "explain": "Bone shape and arrangement, reinforced by plantar ligaments and the plantar aponeurosis, give static support; tendons such as tibialis posterior give dynamic support."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Together, these arches distribute body weight, absorb forces, and allow the foot to adapt to the supporting surface while maintaining stability during locomotion."
+    },
+    {
+     "order": 29,
+     "why": "Transverse arch: supported by fibularis longus",
+     "questions": [],
+     "yield": "high",
+     "excerpt": "…fibularis longus crosses the plantar surface of the foot and contributes to the transverse arch."
+    },
+    {
+     "order": 30,
+     "why": "Plantar aponeurosis: supports longitudinal arches; plantar fasciitis",
+     "questions": [
+      {
+       "q": "A runner has plantar heel pain that is worst with the first steps after rest. Which structure is involved?",
+       "choices": [
+        "Spring ligament",
+        "Calcaneal tendon",
+        "Long plantar ligament",
+        "Plantar aponeurosis"
+       ],
+       "answer": 3,
+       "explain": "Plantar fasciitis is irritation and microtrauma of the plantar aponeurosis near its calcaneal attachment, worst with first steps after rest."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Plantar fasciitis results from irritation and repetitive microtrauma of the plantar aponeurosis, commonly near its attachment to the calcaneus."
+    },
+    {
+     "order": 31,
+     "why": "Spring ligament: supports talar head and medial longitudinal arch",
+     "questions": [
+      {
+       "q": "Which ligament supports the head of the talus and contributes to the medial longitudinal arch?",
+       "choices": [
+        "Spring ligament",
+        "Long plantar ligament",
+        "Short plantar ligament",
+        "Deltoid ligament"
+       ],
+       "answer": 0,
+       "explain": "The spring (plantar calcaneonavicular) ligament supports the talar head and the medial longitudinal arch."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The spring ligament (plantar calcaneonavicular ligament) supports the head of the talus and contributes to the medial longitudinal arch"
+    },
+    {
+     "order": 32,
+     "why": "Long and short plantar ligaments: lateral longitudinal arch",
+     "questions": [
+      {
+       "q": "The long and short plantar ligaments mainly support which arch?",
+       "choices": [
+        "Medial longitudinal arch",
+        "Transverse arch",
+        "Plantar arterial arch",
+        "Lateral longitudinal arch"
+       ],
+       "answer": 3,
+       "explain": "The long and short plantar ligaments contribute to the lateral longitudinal arch; the spring ligament supports the medial arch."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…while the long and short plantar ligaments contribute to the lateral longitudinal arch."
+    },
+    {
+     "order": 35,
+     "why": "EDB: dorsal intrinsic, assists toe extension",
+     "questions": [
+      {
+       "q": "What is the function of the extensor digitorum brevis?",
+       "choices": [
+        "Assists with toe flexion",
+        "Assists with toe extension",
+        "Abducts the toes",
+        "Supports the transverse arch"
+       ],
+       "answer": 1,
+       "explain": "The dorsal intrinsic muscles, extensor digitorum brevis and extensor hallucis brevis, assist with toe extension."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The dorsal group consists primarily of the extensor digitorum brevis and extensor hallucis brevis, which assist with toe extension."
+    },
+    {
+     "order": 36,
+     "why": "EHB: dorsal intrinsic, assists toe extension",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The dorsal group consists primarily of the extensor digitorum brevis and extensor hallucis brevis, which assist with toe extension."
+    },
+    {
+     "order": 37,
+     "why": "Abductor hallucis: medial group, medial plantar n.",
+     "questions": [
+      {
+       "q": "Which nerve innervates the abductor hallucis?",
+       "choices": [
+        "Lateral plantar nerve",
+        "Deep fibular nerve",
+        "Medial plantar nerve",
+        "Sural nerve"
+       ],
+       "answer": 2,
+       "explain": "Most plantar intrinsics are supplied by the lateral plantar nerve; abductor hallucis is one of the medial plantar exceptions."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The exceptions are the abductor hallucis, flexor hallucis brevis, flexor digitorum brevis, and first lumbrical, which are innervated by the medial plantar nerve."
+    },
+    {
+     "order": 38,
+     "why": "FHB: medial group (great toe), medial plantar n.",
+     "questions": [
+      {
+       "q": "The flexor hallucis brevis belongs to which group of intrinsic plantar muscles?",
+       "choices": [
+        "Central group",
+        "Lateral group",
+        "Interosseous group",
+        "Medial group"
+       ],
+       "answer": 3,
+       "explain": "Abductor hallucis and flexor hallucis brevis form the medial group, moving and stabilizing the great toe."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The exceptions are the abductor hallucis, flexor hallucis brevis, flexor digitorum brevis, and first lumbrical, which are innervated by the medial plantar nerve."
+    },
+    {
+     "order": 39,
+     "why": "FDB: central group, medial plantar n.",
+     "questions": [
+      {
+       "q": "Which central plantar muscle is innervated by the medial plantar nerve?",
+       "choices": [
+        "Flexor digiti minimi brevis",
+        "Plantar interossei",
+        "Flexor digitorum brevis",
+        "Abductor digiti minimi"
+       ],
+       "answer": 2,
+       "explain": "Flexor digitorum brevis (and the first lumbrical) are central-group muscles supplied by the medial plantar nerve."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The exceptions are the abductor hallucis, flexor hallucis brevis, flexor digitorum brevis, and first lumbrical, which are innervated by the medial plantar nerve."
+    },
+    {
+     "order": 40,
+     "why": "Quadratus plantae: central group, lateral plantar n.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Most intrinsic muscles of the plantar foot are innervated by the lateral plantar nerve."
+    },
+    {
+     "order": 41,
+     "why": "Lumbricals: central group; first lumbrical medial plantar n.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The exceptions are the abductor hallucis, flexor hallucis brevis, flexor digitorum brevis, and first lumbrical, which are innervated by the medial plantar nerve."
+    },
+    {
+     "order": 42,
+     "why": "Abductor digiti minimi: lateral group (fifth toe), lateral plantar n.",
+     "questions": [
+      {
+       "q": "Abductor digiti minimi and flexor digiti minimi brevis move and stabilize which digit?",
+       "choices": [
+        "Great toe",
+        "Fifth toe",
+        "Second toe",
+        "Third toe"
+       ],
+       "answer": 1,
+       "explain": "The lateral group (abductor digiti minimi, flexor digiti minimi brevis) moves and stabilizes the fifth toe and is supplied by the lateral plantar nerve."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "The plantar muscles can be organized into medial, central, lateral, and interosseous groups."
+    },
+    {
+     "order": 43,
+     "why": "Flexor digiti minimi brevis: lateral group, lateral plantar n.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The plantar muscles can be organized into medial, central, lateral, and interosseous groups."
+    },
+    {
+     "order": 45,
+     "why": "Dorsal and plantar interossei: toe abduction/adduction; lateral plantar n.",
+     "questions": [
+      {
+       "q": "What is the main function of the dorsal and plantar interossei of the foot?",
+       "choices": [
+        "Toe abduction and adduction",
+        "Toe flexion at the IP joints",
+        "Extension of the great toe",
+        "Eversion of the foot"
+       ],
+       "answer": 0,
+       "explain": "The interossei abduct and adduct the toes and stabilize them during locomotion (lateral plantar nerve)."
+      }
+     ],
+     "yield": "low",
+     "excerpt": "Most intrinsic muscles of the plantar foot are innervated by the lateral plantar nerve."
+    },
+    {
+     "order": 46,
+     "why": "Plantar interossei: interosseous group, lateral plantar n.",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Most intrinsic muscles of the plantar foot are innervated by the lateral plantar nerve."
+    },
+    {
+     "order": 33,
+     "why": "Flexor retinaculum: roof of tarsal tunnel; tibial n. compression",
+     "questions": [
+      {
+       "q": "Tarsal tunnel syndrome is compression of which nerve beneath the flexor retinaculum?",
+       "choices": [
+        "Deep fibular nerve",
+        "Sural nerve",
+        "Tibial nerve",
+        "Saphenous nerve"
+       ],
+       "answer": 2,
+       "explain": "Tarsal tunnel syndrome compresses the tibial nerve behind the medial malleolus beneath the flexor retinaculum, causing plantar pain and paresthesia."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Tarsal tunnel syndrome results from compression of the tibial nerve as it passes posterior to the medial malleolus beneath the flexor retinaculum."
+    },
+    {
+     "order": 34,
+     "why": "Tarsal tunnel: Tom Dick And Very Nervous Harry; lesion here spares plantarflexion",
+     "questions": [
+      {
+       "q": "Which structure lies most posteriorly among those passing behind the medial malleolus?",
+       "choices": [
+        "Tibialis posterior",
+        "Flexor hallucis longus",
+        "Tibial nerve",
+        "Posterior tibial artery"
+       ],
+       "answer": 1,
+       "explain": "Tom Dick And Very Nervous Harry: tibialis posterior, FDL, posterior tibial artery, vein, tibial nerve, then flexor hallucis longus most posteriorly."
+      },
+      {
+       "q": "Why is plantarflexion preserved with a tibial nerve lesion at the tarsal tunnel?",
+       "choices": [
+        "It is distal to the leg motor branches",
+        "Plantarflexors use the deep fibular nerve",
+        "The sural nerve supplies the plantarflexors",
+        "Plantarflexion relies on intrinsic foot muscles"
+       ],
+       "answer": 0,
+       "explain": "A tarsal tunnel lesion is distal to the tibial nerve's motor branches to the posterior leg, so only plantar sensation and intrinsic muscles are affected."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "A lesion at the tarsal tunnel, however, occurs distal to the motor branches supplying the leg muscles."
+    },
+    {
+     "order": 57,
+     "why": "Posterior tibial a.: passes behind medial malleolus in tarsal tunnel",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Tibialis posterior → Flexor digitorum longus → Posterior tibial artery → Posterior tibial veins → Tibial nerve → Flexor hallucis longus"
+    },
+    {
+     "order": 62,
+     "why": "Posterior tibial vv.: pass behind medial malleolus in tarsal tunnel",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "Tibialis posterior → Flexor digitorum longus → Posterior tibial artery → Posterior tibial veins → Tibial nerve → Flexor hallucis longus"
+    },
+    {
+     "order": 52,
+     "why": "Saphenous n.: sensory branch of femoral; medial leg and foot",
+     "questions": [
+      {
+       "q": "The saphenous nerve is a sensory branch of which nerve?",
+       "choices": [
+        "Tibial nerve",
+        "Obturator nerve",
+        "Common fibular nerve",
+        "Femoral nerve"
+       ],
+       "answer": 3,
+       "explain": "The saphenous nerve is a sensory branch of the femoral nerve that supplies the medial leg and medial foot."
+      },
+      {
+       "q": "Which nerve supplies the skin of the medial leg and medial side of the foot?",
+       "choices": [
+        "Sural nerve",
+        "Superficial fibular nerve",
+        "Saphenous nerve",
+        "Obturator nerve"
+       ],
+       "answer": 2,
+       "explain": "The saphenous nerve supplies the medial leg and medial foot; the sural nerve supplies the posterolateral leg and lateral foot."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The saphenous nerve, a sensory branch of the femoral nerve, continues into the leg and supplies the medial leg and medial side of the foot."
+    },
+    {
+     "order": 47,
+     "why": "Common fibular n.: around fibular neck; injury -> foot drop, weak eversion, steppage gait",
+     "questions": [
+      {
+       "q": "After hours of crouching, a patient has foot drop and weak eversion with preserved plantarflexion. Where is the lesion?",
+       "choices": [
+        "Tibial nerve within the tarsal tunnel",
+        "Common fibular nerve at fibular neck",
+        "Deep fibular nerve at the ankle",
+        "Superficial fibular nerve in the leg"
+       ],
+       "answer": 1,
+       "explain": "Weak dorsiflexion and eversion mean both deep and superficial branches are affected, so the lesion is proximal: the common fibular nerve at the fibular neck."
+      },
+      {
+       "q": "Foot drop from common fibular nerve injury produces which compensatory gait?",
+       "choices": [
+        "Steppage gait",
+        "Trendelenburg gait",
+        "Waddling gait",
+        "Antalgic gait"
+       ],
+       "answer": 0,
+       "explain": "Patients with foot drop lift the knee higher than normal (steppage gait) to keep the toes from dragging."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "Injury to the common fibular nerve at the fibular neck affects both its deep and superficial branches."
+    },
+    {
+     "order": 48,
+     "why": "Deep fibular n.: anterior compartment; first dorsal web space",
+     "questions": [
+      {
+       "q": "A patient has numbness in the first dorsal web space but normal sensation over the rest of the dorsum. Which nerve is affected?",
+       "choices": [
+        "Superficial fibular nerve",
+        "Sural nerve",
+        "Saphenous nerve",
+        "Deep fibular nerve"
+       ],
+       "answer": 3,
+       "explain": "The deep fibular nerve supplies the first dorsal web space; intact sensation elsewhere on the dorsum means the superficial fibular nerve is spared."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "In contrast, an isolated deep fibular nerve injury primarily affects dorsiflexion and toe extension, with sensory loss limited to the first dorsal web space."
+    },
+    {
+     "order": 49,
+     "why": "Superficial fibular n.: lateral compartment (eversion); most of dorsum of foot",
+     "questions": [
+      {
+       "q": "Which nerve supplies sensation to most of the dorsum of the foot?",
+       "choices": [
+        "Deep fibular nerve",
+        "Lateral plantar nerve",
+        "Superficial fibular nerve",
+        "Medial plantar nerve"
+       ],
+       "answer": 2,
+       "explain": "The superficial fibular nerve supplies most of the dorsum of the foot; the deep fibular nerve supplies only the first dorsal web space."
+      },
+      {
+       "q": "An isolated superficial fibular nerve injury would weaken which movement?",
+       "choices": [
+        "Eversion",
+        "Dorsiflexion",
+        "Plantarflexion",
+        "Inversion"
+       ],
+       "answer": 0,
+       "explain": "The superficial fibular nerve supplies the lateral compartment (fibularis longus and brevis), the main evertors."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…whereas the superficial fibular nerve innervates the lateral compartment and supplies most of the dorsum of the foot."
+    },
+    {
+     "order": 50,
+     "why": "Tibial n.: posterior compartment; tarsal tunnel; plantar sensation",
+     "questions": [
+      {
+       "q": "A patient has normal dorsiflexion and eversion but numbness limited to the plantar surface of the foot. Which nerve is affected?",
+       "choices": [
+        "Saphenous nerve",
+        "Tibial nerve",
+        "Deep fibular nerve",
+        "Superficial fibular nerve"
+       ],
+       "answer": 1,
+       "explain": "Plantar sensation comes from the tibial nerve via the medial and lateral plantar nerves; normal dorsiflexion and eversion spare the fibular nerves."
+      },
+      {
+       "q": "A tibial nerve lesion in the posterior leg would most impair which movements?",
+       "choices": [
+        "Dorsiflexion and toe extension",
+        "Eversion and dorsiflexion",
+        "Inversion and toe extension",
+        "Plantarflexion and toe flexion"
+       ],
+       "answer": 3,
+       "explain": "The tibial nerve supplies the posterior compartment, so a lesion above the ankle impairs plantarflexion and toe flexion."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "…passes through the tarsal tunnel posterior to the medial malleolus before dividing into the medial and lateral plantar nerves."
+    },
+    {
+     "order": 51,
+     "why": "Medial and lateral plantar nn.: tibial branches; plantar intrinsics and plantar sensation",
+     "questions": [
+      {
+       "q": "Which nerve innervates most of the intrinsic muscles of the plantar foot?",
+       "choices": [
+        "Lateral plantar nerve",
+        "Medial plantar nerve",
+        "Superficial fibular nerve",
+        "Sural nerve"
+       ],
+       "answer": 0,
+       "explain": "Most plantar intrinsics are supplied by the lateral plantar nerve; abductor hallucis, FHB, FDB, and the first lumbrical are medial plantar."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "These branches provide motor innervation to the plantar intrinsic muscles and sensory innervation to the plantar surface of the foot."
+    },
+    {
+     "order": 53,
+     "why": "Sural n.: posterolateral leg and lateral foot",
+     "questions": [
+      {
+       "q": "Sensory loss over the posterolateral leg and lateral foot suggests injury to which nerve?",
+       "choices": [
+        "Saphenous nerve",
+        "Superficial fibular nerve",
+        "Deep fibular nerve",
+        "Sural nerve"
+       ],
+       "answer": 3,
+       "explain": "The sural nerve supplies the posterolateral leg and lateral foot."
+      }
+     ],
+     "yield": "high",
+     "excerpt": "The sural nerve supplies the posterolateral leg and lateral foot."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Skeletal Framework",
+     "orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    {
+     "title": "Anterior Compartment of the Leg",
+     "orders": [
+      11,
+      12,
+      13,
+      14
+     ]
+    },
+    {
+     "title": "Lateral Compartment of the Leg",
+     "orders": [
+      15,
+      16
+     ]
+    },
+    {
+     "title": "Posterior Compartment of the Leg",
+     "orders": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ]
+    },
+    {
+     "title": "Talocrural Joint",
+     "orders": [
+      24,
+      25,
+      26,
+      27
+     ]
+    },
+    {
+     "title": "Arches of the Foot",
+     "orders": [
+      28,
+      29,
+      30,
+      31,
+      32
+     ]
+    },
+    {
+     "title": "Intrinsic Muscles of the Foot",
+     "orders": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      45,
+      46
+     ]
+    },
+    {
+     "title": "Tarsal Tunnel",
+     "orders": [
+      33,
+      34,
+      57,
+      62
+     ]
+    },
+    {
+     "title": "Regional Innervation and Clinical Localization",
+     "orders": [
+      52,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53
+     ]
+    }
+   ]
   }
  ]
 }

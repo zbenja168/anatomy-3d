@@ -1,0 +1,800 @@
+{
+ "stem": "206_MSK_W3_LegAnkleFoot",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Medial wall of the ankle mortise; attachment of deltoid ligament and flexor retinaculum",
+    "attachments": "Lateral surface articulates with medial facet of talus; tibialis posterior/FDL tendons groove behind it"
+   }
+  },
+  "2": {
+   "facts": {
+    "function": "Proximal fibula: lateral knee landmark; common fibular nerve winds round the neck"
+   },
+   "subs": [
+    {
+     "name": "Head of fibula",
+     "parts": [
+      "CUSTOM_HEAD_OF_FIBULA"
+     ],
+     "facts": {
+      "function": "Palpable at posterolateral knee",
+      "attachments": "Articulates with lateral tibial condyle; biceps femoris and fibular collateral ligament insert"
+     }
+    },
+    {
+     "name": "Neck of fibula",
+     "parts": [
+      "CUSTOM_NECK_OF_FIBULA"
+     ],
+     "facts": {
+      "function": "Common fibular nerve wraps around it: fracture/cast compression → foot drop",
+      "attachments": "Narrow segment just below head; fibularis longus arises nearby"
+     }
+    }
+   ]
+  },
+  "3": {
+   "facts": {
+    "function": "Lateral wall of ankle mortise; lower and more posterior than medial malleolus",
+    "attachments": "Articulates with lateral talus; ATFL, CFL, PTFL attach; fibularis tendons groove behind it"
+   }
+  },
+  "4": {
+   "facts": {
+    "function": "Transmits body weight from tibia to foot; no muscle attachments; keystone of the medial arch",
+    "attachments": "Trochlea with tibia/malleoli; head with navicular; inferior facets with calcaneus (subtalar joint)",
+    "supply": "Blood enters mainly via neck (retrograde) → neck fracture risks avascular necrosis of body"
+   },
+   "subs": [
+    {
+     "name": "Head of talus",
+     "parts": [
+      "CUSTOM_TALUS_HEAD"
+     ],
+     "facts": {
+      "function": "Rounded anterior end; keystone of medial arch",
+      "attachments": "Articulates with navicular; supported from below by spring ligament"
+     }
+    },
+    {
+     "name": "Neck of talus",
+     "parts": [
+      "CUSTOM_TALUS_NECK"
+     ],
+     "facts": {
+      "function": "Common fracture site (forced dorsiflexion) → risk of avascular necrosis of body",
+      "supply": "Main entry of talar blood supply"
+     }
+    },
+    {
+     "name": "Body of talus",
+     "parts": [
+      "CUSTOM_TALUS_BODY"
+     ],
+     "facts": {
+      "function": "Bulk of talus carrying trochlea; posterior process grooved by FHL tendon",
+      "attachments": "Inferior facet with calcaneus (subtalar joint)"
+     }
+    },
+    {
+     "name": "Trochlea of talus",
+     "parts": [
+      "CUSTOM_TALUS_TROCHLEA"
+     ],
+     "facts": {
+      "function": "Superior articular surface of talocrural joint; wider anteriorly → ankle most stable in dorsiflexion",
+      "attachments": "Articulates with tibial plafond and both malleoli"
+     }
+    }
+   ]
+  },
+  "5": {
+   "facts": {
+    "function": "Heel bone: largest tarsal, posterior pillar of both longitudinal arches",
+    "attachments": "Tuberosity: calcaneal tendon, plantar aponeurosis, AH/FDB/ADM; sustentaculum tali supports talus"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Tuberosity = main insertion of tibialis posterior; palpable medial foot landmark",
+    "attachments": "Navicular articulates with talar head and three cuneiforms; spring ligament attaches to plantar surface"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Keystone of the lateral longitudinal arch",
+    "attachments": "Articulates with calcaneus, lateral cuneiform, MT4–5; plantar groove for fibularis longus tendon"
+   }
+  },
+  "8": {
+   "facts": {
+    "function": "Three wedge-shaped tarsals forming the transverse arch between navicular and MT1–3"
+   },
+   "subs": [
+    {
+     "name": "Medial cuneiform",
+     "parts": [
+      "SRC_Z_MEDIAL_CUNEIFORM_BONE_R",
+      "SRC_Z_MEDIAL_CUNEIFORM_BONE_L"
+     ],
+     "facts": {
+      "function": "Largest cuneiform; part of medial column",
+      "attachments": "Articulates with navicular and MT1; tibialis anterior and fibularis longus insert"
+     }
+    },
+    {
+     "name": "Intermediate cuneiform",
+     "parts": [
+      "SRC_Z_INTERMEDIATE_CUNEIFORM_BONE_R",
+      "SRC_Z_INTERMEDIATE_CUNEIFORM_BONE_L"
+     ],
+     "facts": {
+      "function": "Smallest cuneiform; recessed, locking the MT2 base (Lisfranc stability)",
+      "attachments": "Articulates with navicular and base of MT2"
+     }
+    },
+    {
+     "name": "Lateral cuneiform",
+     "parts": [
+      "SRC_Z_LATERAL_CUNEIFORM_BONE_R",
+      "SRC_Z_LATERAL_CUNEIFORM_BONE_L"
+     ],
+     "facts": {
+      "function": "Wedge between intermediate cuneiform and cuboid",
+      "attachments": "Articulates with navicular, cuboid and base of MT3"
+     }
+    }
+   ]
+  },
+  "9": {
+   "facts": {
+    "function": "Five long bones of the forefoot; heads bear weight at push-off"
+   },
+   "subs": [
+    {
+     "name": "Metatarsal I",
+     "parts": [
+      "SRC_Z_FIRST_METATARSAL_BONE_R",
+      "SRC_Z_FIRST_METATARSAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Shortest, thickest; head bears two sesamoids and much push-off load",
+      "attachments": "Base: tibialis anterior and fibularis longus insert"
+     }
+    },
+    {
+     "name": "Metatarsal II",
+     "parts": [
+      "SRC_Z_SECOND_METATARSAL_BONE_R",
+      "SRC_Z_SECOND_METATARSAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Longest; base keyed between cuneiforms; common stress (march) fracture site",
+      "attachments": "Base tied to medial cuneiform by Lisfranc ligament"
+     }
+    },
+    {
+     "name": "Metatarsal III",
+     "parts": [
+      "SRC_Z_THIRD_METATARSAL_BONE_R",
+      "SRC_Z_THIRD_METATARSAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Central ray; stress fractures also common",
+      "attachments": "Base articulates with lateral cuneiform"
+     }
+    },
+    {
+     "name": "Metatarsal IV",
+     "parts": [
+      "SRC_Z_FOURTH_METATARSAL_BONE_R",
+      "SRC_Z_FOURTH_METATARSAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Part of lateral column",
+      "attachments": "Base articulates with cuboid"
+     }
+    },
+    {
+     "name": "Metatarsal V",
+     "parts": [
+      "SRC_Z_FIFTH_METATARSAL_BONE_R",
+      "SRC_Z_FIFTH_METATARSAL_BONE_L"
+     ],
+     "facts": {
+      "function": "Lateral column; tuberosity avulsion or Jones (proximal diaphysis) fractures",
+      "attachments": "Tuberosity: fibularis brevis; dorsal base: fibularis tertius"
+     }
+    }
+   ]
+  },
+  "10": {
+   "facts": {
+    "function": "14 per foot: hallux has 2, other toes 3; levers for toe flexion and extension"
+   },
+   "subs": [
+    {
+     "name": "Proximal phalanges",
+     "parts": [
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIRST_FINGER_OF_FOOT_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIRST_FINGER_OF_FOOT_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_SECOND_FINGER_OF_FOOT_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_SECOND_FINGER_OF_FOOT_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_THIRD_FINGER_OF_FOOT_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_THIRD_FINGER_OF_FOOT_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FOURTH_FINGER_OF_FOOT_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FOURTH_FINGER_OF_FOOT_L",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIFTH_FINGER_OF_FOOT_R",
+      "SRC_Z_PROXIMAL_PHALANX_OF_FIFTH_FINGER_OF_FOOT_L"
+     ],
+     "facts": {
+      "function": "Base articulates with metatarsal head (MTP joint)",
+      "attachments": "Insertions of EHB, AH, FHB, adductor hallucis, interossei"
+     }
+    },
+    {
+     "name": "Middle phalanges",
+     "parts": [
+      "SRC_Z_MIDDLE_PHALANX_OF_SECOND_FINGER_OF_FOOT_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_SECOND_FINGER_OF_FOOT_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_THIRD_FINGER_OF_FOOT_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_THIRD_FINGER_OF_FOOT_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_FOURTH_FINGER_OF_FOOT_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_FOURTH_FINGER_OF_FOOT_L",
+      "SRC_Z_MIDDLE_PHALANX_OF_FIFTH_FINGER_OF_FOOT_R",
+      "SRC_Z_MIDDLE_PHALANX_OF_FIFTH_FINGER_OF_FOOT_L"
+     ],
+     "facts": {
+      "function": "Toes II–V only (hallux has none)",
+      "attachments": "Insertion of flexor digitorum brevis"
+     }
+    },
+    {
+     "name": "Distal phalanges",
+     "parts": [
+      "SRC_Z_DISTAL_PHALANX_OF_FIRST_FINGER_OF_FOOT_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FIRST_FINGER_OF_FOOT_L",
+      "SRC_Z_DISTAL_PHALANX_OF_SECOND_FINGER_OF_FOOT_R",
+      "SRC_Z_DISTAL_PHALANX_OF_SECOND_FINGER_OF_FOOT_L",
+      "SRC_Z_DISTAL_PHALANX_OF_THIRD_FINGER_OF_FOOT_R",
+      "SRC_Z_DISTAL_PHALANX_OF_THIRD_FINGER_OF_FOOT_L",
+      "SRC_Z_DISTAL_PHALANX_OF_FOURTH_FINGER_OF_FOOT_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FOURTH_FINGER_OF_FOOT_L",
+      "SRC_Z_DISTAL_PHALANX_OF_FIFTH_FINGER_OF_FOOT_R",
+      "SRC_Z_DISTAL_PHALANX_OF_FIFTH_FINGER_OF_FOOT_L"
+     ],
+     "facts": {
+      "function": "Terminal phalanges supporting the toenails",
+      "attachments": "Insertions of FDL (II–V), FHL and EHL (hallux)"
+     }
+    }
+   ]
+  },
+  "11": {
+   "facts": {
+    "function": "Dorsiflexes and inverts foot",
+    "innervation": "Deep fibular nerve (L4–L5)",
+    "attachments": "Lateral tibial condyle/shaft, interosseous membrane → medial cuneiform, base of MT1",
+    "supply": "Anterior tibial artery"
+   }
+  },
+  "12": {
+   "facts": {
+    "function": "Extends great toe; dorsiflexes foot",
+    "innervation": "Deep fibular nerve (L5–S1)",
+    "attachments": "Middle anterior fibula, interosseous membrane → base of distal phalanx of hallux",
+    "supply": "Anterior tibial artery"
+   }
+  },
+  "13": {
+   "facts": {
+    "function": "Extends lateral four toes; dorsiflexes foot",
+    "innervation": "Deep fibular nerve (L5–S1)",
+    "attachments": "Lateral tibial condyle, anterior fibula, interosseous membrane → middle/distal phalanges II–V via extensor expansions",
+    "supply": "Anterior tibial artery"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Dorsiflexes and everts foot",
+    "innervation": "Deep fibular nerve (L5–S1)",
+    "attachments": "Distal anterior fibula → dorsum of base of MT5",
+    "supply": "Anterior tibial artery"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Everts and plantarflexes foot; supports lateral and transverse arches",
+    "innervation": "Superficial fibular nerve (L5–S2)",
+    "attachments": "Head and upper lateral fibula → medial cuneiform, base of MT1 (crosses sole in cuboid groove)",
+    "supply": "Fibular and anterior tibial arteries"
+   }
+  },
+  "16": {
+   "facts": {
+    "function": "Everts foot; weak plantarflexion",
+    "innervation": "Superficial fibular nerve (L5–S2)",
+    "attachments": "Lower lateral fibula → tuberosity of base of MT5",
+    "supply": "Fibular artery"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Plantarflexes foot at ankle; flexes knee",
+    "innervation": "Tibial nerve (S1–S2)",
+    "attachments": "Medial and lateral femoral condyles → calcaneal tuberosity via calcaneal tendon",
+    "supply": "Sural arteries (from popliteal)"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Plantarflexes foot; postural muscle; calf venous pump",
+    "innervation": "Tibial nerve (S1–S2)",
+    "attachments": "Posterior fibular head/upper fibula, soleal line of tibia → calcaneal tuberosity via calcaneal tendon",
+    "supply": "Popliteal, posterior tibial and fibular arteries"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Transmits triceps surae (gastrocnemius + soleus) pull for plantarflexion; ankle jerk reflex (S1–S2); rupture → weak push-off",
+    "attachments": "Gastrocnemius + soleus → middle of posterior calcaneal tuberosity"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Unlocks the extended knee (laterally rotates femur on fixed tibia)",
+    "innervation": "Tibial nerve (L4–S1)",
+    "attachments": "Lateral femoral condyle, lateral meniscus → posterior tibia above soleal line",
+    "supply": "Inferior genicular arteries"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Inverts and plantarflexes foot; main dynamic support of medial longitudinal arch",
+    "innervation": "Tibial nerve (L4–L5)",
+    "attachments": "Interosseous membrane, posterior tibia/fibula → navicular tuberosity, cuneiforms, cuboid, bases MT2–4",
+    "supply": "Fibular artery"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "Flexes lateral four toes; plantarflexes and inverts foot",
+    "innervation": "Tibial nerve (S2–S3)",
+    "attachments": "Posterior tibia below soleal line → bases of distal phalanges II–V",
+    "supply": "Posterior tibial artery"
+   }
+  },
+  "23": {
+   "facts": {
+    "function": "Flexes great toe (push-off); plantarflexes foot; supports medial arch",
+    "innervation": "Tibial nerve (S2–S3)",
+    "attachments": "Lower posterior fibula, interosseous membrane → base of distal phalanx of hallux",
+    "supply": "Fibular artery"
+   }
+  },
+  "24": {
+   "facts": {
+    "function": "Strong medial collateral ligament; resists eversion (may avulse medial malleolus rather than tear)",
+    "attachments": "Medial malleolus → navicular, talar neck, sustentaculum tali, posterior talus (four parts)"
+   }
+  },
+  "25": {
+   "facts": {
+    "function": "Resists anterior talar shift and inversion in plantarflexion; most commonly sprained ankle ligament",
+    "attachments": "Anterior margin of lateral malleolus → lateral neck of talus"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Resists inversion with ankle in neutral; second ligament torn in inversion sprains",
+    "attachments": "Tip of lateral malleolus → lateral surface of calcaneus"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Strongest lateral ankle ligament; resists posterior talar shift; rarely torn",
+    "attachments": "Malleolar fossa of fibula → lateral tubercle of posterior talar process"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Longitudinal arches distribute body weight and absorb shock in stance and gait"
+   },
+   "subs": [
+    {
+     "name": "Medial longitudinal arch",
+     "parts": [
+      "CUSTOM_MEDIAL_LONGITUDINAL_ARCH"
+     ],
+     "facts": {
+      "function": "Higher, mobile, shock-absorbing arch; talar head is keystone",
+      "attachments": "Calcaneus, talus, navicular, cuneiforms, MT1–3; held by spring ligament, tibialis posterior, plantar aponeurosis"
+     }
+    },
+    {
+     "name": "Lateral longitudinal arch",
+     "parts": [
+      "CUSTOM_LATERAL_LONGITUDINAL_ARCH"
+     ],
+     "facts": {
+      "function": "Low, rigid, weight-bearing arch; cuboid is keystone",
+      "attachments": "Calcaneus, cuboid, MT4–5; held by long/short plantar ligaments and fibularis longus"
+     }
+    }
+   ]
+  },
+  "29": {
+   "facts": {
+    "function": "Side-to-side arch across cuneiforms, cuboid and metatarsal bases",
+    "attachments": "Supported by fibularis longus tendon, tibialis posterior and transverse head of adductor hallucis"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Supports longitudinal arches (windlass mechanism), protects sole; inflamed at heel origin in plantar fasciitis",
+    "attachments": "Medial process of calcaneal tuberosity → five digital slips to toe flexor sheaths"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Supports head of talus; key passive support of medial longitudinal arch (laxity → flatfoot)",
+    "attachments": "Sustentaculum tali → plantar surface of navicular"
+   }
+  },
+  "32": {
+   "facts": {
+    "function": "Plantar calcaneocuboid ligaments supporting the lateral longitudinal arch"
+   },
+   "subs": [
+    {
+     "name": "Long plantar ligament",
+     "parts": [
+      "CUSTOM_LONG_PLANTAR_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Supports lateral arch; turns cuboid groove into tunnel for fibularis longus",
+      "attachments": "Plantar calcaneus → cuboid ridge and bases of MT2–4"
+     }
+    },
+    {
+     "name": "Short plantar ligament",
+     "parts": [
+      "CUSTOM_SHORT_PLANTAR_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Plantar calcaneocuboid ligament; supports lateral arch, deep to long plantar ligament",
+      "attachments": "Anterior tubercle of calcaneus → plantar cuboid"
+     }
+    }
+   ]
+  },
+  "33": {
+   "facts": {
+    "function": "Roofs tarsal tunnel; holds deep posterior compartment tendons in place behind medial malleolus",
+    "attachments": "Medial malleolus → medial surface of calcaneus"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Transmits tibialis posterior, FDL, posterior tibial vessels, tibial nerve, FHL; nerve compression → tarsal tunnel syndrome",
+    "attachments": "Between flexor retinaculum and medial talus/calcaneus, behind medial malleolus"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Extends toes II–IV (assists EDL)",
+    "innervation": "Deep fibular nerve (L5–S1)",
+    "attachments": "Superolateral calcaneus → long extensor tendons of toes II–IV",
+    "supply": "Dorsalis pedis (lateral tarsal artery)"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Extends great toe at MTP joint",
+    "innervation": "Deep fibular nerve (L5–S1)",
+    "attachments": "Superolateral calcaneus → base of proximal phalanx of hallux",
+    "supply": "Dorsalis pedis artery"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Abducts and flexes great toe; supports medial arch",
+    "innervation": "Medial plantar nerve (S2–S3)",
+    "attachments": "Medial process of calcaneal tuberosity, flexor retinaculum → medial base of proximal phalanx of hallux",
+    "supply": "Medial plantar artery"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Flexes great toe at MTP joint",
+    "innervation": "Medial plantar nerve (S2–S3)",
+    "attachments": "Plantar cuboid, lateral cuneiform → both sides of base of proximal phalanx of hallux (sesamoids in tendons)",
+    "supply": "Medial plantar artery"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Flexes lateral four toes at PIP joints",
+    "innervation": "Medial plantar nerve (S2–S3)",
+    "attachments": "Medial process of calcaneal tuberosity, plantar aponeurosis → sides of middle phalanges II–V",
+    "supply": "Medial and lateral plantar arteries"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Straightens oblique pull of FDL tendons; assists toe flexion",
+    "innervation": "Lateral plantar nerve (S2–S3)",
+    "attachments": "Medial and lateral plantar calcaneus → posterolateral margin of FDL tendon",
+    "supply": "Lateral plantar artery"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Flex MTP and extend IP joints of toes II–V",
+    "innervation": "1st: medial plantar nerve; 2nd–4th: lateral plantar nerve (S2–S3)",
+    "attachments": "FDL tendons → medial sides of extensor expansions of toes II–V",
+    "supply": "Plantar metatarsal arteries"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Abducts and flexes little toe",
+    "innervation": "Lateral plantar nerve (S2–S3)",
+    "attachments": "Medial and lateral processes of calcaneal tuberosity → lateral base of proximal phalanx of toe V",
+    "supply": "Lateral plantar artery"
+   }
+  },
+  "43": {
+   "facts": {
+    "function": "Flexes little toe at MTP joint",
+    "innervation": "Lateral plantar nerve, superficial branch (S2–S3)",
+    "attachments": "Base of MT5 → base of proximal phalanx of toe V",
+    "supply": "Lateral plantar artery"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Adducts great toe; transverse head helps maintain transverse arch",
+    "innervation": "Lateral plantar nerve, deep branch (S2–S3)",
+    "attachments": "Oblique: bases MT2–4; transverse: plantar MTP ligaments III–V → lateral base of proximal phalanx of hallux",
+    "supply": "Plantar arch"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Abduct (dorsal) and adduct (plantar) toes relative to 2nd toe; flex MTP, extend IP joints",
+    "innervation": "Lateral plantar nerve (S2–S3)",
+    "supply": "Plantar arch and metatarsal arteries"
+   },
+   "subs": [
+    {
+     "name": "Dorsal interossei",
+     "parts": [
+      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_R",
+      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_L"
+     ],
+     "facts": {
+      "function": "Abduct toes II–IV from axis of 2nd toe (DAB); four bipennate",
+      "attachments": "Adjacent sides of MT1–5 → bases of proximal phalanges II–IV (2nd toe gets two)"
+     }
+    },
+    {
+     "name": "Plantar interossei",
+     "parts": [
+      "SRC_Z_PLANTAR_INTEROSSEI_MUSCLES_R",
+      "SRC_Z_PLANTAR_INTEROSSEI_MUSCLES_L"
+     ],
+     "facts": {
+      "function": "Adduct toes III–V toward 2nd toe (PAD); three unipennate",
+      "attachments": "Medial sides of MT3–5 → medial bases of proximal phalanges III–V"
+     }
+    }
+   ]
+  },
+  "46": {
+   "facts": {
+    "function": "Adduct toes III–V toward 2nd toe (PAD); flex MTP joints",
+    "innervation": "Lateral plantar nerve (S2–S3)",
+    "attachments": "Medial sides of MT3–5 → medial bases of proximal phalanges III–V",
+    "supply": "Plantar arch"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Motor to anterior + lateral compartments (via deep/superficial branches); injury at fibular neck → foot drop, steppage gait",
+    "innervation": "L4–S2; motor and sensory (lateral leg)",
+    "attachments": "Sciatic → along biceps femoris in popliteal fossa → round fibular neck → deep + superficial fibular nerves"
+   }
+  },
+  "48": {
+   "facts": {
+    "function": "Motor: anterior compartment, EDB/EHB (dorsiflexion, toe extension); sensory: first web space",
+    "innervation": "L4–S1; motor + small sensory area",
+    "attachments": "Common fibular → interosseous membrane with anterior tibial artery → lateral to dorsalis pedis → first web space"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Motor: fibularis longus and brevis (eversion); sensory: most of dorsum of foot, distal anterolateral leg",
+    "innervation": "L4–S1; motor + sensory",
+    "attachments": "Common fibular → lateral compartment → pierces deep fascia distal leg → medial and intermediate dorsal cutaneous nerves"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Motor: posterior leg compartment and sole (via plantar nerves); sensory: sole and heel; injury → no plantarflexion, toe flexion",
+    "innervation": "L4–S3; motor + sensory",
+    "attachments": "Sciatic → popliteal fossa (most superficial) → deep to soleus with posterior tibial artery → tarsal tunnel → plantar nerves"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Terminal branches of tibial nerve (in tarsal tunnel) supplying intrinsic sole muscles and plantar skin",
+    "innervation": "S2–S3; motor + sensory"
+   },
+   "subs": [
+    {
+     "name": "Medial plantar nerve",
+     "parts": [
+      "CUSTOM_MEDIAL_PLANTAR_NERVE"
+     ],
+     "facts": {
+      "function": "Like median nerve in hand: AH, FDB, FHB, 1st lumbrical; skin of medial sole and 3½ toes",
+      "innervation": "S2–S3; motor + sensory",
+      "attachments": "Tibial nerve → between abductor hallucis and FDB with medial plantar artery"
+     }
+    },
+    {
+     "name": "Lateral plantar nerve",
+     "parts": [
+      "CUSTOM_LATERAL_PLANTAR_NERVE"
+     ],
+     "facts": {
+      "function": "Like ulnar nerve: QP, ADM, FDMB, adductor hallucis, interossei, lumbricals 2–4; skin of lateral 1½ toes",
+      "innervation": "S2–S3; motor + sensory",
+      "attachments": "Tibial nerve → between FDB and QP → superficial and deep (with plantar arch) branches"
+     }
+    }
+   ]
+  },
+  "52": {
+   "facts": {
+    "function": "Sensory only: skin of medial leg and medial foot; at risk in great saphenous vein harvest/cutdown",
+    "innervation": "L3–L4; cutaneous terminal branch of femoral nerve",
+    "attachments": "Adductor canal → medial knee → with great saphenous vein → anterior to medial malleolus"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Sensory: posterolateral distal leg, lateral foot and little toe; common nerve biopsy/graft donor",
+    "innervation": "S1–S2; medial sural cutaneous (tibial) + sural communicating (common fibular)",
+    "attachments": "With small saphenous vein down calf → behind lateral malleolus → lateral border of foot"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Diamond behind knee containing popliteal artery (deepest), vein, tibial and common fibular nerves, popliteal nodes",
+    "attachments": "Biceps femoris (superolateral), semimembranosus/semitendinosus (superomedial), gastrocnemius heads (inferior); floor femur, capsule, popliteus"
+   }
+  },
+  "55": {
+   "facts": {
+    "function": "Supplies knee (genicular arteries) and leg; deepest structure in popliteal fossa; common site of peripheral aneurysm",
+    "attachments": "Femoral artery at adductor hiatus → lower border of popliteus → anterior + posterior tibial arteries"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Supplies anterior compartment of leg",
+    "attachments": "Popliteal → above interosseous membrane into anterior compartment, with deep fibular nerve → dorsalis pedis at ankle"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Supplies posterior compartment and sole; pulse behind medial malleolus",
+    "attachments": "Popliteal → deep to soleus, gives fibular artery → tarsal tunnel → medial + lateral plantar arteries"
+   }
+  },
+  "58": {
+   "facts": {
+    "function": "Supplies lateral and deep posterior compartments and fibula",
+    "attachments": "Posterior tibial (just below popliteus) → along fibula near FHL → lateral calcaneal branches"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Supplies dorsum of foot; pulse lateral to EHL tendon, over navicular/cuneiforms",
+    "attachments": "Continuation of anterior tibial at ankle → arcuate artery; deep plantar artery joins plantar arch"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Terminal branches of posterior tibial artery, arising deep to abductor hallucis, supplying the sole"
+   },
+   "subs": [
+    {
+     "name": "Medial plantar artery",
+     "parts": [
+      "SRC_Z_MEDIAL_PLANTAR_ARTERY_R",
+      "SRC_Z_MEDIAL_PLANTAR_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Smaller branch; supplies medial sole and hallux",
+      "attachments": "Posterior tibial → between abductor hallucis and FDB → digital branches"
+     }
+    },
+    {
+     "name": "Lateral plantar artery",
+     "parts": [
+      "SRC_Z_LATERAL_PLANTAR_ARTERY_R",
+      "SRC_Z_LATERAL_PLANTAR_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Larger branch; supplies lateral sole and forms the deep plantar arch",
+      "attachments": "Posterior tibial → obliquely laterally between FDB and QP → plantar arch"
+     }
+    }
+   ]
+  },
+  "61": {
+   "facts": {
+    "function": "Supplies toes via plantar metatarsal and digital arteries",
+    "attachments": "Continuation of lateral plantar artery across MT bases → joins deep plantar branch of dorsalis pedis"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Paired deep veins (venae comitantes) draining leg compartments to popliteal vein; common site of DVT"
+   },
+   "subs": [
+    {
+     "name": "Anterior tibial veins",
+     "parts": [
+      "SRC_Z_ANTERIOR_TIBIAL_VEINS_R",
+      "SRC_Z_ANTERIOR_TIBIAL_VEINS_L"
+     ],
+     "facts": {
+      "function": "Drain anterior compartment and dorsum of foot",
+      "attachments": "Accompany anterior tibial artery → join posterior tibial veins → popliteal vein"
+     }
+    },
+    {
+     "name": "Posterior tibial veins",
+     "parts": [
+      "SRC_Z_POSTERIOR_TIBIAL_VEINS_R",
+      "SRC_Z_POSTERIOR_TIBIAL_VEINS_L"
+     ],
+     "facts": {
+      "function": "Drain posterior compartment and sole; receive fibular veins",
+      "attachments": "Accompany posterior tibial artery → popliteal vein"
+     }
+    }
+   ]
+  },
+  "63": {
+   "facts": {
+    "function": "Drains leg and knee; receives small saphenous vein; DVT site",
+    "attachments": "Union of tibial veins at popliteus → superficial to popliteal artery → femoral vein at adductor hiatus"
+   }
+  },
+  "64": {
+   "facts": {
+    "function": "Main superficial vein of medial limb; harvested for CABG; cutdown anterior to medial malleolus",
+    "attachments": "Medial end of dorsal venous arch → anterior to medial malleolus → medial leg/thigh → femoral vein at saphenous opening"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Superficial drainage of lateral foot and posterior calf",
+    "attachments": "Lateral end of dorsal venous arch → behind lateral malleolus with sural nerve → popliteal vein"
+   }
+  },
+  "66": {
+   "facts": {
+    "function": "Collects dorsal digital and metatarsal veins of the foot",
+    "attachments": "Across dorsum of metatarsals; medial end → great saphenous, lateral end → small saphenous vein"
+   }
+  }
+ }
+}

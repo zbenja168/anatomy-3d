@@ -24,6 +24,22 @@
   "mb": 2.6
  },
  {
+  "stem": "206_MSK_W3_GlutealThigh",
+  "course": "Skin, Musculoskeletal, and Connective Tissue Systems",
+  "title": "Gluteal Region & Thigh Structure List",
+  "items": 77,
+  "in3d": 77,
+  "mb": 2.6
+ },
+ {
+  "stem": "206_MSK_W3_LegAnkleFoot",
+  "course": "Skin, Musculoskeletal, and Connective Tissue Systems",
+  "title": "Leg, Ankle & Foot Structure List",
+  "items": 66,
+  "in3d": 66,
+  "mb": 2.0
+ },
+ {
   "stem": "183_CV",
   "course": "Cardiovascular System",
   "title": "CV Structure List",

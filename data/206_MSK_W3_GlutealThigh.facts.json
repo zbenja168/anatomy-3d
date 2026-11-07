@@ -1,0 +1,1098 @@
+{
+ "stem": "206_MSK_W3_GlutealThigh",
+ "items": {
+  "1": {
+   "facts": {
+    "function": "Large fan-shaped upper part of the hip bone; forms upper acetabulum; iliac crest and spines are key palpable landmarks",
+    "attachments": "Iliacus (fossa), gluteal muscles (outer surface), abdominal wall muscles and inguinal ligament (crest/ASIS)"
+   },
+   "subs": [
+    {
+     "name": "Iliac fossa",
+     "parts": [
+      "CUSTOM_ILIAC_FOSSA"
+     ],
+     "facts": {
+      "function": "Smooth concave internal surface of the ala forming the posterolateral wall of the greater pelvis",
+      "attachments": "Origin of iliacus; bounded below by the arcuate line, behind by the auricular surface"
+     }
+    },
+    {
+     "name": "Iliac crest",
+     "parts": [
+      "CUSTOM_ILIAC_CREST"
+     ],
+     "facts": {
+      "function": "Palpable superior border of the ilium from ASIS to PSIS; highest point at L4 (supracristal plane, lumbar puncture landmark)",
+      "attachments": "Abdominal wall muscles, latissimus dorsi, quadratus lumborum, fascia lata; bone marrow biopsy site"
+     }
+    },
+    {
+     "name": "Anterior superior iliac spine (ASIS)",
+     "parts": [
+      "CUSTOM_ASIS"
+     ],
+     "facts": {
+      "function": "Palpable anterior end of the iliac crest; surface landmark for the inguinal ligament and limb-length measurement",
+      "attachments": "Sartorius, tensor fasciae latae, lateral end of inguinal ligament; avulsion by sartorius in sprinters"
+     }
+    },
+    {
+     "name": "Anterior inferior iliac spine (AIIS)",
+     "parts": [
+      "CUSTOM_AIIS"
+     ],
+     "facts": {
+      "function": "Projection on the anterior ilium just above the acetabulum",
+      "attachments": "Straight head of rectus femoris and the iliofemoral ligament; rectus femoris avulsion site (kicking)"
+     }
+    }
+   ]
+  },
+  "2": {
+   "facts": {
+    "function": "Posteroinferior part of the hip bone; forms posterior acetabulum and bears weight when sitting",
+    "attachments": "Hamstrings, adductor magnus (hamstring part), sacrotuberous and sacrospinous ligaments, gemelli"
+   },
+   "subs": [
+    {
+     "name": "Ischial spine",
+     "parts": [
+      "CUSTOM_ISCHIAL_SPINE"
+     ],
+     "facts": {
+      "function": "Separates greater from lesser sciatic notch; landmark for pudendal nerve block (nerve passes behind it)",
+      "attachments": "Sacrospinous ligament, superior gemellus, coccygeus, levator ani (tendinous arch)"
+     }
+    },
+    {
+     "name": "Ischial tuberosity",
+     "parts": [
+      "CUSTOM_ISCHIAL_TUBEROSITY"
+     ],
+     "facts": {
+      "function": "Weight-bearing \"sit bone\"; common origin of the hamstrings (hamstring avulsion site)",
+      "attachments": "Semitendinosus, semimembranosus, long head biceps femoris, hamstring part of adductor magnus, quadratus femoris, sacrotuberous ligament"
+     }
+    }
+   ]
+  },
+  "3": {
+   "facts": {
+    "function": "Anteromedial part of the hip bone; forms anterior acetabulum and anterior pelvic ring with the opposite pubis",
+    "attachments": "Adductors, gracilis, pectineus, rectus abdominis, inguinal ligament"
+   },
+   "subs": [
+    {
+     "name": "Superior pubic ramus",
+     "parts": [
+      "CUSTOM_SUPERIOR_PUBIC_RAMUS"
+     ],
+     "facts": {
+      "function": "Upper border of the obturator foramen; carries the pectineal line; obturator canal lies beneath it",
+      "attachments": "Pectineus (pectineal line), lacunar and pectineal ligaments; joins the body to the acetabulum"
+     }
+    },
+    {
+     "name": "Inferior pubic ramus",
+     "parts": [
+      "CUSTOM_INFERIOR_PUBIC_RAMUS"
+     ],
+     "facts": {
+      "function": "Joins the ischial ramus (ischiopubic ramus) below the obturator foramen; part of the pubic arch",
+      "attachments": "Adductor brevis, gracilis, adductor magnus (adductor part), obturator externus"
+     }
+    },
+    {
+     "name": "Pubic tubercle",
+     "parts": [
+      "CUSTOM_PUBIC_TUBERCLE"
+     ],
+     "facts": {
+      "function": "Palpable anterior projection; medial attachment of the inguinal ligament; superficial inguinal ring lies just above",
+      "attachments": "Inguinal ligament; adductor longus tendon arises just below"
+     }
+    },
+    {
+     "name": "Pubic symphysis",
+     "parts": [
+      "CUSTOM_PUBIC_SYMPHYSIS"
+     ],
+     "facts": {
+      "function": "Secondary cartilaginous joint (fibrocartilaginous interpubic disc) uniting the pubic bodies; slight movement, widens in pregnancy",
+      "attachments": "Superior and inferior (arcuate) pubic ligaments reinforce it"
+     }
+    }
+   ]
+  },
+  "4": {
+   "facts": {
+    "function": "Notches on the posterior border of the hip bone converted into foramina by the sacrotuberous and sacrospinous ligaments"
+   },
+   "subs": [
+    {
+     "name": "Greater sciatic notch",
+     "parts": [
+      "CUSTOM_GREATER_SCIATIC_NOTCH"
+     ],
+     "facts": {
+      "function": "Above the ischial spine; becomes the greater sciatic foramen (piriformis, gluteal vessels/nerves, sciatic, pudendal)",
+      "attachments": "Bounded by the sacrospinous ligament below and sacrotuberous ligament behind"
+     }
+    },
+    {
+     "name": "Lesser sciatic notch",
+     "parts": [
+      "CUSTOM_LESSER_SCIATIC_NOTCH"
+     ],
+     "facts": {
+      "function": "Below the ischial spine; becomes the lesser sciatic foramen (obturator internus tendon, pudendal nerve/internal pudendal vessels, nerve to OI)",
+      "attachments": "Between sacrospinous (above) and sacrotuberous (below) ligaments; OI tendon turns over its cartilage-covered surface"
+     }
+    }
+   ]
+  },
+  "5": {
+   "facts": {
+    "function": "Opening between pubis and ischium closed by the obturator membrane except the obturator canal (obturator nerve and vessels)",
+    "attachments": "Obturator internus (inner) and obturator externus (outer) arise from membrane and margins"
+   }
+  },
+  "6": {
+   "facts": {
+    "function": "Deep cup-shaped socket for the femoral head; deeper than the glenoid so the hip is more stable than the shoulder",
+    "attachments": "Formed by ilium, ischium, pubis (Y-shaped cartilage); lunate surface, acetabular fossa and notch; labrum on rim"
+   }
+  },
+  "7": {
+   "facts": {
+    "function": "Head articulates with the acetabulum; neck angles it ~125° to the shaft; neck fractures risk avascular necrosis of the head",
+    "supply": "Mainly medial circumflex femoral (retinacular arteries); minor: lateral circumflex, artery of ligament of head"
+   },
+   "subs": [
+    {
+     "name": "Head of femur",
+     "parts": [
+      "CUSTOM_HEAD_OF_FEMUR"
+     ],
+     "facts": {
+      "function": "Smooth ~2/3 sphere articulating with the acetabulum; fovea for the ligament of the head",
+      "supply": "Retinacular branches of medial circumflex femoral; small contribution from artery of ligament of head (obturator)"
+     }
+    },
+    {
+     "name": "Neck of femur",
+     "parts": [
+      "CUSTOM_NECK_OF_FEMUR"
+     ],
+     "facts": {
+      "function": "Joins head to shaft at ~125°; intracapsular fractures (elderly falls) tear retinacular arteries causing AVN",
+      "attachments": "Hip joint capsule attaches to intertrochanteric line anteriorly; retinacula carry vessels along it"
+     }
+    }
+   ]
+  },
+  "8": {
+   "facts": {
+    "function": "Muscle-attachment prominences at the neck-shaft junction, joined by the intertrochanteric line (front) and crest (back)"
+   },
+   "subs": [
+    {
+     "name": "Greater trochanter",
+     "parts": [
+      "CUSTOM_GREATER_TROCHANTER"
+     ],
+     "facts": {
+      "function": "Palpable lateral prominence; lever for the hip abductors and lateral rotators; trochanteric bursitis site",
+      "attachments": "Gluteus medius, gluteus minimus, piriformis, obturator internus, gemelli; obturator externus into trochanteric fossa"
+     }
+    },
+    {
+     "name": "Lesser trochanter",
+     "parts": [
+      "CUSTOM_LESSER_TROCHANTER"
+     ],
+     "facts": {
+      "function": "Posteromedial projection below the neck; insertion of the principal hip flexor",
+      "attachments": "Iliopsoas (psoas major and iliacus)"
+     }
+    }
+   ]
+  },
+  "9": {
+   "facts": {
+    "function": "Fibrocartilage ring on the acetabular rim deepening the socket and gripping the femoral head; tears cause hip pain/clicking (impingement)",
+    "attachments": "Acetabular rim; bridged across the acetabular notch by the transverse acetabular ligament"
+   }
+  },
+  "10": {
+   "facts": {
+    "function": "Weak intracapsular band; little stabilizing role; conduit for the artery of the ligament of the head",
+    "attachments": "Acetabular notch/transverse acetabular ligament → fovea of the femoral head",
+    "supply": "Carries the acetabular branch of the obturator artery to the head"
+   }
+  },
+  "11": {
+   "facts": {
+    "function": "Gluteal muscles: maximus extends hip; medius/minimus abduct and stabilize the pelvis in stance",
+    "innervation": "Maximus: inferior gluteal (L5–S2); medius/minimus: superior gluteal (L4–S1)"
+   },
+   "subs": [
+    {
+     "name": "Gluteus maximus",
+     "parts": [
+      "SRC_Z_GLUTEUS_MAXIMUS_MUSCLE_R",
+      "SRC_Z_GLUTEUS_MAXIMUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Main hip extensor (rising, stairs, running) and lateral rotator; little use in level walking",
+      "innervation": "Inferior gluteal nerve (L5–S2)",
+      "attachments": "Ilium behind posterior gluteal line, sacrum, coccyx, sacrotuberous ligament → IT tract and gluteal tuberosity",
+      "supply": "Inferior and superior gluteal arteries"
+     }
+    },
+    {
+     "name": "Gluteus medius",
+     "parts": [
+      "SRC_Z_GLUTEUS_MEDIUS_MUSCLE_R",
+      "SRC_Z_GLUTEUS_MEDIUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Abducts and medially rotates thigh; keeps pelvis level in single-leg stance (Trendelenburg sign if weak)",
+      "innervation": "Superior gluteal nerve (L4–S1)",
+      "attachments": "Outer ilium between anterior and posterior gluteal lines → lateral greater trochanter",
+      "supply": "Superior gluteal artery"
+     }
+    },
+    {
+     "name": "Gluteus minimus",
+     "parts": [
+      "SRC_Z_GLUTEUS_MINIMUS_MUSCLE_R",
+      "SRC_Z_GLUTEUS_MINIMUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Abducts and medially rotates thigh; stabilizes pelvis with gluteus medius",
+      "innervation": "Superior gluteal nerve (L4–S1)",
+      "attachments": "Outer ilium between anterior and inferior gluteal lines → anterior greater trochanter",
+      "supply": "Superior gluteal artery"
+     }
+    }
+   ]
+  },
+  "12": {
+   "facts": {
+    "function": "TFL tenses the IT tract; together they abduct, medially rotate and flex the hip and stabilize the extended knee",
+    "innervation": "TFL: superior gluteal nerve (L4–S1)"
+   },
+   "subs": [
+    {
+     "name": "Tensor fasciae latae",
+     "parts": [
+      "SRC_Z_TENSOR_FASCIAE_LATAE_R",
+      "SRC_Z_TENSOR_FASCIAE_LATAE_L"
+     ],
+     "facts": {
+      "function": "Abducts and medially rotates thigh; assists hip flexion; tenses IT tract to steady the knee",
+      "innervation": "Superior gluteal nerve (L4–S1)",
+      "attachments": "ASIS and anterior iliac crest → iliotibial tract",
+      "supply": "Superior gluteal and lateral circumflex femoral arteries"
+     }
+    },
+    {
+     "name": "Iliotibial tract (IT band)",
+     "parts": [
+      "CUSTOM_ILIOTIBIAL_TRACT"
+     ],
+     "facts": {
+      "function": "Thickened lateral fascia lata; stabilizes hip and extended knee; friction over lateral epicondyle causes IT band syndrome",
+      "attachments": "Iliac tubercle, TFL and gluteus maximus → anterolateral (Gerdy) tubercle of the lateral tibial condyle"
+     }
+    }
+   ]
+  },
+  "13": {
+   "facts": {
+    "function": "Laterally rotates extended thigh, abducts flexed thigh; key landmark of the gluteal region (piriformis syndrome compresses sciatic)",
+    "innervation": "Nerve to piriformis (S1–S2)",
+    "attachments": "Anterior sacrum (S2–S4) → through greater sciatic foramen → superior border of greater trochanter",
+    "supply": "Superior and inferior gluteal arteries"
+   }
+  },
+  "14": {
+   "facts": {
+    "function": "Laterally rotates extended thigh, abducts flexed thigh; stabilizes femoral head in acetabulum",
+    "innervation": "Nerve to obturator internus (L5–S2)",
+    "attachments": "Pelvic surface of obturator membrane and margins → turns through lesser sciatic foramen → medial greater trochanter",
+    "supply": "Internal pudendal and obturator arteries"
+   }
+  },
+  "15": {
+   "facts": {
+    "function": "Small muscles flanking the obturator internus tendon; laterally rotate thigh, steady femoral head"
+   },
+   "subs": [
+    {
+     "name": "Superior gemellus",
+     "parts": [
+      "SRC_Z_SUPERIOR_GEMELLUS_MUSCLE_R",
+      "SRC_Z_SUPERIOR_GEMELLUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Laterally rotates extended thigh; reinforces obturator internus tendon",
+      "innervation": "Nerve to obturator internus (L5–S2)",
+      "attachments": "Ischial spine → obturator internus tendon → medial greater trochanter"
+     }
+    },
+    {
+     "name": "Inferior gemellus",
+     "parts": [
+      "SRC_Z_INFERIOR_GEMELLUS_MUSCLE_R",
+      "SRC_Z_INFERIOR_GEMELLUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Laterally rotates extended thigh; reinforces obturator internus tendon",
+      "innervation": "Nerve to quadratus femoris (L4–S1)",
+      "attachments": "Ischial tuberosity (upper part) → obturator internus tendon → medial greater trochanter"
+     }
+    }
+   ]
+  },
+  "16": {
+   "facts": {
+    "function": "Strong lateral rotator of the thigh",
+    "innervation": "Nerve to quadratus femoris (L4–S1)",
+    "attachments": "Lateral ischial tuberosity → quadrate tubercle on intertrochanteric crest",
+    "supply": "Medial circumflex femoral artery"
+   }
+  },
+  "17": {
+   "facts": {
+    "function": "Laterally rotates thigh; steadies femoral head; medial-compartment muscle that does not adduct",
+    "innervation": "Obturator nerve (L3–L4)",
+    "attachments": "External surface of obturator membrane and margins → trochanteric fossa of femur",
+    "supply": "Obturator and medial circumflex femoral arteries"
+   }
+  },
+  "18": {
+   "facts": {
+    "function": "Exit from pelvis to gluteal region: piriformis; above it superior gluteal vessels/nerve; below it sciatic, inferior gluteal, pudendal, posterior femoral cutaneous",
+    "attachments": "Greater sciatic notch closed by sacrospinous (below) and sacrotuberous (behind) ligaments"
+   }
+  },
+  "19": {
+   "facts": {
+    "function": "Contains, lateral to medial, femoral nerve, artery, vein, lymphatics (NAVeL); femoral pulse and catheter access site",
+    "attachments": "Inguinal ligament (base), sartorius medial border (lateral), adductor longus medial border (medial); floor iliopsoas, pectineus, adductor longus"
+   }
+  },
+  "20": {
+   "facts": {
+    "function": "Flexes, abducts and laterally rotates thigh; flexes knee (\"tailor's position\"); roof of adductor canal",
+    "innervation": "Femoral nerve (L2–L3)",
+    "attachments": "ASIS → superomedial tibia (pes anserinus)",
+    "supply": "Femoral artery branches"
+   }
+  },
+  "21": {
+   "facts": {
+    "function": "Extends knee and flexes hip (crosses both joints); only quadriceps head acting at the hip",
+    "innervation": "Femoral nerve (L2–L4)",
+    "attachments": "AIIS (straight head) and above acetabulum (reflected head) → quadriceps tendon, patella, patellar ligament → tibial tuberosity",
+    "supply": "Lateral circumflex femoral artery"
+   }
+  },
+  "22": {
+   "facts": {
+    "function": "The three vasti extend the knee via the quadriceps tendon and patellar ligament",
+    "innervation": "Femoral nerve (L2–L4)"
+   },
+   "subs": [
+    {
+     "name": "Vastus lateralis",
+     "parts": [
+      "SRC_Z_VASTUS_LATERALIS_MUSCLE_R",
+      "SRC_Z_VASTUS_LATERALIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Extends knee; largest quadriceps head; common IM injection site in infants",
+      "innervation": "Femoral nerve (L2–L4)",
+      "attachments": "Greater trochanter and lateral lip of linea aspera → quadriceps tendon → tibial tuberosity",
+      "supply": "Lateral circumflex femoral artery (descending branch)"
+     }
+    },
+    {
+     "name": "Vastus medialis",
+     "parts": [
+      "SRC_Z_VASTUS_MEDIALIS_MUSCLE_R",
+      "SRC_Z_VASTUS_MEDIALIS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Extends knee; oblique lower fibers pull patella medially, resisting lateral patellar dislocation",
+      "innervation": "Femoral nerve (L2–L4)",
+      "attachments": "Intertrochanteric line and medial lip of linea aspera → quadriceps tendon, medial patella → tibial tuberosity",
+      "supply": "Femoral and deep femoral arteries"
+     }
+    },
+    {
+     "name": "Vastus intermedius",
+     "parts": [
+      "SRC_Z_VASTUS_INTERMEDIUS_MUSCLE_R",
+      "SRC_Z_VASTUS_INTERMEDIUS_MUSCLE_L"
+     ],
+     "facts": {
+      "function": "Extends knee; lies deep to rectus femoris on the femoral shaft",
+      "innervation": "Femoral nerve (L2–L4)",
+      "attachments": "Anterior and lateral femoral shaft → quadriceps tendon → tibial tuberosity",
+      "supply": "Lateral circumflex femoral artery"
+     }
+    }
+   ]
+  },
+  "23": {
+   "facts": {
+    "function": "Medial compartment adductors of the thigh; adductor longus and brevis also assist hip flexion",
+    "innervation": "Obturator nerve (L2–L4); hamstring part of magnus by tibial division of sciatic"
+   },
+   "subs": [
+    {
+     "name": "Adductor brevis",
+     "parts": [
+      "SRC_Z_ADDUCTOR_BREVIS_R",
+      "SRC_Z_ADDUCTOR_BREVIS_L"
+     ],
+     "facts": {
+      "function": "Adducts thigh, assists flexion; anterior and posterior obturator divisions lie on either side of it",
+      "innervation": "Obturator nerve (L2–L4)",
+      "attachments": "Body and inferior ramus of pubis → pectineal line and upper linea aspera"
+     }
+    },
+    {
+     "name": "Adductor longus",
+     "parts": [
+      "SRC_Z_ADDUCTOR_LONGUS_R",
+      "SRC_Z_ADDUCTOR_LONGUS_L"
+     ],
+     "facts": {
+      "function": "Adducts thigh, assists flexion; medial border of femoral triangle; groin strain muscle",
+      "innervation": "Obturator nerve (L2–L4)",
+      "attachments": "Body of pubis below pubic crest → middle third of linea aspera"
+     }
+    },
+    {
+     "name": "Adductor magnus",
+     "parts": [
+      "SRC_Z_ADDUCTOR_MAGNUS_R",
+      "SRC_Z_ADDUCTOR_MAGNUS_L",
+      "SRC_Z_ADDUCTOR_MINIMUS_R",
+      "SRC_Z_ADDUCTOR_MINIMUS_L"
+     ],
+     "facts": {
+      "function": "Largest adductor: adductor part adducts thigh; hamstring part extends hip",
+      "innervation": "Adductor part: obturator nerve; hamstring part: tibial division of sciatic (L4)",
+      "attachments": "Ischiopubic ramus and ischial tuberosity → gluteal tuberosity, linea aspera, adductor tubercle"
+     }
+    }
+   ]
+  },
+  "24": {
+   "facts": {
+    "function": "Adductor magnus is a hybrid muscle: an adductor part and a hamstring part with different actions and nerves",
+    "innervation": "Dual: obturator nerve (adductor part) and tibial division of sciatic (hamstring part)"
+   },
+   "subs": [
+    {
+     "name": "Adductor part of adductor magnus",
+     "parts": [
+      "CUSTOM_ADDUCTOR_PART_OF_ADDUCTOR_MAGNUS"
+     ],
+     "facts": {
+      "function": "Adducts the thigh",
+      "innervation": "Obturator nerve (L2–L4)",
+      "attachments": "Ischiopubic ramus → gluteal tuberosity, linea aspera, medial supracondylar line"
+     }
+    },
+    {
+     "name": "Hamstring part of adductor magnus",
+     "parts": [
+      "CUSTOM_HAMSTRING_PART_OF_ADDUCTOR_MAGNUS"
+     ],
+     "facts": {
+      "function": "Extends the thigh at the hip (acts like a hamstring but not on the knee)",
+      "innervation": "Tibial division of sciatic nerve (L4)",
+      "attachments": "Ischial tuberosity → adductor tubercle of femur; its tendon bounds the adductor hiatus"
+     }
+    }
+   ]
+  },
+  "25": {
+   "facts": {
+    "function": "Passageway from femoral triangle apex to adductor hiatus for femoral artery, femoral vein, saphenous nerve, nerve to vastus medialis",
+    "attachments": "Roof sartorius (vastoadductor membrane); anterolateral vastus medialis; posteromedial adductor longus and magnus"
+   }
+  },
+  "26": {
+   "facts": {
+    "function": "Adducts thigh; flexes and medially rotates the leg at the knee; expendable graft muscle",
+    "innervation": "Obturator nerve (L2–L3)",
+    "attachments": "Body and inferior ramus of pubis → superomedial tibia (pes anserinus)"
+   }
+  },
+  "27": {
+   "facts": {
+    "function": "Adducts and flexes thigh; transitional muscle in floor of femoral triangle",
+    "innervation": "Femoral nerve (L2–L3), sometimes obturator branch",
+    "attachments": "Pectineal line of superior pubic ramus → pectineal line of femur below lesser trochanter",
+    "supply": "Medial circumflex femoral and obturator arteries"
+   }
+  },
+  "28": {
+   "facts": {
+    "function": "Extends hip, flexes knee, medially rotates flexed leg",
+    "innervation": "Tibial division of sciatic nerve (L5–S2)",
+    "attachments": "Ischial tuberosity → superomedial tibia (pes anserinus); long cord-like tendon",
+    "supply": "Perforating arteries of deep femoral"
+   }
+  },
+  "29": {
+   "facts": {
+    "function": "Extends hip, flexes knee, medially rotates flexed leg",
+    "innervation": "Tibial division of sciatic nerve (L5–S2)",
+    "attachments": "Ischial tuberosity → posterior medial tibial condyle; expansions form oblique popliteal ligament",
+    "supply": "Perforating arteries of deep femoral"
+   }
+  },
+  "30": {
+   "facts": {
+    "function": "Extends hip, flexes knee, laterally rotates flexed leg",
+    "innervation": "Tibial division of sciatic nerve (L5–S2)",
+    "attachments": "Ischial tuberosity (with semitendinosus) → head of fibula",
+    "supply": "Perforating arteries of deep femoral"
+   }
+  },
+  "31": {
+   "facts": {
+    "function": "Lateral hamstring: flexes knee and laterally rotates flexed leg; long head also extends hip",
+    "innervation": "Long head tibial division; short head common fibular division of sciatic"
+   },
+   "subs": [
+    {
+     "name": "Biceps femoris, long head",
+     "parts": [
+      "SRC_Z_LONG_HEAD_OF_BICEPS_FEMORIS_R",
+      "SRC_Z_LONG_HEAD_OF_BICEPS_FEMORIS_L"
+     ],
+     "facts": {
+      "function": "Extends hip, flexes knee, laterally rotates flexed leg",
+      "innervation": "Tibial division of sciatic nerve (L5–S2)",
+      "attachments": "Ischial tuberosity → head of fibula"
+     }
+    },
+    {
+     "name": "Biceps femoris, short head",
+     "parts": [
+      "SRC_Z_SHORT_HEAD_OF_BICEPS_FEMORIS_R",
+      "SRC_Z_SHORT_HEAD_OF_BICEPS_FEMORIS_L"
+     ],
+     "facts": {
+      "function": "Flexes knee and laterally rotates flexed leg; only hamstring muscle not crossing the hip",
+      "innervation": "Common fibular division of sciatic nerve (L5–S2) - the exception",
+      "attachments": "Lateral lip of linea aspera and lateral supracondylar line → head of fibula"
+     }
+    }
+   ]
+  },
+  "32": {
+   "facts": {
+    "function": "Motor to gluteus medius, gluteus minimus and TFL; injury → Trendelenburg sign (pelvis drops on unsupported side)",
+    "innervation": "L4–S1 (posterior divisions of sacral plexus); motor only",
+    "attachments": "Exits greater sciatic foramen above piriformis with superior gluteal vessels; runs between gluteus medius and minimus"
+   }
+  },
+  "33": {
+   "facts": {
+    "function": "Motor to gluteus maximus; injury → weak hip extension (difficulty climbing stairs, rising from a chair)",
+    "innervation": "L5–S2; motor only",
+    "attachments": "Exits greater sciatic foramen below piriformis with inferior gluteal vessels → deep surface of gluteus maximus"
+   }
+  },
+  "34": {
+   "facts": {
+    "function": "Motor to piriformis",
+    "innervation": "S1–S2 (posterior divisions); motor",
+    "attachments": "Arises within the pelvis and enters the anterior (pelvic) surface of piriformis"
+   }
+  },
+  "35": {
+   "facts": {
+    "function": "Motor to obturator internus and superior gemellus",
+    "innervation": "L5–S2 (anterior divisions); motor",
+    "attachments": "Below piriformis → crosses ischial spine with pudendal nerve → lesser sciatic foramen → pelvic surface of obturator internus"
+   }
+  },
+  "36": {
+   "facts": {
+    "function": "Motor to quadratus femoris and inferior gemellus; also an articular branch to the hip",
+    "innervation": "L4–S1 (anterior divisions); motor",
+    "attachments": "Below piriformis, deep to sciatic nerve and to gemelli/obturator internus tendon → quadratus femoris"
+   }
+  },
+  "37": {
+   "facts": {
+    "function": "Motor to anterior thigh (quadriceps, sartorius, iliacus, pectineus); sensory anteromedial thigh and, via saphenous, medial leg; injury → weak knee extension",
+    "innervation": "L2–L4 (posterior divisions of lumbar plexus); motor and sensory",
+    "attachments": "Between psoas and iliacus → under inguinal ligament lateral to femoral artery, outside femoral sheath → branches in femoral triangle"
+   }
+  },
+  "38": {
+   "facts": {
+    "function": "Motor to medial thigh adductors (and obturator externus, gracilis); sensory medial thigh; injury → weak adduction, leg swings outward",
+    "innervation": "L2–L4 (anterior divisions of lumbar plexus); motor and sensory",
+    "attachments": "Medial border of psoas → lateral pelvic wall → obturator canal → anterior and posterior divisions around adductor brevis"
+   }
+  },
+  "39": {
+   "facts": {
+    "function": "Largest nerve: motor to hamstrings, hamstring part of adductor magnus and all leg/foot muscles; sensory most of leg and foot",
+    "innervation": "L4–S3 (sacral plexus); tibial and common fibular divisions in one sheath; motor and sensory",
+    "attachments": "Greater sciatic foramen below piriformis → between greater trochanter and ischial tuberosity → deep to biceps femoris → splits at popliteal apex"
+   }
+  },
+  "40": {
+   "facts": {
+    "function": "Supplies hamstrings (except short head of biceps) and hamstring part of adductor magnus; continues as tibial nerve to posterior leg and sole",
+    "innervation": "L4–S3 (anterior divisions of sacral plexus); motor and sensory",
+    "attachments": "Medial part of the sciatic nerve; becomes the tibial nerve at the popliteal apex, running down the middle of the fossa"
+   }
+  },
+  "41": {
+   "facts": {
+    "function": "Supplies short head of biceps femoris; continues as common fibular nerve to anterior and lateral leg; injury at fibular neck → foot drop",
+    "innervation": "L4–S2 (posterior divisions of sacral plexus); motor and sensory",
+    "attachments": "Lateral part of the sciatic nerve; follows medial border of biceps femoris, winds around the fibular neck"
+   }
+  },
+  "42": {
+   "facts": {
+    "function": "Rounded distal femoral expansions articulating with the tibial condyles and menisci; patellar surface in front, intercondylar fossa behind"
+   },
+   "subs": [
+    {
+     "name": "Medial condyle of femur",
+     "parts": [
+      "CUSTOM_MEDIAL_FEMORAL_CONDYLE"
+     ],
+     "facts": {
+      "function": "Larger medial articular condyle; bears much of the load; PCL attaches to its lateral (notch) surface",
+      "attachments": "Medial epicondyle and adductor tubercle above; tibial collateral ligament, medial gastrocnemius head"
+     }
+    },
+    {
+     "name": "Lateral condyle of femur",
+     "parts": [
+      "CUSTOM_LATERAL_FEMORAL_CONDYLE"
+     ],
+     "facts": {
+      "function": "Lateral articular condyle; ACL attaches to its medial (notch) surface; anterior part buttresses the patella laterally",
+      "attachments": "Lateral epicondyle; fibular collateral ligament, lateral gastrocnemius head, popliteus"
+     }
+    }
+   ]
+  },
+  "43": {
+   "facts": {
+    "function": "Anterior grooved articular surface for the patella; prominent lateral lip resists lateral patellar dislocation",
+    "attachments": "Patellofemoral joint; continuous with the condylar articular surfaces below"
+   }
+  },
+  "44": {
+   "facts": {
+    "function": "Deep notch between the femoral condyles housing the cruciate ligaments",
+    "attachments": "ACL on medial surface of lateral condyle; PCL on lateral surface of medial condyle"
+   }
+  },
+  "45": {
+   "facts": {
+    "function": "Medial weight-bearing bone of the leg; transmits body weight from femur to talus",
+    "attachments": "Condyles articulate with femur (knee); tuberosity receives patellar ligament; pes anserinus medially; medial malleolus at ankle"
+   }
+  },
+  "46": {
+   "facts": {
+    "function": "Flat superior articular surfaces of the tibial condyles that bear load across the knee; menisci improve congruity with femoral condyles",
+    "attachments": "Menisci and cruciates attach to intercondylar areas between the plateaus; plateau fractures follow valgus impact"
+   }
+  },
+  "47": {
+   "facts": {
+    "function": "Expanded proximal ends of the tibia bearing body weight through the knee"
+   },
+   "subs": [
+    {
+     "name": "Medial condyle of tibia",
+     "parts": [
+      "CUSTOM_MEDIAL_TIBIAL_CONDYLE"
+     ],
+     "facts": {
+      "function": "Larger medial condyle carrying the medial plateau",
+      "attachments": "Semimembranosus (posteromedial groove); tibial collateral ligament below; medial meniscus via coronary ligament"
+     }
+    },
+    {
+     "name": "Lateral condyle of tibia",
+     "parts": [
+      "CUSTOM_LATERAL_TIBIAL_CONDYLE"
+     ],
+     "facts": {
+      "function": "Lateral condyle carrying the lateral plateau; articulates with the fibular head below (proximal tibiofibular joint)",
+      "attachments": "Iliotibial tract on Gerdy tubercle (anterolateral); tibialis anterior and extensor digitorum longus origins"
+     }
+    }
+   ]
+  },
+  "48": {
+   "facts": {
+    "function": "Raised central ridge (medial and lateral intercondylar tubercles) between the plateaus; can avulse with ACL injury",
+    "attachments": "ACL and meniscal horns attach to the anterior intercondylar area; PCL to the posterior area"
+   }
+  },
+  "49": {
+   "facts": {
+    "function": "Anterior prominence below the condyles transmitting quadriceps force; Osgood-Schlatter disease in adolescents",
+    "attachments": "Patellar ligament"
+   }
+  },
+  "50": {
+   "facts": {
+    "function": "Largest sesamoid bone, in quadriceps tendon; increases the extensor lever arm and protects the knee",
+    "attachments": "Quadriceps tendon (base) → patellar ligament (apex); articulates with patellar surface of femur"
+   }
+  },
+  "51": {
+   "facts": {
+    "function": "Slender lateral leg bone; not weight-bearing and not part of the knee joint; muscle attachment and lateral ankle stability",
+    "attachments": "Head: biceps femoris, fibular collateral ligament; common fibular nerve winds around its neck; lateral malleolus at ankle"
+   }
+  },
+  "52": {
+   "facts": {
+    "function": "Transmits pull of the quadriceps to the patella; rupture → loss of active knee extension",
+    "attachments": "Rectus femoris and three vasti → base of patella; continues as patellar ligament"
+   }
+  },
+  "53": {
+   "facts": {
+    "function": "Continuation of the quadriceps tendon below the patella; tapped for the patellar (knee-jerk) reflex L3–L4",
+    "attachments": "Apex of patella → tibial tuberosity"
+   }
+  },
+  "54": {
+   "facts": {
+    "function": "Fibrocartilage wedges deepening the tibial plateaus: improve congruity, absorb shock, spread load; medial meniscus tears more often",
+    "supply": "Genicular arteries to the peripheral (red) zone only; inner zone avascular, heals poorly"
+   },
+   "subs": [
+    {
+     "name": "Medial meniscus",
+     "parts": [
+      "CUSTOM_MEDIAL_MENISCUS"
+     ],
+     "facts": {
+      "function": "C-shaped, less mobile; fused to the tibial collateral ligament so often torn with it (unhappy triad)",
+      "attachments": "Anterior and posterior horns to intercondylar areas; periphery to capsule and tibial collateral ligament"
+     }
+    },
+    {
+     "name": "Lateral meniscus",
+     "parts": [
+      "CUSTOM_LATERAL_MENISCUS"
+     ],
+     "facts": {
+      "function": "Nearly circular, more mobile; separated from the fibular collateral ligament by the popliteus tendon",
+      "attachments": "Horns to intercondylar area close together; meniscofemoral ligaments to medial femoral condyle"
+     }
+    }
+   ]
+  },
+  "55": {
+   "facts": {
+    "function": "Prevents anterior displacement of the tibia on the femur and hyperextension; torn in pivoting/valgus injuries; anterior drawer and Lachman tests",
+    "attachments": "Anterior intercondylar area of tibia → posteromedial surface of lateral femoral condyle"
+   }
+  },
+  "56": {
+   "facts": {
+    "function": "Prevents posterior displacement of the tibia (dashboard injury); stronger than ACL; posterior drawer test",
+    "attachments": "Posterior intercondylar area of tibia → anterolateral surface of medial femoral condyle"
+   }
+  },
+  "57": {
+   "facts": {
+    "function": "Collateral ligaments stabilize the knee side-to-side and are taut in extension"
+   },
+   "subs": [
+    {
+     "name": "Tibial (medial) collateral ligament",
+     "parts": [
+      "CUSTOM_TIBIAL_COLLATERAL_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Resists valgus (lateral blow) stress; injured with ACL and medial meniscus in the unhappy triad",
+      "attachments": "Medial femoral epicondyle → medial tibial condyle and shaft; fused to medial meniscus"
+     }
+    },
+    {
+     "name": "Fibular (lateral) collateral ligament",
+     "parts": [
+      "CUSTOM_FIBULAR_COLLATERAL_LIGAMENT"
+     ],
+     "facts": {
+      "function": "Resists varus (medial blow) stress; cord-like and separate from the capsule and lateral meniscus",
+      "attachments": "Lateral femoral epicondyle → head of fibula"
+     }
+    }
+   ]
+  },
+  "58": {
+   "facts": {
+    "function": "Base of the femoral triangle; femoral nerve, artery, vein pass beneath; landmark for hernias (inguinal above, femoral below)",
+    "attachments": "ASIS → pubic tubercle; inrolled lower edge of external oblique aponeurosis"
+   }
+  },
+  "59": {
+   "facts": {
+    "function": "Gap through which the femoral vessels pass from the adductor canal into the popliteal fossa, becoming popliteal artery and vein",
+    "attachments": "Between adductor (aponeurotic) and hamstring (tendinous) insertions of adductor magnus, above the adductor tubercle"
+   }
+  },
+  "60": {
+   "facts": {
+    "function": "Diamond behind knee containing (superficial to deep) tibial and common fibular nerves, popliteal vein, popliteal artery; popliteal pulse, Baker cyst",
+    "attachments": "Biceps femoris (superolateral), semimembranosus/semitendinosus (superomedial), gastrocnemius heads (inferior); floor femur, capsule, popliteus"
+   }
+  },
+  "61": {
+   "facts": {
+    "function": "Supplies pelvis and lower limb",
+    "attachments": "Aortic bifurcation at L4 → divides in front of sacroiliac joint into internal and external iliac arteries"
+   }
+  },
+  "62": {
+   "facts": {
+    "function": "Terminal branches of the common iliac: internal supplies pelvis/gluteal region/medial thigh; external supplies the lower limb"
+   },
+   "subs": [
+    {
+     "name": "Internal iliac artery",
+     "parts": [
+      "SRC_Z_INTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_INTERNAL_ILIAC_ARTERY_L",
+      "SRC_Z_ANTERIOR_DIVISION_OF_INTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_ANTERIOR_DIVISION_OF_INTERNAL_ILIAC_ARTERY_L",
+      "SRC_Z_POSTERIOR_DIVISION_OF_INTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_POSTERIOR_DIVISION_OF_INTERNAL_ILIAC_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supplies pelvic organs, perineum, gluteal region and medial thigh",
+      "attachments": "Common iliac at sacroiliac joint → posterior division (superior gluteal) and anterior division (inferior gluteal, obturator, internal pudendal, visceral)"
+     }
+    },
+    {
+     "name": "External iliac artery",
+     "parts": [
+      "SRC_Z_EXTERNAL_ILIAC_ARTERY_R",
+      "SRC_Z_EXTERNAL_ILIAC_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Main arterial supply to the lower limb",
+      "attachments": "Common iliac → along pelvic brim on psoas → becomes femoral artery under the inguinal ligament; gives inferior epigastric, deep circumflex iliac"
+     }
+    }
+   ]
+  },
+  "63": {
+   "facts": {
+    "function": "Internal iliac branches supplying the gluteal region through the greater sciatic foramen"
+   },
+   "subs": [
+    {
+     "name": "Superior gluteal artery",
+     "parts": [
+      "SRC_Z_SUPERIOR_GLUTEAL_ARTERY_R",
+      "SRC_Z_SUPERIOR_GLUTEAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supplies gluteus medius, minimus, TFL and maximus; contributes to trochanteric anastomosis",
+      "attachments": "Posterior division of internal iliac → greater sciatic foramen above piriformis with superior gluteal nerve"
+     }
+    },
+    {
+     "name": "Inferior gluteal artery",
+     "parts": [
+      "SRC_Z_INFERIOR_GLUTEAL_ARTERY_R",
+      "SRC_Z_INFERIOR_GLUTEAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supplies gluteus maximus and posterior thigh; joins the cruciate anastomosis",
+      "attachments": "Anterior division of internal iliac → greater sciatic foramen below piriformis"
+     }
+    }
+   ]
+  },
+  "64": {
+   "facts": {
+    "function": "Supplies medial thigh (adductors) and gives the artery of the ligament of the head of the femur",
+    "attachments": "Anterior division of internal iliac → lateral pelvic wall → obturator canal → anterior and posterior branches"
+   }
+  },
+  "65": {
+   "facts": {
+    "function": "Main artery of the thigh; femoral pulse below the mid-inguinal point; arterial catheterization site",
+    "attachments": "External iliac under inguinal ligament → femoral triangle → adductor canal → adductor hiatus → popliteal artery"
+   },
+   "subs": [
+    {
+     "name": "Femoral artery (common and superficial)",
+     "parts": [
+      "SRC_Z_FEMORAL_ARTERY_R",
+      "SRC_Z_FEMORAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Common femoral above the profunda origin; \"superficial femoral\" (clinical term) below it, continuing to the adductor hiatus",
+      "attachments": "Common femoral ~4 cm below inguinal ligament gives deep femoral; superficial femoral runs through the adductor canal"
+     }
+    },
+    {
+     "name": "Deep femoral artery (profunda femoris)",
+     "parts": [
+      "SRC_Z_DEEP_FEMORAL_ARTERY_R",
+      "SRC_Z_DEEP_FEMORAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Main supply of the thigh muscles and femoral head (via circumflex femoral arteries)",
+      "attachments": "Lateral/posterior side of femoral artery → behind adductor longus → circumflex femorals and perforating arteries"
+     }
+    }
+   ]
+  },
+  "66": {
+   "facts": {
+    "function": "Main supply of the thigh, especially posterior and medial compartments, and of the femoral head and neck via its circumflex branches",
+    "attachments": "Femoral artery ~4 cm below inguinal ligament → deep to adductor longus → medial and lateral circumflex femoral, 3–4 perforating arteries"
+   }
+  },
+  "67": {
+   "facts": {
+    "function": "Supply the hamstrings, adductor magnus and vastus lateralis; first perforating joins the cruciate anastomosis",
+    "attachments": "Deep femoral artery → pierce adductor magnus close to the linea aspera → posterior compartment"
+   }
+  },
+  "68": {
+   "facts": {
+    "function": "Circumflex femoral arteries encircle the proximal femur, forming trochanteric and cruciate anastomoses"
+   },
+   "subs": [
+    {
+     "name": "Medial circumflex femoral artery",
+     "parts": [
+      "SRC_Z_MEDIAL_CIRCUMFLEX_FEMORAL_ARTERY_R",
+      "SRC_Z_MEDIAL_CIRCUMFLEX_FEMORAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Principal supply to femoral head and neck via retinacular arteries; damaged in neck fractures → AVN",
+      "attachments": "Deep femoral (sometimes femoral) → between pectineus and iliopsoas → posteriorly to trochanteric fossa"
+     }
+    },
+    {
+     "name": "Lateral circumflex femoral artery",
+     "parts": [
+      "SRC_Z_LATERAL_CIRCUMFLEX_FEMORAL_ARTERY_R",
+      "SRC_Z_LATERAL_CIRCUMFLEX_FEMORAL_ARTERY_L",
+      "SRC_Z_DESCENDING_BRANCH_OF_LATERAL_CIRCUMFLEX_FEMORAL_ARTERY",
+      "SRC_Z_DESCENDING_BRANCH_OF_LATERAL_CIRCUMFLEX_FEMORAL_ARTERY_L"
+     ],
+     "facts": {
+      "function": "Supplies anterior thigh muscles and greater trochanter; minor femoral head supply; descending branch runs on vastus lateralis",
+      "attachments": "Deep femoral → laterally deep to sartorius and rectus femoris → ascending, transverse, descending branches"
+     }
+    }
+   ]
+  },
+  "69": {
+   "facts": {
+    "function": "Main blood supply of the femoral head; torn in displaced intracapsular neck fractures → avascular necrosis",
+    "attachments": "Medial circumflex femoral (trochanteric fossa) → along posterosuperior femoral neck under the retinacula → head-neck junction"
+   }
+  },
+  "70": {
+   "facts": {
+    "function": "Minor supply to the femoral head near the fovea; important in children, insufficient alone in adults",
+    "attachments": "Acetabular branch of obturator artery → acetabular notch → along ligament of head → fovea"
+   }
+  },
+  "71": {
+   "facts": {
+    "function": "Supplies knee (genicular arteries) and calf muscles (sural); popliteal pulse felt deep in fossa with knee flexed; injured in knee dislocation",
+    "attachments": "Femoral artery at adductor hiatus → deepest structure in popliteal fossa → divides at lower popliteus into anterior and posterior tibial"
+   }
+  },
+  "72": {
+   "facts": {
+    "function": "Longest superficial vein; varicose veins; harvested for coronary bypass grafts",
+    "attachments": "Medial dorsal venous arch → anterior to medial malleolus → medial leg/thigh → saphenous opening → femoral vein below inguinal ligament"
+   }
+  },
+  "73": {
+   "facts": {
+    "function": "Main deep vein of the thigh; common DVT site (embolism risk); central line access medial to femoral pulse",
+    "attachments": "Popliteal vein at adductor hiatus → adductor canal → femoral triangle medial to artery → external iliac vein under inguinal ligament"
+   }
+  },
+  "74": {
+   "facts": {
+    "function": "Superficial vein draining the lateral foot and posterior leg",
+    "attachments": "Lateral dorsal venous arch → behind lateral malleolus → up the midline calf with sural nerve → popliteal vein in popliteal fossa"
+   }
+  },
+  "75": {
+   "facts": {
+    "function": "Deep vein of the knee region; DVT here causes leg swelling and risks pulmonary embolism",
+    "attachments": "Union of anterior and posterior tibial veins (plus small saphenous) → superficial to popliteal artery → femoral vein at adductor hiatus"
+   }
+  },
+  "76": {
+   "facts": {
+    "function": "Deep veins returning blood from the lower limb (external) and pelvis/gluteal region (internal)"
+   },
+   "subs": [
+    {
+     "name": "External iliac vein",
+     "parts": [
+      "SRC_Z_EXTERNAL_ILIAC_VEIN_R",
+      "SRC_Z_EXTERNAL_ILIAC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Drains the lower limb",
+      "attachments": "Femoral vein at inguinal ligament → along pelvic brim medial to the artery → joins internal iliac vein"
+     }
+    },
+    {
+     "name": "Internal iliac vein",
+     "parts": [
+      "SRC_Z_INTERNAL_ILIAC_VEIN_R",
+      "SRC_Z_INTERNAL_ILIAC_VEIN_L"
+     ],
+     "facts": {
+      "function": "Drains pelvic organs, perineum and gluteal region",
+      "attachments": "Gluteal, obturator, pudendal and visceral tributaries → joins external iliac vein in front of sacroiliac joint"
+     }
+    }
+   ]
+  },
+  "77": {
+   "facts": {
+    "function": "Returns blood from the pelvis and lower limb to the IVC; left one compressed by right common iliac artery (May-Thurner)",
+    "attachments": "External + internal iliac veins at sacroiliac joint → unite at L5 (right side) to form the inferior vena cava"
+   }
+  }
+ }
+}
