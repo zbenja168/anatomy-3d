@@ -321,7 +321,7 @@ function ask(item) {
   $('qsec').textContent = cur.section ? cur.section : '';
   paint();
   if (mode === 'find' && isInside(cur.parts)) $('qsec').textContent += (cur.section ? ' · ' : '') + 'Tip: it’s inside another structure. Right-click (long-press) outer parts to hide them, or switch off a layer.';
-  if (mode === 'name') frame(boxOf(cur.parts), 2.6);
+  if (mode === 'name' && !keepView) frame(boxOf(cur.parts), 2.6);
 }
 function isInside(ids) { // are most sample points of the target enclosed by other solid parts?
   const others = Object.values(meshes).filter((m) => { const p = m.userData; return m.visible && !ids.includes(p.id) && p.role !== 'context' && !p.shell; });
@@ -379,7 +379,7 @@ function pick(ev) {
   lastHits = hits.filter((h) => !h.object.userData.shell); lastHit = hit || null;
   return hit ? hit.object : null;
 }
-let lastHits = [], lastHit = null, brickSeq = [];
+let lastHits = [], lastHit = null, brickSeq = [], keepView = false; // keepView: set while a list click re-targets the quiz
 const _v = new THREE.Vector3();
 function nearTarget(point, ids, tol) { // is the clicked point within tol (m) of any target vertex?
   for (const id of ids) {
@@ -413,7 +413,7 @@ function hitsTarget(m) {
 const autoHidden = new Set(); let revealDim = false, savedView = null;
 function restoreAutoHidden() {
   revealDim = false;
-  if (savedView) { camera.position.copy(savedView[0]); controls.target.copy(savedView[1]); controls.update(); savedView = null; need(600); } if (autoHidden.size) { autoHidden.forEach((id) => hidden.delete(id)); autoHidden.clear(); paint(); } }
+  if (savedView) { if (!keepView) { camera.position.copy(savedView[0]); controls.target.copy(savedView[1]); controls.update(); need(600); } savedView = null; } if (autoHidden.size) { autoHidden.forEach((id) => hidden.delete(id)); autoHidden.clear(); paint(); } }
 function blockersFrom(eye, ids, samples) {
   const r = new THREE.Raycaster(), out = new Map();
   const solid = Object.values(meshes).filter((m) => m.visible && !ids.includes(m.userData.id) && m.userData.role !== 'context' && !m.userData.shell);
@@ -573,8 +573,8 @@ async function buildChecklist() {
     const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na') || r.classList.contains('outbrick')) return;
     if (e.target.closest('td.ck, .ckin')) { toggleCheck(+r.dataset.o); return; } // tick by hand
     const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0; // a split row starts at its first part
-    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
-    queue = queue.filter((q) => q !== it); ask(it);
+    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
+    queue = queue.filter((q) => q !== it); keepView = true; try { ask(it); } finally { keepView = false; } // list clicks never move the camera
   });
   $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); missed.clear(); saveSet('missed', missed); document.querySelectorAll('.checklist .done, .checklist .missed').forEach((r) => r.classList.remove('done', 'missed')); countChecks(); });
   $('fnToggle').checked = fnOn(); $('fnToggle').hidden = !hasFn; $('fnToggle').parentElement.hidden = !hasFn;
@@ -664,8 +664,8 @@ function buildGuide() {
     const r = e.target.closest('.gitem'); if (!r || r.classList.contains('na')) return;
     if (e.target.closest('.ck')) { toggleCheck(+r.dataset.o); return; } // tick by hand
     const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0;
-    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); frame(boxOf(it.parts), 2.6); markCurrent(); return; }
-    queue = queue.filter((q) => q !== it); ask(it);
+    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
+    queue = queue.filter((q) => q !== it); keepView = true; try { ask(it); } finally { keepView = false; } // list clicks never move the camera
   });
   $('hyOnly').addEventListener('change', (e) => { hyOnly = e.target.checked; $('guide').classList.toggle('hyonly', hyOnly); buildQueue(); next(); });
   // tabs: brick guide <-> class sheet
@@ -772,6 +772,6 @@ function wire() {
       window.__a3dReady = true; return;
     }
     buildQueue(); next(); window.__a3dReady = true;
-    window.__a3dTest = { screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray(), cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible])] };
+    window.__a3dTest = { screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), cur ? boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray() : null, cur ? cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible]) : []] };
   } catch (e) { $('loadmsg').textContent = 'Could not load this model: ' + e.message; }
 })();
