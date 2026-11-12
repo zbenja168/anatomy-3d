@@ -22,13 +22,16 @@ const SYS_COLOR = {
   custom: 0x58c4b5
 };
 const SHELL_OP = 0.18; // enveloping custom organs (lungs, pericardium…) stay see-through unless asked about
-const ctxOp = (p) => (p.system === 'skeletal' ? 0.3 : 0.13);
+const ctxOp = (p) => (p.whole ? (p.system === 'skeletal' ? 0.2 : 0.06) : (p.system === 'skeletal' ? 0.3 : 0.13)); // whole-body pieces stay fainter
 const HIGHLIGHT = 0x84e81a, OK = 0x22c55e, BAD = 0xef4444;
 
 let man, meshes = {}, scene, camera, renderer, controls, ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
 let brick = null, brickItems = new Map(), bq = { ok: 0, n: 0 }, hyOnly = false; // brick-by-brick mode (?brick=<id>)
 let redrawUntil = 0; const need = (ms = 400) => { redrawUntil = Math.max(redrawUntil, performance.now() + ms); };
 let body = null; // active donor model: scenes are never mixed
+// "Whole body": the rest of the donor, faint, merged per system (few draw calls), loaded on first use.
+let wholeOn = false; const wholeLoaded = {}, wholeLoading = {};
+try { wholeOn = localStorage.getItem('a3d-whole') === '1'; } catch (e) {}
 const BODY_NAME = { 'z-anatomy': 'Z-Anatomy', bodyparts: 'BodyParts3D' };
 let mode = 'find', queue = [], cur = null, attempts = 0, done = false, score = { ok: 0, tried: 0 }, showCtx = true;
 const hidden = new Set(), offSys = new Set();
@@ -127,6 +130,49 @@ function setBody(m) {
   if (!m || m === body) return;
   body = m; $('bodyChip').textContent = `Model: ${BODY_NAME[m] || m}`; layers();
   paint(); frameAll();
+  if (wholeOn) loadWhole(m);
+}
+async function loadWhole(model) {
+  if (wholeLoaded[model] || wholeLoading[model]) return;
+  wholeLoading[model] = true; wholeBtn();
+  try {
+    const meta = await (await fetch(`data/_body_${model}.json`)).json();
+    const raw = await (await fetch(`data/_body_${model}.bin.gz`)).arrayBuffer();
+    const h = new Uint8Array(raw, 0, 2);
+    const buf = h[0] === 0x1f && h[1] === 0x8b ? await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer() : raw;
+    const [lx, ly, lz] = meta.lo, [sx, sy, sz] = meta.span, groups = {};
+    for (const p of meta.parts) {
+      if (meshes[p.id] || p.system === 'integumentary') continue; // the class bundle already has it / skin would wrap everything
+      const g = groups[p.system || 'other'] || (groups[p.system || 'other'] = { pos: [], idx: [], ranges: [], nv: 0, nt: 0 });
+      const q = new Uint16Array(buf, p.pos, p.vc * 3);
+      for (let i = 0; i < q.length; i += 3) g.pos.push(lx + q[i] / 65535 * sx, ly + q[i + 1] / 65535 * sy, lz + q[i + 2] / 65535 * sz);
+      const ix = p.wide ? new Uint32Array(buf, p.idx, p.ic) : new Uint16Array(buf, p.idx, p.ic);
+      for (let i = 0; i < ix.length; i++) g.idx.push(ix[i] + g.nv);
+      g.ranges.push([g.nt, g.nt + p.ic / 3, p.name]); g.nt += p.ic / 3; g.nv += p.vc;
+    }
+    for (const [sys, g] of Object.entries(groups)) {
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(g.pos), 3));
+      geo.setIndex(new THREE.BufferAttribute(g.nv > 65535 ? new Uint32Array(g.idx) : new Uint16Array(g.idx), 1));
+      geo.computeVertexNormals(); geo.computeBoundingSphere();
+      const ud = { id: `whole:${model}:${sys}`, name: 'Whole body', system: sys, role: 'context', whole: true, model, ranges: g.ranges };
+      const mesh = new THREE.Mesh(geo, baseMaterial(ud)); mesh.userData = ud; mesh.renderOrder = 1;
+      meshes[ud.id] = mesh; scene.add(mesh);
+    }
+    wholeLoaded[model] = true;
+  } catch (e) { console.warn('whole body load failed', e); }
+  wholeLoading[model] = false; wholeBtn(); layers(); paint();
+}
+function wholeBtn() {
+  const b = $('btnWhole'); if (!b) return;
+  b.classList.toggle('on', wholeOn);
+  b.textContent = wholeLoading[body] ? '… Loading body' : (wholeOn ? '◉ Whole body' : '○ Whole body');
+}
+function wholePartName(hit) { // which structure inside a merged whole-body piece was clicked
+  const r = hit && hit.object.userData.ranges; if (!r || hit.faceIndex == null) return null;
+  let lo = 0, hi = r.length - 1;
+  while (lo <= hi) { const m = (lo + hi) >> 1; if (hit.faceIndex < r[m][0]) hi = m - 1; else if (hit.faceIndex >= r[m][1]) lo = m + 1; else return r[m][2]; }
+  return null;
 }
 function frameAll() {
   const b = boxOf(Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body));
@@ -140,7 +186,7 @@ function paint() {
     const p = m.userData, mat = m.material;
     mat.color.setHex(SYS_COLOR[p.system] ?? 0xbbbbbb); mat.emissive?.setHex(0x000000);
     const ctx = p.role === 'context' || p.shell;
-    m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx);
+    m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx) && (!p.whole || wholeOn);
     mat.opacity = p.shell ? SHELL_OP : ctx ? ctxOp(p) : 1; mat.transparent = ctx; mat.depthWrite = !ctx;
   }
   if (cur && (mode === 'name' || done)) {
@@ -329,7 +375,7 @@ function pick(ev) {
   ray.setFromCamera(ptr, camera);
   const vis = Object.values(meshes).filter((m) => m.visible && !(m.userData.role === 'context' && m.material.opacity < 0.35 && mode !== 'explore'));
   const hits = ray.intersectObjects(vis, false);
-  const hit = hits.find((h) => !h.object.userData.shell) || hits[0]; // click through see-through shells
+  const hit = hits.find((h) => !h.object.userData.shell && !h.object.userData.whole) || hits.find((h) => !h.object.userData.shell) || hits[0]; // click through see-through shells; class parts win over whole-body ones
   lastHits = hits.filter((h) => !h.object.userData.shell); lastHit = hit || null;
   return hit ? hit.object : null;
 }
@@ -423,6 +469,7 @@ function revealTarget(ids) {
 function onClick(ev) {
   const m = pick(ev); if (!m) return;
   const name = m.userData.name + (m.userData.role === 'custom' ? ' <span class="built">(built for this tool)</span>' : '');
+  if (mode === 'explore' && m.userData.whole) { feedback(`<b>${wholePartName(lastHit) || 'Body'}</b> <span class="built">(whole-body view, not on this list)</span>`); showFacts(null); return; }
   if (mode === 'explore') { const it = itemFor(m.userData.id); feedback(`<b>${name}</b>${it ? ' · on your list as “' + it.structure + '”' : ''}`); showFacts(it); flash(m); return; }
   if (mode !== 'find' || !cur || done) return;
   attempts++;
@@ -659,6 +706,10 @@ function wire() {
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
   $('btnUnhide').addEventListener('click', () => { hidden.clear(); paint(); });
   $('btnReset').addEventListener('click', frameAll);
+  $('btnWhole').addEventListener('click', () => {
+    wholeOn = !wholeOn; try { localStorage.setItem('a3d-whole', wholeOn ? '1' : '0'); } catch (e) {}
+    wholeBtn(); if (wholeOn) loadWhole(body); paint();
+  });
   $('btnBody').addEventListener('click', () => { const ms = Object.keys(man.models); setBody(ms[(ms.indexOf(body) + 1) % ms.length]); });
   $('section').addEventListener('change', () => { buildQueue(); next(); });
   $('coreOnly').addEventListener('change', () => { buildQueue(); next(); });
@@ -697,7 +748,7 @@ function wire() {
     let facts = {};
     try { const r = await fetch(`data/${stem}.facts.json`); if (r.ok) facts = (await r.json()).items || {}; } catch (e) {}
     applyFacts(facts);
-    $('loading').remove(); wire(); await buildChecklist(); if (brick) buildGuide();
+    $('loading').remove(); wire(); wholeBtn(); await buildChecklist(); if (brick) buildGuide();
     $('autoNext').checked = autoNext;
     $('autoNext').addEventListener('change', (e) => { autoNext = e.target.checked; try { localStorage.setItem('a3d-autonext', autoNext ? '1' : '0'); } catch (x) {} if (!autoNext) cancelAuto(); });
     $('btnMark').addEventListener('click', toggleMark);
