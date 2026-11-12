@@ -189,8 +189,8 @@ function paint() {
     m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx) && (!p.whole || wholeOn);
     mat.opacity = p.shell ? SHELL_OP : ctx ? ctxOp(p) : 1; mat.transparent = ctx; mat.depthWrite = !ctx;
   }
-  if (cur && (mode === 'name' || done)) {
-    cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
+  if (cur && (mode === 'name' || done) && !cur.unlit) { // unlit: Show me was toggled back off
+    cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body || (done && hidden.has(id))) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
     if ((mode === 'name' && !done) || revealDim) dimOthers();
   }
 }
@@ -268,6 +268,9 @@ function markBtn() { const b = $('btnMark'); if (b) { const on = cur && marked.h
 // auto-next
 let autoTimer = null, autoNext = true;
 try { autoNext = localStorage.getItem('a3d-autonext') !== '0'; } catch (e) {}
+let shuffle = false; // Shuffle: random order, and the list doesn't show which row you're on until you answer
+try { shuffle = localStorage.getItem('a3d-shuffle') === '1'; } catch (e) {}
+function shuffled(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function cancelAuto() { if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; } const b = $('autobar'); if (b) b.hidden = true; }
 function autoAdvance(ms) {
   cancelAuto(); if (!autoNext || !cur) return;
@@ -284,6 +287,7 @@ function buildQueue() {
     const seq = (brick.groups && brick.groups.length ? brick.groups.flatMap((g) => g.orders) : brick.items.map((b) => b.order));
     queue = seq.map((o) => brickItems.get(o)).filter((b) => b && (!hyOnly || b.yield !== 'low'))
       .map((b) => byOrderAll.get(b.order)).flatMap(expandItem).filter((it) => it && it.parts.length);
+    if (shuffle) queue = shuffled(queue);
     brickSeq = queue.slice();
     $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
@@ -293,6 +297,7 @@ function buildQueue() {
   const rows = [...document.querySelectorAll('#clist tr[data-o]')].map((r) => +r.dataset.o);
   if (rows.length) { const pos = new Map(rows.map((o, i) => [o, i])); queue.sort((a, b) => (pos.get(a.order) ?? 1e9) - (pos.get(b.order) ?? 1e9)); }
   else queue.sort((a, b) => a.order - b.order);
+  if (shuffle) queue = shuffled(queue);
   brickSeq = queue.slice();
   $('sLeft').textContent = `${queue.length} in this set`;
 }
@@ -306,7 +311,7 @@ function ask(item) {
   feedback('');
   restoreAutoHidden(); $('btnReveal').textContent = 'Show me';
   cancelAuto(); showFacts(null);
-  cur = item; attempts = 0; done = false; markCurrent(); markBtn();
+  cur = item; if (cur) delete cur.unlit; attempts = 0; done = false; markCurrent(); markBtn();
   $('mcq').innerHTML = '';
   if (!cur && brick) {
     $('qlabel').textContent = 'Brick complete'; $('qtext').textContent = '🎉 ' + brick.title;
@@ -425,6 +430,7 @@ function blockersFrom(eye, ids, samples) {
 }
 function revealTarget(ids) {
   if (!savedView) savedView = [camera.position.clone(), controls.target.clone()]; // Next puts the view back
+  if (ids.some((id) => hidden.has(id))) { ids.forEach((id) => hidden.delete(id)); paint(); }
   let samples = [];
   ids.forEach((id) => { const a = meshes[id]?.geometry.attributes.position; if (!a || !meshes[id].visible) return; for (let i = 0; i < 40; i++) samples.push(new THREE.Vector3().fromBufferAttribute(a, Math.floor((i + 0.5) / 40 * a.count))); });
   if (!samples.length) return;
@@ -511,7 +517,7 @@ function countChecks() {
 }
 function markCurrent() {
   document.querySelectorAll('.checklist .cur').forEach((r) => r.classList.remove('cur'));
-  if (!cur || cur.order == null || (mode === 'name' && !done)) return; // never give away a Name-it answer
+  if (!cur || cur.order == null || ((mode === 'name' || shuffle) && !done)) return; // never give away a Name-it answer (or, shuffled, where you are)
   document.querySelectorAll(`.checklist [data-o="${cur.order}"]`).forEach((r) => { r.classList.add('cur'); if (r.offsetParent) r.scrollIntoView({ block: 'nearest' }); });
 }
 async function buildChecklist() {
@@ -573,7 +579,7 @@ async function buildChecklist() {
     const r = e.target.closest('tr[data-o]'); if (!r || r.classList.contains('na') || r.classList.contains('outbrick')) return;
     if (e.target.closest('td.ck, .ckin')) { toggleCheck(+r.dataset.o); return; } // tick by hand
     const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0; // a split row starts at its first part
-    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
+    if (mode === 'explore') { cur = it; delete it.unlit; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); keepView = true; try { ask(it); } finally { keepView = false; } // list clicks never move the camera
   });
   $('clReset').addEventListener('click', () => { checked.clear(); saveChecks(); missed.clear(); saveSet('missed', missed); document.querySelectorAll('.checklist .done, .checklist .missed').forEach((r) => r.classList.remove('done', 'missed')); countChecks(); });
@@ -664,7 +670,7 @@ function buildGuide() {
     const r = e.target.closest('.gitem'); if (!r || r.classList.contains('na')) return;
     if (e.target.closest('.ck')) { toggleCheck(+r.dataset.o); return; } // tick by hand
     const it0 = byOrder.get(+r.dataset.o), it = it0.subs ? byOrder.get(it0.subs[0]) : it0;
-    if (mode === 'explore') { cur = it; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
+    if (mode === 'explore') { cur = it; delete it.unlit; done = true; setBody(it.model); paint(); feedback(`<b>${esc(it.structure)}</b>`); markCurrent(); return; }
     queue = queue.filter((q) => q !== it); keepView = true; try { ask(it); } finally { keepView = false; } // list clicks never move the camera
   });
   $('hyOnly').addEventListener('change', (e) => { hyOnly = e.target.checked; $('guide').classList.toggle('hyonly', hyOnly); buildQueue(); next(); });
@@ -678,11 +684,39 @@ function buildGuide() {
 
 // ---------- wiring ----------
 function wire() {
-  const el = renderer.domElement; let down = null, lp = null;
-  el.addEventListener('pointerdown', (e) => { if (e.button !== 0) { down = null; lp = null; return; } down = [e.clientX, e.clientY]; lp = setTimeout(() => { const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } lp = null; }, 650); });
-  el.addEventListener('pointerup', (e) => { if (e.button !== 0) return; if (lp) clearTimeout(lp); if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5 && lp !== null) onClick(e); down = null; });
-  el.addEventListener('pointermove', (e) => { if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5 && lp) { clearTimeout(lp); lp = null; } });
-  el.addEventListener('contextmenu', (e) => { e.preventDefault(); const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } });
+  // Hiding a part: right-click TAP (mouse) or single-finger long-press (touch). Two-finger gestures
+  // (touch pinch/pan, trackpad two-finger click-drag = right-button pan) must never hide or count as a click.
+  const el = renderer.domElement; const ptrs = new Map(); let down = null, lp = null, multi = false, rdown = null;
+  const hideAt = (e) => { const m = pick(e); if (m) { hidden.add(m.userData.id); paint(); } };
+  const cancelLp = () => { if (lp) clearTimeout(lp); lp = null; };
+  el.addEventListener('pointerdown', (e) => {
+    if (e.isPrimary) { ptrs.clear(); multi = false; } // a fresh gesture: drop any pointer whose 'up' got lost
+    ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+    if (ptrs.size > 1) { multi = true; cancelLp(); down = null; rdown = null; return; }
+    if (e.button === 2 && e.pointerType === 'mouse') { rdown = [e.clientX, e.clientY, performance.now()]; return; }
+    if (e.button !== 0) { down = null; cancelLp(); return; }
+    down = [e.clientX, e.clientY];
+    lp = setTimeout(() => { lp = null; if (!multi && ptrs.size === 1 && down) { hideAt(e); down = null; } }, 650);
+  });
+  const lift = (e, cancelled) => {
+    ptrs.delete(e.pointerId);
+    if (multi) { cancelLp(); down = null; rdown = null; if (!ptrs.size) multi = false; return; }
+    if (e.button === 2 && rdown) {
+      const r = rdown; rdown = null;
+      if (!cancelled && Math.hypot(e.clientX - r[0], e.clientY - r[1]) < 5 && performance.now() - r[2] < 600) hideAt(e);
+      return;
+    }
+    if (e.button !== 0) return;
+    const tap = !cancelled && down && lp !== null && Math.hypot(e.clientX - down[0], e.clientY - down[1]) < 5;
+    cancelLp(); down = null; if (tap) onClick(e);
+  };
+  el.addEventListener('pointerup', (e) => lift(e, false));
+  el.addEventListener('pointercancel', (e) => lift(e, true));
+  el.addEventListener('pointermove', (e) => {
+    if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+    if (down && Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) cancelLp();
+  });
+  el.addEventListener('contextmenu', (e) => e.preventDefault());   // hiding happens on the right-button tap above
   document.querySelectorAll('.mode').forEach((b) => b.addEventListener('click', () => {
     mode = b.dataset.mode; document.querySelectorAll('.mode').forEach((x) => x.classList.toggle('on', x === b));
     $('nameForm').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
@@ -696,10 +730,10 @@ function wire() {
   });
   $('btnReveal').addEventListener('click', () => {
     if (!cur) return;
-    if (revealDim) { restoreAutoHidden(); paint(); $('btnReveal').textContent = 'Show me'; return; } // toggle off: view + parts back
+    if (revealDim) { cur.unlit = true; restoreAutoHidden(); paint(); $('btnReveal').textContent = 'Show me'; return; } // toggle off: view + parts back
     cancelAuto();
     if (!done) { addMissed(cur); feedback(`It's <b>${cur.structure}</b>.`); finish(false, false); }
-    revealTarget(cur.parts); $('btnReveal').textContent = 'Hide it';
+    delete cur.unlit; revealTarget(cur.parts); $('btnReveal').textContent = 'Hide it';
   });
   $('btnNext').addEventListener('click', () => { cancelAuto(); next(); });
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
@@ -713,6 +747,8 @@ function wire() {
   $('btnBody').addEventListener('click', () => { const ms = Object.keys(man.models); setBody(ms[(ms.indexOf(body) + 1) % ms.length]); });
   $('section').addEventListener('change', () => { buildQueue(); next(); });
   $('coreOnly').addEventListener('change', () => { buildQueue(); next(); });
+  $('shuffle').checked = shuffle;
+  $('shuffle').addEventListener('change', (e) => { shuffle = e.target.checked; try { localStorage.setItem('a3d-shuffle', shuffle ? '1' : '0'); } catch (x) {} if (mode === 'explore') return; buildQueue(); ask(queue.shift() || null); });
 }
 
 (async function main() {
@@ -772,6 +808,6 @@ function wire() {
       window.__a3dReady = true; return;
     }
     buildQueue(); next(); window.__a3dReady = true;
-    window.__a3dTest = { screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), cur ? boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray() : null, cur ? cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible]) : []] };
+    window.__a3dTest = { hidden: () => hidden.size, screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), cur ? boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray() : null, cur ? cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible]) : []] };
   } catch (e) { $('loadmsg').textContent = 'Could not load this model: ' + e.message; }
 })();
