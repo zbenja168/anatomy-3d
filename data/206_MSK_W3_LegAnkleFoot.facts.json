@@ -48,26 +48,6 @@
    },
    "subs": [
     {
-     "name": "Head of talus",
-     "parts": [
-      "CUSTOM_TALUS_HEAD"
-     ],
-     "facts": {
-      "function": "Rounded anterior end; keystone of medial arch",
-      "attachments": "Articulates with navicular; supported from below by spring ligament"
-     }
-    },
-    {
-     "name": "Neck of talus",
-     "parts": [
-      "CUSTOM_TALUS_NECK"
-     ],
-     "facts": {
-      "function": "Common fracture site (forced dorsiflexion) → risk of avascular necrosis of body",
-      "supply": "Main entry of talar blood supply"
-     }
-    },
-    {
      "name": "Body of talus",
      "parts": [
       "CUSTOM_TALUS_BODY"
@@ -397,39 +377,6 @@
     "attachments": "Malleolar fossa of fibula → lateral tubercle of posterior talar process"
    }
   },
-  "28": {
-   "facts": {
-    "function": "Longitudinal arches distribute body weight and absorb shock in stance and gait"
-   },
-   "subs": [
-    {
-     "name": "Medial longitudinal arch",
-     "parts": [
-      "CUSTOM_MEDIAL_LONGITUDINAL_ARCH"
-     ],
-     "facts": {
-      "function": "Higher, mobile, shock-absorbing arch; talar head is keystone",
-      "attachments": "Calcaneus, talus, navicular, cuneiforms, MT1–3; held by spring ligament, tibialis posterior, plantar aponeurosis"
-     }
-    },
-    {
-     "name": "Lateral longitudinal arch",
-     "parts": [
-      "CUSTOM_LATERAL_LONGITUDINAL_ARCH"
-     ],
-     "facts": {
-      "function": "Low, rigid, weight-bearing arch; cuboid is keystone",
-      "attachments": "Calcaneus, cuboid, MT4–5; held by long/short plantar ligaments and fibularis longus"
-     }
-    }
-   ]
-  },
-  "29": {
-   "facts": {
-    "function": "Side-to-side arch across cuneiforms, cuboid and metatarsal bases",
-    "attachments": "Supported by fibularis longus tendon, tibialis posterior and transverse head of adductor hallucis"
-   }
-  },
   "30": {
    "facts": {
     "function": "Supports longitudinal arches (windlass mechanism), protects sole; inflamed at heel origin in plantar fasciitis",
@@ -471,8 +418,8 @@
   },
   "33": {
    "facts": {
-    "function": "Roofs tarsal tunnel; holds deep posterior compartment tendons in place behind medial malleolus",
-    "attachments": "Medial malleolus → medial surface of calcaneus"
+    "function": "Hold the long tendons against the ankle; flexor roofs the tarsal tunnel, extensors bind the anterior tendons",
+    "attachments": "Flexor: medial malleolus → calcaneus. Superior extensor: tibia ↔ fibula above ankle; inferior: Y from calcaneus"
    }
   },
   "34": {
@@ -551,53 +498,6 @@
     "innervation": "Lateral plantar nerve, superficial branch (S2–S3)",
     "attachments": "Base of MT5 → base of proximal phalanx of toe V",
     "supply": "Lateral plantar artery"
-   }
-  },
-  "44": {
-   "facts": {
-    "function": "Adducts great toe; transverse head helps maintain transverse arch",
-    "innervation": "Lateral plantar nerve, deep branch (S2–S3)",
-    "attachments": "Oblique: bases MT2–4; transverse: plantar MTP ligaments III–V → lateral base of proximal phalanx of hallux",
-    "supply": "Plantar arch"
-   }
-  },
-  "45": {
-   "facts": {
-    "function": "Abduct (dorsal) and adduct (plantar) toes relative to 2nd toe; flex MTP, extend IP joints",
-    "innervation": "Lateral plantar nerve (S2–S3)",
-    "supply": "Plantar arch and metatarsal arteries"
-   },
-   "subs": [
-    {
-     "name": "Dorsal interossei",
-     "parts": [
-      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_R",
-      "SRC_Z_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_L"
-     ],
-     "facts": {
-      "function": "Abduct toes II–IV from axis of 2nd toe (DAB); four bipennate",
-      "attachments": "Adjacent sides of MT1–5 → bases of proximal phalanges II–IV (2nd toe gets two)"
-     }
-    },
-    {
-     "name": "Plantar interossei",
-     "parts": [
-      "SRC_Z_PLANTAR_INTEROSSEI_MUSCLES_R",
-      "SRC_Z_PLANTAR_INTEROSSEI_MUSCLES_L"
-     ],
-     "facts": {
-      "function": "Adduct toes III–V toward 2nd toe (PAD); three unipennate",
-      "attachments": "Medial sides of MT3–5 → medial bases of proximal phalanges III–V"
-     }
-    }
-   ]
-  },
-  "46": {
-   "facts": {
-    "function": "Adduct toes III–V toward 2nd toe (PAD); flex MTP joints",
-    "innervation": "Lateral plantar nerve (S2–S3)",
-    "attachments": "Medial sides of MT3–5 → medial bases of proximal phalanges III–V",
-    "supply": "Plantar arch"
    }
   },
   "47": {
@@ -737,12 +637,6 @@
     }
    ]
   },
-  "61": {
-   "facts": {
-    "function": "Supplies toes via plantar metatarsal and digital arteries",
-    "attachments": "Continuation of lateral plantar artery across MT bases → joins deep plantar branch of dorsalis pedis"
-   }
-  },
   "62": {
    "facts": {
     "function": "Paired deep veins (venae comitantes) draining leg compartments to popliteal vein; common site of DVT"
@@ -790,10 +684,12 @@
     "attachments": "Lateral end of dorsal venous arch → behind lateral malleolus with sural nerve → popliteal vein"
    }
   },
-  "66": {
+  "67": {
    "facts": {
-    "function": "Collects dorsal digital and metatarsal veins of the foot",
-    "attachments": "Across dorsum of metatarsals; medial end → great saphenous, lateral end → small saphenous vein"
+    "function": "Weak plantarflexor of ankle and flexor of knee; vestigial, long thin tendon used as a graft",
+    "innervation": "Tibial nerve (S1–S2)",
+    "attachments": "Lateral supracondylar line of femur → calcaneal tuberosity (medial to the Achilles tendon)",
+    "supply": "Sural branches of popliteal artery"
    }
   }
  }

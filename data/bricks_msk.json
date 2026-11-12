@@ -6345,25 +6345,6 @@
      "excerpt": "The posterior tibial artery terminates by dividing into the medial and lateral plantar arteries, which supply the plantar surface of the foot."
     },
     {
-     "order": 61,
-     "why": "Plantar arch: formed by lateral plantar a.; digital aa. to toes",
-     "questions": [
-      {
-       "q": "Which artery forms the plantar arterial arch?",
-       "choices": [
-        "Medial plantar artery",
-        "Dorsalis pedis artery",
-        "Lateral plantar artery",
-        "Fibular (peroneal) artery"
-       ],
-       "answer": 2,
-       "explain": "The lateral plantar artery forms the plantar arch, which gives rise to digital arteries to the toes."
-      }
-     ],
-     "yield": "high",
-     "excerpt": "The lateral plantar artery forms the plantar arch, an arterial anastomosis that gives rise to digital arteries supplying the toes."
-    },
-    {
      "order": 62,
      "why": "Anterior and posterior tibial vv.: deep veins accompanying same-named arteries",
      "questions": [],
@@ -6438,8 +6419,7 @@
      "title": "Arteries of the Foot",
      "orders": [
       59,
-      60,
-      61
+      60
      ]
     },
     {
@@ -6810,6 +6790,13 @@
      "excerpt": "…whereas soleus acts only at the ankle and is particularly important for maintaining posture during standing."
     },
     {
+     "order": 67,
+     "why": "Superficial posterior compartment; weak plantarflexor",
+     "questions": [],
+     "yield": "low",
+     "excerpt": "The superficial group consists of the gastrocnemius, soleus, and plantaris."
+    },
+    {
      "order": 19,
      "why": "Calcaneal tendon: triceps surae to calcaneal tuberosity; rupture, Thompson test",
      "questions": [
@@ -6977,32 +6964,6 @@
      "questions": [],
      "yield": "low",
      "excerpt": "…laterally by the anterior talofibular (ATFL), calcaneofibular (CFL), and posterior talofibular (PTFL) ligaments"
-    },
-    {
-     "order": 28,
-     "why": "Medial and lateral longitudinal arches: static (bones, ligaments, aponeurosis) and dynamic support",
-     "questions": [
-      {
-       "q": "Which structures provide the static support of the foot's arches?",
-       "choices": [
-        "Tibialis posterior and fibularis longus",
-        "Intrinsic muscles and long flexors",
-        "Bones, plantar ligaments, plantar aponeurosis",
-        "Extensor tendons and retinacula"
-       ],
-       "answer": 2,
-       "explain": "Bone shape and arrangement, reinforced by plantar ligaments and the plantar aponeurosis, give static support; tendons such as tibialis posterior give dynamic support."
-      }
-     ],
-     "yield": "high",
-     "excerpt": "Together, these arches distribute body weight, absorb forces, and allow the foot to adapt to the supporting surface while maintaining stability during locomotion."
-    },
-    {
-     "order": 29,
-     "why": "Transverse arch: supported by fibularis longus",
-     "questions": [],
-     "yield": "high",
-     "excerpt": "…fibularis longus crosses the plantar surface of the foot and contributes to the transverse arch."
     },
     {
      "order": 30,
@@ -7183,32 +7144,6 @@
      "questions": [],
      "yield": "low",
      "excerpt": "The plantar muscles can be organized into medial, central, lateral, and interosseous groups."
-    },
-    {
-     "order": 45,
-     "why": "Dorsal and plantar interossei: toe abduction/adduction; lateral plantar n.",
-     "questions": [
-      {
-       "q": "What is the main function of the dorsal and plantar interossei of the foot?",
-       "choices": [
-        "Toe abduction and adduction",
-        "Toe flexion at the IP joints",
-        "Extension of the great toe",
-        "Eversion of the foot"
-       ],
-       "answer": 0,
-       "explain": "The interossei abduct and adduct the toes and stabilize them during locomotion (lateral plantar nerve)."
-      }
-     ],
-     "yield": "low",
-     "excerpt": "Most intrinsic muscles of the plantar foot are innervated by the lateral plantar nerve."
-    },
-    {
-     "order": 46,
-     "why": "Plantar interossei: interosseous group, lateral plantar n.",
-     "questions": [],
-     "yield": "low",
-     "excerpt": "Most intrinsic muscles of the plantar foot are innervated by the lateral plantar nerve."
     },
     {
      "order": 33,
@@ -7488,6 +7423,7 @@
      "orders": [
       17,
       18,
+      67,
       19,
       20,
       21,
@@ -7507,8 +7443,6 @@
     {
      "title": "Arches of the Foot",
      "orders": [
-      28,
-      29,
       30,
       31,
       32
@@ -7525,9 +7459,7 @@
       40,
       41,
       42,
-      43,
-      45,
-      46
+      43
      ]
     },
     {
