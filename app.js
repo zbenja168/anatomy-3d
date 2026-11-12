@@ -270,6 +270,17 @@ let autoTimer = null, autoNext = true;
 try { autoNext = localStorage.getItem('a3d-autonext') !== '0'; } catch (e) {}
 let shuffle = false; // Shuffle: random order, and the list doesn't show which row you're on until you answer
 try { shuffle = localStorage.getItem('a3d-shuffle') === '1'; } catch (e) {}
+// Re-ask misses (Anki-style learning steps within the session): a miss comes back after RELEARN[0] cards; each
+// clean answer on a re-ask pushes it further out; after the last step it graduates. Another miss restarts it.
+let srs = false; try { srs = localStorage.getItem('a3d-srs') === '1'; } catch (e) {}
+const RELEARN = [3, 7, 15];
+let relearn = new Map(), asked = 0, mainCur = null, isReview = false; // order -> { item, step, at }
+function schedule(it, ok) {
+  const r = relearn.get(it.order);
+  if (!ok) relearn.set(it.order, { item: it, step: 0, at: asked + RELEARN[0] });
+  else if (r) { if (r.step + 1 >= RELEARN.length) relearn.delete(it.order); else { r.step++; r.at = asked + RELEARN[r.step]; } }
+}
+function dueReview(force) { let best = null; relearn.forEach((r) => { if ((force || r.at <= asked) && (!best || r.at < best.at)) best = r; }); return best && best.item; }
 function shuffled(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function cancelAuto() { if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; } const b = $('autobar'); if (b) b.hidden = true; }
 function autoAdvance(ms) {
@@ -288,7 +299,7 @@ function buildQueue() {
     queue = seq.map((o) => brickItems.get(o)).filter((b) => b && (!hyOnly || b.yield !== 'low'))
       .map((b) => byOrderAll.get(b.order)).flatMap(expandItem).filter((it) => it && it.parts.length);
     if (shuffle) queue = shuffled(queue);
-    brickSeq = queue.slice();
+    brickSeq = queue.slice(); relearn.clear(); mainCur = null;
     $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
   const sec = $('section').value, core = $('coreOnly').checked;
@@ -298,16 +309,22 @@ function buildQueue() {
   if (rows.length) { const pos = new Map(rows.map((o, i) => [o, i])); queue.sort((a, b) => (pos.get(a.order) ?? 1e9) - (pos.get(b.order) ?? 1e9)); }
   else queue.sort((a, b) => a.order - b.order);
   if (shuffle) queue = shuffled(queue);
-  brickSeq = queue.slice();
+  brickSeq = queue.slice(); relearn.clear(); mainCur = null;
   $('sLeft').textContent = `${queue.length} in this set`;
 }
 function next() {
-  if (cur && brickSeq.includes(cur)) { // continue down the guide / sheet from wherever you are
-    const i = brickSeq.indexOf(cur); queue = brickSeq.slice(i + 1);
+  if (isReview && cur && !done && relearn.has(cur.order)) relearn.get(cur.order).at = asked + RELEARN[0]; // skipped a re-ask: push it back
+  if (srs && mode !== 'explore') { const r = dueReview(false); if (r) { ask(r, true); return; } }
+  const ref = mainCur || cur;
+  if (ref && brickSeq.includes(ref)) { // continue down the guide / sheet from wherever you are (re-asks don't move your place)
+    const i = brickSeq.indexOf(ref); queue = brickSeq.slice(i + 1);
   }
-  ask(queue.shift() || null);
+  const it = queue.shift() || null;
+  if (!it && srs && relearn.size) { ask(dueReview(true), true); return; } // finish the misses before calling the set done
+  ask(it);
 }
-function ask(item) {
+function ask(item, review = false) {
+  isReview = review; asked++; if (!review && item) mainCur = item;
   feedback('');
   restoreAutoHidden(); $('btnReveal').textContent = 'Show me';
   cancelAuto(); showFacts(null);
@@ -319,11 +336,12 @@ function ask(item) {
     buildQueue(); paint(); return;
   }
   if (!cur) { $('qtext').textContent = 'Set complete!'; $('qsec').textContent = 'Change the section or press Next to go again.'; buildQueue(); paint(); return; }
-  $('sLeft').textContent = `${queue.length} left`;
+  $('sLeft').textContent = `${queue.length} left` + (srs && relearn.size ? ` · ${relearn.size} to re-ask` : '');
   setBody(cur.model);
   if (mode === 'find') { $('qlabel').textContent = 'Find this structure'; $('qtext').textContent = cur.structure; }
   else { $('qlabel').textContent = 'Name the highlighted structure'; $('qtext').textContent = '?'; $('nameInput').value = ''; setTimeout(() => $('nameInput').focus(), 50); }
   $('qsec').textContent = cur.section ? cur.section : '';
+  if (isReview) $('qlabel').textContent = '↻ Again · ' + $('qlabel').textContent;
   paint();
   if (mode === 'find' && isInside(cur.parts)) $('qsec').textContent += (cur.section ? ' · ' : '') + 'Tip: it’s inside another structure. Right-click (long-press) outer parts to hide them, or switch off a layer.';
   if (mode === 'name' && !keepView) frame(boxOf(cur.parts), 2.6);
@@ -341,6 +359,7 @@ function isInside(ids) { // are most sample points of the target enclosed by oth
 function feedback(html, kind) { const f = $('feedback'); f.innerHTML = html; f.className = 'feedback' + (kind ? ' ' + kind : ''); }
 function finish(ok, solved = ok) {
   done = true; if (solved) check(cur.order); markCurrent(); score.tried++; if (ok) score.ok++;
+  if (srs) { schedule(cur, ok); $('sLeft').textContent = `${queue.length} left` + (relearn.size ? ` · ${relearn.size} to re-ask` : ''); }
   $('sOk').textContent = score.ok; $('sTry').textContent = score.tried;
   $('qtext').textContent = cur.structure; paint();
   if (ok && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
@@ -748,6 +767,8 @@ function wire() {
   $('section').addEventListener('change', () => { buildQueue(); next(); });
   $('coreOnly').addEventListener('change', () => { buildQueue(); next(); });
   $('shuffle').checked = shuffle;
+  $('srs').checked = srs;
+  $('srs').addEventListener('change', (e) => { srs = e.target.checked; try { localStorage.setItem('a3d-srs', srs ? '1' : '0'); } catch (x) {} if (!srs) relearn.clear(); });
   $('shuffle').addEventListener('change', (e) => { shuffle = e.target.checked; try { localStorage.setItem('a3d-shuffle', shuffle ? '1' : '0'); } catch (x) {} if (mode === 'explore') return; buildQueue(); ask(queue.shift() || null); });
 }
 
