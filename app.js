@@ -275,6 +275,10 @@ try { shuffle = localStorage.getItem('a3d-shuffle') === '1'; } catch (e) {}
 let srs = false; try { srs = localStorage.getItem('a3d-srs') === '1'; } catch (e) {}
 const RELEARN = [3, 7, 15];
 let relearn = new Map(), asked = 0, mainCur = null, isReview = false; // order -> { item, step, at }
+// Items already asked this round. The round ends only when every item in brickSeq has come up, so jumping
+// around (list clicks, mode switches, shuffle) can never end a set early or skip structures.
+let seenRound = new Set(), reviewRun = 0;
+const leftCount = () => brickSeq.filter((q) => !seenRound.has(q) && q !== cur).length;
 function schedule(it, ok) {
   const r = relearn.get(it.order);
   if (!ok) relearn.set(it.order, { item: it, step: 0, at: asked + RELEARN[0] });
@@ -299,7 +303,7 @@ function buildQueue() {
     queue = seq.map((o) => brickItems.get(o)).filter((b) => b && (!hyOnly || b.yield !== 'low'))
       .map((b) => byOrderAll.get(b.order)).flatMap(expandItem).filter((it) => it && it.parts.length);
     if (shuffle) queue = shuffled(queue);
-    brickSeq = queue.slice(); relearn.clear(); mainCur = null;
+    brickSeq = queue.slice(); relearn.clear(); mainCur = null; seenRound = new Set();
     $('sLeft').textContent = `${queue.length} in this brick${hyOnly ? ' (high-yield)' : ''}`; return;
   }
   const sec = $('section').value, core = $('coreOnly').checked;
@@ -309,22 +313,25 @@ function buildQueue() {
   if (rows.length) { const pos = new Map(rows.map((o, i) => [o, i])); queue.sort((a, b) => (pos.get(a.order) ?? 1e9) - (pos.get(b.order) ?? 1e9)); }
   else queue.sort((a, b) => a.order - b.order);
   if (shuffle) queue = shuffled(queue);
-  brickSeq = queue.slice(); relearn.clear(); mainCur = null;
+  brickSeq = queue.slice(); relearn.clear(); mainCur = null; seenRound = new Set();
   $('sLeft').textContent = `${queue.length} in this set`;
 }
 function next() {
   if (isReview && cur && !done && relearn.has(cur.order)) relearn.get(cur.order).at = asked + RELEARN[0]; // skipped a re-ask: push it back
-  if (srs && mode !== 'explore') { const r = dueReview(false); if (r) { ask(r, true); return; } }
+  // at most 2 re-asks in a row, then a new structure, so a run of misses can't stall the set
+  if (srs && mode !== 'explore' && (reviewRun < 2 || !brickSeq.some((q) => !seenRound.has(q)))) { const r = dueReview(false); if (r) { reviewRun++; ask(r, true); return; } }
+  reviewRun = 0;
   const ref = mainCur || cur;
-  if (ref && brickSeq.includes(ref)) { // continue down the guide / sheet from wherever you are (re-asks don't move your place)
-    const i = brickSeq.indexOf(ref); queue = brickSeq.slice(i + 1);
-  }
+  // continue down the guide / sheet from wherever you are (re-asks don't move your place), then wrap around
+  // to anything skipped above it; never re-ask or drop items within the round
+  const i = ref ? brickSeq.indexOf(ref) : -1;
+  queue = (i >= 0 ? [...brickSeq.slice(i + 1), ...brickSeq.slice(0, i)] : brickSeq).filter((q) => !seenRound.has(q));
   const it = queue.shift() || null;
   if (!it && srs && relearn.size) { ask(dueReview(true), true); return; } // finish the misses before calling the set done
   ask(it);
 }
 function ask(item, review = false) {
-  isReview = review; asked++; if (!review && item) mainCur = item;
+  isReview = review; asked++; if (!review && item) { mainCur = item; seenRound.add(item); }
   feedback('');
   restoreAutoHidden(); $('btnReveal').textContent = 'Show me';
   cancelAuto(); showFacts(null);
@@ -336,7 +343,7 @@ function ask(item, review = false) {
     buildQueue(); paint(); return;
   }
   if (!cur) { $('qtext').textContent = 'Set complete!'; $('qsec').textContent = 'Change the section or press Next to go again.'; buildQueue(); paint(); return; }
-  $('sLeft').textContent = `${queue.length} left` + (srs && relearn.size ? ` · ${relearn.size} to re-ask` : '');
+  $('sLeft').textContent = `${leftCount()} left` + (srs && relearn.size ? ` · ${relearn.size} to re-ask` : '');
   setBody(cur.model);
   if (mode === 'find') { $('qlabel').textContent = 'Find this structure'; $('qtext').textContent = cur.structure; }
   else { $('qlabel').textContent = 'Name the highlighted structure'; $('qtext').textContent = '?'; $('nameInput').value = ''; setTimeout(() => $('nameInput').focus(), 50); }
@@ -359,7 +366,7 @@ function isInside(ids) { // are most sample points of the target enclosed by oth
 function feedback(html, kind) { const f = $('feedback'); f.innerHTML = html; f.className = 'feedback' + (kind ? ' ' + kind : ''); }
 function finish(ok, solved = ok) {
   done = true; if (solved) check(cur.order); markCurrent(); score.tried++; if (ok) score.ok++;
-  if (srs) { schedule(cur, ok); $('sLeft').textContent = `${queue.length} left` + (relearn.size ? ` · ${relearn.size} to re-ask` : ''); }
+  if (srs) { schedule(cur, ok); $('sLeft').textContent = `${leftCount()} left` + (relearn.size ? ` · ${relearn.size} to re-ask` : ''); }
   $('sOk').textContent = score.ok; $('sTry').textContent = score.tried;
   $('qtext').textContent = cur.structure; paint();
   if (ok && window.atTrack) { try { window.atTrack('question_answered'); } catch (e) {} }
@@ -740,10 +747,24 @@ function wire() {
     mode = b.dataset.mode; document.querySelectorAll('.mode').forEach((x) => x.classList.toggle('on', x === b));
     $('nameForm').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
     if (mode === 'explore') { cur = null; done = false; $('qlabel').textContent = 'Explore'; $('qtext').textContent = 'Click any structure'; $('qsec').textContent = ''; feedback(''); paint(); }
-    else { const keep = cur; buildQueue(); if (keep && queue.includes(keep)) { queue = queue.slice(queue.indexOf(keep) + 1); ask(keep); } else next(); } // switching mode keeps your place
+    else { const keep = cur; if (!brickSeq.length) buildQueue(); if (keep && brickSeq.includes(keep)) ask(keep, isReview && relearn.has(keep.order)); else next(); } // switching mode keeps your place and the round
   }));
+  // Enter after you've answered (or pressed Show me) goes straight to the next structure, no waiting on auto-next.
+  // Also works from the Name-it box once answered. Other buttons/links/selects keep their native Enter.
+  addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' || e.repeat || e.isComposing || e.ctrlKey || e.metaKey || e.altKey) return;
+    const t = e.target.closest ? e.target : document.body;
+    if ((t.closest('input, textarea, select, a, [contenteditable], .exmenu') && t.id !== 'nameInput') || (t.closest('button') && !t.closest('#btnReveal, #btnMark, .mcq'))) return; // Show me / Mark / a picked choice keep focus after a click: Enter still means Next
+    if (!cur || !done || mode === 'explore') return;
+    const box = $('mcq');
+    if (box.querySelector('.mcqc')) { // brick questions: never skip one you haven't answered; Enter = next question, then next structure
+      if (box.dataset.done !== '1') return;
+      const nx = box.querySelector('.mcqnext'); if (nx) { e.preventDefault(); nx.click(); return; }
+    }
+    e.preventDefault(); cancelAuto(); next();
+  });
   $('nameForm').addEventListener('submit', (e) => {
-    e.preventDefault(); if (!cur || done) return; attempts++;
+    e.preventDefault(); if (!cur || done) return; attempts++; // (Enter after answering = Next: see the keydown handler above)
     if (typedOk($('nameInput').value, cur)) { feedback('✓ Correct!', 'ok'); finish(attempts === 1, true); }
     else { addMissed(cur); feedback(`✗ Not quite${attempts >= 2 ? ' — press “Show me” to see it' : ''}.`, 'bad'); }
   });
