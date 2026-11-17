@@ -832,3 +832,43 @@ function wire() {
     window.__a3dTest = { hidden: () => hidden.size, screenOf: (ids) => { const c = boxOf(ids).getCenter(new THREE.Vector3()).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (c.x + 1) / 2 * r.width, r.top + (1 - c.y) / 2 * r.height]; }, cur: () => cur, vert: (id, k) => { const a = meshes[id].geometry.attributes.position, v = new THREE.Vector3().fromBufferAttribute(a, Math.floor(k * a.count)).project(camera), r = renderer.domElement.getBoundingClientRect(); return [r.left + (v.x + 1) / 2 * r.width, r.top + (1 - v.y) / 2 * r.height]; }, frameOn: (ids) => frame(boxOf(ids), 2.2), cam: () => [camera.position.toArray(), controls.target.toArray(), cur ? boxOf(cur.parts).getCenter(new THREE.Vector3()).toArray() : null, cur ? cur.parts.map((id) => [id, !!meshes[id], meshes[id] && meshes[id].visible]) : []] };
   } catch (e) { $('loadmsg').textContent = 'Could not load this model: ' + e.message; }
 })();
+
+// ---------- drag the structure list's left edge to resize it ----------
+// Wide screens: sets the list column (--listw). Mid screens (list stacked under the
+// quiz panel): sets the whole right column (--colw). Saved per browser; double-click resets.
+(function splitter() {
+  const layout = document.querySelector('.layout'), list = document.querySelector('.checklist');
+  if (!layout || !list) return;
+  const h = document.createElement('div'); h.className = 'splitter'; h.title = 'Drag to resize the structure list (double-click to reset)';
+  h.setAttribute('role', 'separator'); h.setAttribute('aria-orientation', 'vertical'); h.innerHTML = '<i></i>';
+  list.prepend(h);
+  const mid = () => matchMedia('(max-width:1280px)').matches;
+  const key = () => (mid() ? 'a3d-colw' : 'a3d-listw'), prop = () => (mid() ? '--colw' : '--listw');
+  // the 3D canvas resizes on window 'resize'; fire one whenever the viewport box changes size (drag, layout swap, load)
+  let raf = 0; new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => dispatchEvent(new Event('resize'))); }).observe(document.getElementById('viewport'));
+  const apply = () => {
+    let w = null; try { w = localStorage.getItem(key()); } catch (e) {}
+    layout.style.removeProperty('--listw'); layout.style.removeProperty('--colw');
+    if (w) layout.style.setProperty(prop(), clamp(+w) + 'px');
+  };
+  const clamp = (w) => {
+    const total = layout.clientWidth, side = mid() ? 0 : document.querySelector('.side').offsetWidth;
+    return Math.round(Math.max(mid() ? 280 : 240, Math.min(w, total - side - 320)));
+  };
+  let drag = false;
+  h.addEventListener('pointerdown', (e) => { drag = true; h.setPointerCapture(e.pointerId); h.classList.add('on'); document.body.classList.add('resizing'); e.preventDefault(); });
+  h.addEventListener('pointermove', (e) => {
+    if (!drag) return;
+    const w = clamp(layout.getBoundingClientRect().right - e.clientX);
+    layout.style.setProperty(prop(), w + 'px');
+  });
+  const end = () => {
+    if (!drag) return; drag = false; h.classList.remove('on'); document.body.classList.remove('resizing');
+    const v = parseInt(layout.style.getPropertyValue(prop()), 10);
+    try { if (v) localStorage.setItem(key(), String(v)); } catch (e) {}
+  };
+  h.addEventListener('pointerup', end); h.addEventListener('pointercancel', end);
+  h.addEventListener('dblclick', () => { try { localStorage.removeItem(key()); } catch (e) {} apply(); });
+  matchMedia('(max-width:1280px)').addEventListener('change', () => { apply(); });
+  apply();
+})();

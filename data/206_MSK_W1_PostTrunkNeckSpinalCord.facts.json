@@ -34,8 +34,7 @@
     {
      "name": "Iliac crest and iliac fossa (hip bone)",
      "parts": [
-      "SRC_Z_HIP_BONE_R",
-      "SRC_Z_HIP_BONE_L"
+      "CUSTOM_PAW_ILIAC_CREST_FOSSA"
      ],
      "facts": {
       "function": "Iliac crest anchors quadratus lumborum and abdominal wall muscles; iliac fossa gives origin to iliacus",
@@ -45,8 +44,7 @@
     {
      "name": "Lesser trochanter of the femur",
      "parts": [
-      "SRC_Z_FEMUR_R",
-      "SRC_Z_FEMUR_L"
+      "CUSTOM_PAW_LESSER_TROCHANTER"
      ],
      "facts": {
       "function": "Common insertion of iliopsoas (psoas major + iliacus)",

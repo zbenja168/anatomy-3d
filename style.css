@@ -10,9 +10,9 @@ h1{font-size:1.2rem;font-weight:800}
 .modes{display:flex;gap:4px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:4px}
 .mode{background:none;border:0;color:var(--muted);font:600 .82rem inherit;font-family:inherit;padding:7px 14px;border-radius:999px;cursor:pointer}
 .mode.on{background:var(--accent);color:#04212f}
-.layout{display:grid;grid-template-columns:1fr 310px minmax(380px,34vw);grid-template-areas:'vp side list';height:calc(100vh - 62px)}
+.layout{display:grid;grid-template-columns:1fr 310px var(--listw,minmax(380px,34vw));grid-template-areas:'vp side list';height:calc(100vh - 62px)}
 .viewport{grid-area:vp}.side{grid-area:side}.checklist{grid-area:list}
-@media(max-width:1280px){.layout{grid-template-columns:1fr 340px;grid-template-rows:auto minmax(0,1fr);grid-template-areas:'vp side' 'vp list'}.side{overflow:visible}.checklist{border-top:1px solid var(--border)}}
+@media(max-width:1280px){.layout{grid-template-columns:1fr var(--colw,340px);grid-template-rows:auto minmax(0,1fr);grid-template-areas:'vp side' 'vp list'}.side{overflow:visible}.checklist{border-top:1px solid var(--border)}}
 @media(max-width:860px){.layout{grid-template-columns:1fr;grid-template-rows:none;grid-template-areas:'vp' 'side' 'list';height:auto}.viewport{height:62vh}.checklist .clwrap{max-height:60vh}}
 .viewport{position:relative;overflow:hidden;background:#0b1220}
 .viewport canvas{display:block;width:100%;height:100%;touch-action:none}
@@ -72,7 +72,7 @@ h1{font-size:1.2rem;font-weight:800}
 .subj h2{font-size:1.05rem;margin:18px 16px 4px;letter-spacing:-.01em}.subj h2 a{color:var(--text);text-decoration:none}.subj h2 a:hover{color:var(--accent)}
 .subj .grid{padding:8px 16px 8px}
 .allsubj{text-align:center;margin:-8px 0 6px}.allsubj a{color:var(--accent);text-decoration:none;font-size:.88rem}
-.checklist{border-left:1px solid var(--border);display:flex;flex-direction:column;min-height:0;background:var(--bg)}
+.checklist{position:relative;border-left:1px solid var(--border);display:flex;flex-direction:column;min-height:0;background:var(--bg)}
 .clhead{display:flex;align-items:baseline;gap:10px;padding:12px 14px 8px}.clhead span{font-size:.78rem;color:var(--muted)}
 .linkbtn{margin-left:auto;background:none;border:0;color:var(--muted);font:inherit;font-size:.75rem;cursor:pointer;text-decoration:underline}
 .clwrap{overflow:auto;flex:1;min-height:0;padding:0 8px}
@@ -201,10 +201,22 @@ h1{font-size:1.2rem;font-weight:800}
 #clist.sheet td.ck span,#clist.sheet .ckin,.gitem .ck{cursor:pointer}
 #clist.sheet td.ck:hover span,#clist.sheet .ckin:hover,.gitem .ck:hover{box-shadow:0 0 0 2px rgba(34,211,238,.6)}
 .gitem.sub{padding-left:22px}.gitem.sub .gname{font-weight:500;font-size:.82rem}
-.layout.wide{grid-template-columns:1fr 300px minmax(440px,44vw)}
-@media(max-width:1280px){.layout.wide{grid-template-columns:1fr 340px}}
+.layout.wide{grid-template-columns:1fr 300px var(--listw,minmax(440px,44vw))}
+@media(max-width:1280px){.layout.wide{grid-template-columns:1fr var(--colw,340px)}}
 .autobar[hidden],.facts[hidden]{display:none}
 .qbtns{display:flex;gap:6px;flex-wrap:wrap}.qbtns .btn{padding:8px 12px;white-space:nowrap}.qbtns #btnNext{flex:1}
 .frow{grid-template-columns:92px 1fr}
 #btnWhole.on{border-color:var(--accent);color:var(--accent)}
 .bodychip{top:56px}
+
+/* drag the structure list's left edge to resize it (saved per browser; double-click resets) */
+.splitter{position:absolute;top:0;bottom:0;left:-5px;width:10px;cursor:col-resize;z-index:5;touch-action:none}
+.splitter::after{content:'';position:absolute;top:0;bottom:0;left:4px;width:2px;background:transparent;transition:background .15s}
+.splitter:hover::after,.splitter.on::after{background:var(--accent)}
+.splitter i{position:absolute;top:50%;left:1px;width:8px;height:38px;margin-top:-19px;border-radius:5px;background:var(--surface2);border:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.splitter i::before,.splitter i::after{content:'';width:2px;height:2px;border-radius:50%;background:var(--muted);box-shadow:0 -5px 0 var(--muted),0 5px 0 var(--muted)}
+.splitter i::after{display:none}
+.splitter:hover i,.splitter.on i{border-color:var(--accent)}
+body.resizing{cursor:col-resize;user-select:none}
+body.resizing .viewport canvas{pointer-events:none}
+@media(max-width:860px){.splitter{display:none}}
