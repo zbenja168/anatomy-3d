@@ -55,9 +55,32 @@ function answerForms(item) {
   s.split(/\s*\/\s*/).forEach((x) => forms.push(x));
   return [...new Set(forms.map(strip).filter((x) => x.length > 1))];
 }
+// Opposites that typo tolerance must never bridge ("teres minor" is 2 letters from "teres major",
+// "abductor" 1 letter from "adductor"). Typing one word of a group when the answer has a different
+// word of the same group (and not the typed one) is wrong, however close the spelling.
+const CONTRAST = [
+  ['major', 'minor'], ['superior', 'inferior', 'middle'], ['anterior', 'posterior'], ['medial', 'lateral', 'intermediate'],
+  ['internal', 'external'], ['greater', 'lesser'], ['longus', 'brevis', 'magnus'], ['longissimus', 'iliocostalis', 'spinalis'],
+  ['maximus', 'medius', 'minimus'], ['superficial', 'deep'], ['superficialis', 'profundus'], ['proximal', 'distal'],
+  ['upper', 'lower'], ['ascending', 'descending'], ['abductor', 'adductor'], ['flexor', 'extensor'], ['supinator', 'pronator'],
+  ['dorsal', 'palmar', 'plantar', 'ventral'], ['radial', 'ulnar'], ['tibial', 'fibular', 'peroneal'], ['hallucis', 'pollicis'],
+  ['long', 'short'], ['quadratus', 'teres'], ['supraspinatus', 'infraspinatus'], ['supraspinous', 'infraspinous'],
+  ['supraclavicular', 'infraclavicular'], ['suprascapular', 'subscapular'], ['carpi', 'digitorum'], ['interossei', 'lumbricals'],
+  ['first', 'second', 'third', 'fourth', 'fifth'], ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+  ['cervical', 'thoracic', 'lumbar', 'sacral', 'coccygeal'], ['afferent', 'efferent'], ['arteriole', 'venule'], ['artery', 'vein'],
+  ['sympathetic', 'parasympathetic'], ['hypoglossal', 'glossopharyngeal'], ['oblique', 'transverse'],
+  ['ileum', 'ilium'], ['ileal', 'iliac'], ['perineal', 'peroneal'], ['ureter', 'urethra'], ['ureteric', 'urethral'],
+  ['malleus', 'incus', 'stapes'], ['vestibular', 'vocal'], ['pulmonary', 'pulmonic'], ['mitral', 'tricuspid'], ['aortic', 'pulmonic'],
+];
+const CGROUP = new Map(); CONTRAST.forEach((g, i) => g.forEach((w) => CGROUP.set(w, (CGROUP.get(w) || []).concat(i))));
+function contrastClash(typed, form) {
+  const tw = norm(typed).split(' '), fw = new Set(norm(form).split(' '));
+  return tw.some((w) => !fw.has(w) && (CGROUP.get(w) || []).some((gi) => CONTRAST[gi].some((o) => o !== w && fw.has(o))));
+}
 function typedOk(typed, item) {
   const t = strip(typed); if (!t) return false;
-  return answerForms(item).some((f) => lev(t, f) <= tol(f) || (f.length > 10 && t.length >= 6 && f.startsWith(t) && t.length >= f.length * 0.7));
+  return answerForms(item).some((f) => (lev(t, f) <= tol(f) || (f.length > 10 && t.length >= 6 && f.startsWith(t) && t.length >= f.length * 0.7))
+    && !contrastClash(typed, item.structure));
 }
 
 // ---------- scene ----------
