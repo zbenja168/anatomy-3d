@@ -187,11 +187,12 @@ function paint() {
     mat.color.setHex(SYS_COLOR[p.system] ?? 0xbbbbbb); mat.emissive?.setHex(0x000000);
     const ctx = p.role === 'context' || p.shell;
     m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx) && (!p.whole || wholeOn);
-    mat.opacity = p.shell ? SHELL_OP : ctx ? ctxOp(p) : 1; mat.transparent = ctx; mat.depthWrite = !ctx;
+    const see = ctx && !(solidName && mode === 'name' && !p.shell && !p.whole); // Solid (Name it): surrounding bones/organs opaque too
+    mat.opacity = p.shell ? SHELL_OP : see ? ctxOp(p) : 1; mat.transparent = see; mat.depthWrite = !see;
   }
   if (cur && (mode === 'name' || done) && !cur.unlit) { // unlit: Show me was toggled back off
     cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body || (done && hidden.has(id))) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
-    if ((mode === 'name' && !done) || revealDim) dimOthers();
+    if ((mode === 'name' && !done && !solidName) || revealDim) dimOthers();
   }
 }
 function dimOthers() {
@@ -442,6 +443,8 @@ function hitsTarget(m) {
 }
 // "Show me": pick the clearest viewing angle, zoom in, and temporarily hide whatever still blocks the structure
 const autoHidden = new Set(); let revealDim = false, savedView = null;
+// Name it fades everything except the lit structure; "Solid" keeps the rest opaque instead (saved per browser)
+let solidName = false; try { solidName = localStorage.getItem('a3d-solid') === '1'; } catch (e) {}
 function restoreAutoHidden() {
   revealDim = false;
   if (savedView) { if (!keepView) { camera.position.copy(savedView[0]); controls.target.copy(savedView[1]); controls.update(); need(600); } savedView = null; } if (autoHidden.size) { autoHidden.forEach((id) => hidden.delete(id)); autoHidden.clear(); paint(); } }
@@ -745,7 +748,7 @@ function wire() {
   el.addEventListener('contextmenu', (e) => e.preventDefault());   // hiding happens on the right-button tap above
   document.querySelectorAll('.mode').forEach((b) => b.addEventListener('click', () => {
     mode = b.dataset.mode; document.querySelectorAll('.mode').forEach((x) => x.classList.toggle('on', x === b));
-    $('nameForm').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
+    $('nameForm').hidden = mode !== 'name'; $('btnSolid').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
     if (mode === 'explore') { cur = null; done = false; $('qlabel').textContent = 'Explore'; $('qtext').textContent = 'Click any structure'; $('qsec').textContent = ''; feedback(''); paint(); }
     else { const keep = cur; if (!brickSeq.length) buildQueue(); if (keep && brickSeq.includes(keep)) ask(keep, isReview && relearn.has(keep.order)); else next(); } // switching mode keeps your place and the round
   }));
@@ -778,6 +781,8 @@ function wire() {
   $('btnNext').addEventListener('click', () => { cancelAuto(); next(); });
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
+  $('btnSolid').classList.toggle('on', solidName);
+  $('btnSolid').addEventListener('click', () => { solidName = !solidName; try { localStorage.setItem('a3d-solid', solidName ? '1' : '0'); } catch (e) {} $('btnSolid').classList.toggle('on', solidName); paint(); });
   $('btnUnhide').addEventListener('click', () => { hidden.clear(); paint(); });
   $('btnReset').addEventListener('click', frameAll);
   $('btnWhole').addEventListener('click', () => {

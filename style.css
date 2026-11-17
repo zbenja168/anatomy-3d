@@ -206,7 +206,7 @@ h1{font-size:1.2rem;font-weight:800}
 .autobar[hidden],.facts[hidden]{display:none}
 .qbtns{display:flex;gap:6px;flex-wrap:wrap}.qbtns .btn{padding:8px 12px;white-space:nowrap}.qbtns #btnNext{flex:1}
 .frow{grid-template-columns:92px 1fr}
-#btnWhole.on{border-color:var(--accent);color:var(--accent)}
+#btnSolid.on,#btnWhole.on{border-color:var(--accent);color:var(--accent)}
 .bodychip{top:56px}
 
 /* drag the structure list's left edge to resize it (saved per browser; double-click resets) */
@@ -220,3 +220,4 @@ h1{font-size:1.2rem;font-weight:800}
 body.resizing{cursor:col-resize;user-select:none}
 body.resizing .viewport canvas{pointer-events:none}
 @media(max-width:860px){.splitter{display:none}}
+.vtools button[hidden]{display:none}
