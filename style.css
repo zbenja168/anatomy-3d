@@ -206,7 +206,7 @@ h1{font-size:1.2rem;font-weight:800}
 .autobar[hidden],.facts[hidden]{display:none}
 .qbtns{display:flex;gap:6px;flex-wrap:wrap}.qbtns .btn{padding:8px 12px;white-space:nowrap}.qbtns #btnNext{flex:1}
 .frow{grid-template-columns:92px 1fr}
-#btnSolid.on,#btnWhole.on{border-color:var(--accent);color:var(--accent)}
+#btnWhole.on{border-color:var(--accent);color:var(--accent)}
 .bodychip{top:56px}
 
 /* drag the structure list's left edge to resize it (saved per browser; double-click resets) */
@@ -221,3 +221,10 @@ body.resizing{cursor:col-resize;user-select:none}
 body.resizing .viewport canvas{pointer-events:none}
 @media(max-width:860px){.splitter{display:none}}
 .vtools button[hidden]{display:none}
+/* layer chip = show/hide name + a ◻/◼ solid switch for that system */
+.layer.lgrp{padding:0;gap:0;overflow:hidden}
+.lgrp button{background:none;border:0;color:inherit;font:inherit;cursor:pointer}
+.lgrp .lname{display:inline-flex;align-items:center;gap:6px;padding:4px 7px 4px 10px}
+.lgrp .lsolid{padding:4px 9px 4px 7px;border-left:1px solid var(--border,#334155);opacity:.6;font-size:.8rem;line-height:1}
+.lgrp .lsolid.on{opacity:1;color:var(--accent)}
+.lgrp button:hover{color:var(--text,#e2e8f0)}

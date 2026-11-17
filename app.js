@@ -210,17 +210,18 @@ function paint() {
     mat.color.setHex(SYS_COLOR[p.system] ?? 0xbbbbbb); mat.emissive?.setHex(0x000000);
     const ctx = p.role === 'context' || p.shell;
     m.visible = p.model === body && !hidden.has(id) && !offSys.has(p.system) && (showCtx || !ctx) && (!p.whole || wholeOn);
-    const see = ctx && !(solidName && mode === 'name' && !p.shell && !p.whole); // Solid (Name it): surrounding bones/organs opaque too
+    const see = ctx && !(solidSys.has(p.system) && !p.shell && !p.whole); // a layer set to solid: its context parts are opaque too
     mat.opacity = p.shell ? SHELL_OP : see ? ctxOp(p) : 1; mat.transparent = see; mat.depthWrite = !see;
   }
   if (cur && (mode === 'name' || done) && !cur.unlit) { // unlit: Show me was toggled back off
     cur.parts.forEach((id) => { const m = meshes[id]; if (!m || m.userData.model !== body || (done && hidden.has(id))) return; m.visible = true; m.material.color.setHex(done ? OK : HIGHLIGHT); m.material.emissive.setHex(0x1c3a06); m.material.opacity = 1; m.material.transparent = false; m.material.depthWrite = true; });
-    if ((mode === 'name' && !done && !solidName) || revealDim) dimOthers();
+    if ((mode === 'name' && !done) || revealDim) dimOthers();
   }
 }
 function dimOthers() {
   for (const [id, m] of Object.entries(meshes)) {
     if (cur.parts.includes(id)) continue;
+    if (!revealDim && solidSys.has(m.userData.system) && !m.userData.shell && !m.userData.whole) continue; // Name it: solid layers stay opaque
     const cap = revealDim ? (m.userData.role === 'context' || m.userData.shell ? 0.04 : 0.1) : 0.2; // Show me: fade harder
     m.material.transparent = true; m.material.opacity = Math.min(m.material.opacity, cap); m.material.depthWrite = false;
   }
@@ -233,10 +234,20 @@ function layers() {
   const tg = document.createElement('button'); tg.className = 'layer toggle'; tg.textContent = 'Layers';
   tg.onclick = () => el.classList.toggle('open'); el.appendChild(tg);
   Object.keys(sys).sort().forEach((k) => {
-    const b = document.createElement('button'); b.className = 'layer' + (offSys.has(k) ? '' : ' on');
-    b.innerHTML = `<i style="background:#${(SYS_COLOR[k] ?? 0xbbbbbb).toString(16).padStart(6, '0')}"></i>${SYS_LABEL[k] || k[0].toUpperCase() + k.slice(1)}`;
-    b.onclick = () => { offSys.has(k) ? offSys.delete(k) : offSys.add(k); b.classList.toggle('on'); paint(); };
-    el.appendChild(b);
+    const label = SYS_LABEL[k] || k[0].toUpperCase() + k.slice(1);
+    const g = document.createElement('span'); g.className = 'layer lgrp' + (offSys.has(k) ? '' : ' on');
+    const b = document.createElement('button'); b.className = 'lname'; b.title = `Show/hide ${label.toLowerCase()}`;
+    b.innerHTML = `<i style="background:#${(SYS_COLOR[k] ?? 0xbbbbbb).toString(16).padStart(6, '0')}"></i>${label}`;
+    b.onclick = () => { offSys.has(k) ? offSys.delete(k) : offSys.add(k); g.classList.toggle('on'); paint(); };
+    const s = document.createElement('button'); s.className = 'lsolid' + (solidSys.has(k) ? ' on' : '');
+    const tip = () => (solidSys.has(k) ? `${label}: solid (click for see-through)` : `${label}: see-through (click to make solid)`);
+    s.textContent = solidSys.has(k) ? '◼' : '◻'; s.title = tip(); s.setAttribute('aria-label', tip());
+    s.onclick = () => {
+      solidSys.has(k) ? solidSys.delete(k) : solidSys.add(k);
+      try { localStorage.setItem('a3d-solidsys', JSON.stringify([...solidSys])); } catch (e) {}
+      s.classList.toggle('on', solidSys.has(k)); s.textContent = solidSys.has(k) ? '◼' : '◻'; s.title = tip(); s.setAttribute('aria-label', tip()); paint();
+    };
+    g.append(b, s); el.appendChild(g);
   });
 }
 
@@ -467,7 +478,8 @@ function hitsTarget(m) {
 // "Show me": pick the clearest viewing angle, zoom in, and temporarily hide whatever still blocks the structure
 const autoHidden = new Set(); let revealDim = false, savedView = null;
 // Name it fades everything except the lit structure; "Solid" keeps the rest opaque instead (saved per browser)
-let solidName = false; try { solidName = localStorage.getItem('a3d-solid') === '1'; } catch (e) {}
+// Per-layer "solid": the ◼ on each layer chip keeps that system opaque (no see-through context, no Name-it fade). Saved per browser.
+let solidSys = new Set(); try { solidSys = new Set(JSON.parse(localStorage.getItem('a3d-solidsys') || '[]')); } catch (e) {}
 function restoreAutoHidden() {
   revealDim = false;
   if (savedView) { if (!keepView) { camera.position.copy(savedView[0]); controls.target.copy(savedView[1]); controls.update(); need(600); } savedView = null; } if (autoHidden.size) { autoHidden.forEach((id) => hidden.delete(id)); autoHidden.clear(); paint(); } }
@@ -771,7 +783,7 @@ function wire() {
   el.addEventListener('contextmenu', (e) => e.preventDefault());   // hiding happens on the right-button tap above
   document.querySelectorAll('.mode').forEach((b) => b.addEventListener('click', () => {
     mode = b.dataset.mode; document.querySelectorAll('.mode').forEach((x) => x.classList.toggle('on', x === b));
-    $('nameForm').hidden = mode !== 'name'; $('btnSolid').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
+    $('nameForm').hidden = mode !== 'name'; $('btnBody').hidden = mode !== 'explore' || Object.keys(man.models).length < 2; $('qcard').classList.toggle('explore', mode === 'explore');
     if (mode === 'explore') { cur = null; done = false; $('qlabel').textContent = 'Explore'; $('qtext').textContent = 'Click any structure'; $('qsec').textContent = ''; feedback(''); paint(); }
     else { const keep = cur; if (!brickSeq.length) buildQueue(); if (keep && brickSeq.includes(keep)) ask(keep, isReview && relearn.has(keep.order)); else next(); } // switching mode keeps your place and the round
   }));
@@ -804,8 +816,6 @@ function wire() {
   $('btnNext').addEventListener('click', () => { cancelAuto(); next(); });
   $('btnFocus').addEventListener('click', () => frame(boxOf(cur && (mode === 'name' || done) ? cur.parts : Object.keys(meshes).filter((id) => meshes[id].userData.role !== 'context' && meshes[id].userData.model === body)), cur ? 2.6 : 1.15));
   $('btnCtx').addEventListener('click', () => { showCtx = !showCtx; paint(); });
-  $('btnSolid').classList.toggle('on', solidName);
-  $('btnSolid').addEventListener('click', () => { solidName = !solidName; try { localStorage.setItem('a3d-solid', solidName ? '1' : '0'); } catch (e) {} $('btnSolid').classList.toggle('on', solidName); paint(); });
   $('btnUnhide').addEventListener('click', () => { hidden.clear(); paint(); });
   $('btnReset').addEventListener('click', frameAll);
   $('btnWhole').addEventListener('click', () => {
@@ -920,4 +930,12 @@ function wire() {
   h.addEventListener('dblclick', () => { try { localStorage.removeItem(key()); } catch (e) {} apply(); });
   matchMedia('(max-width:1280px)').addEventListener('change', () => { apply(); });
   apply();
+})();
+
+// keep the layer chips just below the view buttons, however many rows those wrap to
+(function () {
+  const vt = document.querySelector('.vtools'), ly = document.getElementById('layers');
+  if (!vt || !ly || !window.ResizeObserver) return;
+  const place = () => { ly.style.top = matchMedia('(max-width:860px)').matches ? '' : (vt.offsetTop + vt.offsetHeight + 8) + 'px'; };
+  new ResizeObserver(place).observe(vt); addEventListener('resize', place); place();
 })();
